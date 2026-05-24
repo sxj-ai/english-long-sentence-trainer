@@ -55,31 +55,54 @@ function renderAnnotatedSentence(
 
   for (const item of inlineChunks) {
     if (item.start > cursor) {
-      parts.push(<span key={`text-${cursor}`}>{sentence.original.slice(cursor, item.start)}</span>);
+      parts.push(renderTextSegment(sentence.original.slice(cursor, item.start), `text-${cursor}`, true));
     }
 
     parts.push(
-      <button
-        className={`syntax-token ${getRoleClass(item.chunk.role)} ${item.chunk.chunkId === selectedChunkId ? "is-active" : ""} ${
+      <span
+        className={`grammar-span ${getRoleClass(item.chunk.role)} ${item.chunk.chunkId === selectedChunkId ? "is-active" : ""} ${
+          isShortFunctionChunk(item.chunk) ? "short-token connector-token" : ""
+        } ${
           relatedIds.has(item.chunk.chunkId) ? "is-related" : ""
         }`}
         key={item.chunk.chunkId}
-        title={`${item.chunk.role}：${item.chunk.chinese}`}
-        type="button"
         onClick={() => onSelectChunk(item.chunk.chunkId)}
+        onKeyDown={(event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            onSelectChunk(item.chunk.chunkId);
+          }
+        }}
+        role="button"
+        tabIndex={0}
+        title={`${item.chunk.role}：${item.chunk.chinese}`}
       >
         {sentence.original.slice(item.start, item.end)}
-      </button>
+      </span>
     );
 
     cursor = item.end;
+    if (isShortFunctionChunk(item.chunk) && sentence.original[cursor] === " ") {
+      parts.push(<span key={`nbsp-${item.chunk.chunkId}`}>{"\u00a0"}</span>);
+      cursor += 1;
+    }
   }
 
   if (cursor < sentence.original.length) {
-    parts.push(<span key={`text-${cursor}`}>{sentence.original.slice(cursor)}</span>);
+    parts.push(renderTextSegment(sentence.original.slice(cursor), `text-${cursor}`, false));
   }
 
   return parts;
+}
+
+function renderTextSegment(text: string, key: string, keepTrailingFunctionWord: boolean) {
+  if (!text) return null;
+
+  if (keepTrailingFunctionWord && /\b(But|And|Or|So|Yet|For|Nor|Does|Do|Did|Is|Are|Was|Were|Has|Have|Had|Can|Could|Will|Would|Should|May|Might)\s$/i.test(text)) {
+    return <span key={key}>{text.replace(/\s$/, "\u00a0")}</span>;
+  }
+
+  return <span key={key}>{text}</span>;
 }
 
 function getPositionedChunks(sentence: Sentence): PositionedChunk[] {
@@ -146,4 +169,15 @@ function isClauseLike(role: string) {
 
 function hasBroadRole(role: string) {
   return role === "主语" || role === "宾语" || role === "表语" || role.includes("从句");
+}
+
+function isShortFunctionChunk(chunk: Chunk) {
+  const text = chunk.english.trim();
+  if (text.length > 8) return false;
+  return (
+    chunk.role.includes("连接") ||
+    chunk.role.includes("助动") ||
+    chunk.role.includes("功能") ||
+    /^(But|And|Or|So|Yet|For|Nor|Although|Because|However|Does|Do|Did|Is|Are|Was|Were|Has|Have|Had|Can|Could|Will|Would|Should|May|Might)$/i.test(text)
+  );
 }

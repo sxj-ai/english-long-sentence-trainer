@@ -2,6 +2,8 @@
 
 当前 MVP 使用 `data/articles/*.json`。每个文件暂时保持句子数组结构，项目内部通过 adapter 包装为 Article。
 
+完整的 v1.3 标注规范见 [v1.3-data-spec.md](./v1.3-data-spec.md)。后续生成新年份、新 Text 的 JSON 时，应以该文档为准。
+
 必填字段：
 
 - `sentence_id`
