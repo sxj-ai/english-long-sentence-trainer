@@ -5,7 +5,6 @@ import { ChunkTable } from "./ChunkTable";
 import { GrammarVisualizer } from "./GrammarVisualizer";
 import { KeyPhraseList } from "./KeyPhraseList";
 import { KeyWordList } from "./KeyWordList";
-import { SentenceOverviewDiagram } from "./SentenceOverviewDiagram";
 import { SentencePatternList } from "./SentencePatternList";
 
 interface SentenceDetailPanelProps {
@@ -42,8 +41,6 @@ export function SentenceDetailPanel({ sentence, selectedChunkId, onSelectChunk }
         <h3>结构直译</h3>
         <p>{sentence.translationLiteral}</p>
       </div>
-
-      <SentenceOverviewDiagram sentence={sentence} selectedChunkId={selectedChunkId} onSelectChunk={onSelectChunk} />
 
       <SentencePatternList sentence={sentence} />
 

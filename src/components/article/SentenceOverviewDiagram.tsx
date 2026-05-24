@@ -1,5 +1,4 @@
 import type { Chunk, Sentence } from "@/features/article/articleTypes";
-import type { ReactNode } from "react";
 import { getRoleClass } from "@/features/article/roleVisuals";
 import { matchChunkPositionLoose } from "@/features/highlight/matchChunkPositions";
 
@@ -21,8 +20,8 @@ export function SentenceOverviewDiagram({ sentence, selectedChunkId, onSelectChu
   const mainFlow = buildMainFlow(sentence);
   const modifierGroups = groupModifiersByMainTarget(sentence, mainFlow);
   const looseModifiers = getLooseModifiers(sentence, modifierGroups);
-  const clauseBlocks = getClauseBlocks(sentence).slice(0, 3);
-  const order = getStudyOrder(sentence, modifierGroups.size + looseModifiers.length, clauseBlocks.length);
+  const attachedClauseIds = new Set(Array.from(modifierGroups.values()).flat().filter(isClauseLike).map((chunk) => chunk.chunkId));
+  const clauseBlocks = getClauseBlocks(sentence).filter((clause) => !attachedClauseIds.has(clause.chunkId)).slice(0, 2);
 
   if (mainFlow.length === 0 && looseModifiers.length === 0 && clauseBlocks.length === 0) {
     return null;
@@ -33,102 +32,53 @@ export function SentenceOverviewDiagram({ sentence, selectedChunkId, onSelectChu
       <h3>句子结构一图看懂</h3>
 
       {mainFlow.length > 0 ? (
-        <OverviewBlock index={1} title="主句骨架">
-          <div className="syntax-flow">
-            <div className="main-flow">
-              {mainFlow.map((node, index) => (
-                <div className="flow-column" key={node.id}>
-                  <FlowNodeCard node={node} isActive={node.chunk.chunkId === selectedChunkId} onSelectChunk={onSelectChunk} />
-                  {(modifierGroups.get(node.id) ?? []).length > 0 ? (
-                    <div className="attached-modifiers">
-                      {(modifierGroups.get(node.id) ?? []).map((modifier) => (
-                        <ModifierCard
-                          chunk={modifier}
-                          isActive={modifier.chunkId === selectedChunkId}
-                          key={modifier.chunkId}
-                          onSelectChunk={onSelectChunk}
-                        />
-                      ))}
-                    </div>
-                  ) : null}
-                  {index < mainFlow.length - 1 ? <span className="flow-connector" aria-hidden="true" /> : null}
-                </div>
-              ))}
-            </div>
-          </div>
-          {isQuestionSentence(sentence) ? <p className="overview-hint">疑问句外壳：先看助动词，再找主语和谓语核心。</p> : null}
-          <p className="overview-hint">{getMainHint(sentence)}</p>
-        </OverviewBlock>
-      ) : null}
-
-      {looseModifiers.length > 0 ? (
-        <OverviewBlock index={2} title={`${looseModifiers.length} 个补充修饰`}>
-          <div className="loose-modifier-grid">
-            {looseModifiers.map((chunk, index) => (
-              <ModifierCard
-                badge={String.fromCharCode(65 + index)}
-                chunk={chunk}
-                isActive={chunk.chunkId === selectedChunkId}
-                key={chunk.chunkId}
-                onSelectChunk={onSelectChunk}
-              />
-            ))}
-          </div>
-        </OverviewBlock>
-      ) : null}
-
-      {clauseBlocks.length > 0 ? (
-        <OverviewBlock index={looseModifiers.length > 0 ? 3 : 2} title="从句内部">
-          <div className="clause-overview-list">
-            {clauseBlocks.map((clause) => (
-              <div className={`clause-overview ${getRoleClass(clause.role)}`} key={clause.chunkId}>
-                <button
-                  className={`clause-overview-title ${clause.chunkId === selectedChunkId ? "is-active" : ""}`}
-                  type="button"
-                  onClick={() => onSelectChunk(clause.chunkId)}
-                >
-                  <span>{clause.role}</span>
-                  <strong>{clause.english}</strong>
-                </button>
-                <div className="clause-inner-frame">
-                  {getClauseChildren(sentence, clause).map((child) => (
-                    <FlowNodeCard
-                      compact
-                      isActive={child.chunkId === selectedChunkId}
-                      key={child.chunkId}
-                      node={{ id: child.chunkId, role: child.role, english: child.english, chunk: child }}
-                      onSelectChunk={onSelectChunk}
-                    />
-                  ))}
-                </div>
+        <div className="syntax-flow">
+          <div className="main-flow">
+            {mainFlow.map((node, index) => (
+              <div className="flow-column" key={node.id}>
+                <FlowNodeCard node={node} isActive={node.chunk.chunkId === selectedChunkId} onSelectChunk={onSelectChunk} />
+                <BranchStack
+                  chunks={modifierGroups.get(node.id) ?? []}
+                  selectedChunkId={selectedChunkId}
+                  sentence={sentence}
+                  onSelectChunk={onSelectChunk}
+                />
+                {index < mainFlow.length - 1 ? <span className="flow-connector" aria-hidden="true" /> : null}
               </div>
             ))}
           </div>
-        </OverviewBlock>
+          {isQuestionSentence(sentence) ? <p className="overview-hint">疑问句外壳：按 Does | 主语 | mean | 宾语内容 理解。</p> : null}
+        </div>
       ) : null}
 
-      <div className="study-order">
-        <strong>学习顺序</strong>
-        {order.map((step, index) => (
-          <span key={step}>
-            {index > 0 ? <b>→</b> : null}
-            {step}
-          </span>
-        ))}
-      </div>
-    </section>
-  );
-}
+      {looseModifiers.length > 0 ? (
+        <div className="floating-branches">
+          {looseModifiers.map((chunk, index) => (
+            <ModifierCard
+              badge={String.fromCharCode(65 + index)}
+              chunk={chunk}
+              isActive={chunk.chunkId === selectedChunkId}
+              key={chunk.chunkId}
+              onSelectChunk={onSelectChunk}
+            />
+          ))}
+        </div>
+      ) : null}
 
-function OverviewBlock({ index, title, children }: { index: number; title: string; children: ReactNode }) {
-  return (
-    <div className="overview-block">
-      <div className="overview-title">
-        <span>{index}</span>
-        <h4>{title}</h4>
-      </div>
-      {children}
-    </div>
+      {clauseBlocks.length > 0 ? (
+        <div className="clause-branches">
+          {clauseBlocks.map((clause) => (
+            <ClauseBranch
+              clause={clause}
+              key={clause.chunkId}
+              selectedChunkId={selectedChunkId}
+              sentence={sentence}
+              onSelectChunk={onSelectChunk}
+            />
+          ))}
+        </div>
+      ) : null}
+    </section>
   );
 }
 
@@ -153,6 +103,97 @@ function FlowNodeCard({
       <strong>{node.english}</strong>
       <span>{node.role}</span>
     </button>
+  );
+}
+
+function BranchStack({
+  chunks,
+  selectedChunkId,
+  sentence,
+  onSelectChunk
+}: {
+  chunks: Chunk[];
+  selectedChunkId: string | null;
+  sentence: Sentence;
+  onSelectChunk: (chunkId: string | null) => void;
+}) {
+  if (chunks.length === 0) {
+    return null;
+  }
+
+  return (
+    <div className="attached-modifiers">
+      {chunks.map((chunk) =>
+        isClauseLike(chunk) ? (
+          <ClauseBranch
+            clause={chunk}
+            compact
+            key={chunk.chunkId}
+            selectedChunkId={selectedChunkId}
+            sentence={sentence}
+            onSelectChunk={onSelectChunk}
+          />
+        ) : (
+          <ModifierCard
+            chunk={chunk}
+            isActive={chunk.chunkId === selectedChunkId}
+            key={chunk.chunkId}
+            onSelectChunk={onSelectChunk}
+          />
+        )
+      )}
+    </div>
+  );
+}
+
+function ClauseBranch({
+  clause,
+  selectedChunkId,
+  sentence,
+  onSelectChunk,
+  compact = false
+}: {
+  clause: Chunk;
+  selectedChunkId: string | null;
+  sentence: Sentence;
+  onSelectChunk: (chunkId: string | null) => void;
+  compact?: boolean;
+}) {
+  const children = getClauseChildren(sentence, clause);
+
+  return (
+    <div className={`clause-branch ${getRoleClass(clause.role)} ${compact ? "is-compact" : ""}`}>
+      <button
+        className={`clause-branch-title ${clause.chunkId === selectedChunkId ? "is-active" : ""}`}
+        type="button"
+        onClick={() => onSelectChunk(clause.chunkId)}
+        title={clause.relation ?? `${clause.role}：${clause.chinese}`}
+      >
+        <strong>{clause.english}</strong>
+        <span>{clause.role}</span>
+      </button>
+      {children.length > 0 ? (
+        <div className="clause-inner-flow">
+          {children.map((child, index) => (
+            <div className="clause-inner-column" key={child.chunkId}>
+              <FlowNodeCard
+                compact
+                isActive={child.chunkId === selectedChunkId}
+                node={{ id: child.chunkId, role: child.role, english: child.english, chunk: child }}
+                onSelectChunk={onSelectChunk}
+              />
+              {index < children.length - 1 ? <span className="inner-flow-connector" aria-hidden="true" /> : null}
+              <BranchStack
+                chunks={getChildModifiers(sentence, child).slice(0, 2)}
+                selectedChunkId={selectedChunkId}
+                sentence={sentence}
+                onSelectChunk={onSelectChunk}
+              />
+            </div>
+          ))}
+        </div>
+      ) : null}
+    </div>
   );
 }
 
@@ -299,6 +340,22 @@ function getClauseChildren(sentence: Sentence, clause: Chunk) {
   ).slice(0, 6);
 }
 
+function getChildModifiers(sentence: Sentence, target: Chunk) {
+  return orderByImportance(
+    sentence,
+    sentence.chunks.filter((chunk) => {
+      if (chunk.targetId !== target.chunkId) return false;
+      if (chunk.chunkId === target.chunkId) return false;
+      return (
+        chunk.role.includes("定语") ||
+        chunk.role.includes("状语") ||
+        chunk.role.includes("补语") ||
+        chunk.role.includes("插入")
+      );
+    })
+  );
+}
+
 function orderByPosition(sentence: Sentence, chunks: Chunk[]) {
   return [...chunks].sort((a, b) => getStart(sentence, a) - getStart(sentence, b));
 }
@@ -355,21 +412,6 @@ function splitQuestionPredicate(sentence: Sentence, predicate: Chunk) {
   return { auxiliary, coreVerb };
 }
 
-function getMainHint(sentence: Sentence) {
-  const hasClause = sentence.chunks.some((chunk) => chunk.role.includes("从句"));
-  if (isQuestionSentence(sentence)) {
-    return "疑问句可先还原成陈述顺序，再理解宾语或从句内容。";
-  }
-  if (hasClause) {
-    return "先看主句骨架，再把从句作为一个整体处理。";
-  }
-  return "先抓主干：这句话的核心意思先由这一层确定。";
-}
-
-function getStudyOrder(sentence: Sentence, modifierCount: number, clauseCount: number) {
-  const order = ["先抓主干"];
-  if (clauseCount > 0) order.push("再拆从句");
-  if (modifierCount > 0) order.push("最后看修饰");
-  if (sentence.sentencePatterns.length > 0) order.push("记住句型");
-  return order;
+function isClauseLike(chunk: Chunk) {
+  return chunk.role.includes("从句") || chunk.role.includes("强调结构");
 }
