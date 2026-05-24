@@ -1,0 +1,2 @@
+// 后续接入 PostgreSQL 和 Prisma 时启用。
+// 当前 MVP 使用 data/articles/*.json 作为数据源。

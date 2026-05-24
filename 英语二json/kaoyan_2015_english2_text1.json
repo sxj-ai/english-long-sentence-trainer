@@ -1,0 +1,2484 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "A new study suggests that contrary to most surveys, people are actually more stressed at home than at work.",
+    "difficulty": 4,
+    "translation_literal": "一项新的研究表明，与大多数调查相反，人们实际上在家比在工作时压力更大。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "A new study",
+        "chinese": "一项新的研究",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "谓语",
+        "english": "suggests",
+        "chinese": "表明",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "宾语从句",
+        "english": "that contrary to most surveys, people are actually more stressed at home than at work",
+        "chinese": "与大多数调查相反，人们实际上在家比在工作时压力更大",
+        "parent_id": null,
+        "target_id": "c_001_002",
+        "relation": "作 suggests 的宾语"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "插入语",
+        "english": "contrary to most surveys",
+        "chinese": "与大多数调查相反",
+        "parent_id": "c_001_003",
+        "target_id": "c_001_003",
+        "relation": "补充说明该研究结论与多数调查相反"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "从句主语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": "c_001_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "从句谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_001_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "从句表语",
+        "english": "more stressed at home than at work",
+        "chinese": "在家比在工作时压力更大",
+        "parent_id": "c_001_003",
+        "target_id": "c_001_006",
+        "relation": "作 are 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句中插入对比说明",
+        "explanation": "contrary to most surveys 插在宾语从句前部，阅读时可先抓住 people are more stressed... 的主干。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "suggests",
+        "pos": "v.",
+        "meaning": "表明，暗示",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "word": "contrary",
+        "pos": "adj.",
+        "meaning": "相反的",
+        "chunk_id": "c_001_004"
+      },
+      {
+        "word": "surveys",
+        "pos": "n.",
+        "meaning": "调查",
+        "chunk_id": "c_001_004"
+      },
+      {
+        "word": "stressed",
+        "pos": "adj.",
+        "meaning": "有压力的",
+        "chunk_id": "c_001_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "contrary to",
+        "phrase_type": "prep. phr.",
+        "meaning": "与……相反",
+        "chunk_id": "c_001_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "Researchers measured people’s cortisol, which is a stress marker, while they were at work and while they were at home and found it higher at what is supposed to be a place of refuge.",
+    "difficulty": 5,
+    "translation_literal": "研究人员测量了人们的皮质醇，这是一种压力标志物，当他们在工作时以及当他们在家时，并发现它在本应是避难所的地方更高。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "Researchers",
+        "chinese": "研究人员",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "measured",
+        "chinese": "测量了",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "宾语",
+        "english": "people’s cortisol",
+        "chinese": "人们的皮质醇",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "作 measured 的宾语"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "定语从句",
+        "english": "which is a stress marker",
+        "chinese": "这是一种压力标志物",
+        "parent_id": null,
+        "target_id": "c_002_003",
+        "relation": "补充说明 cortisol"
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "状语从句",
+        "english": "while they were at work and while they were at home",
+        "chinese": "当他们在工作时以及当他们在家时",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "说明测量发生的两个场景"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "并列谓语",
+        "english": "and found",
+        "chinese": "并发现",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "与 measured 并列"
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "宾语补足语",
+        "english": "it higher at what is supposed to be a place of refuge",
+        "chinese": "它在本应是避难所的地方更高",
+        "parent_id": null,
+        "target_id": "c_002_006",
+        "relation": "补充说明 found 的宾语状态"
+      },
+      {
+        "chunk_id": "c_002_008",
+        "role": "宾语从句",
+        "english": "what is supposed to be a place of refuge",
+        "chinese": "本应是避难所的地方",
+        "parent_id": "c_002_007",
+        "target_id": "c_002_007",
+        "relation": "作介词 at 的宾语"
+      },
+      {
+        "chunk_id": "c_002_009",
+        "role": "主语",
+        "english": "Researchers",
+        "chinese": "研究人员",
+        "parent_id": "c_002_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_010",
+        "role": "并列谓语",
+        "english": "measured ... and found ...",
+        "chinese": "测量并发现",
+        "parent_id": "c_002_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_011",
+        "role": "从句主语",
+        "english": "which",
+        "chinese": "它",
+        "parent_id": "c_002_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_012",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_002_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_013",
+        "role": "从句表语",
+        "english": "a stress marker",
+        "chinese": "一种压力标志物",
+        "parent_id": "c_002_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_014",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_015",
+        "role": "从句谓语",
+        "english": "were",
+        "chinese": "在",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_016",
+        "role": "并列状语",
+        "english": "while they were at work",
+        "chinese": "当他们在工作时",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_017",
+        "role": "并列状语",
+        "english": "while they were at home",
+        "chinese": "当他们在家时",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "while A and while B; measured... and found...",
+        "explanation": "本句同时有两个 while 状语和两个并列谓语，阅读时先抓 Researchers measured... and found...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Researchers",
+        "pos": "n.",
+        "meaning": "研究人员",
+        "chunk_id": "c_002_001"
+      },
+      {
+        "word": "measured",
+        "pos": "v.",
+        "meaning": "测量",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "cortisol",
+        "pos": "n.",
+        "meaning": "皮质醇",
+        "chunk_id": "c_002_003"
+      },
+      {
+        "word": "marker",
+        "pos": "n.",
+        "meaning": "标志物",
+        "chunk_id": "c_002_004"
+      },
+      {
+        "word": "refuge",
+        "pos": "n.",
+        "meaning": "避难所",
+        "chunk_id": "c_002_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "stress marker",
+        "phrase_type": "n. phr.",
+        "meaning": "压力标志物",
+        "chunk_id": "c_002_004"
+      },
+      {
+        "phrase": "place of refuge",
+        "phrase_type": "n. phr.",
+        "meaning": "避难所",
+        "chunk_id": "c_002_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "“Further contradicting conventional wisdom, we found that women as well as men have lower levels of stress at work than at home”, writes one of the researchers, Sarah Damske.",
+    "difficulty": 5,
+    "translation_literal": "“进一步与传统看法相矛盾的是，我们发现女性和男性一样，在工作中的压力水平低于在家中的压力水平，”研究人员之一萨拉·达姆斯克写道。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "状语",
+        "english": "Further contradicting conventional wisdom",
+        "chinese": "进一步与传统看法相矛盾的是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "主语",
+        "english": "we",
+        "chinese": "我们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "谓语",
+        "english": "found",
+        "chinese": "发现",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "宾语从句",
+        "english": "that women as well as men have lower levels of stress at work than at home",
+        "chinese": "女性和男性一样，在工作中的压力水平低于在家中的压力水平",
+        "parent_id": null,
+        "target_id": "c_003_003",
+        "relation": "作 found 的宾语"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "插入语",
+        "english": "writes one of the researchers, Sarah Damske",
+        "chinese": "研究人员之一萨拉·达姆斯克写道",
+        "parent_id": null,
+        "target_id": "c_003_004",
+        "relation": "说明引语来源"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "同位语",
+        "english": "Sarah Damske",
+        "chinese": "萨拉·达姆斯克",
+        "parent_id": "c_003_005",
+        "target_id": "c_003_005",
+        "relation": "解释 one of the researchers"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "直接引语 + writes...",
+        "explanation": "writes one of the researchers, Sarah Damske 放在引语后，说明前面观点来源。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "名词短语 + 专有名词",
+        "explanation": "Sarah Damske 是 one of the researchers 的同位语。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "contradicting",
+        "pos": "v.",
+        "meaning": "与……相矛盾",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "conventional",
+        "pos": "adj.",
+        "meaning": "传统的，常规的",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "wisdom",
+        "pos": "n.",
+        "meaning": "看法，智慧",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "levels",
+        "pos": "n.",
+        "meaning": "水平",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "stress",
+        "pos": "n.",
+        "meaning": "压力",
+        "chunk_id": "c_003_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "conventional wisdom",
+        "phrase_type": "n. phr.",
+        "meaning": "传统看法，普遍观念",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "phrase": "as well as",
+        "phrase_type": "collocation",
+        "meaning": "和……一样，也",
+        "chunk_id": "c_003_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "In fact women even say they feel better at work, she notes.",
+    "difficulty": 3,
+    "translation_literal": "事实上，女性甚至说她们在工作时感觉更好，她指出。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "状语",
+        "english": "In fact",
+        "chinese": "事实上",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "主语",
+        "english": "women",
+        "chinese": "女性",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "谓语",
+        "english": "say",
+        "chinese": "说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "宾语从句",
+        "english": "they feel better at work",
+        "chinese": "她们在工作时感觉更好",
+        "parent_id": null,
+        "target_id": "c_004_003",
+        "relation": "作 say 的宾语"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "插入语",
+        "english": "she notes",
+        "chinese": "她指出",
+        "parent_id": null,
+        "target_id": "c_004_004",
+        "relation": "说明观点来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句后插入观点来源",
+        "explanation": "she notes 位于句末，说明前面内容的来源。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "even",
+        "pos": "adv.",
+        "meaning": "甚至",
+        "chunk_id": "c_004_002"
+      },
+      {
+        "word": "notes",
+        "pos": "v.",
+        "meaning": "指出，提到",
+        "chunk_id": "c_004_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "In fact",
+        "phrase_type": "adv. phr.",
+        "meaning": "事实上",
+        "chunk_id": "c_004_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "“It is men, not women, who report being happier at home than at work.”",
+    "difficulty": 4,
+    "translation_literal": "“是男性，而不是女性，报告说他们在家比在工作时更快乐。”",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "强调结构",
+        "english": "It is men, not women, who",
+        "chinese": "是男性，而不是女性",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "主语",
+        "english": "men, not women",
+        "chinese": "男性，而不是女性",
+        "parent_id": "c_005_001",
+        "target_id": null,
+        "relation": "被强调的主语"
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "谓语",
+        "english": "report",
+        "chinese": "报告说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "宾语",
+        "english": "being happier at home than at work",
+        "chinese": "在家比在工作时更快乐",
+        "parent_id": null,
+        "target_id": "c_005_003",
+        "relation": "作 report 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "强调句",
+        "pattern_form": "It is/was + 被强调部分 + who + 其他部分",
+        "explanation": "本句强调 men, not women，说明报告在家更快乐的是男性而不是女性。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "report",
+        "pos": "v.",
+        "meaning": "报告，陈述",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "happier",
+        "pos": "adj.",
+        "meaning": "更快乐的",
+        "chunk_id": "c_005_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "Another surprise is that findings hold true for both those with children and without, but more so for nonparents.",
+    "difficulty": 4,
+    "translation_literal": "另一个令人惊讶之处是，研究结果对有孩子和没有孩子的人都适用，但对没有孩子的人更是如此。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "Another surprise",
+        "chinese": "另一个令人惊讶之处",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "表语从句",
+        "english": "that findings hold true for both those with children and without",
+        "chinese": "研究结果对有孩子和没有孩子的人都适用",
+        "parent_id": null,
+        "target_id": "c_006_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "省略结构",
+        "english": "but more so for nonparents",
+        "chinese": "但对没有孩子的人更是如此",
+        "parent_id": null,
+        "target_id": "c_006_003",
+        "relation": "省略 hold true"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "but more so for...",
+        "explanation": "but more so for nonparents 省略了 findings hold true，表示“对无子女者更适用”。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "surprise",
+        "pos": "n.",
+        "meaning": "令人惊讶的事",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "findings",
+        "pos": "n.",
+        "meaning": "研究结果",
+        "chunk_id": "c_006_003"
+      },
+      {
+        "word": "nonparents",
+        "pos": "n.",
+        "meaning": "没有孩子的人",
+        "chunk_id": "c_006_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "hold true",
+        "phrase_type": "v. phr.",
+        "meaning": "适用，成立",
+        "chunk_id": "c_006_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "This is why people who work outside the home have better health.",
+    "difficulty": 3,
+    "translation_literal": "这就是为什么在外工作的人健康状况更好。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "This",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "表语从句",
+        "english": "why people who work outside the home have better health",
+        "chinese": "为什么在外工作的人健康状况更好",
+        "parent_id": null,
+        "target_id": "c_007_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "定语从句",
+        "english": "who work outside the home",
+        "chinese": "在外工作的",
+        "parent_id": "c_007_003",
+        "target_id": "c_007_003",
+        "relation": "修饰 people"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "outside",
+        "pos": "prep.",
+        "meaning": "在……外面",
+        "chunk_id": "c_007_004"
+      },
+      {
+        "word": "health",
+        "pos": "n.",
+        "meaning": "健康",
+        "chunk_id": "c_007_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "work outside the home",
+        "phrase_type": "v. phr.",
+        "meaning": "在外工作",
+        "chunk_id": "c_007_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "What the study doesn’t measure is whether people are still doing work when they’re at home, whether it is household work or work brought home from the office.",
+    "difficulty": 5,
+    "translation_literal": "这项研究没有测量的是，人们在家时是否仍在工作，不管这是家务劳动还是从办公室带回家的工作。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语从句",
+        "english": "What the study doesn’t measure",
+        "chinese": "这项研究没有测量的内容",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "表语从句",
+        "english": "whether people are still doing work when they’re at home",
+        "chinese": "人们在家时是否仍在工作",
+        "parent_id": null,
+        "target_id": "c_008_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "让步/选择结构",
+        "english": "whether it is household work or work brought home from the office",
+        "chinese": "不管这是家务劳动还是从办公室带回家的工作",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "补充说明 work 的类型"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "定语",
+        "english": "brought home from the office",
+        "chinese": "从办公室带回家的",
+        "parent_id": "c_008_004",
+        "target_id": "c_008_004",
+        "relation": "修饰 work"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "从句主语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": "c_008_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "从句谓语",
+        "english": "are still doing",
+        "chinese": "仍在做",
+        "parent_id": "c_008_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "从句宾语",
+        "english": "work",
+        "chinese": "工作",
+        "parent_id": "c_008_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_009",
+        "role": "并列成分",
+        "english": "household work",
+        "chinese": "家务劳动",
+        "parent_id": "c_008_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_010",
+        "role": "并列成分",
+        "english": "work brought home from the office",
+        "chinese": "从办公室带回家的工作",
+        "parent_id": "c_008_004",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "whether A, whether B or C",
+        "explanation": "两个 whether 结构连续出现，先抓 What...is whether people are still doing work 这个主干。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "measure",
+        "pos": "v.",
+        "meaning": "测量，衡量",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "word": "household",
+        "pos": "adj.",
+        "meaning": "家庭的，家务的",
+        "chunk_id": "c_008_004"
+      },
+      {
+        "word": "office",
+        "pos": "n.",
+        "meaning": "办公室",
+        "chunk_id": "c_008_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "household work",
+        "phrase_type": "n. phr.",
+        "meaning": "家务劳动",
+        "chunk_id": "c_008_004"
+      },
+      {
+        "phrase": "brought home from the office",
+        "phrase_type": "v. phr.",
+        "meaning": "从办公室带回家",
+        "chunk_id": "c_008_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "For many men, the end of the workday is a time to kick back.",
+    "difficulty": 2,
+    "translation_literal": "对于许多男性来说，工作日的结束是一个放松的时间。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "状语",
+        "english": "For many men",
+        "chinese": "对于许多男性来说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "主语",
+        "english": "the end of the workday",
+        "chinese": "工作日的结束",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "表语",
+        "english": "a time to kick back",
+        "chinese": "一个放松的时间",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "workday",
+        "pos": "n.",
+        "meaning": "工作日",
+        "chunk_id": "c_009_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "kick back",
+        "phrase_type": "v. phr.",
+        "meaning": "放松，休息",
+        "chunk_id": "c_009_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "For women who stay home, they never get to leave the office.",
+    "difficulty": 3,
+    "translation_literal": "对于待在家里的女性来说，她们从来不能离开办公室。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "状语",
+        "english": "For women who stay home",
+        "chinese": "对于待在家里的女性来说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "定语从句",
+        "english": "who stay home",
+        "chinese": "待在家里的",
+        "parent_id": "c_010_001",
+        "target_id": "c_010_001",
+        "relation": "修饰 women"
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "主语",
+        "english": "they",
+        "chinese": "她们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "谓语",
+        "english": "never get to leave",
+        "chinese": "从来不能离开",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "宾语",
+        "english": "the office",
+        "chinese": "办公室",
+        "parent_id": null,
+        "target_id": "c_010_004",
+        "relation": "作 leave 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "stay",
+        "pos": "v.",
+        "meaning": "停留，待着",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "leave",
+        "pos": "v.",
+        "meaning": "离开",
+        "chunk_id": "c_010_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "get to do",
+        "phrase_type": "v. phr.",
+        "meaning": "有机会做，能够做",
+        "chunk_id": "c_010_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "And for women who work outside the home, they often are playing catch-up-with-household tasks.",
+    "difficulty": 3,
+    "translation_literal": "而对于在外工作的女性来说，她们常常在赶做家务任务。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "连接成分",
+        "english": "And",
+        "chinese": "而且",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "状语",
+        "english": "for women who work outside the home",
+        "chinese": "对于在外工作的女性来说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "主语",
+        "english": "they",
+        "chinese": "她们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "谓语",
+        "english": "are playing",
+        "chinese": "在做",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "宾语",
+        "english": "catch-up-with-household tasks",
+        "chinese": "补做家务任务",
+        "parent_id": null,
+        "target_id": "c_011_004",
+        "relation": "作 playing 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "often",
+        "pos": "adv.",
+        "meaning": "常常",
+        "chunk_id": "c_011_004"
+      },
+      {
+        "word": "tasks",
+        "pos": "n.",
+        "meaning": "任务",
+        "chunk_id": "c_011_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "play catch-up with",
+        "phrase_type": "v. phr.",
+        "meaning": "补做，追赶进度",
+        "chunk_id": "c_011_005"
+      },
+      {
+        "phrase": "household tasks",
+        "phrase_type": "n. phr.",
+        "meaning": "家务任务",
+        "chunk_id": "c_011_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "With the blurring of roles, and the fact that the home front lags well behind the workplace in making adjustments for working women, it’s not surprising that women are more stressed at home.",
+    "difficulty": 5,
+    "translation_literal": "由于角色的模糊，以及家庭方面在为职业女性作出调整上远远落后于工作场所这一事实，女性在家压力更大并不令人惊讶。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "状语",
+        "english": "With the blurring of roles, and the fact that the home front lags well behind the workplace in making adjustments for working women",
+        "chinese": "由于角色的模糊以及家庭方面在为职业女性作出调整上远远落后于工作场所这一事实",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "同位语从句",
+        "english": "that the home front lags well behind the workplace in making adjustments for working women",
+        "chinese": "家庭方面在为职业女性作出调整上远远落后于工作场所",
+        "parent_id": "c_012_001",
+        "target_id": "c_012_001",
+        "relation": "解释 the fact 的内容"
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "形式主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "表语",
+        "english": "not surprising",
+        "chinese": "并不令人惊讶",
+        "parent_id": null,
+        "target_id": "c_012_004",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "主语从句",
+        "english": "that women are more stressed at home",
+        "chinese": "女性在家压力更大",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "真正主语"
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "并列原因",
+        "english": "the blurring of roles",
+        "chinese": "角色的模糊",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "并列原因",
+        "english": "the fact that the home front lags well behind the workplace",
+        "chinese": "家庭方面远远落后于工作场所这一事实",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_009",
+        "role": "从句主语",
+        "english": "the home front",
+        "chinese": "家庭方面",
+        "parent_id": "c_012_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_010",
+        "role": "从句谓语",
+        "english": "lags",
+        "chinese": "落后",
+        "parent_id": "c_012_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_011",
+        "role": "状语",
+        "english": "well behind the workplace",
+        "chinese": "远远落后于工作场所",
+        "parent_id": "c_012_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_012",
+        "role": "真正主语",
+        "english": "that women are more stressed at home",
+        "chinese": "女性在家压力更大",
+        "parent_id": "c_012_006",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is + adj. + that 从句",
+        "explanation": "it 是形式主语，真正主语是 that women are more stressed at home。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "the fact + that 从句",
+        "explanation": "that the home front lags... 解释 the fact 的具体内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "blurring",
+        "pos": "n.",
+        "meaning": "模糊",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "word": "lags",
+        "pos": "v.",
+        "meaning": "落后",
+        "chunk_id": "c_012_002"
+      },
+      {
+        "word": "adjustments",
+        "pos": "n.",
+        "meaning": "调整",
+        "chunk_id": "c_012_002"
+      },
+      {
+        "word": "surprising",
+        "pos": "adj.",
+        "meaning": "令人惊讶的",
+        "chunk_id": "c_012_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "lag behind",
+        "phrase_type": "v. phr.",
+        "meaning": "落后于",
+        "chunk_id": "c_012_002"
+      },
+      {
+        "phrase": "working women",
+        "phrase_type": "n. phr.",
+        "meaning": "职业女性",
+        "chunk_id": "c_012_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "But it’s not just a gender thing.",
+    "difficulty": 2,
+    "translation_literal": "但这不只是一个性别问题。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "表语",
+        "english": "not just a gender thing",
+        "chinese": "不只是一个性别问题",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "gender",
+        "pos": "n.",
+        "meaning": "性别",
+        "chunk_id": "c_013_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "not just",
+        "phrase_type": "collocation",
+        "meaning": "不只是",
+        "chunk_id": "c_013_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "At work, people pretty much know what they’re supposed to be doing: working, making money, doing the tasks they have to do in order to draw an income.",
+    "difficulty": 5,
+    "translation_literal": "在工作中，人们基本上知道他们应该做什么：工作、赚钱、完成他们为了获得收入而必须做的任务。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "状语",
+        "english": "At work",
+        "chinese": "在工作中",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "主语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "谓语",
+        "english": "pretty much know",
+        "chinese": "基本上知道",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "宾语从句",
+        "english": "what they’re supposed to be doing",
+        "chinese": "他们应该做什么",
+        "parent_id": null,
+        "target_id": "c_014_003",
+        "relation": "作 know 的宾语"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "同位语解释结构",
+        "english": "working, making money, doing the tasks they have to do in order to draw an income",
+        "chinese": "工作、赚钱、完成他们为了获得收入而必须做的任务",
+        "parent_id": null,
+        "target_id": "c_014_004",
+        "relation": "解释 what 的具体内容"
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "定语从句",
+        "english": "they have to do",
+        "chinese": "他们必须做的",
+        "parent_id": "c_014_005",
+        "target_id": "c_014_005",
+        "relation": "修饰 tasks"
+      },
+      {
+        "chunk_id": "c_014_007",
+        "role": "状语",
+        "english": "in order to draw an income",
+        "chinese": "为了获得收入",
+        "parent_id": "c_014_005",
+        "target_id": "c_014_006",
+        "relation": "说明做任务的目的"
+      },
+      {
+        "chunk_id": "c_014_008",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_014_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_009",
+        "role": "从句谓语",
+        "english": "are supposed to be doing",
+        "chinese": "应该做",
+        "parent_id": "c_014_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_010",
+        "role": "并列成分",
+        "english": "working",
+        "chinese": "工作",
+        "parent_id": "c_014_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_011",
+        "role": "并列成分",
+        "english": "making money",
+        "chinese": "赚钱",
+        "parent_id": "c_014_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_012",
+        "role": "并列成分",
+        "english": "doing the tasks",
+        "chinese": "完成任务",
+        "parent_id": "c_014_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "冒号后解释前文内容",
+        "explanation": "冒号后的 working, making money, doing... 具体解释 what they’re supposed to be doing。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, B, doing C",
+        "explanation": "working, making money, doing the tasks 是并列的具体工作内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "supposed",
+        "pos": "adj.",
+        "meaning": "应当的，被认为应做的",
+        "chunk_id": "c_014_004"
+      },
+      {
+        "word": "tasks",
+        "pos": "n.",
+        "meaning": "任务",
+        "chunk_id": "c_014_005"
+      },
+      {
+        "word": "income",
+        "pos": "n.",
+        "meaning": "收入",
+        "chunk_id": "c_014_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "pretty much",
+        "phrase_type": "adv. phr.",
+        "meaning": "几乎，基本上",
+        "chunk_id": "c_014_003"
+      },
+      {
+        "phrase": "in order to",
+        "phrase_type": "prep. phr.",
+        "meaning": "为了",
+        "chunk_id": "c_014_007"
+      },
+      {
+        "phrase": "draw an income",
+        "phrase_type": "v. phr.",
+        "meaning": "获得收入",
+        "chunk_id": "c_014_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "The bargain is very pure: Employee puts in hours of physical or mental labor and employee draws out life-sustaining moola.",
+    "difficulty": 4,
+    "translation_literal": "这个交易非常纯粹：雇员投入数小时的体力或脑力劳动，然后雇员获得维持生活的钱。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "The bargain",
+        "chinese": "这个交易",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "表语",
+        "english": "very pure",
+        "chinese": "非常纯粹",
+        "parent_id": null,
+        "target_id": "c_015_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "同位语解释结构",
+        "english": "Employee puts in hours of physical or mental labor and employee draws out life-sustaining moola",
+        "chinese": "雇员投入数小时的体力或脑力劳动并获得维持生活的钱",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "冒号后解释 bargain 的内容"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "并列谓语",
+        "english": "puts in ... and draws out ...",
+        "chinese": "投入……并获得……",
+        "parent_id": "c_015_004",
+        "target_id": "c_015_004",
+        "relation": "说明雇员和工作之间的交换"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "冒号后解释前文名词",
+        "explanation": "冒号后的句子解释 The bargain 的具体内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "bargain",
+        "pos": "n.",
+        "meaning": "交易，约定",
+        "chunk_id": "c_015_001"
+      },
+      {
+        "word": "pure",
+        "pos": "adj.",
+        "meaning": "纯粹的",
+        "chunk_id": "c_015_003"
+      },
+      {
+        "word": "physical",
+        "pos": "adj.",
+        "meaning": "体力的",
+        "chunk_id": "c_015_004"
+      },
+      {
+        "word": "mental",
+        "pos": "adj.",
+        "meaning": "脑力的",
+        "chunk_id": "c_015_004"
+      },
+      {
+        "word": "moola",
+        "pos": "n.",
+        "meaning": "钱，收入",
+        "chunk_id": "c_015_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "put in",
+        "phrase_type": "v. phr.",
+        "meaning": "投入，花费",
+        "chunk_id": "c_015_005"
+      },
+      {
+        "phrase": "draw out",
+        "phrase_type": "v. phr.",
+        "meaning": "取得，获得",
+        "chunk_id": "c_015_005"
+      },
+      {
+        "phrase": "life-sustaining",
+        "phrase_type": "adj. phr.",
+        "meaning": "维持生活的",
+        "chunk_id": "c_015_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "On the home front, however, people have no such clarity.",
+    "difficulty": 3,
+    "translation_literal": "然而，在家庭方面，人们没有这样的清晰性。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "状语",
+        "english": "On the home front",
+        "chinese": "在家庭方面",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "插入语",
+        "english": "however",
+        "chinese": "然而",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "主语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "谓语",
+        "english": "have",
+        "chinese": "有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "宾语",
+        "english": "no such clarity",
+        "chinese": "没有这样的清晰性",
+        "parent_id": null,
+        "target_id": "c_016_004",
+        "relation": "作 have 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "句中插入转折副词",
+        "explanation": "however 插入句中，提示与工作场景形成转折。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "clarity",
+        "pos": "n.",
+        "meaning": "清晰，明确",
+        "chunk_id": "c_016_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "home front",
+        "phrase_type": "n. phr.",
+        "meaning": "家庭方面，家庭阵线",
+        "chunk_id": "c_016_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "Rare is the household in which the division of labor is so clinically and methodically laid out.",
+    "difficulty": 5,
+    "translation_literal": "家庭中劳动分工如此临床般精确且有条理地安排好的情况是很少见的。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "倒装结构",
+        "english": "Rare is the household",
+        "chinese": "这样的家庭是很少见的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "定语从句",
+        "english": "in which the division of labor is so clinically and methodically laid out",
+        "chinese": "在这样的家庭中劳动分工被如此精确且有条理地安排好",
+        "parent_id": null,
+        "target_id": "c_017_001",
+        "relation": "修饰 household"
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "从句主语",
+        "english": "the division of labor",
+        "chinese": "劳动分工",
+        "parent_id": "c_017_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "从句谓语",
+        "english": "is laid out",
+        "chinese": "被安排好",
+        "parent_id": "c_017_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "状语",
+        "english": "so clinically and methodically",
+        "chinese": "如此精确且有条理地",
+        "parent_id": "c_017_002",
+        "target_id": "c_017_004",
+        "relation": "修饰 laid out"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "主语核心",
+        "english": "the household",
+        "chinese": "这样的家庭",
+        "parent_id": "c_017_001",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "表语/形容词置于句首 + be + 主语",
+        "explanation": "Rare 位于句首引起倒装，正常语序是 The household... is rare。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Rare",
+        "pos": "adj.",
+        "meaning": "少见的，罕见的",
+        "chunk_id": "c_017_001"
+      },
+      {
+        "word": "division",
+        "pos": "n.",
+        "meaning": "分工，划分",
+        "chunk_id": "c_017_003"
+      },
+      {
+        "word": "clinically",
+        "pos": "adv.",
+        "meaning": "精确冷静地，临床般地",
+        "chunk_id": "c_017_005"
+      },
+      {
+        "word": "methodically",
+        "pos": "adv.",
+        "meaning": "有条理地",
+        "chunk_id": "c_017_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "division of labor",
+        "phrase_type": "n. phr.",
+        "meaning": "劳动分工",
+        "chunk_id": "c_017_003"
+      },
+      {
+        "phrase": "laid out",
+        "phrase_type": "v. phr.",
+        "meaning": "安排，布置",
+        "chunk_id": "c_017_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "There are a lot of tasks to be done, there are inadequate rewards for most of them.",
+    "difficulty": 3,
+    "translation_literal": "有很多任务要完成，而其中大多数任务没有足够的回报。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "并列分句",
+        "english": "There are a lot of tasks to be done",
+        "chinese": "有很多任务要完成",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "定语",
+        "english": "to be done",
+        "chinese": "要被完成的",
+        "parent_id": "c_018_001",
+        "target_id": "c_018_001",
+        "relation": "修饰 tasks"
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "并列分句",
+        "english": "there are inadequate rewards for most of them",
+        "chinese": "其中大多数任务没有足够的回报",
+        "parent_id": null,
+        "target_id": "c_018_001",
+        "relation": "与前一分句并列"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "there be..., there be...",
+        "explanation": "两个 there be 分句并列，分别说明家务任务多和回报不足。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "tasks",
+        "pos": "n.",
+        "meaning": "任务",
+        "chunk_id": "c_018_001"
+      },
+      {
+        "word": "inadequate",
+        "pos": "adj.",
+        "meaning": "不足的，不充分的",
+        "chunk_id": "c_018_003"
+      },
+      {
+        "word": "rewards",
+        "pos": "n.",
+        "meaning": "回报，奖励",
+        "chunk_id": "c_018_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "to be done",
+        "phrase_type": "v. phr.",
+        "meaning": "要完成的",
+        "chunk_id": "c_018_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "Your home colleagues—your family—have no clear rewards for their labor; they need to be talked into it, or if they’re teenagers, threatened with complete removal of all electronic devices.",
+    "difficulty": 5,
+    "translation_literal": "你的家庭同事，也就是你的家人，对他们的劳动没有明确的回报；他们需要被说服去做，或者如果他们是青少年，就要用完全没收所有电子设备来威胁。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "主语",
+        "english": "Your home colleagues",
+        "chinese": "你的家庭同事",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "同位语",
+        "english": "your family",
+        "chinese": "你的家人",
+        "parent_id": null,
+        "target_id": "c_019_001",
+        "relation": "解释 Your home colleagues"
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "谓语",
+        "english": "have",
+        "chinese": "有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "宾语",
+        "english": "no clear rewards for their labor",
+        "chinese": "对他们劳动没有明确回报",
+        "parent_id": null,
+        "target_id": "c_019_003",
+        "relation": "作 have 的宾语"
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "并列分句",
+        "english": "they need to be talked into it",
+        "chinese": "他们需要被说服去做",
+        "parent_id": null,
+        "target_id": "c_019_004",
+        "relation": "分号后补充说明家人需要被动员"
+      },
+      {
+        "chunk_id": "c_019_006",
+        "role": "省略结构",
+        "english": "or if they’re teenagers, threatened with complete removal of all electronic devices",
+        "chinese": "或者如果他们是青少年，就要用完全没收所有电子设备来威胁",
+        "parent_id": null,
+        "target_id": "c_019_005",
+        "relation": "省略 they need to be"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "名词 + 破折号解释",
+        "explanation": "your family 是 Your home colleagues 的同位语。"
+      },
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "or if..., threatened...",
+        "explanation": "threatened 前省略 they need to be，需补出才能理解完整。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "colleagues",
+        "pos": "n.",
+        "meaning": "同事",
+        "chunk_id": "c_019_001"
+      },
+      {
+        "word": "labor",
+        "pos": "n.",
+        "meaning": "劳动",
+        "chunk_id": "c_019_004"
+      },
+      {
+        "word": "teenagers",
+        "pos": "n.",
+        "meaning": "青少年",
+        "chunk_id": "c_019_006"
+      },
+      {
+        "word": "threatened",
+        "pos": "v.",
+        "meaning": "威胁",
+        "chunk_id": "c_019_006"
+      },
+      {
+        "word": "removal",
+        "pos": "n.",
+        "meaning": "移除，没收",
+        "chunk_id": "c_019_006"
+      },
+      {
+        "word": "electronic",
+        "pos": "adj.",
+        "meaning": "电子的",
+        "chunk_id": "c_019_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "talked into",
+        "phrase_type": "v. phr.",
+        "meaning": "被说服去做",
+        "chunk_id": "c_019_005"
+      },
+      {
+        "phrase": "electronic devices",
+        "phrase_type": "n. phr.",
+        "meaning": "电子设备",
+        "chunk_id": "c_019_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "Plus, they’re your family.",
+    "difficulty": 2,
+    "translation_literal": "此外，他们是你的家人。",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "连接成分",
+        "english": "Plus",
+        "chinese": "此外",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_004",
+        "role": "表语",
+        "english": "your family",
+        "chinese": "你的家人",
+        "parent_id": null,
+        "target_id": "c_020_003",
+        "relation": "作 are 的表语"
+      },
+      {
+        "chunk_id": "c_020_005",
+        "role": "同位语",
+        "english": "your family",
+        "chinese": "你的家人",
+        "parent_id": "c_020_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_006",
+        "role": "主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_020_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_007",
+        "role": "谓语",
+        "english": "need to be talked into",
+        "chinese": "需要被说服",
+        "parent_id": "c_020_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_008",
+        "role": "宾语",
+        "english": "it",
+        "chinese": "这件事",
+        "parent_id": "c_020_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_009",
+        "role": "省略主语谓语",
+        "english": "they need to be threatened",
+        "chinese": "他们需要被威胁",
+        "parent_id": "c_020_006",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Plus",
+        "pos": "adv.",
+        "meaning": "此外，而且",
+        "chunk_id": "c_020_001"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_021",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "You cannot fire your family.",
+    "difficulty": 2,
+    "translation_literal": "你不能解雇你的家人。",
+    "chunks": [
+      {
+        "chunk_id": "c_021_001",
+        "role": "主语",
+        "english": "You",
+        "chinese": "你",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_002",
+        "role": "谓语",
+        "english": "cannot fire",
+        "chinese": "不能解雇",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_003",
+        "role": "宾语",
+        "english": "your family",
+        "chinese": "你的家人",
+        "parent_id": null,
+        "target_id": "c_021_002",
+        "relation": "作 fire 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "fire",
+        "pos": "v.",
+        "meaning": "解雇",
+        "chunk_id": "c_021_002"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_022",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "You never really get to go home from home.",
+    "difficulty": 3,
+    "translation_literal": "你从来不能真正从家里回到家。",
+    "chunks": [
+      {
+        "chunk_id": "c_022_001",
+        "role": "主语",
+        "english": "You",
+        "chinese": "你",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_002",
+        "role": "状语",
+        "english": "never really",
+        "chinese": "从来不真正",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_003",
+        "role": "谓语",
+        "english": "get to go",
+        "chinese": "能够去",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_004",
+        "role": "状语",
+        "english": "home from home",
+        "chinese": "从家回到家",
+        "parent_id": null,
+        "target_id": "c_022_003",
+        "relation": "说明动作方向"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "really",
+        "pos": "adv.",
+        "meaning": "真正地",
+        "chunk_id": "c_022_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "go home from home",
+        "phrase_type": "v. phr.",
+        "meaning": "从家里回家，表示家庭压力无法摆脱",
+        "chunk_id": "c_022_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_023",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "So it’s not surprising that people are more stressed at home.",
+    "difficulty": 3,
+    "translation_literal": "所以人们在家压力更大并不令人惊讶。",
+    "chunks": [
+      {
+        "chunk_id": "c_023_001",
+        "role": "连接成分",
+        "english": "So",
+        "chinese": "所以",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_023_002",
+        "role": "形式主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_023_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_023_004",
+        "role": "表语",
+        "english": "not surprising",
+        "chinese": "并不令人惊讶",
+        "parent_id": null,
+        "target_id": "c_023_003",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_023_005",
+        "role": "主语从句",
+        "english": "that people are more stressed at home",
+        "chinese": "人们在家压力更大",
+        "parent_id": null,
+        "target_id": "c_023_002",
+        "relation": "真正主语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is + adj. + that 从句",
+        "explanation": "it 是形式主语，真正主语是 that people are more stressed at home。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "surprising",
+        "pos": "adj.",
+        "meaning": "令人惊讶的",
+        "chunk_id": "c_023_004"
+      },
+      {
+        "word": "stressed",
+        "pos": "adj.",
+        "meaning": "有压力的",
+        "chunk_id": "c_023_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_024",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "Not only are the tasks apparently infinite, the co-workers are much harder to motivate.",
+    "difficulty": 5,
+    "translation_literal": "不仅任务显然是无穷无尽的，同事们也更难被激励。",
+    "chunks": [
+      {
+        "chunk_id": "c_024_001",
+        "role": "倒装结构",
+        "english": "Not only are the tasks apparently infinite",
+        "chinese": "不仅任务显然是无穷无尽的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_024_002",
+        "role": "主语",
+        "english": "the tasks",
+        "chinese": "任务",
+        "parent_id": "c_024_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_024_003",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_024_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_024_004",
+        "role": "表语",
+        "english": "apparently infinite",
+        "chinese": "显然是无穷无尽的",
+        "parent_id": "c_024_001",
+        "target_id": "c_024_003",
+        "relation": "作 are 的表语"
+      },
+      {
+        "chunk_id": "c_024_005",
+        "role": "并列分句",
+        "english": "the co-workers are much harder to motivate",
+        "chinese": "同事们也更难被激励",
+        "parent_id": null,
+        "target_id": "c_024_001",
+        "relation": "与前一倒装分句并列"
+      },
+      {
+        "chunk_id": "c_024_006",
+        "role": "倒装主语",
+        "english": "the tasks",
+        "chinese": "任务",
+        "parent_id": "c_024_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_024_007",
+        "role": "倒装谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_024_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_024_008",
+        "role": "倒装表语",
+        "english": "apparently infinite",
+        "chinese": "显然无穷无尽",
+        "parent_id": "c_024_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_024_009",
+        "role": "主语",
+        "english": "the co-workers",
+        "chinese": "同事们",
+        "parent_id": "c_024_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_024_010",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_024_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_024_011",
+        "role": "表语",
+        "english": "much harder to motivate",
+        "chinese": "更难激励",
+        "parent_id": "c_024_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "Not only + 助动词/be + 主语 + 其他",
+        "explanation": "Not only 位于句首引起部分倒装，正常语序是 the tasks are apparently infinite。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "apparently",
+        "pos": "adv.",
+        "meaning": "显然地",
+        "chunk_id": "c_024_004"
+      },
+      {
+        "word": "infinite",
+        "pos": "adj.",
+        "meaning": "无穷无尽的",
+        "chunk_id": "c_024_004"
+      },
+      {
+        "word": "motivate",
+        "pos": "v.",
+        "meaning": "激励，促动",
+        "chunk_id": "c_024_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Not only",
+        "phrase_type": "collocation",
+        "meaning": "不仅",
+        "chunk_id": "c_024_001"
+      }
+    ]
+  }
+]

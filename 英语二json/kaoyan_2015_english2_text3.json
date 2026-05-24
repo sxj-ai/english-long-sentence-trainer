@@ -1,0 +1,1895 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "Even in traditional offices, “the lingua franca of corporate America has gotten much more emotional and much more right-brained than it was 20 years ago,” said Harvard Business School professor Nancy Koehn.",
+    "difficulty": 5,
+    "translation_literal": "哈佛商学院教授南希·科恩说，即使在传统办公室里，“美国企业界的通用语也已经变得比20年前情绪化得多、更加右脑化。”",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "状语",
+        "english": "Even in traditional offices",
+        "chinese": "即使在传统办公室里",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "宾语从句",
+        "english": "the lingua franca of corporate America has gotten much more emotional and much more right-brained than it was 20 years ago",
+        "chinese": "美国企业界的通用语已经变得比20年前情绪化得多、更加右脑化",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "谓语",
+        "english": "said",
+        "chinese": "说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "主语",
+        "english": "Harvard Business School professor Nancy Koehn",
+        "chinese": "哈佛商学院教授南希·科恩",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "倒装后的主语"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "引语主语",
+        "english": "the lingua franca of corporate America",
+        "chinese": "美国企业界的通用语",
+        "parent_id": "c_001_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "引语谓语",
+        "english": "has gotten",
+        "chinese": "已经变得",
+        "parent_id": "c_001_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "并列表语",
+        "english": "much more emotional",
+        "chinese": "情绪化得多",
+        "parent_id": "c_001_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_008",
+        "role": "并列表语",
+        "english": "much more right-brained",
+        "chinese": "更加右脑化",
+        "parent_id": "c_001_002",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "直接引语 + said + 主语",
+        "explanation": "直接引语置前，said 后接主语，阅读时可先识别说话者。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "lingua franca",
+        "pos": "n.",
+        "meaning": "通用语",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "word": "corporate",
+        "pos": "adj.",
+        "meaning": "公司的，企业的",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "word": "emotional",
+        "pos": "adj.",
+        "meaning": "情绪化的",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "word": "right-brained",
+        "pos": "adj.",
+        "meaning": "偏右脑的，重感性的",
+        "chunk_id": "c_001_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "corporate America",
+        "phrase_type": "n. phr.",
+        "meaning": "美国企业界",
+        "chunk_id": "c_001_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "She started spinning off examples.",
+    "difficulty": 2,
+    "translation_literal": "她开始接连举例。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "She",
+        "chinese": "她",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "started spinning off",
+        "chinese": "开始接连给出",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "宾语",
+        "english": "examples",
+        "chinese": "例子",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "作 spinning off 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "spinning",
+        "pos": "v.",
+        "meaning": "接连说出，派生出",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "examples",
+        "pos": "n.",
+        "meaning": "例子",
+        "chunk_id": "c_002_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "spin off",
+        "phrase_type": "v. phr.",
+        "meaning": "接连产生，派生出",
+        "chunk_id": "c_002_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "“If you and I parachuted back to Fortune 500 companies in 1990, we would see much less frequent use of terms like journey, mission, passion.”",
+    "difficulty": 4,
+    "translation_literal": "“如果你和我空降回1990年的《财富》500强公司，我们会看到像 journey、mission、passion 这样的词使用频率少得多。”",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "条件状语从句",
+        "english": "If you and I parachuted back to Fortune 500 companies in 1990",
+        "chinese": "如果你和我空降回1990年的《财富》500强公司",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "主语",
+        "english": "we",
+        "chinese": "我们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "谓语",
+        "english": "would see",
+        "chinese": "会看到",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "宾语",
+        "english": "much less frequent use of terms like journey, mission, passion",
+        "chinese": "像 journey、mission、passion 这样的词使用频率少得多",
+        "parent_id": null,
+        "target_id": "c_003_003",
+        "relation": "作 would see 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "parachuted",
+        "pos": "v.",
+        "meaning": "空降，突然进入",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "frequent",
+        "pos": "adj.",
+        "meaning": "频繁的",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "terms",
+        "pos": "n.",
+        "meaning": "术语，词语",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "mission",
+        "pos": "n.",
+        "meaning": "使命",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "passion",
+        "pos": "n.",
+        "meaning": "激情",
+        "chunk_id": "c_003_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Fortune 500 companies",
+        "phrase_type": "n. phr.",
+        "meaning": "《财富》500强公司",
+        "chunk_id": "c_003_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "There were goals, there were strategies, there were objectives, but we didn’t talk about energy; we didn’t talk about passion.",
+    "difficulty": 4,
+    "translation_literal": "那时有目标，有策略，有目的，但是我们不谈能量；我们不谈激情。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "并列分句",
+        "english": "There were goals, there were strategies, there were objectives",
+        "chinese": "有目标，有策略，有目的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "转折分句",
+        "english": "but we didn’t talk about energy",
+        "chinese": "但是我们不谈能量",
+        "parent_id": null,
+        "target_id": "c_004_001",
+        "relation": "与前面形成转折"
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "并列分句",
+        "english": "we didn’t talk about passion",
+        "chinese": "我们不谈激情",
+        "parent_id": null,
+        "target_id": "c_004_002",
+        "relation": "与前一分句并列"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "并列成分",
+        "english": "There were goals",
+        "chinese": "有目标",
+        "parent_id": "c_004_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "并列成分",
+        "english": "there were strategies",
+        "chinese": "有策略",
+        "parent_id": "c_004_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "并列成分",
+        "english": "there were objectives",
+        "chinese": "有目的",
+        "parent_id": "c_004_001",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "there were A, there were B, there were C; we did not...",
+        "explanation": "多个 there be 结构与后面两个否定分句并列，突出新旧企业语言差异。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "goals",
+        "pos": "n.",
+        "meaning": "目标",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "word": "strategies",
+        "pos": "n.",
+        "meaning": "策略",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "word": "objectives",
+        "pos": "n.",
+        "meaning": "目标，目的",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "word": "energy",
+        "pos": "n.",
+        "meaning": "能量，活力",
+        "chunk_id": "c_004_002"
+      },
+      {
+        "word": "passion",
+        "pos": "n.",
+        "meaning": "激情",
+        "chunk_id": "c_004_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "Koehn pointed out that this new era of corporate vocabulary is very “team”-oriented—and not by coincidence.",
+    "difficulty": 4,
+    "translation_literal": "科恩指出，企业词汇的这个新时代非常以“团队”为导向，而且这并非巧合。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "Koehn",
+        "chinese": "科恩",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "pointed out",
+        "chinese": "指出",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "宾语从句",
+        "english": "that this new era of corporate vocabulary is very team-oriented",
+        "chinese": "企业词汇的这个新时代非常以团队为导向",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "作 pointed out 的宾语"
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "插入语",
+        "english": "and not by coincidence",
+        "chinese": "而且这并非巧合",
+        "parent_id": null,
+        "target_id": "c_005_003",
+        "relation": "补充说明这种导向不是偶然"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号后补充判断",
+        "explanation": "and not by coincidence 是破折号后的补充判断。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "era",
+        "pos": "n.",
+        "meaning": "时代",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "corporate",
+        "pos": "adj.",
+        "meaning": "企业的",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "vocabulary",
+        "pos": "n.",
+        "meaning": "词汇",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "oriented",
+        "pos": "adj.",
+        "meaning": "导向的",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "coincidence",
+        "pos": "n.",
+        "meaning": "巧合",
+        "chunk_id": "c_005_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "pointed out",
+        "phrase_type": "v. phr.",
+        "meaning": "指出",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "phrase": "team-oriented",
+        "phrase_type": "adj. phr.",
+        "meaning": "以团队为导向的",
+        "chunk_id": "c_005_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "“Let’s not forget sports—in male-dominated corporate America, it’s still a big deal.”",
+    "difficulty": 4,
+    "translation_literal": "“我们不要忘记体育——在男性主导的美国企业界，它仍然是一件大事。”",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "祈使句",
+        "english": "Let’s not forget sports",
+        "chinese": "我们不要忘记体育",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "插入/解释结构",
+        "english": "in male-dominated corporate America, it’s still a big deal",
+        "chinese": "在男性主导的美国企业界，它仍然是一件大事",
+        "parent_id": null,
+        "target_id": "c_006_001",
+        "relation": "破折号后解释 sports 的重要性"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号后解释前文",
+        "explanation": "破折号后说明 sports 为什么与企业语言相关。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "sports",
+        "pos": "n.",
+        "meaning": "体育，运动",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "male-dominated",
+        "pos": "adj.",
+        "meaning": "男性主导的",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "corporate",
+        "pos": "adj.",
+        "meaning": "企业的",
+        "chunk_id": "c_006_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "big deal",
+        "phrase_type": "n. phr.",
+        "meaning": "重要的事",
+        "chunk_id": "c_006_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "“It’s not explicitly conscious; it’s the idea that I’m a coach, and you’re my team, and we’re in this together.”",
+    "difficulty": 5,
+    "translation_literal": "“这并不是明确有意识的；这是一种观念，即我是教练，你是我的团队，我们一起参与其中。”",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "并列分句",
+        "english": "It’s not explicitly conscious",
+        "chinese": "这并不是明确有意识的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "并列分句",
+        "english": "it’s the idea",
+        "chinese": "这是一种观念",
+        "parent_id": null,
+        "target_id": "c_007_001",
+        "relation": "与前一分句并列"
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "同位语从句",
+        "english": "that I’m a coach, and you’re my team, and we’re in this together",
+        "chinese": "即我是教练，你是我的团队，我们一起参与其中",
+        "parent_id": null,
+        "target_id": "c_007_002",
+        "relation": "解释 the idea 的内容"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "同位语从句主语",
+        "english": "I",
+        "chinese": "我",
+        "parent_id": "c_007_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "同位语从句谓语",
+        "english": "am",
+        "chinese": "是",
+        "parent_id": "c_007_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "同位语从句表语",
+        "english": "a coach",
+        "chinese": "教练",
+        "parent_id": "c_007_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "并列分句",
+        "english": "you’re my team",
+        "chinese": "你是我的团队",
+        "parent_id": "c_007_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "并列分句",
+        "english": "we’re in this together",
+        "chinese": "我们一起参与其中",
+        "parent_id": "c_007_003",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "抽象名词 + that 从句",
+        "explanation": "that 从句解释 the idea 的具体内容。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, and B, and C",
+        "explanation": "that 从句内部三个分句并列，构成企业团队隐喻。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "explicitly",
+        "pos": "adv.",
+        "meaning": "明确地",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "conscious",
+        "pos": "adj.",
+        "meaning": "有意识的",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "coach",
+        "pos": "n.",
+        "meaning": "教练",
+        "chunk_id": "c_007_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "in this together",
+        "phrase_type": "collocation",
+        "meaning": "共同参与，共同面对",
+        "chunk_id": "c_007_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "There are lots and lots of CEOs in very different companies, but most think of themselves as coaches and this is their team and they want to win.",
+    "difficulty": 4,
+    "translation_literal": "在非常不同的公司里有许许多多的首席执行官，但大多数人把自己看作教练，而且这是他们的团队，他们想要获胜。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "并列分句",
+        "english": "There are lots and lots of CEOs in very different companies",
+        "chinese": "在非常不同的公司里有许许多多的首席执行官",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "转折分句",
+        "english": "but most think of themselves as coaches",
+        "chinese": "但大多数人把自己看作教练",
+        "parent_id": null,
+        "target_id": "c_008_001",
+        "relation": "与前面形成转折"
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "并列分句",
+        "english": "and this is their team",
+        "chinese": "而且这是他们的团队",
+        "parent_id": null,
+        "target_id": "c_008_002",
+        "relation": "与前一分句并列"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "并列分句",
+        "english": "and they want to win",
+        "chinese": "并且他们想要获胜",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "继续并列"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "but A and B and C",
+        "explanation": "but 后连续三个分句并列，说明 CEOs 的共同思维。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "CEOs",
+        "pos": "n.",
+        "meaning": "首席执行官们",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "word": "coaches",
+        "pos": "n.",
+        "meaning": "教练",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "word": "win",
+        "pos": "v.",
+        "meaning": "获胜",
+        "chunk_id": "c_008_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "think of...as...",
+        "phrase_type": "v. phr.",
+        "meaning": "把……看作……",
+        "chunk_id": "c_008_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "These terms are also intended to infuse work with meaning—and, as Khurana, another professor, points out, increase allegiance to the firm.",
+    "difficulty": 5,
+    "translation_literal": "这些词语还意在给工作注入意义，并且，正如另一位教授库拉纳指出的那样，增强对公司的忠诚。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "These terms",
+        "chinese": "这些词语",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "are intended",
+        "chinese": "意在",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "宾语",
+        "english": "to infuse work with meaning",
+        "chinese": "给工作注入意义",
+        "parent_id": null,
+        "target_id": "c_009_002",
+        "relation": "作 intended 的内容"
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "并列宾语",
+        "english": "and increase allegiance to the firm",
+        "chinese": "并增强对公司的忠诚",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "与 infuse 并列"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "插入语",
+        "english": "as Khurana, another professor, points out",
+        "chinese": "正如另一位教授库拉纳指出的那样",
+        "parent_id": null,
+        "target_id": "c_009_004",
+        "relation": "插入说明观点来源"
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "同位语",
+        "english": "another professor",
+        "chinese": "另一位教授",
+        "parent_id": "c_009_005",
+        "target_id": "c_009_005",
+        "relation": "解释 Khurana 身份"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "并列宾语",
+        "english": "to infuse work with meaning",
+        "chinese": "给工作注入意义",
+        "parent_id": "c_009_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "并列宾语",
+        "english": "increase allegiance to the firm",
+        "chinese": "增强对公司的忠诚",
+        "parent_id": "c_009_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_009",
+        "role": "从句主语",
+        "english": "Khurana",
+        "chinese": "库拉纳",
+        "parent_id": "c_009_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_010",
+        "role": "从句谓语",
+        "english": "points out",
+        "chinese": "指出",
+        "parent_id": "c_009_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "as + 主语 + 谓语",
+        "explanation": "as Khurana...points out 是插入式 as 结构，表示“正如……指出”。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "并列结构中插入观点来源",
+        "explanation": "as Khurana...points out 插入在 and 与 increase 之间，阅读时可先跳过。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "terms",
+        "pos": "n.",
+        "meaning": "词语，术语",
+        "chunk_id": "c_009_001"
+      },
+      {
+        "word": "intended",
+        "pos": "v.",
+        "meaning": "意在，打算",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "infuse",
+        "pos": "v.",
+        "meaning": "注入",
+        "chunk_id": "c_009_003"
+      },
+      {
+        "word": "meaning",
+        "pos": "n.",
+        "meaning": "意义",
+        "chunk_id": "c_009_003"
+      },
+      {
+        "word": "allegiance",
+        "pos": "n.",
+        "meaning": "忠诚",
+        "chunk_id": "c_009_004"
+      },
+      {
+        "word": "firm",
+        "pos": "n.",
+        "meaning": "公司",
+        "chunk_id": "c_009_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "be intended to",
+        "phrase_type": "v. phr.",
+        "meaning": "旨在，意在",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "phrase": "infuse...with...",
+        "phrase_type": "v. phr.",
+        "meaning": "给……注入……",
+        "chunk_id": "c_009_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "“You have the importation of terminology that historically used to be associated with non-profit organizations and religious organizations: terms like vision, values, passion, and purpose,” said Khurana.",
+    "difficulty": 5,
+    "translation_literal": "库拉纳说：“你会看到术语的引入，这些术语历史上曾经与非营利组织和宗教组织相关：比如 vision、values、passion 和 purpose 这样的词。”",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "You",
+        "chinese": "你",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "have",
+        "chinese": "有，会看到",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "宾语",
+        "english": "the importation of terminology",
+        "chinese": "术语的引入",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "作 have 的宾语"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "定语从句",
+        "english": "that historically used to be associated with non-profit organizations and religious organizations",
+        "chinese": "历史上曾经与非营利组织和宗教组织相关的",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "修饰 terminology"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "同位语解释结构",
+        "english": "terms like vision, values, passion, and purpose",
+        "chinese": "比如 vision、values、passion 和 purpose 这样的词",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "冒号后举例解释 terminology"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "倒装结构",
+        "english": "said Khurana",
+        "chinese": "库拉纳说",
+        "parent_id": null,
+        "target_id": "c_010_001",
+        "relation": "说明引语来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "冒号后举例解释前文名词",
+        "explanation": "冒号后的 terms like... 解释 terminology。"
+      },
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "直接引语 + said + 主语",
+        "explanation": "said Khurana 位于引语后，是引语来源倒装。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "importation",
+        "pos": "n.",
+        "meaning": "引入，输入",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "terminology",
+        "pos": "n.",
+        "meaning": "术语",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "historically",
+        "pos": "adv.",
+        "meaning": "历史上",
+        "chunk_id": "c_010_004"
+      },
+      {
+        "word": "associated",
+        "pos": "v.",
+        "meaning": "联系，关联",
+        "chunk_id": "c_010_004"
+      },
+      {
+        "word": "religious",
+        "pos": "adj.",
+        "meaning": "宗教的",
+        "chunk_id": "c_010_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "be associated with",
+        "phrase_type": "v. phr.",
+        "meaning": "与……相关",
+        "chunk_id": "c_010_004"
+      },
+      {
+        "phrase": "non-profit organizations",
+        "phrase_type": "n. phr.",
+        "meaning": "非营利组织",
+        "chunk_id": "c_010_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "This new focus on personal fulfillment can help keep employees motivated amid increasingly loud debates over work-life balance.",
+    "difficulty": 4,
+    "translation_literal": "这种对个人成就感的新关注能够帮助员工在关于工作与生活平衡的日益激烈的争论中保持积极性。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "This new focus on personal fulfillment",
+        "chinese": "这种对个人成就感的新关注",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "can help keep",
+        "chinese": "能够帮助保持",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "宾语",
+        "english": "employees motivated",
+        "chinese": "员工有积极性",
+        "parent_id": null,
+        "target_id": "c_011_002",
+        "relation": "作 keep 的复合宾语"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "状语",
+        "english": "amid increasingly loud debates over work-life balance",
+        "chinese": "在关于工作与生活平衡的日益激烈的争论中",
+        "parent_id": null,
+        "target_id": "c_011_002",
+        "relation": "说明背景"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "focus",
+        "pos": "n.",
+        "meaning": "关注，焦点",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "fulfillment",
+        "pos": "n.",
+        "meaning": "成就感，满足",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "motivated",
+        "pos": "adj.",
+        "meaning": "有积极性的",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "word": "amid",
+        "pos": "prep.",
+        "meaning": "在……之中",
+        "chunk_id": "c_011_004"
+      },
+      {
+        "word": "debates",
+        "pos": "n.",
+        "meaning": "争论",
+        "chunk_id": "c_011_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "personal fulfillment",
+        "phrase_type": "n. phr.",
+        "meaning": "个人成就感",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "phrase": "work-life balance",
+        "phrase_type": "n. phr.",
+        "meaning": "工作与生活平衡",
+        "chunk_id": "c_011_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "The “mommy wars” of the 1990s are still going on today, prompting arguments about why women still can’t have it all and books like Sheryl Sandberg’s Lean In, whose title has become a buzzword in its own right.",
+    "difficulty": 5,
+    "translation_literal": "20世纪90年代的“妈妈战争”今天仍在继续，引发了关于为什么女性仍然不能拥有一切的争论，以及像谢丽尔·桑德伯格的《向前一步》这样的书，该书标题本身已经成为一个流行词。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "The “mommy wars” of the 1990s",
+        "chinese": "20世纪90年代的“妈妈战争”",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "are still going on",
+        "chinese": "仍在继续",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "状语",
+        "english": "today",
+        "chinese": "今天",
+        "parent_id": null,
+        "target_id": "c_012_002",
+        "relation": "说明时间"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "状语",
+        "english": "prompting arguments about why women still can’t have it all and books like Sheryl Sandberg’s Lean In",
+        "chinese": "引发关于女性为什么仍不能拥有一切的争论以及像《向前一步》这样的书",
+        "parent_id": null,
+        "target_id": "c_012_002",
+        "relation": "说明结果"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "定语从句",
+        "english": "whose title has become a buzzword in its own right",
+        "chinese": "其标题本身已经成为一个流行词",
+        "parent_id": null,
+        "target_id": "c_012_004",
+        "relation": "修饰 Lean In"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "并列成分",
+        "english": "unplug",
+        "chinese": "脱离工作",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "并列成分",
+        "english": "offline",
+        "chinese": "离线",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "并列成分",
+        "english": "life-hack",
+        "chinese": "生活技巧",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_009",
+        "role": "并列成分",
+        "english": "bandwidth",
+        "chinese": "精力容量",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_010",
+        "role": "并列成分",
+        "english": "capacity",
+        "chinese": "能力容量",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "现在分词短语带长宾语",
+        "explanation": "prompting 后的宾语很长，包含 arguments 和 books 两部分，容易误读。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "prompting",
+        "pos": "v.",
+        "meaning": "引发，促使",
+        "chunk_id": "c_012_004"
+      },
+      {
+        "word": "arguments",
+        "pos": "n.",
+        "meaning": "争论，论点",
+        "chunk_id": "c_012_004"
+      },
+      {
+        "word": "buzzword",
+        "pos": "n.",
+        "meaning": "流行词，热词",
+        "chunk_id": "c_012_005"
+      },
+      {
+        "word": "title",
+        "pos": "n.",
+        "meaning": "标题",
+        "chunk_id": "c_012_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "mommy wars",
+        "phrase_type": "n. phr.",
+        "meaning": "妈妈战争，母职争论",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "phrase": "have it all",
+        "phrase_type": "idiom",
+        "meaning": "拥有一切，事业家庭兼得",
+        "chunk_id": "c_012_004"
+      },
+      {
+        "phrase": "in its own right",
+        "phrase_type": "adv. phr.",
+        "meaning": "凭自身资格，本身",
+        "chunk_id": "c_012_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "Terms like unplug, offline, life-hack, bandwidth, and capacity are all about setting boundaries between the office and the home.",
+    "difficulty": 4,
+    "translation_literal": "像 unplug、offline、life-hack、bandwidth 和 capacity 这样的词都关乎在办公室和家庭之间设定界限。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "Terms like unplug, offline, life-hack, bandwidth, and capacity",
+        "chinese": "像 unplug、offline、life-hack、bandwidth 和 capacity 这样的词",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "表语",
+        "english": "all about setting boundaries between the office and the home",
+        "chinese": "都关乎在办公室和家庭之间设定界限",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "作 are 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, B, C, D, and E",
+        "explanation": "多个术语并列作主语核心内容，统一指向 setting boundaries。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "unplug",
+        "pos": "v.",
+        "meaning": "拔掉插头；脱离工作",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "offline",
+        "pos": "adj.",
+        "meaning": "离线的",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "bandwidth",
+        "pos": "n.",
+        "meaning": "带宽；精力容量",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "capacity",
+        "pos": "n.",
+        "meaning": "能力，容量",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "boundaries",
+        "pos": "n.",
+        "meaning": "界限",
+        "chunk_id": "c_013_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "setting boundaries",
+        "phrase_type": "v. phr.",
+        "meaning": "设定界限",
+        "chunk_id": "c_013_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "But if your work is your “passion,” you’ll be more likely to devote yourself to it, even if that means going home for dinner and then working long after the kids are in bed.",
+    "difficulty": 5,
+    "translation_literal": "但是，如果你的工作就是你的“激情”，你就更可能投身于它，即使那意味着回家吃晚饭，然后在孩子们上床后很久还继续工作。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "条件状语从句",
+        "english": "if your work is your “passion”",
+        "chinese": "如果你的工作就是你的“激情”",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "谓语",
+        "english": "will be",
+        "chinese": "将会是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "表语",
+        "english": "more likely to devote yourself to it",
+        "chinese": "更可能投身于它",
+        "parent_id": null,
+        "target_id": "c_014_004",
+        "relation": "作 will be 的表语"
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "让步状语从句",
+        "english": "even if that means going home for dinner and then working long after the kids are in bed",
+        "chinese": "即使那意味着回家吃晚饭，然后在孩子们上床后很久还继续工作",
+        "parent_id": null,
+        "target_id": "c_014_005",
+        "relation": "说明让步情况"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "passion",
+        "pos": "n.",
+        "meaning": "激情，热爱",
+        "chunk_id": "c_014_002"
+      },
+      {
+        "word": "likely",
+        "pos": "adj.",
+        "meaning": "可能的",
+        "chunk_id": "c_014_005"
+      },
+      {
+        "word": "devote",
+        "pos": "v.",
+        "meaning": "投入，奉献",
+        "chunk_id": "c_014_005"
+      },
+      {
+        "word": "means",
+        "pos": "v.",
+        "meaning": "意味着",
+        "chunk_id": "c_014_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "devote yourself to",
+        "phrase_type": "v. phr.",
+        "meaning": "投身于",
+        "chunk_id": "c_014_005"
+      },
+      {
+        "phrase": "long after",
+        "phrase_type": "prep. phr.",
+        "meaning": "在……之后很久",
+        "chunk_id": "c_014_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "But this seems to be the irony of office speak: Everyone makes fun of it, but managers love it, companies depend on it, and regular people willingly absorb it.",
+    "difficulty": 5,
+    "translation_literal": "但这似乎是办公室语言的讽刺之处：每个人都取笑它，但管理者喜欢它，公司依赖它，普通人也心甘情愿地吸收它。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "主语",
+        "english": "this",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "谓语",
+        "english": "seems to be",
+        "chinese": "似乎是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "表语",
+        "english": "the irony of office speak",
+        "chinese": "办公室语言的讽刺之处",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "作 seems to be 的表语"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "同位语解释结构",
+        "english": "Everyone makes fun of it, but managers love it, companies depend on it, and regular people willingly absorb it",
+        "chinese": "每个人都取笑它，但管理者喜欢它，公司依赖它，普通人也心甘情愿地吸收它",
+        "parent_id": null,
+        "target_id": "c_015_004",
+        "relation": "冒号后解释 irony 的具体内容"
+      },
+      {
+        "chunk_id": "c_015_006",
+        "role": "并列分句",
+        "english": "Everyone makes fun of it",
+        "chinese": "每个人都取笑它",
+        "parent_id": "c_015_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_007",
+        "role": "并列分句",
+        "english": "managers love it",
+        "chinese": "管理者喜欢它",
+        "parent_id": "c_015_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_008",
+        "role": "并列分句",
+        "english": "companies depend on it",
+        "chinese": "公司依赖它",
+        "parent_id": "c_015_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_009",
+        "role": "并列分句",
+        "english": "regular people willingly absorb it",
+        "chinese": "普通人心甘情愿地吸收它",
+        "parent_id": "c_015_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "冒号后解释前文名词",
+        "explanation": "冒号后的多个分句解释 the irony of office speak。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, but B, C, and D",
+        "explanation": "冒号后多个分句并列，形成“嘲笑但接受”的讽刺。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "irony",
+        "pos": "n.",
+        "meaning": "讽刺，反讽",
+        "chunk_id": "c_015_004"
+      },
+      {
+        "word": "managers",
+        "pos": "n.",
+        "meaning": "管理者",
+        "chunk_id": "c_015_005"
+      },
+      {
+        "word": "depend",
+        "pos": "v.",
+        "meaning": "依赖",
+        "chunk_id": "c_015_005"
+      },
+      {
+        "word": "willingly",
+        "pos": "adv.",
+        "meaning": "心甘情愿地",
+        "chunk_id": "c_015_005"
+      },
+      {
+        "word": "absorb",
+        "pos": "v.",
+        "meaning": "吸收，接受",
+        "chunk_id": "c_015_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "office speak",
+        "phrase_type": "n. phr.",
+        "meaning": "办公室语言，职场套话",
+        "chunk_id": "c_015_004"
+      },
+      {
+        "phrase": "make fun of",
+        "phrase_type": "v. phr.",
+        "meaning": "取笑",
+        "chunk_id": "c_015_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "As linguist once said, “You can get people to think it’s nonsense at the same time that you buy into it.”",
+    "difficulty": 4,
+    "translation_literal": "正如一位语言学家曾经说的：“你可以让人们在接受它的同时认为它是废话。”",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "as 引导结构",
+        "english": "As linguist once said",
+        "chinese": "正如一位语言学家曾经说的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "主语",
+        "english": "You",
+        "chinese": "你",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "谓语",
+        "english": "can get",
+        "chinese": "可以让",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "宾语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "作 get 的宾语"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "宾语补足语",
+        "english": "to think it’s nonsense at the same time that you buy into it",
+        "chinese": "在接受它的同时认为它是废话",
+        "parent_id": null,
+        "target_id": "c_016_004",
+        "relation": "补充说明 people 的动作"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "As + 主语 + 谓语",
+        "explanation": "As linguist once said 是插入式 as 结构，表示引用依据。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "linguist",
+        "pos": "n.",
+        "meaning": "语言学家",
+        "chunk_id": "c_016_001"
+      },
+      {
+        "word": "nonsense",
+        "pos": "n.",
+        "meaning": "废话，胡说",
+        "chunk_id": "c_016_005"
+      },
+      {
+        "word": "buy",
+        "pos": "v.",
+        "meaning": "接受，相信",
+        "chunk_id": "c_016_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "at the same time that",
+        "phrase_type": "conj. phr.",
+        "meaning": "在……同时",
+        "chunk_id": "c_016_005"
+      },
+      {
+        "phrase": "buy into",
+        "phrase_type": "v. phr.",
+        "meaning": "接受，相信",
+        "chunk_id": "c_016_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "In a workplace that’s fundamentally indifferent to your life and its meaning, office speak can help you figure out how you relate to your work—and how your work defines who you are.",
+    "difficulty": 5,
+    "translation_literal": "在一个从根本上对你的生活及其意义漠不关心的工作场所中，办公室语言可以帮助你弄清你如何与工作发生关系，以及你的工作如何定义你是谁。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "状语",
+        "english": "In a workplace that’s fundamentally indifferent to your life and its meaning",
+        "chinese": "在一个从根本上对你的生活及其意义漠不关心的工作场所中",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "定语从句",
+        "english": "that’s fundamentally indifferent to your life and its meaning",
+        "chinese": "从根本上对你的生活及其意义漠不关心的",
+        "parent_id": "c_017_001",
+        "target_id": "c_017_001",
+        "relation": "修饰 workplace"
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "主语",
+        "english": "office speak",
+        "chinese": "办公室语言",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "谓语",
+        "english": "can help",
+        "chinese": "可以帮助",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "宾语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": null,
+        "target_id": "c_017_004",
+        "relation": "作 help 的宾语"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "宾语补足语",
+        "english": "figure out how you relate to your work—and how your work defines who you are",
+        "chinese": "弄清你如何与工作发生关系，以及你的工作如何定义你是谁",
+        "parent_id": null,
+        "target_id": "c_017_005",
+        "relation": "补充说明 help 的内容"
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "并列宾语从句",
+        "english": "how you relate to your work—and how your work defines who you are",
+        "chinese": "你如何与工作相关，以及你的工作如何定义你是谁",
+        "parent_id": "c_017_006",
+        "target_id": "c_017_006",
+        "relation": "作 figure out 的宾语"
+      },
+      {
+        "chunk_id": "c_017_008",
+        "role": "并列宾语从句",
+        "english": "how you relate to your work",
+        "chinese": "你如何与工作发生关系",
+        "parent_id": "c_017_007",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_009",
+        "role": "并列宾语从句",
+        "english": "how your work defines who you are",
+        "chinese": "你的工作如何定义你是谁",
+        "parent_id": "c_017_007",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_010",
+        "role": "从句主语",
+        "english": "your work",
+        "chinese": "你的工作",
+        "parent_id": "c_017_007",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_011",
+        "role": "从句谓语",
+        "english": "defines",
+        "chinese": "定义",
+        "parent_id": "c_017_007",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_012",
+        "role": "从句宾语",
+        "english": "who you are",
+        "chinese": "你是谁",
+        "parent_id": "c_017_007",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "how A—and how B",
+        "explanation": "两个 how 从句并列，都是 figure out 的宾语。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "workplace",
+        "pos": "n.",
+        "meaning": "工作场所",
+        "chunk_id": "c_017_001"
+      },
+      {
+        "word": "fundamentally",
+        "pos": "adv.",
+        "meaning": "根本上",
+        "chunk_id": "c_017_002"
+      },
+      {
+        "word": "indifferent",
+        "pos": "adj.",
+        "meaning": "漠不关心的",
+        "chunk_id": "c_017_002"
+      },
+      {
+        "word": "relate",
+        "pos": "v.",
+        "meaning": "关联，联系",
+        "chunk_id": "c_017_007"
+      },
+      {
+        "word": "defines",
+        "pos": "v.",
+        "meaning": "定义",
+        "chunk_id": "c_017_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "figure out",
+        "phrase_type": "v. phr.",
+        "meaning": "弄清楚",
+        "chunk_id": "c_017_006"
+      },
+      {
+        "phrase": "relate to",
+        "phrase_type": "v. phr.",
+        "meaning": "与……相关",
+        "chunk_id": "c_017_007"
+      }
+    ]
+  }
+]

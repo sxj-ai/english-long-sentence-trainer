@@ -1,0 +1,2501 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Just how much does the Constitution protect your digital data?",
+    "difficulty": 3,
+    "translation_literal": "宪法究竟在多大程度上保护你的数字数据？",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "状语",
+        "english": "Just how much",
+        "chinese": "究竟在多大程度上",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "修饰谓语，询问保护的程度"
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "主语",
+        "english": "the Constitution",
+        "chinese": "宪法",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "谓语",
+        "english": "does protect",
+        "chinese": "保护",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "疑问句中的谓语结构"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "宾语",
+        "english": "your digital data",
+        "chinese": "你的数字数据",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "作谓语 protect 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Constitution",
+        "pos": "n.",
+        "meaning": "宪法",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "word": "digital",
+        "pos": "adj.",
+        "meaning": "数字的",
+        "chunk_id": "c_001_004"
+      },
+      {
+        "word": "data",
+        "pos": "n.",
+        "meaning": "数据",
+        "chunk_id": "c_001_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Just how much",
+        "phrase_type": "question pattern",
+        "meaning": "究竟多大程度上",
+        "chunk_id": "c_001_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The Supreme Court will now consider whether police can search the contents of a mobile phone without a warrant if the phone is on or around a person during an arrest.",
+    "difficulty": 5,
+    "translation_literal": "最高法院现在将考虑，如果手机在逮捕期间在某人身上或周围，警察是否可以在没有搜查令的情况下搜查一部手机的内容。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "The Supreme Court",
+        "chinese": "最高法院",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "will now consider",
+        "chinese": "现在将考虑",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "宾语从句",
+        "english": "whether police can search the contents of a mobile phone without a warrant",
+        "chinese": "警察是否可以在没有搜查令的情况下搜查一部手机的内容",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "作 consider 的宾语"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "从句主语",
+        "english": "police",
+        "chinese": "警察",
+        "parent_id": "c_002_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "从句谓语",
+        "english": "can search",
+        "chinese": "可以搜查",
+        "parent_id": "c_002_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "从句宾语",
+        "english": "the contents of a mobile phone",
+        "chinese": "一部手机的内容",
+        "parent_id": "c_002_003",
+        "target_id": "c_002_005",
+        "relation": "作 can search 的宾语"
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "状语",
+        "english": "without a warrant",
+        "chinese": "在没有搜查令的情况下",
+        "parent_id": "c_002_003",
+        "target_id": "c_002_005",
+        "relation": "说明搜查发生时缺少搜查令"
+      },
+      {
+        "chunk_id": "c_002_008",
+        "role": "状语从句",
+        "english": "if the phone is on or around a person during an arrest",
+        "chinese": "如果手机在逮捕期间在某人身上或周围",
+        "parent_id": null,
+        "target_id": "c_002_005",
+        "relation": "说明搜查行为成立的条件"
+      },
+      {
+        "chunk_id": "c_002_009",
+        "role": "状语",
+        "english": "during an arrest",
+        "chinese": "在逮捕期间",
+        "parent_id": "c_002_008",
+        "target_id": "c_002_008",
+        "relation": "说明条件从句中的时间背景"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "consider",
+        "pos": "v.",
+        "meaning": "考虑，审议",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "contents",
+        "pos": "n.",
+        "meaning": "内容",
+        "chunk_id": "c_002_006"
+      },
+      {
+        "word": "warrant",
+        "pos": "n.",
+        "meaning": "搜查令，授权令",
+        "chunk_id": "c_002_007"
+      },
+      {
+        "word": "arrest",
+        "pos": "n.",
+        "meaning": "逮捕",
+        "chunk_id": "c_002_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "The Supreme Court",
+        "phrase_type": "n. phr.",
+        "meaning": "最高法院",
+        "chunk_id": "c_002_001"
+      },
+      {
+        "phrase": "without a warrant",
+        "phrase_type": "prep. phr.",
+        "meaning": "没有搜查令",
+        "chunk_id": "c_002_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "California has asked the justices to refrain from a sweeping ruling, particularly one that upsets the old assumption that authorities may search through the possessions of suspects at the time of their arrest.",
+    "difficulty": 5,
+    "translation_literal": "加利福尼亚州已经要求大法官们避免作出一项范围广泛的裁决，尤其是避免作出一项会推翻旧有假设的裁决，即当局可以在嫌疑人被逮捕时搜查他们的财物。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "California",
+        "chinese": "加利福尼亚州",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "谓语",
+        "english": "has asked",
+        "chinese": "已经要求",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "宾语",
+        "english": "the justices",
+        "chinese": "大法官们",
+        "parent_id": null,
+        "target_id": "c_003_002",
+        "relation": "作 asked 的宾语"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "宾语补足语",
+        "english": "to refrain from a sweeping ruling",
+        "chinese": "避免作出一项范围广泛的裁决",
+        "parent_id": null,
+        "target_id": "c_003_003",
+        "relation": "补充说明要求大法官做的事"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "同位语",
+        "english": "particularly one",
+        "chinese": "尤其是一项裁决",
+        "parent_id": null,
+        "target_id": "c_003_004",
+        "relation": "进一步说明 sweeping ruling 的具体类型"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "定语从句",
+        "english": "that upsets the old assumption",
+        "chinese": "会推翻旧有假设的",
+        "parent_id": "c_003_005",
+        "target_id": "c_003_005",
+        "relation": "修饰 one"
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "同位语从句",
+        "english": "that authorities may search through the possessions of suspects at the time of their arrest",
+        "chinese": "即当局可以在嫌疑人被逮捕时搜查他们的财物",
+        "parent_id": null,
+        "target_id": "c_003_006",
+        "relation": "解释 old assumption 的具体内容"
+      },
+      {
+        "chunk_id": "c_003_008",
+        "role": "状语",
+        "english": "at the time of their arrest",
+        "chinese": "在他们被逮捕的时候",
+        "parent_id": "c_003_007",
+        "target_id": "c_003_007",
+        "relation": "说明搜查财物的时间"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "抽象名词 + that 从句",
+        "explanation": "that authorities may search through... 是同位语从句，解释 old assumption 的具体内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "justices",
+        "pos": "n.",
+        "meaning": "大法官们",
+        "chunk_id": "c_003_003"
+      },
+      {
+        "word": "refrain",
+        "pos": "v.",
+        "meaning": "克制，避免",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "sweeping",
+        "pos": "adj.",
+        "meaning": "范围广泛的，影响大的",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "upsets",
+        "pos": "v.",
+        "meaning": "推翻，打破",
+        "chunk_id": "c_003_006"
+      },
+      {
+        "word": "authorities",
+        "pos": "n.",
+        "meaning": "当局，执法机关",
+        "chunk_id": "c_003_007"
+      },
+      {
+        "word": "possessions",
+        "pos": "n.",
+        "meaning": "财物，所有物",
+        "chunk_id": "c_003_007"
+      },
+      {
+        "word": "suspects",
+        "pos": "n.",
+        "meaning": "嫌疑人",
+        "chunk_id": "c_003_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "refrain from",
+        "phrase_type": "v. phr.",
+        "meaning": "避免，克制不做",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "phrase": "search through",
+        "phrase_type": "v. phr.",
+        "meaning": "搜查，翻查",
+        "chunk_id": "c_003_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "It is hard, the state argues, for judges to assess the implications of new and rapidly changing technologies.",
+    "difficulty": 4,
+    "translation_literal": "该州辩称，对于法官们来说，评估新的且迅速变化的技术的影响是困难的。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "形式主语",
+        "english": "It",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": "c_004_005",
+        "relation": "形式主语，真正主语由不定式结构承担"
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "表语",
+        "english": "hard",
+        "chinese": "困难的",
+        "parent_id": null,
+        "target_id": "c_004_002",
+        "relation": "作系动词 is 后的表语"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "插入语",
+        "english": "the state argues",
+        "chinese": "该州辩称",
+        "parent_id": null,
+        "target_id": "c_004_001",
+        "relation": "说明观点来源"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "真正主语",
+        "english": "for judges to assess the implications of new and rapidly changing technologies",
+        "chinese": "对于法官们来说评估新的且迅速变化的技术的影响",
+        "parent_id": null,
+        "target_id": "c_004_001",
+        "relation": "对应形式主语 It"
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "定语",
+        "english": "of new and rapidly changing technologies",
+        "chinese": "新的且迅速变化的技术的",
+        "parent_id": "c_004_005",
+        "target_id": "c_004_005",
+        "relation": "修饰 implications，说明影响的来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is + adj. + for sb. + to do sth.",
+        "explanation": "It 是形式主语，真正主语是 for judges to assess the implications...。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句中插入观点来源",
+        "explanation": "the state argues 插入句中，说明观点来自加利福尼亚州，阅读时可先跳过。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "argues",
+        "pos": "v.",
+        "meaning": "辩称，主张",
+        "chunk_id": "c_004_004"
+      },
+      {
+        "word": "assess",
+        "pos": "v.",
+        "meaning": "评估，判断",
+        "chunk_id": "c_004_005"
+      },
+      {
+        "word": "implications",
+        "pos": "n.",
+        "meaning": "影响，可能后果",
+        "chunk_id": "c_004_005"
+      },
+      {
+        "word": "rapidly",
+        "pos": "adv.",
+        "meaning": "迅速地",
+        "chunk_id": "c_004_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "the state argues",
+        "phrase_type": "parenthetical",
+        "meaning": "该州辩称",
+        "chunk_id": "c_004_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The court would be recklessly modest if it followed California’s advice.",
+    "difficulty": 3,
+    "translation_literal": "如果法院听从加利福尼亚州的建议，法院将会是鲁莽地保守的。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "The court",
+        "chinese": "法院",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "would be",
+        "chinese": "将会是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "表语",
+        "english": "recklessly modest",
+        "chinese": "鲁莽地保守的",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "作 would be 后的表语"
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "状语从句",
+        "english": "if it followed California’s advice",
+        "chinese": "如果它听从加利福尼亚州的建议",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "说明主句判断成立的条件"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "recklessly",
+        "pos": "adv.",
+        "meaning": "鲁莽地，轻率地",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "modest",
+        "pos": "adj.",
+        "meaning": "克制的，保守的",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "followed",
+        "pos": "v.",
+        "meaning": "听从，遵循",
+        "chunk_id": "c_005_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "California’s advice",
+        "phrase_type": "n. phr.",
+        "meaning": "加利福尼亚州的建议",
+        "chunk_id": "c_005_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Enough of the implications are discernable, even obvious, so that the justices can and should provide updated guidelines to police, lawyers and defendants.",
+    "difficulty": 4,
+    "translation_literal": "足够多的影响是可以看出的，甚至是明显的，因此大法官们能够并且应该向警察、律师和被告提供更新后的指导原则。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "Enough of the implications",
+        "chinese": "足够多的影响",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "表语",
+        "english": "discernable, even obvious",
+        "chinese": "可以看出的，甚至明显的",
+        "parent_id": null,
+        "target_id": "c_006_002",
+        "relation": "作系动词 are 后的表语"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "结果状语从句",
+        "english": "so that the justices can and should provide updated guidelines to police, lawyers and defendants",
+        "chinese": "因此大法官们能够并且应该向警察、律师和被告提供更新后的指导原则",
+        "parent_id": null,
+        "target_id": "c_006_003",
+        "relation": "说明表语所导致的结果"
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "从句主语",
+        "english": "the justices",
+        "chinese": "大法官们",
+        "parent_id": "c_006_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "从句谓语",
+        "english": "can and should provide",
+        "chinese": "能够并且应该提供",
+        "parent_id": "c_006_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "从句宾语",
+        "english": "updated guidelines",
+        "chinese": "更新后的指导原则",
+        "parent_id": "c_006_004",
+        "target_id": "c_006_006",
+        "relation": "作 provide 的宾语"
+      },
+      {
+        "chunk_id": "c_006_008",
+        "role": "状语",
+        "english": "to police, lawyers and defendants",
+        "chinese": "向警察、律师和被告",
+        "parent_id": "c_006_004",
+        "target_id": "c_006_006",
+        "relation": "说明提供指导原则的对象"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "discernable",
+        "pos": "adj.",
+        "meaning": "可看出的，可辨别的",
+        "chunk_id": "c_006_003"
+      },
+      {
+        "word": "obvious",
+        "pos": "adj.",
+        "meaning": "明显的",
+        "chunk_id": "c_006_003"
+      },
+      {
+        "word": "updated",
+        "pos": "adj.",
+        "meaning": "更新后的",
+        "chunk_id": "c_006_007"
+      },
+      {
+        "word": "guidelines",
+        "pos": "n.",
+        "meaning": "指导原则，准则",
+        "chunk_id": "c_006_007"
+      },
+      {
+        "word": "defendants",
+        "pos": "n.",
+        "meaning": "被告",
+        "chunk_id": "c_006_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "so that",
+        "phrase_type": "conj. phr.",
+        "meaning": "以便，因此",
+        "chunk_id": "c_006_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "They should start by discarding California’s lame argument that exploring the contents of a smartphone — a vast storehouse of digital information — is similar to, say, going through a suspect’s purse.",
+    "difficulty": 5,
+    "translation_literal": "他们应该从抛弃加利福尼亚州站不住脚的论点开始，即查看智能手机的内容，一个数字信息的巨大仓库，类似于，比方说，翻查嫌疑人的钱包。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "They",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "should start",
+        "chinese": "应该开始",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "状语",
+        "english": "by discarding California’s lame argument",
+        "chinese": "通过抛弃加利福尼亚州站不住脚的论点",
+        "parent_id": null,
+        "target_id": "c_007_002",
+        "relation": "说明开始的方式"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "同位语从句",
+        "english": "that exploring the contents of a smartphone is similar to going through a suspect’s purse",
+        "chinese": "即查看智能手机的内容类似于翻查嫌疑人的钱包",
+        "parent_id": null,
+        "target_id": "c_007_003",
+        "relation": "解释 argument 的具体内容"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "从句主语",
+        "english": "exploring the contents of a smartphone",
+        "chinese": "查看智能手机的内容",
+        "parent_id": "c_007_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "插入语",
+        "english": "a vast storehouse of digital information",
+        "chinese": "一个数字信息的巨大仓库",
+        "parent_id": "c_007_004",
+        "target_id": "c_007_005",
+        "relation": "补充说明 smartphone 的性质"
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "从句谓语",
+        "english": "is similar to",
+        "chinese": "类似于",
+        "parent_id": "c_007_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "从句宾语",
+        "english": "going through a suspect’s purse",
+        "chinese": "翻查嫌疑人的钱包",
+        "parent_id": "c_007_004",
+        "target_id": "c_007_007",
+        "relation": "作 similar to 的比较对象"
+      },
+      {
+        "chunk_id": "c_007_009",
+        "role": "插入语",
+        "english": "say",
+        "chinese": "比方说",
+        "parent_id": "c_007_004",
+        "target_id": "c_007_008",
+        "relation": "引出例子"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "抽象名词 + that 从句",
+        "explanation": "that exploring the contents... is similar to... 解释 argument 的具体内容。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号/逗号插入补充说明",
+        "explanation": "a vast storehouse of digital information 和 say 都是插入成分，主干是 exploring... is similar to going through...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "discarding",
+        "pos": "v.",
+        "meaning": "抛弃，摒弃",
+        "chunk_id": "c_007_003"
+      },
+      {
+        "word": "lame",
+        "pos": "adj.",
+        "meaning": "站不住脚的，无说服力的",
+        "chunk_id": "c_007_003"
+      },
+      {
+        "word": "exploring",
+        "pos": "v.",
+        "meaning": "查看，探查",
+        "chunk_id": "c_007_005"
+      },
+      {
+        "word": "vast",
+        "pos": "adj.",
+        "meaning": "巨大的",
+        "chunk_id": "c_007_006"
+      },
+      {
+        "word": "storehouse",
+        "pos": "n.",
+        "meaning": "仓库，储存处",
+        "chunk_id": "c_007_006"
+      },
+      {
+        "word": "purse",
+        "pos": "n.",
+        "meaning": "钱包，手提包",
+        "chunk_id": "c_007_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "start by",
+        "phrase_type": "v. phr.",
+        "meaning": "从……开始",
+        "chunk_id": "c_007_002"
+      },
+      {
+        "phrase": "similar to",
+        "phrase_type": "adj. phr.",
+        "meaning": "类似于",
+        "chunk_id": "c_007_007"
+      },
+      {
+        "phrase": "going through",
+        "phrase_type": "v. phr.",
+        "meaning": "翻查，仔细检查",
+        "chunk_id": "c_007_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The court has ruled that police don’t violate the Fourth Amendment when they go through the wallet or pocketbook of an arrestee without a warrant.",
+    "difficulty": 5,
+    "translation_literal": "法院已经裁定，当警察在没有搜查令的情况下翻查被捕者的钱包或手提包时，他们并没有违反第四修正案。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "The court",
+        "chinese": "法院",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "has ruled",
+        "chinese": "已经裁定",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "宾语从句",
+        "english": "that police don’t violate the Fourth Amendment",
+        "chinese": "警察并没有违反第四修正案",
+        "parent_id": null,
+        "target_id": "c_008_002",
+        "relation": "作 ruled 的宾语"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "从句主语",
+        "english": "police",
+        "chinese": "警察",
+        "parent_id": "c_008_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "从句谓语",
+        "english": "don’t violate",
+        "chinese": "没有违反",
+        "parent_id": "c_008_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "从句宾语",
+        "english": "the Fourth Amendment",
+        "chinese": "第四修正案",
+        "parent_id": "c_008_003",
+        "target_id": "c_008_005",
+        "relation": "作 violate 的宾语"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "状语从句",
+        "english": "when they go through the wallet or pocketbook of an arrestee without a warrant",
+        "chinese": "当他们在没有搜查令的情况下翻查被捕者的钱包或手提包时",
+        "parent_id": null,
+        "target_id": "c_008_005",
+        "relation": "说明没有违反第四修正案的情形"
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "状语",
+        "english": "without a warrant",
+        "chinese": "在没有搜查令的情况下",
+        "parent_id": "c_008_007",
+        "target_id": "c_008_007",
+        "relation": "说明翻查行为缺少搜查令"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "ruled",
+        "pos": "v.",
+        "meaning": "裁定，判定",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "word": "violate",
+        "pos": "v.",
+        "meaning": "违反，侵犯",
+        "chunk_id": "c_008_005"
+      },
+      {
+        "word": "Amendment",
+        "pos": "n.",
+        "meaning": "修正案",
+        "chunk_id": "c_008_006"
+      },
+      {
+        "word": "arrestee",
+        "pos": "n.",
+        "meaning": "被捕者",
+        "chunk_id": "c_008_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "the Fourth Amendment",
+        "phrase_type": "n. phr.",
+        "meaning": "美国宪法第四修正案",
+        "chunk_id": "c_008_006"
+      },
+      {
+        "phrase": "go through",
+        "phrase_type": "v. phr.",
+        "meaning": "翻查，检查",
+        "chunk_id": "c_008_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "But exploring one’s smartphone is more like entering his or her home.",
+    "difficulty": 3,
+    "translation_literal": "但是，查看某人的智能手机更像是进入他或她的家。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "连接前后句，表示转折"
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "主语",
+        "english": "exploring one’s smartphone",
+        "chinese": "查看某人的智能手机",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "表语",
+        "english": "more like entering his or her home",
+        "chinese": "更像是进入他或她的家",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "作系动词 is 后的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "exploring",
+        "pos": "v.",
+        "meaning": "查看，探查",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "smartphone",
+        "pos": "n.",
+        "meaning": "智能手机",
+        "chunk_id": "c_009_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "more like",
+        "phrase_type": "collocation",
+        "meaning": "更像是",
+        "chunk_id": "c_009_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "A smartphone may contain an arrestee’s reading history, financial history, medical history and comprehensive records of recent correspondence.",
+    "difficulty": 4,
+    "translation_literal": "一部智能手机可能包含被捕者的阅读历史、财务历史、医疗历史以及近期通信的全面记录。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "A smartphone",
+        "chinese": "一部智能手机",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "may contain",
+        "chinese": "可能包含",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "宾语",
+        "english": "an arrestee’s reading history, financial history, medical history and comprehensive records of recent correspondence",
+        "chinese": "被捕者的阅读历史、财务历史、医疗历史以及近期通信的全面记录",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "作 may contain 的宾语"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "定语",
+        "english": "of recent correspondence",
+        "chinese": "近期通信的",
+        "parent_id": "c_010_003",
+        "target_id": "c_010_003",
+        "relation": "修饰 records，说明记录的内容"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, B, C and D",
+        "explanation": "reading history, financial history, medical history and comprehensive records 并列作 contain 的宾语，阅读时要并列展开。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "contain",
+        "pos": "v.",
+        "meaning": "包含，含有",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "financial",
+        "pos": "adj.",
+        "meaning": "财务的，金融的",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "medical",
+        "pos": "adj.",
+        "meaning": "医疗的",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "comprehensive",
+        "pos": "adj.",
+        "meaning": "全面的，综合的",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "correspondence",
+        "pos": "n.",
+        "meaning": "通信，来往信件",
+        "chunk_id": "c_010_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "reading history",
+        "phrase_type": "n. phr.",
+        "meaning": "阅读历史",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "phrase": "financial history",
+        "phrase_type": "n. phr.",
+        "meaning": "财务历史",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "phrase": "medical history",
+        "phrase_type": "n. phr.",
+        "meaning": "医疗历史",
+        "chunk_id": "c_010_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The development of “cloud computing,” meanwhile, has made that exploration so much the easier.",
+    "difficulty": 4,
+    "translation_literal": "与此同时，“云计算”的发展已经使那种查看变得容易得多。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "The development of “cloud computing”",
+        "chinese": "“云计算”的发展",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "定语",
+        "english": "of “cloud computing”",
+        "chinese": "“云计算”的",
+        "parent_id": "c_011_001",
+        "target_id": "c_011_001",
+        "relation": "修饰 development，说明发展的对象"
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "插入语",
+        "english": "meanwhile",
+        "chinese": "与此同时",
+        "parent_id": null,
+        "target_id": "c_011_004",
+        "relation": "说明句子与前文的时间关系"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "谓语",
+        "english": "has made",
+        "chinese": "已经使",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "宾语",
+        "english": "that exploration",
+        "chinese": "那种查看",
+        "parent_id": null,
+        "target_id": "c_011_004",
+        "relation": "作 has made 的宾语"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "宾语补足语",
+        "english": "so much the easier",
+        "chinese": "容易得多",
+        "parent_id": null,
+        "target_id": "c_011_005",
+        "relation": "补充说明宾语 that exploration 的状态"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语和谓语之间插入副词",
+        "explanation": "meanwhile 插在主语和谓语之间，主干是 The development... has made...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "development",
+        "pos": "n.",
+        "meaning": "发展",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "meanwhile",
+        "pos": "adv.",
+        "meaning": "与此同时",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "word": "exploration",
+        "pos": "n.",
+        "meaning": "查看，探查",
+        "chunk_id": "c_011_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "cloud computing",
+        "phrase_type": "n. phr.",
+        "meaning": "云计算",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "phrase": "so much the easier",
+        "phrase_type": "adj. phr.",
+        "meaning": "容易得多",
+        "chunk_id": "c_011_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Americans should take steps to protect their digital privacy.",
+    "difficulty": 2,
+    "translation_literal": "美国人应该采取措施来保护他们的数字隐私。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "Americans",
+        "chinese": "美国人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "should take",
+        "chinese": "应该采取",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "宾语",
+        "english": "steps",
+        "chinese": "措施",
+        "parent_id": null,
+        "target_id": "c_012_002",
+        "relation": "作 should take 的宾语"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "状语",
+        "english": "to protect their digital privacy",
+        "chinese": "来保护他们的数字隐私",
+        "parent_id": null,
+        "target_id": "c_012_002",
+        "relation": "说明采取措施的目的"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "steps",
+        "pos": "n.",
+        "meaning": "措施，步骤",
+        "chunk_id": "c_012_003"
+      },
+      {
+        "word": "protect",
+        "pos": "v.",
+        "meaning": "保护",
+        "chunk_id": "c_012_004"
+      },
+      {
+        "word": "privacy",
+        "pos": "n.",
+        "meaning": "隐私",
+        "chunk_id": "c_012_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "take steps",
+        "phrase_type": "v. phr.",
+        "meaning": "采取措施",
+        "chunk_id": "c_012_002"
+      },
+      {
+        "phrase": "digital privacy",
+        "phrase_type": "n. phr.",
+        "meaning": "数字隐私",
+        "chunk_id": "c_012_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "But keeping sensitive information on these devices is increasingly a requirement of normal life.",
+    "difficulty": 3,
+    "translation_literal": "但是，把敏感信息保存在这些设备上越来越成为正常生活的一项要求。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "连接前后句，表示转折"
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "主语",
+        "english": "keeping sensitive information on these devices",
+        "chinese": "把敏感信息保存在这些设备上",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "状语",
+        "english": "increasingly",
+        "chinese": "越来越",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "修饰谓语，说明变化趋势"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "表语",
+        "english": "a requirement of normal life",
+        "chinese": "正常生活的一项要求",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "作系动词 is 后的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "sensitive",
+        "pos": "adj.",
+        "meaning": "敏感的",
+        "chunk_id": "c_013_002"
+      },
+      {
+        "word": "devices",
+        "pos": "n.",
+        "meaning": "设备",
+        "chunk_id": "c_013_002"
+      },
+      {
+        "word": "increasingly",
+        "pos": "adv.",
+        "meaning": "越来越",
+        "chunk_id": "c_013_004"
+      },
+      {
+        "word": "requirement",
+        "pos": "n.",
+        "meaning": "要求，必要条件",
+        "chunk_id": "c_013_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "normal life",
+        "phrase_type": "n. phr.",
+        "meaning": "正常生活",
+        "chunk_id": "c_013_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Citizens still have a right to expect private documents to remain private and protected by the Constitution’s prohibition on unreasonable searches.",
+    "difficulty": 5,
+    "translation_literal": "公民仍然有权期待私人文件保持私密，并受到宪法对不合理搜查的禁止条款的保护。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "Citizens",
+        "chinese": "公民",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "状语",
+        "english": "still",
+        "chinese": "仍然",
+        "parent_id": null,
+        "target_id": "c_014_003",
+        "relation": "修饰谓语，说明权利仍然存在"
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "谓语",
+        "english": "have",
+        "chinese": "有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "宾语",
+        "english": "a right",
+        "chinese": "一项权利",
+        "parent_id": null,
+        "target_id": "c_014_003",
+        "relation": "作 have 的宾语"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "定语",
+        "english": "to expect private documents to remain private and protected by the Constitution’s prohibition on unreasonable searches",
+        "chinese": "期待私人文件保持私密并受到宪法对不合理搜查的禁止条款保护的",
+        "parent_id": "c_014_004",
+        "target_id": "c_014_004",
+        "relation": "修饰 right，说明权利内容"
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "宾语补足语",
+        "english": "to remain private and protected",
+        "chinese": "保持私密并受到保护",
+        "parent_id": "c_014_005",
+        "target_id": "c_014_007",
+        "relation": "补充说明 private documents 的状态"
+      },
+      {
+        "chunk_id": "c_014_007",
+        "role": "宾语",
+        "english": "private documents",
+        "chinese": "私人文件",
+        "parent_id": "c_014_005",
+        "target_id": "c_014_005",
+        "relation": "作 expect 的宾语"
+      },
+      {
+        "chunk_id": "c_014_008",
+        "role": "状语",
+        "english": "by the Constitution’s prohibition on unreasonable searches",
+        "chinese": "由宪法对不合理搜查的禁止条款",
+        "parent_id": "c_014_006",
+        "target_id": "c_014_006",
+        "relation": "说明受保护的依据"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Citizens",
+        "pos": "n.",
+        "meaning": "公民",
+        "chunk_id": "c_014_001"
+      },
+      {
+        "word": "private",
+        "pos": "adj.",
+        "meaning": "私人的，私密的",
+        "chunk_id": "c_014_007"
+      },
+      {
+        "word": "protected",
+        "pos": "adj.",
+        "meaning": "受到保护的",
+        "chunk_id": "c_014_006"
+      },
+      {
+        "word": "prohibition",
+        "pos": "n.",
+        "meaning": "禁止，禁令",
+        "chunk_id": "c_014_008"
+      },
+      {
+        "word": "unreasonable",
+        "pos": "adj.",
+        "meaning": "不合理的",
+        "chunk_id": "c_014_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "have a right to",
+        "phrase_type": "v. phr.",
+        "meaning": "有权做某事",
+        "chunk_id": "c_014_004"
+      },
+      {
+        "phrase": "unreasonable searches",
+        "phrase_type": "n. phr.",
+        "meaning": "不合理搜查",
+        "chunk_id": "c_014_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "As so often is the case, stating that principle doesn’t ease the challenge of line-drawing.",
+    "difficulty": 4,
+    "translation_literal": "正如情况经常如此，陈述那个原则并不会减轻划线界定的挑战。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "状语从句",
+        "english": "As so often is the case",
+        "chinese": "正如情况经常如此",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "修饰主句，说明常见情况"
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "主语",
+        "english": "stating that principle",
+        "chinese": "陈述那个原则",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "谓语",
+        "english": "doesn’t ease",
+        "chinese": "并不会减轻",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "宾语",
+        "english": "the challenge of line-drawing",
+        "chinese": "划线界定的挑战",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "作 doesn’t ease 的宾语"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "定语",
+        "english": "of line-drawing",
+        "chinese": "划线界定的",
+        "parent_id": "c_015_004",
+        "target_id": "c_015_004",
+        "relation": "修饰 challenge，说明挑战内容"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "As + 主谓结构",
+        "explanation": "As so often is the case 是固定的 as 结构，表示“情况常常如此”。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "stating",
+        "pos": "v.",
+        "meaning": "陈述，说明",
+        "chunk_id": "c_015_002"
+      },
+      {
+        "word": "principle",
+        "pos": "n.",
+        "meaning": "原则",
+        "chunk_id": "c_015_002"
+      },
+      {
+        "word": "ease",
+        "pos": "v.",
+        "meaning": "减轻，缓解",
+        "chunk_id": "c_015_003"
+      },
+      {
+        "word": "challenge",
+        "pos": "n.",
+        "meaning": "挑战，难题",
+        "chunk_id": "c_015_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "As so often is the case",
+        "phrase_type": "as-structure",
+        "meaning": "正如情况经常如此",
+        "chunk_id": "c_015_001"
+      },
+      {
+        "phrase": "line-drawing",
+        "phrase_type": "n. phr.",
+        "meaning": "划定界限，界限划分",
+        "chunk_id": "c_015_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "In many cases, it would not be overly burdensome for authorities to obtain a warrant to search through phone contents.",
+    "difficulty": 4,
+    "translation_literal": "在许多情况下，对于当局来说，获得一张搜查令来搜查手机内容并不会过分繁重。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "状语",
+        "english": "In many cases",
+        "chinese": "在许多情况下",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "说明主句判断适用的范围"
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "形式主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": "c_016_005",
+        "relation": "形式主语，真正主语由不定式结构承担"
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "谓语",
+        "english": "would not be",
+        "chinese": "并不会是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "表语",
+        "english": "overly burdensome",
+        "chinese": "过分繁重的",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "作 would not be 后的表语"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "真正主语",
+        "english": "for authorities to obtain a warrant to search through phone contents",
+        "chinese": "对于当局来说获得一张搜查令来搜查手机内容",
+        "parent_id": null,
+        "target_id": "c_016_002",
+        "relation": "对应形式主语 it"
+      },
+      {
+        "chunk_id": "c_016_006",
+        "role": "状语",
+        "english": "to search through phone contents",
+        "chinese": "来搜查手机内容",
+        "parent_id": "c_016_005",
+        "target_id": "c_016_005",
+        "relation": "说明获得搜查令的目的"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is + adj. + for sb. + to do sth.",
+        "explanation": "it 是形式主语，真正主语是 for authorities to obtain a warrant...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "overly",
+        "pos": "adv.",
+        "meaning": "过度地，过分地",
+        "chunk_id": "c_016_004"
+      },
+      {
+        "word": "burdensome",
+        "pos": "adj.",
+        "meaning": "繁重的，造成负担的",
+        "chunk_id": "c_016_004"
+      },
+      {
+        "word": "authorities",
+        "pos": "n.",
+        "meaning": "当局，执法机关",
+        "chunk_id": "c_016_005"
+      },
+      {
+        "word": "obtain",
+        "pos": "v.",
+        "meaning": "获得",
+        "chunk_id": "c_016_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "obtain a warrant",
+        "phrase_type": "v. phr.",
+        "meaning": "获得搜查令",
+        "chunk_id": "c_016_005"
+      },
+      {
+        "phrase": "search through",
+        "phrase_type": "v. phr.",
+        "meaning": "搜查，翻查",
+        "chunk_id": "c_016_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "They could still invalidate Fourth Amendment protections when facing severe, urgent circumstances, and they could take reasonable measures to ensure that phone data are not erased or altered while waiting for a warrant.",
+    "difficulty": 5,
+    "translation_literal": "当面临严重且紧急的情况时，他们仍然可以使第四修正案的保护失效，并且他们可以采取合理措施来确保手机数据在等待搜查令期间不被删除或更改。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "They",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "could still invalidate",
+        "chinese": "仍然可以使……失效",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "宾语",
+        "english": "Fourth Amendment protections",
+        "chinese": "第四修正案的保护",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "作 invalidate 的宾语"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "状语从句",
+        "english": "when facing severe, urgent circumstances",
+        "chinese": "当面临严重且紧急的情况时",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "说明使保护失效的情形"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "并列分句",
+        "english": "and they could take reasonable measures",
+        "chinese": "并且他们可以采取合理措施",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "与前一分句并列"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "状语",
+        "english": "to ensure that phone data are not erased or altered while waiting for a warrant",
+        "chinese": "来确保手机数据在等待搜查令期间不被删除或更改",
+        "parent_id": "c_017_005",
+        "target_id": "c_017_005",
+        "relation": "说明采取措施的目的"
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "宾语从句",
+        "english": "that phone data are not erased or altered",
+        "chinese": "手机数据不被删除或更改",
+        "parent_id": "c_017_006",
+        "target_id": "c_017_006",
+        "relation": "作 ensure 的宾语"
+      },
+      {
+        "chunk_id": "c_017_008",
+        "role": "状语从句",
+        "english": "while waiting for a warrant",
+        "chinese": "在等待搜查令期间",
+        "parent_id": "c_017_006",
+        "target_id": "c_017_007",
+        "relation": "说明数据不被删除或更改的时间"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "when + doing",
+        "explanation": "when facing severe, urgent circumstances 省略了主语和 be 动词，可理解为 when they are facing...。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "并列谓语/并列分句",
+        "explanation": "could still invalidate... 和 could take reasonable measures... 构成并列动作，后半部分又包含 ensure 后的宾语从句。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "invalidate",
+        "pos": "v.",
+        "meaning": "使无效，使失效",
+        "chunk_id": "c_017_002"
+      },
+      {
+        "word": "severe",
+        "pos": "adj.",
+        "meaning": "严重的",
+        "chunk_id": "c_017_004"
+      },
+      {
+        "word": "urgent",
+        "pos": "adj.",
+        "meaning": "紧急的",
+        "chunk_id": "c_017_004"
+      },
+      {
+        "word": "reasonable",
+        "pos": "adj.",
+        "meaning": "合理的",
+        "chunk_id": "c_017_005"
+      },
+      {
+        "word": "erased",
+        "pos": "v.",
+        "meaning": "被删除",
+        "chunk_id": "c_017_007"
+      },
+      {
+        "word": "altered",
+        "pos": "v.",
+        "meaning": "被更改",
+        "chunk_id": "c_017_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Fourth Amendment protections",
+        "phrase_type": "n. phr.",
+        "meaning": "第四修正案的保护",
+        "chunk_id": "c_017_003"
+      },
+      {
+        "phrase": "take reasonable measures",
+        "phrase_type": "v. phr.",
+        "meaning": "采取合理措施",
+        "chunk_id": "c_017_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The court, though, may want to allow room for police to cite situations where they are entitled to more freedom.",
+    "difficulty": 4,
+    "translation_literal": "不过，法院可能想要留出空间，让警察引用他们有权获得更多自由的情形。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "主语",
+        "english": "The court",
+        "chinese": "法院",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "插入语",
+        "english": "though",
+        "chinese": "不过",
+        "parent_id": null,
+        "target_id": "c_018_003",
+        "relation": "表示转折"
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "谓语",
+        "english": "may want",
+        "chinese": "可能想要",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "宾语",
+        "english": "to allow room for police to cite situations",
+        "chinese": "留出空间让警察引用情形",
+        "parent_id": null,
+        "target_id": "c_018_003",
+        "relation": "作 may want 的宾语"
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "定语从句",
+        "english": "where they are entitled to more freedom",
+        "chinese": "他们有权获得更多自由的",
+        "parent_id": "c_018_004",
+        "target_id": "c_018_004",
+        "relation": "修饰 situations"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语后插入转折副词",
+        "explanation": "though 插在主语 The court 后面，表示转折，主干是 The court may want...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "allow",
+        "pos": "v.",
+        "meaning": "允许，留出",
+        "chunk_id": "c_018_004"
+      },
+      {
+        "word": "cite",
+        "pos": "v.",
+        "meaning": "引用，援引",
+        "chunk_id": "c_018_004"
+      },
+      {
+        "word": "situations",
+        "pos": "n.",
+        "meaning": "情形，情况",
+        "chunk_id": "c_018_004"
+      },
+      {
+        "word": "entitled",
+        "pos": "adj.",
+        "meaning": "有权利的，有资格的",
+        "chunk_id": "c_018_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "allow room for",
+        "phrase_type": "v. phr.",
+        "meaning": "为……留出空间",
+        "chunk_id": "c_018_004"
+      },
+      {
+        "phrase": "be entitled to",
+        "phrase_type": "v. phr.",
+        "meaning": "有权获得",
+        "chunk_id": "c_018_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "But the justices should not swallow California’s argument whole.",
+    "difficulty": 3,
+    "translation_literal": "但是，大法官们不应该全盘接受加利福尼亚州的论点。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "连接前后句，表示转折"
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "主语",
+        "english": "the justices",
+        "chinese": "大法官们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "谓语",
+        "english": "should not swallow",
+        "chinese": "不应该接受",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "宾语",
+        "english": "California’s argument",
+        "chinese": "加利福尼亚州的论点",
+        "parent_id": null,
+        "target_id": "c_019_003",
+        "relation": "作 swallow 的宾语"
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "状语",
+        "english": "whole",
+        "chinese": "全盘地",
+        "parent_id": null,
+        "target_id": "c_019_003",
+        "relation": "修饰 swallow，说明接受的程度"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "justices",
+        "pos": "n.",
+        "meaning": "大法官们",
+        "chunk_id": "c_019_002"
+      },
+      {
+        "word": "swallow",
+        "pos": "v.",
+        "meaning": "接受，轻信",
+        "chunk_id": "c_019_003"
+      },
+      {
+        "word": "argument",
+        "pos": "n.",
+        "meaning": "论点，主张",
+        "chunk_id": "c_019_004"
+      },
+      {
+        "word": "whole",
+        "pos": "adv.",
+        "meaning": "整个地，全盘地",
+        "chunk_id": "c_019_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "swallow whole",
+        "phrase_type": "idiom",
+        "meaning": "全盘接受，照单全收",
+        "chunk_id": "c_019_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "New, disruptive technology sometimes demands novel applications of the Constitution’s protections.",
+    "difficulty": 4,
+    "translation_literal": "新的、具有颠覆性的技术有时要求对宪法保护作出新的应用。",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "主语",
+        "english": "New, disruptive technology",
+        "chinese": "新的、具有颠覆性的技术",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "谓语",
+        "english": "sometimes demands",
+        "chinese": "有时要求",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "宾语",
+        "english": "novel applications of the Constitution’s protections",
+        "chinese": "对宪法保护的新的应用",
+        "parent_id": null,
+        "target_id": "c_020_002",
+        "relation": "作 demands 的宾语"
+      },
+      {
+        "chunk_id": "c_020_004",
+        "role": "定语",
+        "english": "of the Constitution’s protections",
+        "chinese": "宪法保护的",
+        "parent_id": "c_020_003",
+        "target_id": "c_020_003",
+        "relation": "修饰 applications，说明应用的对象"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "disruptive",
+        "pos": "adj.",
+        "meaning": "颠覆性的，造成重大变化的",
+        "chunk_id": "c_020_001"
+      },
+      {
+        "word": "demands",
+        "pos": "v.",
+        "meaning": "要求，需要",
+        "chunk_id": "c_020_002"
+      },
+      {
+        "word": "novel",
+        "pos": "adj.",
+        "meaning": "新的，新颖的",
+        "chunk_id": "c_020_003"
+      },
+      {
+        "word": "applications",
+        "pos": "n.",
+        "meaning": "应用，适用",
+        "chunk_id": "c_020_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "the Constitution’s protections",
+        "phrase_type": "n. phr.",
+        "meaning": "宪法的保护",
+        "chunk_id": "c_020_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_021",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Orin Kerr, a law professor, compares the explosion and accessibility of digital information in the 21st century with the establishment of automobile use as a virtual necessity of life in the 20th.",
+    "difficulty": 5,
+    "translation_literal": "法律教授奥林·克尔把21世纪数字信息的爆炸式增长和可获得性，与20世纪汽车使用作为生活中实际必需品的确立相比较。",
+    "chunks": [
+      {
+        "chunk_id": "c_021_001",
+        "role": "主语",
+        "english": "Orin Kerr",
+        "chinese": "奥林·克尔",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_002",
+        "role": "同位语",
+        "english": "a law professor",
+        "chinese": "一位法律教授",
+        "parent_id": null,
+        "target_id": "c_021_001",
+        "relation": "解释说明 Orin Kerr 的身份"
+      },
+      {
+        "chunk_id": "c_021_003",
+        "role": "谓语",
+        "english": "compares",
+        "chinese": "比较",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_004",
+        "role": "宾语",
+        "english": "the explosion and accessibility of digital information in the 21st century",
+        "chinese": "21世纪数字信息的爆炸式增长和可获得性",
+        "parent_id": null,
+        "target_id": "c_021_003",
+        "relation": "作 compares 的第一个比较对象"
+      },
+      {
+        "chunk_id": "c_021_005",
+        "role": "定语",
+        "english": "of digital information",
+        "chinese": "数字信息的",
+        "parent_id": "c_021_004",
+        "target_id": "c_021_004",
+        "relation": "修饰 explosion and accessibility"
+      },
+      {
+        "chunk_id": "c_021_006",
+        "role": "状语",
+        "english": "in the 21st century",
+        "chinese": "在21世纪",
+        "parent_id": "c_021_004",
+        "target_id": "c_021_004",
+        "relation": "说明数字信息变化发生的时间"
+      },
+      {
+        "chunk_id": "c_021_007",
+        "role": "状语",
+        "english": "with the establishment of automobile use as a virtual necessity of life in the 20th",
+        "chinese": "与20世纪汽车使用作为生活中实际必需品的确立",
+        "parent_id": null,
+        "target_id": "c_021_003",
+        "relation": "说明第二个比较对象"
+      },
+      {
+        "chunk_id": "c_021_008",
+        "role": "定语",
+        "english": "as a virtual necessity of life",
+        "chinese": "作为生活中实际必需品的",
+        "parent_id": "c_021_007",
+        "target_id": "c_021_007",
+        "relation": "修饰 automobile use，说明其地位"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "专有名词 + 同位语",
+        "explanation": "a law professor 是 Orin Kerr 的同位语，解释其身份。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A and B",
+        "explanation": "the explosion and accessibility of digital information 是并列名词结构，共同作为 compares 的第一个比较对象。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "compares",
+        "pos": "v.",
+        "meaning": "比较",
+        "chunk_id": "c_021_003"
+      },
+      {
+        "word": "explosion",
+        "pos": "n.",
+        "meaning": "激增，爆炸式增长",
+        "chunk_id": "c_021_004"
+      },
+      {
+        "word": "accessibility",
+        "pos": "n.",
+        "meaning": "可获得性，易接近性",
+        "chunk_id": "c_021_004"
+      },
+      {
+        "word": "establishment",
+        "pos": "n.",
+        "meaning": "确立，建立",
+        "chunk_id": "c_021_007"
+      },
+      {
+        "word": "automobile",
+        "pos": "n.",
+        "meaning": "汽车",
+        "chunk_id": "c_021_007"
+      },
+      {
+        "word": "virtual",
+        "pos": "adj.",
+        "meaning": "实际上的，事实上的",
+        "chunk_id": "c_021_008"
+      },
+      {
+        "word": "necessity",
+        "pos": "n.",
+        "meaning": "必需品，必要性",
+        "chunk_id": "c_021_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "compare A with B",
+        "phrase_type": "v. phr.",
+        "meaning": "把A与B相比较",
+        "chunk_id": "c_021_003"
+      },
+      {
+        "phrase": "digital information",
+        "phrase_type": "n. phr.",
+        "meaning": "数字信息",
+        "chunk_id": "c_021_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_022",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The justices had to specify novel rules for the new personal domain of the passenger car then; they must sort out how the Fourth Amendment applies to digital information now.",
+    "difficulty": 5,
+    "translation_literal": "大法官们当时不得不为乘用车这一新的个人领域规定新的规则；他们现在必须弄清楚第四修正案如何适用于数字信息。",
+    "chunks": [
+      {
+        "chunk_id": "c_022_001",
+        "role": "并列分句",
+        "english": "The justices had to specify novel rules for the new personal domain of the passenger car then",
+        "chinese": "大法官们当时不得不为乘用车这一新的个人领域规定新的规则",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "分号前的第一分句"
+      },
+      {
+        "chunk_id": "c_022_002",
+        "role": "主语",
+        "english": "The justices",
+        "chinese": "大法官们",
+        "parent_id": "c_022_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_003",
+        "role": "谓语",
+        "english": "had to specify",
+        "chinese": "不得不规定",
+        "parent_id": "c_022_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_004",
+        "role": "宾语",
+        "english": "novel rules",
+        "chinese": "新的规则",
+        "parent_id": "c_022_001",
+        "target_id": "c_022_003",
+        "relation": "作 specify 的宾语"
+      },
+      {
+        "chunk_id": "c_022_005",
+        "role": "状语",
+        "english": "for the new personal domain of the passenger car",
+        "chinese": "为乘用车这一新的个人领域",
+        "parent_id": "c_022_001",
+        "target_id": "c_022_003",
+        "relation": "说明规定规则的适用对象"
+      },
+      {
+        "chunk_id": "c_022_006",
+        "role": "并列分句",
+        "english": "they must sort out how the Fourth Amendment applies to digital information now",
+        "chinese": "他们现在必须弄清楚第四修正案如何适用于数字信息",
+        "parent_id": null,
+        "target_id": "c_022_001",
+        "relation": "与第一分句并列，形成过去与现在的对照"
+      },
+      {
+        "chunk_id": "c_022_007",
+        "role": "主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_022_006",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_008",
+        "role": "谓语",
+        "english": "must sort out",
+        "chinese": "必须弄清楚",
+        "parent_id": "c_022_006",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_009",
+        "role": "宾语从句",
+        "english": "how the Fourth Amendment applies to digital information now",
+        "chinese": "第四修正案现在如何适用于数字信息",
+        "parent_id": "c_022_006",
+        "target_id": "c_022_008",
+        "relation": "作 sort out 的宾语"
+      },
+      {
+        "chunk_id": "c_022_010",
+        "role": "从句谓语",
+        "english": "applies to",
+        "chinese": "适用于",
+        "parent_id": "c_022_009",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_011",
+        "role": "从句宾语",
+        "english": "digital information",
+        "chinese": "数字信息",
+        "parent_id": "c_022_009",
+        "target_id": "c_022_010",
+        "relation": "作 applies to 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "分号连接并列分句",
+        "explanation": "分号连接过去和现在两个并列分句：had to specify... then 与 must sort out... now 形成对照。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "specify",
+        "pos": "v.",
+        "meaning": "明确规定，具体说明",
+        "chunk_id": "c_022_003"
+      },
+      {
+        "word": "novel",
+        "pos": "adj.",
+        "meaning": "新的，新颖的",
+        "chunk_id": "c_022_004"
+      },
+      {
+        "word": "domain",
+        "pos": "n.",
+        "meaning": "领域，范围",
+        "chunk_id": "c_022_005"
+      },
+      {
+        "word": "passenger",
+        "pos": "adj.",
+        "meaning": "乘客的，载客的",
+        "chunk_id": "c_022_005"
+      },
+      {
+        "word": "applies",
+        "pos": "v.",
+        "meaning": "适用",
+        "chunk_id": "c_022_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "had to",
+        "phrase_type": "modal phr.",
+        "meaning": "不得不",
+        "chunk_id": "c_022_003"
+      },
+      {
+        "phrase": "sort out",
+        "phrase_type": "v. phr.",
+        "meaning": "弄清楚，理清",
+        "chunk_id": "c_022_008"
+      },
+      {
+        "phrase": "applies to",
+        "phrase_type": "v. phr.",
+        "meaning": "适用于",
+        "chunk_id": "c_022_010"
+      }
+    ]
+  }
+]

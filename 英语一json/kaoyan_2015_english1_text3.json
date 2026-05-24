@@ -1,0 +1,2282 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The journal Science is adding an extra round of statistical checks to its peer-review process, editor-in-chief Marcia McNutt announced today.",
+    "difficulty": 4,
+    "translation_literal": "《科学》杂志正在给它的同行评审流程增加一轮额外的统计检查，主编玛西娅·麦克纳特今天宣布。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "The journal Science",
+        "chinese": "《科学》杂志",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "谓语",
+        "english": "is adding",
+        "chinese": "正在增加",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "宾语",
+        "english": "an extra round of statistical checks",
+        "chinese": "一轮额外的统计检查",
+        "parent_id": null,
+        "target_id": "c_001_002",
+        "relation": "作 is adding 的宾语"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "状语",
+        "english": "to its peer-review process",
+        "chinese": "到它的同行评审流程中",
+        "parent_id": null,
+        "target_id": "c_001_002",
+        "relation": "说明增加到哪里"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "插入语",
+        "english": "editor-in-chief Marcia McNutt announced today",
+        "chinese": "主编玛西娅·麦克纳特今天宣布",
+        "parent_id": null,
+        "target_id": "c_001_001",
+        "relation": "说明消息来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句后补充消息来源",
+        "explanation": "editor-in-chief Marcia McNutt announced today 放在句末，说明前面内容是谁宣布的。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "journal",
+        "pos": "n.",
+        "meaning": "期刊，杂志",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "extra",
+        "pos": "adj.",
+        "meaning": "额外的",
+        "chunk_id": "c_001_003"
+      },
+      {
+        "word": "statistical",
+        "pos": "adj.",
+        "meaning": "统计的",
+        "chunk_id": "c_001_003"
+      },
+      {
+        "word": "peer-review",
+        "pos": "adj.",
+        "meaning": "同行评审的",
+        "chunk_id": "c_001_004"
+      },
+      {
+        "word": "editor-in-chief",
+        "pos": "n.",
+        "meaning": "主编",
+        "chunk_id": "c_001_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "peer-review process",
+        "phrase_type": "n. phr.",
+        "meaning": "同行评审流程",
+        "chunk_id": "c_001_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The policy follows similar efforts from other journals, after widespread concern that basic mistakes in data analysis are contributing to the irreproducibility of many published research findings.",
+    "difficulty": 5,
+    "translation_literal": "这项政策是在广泛担忧之后跟随了其他期刊的类似努力，即数据分析中的基本错误正在导致许多已发表研究发现的不可重复性。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "The policy",
+        "chinese": "这项政策",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "follows",
+        "chinese": "跟随，效仿",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "宾语",
+        "english": "similar efforts from other journals",
+        "chinese": "其他期刊的类似努力",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "作 follows 的宾语"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "状语",
+        "english": "after widespread concern",
+        "chinese": "在广泛担忧之后",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "说明政策出现的背景"
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "同位语从句",
+        "english": "that basic mistakes in data analysis are contributing to the irreproducibility of many published research findings",
+        "chinese": "即数据分析中的基本错误正在导致许多已发表研究发现的不可重复性",
+        "parent_id": null,
+        "target_id": "c_002_004",
+        "relation": "解释 concern 的具体内容"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "从句主语",
+        "english": "basic mistakes in data analysis",
+        "chinese": "数据分析中的基本错误",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": "同位语从句内部主语"
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "定语",
+        "english": "in data analysis",
+        "chinese": "数据分析中的",
+        "parent_id": "c_002_005",
+        "target_id": "c_002_006",
+        "relation": "修饰 basic mistakes"
+      },
+      {
+        "chunk_id": "c_002_008",
+        "role": "从句谓语",
+        "english": "are contributing to",
+        "chinese": "正在导致",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": "同位语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_002_009",
+        "role": "从句宾语",
+        "english": "the irreproducibility of many published research findings",
+        "chinese": "许多已发表研究发现的不可重复性",
+        "parent_id": "c_002_005",
+        "target_id": "c_002_008",
+        "relation": "作 are contributing to 的宾语"
+      },
+      {
+        "chunk_id": "c_002_010",
+        "role": "定语",
+        "english": "of many published research findings",
+        "chinese": "许多已发表研究发现的",
+        "parent_id": "c_002_009",
+        "target_id": "c_002_009",
+        "relation": "修饰 irreproducibility"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "抽象名词 + that 从句",
+        "explanation": "that basic mistakes... 解释 widespread concern 的具体内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "policy",
+        "pos": "n.",
+        "meaning": "政策，规定",
+        "chunk_id": "c_002_001"
+      },
+      {
+        "word": "similar",
+        "pos": "adj.",
+        "meaning": "类似的",
+        "chunk_id": "c_002_003"
+      },
+      {
+        "word": "widespread",
+        "pos": "adj.",
+        "meaning": "广泛的",
+        "chunk_id": "c_002_004"
+      },
+      {
+        "word": "irreproducibility",
+        "pos": "n.",
+        "meaning": "不可重复性",
+        "chunk_id": "c_002_005"
+      },
+      {
+        "word": "findings",
+        "pos": "n.",
+        "meaning": "研究发现",
+        "chunk_id": "c_002_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "data analysis",
+        "phrase_type": "n. phr.",
+        "meaning": "数据分析",
+        "chunk_id": "c_002_005"
+      },
+      {
+        "phrase": "published research findings",
+        "phrase_type": "n. phr.",
+        "meaning": "已发表的研究发现",
+        "chunk_id": "c_002_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "“Readers must have confidence in the conclusions published in our journal,” writes McNutt in an editorial.",
+    "difficulty": 3,
+    "translation_literal": "麦克纳特在一篇社论中写道：“读者必须对我们期刊发表的结论有信心。”",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "Readers",
+        "chinese": "读者",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "谓语",
+        "english": "must have",
+        "chinese": "必须有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "宾语",
+        "english": "confidence in the conclusions published in our journal",
+        "chinese": "对我们期刊发表的结论的信心",
+        "parent_id": null,
+        "target_id": "c_003_002",
+        "relation": "作 must have 的宾语"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "倒装结构",
+        "english": "writes McNutt in an editorial",
+        "chinese": "麦克纳特在一篇社论中写道",
+        "parent_id": null,
+        "target_id": "c_003_001",
+        "relation": "说明引语来源"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "主语",
+        "english": "Readers",
+        "chinese": "读者",
+        "parent_id": "c_003_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "谓语",
+        "english": "must have",
+        "chinese": "必须有",
+        "parent_id": "c_003_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "宾语核心",
+        "english": "confidence",
+        "chinese": "信心",
+        "parent_id": "c_003_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_008",
+        "role": "定语",
+        "english": "published in our journal",
+        "chinese": "发表在我们期刊上的",
+        "parent_id": "c_003_003",
+        "target_id": "c_003_003",
+        "relation": "修饰 conclusions"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "直接引语 + writes + 主语",
+        "explanation": "writes McNutt 位于引语后，是引语来源倒装。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "confidence",
+        "pos": "n.",
+        "meaning": "信心",
+        "chunk_id": "c_003_003"
+      },
+      {
+        "word": "conclusions",
+        "pos": "n.",
+        "meaning": "结论",
+        "chunk_id": "c_003_003"
+      },
+      {
+        "word": "published",
+        "pos": "v.",
+        "meaning": "发表",
+        "chunk_id": "c_003_003"
+      },
+      {
+        "word": "editorial",
+        "pos": "n.",
+        "meaning": "社论",
+        "chunk_id": "c_003_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "have confidence in",
+        "phrase_type": "v. phr.",
+        "meaning": "对……有信心",
+        "chunk_id": "c_003_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Working with the American Statistical Association, the journal has appointed seven experts to a statistics board of reviewing editors (SBoRE).",
+    "difficulty": 4,
+    "translation_literal": "通过与美国统计协会合作，该期刊已经任命了七位专家进入一个评审编辑统计委员会。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "状语",
+        "english": "Working with the American Statistical Association",
+        "chinese": "通过与美国统计协会合作",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "主语",
+        "english": "the journal",
+        "chinese": "该期刊",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "谓语",
+        "english": "has appointed",
+        "chinese": "已经任命",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "宾语",
+        "english": "seven experts",
+        "chinese": "七位专家",
+        "parent_id": null,
+        "target_id": "c_004_003",
+        "relation": "作 has appointed 的宾语"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "宾语补足语",
+        "english": "to a statistics board of reviewing editors (SBoRE)",
+        "chinese": "进入一个评审编辑统计委员会",
+        "parent_id": null,
+        "target_id": "c_004_004",
+        "relation": "补充说明专家被任命到哪里"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "appointed",
+        "pos": "v.",
+        "meaning": "任命",
+        "chunk_id": "c_004_003"
+      },
+      {
+        "word": "experts",
+        "pos": "n.",
+        "meaning": "专家",
+        "chunk_id": "c_004_004"
+      },
+      {
+        "word": "statistics",
+        "pos": "n.",
+        "meaning": "统计学，统计",
+        "chunk_id": "c_004_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "American Statistical Association",
+        "phrase_type": "n. phr.",
+        "meaning": "美国统计协会",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "phrase": "statistics board",
+        "phrase_type": "n. phr.",
+        "meaning": "统计委员会",
+        "chunk_id": "c_004_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Manuscripts will be flagged up for additional scrutiny by the journal’s internal editors, or by its existing Board of Reviewing Editors or by outside peer reviewers.",
+    "difficulty": 4,
+    "translation_literal": "稿件将被该期刊的内部编辑、其现有评审编辑委员会或外部同行评审者标记出来以接受额外审查。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "Manuscripts",
+        "chinese": "稿件",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "will be flagged up",
+        "chinese": "将被标记出来",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "状语",
+        "english": "for additional scrutiny",
+        "chinese": "以接受额外审查",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "说明标记目的"
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "状语",
+        "english": "by the journal’s internal editors, or by its existing Board of Reviewing Editors or by outside peer reviewers",
+        "chinese": "由该期刊的内部编辑、现有评审编辑委员会或外部同行评审者",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "说明动作执行者"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "by A, or by B or by C",
+        "explanation": "三个 by 短语并列说明可能标记稿件的主体。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Manuscripts",
+        "pos": "n.",
+        "meaning": "稿件，手稿",
+        "chunk_id": "c_005_001"
+      },
+      {
+        "word": "flagged",
+        "pos": "v.",
+        "meaning": "标记，标出",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "scrutiny",
+        "pos": "n.",
+        "meaning": "审查，仔细检查",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "internal",
+        "pos": "adj.",
+        "meaning": "内部的",
+        "chunk_id": "c_005_004"
+      },
+      {
+        "word": "reviewers",
+        "pos": "n.",
+        "meaning": "评审者",
+        "chunk_id": "c_005_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "flagged up",
+        "phrase_type": "v. phr.",
+        "meaning": "标记出来，特别指出",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "phrase": "peer reviewers",
+        "phrase_type": "n. phr.",
+        "meaning": "同行评审者",
+        "chunk_id": "c_005_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The SBoRE panel will then find external statisticians to review these manuscripts.",
+    "difficulty": 3,
+    "translation_literal": "SBoRE 小组随后将寻找外部统计学家来评审这些稿件。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "The SBoRE panel",
+        "chinese": "SBoRE 小组",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "will then find",
+        "chinese": "随后将寻找",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "宾语",
+        "english": "external statisticians",
+        "chinese": "外部统计学家",
+        "parent_id": null,
+        "target_id": "c_006_002",
+        "relation": "作 find 的宾语"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "状语",
+        "english": "to review these manuscripts",
+        "chinese": "来评审这些稿件",
+        "parent_id": null,
+        "target_id": "c_006_002",
+        "relation": "说明寻找统计学家的目的"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "panel",
+        "pos": "n.",
+        "meaning": "专家小组",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "external",
+        "pos": "adj.",
+        "meaning": "外部的",
+        "chunk_id": "c_006_003"
+      },
+      {
+        "word": "statisticians",
+        "pos": "n.",
+        "meaning": "统计学家",
+        "chunk_id": "c_006_003"
+      },
+      {
+        "word": "review",
+        "pos": "v.",
+        "meaning": "评审，审查",
+        "chunk_id": "c_006_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Asked whether any particular papers had impelled the change, McNutt said: “The creation of the statistics board was motivated by concerns broadly with the application of statistics and data analysis in scientific research and is part of Science’s overall drive to increase reproducibility in the research we publish.”",
+    "difficulty": 5,
+    "translation_literal": "当被问及是否有任何特定论文推动了这一改变时，麦克纳特说：“统计委员会的建立是由对科学研究中统计和数据分析应用的广泛担忧所推动的，并且是《科学》提高我们发表的研究可重复性的整体努力的一部分。”",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "省略结构",
+        "english": "Asked whether any particular papers had impelled the change",
+        "chinese": "当被问及是否有任何特定论文推动了这一改变时",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "主语",
+        "english": "McNutt",
+        "chinese": "麦克纳特",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "谓语",
+        "english": "said",
+        "chinese": "说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "宾语从句",
+        "english": "The creation of the statistics board was motivated by concerns broadly with the application of statistics and data analysis in scientific research and is part of Science’s overall drive to increase reproducibility in the research we publish",
+        "chinese": "统计委员会的建立是由对科学研究中统计和数据分析应用的广泛担忧所推动的，并且是《科学》提高我们发表的研究可重复性的整体努力的一部分",
+        "parent_id": null,
+        "target_id": "c_007_003",
+        "relation": "作 said 的引语内容"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "并列谓语",
+        "english": "was motivated ... and is part of ...",
+        "chinese": "受到推动并且是……的一部分",
+        "parent_id": "c_007_004",
+        "target_id": "c_007_004",
+        "relation": "说明 creation 的两个并列性质"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "定语从句",
+        "english": "we publish",
+        "chinese": "我们发表的",
+        "parent_id": "c_007_004",
+        "target_id": "c_007_004",
+        "relation": "修饰 research"
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "从句主语",
+        "english": "any particular papers",
+        "chinese": "任何特定论文",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "从句谓语",
+        "english": "had impelled",
+        "chinese": "已经推动",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_009",
+        "role": "从句宾语",
+        "english": "the change",
+        "chinese": "这一改变",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_010",
+        "role": "从句主语",
+        "english": "The creation of the statistics board",
+        "chinese": "统计委员会的建立",
+        "parent_id": "c_007_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_011",
+        "role": "并列谓语",
+        "english": "was motivated ... and is part of ...",
+        "chinese": "受到推动并且是……的一部分",
+        "parent_id": "c_007_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_012",
+        "role": "定语",
+        "english": "to increase reproducibility in the research we publish",
+        "chinese": "提高我们发表研究的可重复性的",
+        "parent_id": "c_007_004",
+        "target_id": null,
+        "relation": "修饰 overall drive"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "过去分词置句首",
+        "explanation": "Asked... 省略了主语和 be 动词，可理解为 When McNutt was asked...。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "was motivated... and is part of...",
+        "explanation": "引语内部两个谓语并列，共同说明 statistics board 的建立。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Asked",
+        "pos": "v.",
+        "meaning": "被问及",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "impelled",
+        "pos": "v.",
+        "meaning": "推动，促使",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "motivated",
+        "pos": "v.",
+        "meaning": "推动，激发",
+        "chunk_id": "c_007_005"
+      },
+      {
+        "word": "application",
+        "pos": "n.",
+        "meaning": "应用",
+        "chunk_id": "c_007_004"
+      },
+      {
+        "word": "reproducibility",
+        "pos": "n.",
+        "meaning": "可重复性",
+        "chunk_id": "c_007_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "scientific research",
+        "phrase_type": "n. phr.",
+        "meaning": "科学研究",
+        "chunk_id": "c_007_004"
+      },
+      {
+        "phrase": "overall drive",
+        "phrase_type": "n. phr.",
+        "meaning": "整体努力，整体推动",
+        "chunk_id": "c_007_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Giovanni Parmigiani, a biostatistician at the Harvard School of Public Health, a member of the SBoRE group, says he expects the board to “play primarily an advisory role”.",
+    "difficulty": 5,
+    "translation_literal": "哈佛公共卫生学院的生物统计学家、SBoRE 小组成员乔瓦尼·帕米贾尼说，他预计该委员会将“主要发挥咨询作用”。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "Giovanni Parmigiani",
+        "chinese": "乔瓦尼·帕米贾尼",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "同位语",
+        "english": "a biostatistician at the Harvard School of Public Health",
+        "chinese": "哈佛公共卫生学院的生物统计学家",
+        "parent_id": null,
+        "target_id": "c_008_001",
+        "relation": "解释主语身份"
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "同位语",
+        "english": "a member of the SBoRE group",
+        "chinese": "SBoRE 小组成员",
+        "parent_id": null,
+        "target_id": "c_008_001",
+        "relation": "继续解释主语身份"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "谓语",
+        "english": "says",
+        "chinese": "说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "宾语从句",
+        "english": "he expects the board to play primarily an advisory role",
+        "chinese": "他预计该委员会将主要发挥咨询作用",
+        "parent_id": null,
+        "target_id": "c_008_004",
+        "relation": "作 says 的宾语"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "从句主语",
+        "english": "he",
+        "chinese": "他",
+        "parent_id": "c_008_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "从句谓语",
+        "english": "expects",
+        "chinese": "预计",
+        "parent_id": "c_008_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "从句宾语",
+        "english": "the board",
+        "chinese": "该委员会",
+        "parent_id": "c_008_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_009",
+        "role": "宾语补足语",
+        "english": "to play primarily an advisory role",
+        "chinese": "主要发挥咨询作用",
+        "parent_id": "c_008_005",
+        "target_id": null,
+        "relation": "补充说明 board 将做什么"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "专有名词 + 多个同位语",
+        "explanation": "两个同位语连续解释 Giovanni Parmigiani 的身份，主干是 Giovanni Parmigiani says...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "biostatistician",
+        "pos": "n.",
+        "meaning": "生物统计学家",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "word": "expects",
+        "pos": "v.",
+        "meaning": "预计，期望",
+        "chunk_id": "c_008_005"
+      },
+      {
+        "word": "primarily",
+        "pos": "adv.",
+        "meaning": "主要地",
+        "chunk_id": "c_008_005"
+      },
+      {
+        "word": "advisory",
+        "pos": "adj.",
+        "meaning": "咨询的，顾问的",
+        "chunk_id": "c_008_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "play an advisory role",
+        "phrase_type": "v. phr.",
+        "meaning": "发挥咨询作用",
+        "chunk_id": "c_008_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "He agreed to join because he “found the foresight behind the establishment of the SBoRE to be novel, unique and likely to have a lasting impact.”",
+    "difficulty": 4,
+    "translation_literal": "他同意加入，因为他“发现 SBoRE 建立背后的远见是新颖的、独特的，并且可能产生持久影响。”",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "He",
+        "chinese": "他",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "agreed to join",
+        "chinese": "同意加入",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "原因状语从句",
+        "english": "because he found the foresight behind the establishment of the SBoRE to be novel, unique and likely to have a lasting impact",
+        "chinese": "因为他发现 SBoRE 建立背后的远见是新颖的、独特的，并且可能产生持久影响",
+        "parent_id": null,
+        "target_id": "c_009_002",
+        "relation": "说明同意加入的原因"
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "宾语补足语",
+        "english": "to be novel, unique and likely to have a lasting impact",
+        "chinese": "是新颖的、独特的并可能产生持久影响",
+        "parent_id": "c_009_003",
+        "target_id": "c_009_003",
+        "relation": "补充说明 foresight 的性质"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "从句主语",
+        "english": "he",
+        "chinese": "他",
+        "parent_id": "c_009_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "从句谓语",
+        "english": "found",
+        "chinese": "发现",
+        "parent_id": "c_009_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "从句宾语",
+        "english": "the foresight behind the establishment of the SBoRE",
+        "chinese": "SBoRE 建立背后的远见",
+        "parent_id": "c_009_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "定语",
+        "english": "behind the establishment of the SBoRE",
+        "chinese": "在 SBoRE 建立背后的",
+        "parent_id": "c_009_003",
+        "target_id": null,
+        "relation": "修饰 foresight"
+      },
+      {
+        "chunk_id": "c_009_009",
+        "role": "宾语补足语",
+        "english": "to be novel, unique and likely to have a lasting impact",
+        "chinese": "新颖、独特并可能产生持久影响",
+        "parent_id": "c_009_003",
+        "target_id": null,
+        "relation": "补充说明 foresight 的性质"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "adj., adj. and likely to do",
+        "explanation": "novel, unique and likely to have... 并列作宾语补足语。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "foresight",
+        "pos": "n.",
+        "meaning": "远见",
+        "chunk_id": "c_009_003"
+      },
+      {
+        "word": "establishment",
+        "pos": "n.",
+        "meaning": "建立，设立",
+        "chunk_id": "c_009_003"
+      },
+      {
+        "word": "novel",
+        "pos": "adj.",
+        "meaning": "新颖的",
+        "chunk_id": "c_009_004"
+      },
+      {
+        "word": "unique",
+        "pos": "adj.",
+        "meaning": "独特的",
+        "chunk_id": "c_009_004"
+      },
+      {
+        "word": "lasting",
+        "pos": "adj.",
+        "meaning": "持久的",
+        "chunk_id": "c_009_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "agreed to join",
+        "phrase_type": "v. phr.",
+        "meaning": "同意加入",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "phrase": "lasting impact",
+        "phrase_type": "n. phr.",
+        "meaning": "持久影响",
+        "chunk_id": "c_009_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "This impact will not only be through the publications in Science itself, but hopefully through a larger group of publishing places that may want to model their approach after Science.",
+    "difficulty": 5,
+    "translation_literal": "这种影响将不仅通过《科学》本身的发表物实现，而且有望通过更多可能想要仿效《科学》方法的出版机构实现。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "This impact",
+        "chinese": "这种影响",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "will be",
+        "chinese": "将是，将体现为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "表语",
+        "english": "not only through the publications in Science itself, but hopefully through a larger group of publishing places",
+        "chinese": "不仅通过《科学》本身的发表物，而且有望通过更多出版机构",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "作 will be 的表语"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "定语从句",
+        "english": "that may want to model their approach after Science",
+        "chinese": "可能想要仿效《科学》方法的",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "修饰 publishing places"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "并列成分",
+        "english": "through the publications in Science itself",
+        "chinese": "通过《科学》本身的发表物",
+        "parent_id": "c_010_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "并列成分",
+        "english": "through a larger group of publishing places",
+        "chinese": "通过更多出版机构",
+        "parent_id": "c_010_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "从句主语",
+        "english": "that",
+        "chinese": "这些出版机构",
+        "parent_id": "c_010_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "从句谓语",
+        "english": "may want to model",
+        "chinese": "可能想要仿效",
+        "parent_id": "c_010_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_009",
+        "role": "从句宾语",
+        "english": "their approach",
+        "chinese": "它们的方法",
+        "parent_id": "c_010_004",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "not only... but...",
+        "explanation": "not only through... but through... 构成并列，说明影响扩散的两个渠道。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "impact",
+        "pos": "n.",
+        "meaning": "影响",
+        "chunk_id": "c_010_001"
+      },
+      {
+        "word": "publications",
+        "pos": "n.",
+        "meaning": "发表物，出版物",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "hopefully",
+        "pos": "adv.",
+        "meaning": "有望地",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "publishing",
+        "pos": "n.",
+        "meaning": "出版",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "model",
+        "pos": "v.",
+        "meaning": "仿效，模仿",
+        "chunk_id": "c_010_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "not only...but...",
+        "phrase_type": "sentence pattern",
+        "meaning": "不仅……而且……",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "phrase": "model...after...",
+        "phrase_type": "v. phr.",
+        "meaning": "仿照……来设计……",
+        "chunk_id": "c_010_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "John Ioannidis, a physician who studies research methodology, says that the policy is “a most welcome step forward” and “long overdue”.",
+    "difficulty": 4,
+    "translation_literal": "研究研究方法论的医生约翰·伊奥尼迪斯说，这项政策是“非常受欢迎的一步进展”，并且“早该如此”。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "John Ioannidis",
+        "chinese": "约翰·伊奥尼迪斯",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "同位语",
+        "english": "a physician who studies research methodology",
+        "chinese": "一位研究研究方法论的医生",
+        "parent_id": null,
+        "target_id": "c_011_001",
+        "relation": "解释主语身份"
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "定语从句",
+        "english": "who studies research methodology",
+        "chinese": "研究研究方法论的",
+        "parent_id": "c_011_002",
+        "target_id": "c_011_002",
+        "relation": "修饰 physician"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "谓语",
+        "english": "says",
+        "chinese": "说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "宾语从句",
+        "english": "that the policy is a most welcome step forward and long overdue",
+        "chinese": "这项政策是非常受欢迎的一步进展并且早该如此",
+        "parent_id": null,
+        "target_id": "c_011_004",
+        "relation": "作 says 的宾语"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "从句主语",
+        "english": "who",
+        "chinese": "他",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "从句谓语",
+        "english": "studies",
+        "chinese": "研究",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_008",
+        "role": "从句宾语",
+        "english": "research methodology",
+        "chinese": "研究方法论",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_009",
+        "role": "从句主语",
+        "english": "the policy",
+        "chinese": "这项政策",
+        "parent_id": "c_011_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_010",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_011_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_011",
+        "role": "从句表语",
+        "english": "a most welcome step forward and long overdue",
+        "chinese": "非常受欢迎的一步进展并且早该如此",
+        "parent_id": "c_011_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "专有名词 + 同位语",
+        "explanation": "a physician... 是 John Ioannidis 的同位语身份说明。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "physician",
+        "pos": "n.",
+        "meaning": "医生",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "word": "methodology",
+        "pos": "n.",
+        "meaning": "方法论",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "word": "policy",
+        "pos": "n.",
+        "meaning": "政策",
+        "chunk_id": "c_011_005"
+      },
+      {
+        "word": "overdue",
+        "pos": "adj.",
+        "meaning": "早该发生的，逾期的",
+        "chunk_id": "c_011_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "step forward",
+        "phrase_type": "n. phr.",
+        "meaning": "进步，向前一步",
+        "chunk_id": "c_011_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "“Most journals are weak in statistical review, and this damages the quality of what they publish.”",
+    "difficulty": 4,
+    "translation_literal": "“大多数期刊在统计审查方面薄弱，而这损害了它们所发表内容的质量。”",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "并列分句",
+        "english": "Most journals are weak in statistical review",
+        "chinese": "大多数期刊在统计审查方面薄弱",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "并列分句",
+        "english": "and this damages the quality of what they publish",
+        "chinese": "而这损害了它们所发表内容的质量",
+        "parent_id": null,
+        "target_id": "c_012_001",
+        "relation": "与前一分句并列"
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "宾语从句",
+        "english": "what they publish",
+        "chinese": "它们所发表的内容",
+        "parent_id": "c_012_002",
+        "target_id": "c_012_002",
+        "relation": "作 of 的宾语"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "主语",
+        "english": "Most journals",
+        "chinese": "大多数期刊",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "表语",
+        "english": "weak in statistical review",
+        "chinese": "在统计审查方面薄弱",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "主语",
+        "english": "this",
+        "chinese": "这",
+        "parent_id": "c_012_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "谓语",
+        "english": "damages",
+        "chinese": "损害",
+        "parent_id": "c_012_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_009",
+        "role": "宾语",
+        "english": "the quality of what they publish",
+        "chinese": "它们所发表内容的质量",
+        "parent_id": "c_012_002",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, and this B",
+        "explanation": "前一分句提出问题，后一分句说明后果。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "weak",
+        "pos": "adj.",
+        "meaning": "薄弱的",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "word": "statistical",
+        "pos": "adj.",
+        "meaning": "统计的",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "word": "damages",
+        "pos": "v.",
+        "meaning": "损害",
+        "chunk_id": "c_012_002"
+      },
+      {
+        "word": "quality",
+        "pos": "n.",
+        "meaning": "质量",
+        "chunk_id": "c_012_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "statistical review",
+        "phrase_type": "n. phr.",
+        "meaning": "统计审查",
+        "chunk_id": "c_012_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "“I think that, for the majority of scientific papers nowadays, statistical review is more essential than expert review,” he says.",
+    "difficulty": 4,
+    "translation_literal": "他说：“我认为，对于如今大多数科学论文来说，统计审查比专家审查更重要。”",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "I",
+        "chinese": "我",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "think",
+        "chinese": "认为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "宾语从句",
+        "english": "that statistical review is more essential than expert review",
+        "chinese": "统计审查比专家审查更重要",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "作 think 的宾语"
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "插入语",
+        "english": "for the majority of scientific papers nowadays",
+        "chinese": "对于如今大多数科学论文来说",
+        "parent_id": "c_013_003",
+        "target_id": "c_013_003",
+        "relation": "限定判断范围"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "插入语",
+        "english": "he says",
+        "chinese": "他说",
+        "parent_id": null,
+        "target_id": "c_013_001",
+        "relation": "说明引语来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "从句中插入范围限定",
+        "explanation": "for the majority... 插在 that 从句中，阅读时可先跳过。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "majority",
+        "pos": "n.",
+        "meaning": "大多数",
+        "chunk_id": "c_013_004"
+      },
+      {
+        "word": "nowadays",
+        "pos": "adv.",
+        "meaning": "如今",
+        "chunk_id": "c_013_004"
+      },
+      {
+        "word": "essential",
+        "pos": "adj.",
+        "meaning": "必要的，重要的",
+        "chunk_id": "c_013_003"
+      },
+      {
+        "word": "expert",
+        "pos": "adj.",
+        "meaning": "专家的",
+        "chunk_id": "c_013_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "scientific papers",
+        "phrase_type": "n. phr.",
+        "meaning": "科学论文",
+        "chunk_id": "c_013_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "But he noted that biomedical journals such as Annals of Internal Medicine, the Journal of the American Medical Association and The Lancet pay strong attention to statistical review.",
+    "difficulty": 5,
+    "translation_literal": "但是他指出，像《内科学年鉴》、《美国医学会杂志》和《柳叶刀》这样的生物医学期刊非常重视统计审查。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "主语",
+        "english": "he",
+        "chinese": "他",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "谓语",
+        "english": "noted",
+        "chinese": "指出",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "宾语从句",
+        "english": "that biomedical journals such as Annals of Internal Medicine, the Journal of the American Medical Association and The Lancet pay strong attention to statistical review",
+        "chinese": "像《内科学年鉴》、《美国医学会杂志》和《柳叶刀》这样的生物医学期刊非常重视统计审查",
+        "parent_id": null,
+        "target_id": "c_014_003",
+        "relation": "作 noted 的宾语"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "插入举例",
+        "english": "such as Annals of Internal Medicine, the Journal of the American Medical Association and The Lancet",
+        "chinese": "例如《内科学年鉴》、《美国医学会杂志》和《柳叶刀》",
+        "parent_id": "c_014_004",
+        "target_id": "c_014_004",
+        "relation": "举例说明 biomedical journals"
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "主语",
+        "english": "Professional scientists",
+        "chinese": "专业科学家",
+        "parent_id": "c_014_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_007",
+        "role": "谓语",
+        "english": "are expected",
+        "chinese": "被期望",
+        "parent_id": "c_014_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_008",
+        "role": "宾语补足语",
+        "english": "to know how to analyse data",
+        "chinese": "知道如何分析数据",
+        "parent_id": "c_014_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_009",
+        "role": "主语",
+        "english": "statistical errors",
+        "chinese": "统计错误",
+        "parent_id": "c_014_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_010",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_014_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_011",
+        "role": "表语",
+        "english": "alarmingly common",
+        "chinese": "普遍得令人担忧",
+        "parent_id": "c_014_002",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "such as 插入举例",
+        "explanation": "such as 后的三个期刊名很长，主干是 biomedical journals pay strong attention...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "noted",
+        "pos": "v.",
+        "meaning": "指出，提到",
+        "chunk_id": "c_014_003"
+      },
+      {
+        "word": "biomedical",
+        "pos": "adj.",
+        "meaning": "生物医学的",
+        "chunk_id": "c_014_004"
+      },
+      {
+        "word": "journals",
+        "pos": "n.",
+        "meaning": "期刊",
+        "chunk_id": "c_014_004"
+      },
+      {
+        "word": "attention",
+        "pos": "n.",
+        "meaning": "注意，重视",
+        "chunk_id": "c_014_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "such as",
+        "phrase_type": "prep. phr.",
+        "meaning": "例如",
+        "chunk_id": "c_014_005"
+      },
+      {
+        "phrase": "pay attention to",
+        "phrase_type": "v. phr.",
+        "meaning": "重视，注意",
+        "chunk_id": "c_014_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Professional scientists are expected to know how to analyse data, but statistical errors are alarmingly common in published research, according to David Vaux, a cell biologist.",
+    "difficulty": 5,
+    "translation_literal": "据细胞生物学家戴维·沃克斯说，专业科学家被期望知道如何分析数据，但统计错误在已发表研究中普遍得令人担忧。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "并列分句",
+        "english": "Professional scientists are expected to know how to analyse data",
+        "chinese": "专业科学家被期望知道如何分析数据",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "转折分句",
+        "english": "but statistical errors are alarmingly common in published research",
+        "chinese": "但统计错误在已发表研究中普遍得令人担忧",
+        "parent_id": null,
+        "target_id": "c_015_001",
+        "relation": "与前一分句转折"
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "插入语",
+        "english": "according to David Vaux, a cell biologist",
+        "chinese": "据细胞生物学家戴维·沃克斯说",
+        "parent_id": null,
+        "target_id": "c_015_001",
+        "relation": "说明观点来源"
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "同位语",
+        "english": "a cell biologist",
+        "chinese": "一位细胞生物学家",
+        "parent_id": "c_015_003",
+        "target_id": "c_015_003",
+        "relation": "解释 David Vaux 身份"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "主语",
+        "english": "Researchers",
+        "chinese": "研究人员",
+        "parent_id": "c_015_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_006",
+        "role": "谓语",
+        "english": "should improve",
+        "chinese": "应该提高",
+        "parent_id": "c_015_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_007",
+        "role": "宾语",
+        "english": "their standards",
+        "chinese": "他们的标准",
+        "parent_id": "c_015_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_008",
+        "role": "主语",
+        "english": "journals",
+        "chinese": "期刊",
+        "parent_id": "c_015_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_009",
+        "role": "谓语",
+        "english": "should also take",
+        "chinese": "也应该采取",
+        "parent_id": "c_015_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_010",
+        "role": "宾语",
+        "english": "a tougher line",
+        "chinese": "更严格的立场",
+        "parent_id": "c_015_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_011",
+        "role": "并列成分",
+        "english": "reviewers who are statistically literate",
+        "chinese": "具备统计素养的评审者",
+        "parent_id": "c_015_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_012",
+        "role": "并列成分",
+        "english": "editors who can verify the process",
+        "chinese": "能够核查过程的编辑",
+        "parent_id": "c_015_004",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "according to... 补充来源",
+        "explanation": "according to David Vaux... 位于句末，说明整句判断来源。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "专有名词 + 同位语",
+        "explanation": "a cell biologist 是 David Vaux 的同位语。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Professional",
+        "pos": "adj.",
+        "meaning": "专业的",
+        "chunk_id": "c_015_001"
+      },
+      {
+        "word": "analyse",
+        "pos": "v.",
+        "meaning": "分析",
+        "chunk_id": "c_015_001"
+      },
+      {
+        "word": "statistical",
+        "pos": "adj.",
+        "meaning": "统计的",
+        "chunk_id": "c_015_002"
+      },
+      {
+        "word": "alarmingly",
+        "pos": "adv.",
+        "meaning": "令人担忧地",
+        "chunk_id": "c_015_002"
+      },
+      {
+        "word": "common",
+        "pos": "adj.",
+        "meaning": "常见的",
+        "chunk_id": "c_015_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "published research",
+        "phrase_type": "n. phr.",
+        "meaning": "已发表研究",
+        "chunk_id": "c_015_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Researchers should improve their standards, he wrote in 2012, but journals should also take a tougher line, “engaging reviewers who are statistically literate and editors who can verify the process”.",
+    "difficulty": 5,
+    "translation_literal": "他在2012年写道，研究人员应该提高他们的标准，但期刊也应该采取更严格的立场，“聘用具备统计素养的评审者和能够核查过程的编辑”。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "并列分句",
+        "english": "Researchers should improve their standards",
+        "chinese": "研究人员应该提高他们的标准",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "插入语",
+        "english": "he wrote in 2012",
+        "chinese": "他在2012年写道",
+        "parent_id": null,
+        "target_id": "c_016_001",
+        "relation": "说明观点来源"
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "转折分句",
+        "english": "but journals should also take a tougher line",
+        "chinese": "但期刊也应该采取更严格的立场",
+        "parent_id": null,
+        "target_id": "c_016_001",
+        "relation": "与前一分句转折"
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "状语",
+        "english": "engaging reviewers who are statistically literate and editors who can verify the process",
+        "chinese": "聘用具备统计素养的评审者和能够核查过程的编辑",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "说明采取严格立场的具体方式"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "定语从句",
+        "english": "who are statistically literate",
+        "chinese": "具备统计素养的",
+        "parent_id": "c_016_004",
+        "target_id": "c_016_004",
+        "relation": "修饰 reviewers"
+      },
+      {
+        "chunk_id": "c_016_006",
+        "role": "定语从句",
+        "english": "who can verify the process",
+        "chinese": "能够核查过程的",
+        "parent_id": "c_016_004",
+        "target_id": "c_016_004",
+        "relation": "修饰 editors"
+      },
+      {
+        "chunk_id": "c_016_007",
+        "role": "从句主语",
+        "english": "Science’s idea to pass some papers to statisticians",
+        "chinese": "《科学》把一些论文交给统计学家的想法",
+        "parent_id": "c_016_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_008",
+        "role": "从句谓语",
+        "english": "has",
+        "chinese": "有",
+        "parent_id": "c_016_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_009",
+        "role": "从句宾语",
+        "english": "some merit",
+        "chinese": "一些优点",
+        "parent_id": "c_016_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_010",
+        "role": "并列分句",
+        "english": "but a weakness is that it relies on the board of reviewing editors",
+        "chinese": "但一个弱点是它依赖评审编辑委员会",
+        "parent_id": "c_016_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_011",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_016_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_012",
+        "role": "从句谓语",
+        "english": "relies on",
+        "chinese": "依赖",
+        "parent_id": "c_016_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_013",
+        "role": "从句宾语",
+        "english": "the board of reviewing editors",
+        "chinese": "评审编辑委员会",
+        "parent_id": "c_016_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_014",
+        "role": "状语",
+        "english": "to identify the papers that need scrutiny",
+        "chinese": "来识别需要审查的论文",
+        "parent_id": "c_016_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句中插入来源说明",
+        "explanation": "he wrote in 2012 插在两个分句之间，阅读时可先跳过。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "reviewers who... and editors who...",
+        "explanation": "reviewers 和 editors 并列，各自带一个定语从句。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "standards",
+        "pos": "n.",
+        "meaning": "标准",
+        "chunk_id": "c_016_001"
+      },
+      {
+        "word": "journals",
+        "pos": "n.",
+        "meaning": "期刊",
+        "chunk_id": "c_016_003"
+      },
+      {
+        "word": "tougher",
+        "pos": "adj.",
+        "meaning": "更严格的",
+        "chunk_id": "c_016_003"
+      },
+      {
+        "word": "engaging",
+        "pos": "v.",
+        "meaning": "聘用，吸引",
+        "chunk_id": "c_016_004"
+      },
+      {
+        "word": "literate",
+        "pos": "adj.",
+        "meaning": "有知识的，有素养的",
+        "chunk_id": "c_016_005"
+      },
+      {
+        "word": "verify",
+        "pos": "v.",
+        "meaning": "核查，验证",
+        "chunk_id": "c_016_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "take a tougher line",
+        "phrase_type": "v. phr.",
+        "meaning": "采取更严格的立场",
+        "chunk_id": "c_016_003"
+      },
+      {
+        "phrase": "statistically literate",
+        "phrase_type": "adj. phr.",
+        "meaning": "具备统计素养的",
+        "chunk_id": "c_016_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Vaux says that Science’s idea to pass some papers to statisticians “has some merit, but a weakness is that it relies on the board of reviewing editors to identify the papers that need scrutiny in the first place”.",
+    "difficulty": 5,
+    "translation_literal": "沃克斯说，《科学》把一些论文交给统计学家的想法“有一些优点，但一个弱点是它依赖评审编辑委员会首先识别需要审查的论文”。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "Vaux",
+        "chinese": "沃克斯",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "says",
+        "chinese": "说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "宾语从句",
+        "english": "that Science’s idea to pass some papers to statisticians has some merit, but a weakness is that it relies on the board of reviewing editors to identify the papers that need scrutiny in the first place",
+        "chinese": "《科学》把一些论文交给统计学家的想法有一些优点，但一个弱点是它依赖评审编辑委员会首先识别需要审查的论文",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "作 says 的宾语"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "定语",
+        "english": "to pass some papers to statisticians",
+        "chinese": "把一些论文交给统计学家的",
+        "parent_id": "c_017_003",
+        "target_id": "c_017_003",
+        "relation": "修饰 idea"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "表语从句",
+        "english": "that it relies on the board of reviewing editors to identify the papers that need scrutiny in the first place",
+        "chinese": "它依赖评审编辑委员会首先识别需要审查的论文",
+        "parent_id": "c_017_003",
+        "target_id": "c_017_003",
+        "relation": "作 a weakness is 的表语"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "定语从句",
+        "english": "that need scrutiny",
+        "chinese": "需要审查的",
+        "parent_id": "c_017_005",
+        "target_id": "c_017_005",
+        "relation": "修饰 papers"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "idea 与谓语被不定式定语隔开",
+        "explanation": "Science’s idea to pass... 是主语，后面的 has some merit 才是谓语。"
+      },
+      {
+        "pattern_name": "表语从句",
+        "pattern_form": "a weakness is + that 从句",
+        "explanation": "that it relies... 说明 weakness 的具体内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "merit",
+        "pos": "n.",
+        "meaning": "优点，价值",
+        "chunk_id": "c_017_003"
+      },
+      {
+        "word": "weakness",
+        "pos": "n.",
+        "meaning": "弱点",
+        "chunk_id": "c_017_005"
+      },
+      {
+        "word": "relies",
+        "pos": "v.",
+        "meaning": "依赖",
+        "chunk_id": "c_017_005"
+      },
+      {
+        "word": "identify",
+        "pos": "v.",
+        "meaning": "识别，确定",
+        "chunk_id": "c_017_005"
+      },
+      {
+        "word": "scrutiny",
+        "pos": "n.",
+        "meaning": "审查",
+        "chunk_id": "c_017_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "pass...to...",
+        "phrase_type": "v. phr.",
+        "meaning": "把……交给……",
+        "chunk_id": "c_017_004"
+      },
+      {
+        "phrase": "in the first place",
+        "phrase_type": "adv. phr.",
+        "meaning": "首先，一开始",
+        "chunk_id": "c_017_005"
+      }
+    ]
+  }
+]

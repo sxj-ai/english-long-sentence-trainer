@@ -1,0 +1,2543 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Two years ago, Rupert Murdoch’s daughter, Elisabeth, spoke of the “unsettling dearth of integrity across so many of our institutions”.",
+    "difficulty": 4,
+    "translation_literal": "两年前，鲁珀特·默多克的女儿伊丽莎白谈到了“我们如此多机构中令人不安的诚信缺失”。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "状语",
+        "english": "Two years ago",
+        "chinese": "两年前",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "主语",
+        "english": "Rupert Murdoch’s daughter, Elisabeth",
+        "chinese": "鲁珀特·默多克的女儿伊丽莎白",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "同位语",
+        "english": "Elisabeth",
+        "chinese": "伊丽莎白",
+        "parent_id": "c_001_002",
+        "target_id": "c_001_002",
+        "relation": "解释 Rupert Murdoch’s daughter"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "谓语",
+        "english": "spoke of",
+        "chinese": "谈到",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "宾语",
+        "english": "the unsettling dearth of integrity across so many of our institutions",
+        "chinese": "我们如此多机构中令人不安的诚信缺失",
+        "parent_id": null,
+        "target_id": "c_001_004",
+        "relation": "作 spoke of 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "身份名词 + 专有名词",
+        "explanation": "Elisabeth 是 Rupert Murdoch’s daughter 的同位语。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "unsettling",
+        "pos": "adj.",
+        "meaning": "令人不安的",
+        "chunk_id": "c_001_005"
+      },
+      {
+        "word": "dearth",
+        "pos": "n.",
+        "meaning": "缺乏，匮乏",
+        "chunk_id": "c_001_005"
+      },
+      {
+        "word": "integrity",
+        "pos": "n.",
+        "meaning": "诚信，正直",
+        "chunk_id": "c_001_005"
+      },
+      {
+        "word": "institutions",
+        "pos": "n.",
+        "meaning": "机构",
+        "chunk_id": "c_001_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "spoke of",
+        "phrase_type": "v. phr.",
+        "meaning": "谈到，提及",
+        "chunk_id": "c_001_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Integrity had collapsed, she argued, because of a collective acceptance that the only “sorting mechanism” in society should be profit and the market.",
+    "difficulty": 5,
+    "translation_literal": "她认为，诚信已经崩塌，因为人们集体接受了这样一种看法：社会中唯一的“筛选机制”应该是利润和市场。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "Integrity",
+        "chinese": "诚信",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "had collapsed",
+        "chinese": "已经崩塌",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "插入语",
+        "english": "she argued",
+        "chinese": "她认为",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "说明观点来源"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "原因状语",
+        "english": "because of a collective acceptance",
+        "chinese": "因为一种集体接受",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "说明崩塌原因"
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "同位语从句",
+        "english": "that the only sorting mechanism in society should be profit and the market",
+        "chinese": "即社会中唯一的筛选机制应该是利润和市场",
+        "parent_id": null,
+        "target_id": "c_002_004",
+        "relation": "解释 acceptance 的内容"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "从句主语",
+        "english": "the only sorting mechanism in society",
+        "chinese": "社会中唯一的筛选机制",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "从句谓语",
+        "english": "should be",
+        "chinese": "应该是",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_008",
+        "role": "从句表语",
+        "english": "profit and the market",
+        "chinese": "利润和市场",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主谓之间插入观点来源",
+        "explanation": "she argued 插入句中，说明该判断来自 Elisabeth。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "抽象名词 + that 从句",
+        "explanation": "that 从句解释 collective acceptance 的具体内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "collapsed",
+        "pos": "v.",
+        "meaning": "崩塌，瓦解",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "collective",
+        "pos": "adj.",
+        "meaning": "集体的",
+        "chunk_id": "c_002_004"
+      },
+      {
+        "word": "acceptance",
+        "pos": "n.",
+        "meaning": "接受，认可",
+        "chunk_id": "c_002_004"
+      },
+      {
+        "word": "mechanism",
+        "pos": "n.",
+        "meaning": "机制",
+        "chunk_id": "c_002_005"
+      },
+      {
+        "word": "profit",
+        "pos": "n.",
+        "meaning": "利润",
+        "chunk_id": "c_002_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "sorting mechanism",
+        "phrase_type": "n. phr.",
+        "meaning": "筛选机制",
+        "chunk_id": "c_002_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "But “it’s us, human beings, we the people who create the society we want, not profit.”",
+    "difficulty": 4,
+    "translation_literal": "但“是我们，人类，我们人民，创造了我们想要的社会，而不是利润。”",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "强调结构",
+        "english": "it’s us, human beings, we the people who create the society we want, not profit",
+        "chinese": "是我们，人类，我们人民，创造了我们想要的社会，而不是利润",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "同位语",
+        "english": "human beings, we the people",
+        "chinese": "人类，我们人民",
+        "parent_id": "c_003_002",
+        "target_id": "c_003_002",
+        "relation": "解释 us"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "定语从句",
+        "english": "who create the society we want",
+        "chinese": "创造我们想要的社会的",
+        "parent_id": "c_003_002",
+        "target_id": "c_003_003",
+        "relation": "修饰 we the people"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "定语从句",
+        "english": "we want",
+        "chinese": "我们想要的",
+        "parent_id": "c_003_004",
+        "target_id": "c_003_004",
+        "relation": "修饰 society"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "被强调部分",
+        "english": "us, human beings, we the people",
+        "chinese": "我们，人类，我们人民",
+        "parent_id": "c_003_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "从句主语",
+        "english": "who",
+        "chinese": "我们人民",
+        "parent_id": "c_003_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_008",
+        "role": "从句谓语",
+        "english": "create",
+        "chinese": "创造",
+        "parent_id": "c_003_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_009",
+        "role": "从句宾语",
+        "english": "the society we want",
+        "chinese": "我们想要的社会",
+        "parent_id": "c_003_004",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "强调句",
+        "pattern_form": "It is + 被强调部分 + who + 其他部分",
+        "explanation": "本句用 it is...who... 强调创造社会的是 us / we the people，而不是 profit。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "代词 + 同位语补充",
+        "explanation": "human beings, we the people 补充说明 us 的身份。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "create",
+        "pos": "v.",
+        "meaning": "创造",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "society",
+        "pos": "n.",
+        "meaning": "社会",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "profit",
+        "pos": "n.",
+        "meaning": "利润",
+        "chunk_id": "c_003_002"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Driving her point home, she continued: “It’s increasingly apparent that the absence of purpose, of a moral language within government, media or business could become one of the most dangerous goals for capitalism and freedom.”",
+    "difficulty": 5,
+    "translation_literal": "为了把她的观点讲透，她继续说道：“越来越明显的是，政府、媒体或商业中目的的缺失、道德语言的缺失，可能成为资本主义和自由最危险的目标之一。”",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "状语",
+        "english": "Driving her point home",
+        "chinese": "为了把她的观点讲透",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "主语",
+        "english": "she",
+        "chinese": "她",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "谓语",
+        "english": "continued",
+        "chinese": "继续说道",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "形式主语",
+        "english": "It",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": "c_004_006",
+        "relation": "形式主语"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "表语",
+        "english": "increasingly apparent",
+        "chinese": "越来越明显",
+        "parent_id": null,
+        "target_id": "c_004_005",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "主语从句",
+        "english": "that the absence of purpose, of a moral language within government, media or business could become one of the most dangerous goals for capitalism and freedom",
+        "chinese": "政府、媒体或商业中目的和道德语言的缺失可能成为资本主义和自由最危险的目标之一",
+        "parent_id": null,
+        "target_id": "c_004_004",
+        "relation": "真正主语"
+      },
+      {
+        "chunk_id": "c_004_008",
+        "role": "真正主语核心",
+        "english": "the absence of purpose, of a moral language",
+        "chinese": "目的和道德语言的缺失",
+        "parent_id": "c_004_007",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_009",
+        "role": "并列定语",
+        "english": "of purpose",
+        "chinese": "目的的",
+        "parent_id": "c_004_007",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_010",
+        "role": "并列定语",
+        "english": "of a moral language within government, media or business",
+        "chinese": "政府、媒体或商业中道德语言的",
+        "parent_id": "c_004_007",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_011",
+        "role": "从句谓语",
+        "english": "could become",
+        "chinese": "可能成为",
+        "parent_id": "c_004_007",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_012",
+        "role": "从句表语",
+        "english": "one of the most dangerous goals for capitalism and freedom",
+        "chinese": "资本主义和自由最危险的目标之一",
+        "parent_id": "c_004_007",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is + adj. + that 从句",
+        "explanation": "It 是形式主语，真正主语是 that the absence... could become...。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "介词短语插入补充说明",
+        "explanation": "of a moral language within government, media or business 补充说明 absence 的另一对象。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Driving",
+        "pos": "v.",
+        "meaning": "推进，使明确",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "word": "increasingly",
+        "pos": "adv.",
+        "meaning": "越来越",
+        "chunk_id": "c_004_006"
+      },
+      {
+        "word": "apparent",
+        "pos": "adj.",
+        "meaning": "明显的",
+        "chunk_id": "c_004_006"
+      },
+      {
+        "word": "absence",
+        "pos": "n.",
+        "meaning": "缺失，缺乏",
+        "chunk_id": "c_004_007"
+      },
+      {
+        "word": "capitalism",
+        "pos": "n.",
+        "meaning": "资本主义",
+        "chunk_id": "c_004_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "drive one’s point home",
+        "phrase_type": "v. phr.",
+        "meaning": "把观点讲透，使观点深入人心",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "phrase": "moral language",
+        "phrase_type": "n. phr.",
+        "meaning": "道德语言",
+        "chunk_id": "c_004_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "This same absence of moral purpose was wounding companies such as News International, she thought, making it more likely that it would lose its way as it had with widespread illegal telephone hacking.",
+    "difficulty": 5,
+    "translation_literal": "她认为，同样这种道德目的的缺失正在伤害新闻国际这样的公司，使其更可能像它在广泛非法电话窃听事件中那样迷失方向。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "This same absence of moral purpose",
+        "chinese": "同样这种道德目的的缺失",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "was wounding",
+        "chinese": "正在伤害",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "宾语",
+        "english": "companies such as News International",
+        "chinese": "新闻国际这样的公司",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "作 was wounding 的宾语"
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "插入语",
+        "english": "she thought",
+        "chinese": "她认为",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "说明观点来源"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "状语",
+        "english": "making it more likely that it would lose its way",
+        "chinese": "使其更可能迷失方向",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "说明结果"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "状语从句",
+        "english": "as it had with widespread illegal telephone hacking",
+        "chinese": "正如它在广泛非法电话窃听事件中那样",
+        "parent_id": "c_005_005",
+        "target_id": "c_005_005",
+        "relation": "说明 lose its way 的相似情形"
+      },
+      {
+        "chunk_id": "c_005_007",
+        "role": "主语",
+        "english": "This same absence of moral purpose",
+        "chinese": "同样这种道德目的的缺失",
+        "parent_id": "c_005_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_008",
+        "role": "谓语",
+        "english": "was wounding",
+        "chinese": "正在伤害",
+        "parent_id": "c_005_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_009",
+        "role": "宾语",
+        "english": "companies such as News International",
+        "chinese": "新闻国际这样的公司",
+        "parent_id": "c_005_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_010",
+        "role": "非谓语结构",
+        "english": "making it more likely that it would lose its way",
+        "chinese": "使其更可能迷失方向",
+        "parent_id": "c_005_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_011",
+        "role": "形式宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_005_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_012",
+        "role": "真正宾语从句",
+        "english": "that it would lose its way",
+        "chinese": "它会迷失方向",
+        "parent_id": "c_005_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句中插入观点来源",
+        "explanation": "she thought 插入主句中，阅读时可先跳过。"
+      },
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "as + 主语 + 谓语",
+        "explanation": "as it had... 表示“正如它曾经……那样”。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "absence",
+        "pos": "n.",
+        "meaning": "缺失",
+        "chunk_id": "c_005_001"
+      },
+      {
+        "word": "wounding",
+        "pos": "v.",
+        "meaning": "伤害",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "illegal",
+        "pos": "adj.",
+        "meaning": "非法的",
+        "chunk_id": "c_005_006"
+      },
+      {
+        "word": "hacking",
+        "pos": "n.",
+        "meaning": "窃听，黑客行为",
+        "chunk_id": "c_005_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "such as",
+        "phrase_type": "prep. phr.",
+        "meaning": "例如，像",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "phrase": "lose its way",
+        "phrase_type": "idiom",
+        "meaning": "迷失方向",
+        "chunk_id": "c_005_005"
+      },
+      {
+        "phrase": "telephone hacking",
+        "phrase_type": "n. phr.",
+        "meaning": "电话窃听",
+        "chunk_id": "c_005_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "As the hacking trial concludes — finding guilty one ex-editor of the News of the World, Andy Coulson, for conspiring to hack phones, and finding his predecessor, Rebekah Brooks, innocent of the same charge — the wider issue of dearth of integrity still stands.",
+    "difficulty": 5,
+    "translation_literal": "随着窃听审判结束——判定《世界新闻报》一名前编辑安迪·库尔森因合谋窃听电话而有罪，并判定其前任丽贝卡·布鲁克斯在同一指控上无罪——诚信缺失这一更广泛的问题仍然存在。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "状语从句",
+        "english": "As the hacking trial concludes",
+        "chinese": "随着窃听审判结束",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "插入语",
+        "english": "finding guilty one ex-editor of the News of the World, Andy Coulson, for conspiring to hack phones, and finding his predecessor, Rebekah Brooks, innocent of the same charge",
+        "chinese": "判定《世界新闻报》一名前编辑安迪·库尔森有罪，并判定其前任丽贝卡·布鲁克斯无罪",
+        "parent_id": null,
+        "target_id": "c_006_001",
+        "relation": "补充说明审判结果"
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "主语",
+        "english": "the wider issue of dearth of integrity",
+        "chinese": "诚信缺失这一更广泛的问题",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "谓语",
+        "english": "still stands",
+        "chinese": "仍然存在",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "从句主语",
+        "english": "the hacking trial",
+        "chinese": "窃听审判",
+        "parent_id": "c_006_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "从句谓语",
+        "english": "concludes",
+        "chinese": "结束",
+        "parent_id": "c_006_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "并列成分",
+        "english": "finding guilty one ex-editor ... Andy Coulson",
+        "chinese": "判定前编辑安迪·库尔森有罪",
+        "parent_id": "c_006_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_008",
+        "role": "并列成分",
+        "english": "finding his predecessor, Rebekah Brooks, innocent",
+        "chinese": "判定其前任丽贝卡·布鲁克斯无罪",
+        "parent_id": "c_006_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_009",
+        "role": "主语核心",
+        "english": "the wider issue",
+        "chinese": "更广泛的问题",
+        "parent_id": "c_006_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_010",
+        "role": "定语",
+        "english": "of dearth of integrity",
+        "chinese": "诚信缺失的",
+        "parent_id": "c_006_003",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "As + 主语 + 谓语",
+        "explanation": "As 引导时间状语，表示“随着……”。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号插入长补充说明",
+        "explanation": "两个 finding 结构被破折号隔开，补充说明 trial 的结果，主干是 the wider issue... still stands。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "finding A and finding B",
+        "explanation": "两个 finding 结构并列，分别说明两个人的判决结果。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "trial",
+        "pos": "n.",
+        "meaning": "审判",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "concludes",
+        "pos": "v.",
+        "meaning": "结束",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "guilty",
+        "pos": "adj.",
+        "meaning": "有罪的",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "conspiring",
+        "pos": "v.",
+        "meaning": "合谋",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "predecessor",
+        "pos": "n.",
+        "meaning": "前任",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "innocent",
+        "pos": "adj.",
+        "meaning": "无罪的",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "charge",
+        "pos": "n.",
+        "meaning": "指控",
+        "chunk_id": "c_006_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "dearth of integrity",
+        "phrase_type": "n. phr.",
+        "meaning": "诚信缺失",
+        "chunk_id": "c_006_003"
+      },
+      {
+        "phrase": "still stands",
+        "phrase_type": "v. phr.",
+        "meaning": "仍然存在，仍然成立",
+        "chunk_id": "c_006_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Journalists are known to have hacked the phones of up to 5,500 people.",
+    "difficulty": 3,
+    "translation_literal": "众所周知，记者们曾窃听多达5500人的电话。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "Journalists",
+        "chinese": "记者们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "are known",
+        "chinese": "被认为，众所周知",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "宾语",
+        "english": "to have hacked the phones of up to 5,500 people",
+        "chinese": "曾窃听多达5500人的电话",
+        "parent_id": null,
+        "target_id": "c_007_002",
+        "relation": "补充说明 known 的内容"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Journalists",
+        "pos": "n.",
+        "meaning": "记者",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "hacked",
+        "pos": "v.",
+        "meaning": "窃听，非法侵入",
+        "chunk_id": "c_007_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "are known to",
+        "phrase_type": "v. phr.",
+        "meaning": "众所周知，被认为",
+        "chunk_id": "c_007_002"
+      },
+      {
+        "phrase": "up to",
+        "phrase_type": "adv. phr.",
+        "meaning": "多达",
+        "chunk_id": "c_007_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "This is hacking on an industrial scale, as was acknowledged by Glenn Mulcaire, the man hired by the News of the World in 2001 to be the point person for phone hacking.",
+    "difficulty": 5,
+    "translation_literal": "这是工业规模的窃听，正如格伦·马尔凯尔所承认的那样，他是2001年被《世界新闻报》雇用来做电话窃听联络负责人的人。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "This",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "表语",
+        "english": "hacking on an industrial scale",
+        "chinese": "工业规模的窃听",
+        "parent_id": null,
+        "target_id": "c_008_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "as 引导结构",
+        "english": "as was acknowledged by Glenn Mulcaire",
+        "chinese": "正如格伦·马尔凯尔所承认的那样",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "补充说明前面的判断"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "同位语",
+        "english": "the man hired by the News of the World in 2001 to be the point person for phone hacking",
+        "chinese": "2001年被《世界新闻报》雇用来做电话窃听联络负责人的人",
+        "parent_id": null,
+        "target_id": "c_008_004",
+        "relation": "解释 Glenn Mulcaire"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "as + be + 过去分词",
+        "explanation": "as was acknowledged... 是插入式 as 结构，表示“正如……所承认的”。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "专有名词 + 名词短语",
+        "explanation": "the man hired... 是 Glenn Mulcaire 的同位语解释。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "industrial",
+        "pos": "adj.",
+        "meaning": "工业的，大规模的",
+        "chunk_id": "c_008_003"
+      },
+      {
+        "word": "scale",
+        "pos": "n.",
+        "meaning": "规模",
+        "chunk_id": "c_008_003"
+      },
+      {
+        "word": "acknowledged",
+        "pos": "v.",
+        "meaning": "承认",
+        "chunk_id": "c_008_004"
+      },
+      {
+        "word": "hired",
+        "pos": "v.",
+        "meaning": "雇用",
+        "chunk_id": "c_008_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "on an industrial scale",
+        "phrase_type": "prep. phr.",
+        "meaning": "以工业规模，大规模地",
+        "chunk_id": "c_008_003"
+      },
+      {
+        "phrase": "point person",
+        "phrase_type": "n. phr.",
+        "meaning": "负责人，联络人",
+        "chunk_id": "c_008_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Others await trial.",
+    "difficulty": 2,
+    "translation_literal": "其他人等待审判。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "Others",
+        "chinese": "其他人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "await",
+        "chinese": "等待",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "宾语",
+        "english": "trial",
+        "chinese": "审判",
+        "parent_id": null,
+        "target_id": "c_009_002",
+        "relation": "作 await 的宾语"
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "主语核心",
+        "english": "the dearth",
+        "chinese": "缺失",
+        "parent_id": "c_009_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "定语",
+        "english": "of moral purpose",
+        "chinese": "道德目的的",
+        "parent_id": "c_009_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "并列宾语",
+        "english": "the fact of such widespread phone hacking",
+        "chinese": "如此广泛电话窃听这一事实",
+        "parent_id": "c_009_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "并列宾语",
+        "english": "the terms on which the trial took place",
+        "chinese": "审判进行所依据的条件",
+        "parent_id": "c_009_004",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "await",
+        "pos": "v.",
+        "meaning": "等待",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "trial",
+        "pos": "n.",
+        "meaning": "审判",
+        "chunk_id": "c_009_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "This long story still unfolds.",
+    "difficulty": 2,
+    "translation_literal": "这个漫长的故事仍在展开。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "This long story",
+        "chinese": "这个漫长的故事",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "状语",
+        "english": "still",
+        "chinese": "仍然",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "谓语",
+        "english": "unfolds",
+        "chinese": "展开",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "并列表语",
+        "english": "how little Rebekah Brooks knew of what went on in her newsroom",
+        "chinese": "布鲁克斯对编辑室发生的事知道得多么少",
+        "parent_id": "c_010_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "并列表语",
+        "english": "how little she thought to ask",
+        "chinese": "她想到要问的多么少",
+        "parent_id": "c_010_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "并列表语",
+        "english": "the fact that she never inquired how the stories arrived",
+        "chinese": "她从未询问报道如何得来的事实",
+        "parent_id": "c_010_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "从句主语",
+        "english": "what",
+        "chinese": "事情",
+        "parent_id": "c_010_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "从句谓语",
+        "english": "went on",
+        "chinese": "发生",
+        "parent_id": "c_010_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_009",
+        "role": "从句主语",
+        "english": "she",
+        "chinese": "她",
+        "parent_id": "c_010_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_010",
+        "role": "从句谓语",
+        "english": "never inquired",
+        "chinese": "从未询问",
+        "parent_id": "c_010_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_011",
+        "role": "从句宾语",
+        "english": "how the stories arrived",
+        "chinese": "报道如何得来",
+        "parent_id": "c_010_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "unfolds",
+        "pos": "v.",
+        "meaning": "展开，逐渐显现",
+        "chunk_id": "c_010_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "In many respects, the dearth of moral purpose frames not only the fact of such widespread phone hacking but the terms on which the trial took place.",
+    "difficulty": 5,
+    "translation_literal": "在许多方面，道德目的的缺失不仅框定了如此广泛电话窃听这一事实，也框定了审判进行所依据的条件。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "状语",
+        "english": "In many respects",
+        "chinese": "在许多方面",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "主语",
+        "english": "the dearth of moral purpose",
+        "chinese": "道德目的的缺失",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "谓语",
+        "english": "frames",
+        "chinese": "框定，塑造",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "宾语",
+        "english": "not only the fact of such widespread phone hacking but the terms on which the trial took place",
+        "chinese": "不仅是如此广泛电话窃听这一事实，还有审判进行所依据的条件",
+        "parent_id": null,
+        "target_id": "c_011_003",
+        "relation": "作 frames 的宾语"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "定语从句",
+        "english": "on which the trial took place",
+        "chinese": "审判进行所依据的",
+        "parent_id": "c_011_004",
+        "target_id": "c_011_004",
+        "relation": "修饰 terms"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "not only A but B",
+        "explanation": "not only the fact... but the terms... 构成并列宾语。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "respects",
+        "pos": "n.",
+        "meaning": "方面",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "dearth",
+        "pos": "n.",
+        "meaning": "缺乏",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "word": "frames",
+        "pos": "v.",
+        "meaning": "框定，塑造",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "word": "terms",
+        "pos": "n.",
+        "meaning": "条件，条款",
+        "chunk_id": "c_011_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "In many respects",
+        "phrase_type": "prep. phr.",
+        "meaning": "在许多方面",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "phrase": "took place",
+        "phrase_type": "v. phr.",
+        "meaning": "发生，进行",
+        "chunk_id": "c_011_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "One of the astonishing revelations was how little Rebekah Brooks knew of what went on in her newsroom, how little she thought to ask and the fact that she never inquired how the stories arrived.",
+    "difficulty": 5,
+    "translation_literal": "令人震惊的揭露之一是：丽贝卡·布鲁克斯对她新闻编辑室里发生的事情知道得多么少，她想到要问的多么少，以及她从未询问这些报道是如何得来的这一事实。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "One of the astonishing revelations",
+        "chinese": "令人震惊的揭露之一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "was",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "表语从句",
+        "english": "how little Rebekah Brooks knew of what went on in her newsroom, how little she thought to ask and the fact that she never inquired how the stories arrived",
+        "chinese": "丽贝卡·布鲁克斯知道得多么少、想到要问的多么少以及她从未询问报道如何得来的事实",
+        "parent_id": null,
+        "target_id": "c_012_002",
+        "relation": "作 was 的表语"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "宾语从句",
+        "english": "what went on in her newsroom",
+        "chinese": "她新闻编辑室里发生的事情",
+        "parent_id": "c_012_003",
+        "target_id": "c_012_003",
+        "relation": "作 knew of 的宾语"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "同位语从句",
+        "english": "that she never inquired how the stories arrived",
+        "chinese": "她从未询问这些报道是如何得来的",
+        "parent_id": "c_012_003",
+        "target_id": "c_012_003",
+        "relation": "解释 the fact"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "从句主语",
+        "english": "well-paid executives",
+        "chinese": "高薪高管",
+        "parent_id": "c_012_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "从句谓语",
+        "english": "should not be",
+        "chinese": "不应是",
+        "parent_id": "c_012_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "从句表语",
+        "english": "accountable",
+        "chinese": "负有责任的",
+        "parent_id": "c_012_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_009",
+        "role": "状语",
+        "english": "for what happens in the organisations that they run",
+        "chinese": "对他们经营的组织中发生的事情",
+        "parent_id": "c_012_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_010",
+        "role": "从句主语",
+        "english": "what",
+        "chinese": "事情",
+        "parent_id": "c_012_006",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_011",
+        "role": "从句谓语",
+        "english": "happens",
+        "chinese": "发生",
+        "parent_id": "c_012_006",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_012",
+        "role": "状语",
+        "english": "in the organisations that they run",
+        "chinese": "在他们经营的组织中",
+        "parent_id": "c_012_006",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "how..., how..., and the fact that...",
+        "explanation": "三个并列内容共同作 was 的表语，说明 astonishing revelations 的内容。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "the fact + that 从句",
+        "explanation": "that she never inquired... 解释 the fact。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "astonishing",
+        "pos": "adj.",
+        "meaning": "令人震惊的",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "word": "revelations",
+        "pos": "n.",
+        "meaning": "揭露，披露",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "word": "newsroom",
+        "pos": "n.",
+        "meaning": "新闻编辑室",
+        "chunk_id": "c_012_004"
+      },
+      {
+        "word": "inquired",
+        "pos": "v.",
+        "meaning": "询问",
+        "chunk_id": "c_012_005"
+      },
+      {
+        "word": "arrived",
+        "pos": "v.",
+        "meaning": "到来，获得",
+        "chunk_id": "c_012_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "went on",
+        "phrase_type": "v. phr.",
+        "meaning": "发生，进行",
+        "chunk_id": "c_012_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The core of her successful defence was that she knew nothing.",
+    "difficulty": 3,
+    "translation_literal": "她成功辩护的核心是她什么都不知道。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "The core of her successful defence",
+        "chinese": "她成功辩护的核心",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "was",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "表语从句",
+        "english": "that she knew nothing",
+        "chinese": "她什么都不知道",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "作 was 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "core",
+        "pos": "n.",
+        "meaning": "核心",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "successful",
+        "pos": "adj.",
+        "meaning": "成功的",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "defence",
+        "pos": "n.",
+        "meaning": "辩护",
+        "chunk_id": "c_013_001"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "In today’s world, it has become normal that well-paid executives should not be accountable for what happens in the organisations that they run.",
+    "difficulty": 5,
+    "translation_literal": "在今天的世界里，高薪高管不应对他们经营的组织中发生的事情负责，这已经变得正常。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "状语",
+        "english": "In today’s world",
+        "chinese": "在今天的世界里",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "形式主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "谓语",
+        "english": "has become",
+        "chinese": "已经变得",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "表语",
+        "english": "normal",
+        "chinese": "正常的",
+        "parent_id": null,
+        "target_id": "c_014_003",
+        "relation": "作 has become 的表语"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "主语从句",
+        "english": "that well-paid executives should not be accountable for what happens in the organisations that they run",
+        "chinese": "高薪高管不应对他们经营的组织中发生的事情负责",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "真正主语"
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "宾语从句",
+        "english": "what happens in the organisations that they run",
+        "chinese": "他们经营的组织中发生的事情",
+        "parent_id": "c_014_005",
+        "target_id": "c_014_005",
+        "relation": "作 for 的宾语"
+      },
+      {
+        "chunk_id": "c_014_007",
+        "role": "定语从句",
+        "english": "that they run",
+        "chinese": "他们经营的",
+        "parent_id": "c_014_006",
+        "target_id": "c_014_006",
+        "relation": "修饰 organisations"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "it has become + adj. + that 从句",
+        "explanation": "it 是形式主语，真正主语是 that well-paid executives...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "normal",
+        "pos": "adj.",
+        "meaning": "正常的",
+        "chunk_id": "c_014_004"
+      },
+      {
+        "word": "executives",
+        "pos": "n.",
+        "meaning": "高管，主管",
+        "chunk_id": "c_014_005"
+      },
+      {
+        "word": "accountable",
+        "pos": "adj.",
+        "meaning": "负有责任的",
+        "chunk_id": "c_014_005"
+      },
+      {
+        "word": "organisations",
+        "pos": "n.",
+        "meaning": "组织，机构",
+        "chunk_id": "c_014_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "well-paid executives",
+        "phrase_type": "n. phr.",
+        "meaning": "高薪高管",
+        "chunk_id": "c_014_005"
+      },
+      {
+        "phrase": "be accountable for",
+        "phrase_type": "v. phr.",
+        "meaning": "对……负责",
+        "chunk_id": "c_014_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Perhaps we should not be so surprised.",
+    "difficulty": 2,
+    "translation_literal": "也许我们不应该如此惊讶。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "状语",
+        "english": "Perhaps",
+        "chinese": "也许",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "主语",
+        "english": "we",
+        "chinese": "我们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "谓语",
+        "english": "should not be",
+        "chinese": "不应该是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "表语",
+        "english": "so surprised",
+        "chinese": "如此惊讶",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "作 should not be 的表语"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "并列成分",
+        "english": "efficiency",
+        "chinese": "效率",
+        "parent_id": "c_015_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_006",
+        "role": "并列成分",
+        "english": "flexibility",
+        "chinese": "灵活性",
+        "parent_id": "c_015_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_007",
+        "role": "并列成分",
+        "english": "shareholder value",
+        "chinese": "股东价值",
+        "parent_id": "c_015_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_008",
+        "role": "并列成分",
+        "english": "business-friendly",
+        "chinese": "亲商业",
+        "parent_id": "c_015_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_009",
+        "role": "并列成分",
+        "english": "wealth generation",
+        "chinese": "财富创造",
+        "parent_id": "c_015_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_010",
+        "role": "并列成分",
+        "english": "sales",
+        "chinese": "销售",
+        "parent_id": "c_015_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_011",
+        "role": "并列成分",
+        "english": "impact",
+        "chinese": "影响力",
+        "parent_id": "c_015_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_012",
+        "role": "并列成分",
+        "english": "circulation",
+        "chinese": "发行量",
+        "parent_id": "c_015_004",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Perhaps",
+        "pos": "adv.",
+        "meaning": "也许",
+        "chunk_id": "c_015_001"
+      },
+      {
+        "word": "surprised",
+        "pos": "adj.",
+        "meaning": "惊讶的",
+        "chunk_id": "c_015_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "For a generation, the collective doctrine has been that the sorting mechanism of society should be profit.",
+    "difficulty": 4,
+    "translation_literal": "一代人以来，集体信条一直是：社会的筛选机制应该是利润。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "状语",
+        "english": "For a generation",
+        "chinese": "一代人以来",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "主语",
+        "english": "the collective doctrine",
+        "chinese": "集体信条",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "谓语",
+        "english": "has been",
+        "chinese": "一直是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "表语从句",
+        "english": "that the sorting mechanism of society should be profit",
+        "chinese": "社会的筛选机制应该是利润",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "作 has been 的表语"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "并列成分",
+        "english": "justice",
+        "chinese": "正义",
+        "parent_id": "c_016_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_006",
+        "role": "并列成分",
+        "english": "fairness",
+        "chinese": "公平",
+        "parent_id": "c_016_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_007",
+        "role": "并列成分",
+        "english": "tolerance",
+        "chinese": "宽容",
+        "parent_id": "c_016_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_008",
+        "role": "并列成分",
+        "english": "proportionality",
+        "chinese": "相称性",
+        "parent_id": "c_016_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_009",
+        "role": "并列成分",
+        "english": "accountability",
+        "chinese": "问责",
+        "parent_id": "c_016_004",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "generation",
+        "pos": "n.",
+        "meaning": "一代人",
+        "chunk_id": "c_016_001"
+      },
+      {
+        "word": "collective",
+        "pos": "adj.",
+        "meaning": "集体的",
+        "chunk_id": "c_016_002"
+      },
+      {
+        "word": "doctrine",
+        "pos": "n.",
+        "meaning": "信条，教义",
+        "chunk_id": "c_016_002"
+      },
+      {
+        "word": "mechanism",
+        "pos": "n.",
+        "meaning": "机制",
+        "chunk_id": "c_016_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "sorting mechanism",
+        "phrase_type": "n. phr.",
+        "meaning": "筛选机制",
+        "chunk_id": "c_016_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The words that have mattered are efficiency, flexibility, shareholder value, business-friendly, wealth generation, sales, impact and, in newspapers, circulation.",
+    "difficulty": 5,
+    "translation_literal": "真正重要的词是效率、灵活性、股东价值、亲商业、财富创造、销售、影响力，以及在报纸行业中的发行量。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "The words that have mattered",
+        "chinese": "真正重要的词",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "定语从句",
+        "english": "that have mattered",
+        "chinese": "重要的",
+        "parent_id": "c_017_001",
+        "target_id": "c_017_001",
+        "relation": "修饰 words"
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "表语",
+        "english": "efficiency, flexibility, shareholder value, business-friendly, wealth generation, sales, impact and, in newspapers, circulation",
+        "chinese": "效率、灵活性、股东价值、亲商业、财富创造、销售、影响力以及报纸行业中的发行量",
+        "parent_id": null,
+        "target_id": "c_017_003",
+        "relation": "作 are 的表语"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "插入语",
+        "english": "in newspapers",
+        "chinese": "在报纸行业中",
+        "parent_id": "c_017_004",
+        "target_id": "c_017_004",
+        "relation": "限定 circulation 所属领域"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, B, C, ... and H",
+        "explanation": "多个名词和形容词并列作表语，展示当前价值体系中的关键词。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "并列项中插入范围限定",
+        "explanation": "in newspapers 插在最后一项前，限定 circulation。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "efficiency",
+        "pos": "n.",
+        "meaning": "效率",
+        "chunk_id": "c_017_004"
+      },
+      {
+        "word": "flexibility",
+        "pos": "n.",
+        "meaning": "灵活性",
+        "chunk_id": "c_017_004"
+      },
+      {
+        "word": "shareholder",
+        "pos": "n.",
+        "meaning": "股东",
+        "chunk_id": "c_017_004"
+      },
+      {
+        "word": "circulation",
+        "pos": "n.",
+        "meaning": "发行量",
+        "chunk_id": "c_017_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "shareholder value",
+        "phrase_type": "n. phr.",
+        "meaning": "股东价值",
+        "chunk_id": "c_017_004"
+      },
+      {
+        "phrase": "wealth generation",
+        "phrase_type": "n. phr.",
+        "meaning": "财富创造",
+        "chunk_id": "c_017_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Words degraded to the margin have been justice, fairness, tolerance, proportionality and accountability.",
+    "difficulty": 4,
+    "translation_literal": "被贬到边缘的词一直是正义、公平、宽容、相称性和问责。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "主语",
+        "english": "Words degraded to the margin",
+        "chinese": "被贬到边缘的词",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "定语",
+        "english": "degraded to the margin",
+        "chinese": "被贬到边缘的",
+        "parent_id": "c_018_001",
+        "target_id": "c_018_001",
+        "relation": "修饰 Words"
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "谓语",
+        "english": "have been",
+        "chinese": "一直是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "表语",
+        "english": "justice, fairness, tolerance, proportionality and accountability",
+        "chinese": "正义、公平、宽容、相称性和问责",
+        "parent_id": null,
+        "target_id": "c_018_003",
+        "relation": "作 have been 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, B, C, D and E",
+        "explanation": "五个抽象名词并列，说明被边缘化的价值。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "degraded",
+        "pos": "v.",
+        "meaning": "贬低，降级",
+        "chunk_id": "c_018_002"
+      },
+      {
+        "word": "margin",
+        "pos": "n.",
+        "meaning": "边缘",
+        "chunk_id": "c_018_002"
+      },
+      {
+        "word": "justice",
+        "pos": "n.",
+        "meaning": "正义",
+        "chunk_id": "c_018_004"
+      },
+      {
+        "word": "fairness",
+        "pos": "n.",
+        "meaning": "公平",
+        "chunk_id": "c_018_004"
+      },
+      {
+        "word": "tolerance",
+        "pos": "n.",
+        "meaning": "宽容",
+        "chunk_id": "c_018_004"
+      },
+      {
+        "word": "accountability",
+        "pos": "n.",
+        "meaning": "问责，责任",
+        "chunk_id": "c_018_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "to the margin",
+        "phrase_type": "prep. phr.",
+        "meaning": "到边缘，被边缘化",
+        "chunk_id": "c_018_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The purpose of editing the News of the World was not to promote reader understanding, to be fair in what was written or to betray any common humanity.",
+    "difficulty": 4,
+    "translation_literal": "编辑《世界新闻报》的目的不是促进读者理解，不是在所写内容中保持公正，也不是背叛任何共同的人性。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "主语",
+        "english": "The purpose of editing the News of the World",
+        "chinese": "编辑《世界新闻报》的目的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "谓语",
+        "english": "was not",
+        "chinese": "不是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "表语",
+        "english": "to promote reader understanding, to be fair in what was written or to betray any common humanity",
+        "chinese": "促进读者理解、在所写内容中保持公正或背叛任何共同人性",
+        "parent_id": null,
+        "target_id": "c_019_002",
+        "relation": "作 was not 的表语"
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "并列表语",
+        "english": "to promote reader understanding",
+        "chinese": "促进读者理解",
+        "parent_id": "c_019_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "并列表语",
+        "english": "to be fair in what was written",
+        "chinese": "在所写内容中保持公正",
+        "parent_id": "c_019_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_006",
+        "role": "并列表语",
+        "english": "to betray any common humanity",
+        "chinese": "背叛任何共同人性",
+        "parent_id": "c_019_003",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "to do A, to do B or to do C",
+        "explanation": "三个不定式并列作表语，说明编辑目的不是什么。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "purpose",
+        "pos": "n.",
+        "meaning": "目的",
+        "chunk_id": "c_019_001"
+      },
+      {
+        "word": "editing",
+        "pos": "v.",
+        "meaning": "编辑",
+        "chunk_id": "c_019_001"
+      },
+      {
+        "word": "promote",
+        "pos": "v.",
+        "meaning": "促进",
+        "chunk_id": "c_019_003"
+      },
+      {
+        "word": "betray",
+        "pos": "v.",
+        "meaning": "背叛",
+        "chunk_id": "c_019_003"
+      },
+      {
+        "word": "humanity",
+        "pos": "n.",
+        "meaning": "人性，人类",
+        "chunk_id": "c_019_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "reader understanding",
+        "phrase_type": "n. phr.",
+        "meaning": "读者理解",
+        "chunk_id": "c_019_003"
+      },
+      {
+        "phrase": "common humanity",
+        "phrase_type": "n. phr.",
+        "meaning": "共同人性",
+        "chunk_id": "c_019_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "It was to ruin lives in the quest for circulation and impact.",
+    "difficulty": 3,
+    "translation_literal": "它是为了在追求发行量和影响力的过程中毁掉人生。",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "主语",
+        "english": "It",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "谓语",
+        "english": "was",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "表语",
+        "english": "to ruin lives in the quest for circulation and impact",
+        "chinese": "为了在追求发行量和影响力的过程中毁掉人生",
+        "parent_id": null,
+        "target_id": "c_020_002",
+        "relation": "作 was 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "ruin",
+        "pos": "v.",
+        "meaning": "毁掉，毁坏",
+        "chunk_id": "c_020_003"
+      },
+      {
+        "word": "quest",
+        "pos": "n.",
+        "meaning": "追求，探索",
+        "chunk_id": "c_020_003"
+      },
+      {
+        "word": "circulation",
+        "pos": "n.",
+        "meaning": "发行量",
+        "chunk_id": "c_020_003"
+      },
+      {
+        "word": "impact",
+        "pos": "n.",
+        "meaning": "影响力",
+        "chunk_id": "c_020_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "in the quest for",
+        "phrase_type": "prep. phr.",
+        "meaning": "在追求……的过程中",
+        "chunk_id": "c_020_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_021",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Ms Brooks may or may not have had suspicions about how her journalists got their stories, but she asked no questions, gave no instructions — nor received traceable, recorded answers.",
+    "difficulty": 5,
+    "translation_literal": "布鲁克斯女士可能有也可能没有怀疑她的记者们如何获得报道，但她没有提出问题，没有给出指示，也没有收到可追踪的、有记录的回答。",
+    "chunks": [
+      {
+        "chunk_id": "c_021_001",
+        "role": "并列分句",
+        "english": "Ms Brooks may or may not have had suspicions about how her journalists got their stories",
+        "chinese": "布鲁克斯女士可能有也可能没有怀疑她的记者们如何获得报道",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_002",
+        "role": "宾语从句",
+        "english": "how her journalists got their stories",
+        "chinese": "她的记者们如何获得报道",
+        "parent_id": "c_021_001",
+        "target_id": "c_021_001",
+        "relation": "作 about 的宾语"
+      },
+      {
+        "chunk_id": "c_021_003",
+        "role": "转折分句",
+        "english": "but she asked no questions, gave no instructions",
+        "chinese": "但她没有提出问题，没有给出指示",
+        "parent_id": null,
+        "target_id": "c_021_001",
+        "relation": "与前一分句转折"
+      },
+      {
+        "chunk_id": "c_021_004",
+        "role": "倒装/省略结构",
+        "english": "nor received traceable, recorded answers",
+        "chinese": "也没有收到可追踪的、有记录的回答",
+        "parent_id": null,
+        "target_id": "c_021_003",
+        "relation": "nor 后省略 she，承接前面的否定并列"
+      },
+      {
+        "chunk_id": "c_021_005",
+        "role": "从句主语",
+        "english": "her journalists",
+        "chinese": "她的记者们",
+        "parent_id": "c_021_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_006",
+        "role": "从句谓语",
+        "english": "got",
+        "chinese": "获得",
+        "parent_id": "c_021_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_007",
+        "role": "从句宾语",
+        "english": "their stories",
+        "chinese": "他们的报道",
+        "parent_id": "c_021_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_008",
+        "role": "并列谓语",
+        "english": "asked no questions",
+        "chinese": "没有提出问题",
+        "parent_id": "c_021_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_009",
+        "role": "并列谓语",
+        "english": "gave no instructions",
+        "chinese": "没有给出指示",
+        "parent_id": "c_021_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_010",
+        "role": "并列谓语",
+        "english": "nor received traceable, recorded answers",
+        "chinese": "也没有收到可追踪的有记录回答",
+        "parent_id": "c_021_004",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "nor + 谓语 + 宾语",
+        "explanation": "nor received... 省略主语 she，并延续前面的否定。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "asked no..., gave no..., nor received...",
+        "explanation": "三个否定动作并列，说明她没有追问或留下可追踪记录。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "suspicions",
+        "pos": "n.",
+        "meaning": "怀疑",
+        "chunk_id": "c_021_001"
+      },
+      {
+        "word": "journalists",
+        "pos": "n.",
+        "meaning": "记者",
+        "chunk_id": "c_021_002"
+      },
+      {
+        "word": "instructions",
+        "pos": "n.",
+        "meaning": "指示",
+        "chunk_id": "c_021_003"
+      },
+      {
+        "word": "traceable",
+        "pos": "adj.",
+        "meaning": "可追踪的",
+        "chunk_id": "c_021_004"
+      },
+      {
+        "word": "recorded",
+        "pos": "adj.",
+        "meaning": "有记录的",
+        "chunk_id": "c_021_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "may or may not",
+        "phrase_type": "modal phr.",
+        "meaning": "可能有也可能没有",
+        "chunk_id": "c_021_001"
+      }
+    ]
+  }
+]

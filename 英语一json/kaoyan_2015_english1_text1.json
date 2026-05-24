@@ -1,0 +1,2485 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "King Juan Carlos of Spain once insisted “kings don’t abdicate, they die in their sleep”.",
+    "difficulty": 2,
+    "translation_literal": "西班牙国王胡安·卡洛斯曾经坚称：“国王们不会退位，他们在睡梦中死去。”",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "King Juan Carlos of Spain",
+        "chinese": "西班牙国王胡安·卡洛斯",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "定语",
+        "english": "of Spain",
+        "chinese": "西班牙的",
+        "parent_id": "c_001_001",
+        "target_id": "c_001_001",
+        "relation": "修饰主语，说明国王所属国家"
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "状语",
+        "english": "once",
+        "chinese": "曾经",
+        "parent_id": null,
+        "target_id": "c_001_004",
+        "relation": "修饰谓语，说明动作发生时间"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "谓语",
+        "english": "insisted",
+        "chinese": "坚称",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "宾语",
+        "english": "“kings don’t abdicate, they die in their sleep”",
+        "chinese": "“国王们不会退位，他们在睡梦中死去”",
+        "parent_id": null,
+        "target_id": "c_001_004",
+        "relation": "作谓语 insisted 的宾语内容"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "并列分句",
+        "english": "kings don’t abdicate",
+        "chinese": "国王们不会退位",
+        "parent_id": "c_001_005",
+        "target_id": null,
+        "relation": "构成直接引语中的第一分句"
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "并列分句",
+        "english": "they die in their sleep",
+        "chinese": "他们在睡梦中死去",
+        "parent_id": "c_001_005",
+        "target_id": "c_001_006",
+        "relation": "与前一分句并列"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "insisted",
+        "pos": "v.",
+        "meaning": "坚称，坚持说",
+        "chunk_id": "c_001_004"
+      },
+      {
+        "word": "abdicate",
+        "pos": "v.",
+        "meaning": "退位，逊位",
+        "chunk_id": "c_001_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "die in their sleep",
+        "phrase_type": "v. phr.",
+        "meaning": "在睡梦中死去",
+        "chunk_id": "c_001_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "But embarrassing scandals and the popularity of the republican left in the recent Euro-elections have forced him to eat his words and stand down.",
+    "difficulty": 3,
+    "translation_literal": "但是，令人尴尬的丑闻以及共和派左翼在最近欧洲议会选举中的受欢迎程度，已经迫使他收回自己的话并退位。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "连接前后句，表示转折"
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "主语",
+        "english": "embarrassing scandals and the popularity of the republican left in the recent Euro-elections",
+        "chinese": "令人尴尬的丑闻以及共和派左翼在最近欧洲议会选举中的受欢迎程度",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "定语",
+        "english": "embarrassing",
+        "chinese": "令人尴尬的",
+        "parent_id": "c_002_002",
+        "target_id": "c_002_004",
+        "relation": "修饰 scandals"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "主语核心",
+        "english": "scandals",
+        "chinese": "丑闻",
+        "parent_id": "c_002_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "并列成分",
+        "english": "the popularity of the republican left in the recent Euro-elections",
+        "chinese": "共和派左翼在最近欧洲议会选举中的受欢迎程度",
+        "parent_id": "c_002_002",
+        "target_id": "c_002_004",
+        "relation": "与 scandals 并列，共同构成主语"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "定语",
+        "english": "of the republican left",
+        "chinese": "共和派左翼的",
+        "parent_id": "c_002_005",
+        "target_id": "c_002_005",
+        "relation": "修饰 popularity，说明是谁的受欢迎程度"
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "定语",
+        "english": "in the recent Euro-elections",
+        "chinese": "在最近欧洲议会选举中的",
+        "parent_id": "c_002_005",
+        "target_id": "c_002_005",
+        "relation": "修饰 popularity，说明范围"
+      },
+      {
+        "chunk_id": "c_002_008",
+        "role": "谓语",
+        "english": "have forced",
+        "chinese": "已经迫使",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_009",
+        "role": "宾语",
+        "english": "him",
+        "chinese": "他",
+        "parent_id": null,
+        "target_id": "c_002_008",
+        "relation": "作谓语 have forced 的宾语"
+      },
+      {
+        "chunk_id": "c_002_010",
+        "role": "宾语补足语",
+        "english": "to eat his words and stand down",
+        "chinese": "收回自己的话并退位",
+        "parent_id": null,
+        "target_id": "c_002_009",
+        "relation": "补充说明宾语 him 被迫做的动作"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "embarrassing",
+        "pos": "adj.",
+        "meaning": "令人尴尬的",
+        "chunk_id": "c_002_003"
+      },
+      {
+        "word": "scandals",
+        "pos": "n.",
+        "meaning": "丑闻",
+        "chunk_id": "c_002_004"
+      },
+      {
+        "word": "popularity",
+        "pos": "n.",
+        "meaning": "受欢迎程度，人气",
+        "chunk_id": "c_002_005"
+      },
+      {
+        "word": "republican",
+        "pos": "adj.",
+        "meaning": "共和派的，支持共和制的",
+        "chunk_id": "c_002_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "eat his words",
+        "phrase_type": "idiom",
+        "meaning": "收回前言，承认自己说错了",
+        "chunk_id": "c_002_010"
+      },
+      {
+        "phrase": "stand down",
+        "phrase_type": "v. phr.",
+        "meaning": "退位，下台",
+        "chunk_id": "c_002_010"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "So, does the Spanish crisis suggest that monarchy is seeing its last days?",
+    "difficulty": 3,
+    "translation_literal": "那么，西班牙危机是否表明君主制正在走向它的末日？",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "连接成分",
+        "english": "So",
+        "chinese": "那么",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "承接上文，引出问题"
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "主语",
+        "english": "the Spanish crisis",
+        "chinese": "西班牙危机",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "谓语",
+        "english": "does suggest",
+        "chinese": "是否表明",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "疑问句中的谓语结构"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "宾语从句",
+        "english": "that monarchy is seeing its last days",
+        "chinese": "君主制正在走向它的末日",
+        "parent_id": null,
+        "target_id": "c_003_003",
+        "relation": "作谓语 suggest 的宾语"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "从句主语",
+        "english": "monarchy",
+        "chinese": "君主制",
+        "parent_id": "c_003_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "从句谓语",
+        "english": "is seeing",
+        "chinese": "正在走向",
+        "parent_id": "c_003_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "从句宾语",
+        "english": "its last days",
+        "chinese": "它的末日",
+        "parent_id": "c_003_004",
+        "target_id": "c_003_006",
+        "relation": "作从句谓语 is seeing 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "crisis",
+        "pos": "n.",
+        "meaning": "危机",
+        "chunk_id": "c_003_002"
+      },
+      {
+        "word": "suggest",
+        "pos": "v.",
+        "meaning": "表明，暗示",
+        "chunk_id": "c_003_003"
+      },
+      {
+        "word": "monarchy",
+        "pos": "n.",
+        "meaning": "君主制",
+        "chunk_id": "c_003_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "see its last days",
+        "phrase_type": "idiom",
+        "meaning": "走向末日，行将终结",
+        "chunk_id": "c_003_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Does that mean the writing is on the wall for all European royals, with their magnificent uniforms and majestic lifestyles?",
+    "difficulty": 4,
+    "translation_literal": "那是否意味着，对所有拥有华丽制服和威严生活方式的欧洲王室成员来说，大势已去的预兆已经出现了？",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "that",
+        "chinese": "那",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "谓语",
+        "english": "Does mean",
+        "chinese": "是否意味着",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "疑问句中的谓语结构"
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "宾语从句",
+        "english": "the writing is on the wall for all European royals",
+        "chinese": "对所有欧洲王室成员来说，大势已去的预兆已经出现了",
+        "parent_id": null,
+        "target_id": "c_004_002",
+        "relation": "作谓语 mean 的宾语内容"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "从句主语",
+        "english": "the writing",
+        "chinese": "预兆",
+        "parent_id": "c_004_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是，已经出现",
+        "parent_id": "c_004_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "表语",
+        "english": "on the wall",
+        "chinese": "在墙上，预兆已经显现",
+        "parent_id": "c_004_003",
+        "target_id": "c_004_005",
+        "relation": "作系动词 is 后的表语"
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "状语",
+        "english": "for all European royals",
+        "chinese": "对于所有欧洲王室成员来说",
+        "parent_id": "c_004_003",
+        "target_id": "c_004_006",
+        "relation": "说明预兆针对的对象"
+      },
+      {
+        "chunk_id": "c_004_008",
+        "role": "定语",
+        "english": "with their magnificent uniforms and majestic lifestyles",
+        "chinese": "拥有华丽制服和威严生活方式的",
+        "parent_id": null,
+        "target_id": "c_004_007",
+        "relation": "补充修饰 all European royals"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "royals",
+        "pos": "n.",
+        "meaning": "王室成员",
+        "chunk_id": "c_004_007"
+      },
+      {
+        "word": "magnificent",
+        "pos": "adj.",
+        "meaning": "华丽的，壮丽的",
+        "chunk_id": "c_004_008"
+      },
+      {
+        "word": "majestic",
+        "pos": "adj.",
+        "meaning": "威严的，庄严的",
+        "chunk_id": "c_004_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "the writing is on the wall",
+        "phrase_type": "idiom",
+        "meaning": "大势已去，厄运将至的迹象已经很明显",
+        "chunk_id": "c_004_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The Spanish case provides arguments both for and against monarchy.",
+    "difficulty": 2,
+    "translation_literal": "西班牙案例提供了支持和反对君主制两方面的论据。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "The Spanish case",
+        "chinese": "西班牙案例",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "provides",
+        "chinese": "提供",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "宾语",
+        "english": "arguments",
+        "chinese": "论据",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "作谓语 provides 的宾语"
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "定语",
+        "english": "both for and against monarchy",
+        "chinese": "支持和反对君主制两方面的",
+        "parent_id": "c_005_003",
+        "target_id": "c_005_003",
+        "relation": "修饰 arguments，说明论据的两种方向"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "case",
+        "pos": "n.",
+        "meaning": "案例，情况",
+        "chunk_id": "c_005_001"
+      },
+      {
+        "word": "provides",
+        "pos": "v.",
+        "meaning": "提供",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "arguments",
+        "pos": "n.",
+        "meaning": "论据，理由",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "monarchy",
+        "pos": "n.",
+        "meaning": "君主制",
+        "chunk_id": "c_005_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "for and against",
+        "phrase_type": "collocation",
+        "meaning": "支持和反对",
+        "chunk_id": "c_005_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "When public opinion is particularly polarised, as it was following the end of the Franco regime, monarchs can rise above “mere” politics and “embody” a spirit of national unity.",
+    "difficulty": 4,
+    "translation_literal": "当公众舆论特别两极分化时，正如它在佛朗哥政权结束之后那样，君主们能够超越“纯粹的”政治，并“体现”一种民族团结的精神。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "状语从句",
+        "english": "When public opinion is particularly polarised",
+        "chinese": "当公众舆论特别两极分化时",
+        "parent_id": null,
+        "target_id": "c_006_006",
+        "relation": "修饰主句，说明背景条件"
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "插入语",
+        "english": "as it was following the end of the Franco regime",
+        "chinese": "正如它在佛朗哥政权结束之后那样",
+        "parent_id": null,
+        "target_id": "c_006_001",
+        "relation": "补充说明公众舆论两极分化的历史背景"
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "状语",
+        "english": "following the end of the Franco regime",
+        "chinese": "在佛朗哥政权结束之后",
+        "parent_id": "c_006_002",
+        "target_id": "c_006_002",
+        "relation": "说明插入语中的时间背景"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "主语",
+        "english": "monarchs",
+        "chinese": "君主们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "谓语",
+        "english": "can rise above",
+        "chinese": "能够超越",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "宾语",
+        "english": "“mere” politics",
+        "chinese": "“纯粹的”政治",
+        "parent_id": null,
+        "target_id": "c_006_005",
+        "relation": "作谓语 can rise above 的宾语"
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "并列谓语",
+        "english": "and “embody”",
+        "chinese": "并“体现”",
+        "parent_id": null,
+        "target_id": "c_006_005",
+        "relation": "与 can rise above 并列，共同说明 monarchs 的动作"
+      },
+      {
+        "chunk_id": "c_006_008",
+        "role": "宾语",
+        "english": "a spirit of national unity",
+        "chinese": "一种民族团结的精神",
+        "parent_id": null,
+        "target_id": "c_006_007",
+        "relation": "作 embody 的宾语"
+      },
+      {
+        "chunk_id": "c_006_009",
+        "role": "定语",
+        "english": "of national unity",
+        "chinese": "民族团结的",
+        "parent_id": "c_006_008",
+        "target_id": "c_006_008",
+        "relation": "修饰 spirit，说明精神的内容"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "as + 主语 + 谓语",
+        "explanation": "as it was following the end of the Franco regime 是插入式 as 结构，用来补充说明前面 public opinion is particularly polarised 的历史背景。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "polarised",
+        "pos": "adj.",
+        "meaning": "两极分化的",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "monarchs",
+        "pos": "n.",
+        "meaning": "君主们",
+        "chunk_id": "c_006_004"
+      },
+      {
+        "word": "mere",
+        "pos": "adj.",
+        "meaning": "纯粹的，仅仅的",
+        "chunk_id": "c_006_006"
+      },
+      {
+        "word": "embody",
+        "pos": "v.",
+        "meaning": "体现，代表",
+        "chunk_id": "c_006_007"
+      },
+      {
+        "word": "regime",
+        "pos": "n.",
+        "meaning": "政权，统治体制",
+        "chunk_id": "c_006_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "public opinion",
+        "phrase_type": "n. phr.",
+        "meaning": "公众舆论",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "phrase": "rise above politics",
+        "phrase_type": "v. phr.",
+        "meaning": "超越政治",
+        "chunk_id": "c_006_005"
+      },
+      {
+        "phrase": "a spirit of national unity",
+        "phrase_type": "n. phr.",
+        "meaning": "一种民族团结的精神",
+        "chunk_id": "c_006_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "It is this apparent transcendence of politics that explains monarchs’ continuing popularity as heads of state.",
+    "difficulty": 4,
+    "translation_literal": "正是这种表面上的对政治的超越，解释了君主们作为国家元首的持续受欢迎。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "强调结构",
+        "english": "It is this apparent transcendence of politics that",
+        "chinese": "正是这种表面上的对政治的超越",
+        "parent_id": null,
+        "target_id": "c_007_004",
+        "relation": "强调句结构，强调真正主语"
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "主语",
+        "english": "this apparent transcendence of politics",
+        "chinese": "这种表面上的对政治的超越",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": "被强调的主语"
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "定语",
+        "english": "of politics",
+        "chinese": "对政治的",
+        "parent_id": "c_007_002",
+        "target_id": "c_007_002",
+        "relation": "修饰 transcendence，说明超越的对象"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "谓语",
+        "english": "explains",
+        "chinese": "解释了",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "宾语",
+        "english": "monarchs’ continuing popularity",
+        "chinese": "君主们的持续受欢迎",
+        "parent_id": null,
+        "target_id": "c_007_004",
+        "relation": "作谓语 explains 的宾语"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "状语",
+        "english": "as heads of state",
+        "chinese": "作为国家元首",
+        "parent_id": null,
+        "target_id": "c_007_005",
+        "relation": "说明君主受欢迎时的身份"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "强调句",
+        "pattern_form": "It is/was + 被强调部分 + that/who + 其他部分",
+        "explanation": "本句用 It is...that... 强调 this apparent transcendence of politics，真正主干是 this apparent transcendence of politics explains...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "apparent",
+        "pos": "adj.",
+        "meaning": "表面上的，显然的",
+        "chunk_id": "c_007_002"
+      },
+      {
+        "word": "transcendence",
+        "pos": "n.",
+        "meaning": "超越",
+        "chunk_id": "c_007_002"
+      },
+      {
+        "word": "continuing",
+        "pos": "adj.",
+        "meaning": "持续的",
+        "chunk_id": "c_007_005"
+      },
+      {
+        "word": "popularity",
+        "pos": "n.",
+        "meaning": "受欢迎，受欢迎程度",
+        "chunk_id": "c_007_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "heads of state",
+        "phrase_type": "n. phr.",
+        "meaning": "国家元首",
+        "chunk_id": "c_007_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "And so, the Middle East excepted, Europe is the most monarch-infested region in the world, with 10 kingdoms (not counting Vatican City and Andorra).",
+    "difficulty": 4,
+    "translation_literal": "因此，除中东外，欧洲是世界上君主制最密集的地区，拥有10个王国（不包括梵蒂冈城和安道尔）。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "连接成分",
+        "english": "And so",
+        "chinese": "因此",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "承接前文，引出结果"
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "插入语",
+        "english": "the Middle East excepted",
+        "chinese": "除中东外",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "限定比较范围"
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "主语",
+        "english": "Europe",
+        "chinese": "欧洲",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "表语",
+        "english": "the most monarch-infested region in the world",
+        "chinese": "世界上君主制最密集的地区",
+        "parent_id": null,
+        "target_id": "c_008_004",
+        "relation": "作系动词 is 后的表语"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "定语",
+        "english": "in the world",
+        "chinese": "在世界上",
+        "parent_id": "c_008_005",
+        "target_id": "c_008_005",
+        "relation": "限定 region 的范围"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "状语",
+        "english": "with 10 kingdoms",
+        "chinese": "拥有10个王国",
+        "parent_id": null,
+        "target_id": "c_008_005",
+        "relation": "补充说明欧洲君主制密集的表现"
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "插入语",
+        "english": "not counting Vatican City and Andorra",
+        "chinese": "不包括梵蒂冈城和安道尔",
+        "parent_id": "c_008_007",
+        "target_id": "c_008_007",
+        "relation": "补充说明计数范围"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语前后插入补充限定成分",
+        "explanation": "the Middle East excepted 和 not counting Vatican City and Andorra 都是补充限定信息，阅读时应先抓住 Europe is the most monarch-infested region 这个主干。"
+      },
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "名词 + excepted",
+        "explanation": "the Middle East excepted 相当于 with the Middle East excepted，表示“除中东外”。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "excepted",
+        "pos": "v.",
+        "meaning": "除外，不包括",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "word": "monarch-infested",
+        "pos": "adj.",
+        "meaning": "君主制密集的，充满君主制的",
+        "chunk_id": "c_008_005"
+      },
+      {
+        "word": "kingdoms",
+        "pos": "n.",
+        "meaning": "王国",
+        "chunk_id": "c_008_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "the Middle East excepted",
+        "phrase_type": "absolute construction",
+        "meaning": "除中东外",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "phrase": "not counting",
+        "phrase_type": "v. phr.",
+        "meaning": "不包括，不算入",
+        "chunk_id": "c_008_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "But unlike their absolutist counterparts in the Gulf and Asia, most royal families have survived because they allow voters to avoid the difficult search for a non-controversial but respected public figure.",
+    "difficulty": 5,
+    "translation_literal": "但是，不同于他们在海湾地区和亚洲的专制君主同行，大多数王室家族已经存续下来，因为他们允许选民避免对一个无争议但受尊敬的公众人物的艰难寻找。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "连接前后句，表示转折"
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "状语",
+        "english": "unlike their absolutist counterparts in the Gulf and Asia",
+        "chinese": "不同于他们在海湾地区和亚洲的专制君主同行",
+        "parent_id": null,
+        "target_id": "c_009_004",
+        "relation": "说明比较对象"
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "定语",
+        "english": "in the Gulf and Asia",
+        "chinese": "在海湾地区和亚洲的",
+        "parent_id": "c_009_002",
+        "target_id": "c_009_002",
+        "relation": "修饰 counterparts，说明所在地区"
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "主语",
+        "english": "most royal families",
+        "chinese": "大多数王室家族",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "谓语",
+        "english": "have survived",
+        "chinese": "已经存续下来",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "状语从句",
+        "english": "because they allow voters to avoid the difficult search for a non-controversial but respected public figure",
+        "chinese": "因为他们允许选民避免对一个无争议但受尊敬的公众人物的艰难寻找",
+        "parent_id": null,
+        "target_id": "c_009_005",
+        "relation": "说明大多数王室家族存续下来的原因"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_009_006",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "从句谓语",
+        "english": "allow",
+        "chinese": "允许",
+        "parent_id": "c_009_006",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_009",
+        "role": "从句宾语",
+        "english": "voters",
+        "chinese": "选民",
+        "parent_id": "c_009_006",
+        "target_id": "c_009_008",
+        "relation": "作 allow 的宾语"
+      },
+      {
+        "chunk_id": "c_009_010",
+        "role": "宾语补足语",
+        "english": "to avoid the difficult search for a non-controversial but respected public figure",
+        "chinese": "避免对一个无争议但受尊敬的公众人物的艰难寻找",
+        "parent_id": "c_009_006",
+        "target_id": "c_009_009",
+        "relation": "补充说明 voters 被允许做的事"
+      },
+      {
+        "chunk_id": "c_009_011",
+        "role": "定语",
+        "english": "for a non-controversial but respected public figure",
+        "chinese": "对一个无争议但受尊敬的公众人物的",
+        "parent_id": "c_009_010",
+        "target_id": "c_009_010",
+        "relation": "修饰 search，说明寻找的对象"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "absolutist",
+        "pos": "adj.",
+        "meaning": "专制主义的，绝对君主制的",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "counterparts",
+        "pos": "n.",
+        "meaning": "对应的人或物，同行",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "survived",
+        "pos": "v.",
+        "meaning": "存续下来，幸存",
+        "chunk_id": "c_009_005"
+      },
+      {
+        "word": "avoid",
+        "pos": "v.",
+        "meaning": "避免",
+        "chunk_id": "c_009_010"
+      },
+      {
+        "word": "non-controversial",
+        "pos": "adj.",
+        "meaning": "无争议的",
+        "chunk_id": "c_009_011"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "royal families",
+        "phrase_type": "n. phr.",
+        "meaning": "王室家族",
+        "chunk_id": "c_009_004"
+      },
+      {
+        "phrase": "public figure",
+        "phrase_type": "n. phr.",
+        "meaning": "公众人物",
+        "chunk_id": "c_009_011"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Even so, kings and queens undoubtedly have a downside.",
+    "difficulty": 2,
+    "translation_literal": "即便如此，国王和女王无疑有一个缺点。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "连接成分",
+        "english": "Even so",
+        "chinese": "即便如此",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "承接上文并表示让步转折"
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "主语",
+        "english": "kings and queens",
+        "chinese": "国王和女王",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "状语",
+        "english": "undoubtedly",
+        "chinese": "无疑地",
+        "parent_id": null,
+        "target_id": "c_010_004",
+        "relation": "修饰谓语，表示确定性"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "谓语",
+        "english": "have",
+        "chinese": "有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "宾语",
+        "english": "a downside",
+        "chinese": "一个缺点",
+        "parent_id": null,
+        "target_id": "c_010_004",
+        "relation": "作谓语 have 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "undoubtedly",
+        "pos": "adv.",
+        "meaning": "无疑地",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "downside",
+        "pos": "n.",
+        "meaning": "缺点，不利方面",
+        "chunk_id": "c_010_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Even so",
+        "phrase_type": "collocation",
+        "meaning": "即便如此",
+        "chunk_id": "c_010_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Symbolic of national unity as they claim to be, their very history — and sometimes the way they behave today — embodies outdated and indefensible privileges and inequalities.",
+    "difficulty": 5,
+    "translation_literal": "尽管他们声称自己象征着民族团结，他们的自身历史，以及有时他们今天的行为方式，却体现了过时的且不可辩护的特权和不平等。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "让步状语",
+        "english": "Symbolic of national unity as they claim to be",
+        "chinese": "尽管他们声称自己象征着民族团结",
+        "parent_id": null,
+        "target_id": "c_011_006",
+        "relation": "修饰主句，表示让步"
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "定语",
+        "english": "of national unity",
+        "chinese": "民族团结的",
+        "parent_id": "c_011_001",
+        "target_id": "c_011_001",
+        "relation": "修饰 symbolic，说明象征的内容"
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "主语",
+        "english": "their very history",
+        "chinese": "他们的自身历史",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "插入语",
+        "english": "and sometimes the way they behave today",
+        "chinese": "以及有时他们今天的行为方式",
+        "parent_id": null,
+        "target_id": "c_011_003",
+        "relation": "补充增加另一个主语内容"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "定语从句",
+        "english": "they behave today",
+        "chinese": "他们今天行为的",
+        "parent_id": "c_011_004",
+        "target_id": "c_011_004",
+        "relation": "修饰 the way，说明行为方式"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "谓语",
+        "english": "embodies",
+        "chinese": "体现了",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "宾语",
+        "english": "outdated and indefensible privileges and inequalities",
+        "chinese": "过时的且不可辩护的特权和不平等",
+        "parent_id": null,
+        "target_id": "c_011_006",
+        "relation": "作谓语 embodies 的宾语"
+      },
+      {
+        "chunk_id": "c_011_008",
+        "role": "定语",
+        "english": "outdated and indefensible",
+        "chinese": "过时的且不可辩护的",
+        "parent_id": "c_011_007",
+        "target_id": "c_011_007",
+        "relation": "修饰 privileges and inequalities"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "让步倒装",
+        "pattern_form": "adj./n./adv. + as + 主语 + 谓语",
+        "explanation": "Symbolic of national unity as they claim to be 是让步倒装，意思是“尽管他们声称自己象征民族团结”。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号插入补充成分",
+        "explanation": "and sometimes the way they behave today 被破折号隔开，补充增加主语内容，主干是 their very history embodies...。"
+      },
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "adj. + as + 主语 + 谓语",
+        "explanation": "as 在这里引导让步结构，不表示普通的“因为”或“当……时”。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "symbolic",
+        "pos": "adj.",
+        "meaning": "象征性的，象征着的",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "embodies",
+        "pos": "v.",
+        "meaning": "体现，代表",
+        "chunk_id": "c_011_006"
+      },
+      {
+        "word": "outdated",
+        "pos": "adj.",
+        "meaning": "过时的",
+        "chunk_id": "c_011_008"
+      },
+      {
+        "word": "indefensible",
+        "pos": "adj.",
+        "meaning": "不可辩护的，站不住脚的",
+        "chunk_id": "c_011_008"
+      },
+      {
+        "word": "privileges",
+        "pos": "n.",
+        "meaning": "特权",
+        "chunk_id": "c_011_007"
+      },
+      {
+        "word": "inequalities",
+        "pos": "n.",
+        "meaning": "不平等",
+        "chunk_id": "c_011_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "as they claim to be",
+        "phrase_type": "as-structure",
+        "meaning": "如他们所声称的那样",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "phrase": "the way they behave",
+        "phrase_type": "n. phr.",
+        "meaning": "他们行为的方式",
+        "chunk_id": "c_011_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "At a time when Thomas Piketty and other economists are warning of rising inequality and the increasing power of inherited wealth, it is bizarre that wealthy aristocratic families should still be the symbolic heart of modern democratic states.",
+    "difficulty": 5,
+    "translation_literal": "在一个托马斯·皮凯蒂和其他经济学家正在警告日益加剧的不平等以及继承财富不断增强的力量的时代，富有的贵族家庭竟然仍然是现代民主国家的象征核心，这是奇怪的。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "状语",
+        "english": "At a time",
+        "chinese": "在一个时代",
+        "parent_id": null,
+        "target_id": "c_012_006",
+        "relation": "修饰主句，说明时代背景"
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "定语从句",
+        "english": "when Thomas Piketty and other economists are warning of rising inequality and the increasing power of inherited wealth",
+        "chinese": "当托马斯·皮凯蒂和其他经济学家正在警告日益加剧的不平等以及继承财富不断增强的力量时",
+        "parent_id": "c_012_001",
+        "target_id": "c_012_001",
+        "relation": "修饰 a time，说明时代特征"
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "从句主语",
+        "english": "Thomas Piketty and other economists",
+        "chinese": "托马斯·皮凯蒂和其他经济学家",
+        "parent_id": "c_012_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "从句谓语",
+        "english": "are warning of",
+        "chinese": "正在警告",
+        "parent_id": "c_012_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "从句宾语",
+        "english": "rising inequality and the increasing power of inherited wealth",
+        "chinese": "日益加剧的不平等以及继承财富不断增强的力量",
+        "parent_id": "c_012_002",
+        "target_id": "c_012_004",
+        "relation": "作 are warning of 的宾语"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "形式主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": "c_012_008",
+        "relation": "形式主语，真正内容由 that 从句承担"
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "表语",
+        "english": "bizarre",
+        "chinese": "奇怪的",
+        "parent_id": null,
+        "target_id": "c_012_007",
+        "relation": "作系动词 is 后的表语"
+      },
+      {
+        "chunk_id": "c_012_009",
+        "role": "主语从句",
+        "english": "that wealthy aristocratic families should still be the symbolic heart of modern democratic states",
+        "chinese": "富有的贵族家庭竟然仍然是现代民主国家的象征核心",
+        "parent_id": null,
+        "target_id": "c_012_006",
+        "relation": "是真正主语，对应形式主语 it"
+      },
+      {
+        "chunk_id": "c_012_010",
+        "role": "从句主语",
+        "english": "wealthy aristocratic families",
+        "chinese": "富有的贵族家庭",
+        "parent_id": "c_012_009",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_011",
+        "role": "从句谓语",
+        "english": "should still be",
+        "chinese": "竟然仍然是",
+        "parent_id": "c_012_009",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_012",
+        "role": "从句表语",
+        "english": "the symbolic heart of modern democratic states",
+        "chinese": "现代民主国家的象征核心",
+        "parent_id": "c_012_009",
+        "target_id": "c_012_011",
+        "relation": "作 should still be 后的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is + adj. + that 从句",
+        "explanation": "it 是形式主语，真正主语是 that wealthy aristocratic families should still be...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "economists",
+        "pos": "n.",
+        "meaning": "经济学家",
+        "chunk_id": "c_012_003"
+      },
+      {
+        "word": "inequality",
+        "pos": "n.",
+        "meaning": "不平等",
+        "chunk_id": "c_012_005"
+      },
+      {
+        "word": "inherited",
+        "pos": "adj.",
+        "meaning": "继承而来的",
+        "chunk_id": "c_012_005"
+      },
+      {
+        "word": "bizarre",
+        "pos": "adj.",
+        "meaning": "奇怪的，怪异的",
+        "chunk_id": "c_012_008"
+      },
+      {
+        "word": "aristocratic",
+        "pos": "adj.",
+        "meaning": "贵族的",
+        "chunk_id": "c_012_010"
+      },
+      {
+        "word": "symbolic",
+        "pos": "adj.",
+        "meaning": "象征性的",
+        "chunk_id": "c_012_012"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "warning of",
+        "phrase_type": "v. phr.",
+        "meaning": "警告，提醒注意",
+        "chunk_id": "c_012_004"
+      },
+      {
+        "phrase": "inherited wealth",
+        "phrase_type": "n. phr.",
+        "meaning": "继承财富",
+        "chunk_id": "c_012_005"
+      },
+      {
+        "phrase": "the symbolic heart",
+        "phrase_type": "n. phr.",
+        "meaning": "象征核心",
+        "chunk_id": "c_012_012"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The most successful monarchies strive to abandon or hide their old aristocratic ways.",
+    "difficulty": 3,
+    "translation_literal": "最成功的君主制国家努力放弃或隐藏它们旧有的贵族做派。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "The most successful monarchies",
+        "chinese": "最成功的君主制国家",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "定语",
+        "english": "most successful",
+        "chinese": "最成功的",
+        "parent_id": "c_013_001",
+        "target_id": "c_013_001",
+        "relation": "修饰 monarchies"
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "谓语",
+        "english": "strive",
+        "chinese": "努力",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "宾语",
+        "english": "to abandon or hide their old aristocratic ways",
+        "chinese": "放弃或隐藏它们旧有的贵族做派",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "不定式结构作 strive 的目标内容"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "定语",
+        "english": "old aristocratic",
+        "chinese": "旧有的贵族的",
+        "parent_id": "c_013_004",
+        "target_id": "c_013_004",
+        "relation": "修饰 ways"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "monarchies",
+        "pos": "n.",
+        "meaning": "君主制国家，君主制",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "strive",
+        "pos": "v.",
+        "meaning": "努力，力求",
+        "chunk_id": "c_013_003"
+      },
+      {
+        "word": "abandon",
+        "pos": "v.",
+        "meaning": "放弃",
+        "chunk_id": "c_013_004"
+      },
+      {
+        "word": "aristocratic",
+        "pos": "adj.",
+        "meaning": "贵族的",
+        "chunk_id": "c_013_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "aristocratic ways",
+        "phrase_type": "n. phr.",
+        "meaning": "贵族做派，贵族习气",
+        "chunk_id": "c_013_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Princes and princesses have day-jobs and ride bicycles, not horses (or helicopters).",
+    "difficulty": 2,
+    "translation_literal": "王子和公主们有日常工作，并且骑自行车，而不是骑马（或乘直升机）。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "Princes and princesses",
+        "chinese": "王子和公主们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "have",
+        "chinese": "有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "宾语",
+        "english": "day-jobs",
+        "chinese": "日常工作",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "作谓语 have 的宾语"
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "并列谓语",
+        "english": "and ride",
+        "chinese": "并且骑",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "与 have 并列，共同说明主语的行为"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "宾语",
+        "english": "bicycles",
+        "chinese": "自行车",
+        "parent_id": null,
+        "target_id": "c_014_004",
+        "relation": "作 ride 的宾语"
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "插入语",
+        "english": "not horses (or helicopters)",
+        "chinese": "而不是马（或直升机）",
+        "parent_id": null,
+        "target_id": "c_014_005",
+        "relation": "补充说明交通方式的对比"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "not + 名词短语",
+        "explanation": "not horses (or helicopters) 省略了 ride，完整理解为 not ride horses or helicopters。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "princes",
+        "pos": "n.",
+        "meaning": "王子们",
+        "chunk_id": "c_014_001"
+      },
+      {
+        "word": "princesses",
+        "pos": "n.",
+        "meaning": "公主们",
+        "chunk_id": "c_014_001"
+      },
+      {
+        "word": "day-jobs",
+        "pos": "n.",
+        "meaning": "日常工作，正式工作",
+        "chunk_id": "c_014_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Even so, these are wealthy families who party with the international 1%, and media intrusiveness makes it increasingly difficult to maintain the right image.",
+    "difficulty": 5,
+    "translation_literal": "即便如此，这些是与国际1%富人群体聚会的富有家庭，而且媒体的侵扰性使保持正确形象变得越来越困难。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "连接成分",
+        "english": "Even so",
+        "chinese": "即便如此",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "承接上文并表示让步转折"
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "主语",
+        "english": "these",
+        "chinese": "这些人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "表语",
+        "english": "wealthy families",
+        "chinese": "富有的家庭",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "作系动词 are 后的表语"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "定语从句",
+        "english": "who party with the international 1%",
+        "chinese": "与国际1%富人群体聚会的",
+        "parent_id": "c_015_004",
+        "target_id": "c_015_004",
+        "relation": "修饰 wealthy families"
+      },
+      {
+        "chunk_id": "c_015_006",
+        "role": "并列分句",
+        "english": "and media intrusiveness makes it increasingly difficult to maintain the right image",
+        "chinese": "而且媒体的侵扰性使保持正确形象变得越来越困难",
+        "parent_id": null,
+        "target_id": null,
+        "relation": "与前一分句并列"
+      },
+      {
+        "chunk_id": "c_015_007",
+        "role": "主语",
+        "english": "media intrusiveness",
+        "chinese": "媒体的侵扰性",
+        "parent_id": "c_015_006",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_008",
+        "role": "谓语",
+        "english": "makes",
+        "chinese": "使",
+        "parent_id": "c_015_006",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_009",
+        "role": "形式宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_015_006",
+        "target_id": "c_015_011",
+        "relation": "形式宾语，真正内容由不定式承担"
+      },
+      {
+        "chunk_id": "c_015_010",
+        "role": "宾语补足语",
+        "english": "increasingly difficult",
+        "chinese": "越来越困难",
+        "parent_id": "c_015_006",
+        "target_id": "c_015_009",
+        "relation": "补充说明形式宾语 it 的状态"
+      },
+      {
+        "chunk_id": "c_015_011",
+        "role": "真正宾语",
+        "english": "to maintain the right image",
+        "chinese": "保持正确形象",
+        "parent_id": "c_015_006",
+        "target_id": "c_015_009",
+        "relation": "对应形式宾语 it"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式宾语",
+        "pattern_form": "make + it + adj. + to do sth.",
+        "explanation": "it 是形式宾语，真正宾语是 to maintain the right image，increasingly difficult 是宾语补足语。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "wealthy",
+        "pos": "adj.",
+        "meaning": "富有的",
+        "chunk_id": "c_015_004"
+      },
+      {
+        "word": "party",
+        "pos": "v.",
+        "meaning": "参加聚会，社交",
+        "chunk_id": "c_015_005"
+      },
+      {
+        "word": "intrusiveness",
+        "pos": "n.",
+        "meaning": "侵扰性，干扰性",
+        "chunk_id": "c_015_007"
+      },
+      {
+        "word": "increasingly",
+        "pos": "adv.",
+        "meaning": "越来越",
+        "chunk_id": "c_015_010"
+      },
+      {
+        "word": "maintain",
+        "pos": "v.",
+        "meaning": "保持，维持",
+        "chunk_id": "c_015_011"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "the international 1%",
+        "phrase_type": "n. phr.",
+        "meaning": "国际上最富有的1%人群",
+        "chunk_id": "c_015_005"
+      },
+      {
+        "phrase": "the right image",
+        "phrase_type": "n. phr.",
+        "meaning": "合适的形象，正确的公众形象",
+        "chunk_id": "c_015_011"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "While Europe’s monarchies will no doubt be smart enough to survive for some time to come, it is the British royals who have most to fear from the Spanish example.",
+    "difficulty": 5,
+    "translation_literal": "尽管欧洲的君主制无疑会足够聪明以在未来一段时间内存续下来，但最需要从西班牙例子中感到担忧的是英国王室成员。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "状语从句",
+        "english": "While Europe’s monarchies will no doubt be smart enough to survive for some time to come",
+        "chinese": "尽管欧洲的君主制无疑会足够聪明以在未来一段时间内存续下来",
+        "parent_id": null,
+        "target_id": "c_016_006",
+        "relation": "修饰主句，表示让步"
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "从句主语",
+        "english": "Europe’s monarchies",
+        "chinese": "欧洲的君主制",
+        "parent_id": "c_016_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "从句谓语",
+        "english": "will no doubt be",
+        "chinese": "无疑会是",
+        "parent_id": "c_016_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "从句表语",
+        "english": "smart enough",
+        "chinese": "足够聪明",
+        "parent_id": "c_016_001",
+        "target_id": "c_016_003",
+        "relation": "作 be 后的表语"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "补语",
+        "english": "to survive for some time to come",
+        "chinese": "以在未来一段时间内存续下来",
+        "parent_id": "c_016_001",
+        "target_id": "c_016_004",
+        "relation": "补充说明 smart enough 的结果"
+      },
+      {
+        "chunk_id": "c_016_006",
+        "role": "强调结构",
+        "english": "it is the British royals who",
+        "chinese": "正是英国王室成员",
+        "parent_id": null,
+        "target_id": "c_016_009",
+        "relation": "强调句结构，强调主语"
+      },
+      {
+        "chunk_id": "c_016_007",
+        "role": "主语",
+        "english": "the British royals",
+        "chinese": "英国王室成员",
+        "parent_id": "c_016_006",
+        "target_id": null,
+        "relation": "被强调的主语"
+      },
+      {
+        "chunk_id": "c_016_008",
+        "role": "谓语",
+        "english": "have",
+        "chinese": "有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_009",
+        "role": "宾语",
+        "english": "most to fear",
+        "chinese": "最多需要担忧的东西",
+        "parent_id": null,
+        "target_id": "c_016_008",
+        "relation": "作谓语 have 的宾语"
+      },
+      {
+        "chunk_id": "c_016_010",
+        "role": "状语",
+        "english": "from the Spanish example",
+        "chinese": "从西班牙例子中",
+        "parent_id": null,
+        "target_id": "c_016_009",
+        "relation": "说明担忧的来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "强调句",
+        "pattern_form": "It is/was + 被强调部分 + who + 其他部分",
+        "explanation": "it is the British royals who... 强调 the British royals，表示最需要担忧的是英国王室成员。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "monarchies",
+        "pos": "n.",
+        "meaning": "君主制国家，君主制",
+        "chunk_id": "c_016_002"
+      },
+      {
+        "word": "survive",
+        "pos": "v.",
+        "meaning": "存续，幸存",
+        "chunk_id": "c_016_005"
+      },
+      {
+        "word": "royals",
+        "pos": "n.",
+        "meaning": "王室成员",
+        "chunk_id": "c_016_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "no doubt",
+        "phrase_type": "adv. phr.",
+        "meaning": "无疑",
+        "chunk_id": "c_016_003"
+      },
+      {
+        "phrase": "for some time to come",
+        "phrase_type": "adv. phr.",
+        "meaning": "在未来一段时间内",
+        "chunk_id": "c_016_005"
+      },
+      {
+        "phrase": "have most to fear",
+        "phrase_type": "v. phr.",
+        "meaning": "最有理由担忧",
+        "chunk_id": "c_016_009"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "It is only the Queen who has preserved the monarchy’s reputation with her rather ordinary (if well-heeled) granny style.",
+    "difficulty": 4,
+    "translation_literal": "正是女王凭借她相当普通的（虽然富裕的）祖母式风格维护了君主制的声誉。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "强调结构",
+        "english": "It is only the Queen who",
+        "chinese": "正是女王",
+        "parent_id": null,
+        "target_id": "c_017_003",
+        "relation": "强调句结构，强调主语"
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "主语",
+        "english": "the Queen",
+        "chinese": "女王",
+        "parent_id": "c_017_001",
+        "target_id": null,
+        "relation": "被强调的主语"
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "谓语",
+        "english": "has preserved",
+        "chinese": "已经维护了",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "宾语",
+        "english": "the monarchy’s reputation",
+        "chinese": "君主制的声誉",
+        "parent_id": null,
+        "target_id": "c_017_003",
+        "relation": "作谓语 has preserved 的宾语"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "状语",
+        "english": "with her rather ordinary (if well-heeled) granny style",
+        "chinese": "凭借她相当普通的（虽然富裕的）祖母式风格",
+        "parent_id": null,
+        "target_id": "c_017_003",
+        "relation": "说明维护声誉的方式"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "插入语",
+        "english": "if well-heeled",
+        "chinese": "虽然富裕的",
+        "parent_id": "c_017_005",
+        "target_id": "c_017_005",
+        "relation": "补充修饰 granny style"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "强调句",
+        "pattern_form": "It is/was + 被强调部分 + who + 其他部分",
+        "explanation": "It is only the Queen who... 强调 only the Queen。"
+      },
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "if + adj.",
+        "explanation": "if well-heeled 省略了 she is，表示“虽然富裕”。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "preserved",
+        "pos": "v.",
+        "meaning": "维护，保持",
+        "chunk_id": "c_017_003"
+      },
+      {
+        "word": "reputation",
+        "pos": "n.",
+        "meaning": "声誉",
+        "chunk_id": "c_017_004"
+      },
+      {
+        "word": "ordinary",
+        "pos": "adj.",
+        "meaning": "普通的",
+        "chunk_id": "c_017_005"
+      },
+      {
+        "word": "well-heeled",
+        "pos": "adj.",
+        "meaning": "富有的，有钱的",
+        "chunk_id": "c_017_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "granny style",
+        "phrase_type": "n. phr.",
+        "meaning": "祖母式风格，亲切朴素的老奶奶风格",
+        "chunk_id": "c_017_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The danger will come with Charles, who has both an expensive taste of lifestyle and a pretty hierarchical view of the world.",
+    "difficulty": 4,
+    "translation_literal": "危险将随着查尔斯而来，他既有昂贵的生活品味，又有一种相当等级化的世界观。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "主语",
+        "english": "The danger",
+        "chinese": "危险",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "谓语",
+        "english": "will come",
+        "chinese": "将会到来",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "状语",
+        "english": "with Charles",
+        "chinese": "随着查尔斯",
+        "parent_id": null,
+        "target_id": "c_018_002",
+        "relation": "说明危险到来的伴随对象"
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "定语从句",
+        "english": "who has both an expensive taste of lifestyle and a pretty hierarchical view of the world",
+        "chinese": "他既有昂贵的生活品味，又有一种相当等级化的世界观",
+        "parent_id": null,
+        "target_id": "c_018_003",
+        "relation": "补充说明 Charles 的特点"
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "从句谓语",
+        "english": "has",
+        "chinese": "有",
+        "parent_id": "c_018_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_006",
+        "role": "从句宾语",
+        "english": "both an expensive taste of lifestyle and a pretty hierarchical view of the world",
+        "chinese": "昂贵的生活品味以及相当等级化的世界观",
+        "parent_id": "c_018_004",
+        "target_id": "c_018_005",
+        "relation": "作 has 的宾语"
+      },
+      {
+        "chunk_id": "c_018_007",
+        "role": "定语",
+        "english": "of lifestyle",
+        "chinese": "生活的",
+        "parent_id": "c_018_006",
+        "target_id": "c_018_006",
+        "relation": "修饰 taste"
+      },
+      {
+        "chunk_id": "c_018_008",
+        "role": "定语",
+        "english": "of the world",
+        "chinese": "对世界的",
+        "parent_id": "c_018_006",
+        "target_id": "c_018_006",
+        "relation": "修饰 view"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "danger",
+        "pos": "n.",
+        "meaning": "危险",
+        "chunk_id": "c_018_001"
+      },
+      {
+        "word": "expensive",
+        "pos": "adj.",
+        "meaning": "昂贵的",
+        "chunk_id": "c_018_006"
+      },
+      {
+        "word": "hierarchical",
+        "pos": "adj.",
+        "meaning": "等级化的，等级森严的",
+        "chunk_id": "c_018_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "taste of lifestyle",
+        "phrase_type": "n. phr.",
+        "meaning": "生活品味",
+        "chunk_id": "c_018_006"
+      },
+      {
+        "phrase": "view of the world",
+        "phrase_type": "n. phr.",
+        "meaning": "世界观，对世界的看法",
+        "chunk_id": "c_018_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "He has failed to understand that monarchies have largely survived because they provide a service — as non-controversial and non-political heads of state.",
+    "difficulty": 5,
+    "translation_literal": "他未能理解，君主制之所以大体上存续下来，是因为它们提供了一种服务，即作为无争议且非政治性的国家元首。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "主语",
+        "english": "He",
+        "chinese": "他",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "谓语",
+        "english": "has failed to understand",
+        "chinese": "未能理解",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "宾语从句",
+        "english": "that monarchies have largely survived because they provide a service",
+        "chinese": "君主制之所以大体上存续下来，是因为它们提供了一种服务",
+        "parent_id": null,
+        "target_id": "c_019_002",
+        "relation": "作 understand 的宾语"
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "从句主语",
+        "english": "monarchies",
+        "chinese": "君主制",
+        "parent_id": "c_019_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "从句谓语",
+        "english": "have largely survived",
+        "chinese": "大体上存续下来",
+        "parent_id": "c_019_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_006",
+        "role": "状语从句",
+        "english": "because they provide a service",
+        "chinese": "因为它们提供了一种服务",
+        "parent_id": "c_019_003",
+        "target_id": "c_019_005",
+        "relation": "说明君主制存续下来的原因"
+      },
+      {
+        "chunk_id": "c_019_007",
+        "role": "插入语",
+        "english": "as non-controversial and non-political heads of state",
+        "chinese": "作为无争议且非政治性的国家元首",
+        "parent_id": null,
+        "target_id": "c_019_006",
+        "relation": "补充说明 service 的具体内容"
+      },
+      {
+        "chunk_id": "c_019_008",
+        "role": "定语",
+        "english": "non-controversial and non-political",
+        "chinese": "无争议且非政治性的",
+        "parent_id": "c_019_007",
+        "target_id": "c_019_007",
+        "relation": "修饰 heads of state"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "名词 + 破折号解释",
+        "explanation": "破折号后的 as non-controversial and non-political heads of state 解释 a service 的具体内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "failed",
+        "pos": "v.",
+        "meaning": "未能，失败",
+        "chunk_id": "c_019_002"
+      },
+      {
+        "word": "largely",
+        "pos": "adv.",
+        "meaning": "大体上，很大程度上",
+        "chunk_id": "c_019_005"
+      },
+      {
+        "word": "survived",
+        "pos": "v.",
+        "meaning": "存续下来，幸存",
+        "chunk_id": "c_019_005"
+      },
+      {
+        "word": "service",
+        "pos": "n.",
+        "meaning": "服务，作用",
+        "chunk_id": "c_019_006"
+      },
+      {
+        "word": "non-political",
+        "pos": "adj.",
+        "meaning": "非政治性的",
+        "chunk_id": "c_019_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "fail to understand",
+        "phrase_type": "v. phr.",
+        "meaning": "未能理解",
+        "chunk_id": "c_019_002"
+      },
+      {
+        "phrase": "heads of state",
+        "phrase_type": "n. phr.",
+        "meaning": "国家元首",
+        "chunk_id": "c_019_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2015,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Charles ought to know that as English history shows, it is kings, not republicans, who are the monarchy’s worst enemies.",
+    "difficulty": 5,
+    "translation_literal": "查尔斯应该知道，正如英国历史所表明的那样，正是国王，而不是共和主义者，才是君主制最坏的敌人。",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "主语",
+        "english": "Charles",
+        "chinese": "查尔斯",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "谓语",
+        "english": "ought to know",
+        "chinese": "应该知道",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "宾语从句",
+        "english": "that as English history shows, it is kings, not republicans, who are the monarchy’s worst enemies",
+        "chinese": "正如英国历史所表明的那样，正是国王，而不是共和主义者，才是君主制最坏的敌人",
+        "parent_id": null,
+        "target_id": "c_020_002",
+        "relation": "作 know 的宾语"
+      },
+      {
+        "chunk_id": "c_020_004",
+        "role": "插入语",
+        "english": "as English history shows",
+        "chinese": "正如英国历史所表明的那样",
+        "parent_id": "c_020_003",
+        "target_id": "c_020_003",
+        "relation": "补充说明判断的历史依据"
+      },
+      {
+        "chunk_id": "c_020_005",
+        "role": "强调结构",
+        "english": "it is kings, not republicans, who",
+        "chinese": "正是国王，而不是共和主义者",
+        "parent_id": "c_020_003",
+        "target_id": "c_020_007",
+        "relation": "强调句结构，强调主语"
+      },
+      {
+        "chunk_id": "c_020_006",
+        "role": "主语",
+        "english": "kings, not republicans",
+        "chinese": "国王，而不是共和主义者",
+        "parent_id": "c_020_005",
+        "target_id": null,
+        "relation": "被强调的主语"
+      },
+      {
+        "chunk_id": "c_020_007",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_020_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_008",
+        "role": "表语",
+        "english": "the monarchy’s worst enemies",
+        "chinese": "君主制最坏的敌人",
+        "parent_id": "c_020_003",
+        "target_id": "c_020_007",
+        "relation": "作系动词 are 后的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "as + 主语 + 谓语",
+        "explanation": "as English history shows 是插入式 as 结构，表示“正如英国历史所表明的那样”。"
+      },
+      {
+        "pattern_name": "强调句",
+        "pattern_form": "It is/was + 被强调部分 + who + 其他部分",
+        "explanation": "it is kings, not republicans, who... 强调 kings, not republicans。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "ought",
+        "pos": "modal v.",
+        "meaning": "应该，应当",
+        "chunk_id": "c_020_002"
+      },
+      {
+        "word": "republicans",
+        "pos": "n.",
+        "meaning": "共和主义者，共和派人士",
+        "chunk_id": "c_020_006"
+      },
+      {
+        "word": "enemies",
+        "pos": "n.",
+        "meaning": "敌人",
+        "chunk_id": "c_020_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "as English history shows",
+        "phrase_type": "as-structure",
+        "meaning": "正如英国历史所表明的那样",
+        "chunk_id": "c_020_004"
+      },
+      {
+        "phrase": "worst enemies",
+        "phrase_type": "n. phr.",
+        "meaning": "最坏的敌人，最大的敌人",
+        "chunk_id": "c_020_008"
+      }
+    ]
+  }
+]

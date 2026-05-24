@@ -1,0 +1,2112 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "Many people talked of the 288,000 new jobs the Labor Department reported for June, along with the drop in the unemployment rate to 6.1 percent, as good news.",
+    "difficulty": 5,
+    "translation_literal": "许多人把劳工部报告的6月份新增28.8万个工作岗位，以及失业率降至6.1%，称为好消息。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "Many people",
+        "chinese": "许多人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "谓语",
+        "english": "talked of",
+        "chinese": "谈到，把……说成",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "宾语",
+        "english": "the 288,000 new jobs the Labor Department reported for June",
+        "chinese": "劳工部报告的6月份新增28.8万个工作岗位",
+        "parent_id": null,
+        "target_id": "c_001_002",
+        "relation": "作 talked of 的宾语"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "并列成分",
+        "english": "along with the drop in the unemployment rate to 6.1 percent",
+        "chinese": "以及失业率降至6.1%",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "与 new jobs 一起构成谈论内容"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "宾语补足语",
+        "english": "as good news",
+        "chinese": "作为好消息",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "说明人们如何看待这些数据"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "主语核心",
+        "english": "Many people",
+        "chinese": "许多人",
+        "parent_id": "c_001_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "宾语核心",
+        "english": "the 288,000 new jobs",
+        "chinese": "新增28.8万个工作岗位",
+        "parent_id": "c_001_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_008",
+        "role": "定语从句",
+        "english": "the Labor Department reported for June",
+        "chinese": "劳工部报告的6月份",
+        "parent_id": "c_001_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_009",
+        "role": "并列宾语",
+        "english": "the drop in the unemployment rate to 6.1 percent",
+        "chinese": "失业率降至6.1%",
+        "parent_id": "c_001_004",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "宾语与补足语被插入成分隔开",
+        "explanation": "talked of 的宾语很长，as good news 才是对宾语的评价补足。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "reported",
+        "pos": "v.",
+        "meaning": "报告",
+        "chunk_id": "c_001_003"
+      },
+      {
+        "word": "drop",
+        "pos": "n.",
+        "meaning": "下降",
+        "chunk_id": "c_001_004"
+      },
+      {
+        "word": "unemployment",
+        "pos": "n.",
+        "meaning": "失业",
+        "chunk_id": "c_001_004"
+      },
+      {
+        "word": "rate",
+        "pos": "n.",
+        "meaning": "比率",
+        "chunk_id": "c_001_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "talk of...as...",
+        "phrase_type": "v. phr.",
+        "meaning": "把……称作……",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "phrase": "Labor Department",
+        "phrase_type": "n. phr.",
+        "meaning": "劳工部",
+        "chunk_id": "c_001_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "And they were right.",
+    "difficulty": 1,
+    "translation_literal": "而他们是对的。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "连接成分",
+        "english": "And",
+        "chinese": "而且",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "谓语",
+        "english": "were",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "表语",
+        "english": "right",
+        "chinese": "对的",
+        "parent_id": null,
+        "target_id": "c_002_003",
+        "relation": "作 were 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "right",
+        "pos": "adj.",
+        "meaning": "正确的",
+        "chunk_id": "c_002_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "For now it appears the economy is creating jobs at a decent pace.",
+    "difficulty": 4,
+    "translation_literal": "目前看来，经济正在以不错的速度创造就业岗位。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "状语",
+        "english": "For now",
+        "chinese": "目前",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "形式主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "谓语",
+        "english": "appears",
+        "chinese": "看来，似乎",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "主语从句",
+        "english": "the economy is creating jobs at a decent pace",
+        "chinese": "经济正在以不错的速度创造就业岗位",
+        "parent_id": null,
+        "target_id": "c_003_002",
+        "relation": "真正主语/appears 后的内容"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "真正主语",
+        "english": "the economy is creating jobs at a decent pace",
+        "chinese": "经济正在以不错速度创造就业岗位",
+        "parent_id": "c_003_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "从句主语",
+        "english": "the economy",
+        "chinese": "经济",
+        "parent_id": "c_003_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "从句谓语",
+        "english": "is creating",
+        "chinese": "正在创造",
+        "parent_id": "c_003_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_008",
+        "role": "从句宾语",
+        "english": "jobs",
+        "chinese": "就业岗位",
+        "parent_id": "c_003_004",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "it appears + 从句",
+        "explanation": "it 是形式主语，真正内容是 the economy is creating jobs...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "appears",
+        "pos": "v.",
+        "meaning": "显得，似乎",
+        "chunk_id": "c_003_003"
+      },
+      {
+        "word": "economy",
+        "pos": "n.",
+        "meaning": "经济",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "decent",
+        "pos": "adj.",
+        "meaning": "不错的，相当好的",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "pace",
+        "pos": "n.",
+        "meaning": "速度，步伐",
+        "chunk_id": "c_003_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "For now",
+        "phrase_type": "adv. phr.",
+        "meaning": "目前，暂时",
+        "chunk_id": "c_003_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "We still have a long way to go to get back to full employment, but at least we are now finally moving forward at a faster pace.",
+    "difficulty": 4,
+    "translation_literal": "我们仍然还有很长的路要走才能回到充分就业，但至少我们现在终于正以更快的速度前进。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "并列分句",
+        "english": "We still have a long way to go to get back to full employment",
+        "chinese": "我们仍然还有很长的路要走才能回到充分就业",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "转折分句",
+        "english": "but at least we are now finally moving forward at a faster pace",
+        "chinese": "但至少我们现在终于正以更快的速度前进",
+        "parent_id": null,
+        "target_id": "c_004_001",
+        "relation": "与前一分句转折并列"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "employment",
+        "pos": "n.",
+        "meaning": "就业",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "word": "finally",
+        "pos": "adv.",
+        "meaning": "终于",
+        "chunk_id": "c_004_002"
+      },
+      {
+        "word": "forward",
+        "pos": "adv.",
+        "meaning": "向前",
+        "chunk_id": "c_004_002"
+      },
+      {
+        "word": "pace",
+        "pos": "n.",
+        "meaning": "速度",
+        "chunk_id": "c_004_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "a long way to go",
+        "phrase_type": "n. phr.",
+        "meaning": "很长的路要走",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "phrase": "full employment",
+        "phrase_type": "n. phr.",
+        "meaning": "充分就业",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "phrase": "move forward",
+        "phrase_type": "v. phr.",
+        "meaning": "前进",
+        "chunk_id": "c_004_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "However, there is another important part of the jobs picture that was largely overlooked.",
+    "difficulty": 4,
+    "translation_literal": "然而，就业图景中还有另一个重要部分在很大程度上被忽视了。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "连接成分",
+        "english": "However",
+        "chinese": "然而",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "存在句",
+        "english": "there is another important part of the jobs picture",
+        "chinese": "就业图景中还有另一个重要部分",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "定语从句",
+        "english": "that was largely overlooked",
+        "chinese": "在很大程度上被忽视的",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "修饰 part"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "picture",
+        "pos": "n.",
+        "meaning": "图景，情况",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "largely",
+        "pos": "adv.",
+        "meaning": "在很大程度上",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "overlooked",
+        "pos": "v.",
+        "meaning": "忽视",
+        "chunk_id": "c_005_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "jobs picture",
+        "phrase_type": "n. phr.",
+        "meaning": "就业图景，就业情况",
+        "chunk_id": "c_005_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "There was a big jump in the number of people who report voluntarily working part-time.",
+    "difficulty": 4,
+    "translation_literal": "报告自愿兼职工作的人数出现了大幅增长。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "存在句",
+        "english": "There was a big jump in the number of people",
+        "chinese": "人数出现了大幅增长",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "定语从句",
+        "english": "who report voluntarily working part-time",
+        "chinese": "报告自愿兼职工作的",
+        "parent_id": null,
+        "target_id": "c_006_001",
+        "relation": "修饰 people"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "jump",
+        "pos": "n.",
+        "meaning": "大幅增长，跳升",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "voluntarily",
+        "pos": "adv.",
+        "meaning": "自愿地",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "part-time",
+        "pos": "adv.",
+        "meaning": "兼职地",
+        "chunk_id": "c_006_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "the number of",
+        "phrase_type": "n. phr.",
+        "meaning": "……的数量",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "phrase": "working part-time",
+        "phrase_type": "v. phr.",
+        "meaning": "兼职工作",
+        "chunk_id": "c_006_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "This figure is now 830,000(4.4 percent) above its year ago level.",
+    "difficulty": 3,
+    "translation_literal": "这个数字现在比一年前的水平高出83万（4.4%）。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "This figure",
+        "chinese": "这个数字",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "表语",
+        "english": "830,000 (4.4 percent) above its year ago level",
+        "chinese": "比一年前的水平高出83万（4.4%）",
+        "parent_id": null,
+        "target_id": "c_007_002",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "figure",
+        "pos": "n.",
+        "meaning": "数字",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "level",
+        "pos": "n.",
+        "meaning": "水平",
+        "chunk_id": "c_007_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "year ago level",
+        "phrase_type": "n. phr.",
+        "meaning": "一年前的水平",
+        "chunk_id": "c_007_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "Before explaining the connection to the Obamacare, it is worth making an important distinction.",
+    "difficulty": 4,
+    "translation_literal": "在解释与奥巴马医改的联系之前，作出一个重要区分是值得的。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "状语",
+        "english": "Before explaining the connection to the Obamacare",
+        "chinese": "在解释与奥巴马医改的联系之前",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "形式主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "表语",
+        "english": "worth making an important distinction",
+        "chinese": "值得作出一个重要区分",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "真正主语",
+        "english": "making an important distinction",
+        "chinese": "作出一个重要区分",
+        "parent_id": null,
+        "target_id": "c_008_002",
+        "relation": "对应形式主语 it"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is worth doing sth.",
+        "explanation": "it 是形式主语，真正主语是 making an important distinction。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "connection",
+        "pos": "n.",
+        "meaning": "联系",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "word": "worth",
+        "pos": "adj.",
+        "meaning": "值得的",
+        "chunk_id": "c_008_004"
+      },
+      {
+        "word": "distinction",
+        "pos": "n.",
+        "meaning": "区分，区别",
+        "chunk_id": "c_008_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Obamacare",
+        "phrase_type": "n. phr.",
+        "meaning": "奥巴马医改",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "phrase": "make a distinction",
+        "phrase_type": "v. phr.",
+        "meaning": "作出区分",
+        "chunk_id": "c_008_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "Many people who work part-time jobs actually want full-time jobs.",
+    "difficulty": 3,
+    "translation_literal": "许多从事兼职工作的人实际上想要全职工作。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "Many people who work part-time jobs",
+        "chinese": "许多从事兼职工作的人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "定语从句",
+        "english": "who work part-time jobs",
+        "chinese": "从事兼职工作的",
+        "parent_id": "c_009_001",
+        "target_id": "c_009_001",
+        "relation": "修饰 people"
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "谓语",
+        "english": "actually want",
+        "chinese": "实际上想要",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "宾语",
+        "english": "full-time jobs",
+        "chinese": "全职工作",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "作 want 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "actually",
+        "pos": "adv.",
+        "meaning": "实际上",
+        "chunk_id": "c_009_003"
+      },
+      {
+        "word": "full-time",
+        "pos": "adj.",
+        "meaning": "全职的",
+        "chunk_id": "c_009_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "part-time jobs",
+        "phrase_type": "n. phr.",
+        "meaning": "兼职工作",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "phrase": "full-time jobs",
+        "phrase_type": "n. phr.",
+        "meaning": "全职工作",
+        "chunk_id": "c_009_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "They take part-time work because this is all they can get.",
+    "difficulty": 4,
+    "translation_literal": "他们从事兼职工作，因为这是他们所能得到的全部。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "They",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "take",
+        "chinese": "从事，接受",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "宾语",
+        "english": "part-time work",
+        "chinese": "兼职工作",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "作 take 的宾语"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "原因状语从句",
+        "english": "because this is all they can get",
+        "chinese": "因为这是他们所能得到的全部",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "说明从事兼职的原因"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "定语从句",
+        "english": "they can get",
+        "chinese": "他们能得到的",
+        "parent_id": "c_010_004",
+        "target_id": "c_010_004",
+        "relation": "修饰 all"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "take",
+        "pos": "v.",
+        "meaning": "接受，从事",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "get",
+        "pos": "v.",
+        "meaning": "得到",
+        "chunk_id": "c_010_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "part-time work",
+        "phrase_type": "n. phr.",
+        "meaning": "兼职工作",
+        "chunk_id": "c_010_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "An increase in involuntary part-time work is evidence of weakness in the labor market and it means that many people will be having a very hard time making ends meet.",
+    "difficulty": 5,
+    "translation_literal": "非自愿兼职工作的增加是劳动力市场疲软的证据，并且这意味着许多人将很难维持生计。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "An increase in involuntary part-time work",
+        "chinese": "非自愿兼职工作的增加",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "表语",
+        "english": "evidence of weakness in the labor market",
+        "chinese": "劳动力市场疲软的证据",
+        "parent_id": null,
+        "target_id": "c_011_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "并列分句",
+        "english": "and it means that many people will be having a very hard time making ends meet",
+        "chinese": "并且这意味着许多人将很难维持生计",
+        "parent_id": null,
+        "target_id": "c_011_001",
+        "relation": "与前一分句并列"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "宾语从句",
+        "english": "that many people will be having a very hard time making ends meet",
+        "chinese": "许多人将很难维持生计",
+        "parent_id": "c_011_004",
+        "target_id": "c_011_004",
+        "relation": "作 means 的宾语"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "主语核心",
+        "english": "An increase",
+        "chinese": "增加",
+        "parent_id": "c_011_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "定语",
+        "english": "in involuntary part-time work",
+        "chinese": "非自愿兼职工作的",
+        "parent_id": "c_011_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_008",
+        "role": "表语核心",
+        "english": "evidence",
+        "chinese": "证据",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_009",
+        "role": "定语",
+        "english": "of weakness in the labor market",
+        "chinese": "劳动力市场疲软的",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_010",
+        "role": "从句主语",
+        "english": "many people",
+        "chinese": "许多人",
+        "parent_id": "c_011_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_011",
+        "role": "从句谓语",
+        "english": "will be having",
+        "chinese": "将会有",
+        "parent_id": "c_011_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_012",
+        "role": "从句宾语",
+        "english": "a very hard time making ends meet",
+        "chinese": "维持生计的艰难时期",
+        "parent_id": "c_011_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A is... and it means that...",
+        "explanation": "两个分句并列，前者说明证据性质，后者说明后果。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "increase",
+        "pos": "n.",
+        "meaning": "增加",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "involuntary",
+        "pos": "adj.",
+        "meaning": "非自愿的",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "evidence",
+        "pos": "n.",
+        "meaning": "证据",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "word": "weakness",
+        "pos": "n.",
+        "meaning": "疲软，薄弱",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "word": "labor",
+        "pos": "n.",
+        "meaning": "劳动力",
+        "chunk_id": "c_011_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "labor market",
+        "phrase_type": "n. phr.",
+        "meaning": "劳动力市场",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "phrase": "make ends meet",
+        "phrase_type": "idiom",
+        "meaning": "维持生计，收支相抵",
+        "chunk_id": "c_011_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "There was an increase in involuntary part-time in June, but the general direction has been down.",
+    "difficulty": 3,
+    "translation_literal": "6月份非自愿兼职有所增加，但总体方向一直是下降的。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "并列分句",
+        "english": "There was an increase in involuntary part-time in June",
+        "chinese": "6月份非自愿兼职有所增加",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "转折分句",
+        "english": "but the general direction has been down",
+        "chinese": "但总体方向一直是下降的",
+        "parent_id": null,
+        "target_id": "c_012_001",
+        "relation": "与前一分句转折"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "general",
+        "pos": "adj.",
+        "meaning": "总体的",
+        "chunk_id": "c_012_002"
+      },
+      {
+        "word": "direction",
+        "pos": "n.",
+        "meaning": "方向，趋势",
+        "chunk_id": "c_012_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "involuntary part-time",
+        "phrase_type": "n. phr.",
+        "meaning": "非自愿兼职",
+        "chunk_id": "c_012_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "Involuntary part-time employment is still far higher than before the recession, but it is down by 640,000(7.9 percent) from its year ago level.",
+    "difficulty": 4,
+    "translation_literal": "非自愿兼职就业仍然远高于经济衰退前，但它比一年前的水平下降了64万（7.9%）。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "Involuntary part-time employment",
+        "chinese": "非自愿兼职就业",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "表语",
+        "english": "still far higher than before the recession",
+        "chinese": "仍然远高于经济衰退前",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "转折分句",
+        "english": "but it is down by 640,000 (7.9 percent) from its year ago level",
+        "chinese": "但它比一年前的水平下降了64万（7.9%）",
+        "parent_id": null,
+        "target_id": "c_013_001",
+        "relation": "与前一分句转折"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "employment",
+        "pos": "n.",
+        "meaning": "就业",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "recession",
+        "pos": "n.",
+        "meaning": "经济衰退",
+        "chunk_id": "c_013_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "far higher than",
+        "phrase_type": "adj. phr.",
+        "meaning": "远高于",
+        "chunk_id": "c_013_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "We know the difference between voluntary and involuntary part-time employment because people tell us.",
+    "difficulty": 3,
+    "translation_literal": "我们知道自愿和非自愿兼职就业之间的区别，因为人们告诉了我们。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "We",
+        "chinese": "我们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "know",
+        "chinese": "知道",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "宾语",
+        "english": "the difference between voluntary and involuntary part-time employment",
+        "chinese": "自愿和非自愿兼职就业之间的区别",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "作 know 的宾语"
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "原因状语从句",
+        "english": "because people tell us",
+        "chinese": "因为人们告诉我们",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "说明知道区别的原因"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "difference",
+        "pos": "n.",
+        "meaning": "区别",
+        "chunk_id": "c_014_003"
+      },
+      {
+        "word": "voluntary",
+        "pos": "adj.",
+        "meaning": "自愿的",
+        "chunk_id": "c_014_003"
+      },
+      {
+        "word": "involuntary",
+        "pos": "adj.",
+        "meaning": "非自愿的",
+        "chunk_id": "c_014_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "the difference between",
+        "phrase_type": "n. phr.",
+        "meaning": "……之间的区别",
+        "chunk_id": "c_014_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "The survey used by the Labor Department asks people if they worked less than 35 hours in the reference week.",
+    "difficulty": 4,
+    "translation_literal": "劳工部使用的调查会询问人们在参照周内是否工作少于35小时。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "The survey used by the Labor Department",
+        "chinese": "劳工部使用的调查",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "定语",
+        "english": "used by the Labor Department",
+        "chinese": "由劳工部使用的",
+        "parent_id": "c_015_001",
+        "target_id": "c_015_001",
+        "relation": "修饰 survey"
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "谓语",
+        "english": "asks",
+        "chinese": "询问",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "宾语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "作 asks 的宾语"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "宾语从句",
+        "english": "if they worked less than 35 hours in the reference week",
+        "chinese": "他们在参照周内是否工作少于35小时",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "作 asks 的宾语内容"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "survey",
+        "pos": "n.",
+        "meaning": "调查",
+        "chunk_id": "c_015_001"
+      },
+      {
+        "word": "reference",
+        "pos": "n.",
+        "meaning": "参照，参考",
+        "chunk_id": "c_015_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "less than",
+        "phrase_type": "adv. phr.",
+        "meaning": "少于",
+        "chunk_id": "c_015_005"
+      },
+      {
+        "phrase": "reference week",
+        "phrase_type": "n. phr.",
+        "meaning": "参照周",
+        "chunk_id": "c_015_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "If the answer is “yes”, they are classified as working part-time.",
+    "difficulty": 3,
+    "translation_literal": "如果答案是“是”，他们就被归类为兼职工作。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "条件状语从句",
+        "english": "If the answer is “yes”",
+        "chinese": "如果答案是“是”",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "谓语",
+        "english": "are classified as",
+        "chinese": "被归类为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "宾语",
+        "english": "working part-time",
+        "chinese": "兼职工作",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "作 classified as 的内容"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "answer",
+        "pos": "n.",
+        "meaning": "答案",
+        "chunk_id": "c_016_001"
+      },
+      {
+        "word": "classified",
+        "pos": "v.",
+        "meaning": "分类，归类",
+        "chunk_id": "c_016_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "classified as",
+        "phrase_type": "v. phr.",
+        "meaning": "被归类为",
+        "chunk_id": "c_016_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "The survey then asks whether they worked less than 35 hours in that week because they wanted to work less than full time or because they had no choice.",
+    "difficulty": 5,
+    "translation_literal": "然后该调查询问他们在那一周工作少于35小时，是因为他们想少于全职工作，还是因为他们别无选择。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "The survey",
+        "chinese": "该调查",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "状语",
+        "english": "then",
+        "chinese": "然后",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "谓语",
+        "english": "asks",
+        "chinese": "询问",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "宾语从句",
+        "english": "whether they worked less than 35 hours in that week",
+        "chinese": "他们在那一周是否工作少于35小时",
+        "parent_id": null,
+        "target_id": "c_017_003",
+        "relation": "作 asks 的宾语"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "原因状语从句",
+        "english": "because they wanted to work less than full time",
+        "chinese": "因为他们想少于全职工作",
+        "parent_id": null,
+        "target_id": "c_017_004",
+        "relation": "说明原因之一"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "并列原因状语从句",
+        "english": "or because they had no choice",
+        "chinese": "或者因为他们别无选择",
+        "parent_id": null,
+        "target_id": "c_017_005",
+        "relation": "与前一原因从句并列"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "because A or because B",
+        "explanation": "两个 because 从句并列，区分自愿兼职与非自愿兼职。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "whether",
+        "pos": "conj.",
+        "meaning": "是否",
+        "chunk_id": "c_017_004"
+      },
+      {
+        "word": "choice",
+        "pos": "n.",
+        "meaning": "选择",
+        "chunk_id": "c_017_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "had no choice",
+        "phrase_type": "v. phr.",
+        "meaning": "别无选择",
+        "chunk_id": "c_017_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "They are only classified as voluntary part-time workers if they tell the survey taker they chose to work less than 35 hours a week.",
+    "difficulty": 4,
+    "translation_literal": "只有当他们告诉调查员他们选择每周工作少于35小时时，他们才被归类为自愿兼职工作者。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "主语",
+        "english": "They",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "谓语",
+        "english": "are only classified as",
+        "chinese": "只被归类为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "表语",
+        "english": "voluntary part-time workers",
+        "chinese": "自愿兼职工作者",
+        "parent_id": null,
+        "target_id": "c_018_002",
+        "relation": "作 classified as 的内容"
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "条件状语从句",
+        "english": "if they tell the survey taker they chose to work less than 35 hours a week",
+        "chinese": "如果他们告诉调查员他们选择每周工作少于35小时",
+        "parent_id": null,
+        "target_id": "c_018_002",
+        "relation": "说明被归类的条件"
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "宾语从句",
+        "english": "they chose to work less than 35 hours a week",
+        "chinese": "他们选择每周工作少于35小时",
+        "parent_id": "c_018_004",
+        "target_id": "c_018_004",
+        "relation": "作 tell 的宾语内容"
+      },
+      {
+        "chunk_id": "c_018_006",
+        "role": "并列原因",
+        "english": "because they wanted to work less than full time",
+        "chinese": "因为他们想少于全职工作",
+        "parent_id": "c_018_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_007",
+        "role": "并列原因",
+        "english": "because they had no choice",
+        "chinese": "因为他们别无选择",
+        "parent_id": "c_018_006",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_008",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_018_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_009",
+        "role": "从句谓语",
+        "english": "wanted",
+        "chinese": "想要",
+        "parent_id": "c_018_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_010",
+        "role": "从句宾语",
+        "english": "to work less than full time",
+        "chinese": "少于全职工作",
+        "parent_id": "c_018_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "voluntary",
+        "pos": "adj.",
+        "meaning": "自愿的",
+        "chunk_id": "c_018_003"
+      },
+      {
+        "word": "taker",
+        "pos": "n.",
+        "meaning": "接受者，执行者",
+        "chunk_id": "c_018_004"
+      },
+      {
+        "word": "chose",
+        "pos": "v.",
+        "meaning": "选择",
+        "chunk_id": "c_018_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "survey taker",
+        "phrase_type": "n. phr.",
+        "meaning": "调查员，接受调查者登记的人",
+        "chunk_id": "c_018_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "The issue of voluntary part-time relates to Obamacare because one of the main purposes was to allow people to get insurance outside of employment.",
+    "difficulty": 4,
+    "translation_literal": "自愿兼职的问题与奥巴马医改有关，因为其主要目的之一是允许人们在就业之外获得保险。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "主语",
+        "english": "The issue of voluntary part-time",
+        "chinese": "自愿兼职的问题",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "谓语",
+        "english": "relates to",
+        "chinese": "与……有关",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "宾语",
+        "english": "Obamacare",
+        "chinese": "奥巴马医改",
+        "parent_id": null,
+        "target_id": "c_019_002",
+        "relation": "作 relates to 的宾语"
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "原因状语从句",
+        "english": "because one of the main purposes was to allow people to get insurance outside of employment",
+        "chinese": "因为其主要目的之一是允许人们在就业之外获得保险",
+        "parent_id": null,
+        "target_id": "c_019_002",
+        "relation": "说明相关原因"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "issue",
+        "pos": "n.",
+        "meaning": "问题，议题",
+        "chunk_id": "c_019_001"
+      },
+      {
+        "word": "purposes",
+        "pos": "n.",
+        "meaning": "目的",
+        "chunk_id": "c_019_004"
+      },
+      {
+        "word": "allow",
+        "pos": "v.",
+        "meaning": "允许",
+        "chunk_id": "c_019_004"
+      },
+      {
+        "word": "insurance",
+        "pos": "n.",
+        "meaning": "保险",
+        "chunk_id": "c_019_004"
+      },
+      {
+        "word": "employment",
+        "pos": "n.",
+        "meaning": "就业",
+        "chunk_id": "c_019_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "relate to",
+        "phrase_type": "v. phr.",
+        "meaning": "与……有关",
+        "chunk_id": "c_019_002"
+      },
+      {
+        "phrase": "outside of employment",
+        "phrase_type": "prep. phr.",
+        "meaning": "在就业之外",
+        "chunk_id": "c_019_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "For many people, especially those with serious health conditions or family members with serious health conditions, before Obamacare the only way to get insurance was through a job that provided health insurance.",
+    "difficulty": 5,
+    "translation_literal": "对许多人来说，尤其是那些有严重健康问题或家庭成员有严重健康问题的人，在奥巴马医改之前，获得保险的唯一方式是通过一份提供健康保险的工作。",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "状语",
+        "english": "For many people, especially those with serious health conditions or family members with serious health conditions",
+        "chinese": "对许多人来说，尤其是那些有严重健康问题或家庭成员有严重健康问题的人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "状语",
+        "english": "before Obamacare",
+        "chinese": "在奥巴马医改之前",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "主语",
+        "english": "the only way to get insurance",
+        "chinese": "获得保险的唯一方式",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_004",
+        "role": "谓语",
+        "english": "was",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_005",
+        "role": "表语",
+        "english": "through a job that provided health insurance",
+        "chinese": "通过一份提供健康保险的工作",
+        "parent_id": null,
+        "target_id": "c_020_004",
+        "relation": "作 was 的表语"
+      },
+      {
+        "chunk_id": "c_020_006",
+        "role": "定语从句",
+        "english": "that provided health insurance",
+        "chinese": "提供健康保险的",
+        "parent_id": "c_020_005",
+        "target_id": "c_020_005",
+        "relation": "修饰 job"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "especially... 插入补充对象",
+        "explanation": "especially those... 补充说明 many people 的重点群体，主干是 the only way... was through a job。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "especially",
+        "pos": "adv.",
+        "meaning": "尤其",
+        "chunk_id": "c_020_001"
+      },
+      {
+        "word": "conditions",
+        "pos": "n.",
+        "meaning": "疾病，状况",
+        "chunk_id": "c_020_001"
+      },
+      {
+        "word": "provided",
+        "pos": "v.",
+        "meaning": "提供",
+        "chunk_id": "c_020_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "health conditions",
+        "phrase_type": "n. phr.",
+        "meaning": "健康状况，疾病",
+        "chunk_id": "c_020_001"
+      },
+      {
+        "phrase": "health insurance",
+        "phrase_type": "n. phr.",
+        "meaning": "健康保险",
+        "chunk_id": "c_020_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_021",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "However, Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges.",
+    "difficulty": 4,
+    "translation_literal": "然而，奥巴马医改已经使超过1200万人能够通过医疗补助或交易所获得保险。",
+    "chunks": [
+      {
+        "chunk_id": "c_021_001",
+        "role": "连接成分",
+        "english": "However",
+        "chinese": "然而",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_002",
+        "role": "主语",
+        "english": "Obamacare",
+        "chinese": "奥巴马医改",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_003",
+        "role": "谓语",
+        "english": "has allowed",
+        "chinese": "已经允许，使得",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_004",
+        "role": "宾语",
+        "english": "more than 12 million people",
+        "chinese": "超过1200万人",
+        "parent_id": null,
+        "target_id": "c_021_003",
+        "relation": "作 allowed 的宾语"
+      },
+      {
+        "chunk_id": "c_021_005",
+        "role": "宾语补足语",
+        "english": "to either get insurance through Medicaid or the exchanges",
+        "chinese": "通过医疗补助或交易所获得保险",
+        "parent_id": null,
+        "target_id": "c_021_004",
+        "relation": "补充说明 people 能做的事"
+      },
+      {
+        "chunk_id": "c_021_006",
+        "role": "从句主语",
+        "english": "who",
+        "chinese": "这些人",
+        "parent_id": "c_021_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_007",
+        "role": "从句谓语",
+        "english": "may previously have felt",
+        "chinese": "以前可能觉得",
+        "parent_id": "c_021_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_008",
+        "role": "从句宾语",
+        "english": "the need to get a full-time job",
+        "chinese": "获得全职工作的需要",
+        "parent_id": "c_021_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_009",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "工作",
+        "parent_id": "c_021_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_010",
+        "role": "定语从句谓语",
+        "english": "provided",
+        "chinese": "提供",
+        "parent_id": "c_021_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_011",
+        "role": "定语从句宾语",
+        "english": "insurance",
+        "chinese": "保险",
+        "parent_id": "c_021_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "allowed",
+        "pos": "v.",
+        "meaning": "允许，使能够",
+        "chunk_id": "c_021_003"
+      },
+      {
+        "word": "million",
+        "pos": "num.",
+        "meaning": "百万",
+        "chunk_id": "c_021_004"
+      },
+      {
+        "word": "Medicaid",
+        "pos": "n.",
+        "meaning": "医疗补助",
+        "chunk_id": "c_021_005"
+      },
+      {
+        "word": "exchanges",
+        "pos": "n.",
+        "meaning": "交易所，保险交易平台",
+        "chunk_id": "c_021_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "more than",
+        "phrase_type": "adv. phr.",
+        "meaning": "超过，多于",
+        "chunk_id": "c_021_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_022",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "These are people who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families.",
+    "difficulty": 5,
+    "translation_literal": "这些人是以前可能觉得需要获得一份提供保险的全职工作，以便为自己和家人提供保障的人。",
+    "chunks": [
+      {
+        "chunk_id": "c_022_001",
+        "role": "主语",
+        "english": "These",
+        "chinese": "这些人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_002",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_003",
+        "role": "表语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": null,
+        "target_id": "c_022_002",
+        "relation": "作 are 的表语"
+      },
+      {
+        "chunk_id": "c_022_004",
+        "role": "定语从句",
+        "english": "who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families",
+        "chinese": "以前可能觉得需要获得一份提供保险的全职工作以保障自己和家人的",
+        "parent_id": null,
+        "target_id": "c_022_003",
+        "relation": "修饰 people"
+      },
+      {
+        "chunk_id": "c_022_005",
+        "role": "定语从句",
+        "english": "that provided insurance",
+        "chinese": "提供保险的",
+        "parent_id": "c_022_004",
+        "target_id": "c_022_004",
+        "relation": "修饰 full-time job"
+      },
+      {
+        "chunk_id": "c_022_006",
+        "role": "状语",
+        "english": "in order to cover themselves and their families",
+        "chinese": "为了保障他们自己和家人",
+        "parent_id": "c_022_004",
+        "target_id": "c_022_004",
+        "relation": "说明找工作的目的"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "定语从句中嵌套定语从句和目的状语",
+        "explanation": "who 从句很长，内部又含 that provided insurance 和 in order to...，需分层理解。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "previously",
+        "pos": "adv.",
+        "meaning": "以前，先前",
+        "chunk_id": "c_022_004"
+      },
+      {
+        "word": "need",
+        "pos": "n.",
+        "meaning": "需要",
+        "chunk_id": "c_022_004"
+      },
+      {
+        "word": "provided",
+        "pos": "v.",
+        "meaning": "提供",
+        "chunk_id": "c_022_005"
+      },
+      {
+        "word": "cover",
+        "pos": "v.",
+        "meaning": "为……提供保险保障",
+        "chunk_id": "c_022_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "felt the need to",
+        "phrase_type": "v. phr.",
+        "meaning": "觉得需要做",
+        "chunk_id": "c_022_004"
+      },
+      {
+        "phrase": "full-time job",
+        "phrase_type": "n. phr.",
+        "meaning": "全职工作",
+        "chunk_id": "c_022_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_023",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "With Obamacare there is no longer a link between employment and insurance.",
+    "difficulty": 3,
+    "translation_literal": "有了奥巴马医改，就业和保险之间不再有联系。",
+    "chunks": [
+      {
+        "chunk_id": "c_023_001",
+        "role": "状语",
+        "english": "With Obamacare",
+        "chinese": "有了奥巴马医改",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_023_002",
+        "role": "存在句",
+        "english": "there is no longer a link between employment and insurance",
+        "chinese": "就业和保险之间不再有联系",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "link",
+        "pos": "n.",
+        "meaning": "联系",
+        "chunk_id": "c_023_002"
+      },
+      {
+        "word": "employment",
+        "pos": "n.",
+        "meaning": "就业",
+        "chunk_id": "c_023_002"
+      },
+      {
+        "word": "insurance",
+        "pos": "n.",
+        "meaning": "保险",
+        "chunk_id": "c_023_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "no longer",
+        "phrase_type": "adv. phr.",
+        "meaning": "不再",
+        "chunk_id": "c_023_002"
+      },
+      {
+        "phrase": "a link between",
+        "phrase_type": "n. phr.",
+        "meaning": "……之间的联系",
+        "chunk_id": "c_023_002"
+      }
+    ]
+  }
+]

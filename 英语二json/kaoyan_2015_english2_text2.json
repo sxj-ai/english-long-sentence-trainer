@@ -1,0 +1,1672 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "For years, studies have found that first-generation college students—those who do not have a parent with a college degree—lag other students on a range of education achievement factors.",
+    "difficulty": 5,
+    "translation_literal": "多年来，研究发现，第一代大学生，也就是父母没有大学学位的学生，在一系列教育成就因素上落后于其他学生。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "状语",
+        "english": "For years",
+        "chinese": "多年来",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "主语",
+        "english": "studies",
+        "chinese": "研究",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "谓语",
+        "english": "have found",
+        "chinese": "已经发现",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "宾语从句",
+        "english": "that first-generation college students lag other students on a range of education achievement factors",
+        "chinese": "第一代大学生在一系列教育成就因素上落后于其他学生",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "作 found 的宾语"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "同位语",
+        "english": "those who do not have a parent with a college degree",
+        "chinese": "父母没有大学学位的那些学生",
+        "parent_id": "c_001_004",
+        "target_id": "c_001_004",
+        "relation": "解释 first-generation college students"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "名词 + 破折号解释",
+        "explanation": "those who... 是 first-generation college students 的同位语解释。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "first-generation",
+        "pos": "adj.",
+        "meaning": "第一代的",
+        "chunk_id": "c_001_004"
+      },
+      {
+        "word": "lag",
+        "pos": "v.",
+        "meaning": "落后",
+        "chunk_id": "c_001_004"
+      },
+      {
+        "word": "range",
+        "pos": "n.",
+        "meaning": "范围，一系列",
+        "chunk_id": "c_001_004"
+      },
+      {
+        "word": "achievement",
+        "pos": "n.",
+        "meaning": "成就",
+        "chunk_id": "c_001_004"
+      },
+      {
+        "word": "factors",
+        "pos": "n.",
+        "meaning": "因素",
+        "chunk_id": "c_001_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "college degree",
+        "phrase_type": "n. phr.",
+        "meaning": "大学学位",
+        "chunk_id": "c_001_005"
+      },
+      {
+        "phrase": "a range of",
+        "phrase_type": "collocation",
+        "meaning": "一系列",
+        "chunk_id": "c_001_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "Their grades are lower and their dropout rates are higher.",
+    "difficulty": 2,
+    "translation_literal": "他们的成绩更低，辍学率更高。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "并列分句",
+        "english": "Their grades are lower",
+        "chinese": "他们的成绩更低",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "并列分句",
+        "english": "and their dropout rates are higher",
+        "chinese": "并且他们的辍学率更高",
+        "parent_id": null,
+        "target_id": "c_002_001",
+        "relation": "与前一分句并列"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A are lower and B are higher",
+        "explanation": "两个并列判断共同说明第一代大学生处境不利。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "grades",
+        "pos": "n.",
+        "meaning": "成绩",
+        "chunk_id": "c_002_001"
+      },
+      {
+        "word": "dropout",
+        "pos": "n.",
+        "meaning": "辍学",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "rates",
+        "pos": "n.",
+        "meaning": "比率",
+        "chunk_id": "c_002_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "dropout rates",
+        "phrase_type": "n. phr.",
+        "meaning": "辍学率",
+        "chunk_id": "c_002_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "But since such students are most likely to advance economically if they succeed in higher education, colleges and universities have pushed for decades to recruit more of them.",
+    "difficulty": 5,
+    "translation_literal": "但是，由于这样的学生如果在高等教育中成功，就最有可能在经济上取得进步，学院和大学几十年来一直努力招收更多这样的学生。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "原因状语从句",
+        "english": "since such students are most likely to advance economically if they succeed in higher education",
+        "chinese": "由于这样的学生如果在高等教育中成功就最有可能在经济上取得进步",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "条件状语从句",
+        "english": "if they succeed in higher education",
+        "chinese": "如果他们在高等教育中成功",
+        "parent_id": "c_003_002",
+        "target_id": "c_003_002",
+        "relation": "说明 advance 的条件"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "主语",
+        "english": "colleges and universities",
+        "chinese": "学院和大学",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "谓语",
+        "english": "have pushed",
+        "chinese": "一直推动，努力",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "状语",
+        "english": "for decades",
+        "chinese": "几十年来",
+        "parent_id": null,
+        "target_id": "c_003_005",
+        "relation": "说明持续时间"
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "宾语",
+        "english": "to recruit more of them",
+        "chinese": "招收更多这样的学生",
+        "parent_id": null,
+        "target_id": "c_003_005",
+        "relation": "说明推动的目标"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "advance",
+        "pos": "v.",
+        "meaning": "进步，发展",
+        "chunk_id": "c_003_002"
+      },
+      {
+        "word": "economically",
+        "pos": "adv.",
+        "meaning": "在经济上",
+        "chunk_id": "c_003_002"
+      },
+      {
+        "word": "recruit",
+        "pos": "v.",
+        "meaning": "招收，招募",
+        "chunk_id": "c_003_007"
+      },
+      {
+        "word": "decades",
+        "pos": "n.",
+        "meaning": "几十年",
+        "chunk_id": "c_003_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "higher education",
+        "phrase_type": "n. phr.",
+        "meaning": "高等教育",
+        "chunk_id": "c_003_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "This has created “a paradox” in that recruiting first-generation students, but then watching many of them fail, means that higher education has “continued to reproduce and widen, rather than close” an achievement gap based on social class, according to the depressing beginning of a paper forthcoming in the journal Psychological Science.",
+    "difficulty": 5,
+    "translation_literal": "这造成了“一个悖论”，因为招收第一代学生、但随后看着他们中的许多人失败，意味着高等教育“继续复制并扩大，而不是缩小”一个基于社会阶层的成就差距，正如即将发表于《心理科学》期刊的一篇论文令人沮丧的开头所说。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "This",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "谓语",
+        "english": "has created",
+        "chinese": "造成了",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "宾语",
+        "english": "“a paradox”",
+        "chinese": "“一个悖论”",
+        "parent_id": null,
+        "target_id": "c_004_002",
+        "relation": "作 created 的宾语"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "状语从句",
+        "english": "in that recruiting first-generation students, but then watching many of them fail, means that higher education has continued to reproduce and widen an achievement gap",
+        "chinese": "因为招收第一代学生但随后看着他们失败，意味着高等教育继续复制并扩大一个成就差距",
+        "parent_id": null,
+        "target_id": "c_004_002",
+        "relation": "说明造成悖论的原因"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "主语",
+        "english": "recruiting first-generation students, but then watching many of them fail",
+        "chinese": "招收第一代学生但随后看着他们中的许多人失败",
+        "parent_id": "c_004_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "宾语从句",
+        "english": "that higher education has continued to reproduce and widen, rather than close, an achievement gap based on social class",
+        "chinese": "高等教育继续复制并扩大而不是缩小一个基于社会阶层的成就差距",
+        "parent_id": "c_004_004",
+        "target_id": "c_004_004",
+        "relation": "作 means 的宾语"
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "插入语",
+        "english": "rather than close",
+        "chinese": "而不是缩小",
+        "parent_id": "c_004_006",
+        "target_id": "c_004_006",
+        "relation": "插入说明与 reproduce and widen 对比"
+      },
+      {
+        "chunk_id": "c_004_008",
+        "role": "状语",
+        "english": "according to the depressing beginning of a paper forthcoming in the journal Psychological Science",
+        "chinese": "根据即将发表于《心理科学》期刊的一篇论文令人沮丧的开头",
+        "parent_id": null,
+        "target_id": "c_004_002",
+        "relation": "说明观点来源"
+      },
+      {
+        "chunk_id": "c_004_009",
+        "role": "非谓语主语",
+        "english": "recruiting first-generation students",
+        "chinese": "招收第一代学生",
+        "parent_id": "c_004_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_010",
+        "role": "并列非谓语",
+        "english": "watching many of them fail",
+        "chinese": "看着他们中的许多人失败",
+        "parent_id": "c_004_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_011",
+        "role": "谓语",
+        "english": "means",
+        "chinese": "意味着",
+        "parent_id": "c_004_004",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_012",
+        "role": "从句主语",
+        "english": "higher education",
+        "chinese": "高等教育",
+        "parent_id": "c_004_006",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_013",
+        "role": "从句谓语",
+        "english": "has continued to reproduce and widen",
+        "chinese": "继续复制并扩大",
+        "parent_id": "c_004_006",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_014",
+        "role": "从句宾语",
+        "english": "an achievement gap based on social class",
+        "chinese": "基于社会阶层的成就差距",
+        "parent_id": "c_004_006",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "动词短语中插入对比成分",
+        "explanation": "rather than close 插在 reproduce and widen 与宾语之间，阅读时要与 continued to reproduce and widen 对照。"
+      },
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主语较长，谓语与宾语从句相隔",
+        "explanation": "recruiting...but then watching... 是较长主语，真正谓语是 means。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "paradox",
+        "pos": "n.",
+        "meaning": "悖论，自相矛盾的情况",
+        "chunk_id": "c_004_003"
+      },
+      {
+        "word": "reproduce",
+        "pos": "v.",
+        "meaning": "复制，再生产",
+        "chunk_id": "c_004_006"
+      },
+      {
+        "word": "widen",
+        "pos": "v.",
+        "meaning": "扩大",
+        "chunk_id": "c_004_006"
+      },
+      {
+        "word": "achievement",
+        "pos": "n.",
+        "meaning": "成就",
+        "chunk_id": "c_004_006"
+      },
+      {
+        "word": "forthcoming",
+        "pos": "adj.",
+        "meaning": "即将发表的",
+        "chunk_id": "c_004_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "in that",
+        "phrase_type": "conj. phr.",
+        "meaning": "因为，在于",
+        "chunk_id": "c_004_004"
+      },
+      {
+        "phrase": "social class",
+        "phrase_type": "n. phr.",
+        "meaning": "社会阶层",
+        "chunk_id": "c_004_006"
+      },
+      {
+        "phrase": "Psychological Science",
+        "phrase_type": "n. phr.",
+        "meaning": "《心理科学》",
+        "chunk_id": "c_004_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "But the article is actually quite optimistic, as it outlines a potential solution to this problem, suggesting that an approach (which involves a one-hour, next-to-no-cost program) can close 63 percent of the achievement gap (measured by such factors as grades) between first-generation and other students.",
+    "difficulty": 5,
+    "translation_literal": "但是这篇文章实际上相当乐观，因为它概述了这个问题的一个潜在解决方案，表明一种方法（包括一个一小时、几乎无成本的项目）可以缩小第一代学生和其他学生之间63%的成就差距（由成绩等因素衡量）。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "主语",
+        "english": "the article",
+        "chinese": "这篇文章",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "表语",
+        "english": "actually quite optimistic",
+        "chinese": "实际上相当乐观",
+        "parent_id": null,
+        "target_id": "c_005_003",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "原因状语从句",
+        "english": "as it outlines a potential solution to this problem",
+        "chinese": "因为它概述了这个问题的一个潜在解决方案",
+        "parent_id": null,
+        "target_id": "c_005_004",
+        "relation": "说明乐观的原因"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "状语",
+        "english": "suggesting that an approach can close 63 percent of the achievement gap",
+        "chinese": "表明一种方法可以缩小63%的成就差距",
+        "parent_id": null,
+        "target_id": "c_005_005",
+        "relation": "补充说明 article 的内容"
+      },
+      {
+        "chunk_id": "c_005_007",
+        "role": "定语从句",
+        "english": "which involves a one-hour, next-to-no-cost program",
+        "chinese": "它包括一个一小时、几乎无成本的项目",
+        "parent_id": "c_005_006",
+        "target_id": "c_005_006",
+        "relation": "修饰 approach"
+      },
+      {
+        "chunk_id": "c_005_008",
+        "role": "插入语",
+        "english": "measured by such factors as grades",
+        "chinese": "由成绩等因素衡量",
+        "parent_id": "c_005_006",
+        "target_id": "c_005_006",
+        "relation": "补充说明 achievement gap"
+      },
+      {
+        "chunk_id": "c_005_009",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_005_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_010",
+        "role": "从句谓语",
+        "english": "outlines",
+        "chinese": "概述",
+        "parent_id": "c_005_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_011",
+        "role": "从句宾语",
+        "english": "a potential solution to this problem",
+        "chinese": "这个问题的潜在解决方案",
+        "parent_id": "c_005_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_012",
+        "role": "从句主语",
+        "english": "an approach",
+        "chinese": "一种方法",
+        "parent_id": "c_005_006",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_013",
+        "role": "从句谓语",
+        "english": "can close",
+        "chinese": "能够缩小",
+        "parent_id": "c_005_006",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_014",
+        "role": "从句宾语",
+        "english": "63 percent of the achievement gap",
+        "chinese": "成就差距的63%",
+        "parent_id": "c_005_006",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "as + 主语 + 谓语",
+        "explanation": "as 在这里引导原因结构，说明文章乐观的原因。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "括号插入补充说明",
+        "explanation": "which involves... 和 measured by... 都以括号形式补充关键信息。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "article",
+        "pos": "n.",
+        "meaning": "文章",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "optimistic",
+        "pos": "adj.",
+        "meaning": "乐观的",
+        "chunk_id": "c_005_004"
+      },
+      {
+        "word": "outlines",
+        "pos": "v.",
+        "meaning": "概述",
+        "chunk_id": "c_005_005"
+      },
+      {
+        "word": "potential",
+        "pos": "adj.",
+        "meaning": "潜在的",
+        "chunk_id": "c_005_005"
+      },
+      {
+        "word": "solution",
+        "pos": "n.",
+        "meaning": "解决方案",
+        "chunk_id": "c_005_005"
+      },
+      {
+        "word": "approach",
+        "pos": "n.",
+        "meaning": "方法",
+        "chunk_id": "c_005_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "next-to-no-cost",
+        "phrase_type": "adj. phr.",
+        "meaning": "几乎无成本的",
+        "chunk_id": "c_005_007"
+      },
+      {
+        "phrase": "achievement gap",
+        "phrase_type": "n. phr.",
+        "meaning": "成就差距",
+        "chunk_id": "c_005_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "The authors of the paper are from different universities, and their findings are based on a study involving 147 students (who completed the project) at an unnamed private university.",
+    "difficulty": 4,
+    "translation_literal": "这篇论文的作者来自不同大学，并且他们的发现基于一项涉及一所未具名私立大学147名学生（他们完成了该项目）的研究。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "并列分句",
+        "english": "The authors of the paper are from different universities",
+        "chinese": "这篇论文的作者来自不同大学",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "并列分句",
+        "english": "and their findings are based on a study involving 147 students at an unnamed private university",
+        "chinese": "并且他们的发现基于一项涉及一所未具名私立大学147名学生的研究",
+        "parent_id": null,
+        "target_id": "c_006_001",
+        "relation": "与前一分句并列"
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "定语",
+        "english": "involving 147 students",
+        "chinese": "涉及147名学生的",
+        "parent_id": "c_006_002",
+        "target_id": "c_006_002",
+        "relation": "修饰 study"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "定语从句",
+        "english": "who completed the project",
+        "chinese": "他们完成了该项目",
+        "parent_id": "c_006_003",
+        "target_id": "c_006_003",
+        "relation": "修饰 students"
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "状语",
+        "english": "at an unnamed private university",
+        "chinese": "在一所未具名私立大学",
+        "parent_id": "c_006_002",
+        "target_id": "c_006_003",
+        "relation": "说明研究对象所在学校"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "括号插入补充说明",
+        "explanation": "who completed the project 用括号补充说明 students。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "authors",
+        "pos": "n.",
+        "meaning": "作者",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "findings",
+        "pos": "n.",
+        "meaning": "发现，研究结果",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "involving",
+        "pos": "v.",
+        "meaning": "涉及",
+        "chunk_id": "c_006_003"
+      },
+      {
+        "word": "unnamed",
+        "pos": "adj.",
+        "meaning": "未具名的",
+        "chunk_id": "c_006_005"
+      },
+      {
+        "word": "private",
+        "pos": "adj.",
+        "meaning": "私立的",
+        "chunk_id": "c_006_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "be based on",
+        "phrase_type": "v. phr.",
+        "meaning": "基于",
+        "chunk_id": "c_006_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "First generation was defined as not having a parent with a four-year college degree.",
+    "difficulty": 3,
+    "translation_literal": "第一代被定义为没有父母拥有四年制大学学位。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "First generation",
+        "chinese": "第一代",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "was defined as",
+        "chinese": "被定义为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "宾语",
+        "english": "not having a parent with a four-year college degree",
+        "chinese": "没有父母拥有四年制大学学位",
+        "parent_id": null,
+        "target_id": "c_007_002",
+        "relation": "作 define as 的内容"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "defined",
+        "pos": "v.",
+        "meaning": "定义",
+        "chunk_id": "c_007_002"
+      },
+      {
+        "word": "parent",
+        "pos": "n.",
+        "meaning": "父母之一",
+        "chunk_id": "c_007_003"
+      },
+      {
+        "word": "degree",
+        "pos": "n.",
+        "meaning": "学位",
+        "chunk_id": "c_007_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "defined as",
+        "phrase_type": "v. phr.",
+        "meaning": "被定义为",
+        "chunk_id": "c_007_002"
+      },
+      {
+        "phrase": "four-year college degree",
+        "phrase_type": "n. phr.",
+        "meaning": "四年制大学学位",
+        "chunk_id": "c_007_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "Most of the first-generation students (59.1 percent) were recipients of Pell Grants, a federal grant for undergraduates with financial need, while this was true only for 8.6 percent of the students with at least one parent with a four-year degree.",
+    "difficulty": 5,
+    "translation_literal": "大多数第一代学生（59.1%）是佩尔助学金的获得者，这是一种面向有经济需求的本科生的联邦助学金，而至少有一位父母拥有四年制学位的学生中只有8.6%是这样。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "Most of the first-generation students",
+        "chinese": "大多数第一代学生",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "插入语",
+        "english": "59.1 percent",
+        "chinese": "59.1%",
+        "parent_id": null,
+        "target_id": "c_008_001",
+        "relation": "补充比例"
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "谓语",
+        "english": "were",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "表语",
+        "english": "recipients of Pell Grants",
+        "chinese": "佩尔助学金的获得者",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "作 were 的表语"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "同位语",
+        "english": "a federal grant for undergraduates with financial need",
+        "chinese": "一种面向有经济需求的本科生的联邦助学金",
+        "parent_id": null,
+        "target_id": "c_008_004",
+        "relation": "解释 Pell Grants"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "状语从句",
+        "english": "while this was true only for 8.6 percent of the students with at least one parent with a four-year degree",
+        "chinese": "而至少有一位父母拥有四年制学位的学生中只有8.6%是这样",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "形成对比"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "名词 + 同位语",
+        "explanation": "a federal grant... 解释 Pell Grants。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "括号插入数字说明",
+        "explanation": "59.1 percent 插入主语后，补充具体比例。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "recipients",
+        "pos": "n.",
+        "meaning": "接受者，获得者",
+        "chunk_id": "c_008_004"
+      },
+      {
+        "word": "federal",
+        "pos": "adj.",
+        "meaning": "联邦的",
+        "chunk_id": "c_008_005"
+      },
+      {
+        "word": "undergraduates",
+        "pos": "n.",
+        "meaning": "本科生",
+        "chunk_id": "c_008_005"
+      },
+      {
+        "word": "financial",
+        "pos": "adj.",
+        "meaning": "经济的，财务的",
+        "chunk_id": "c_008_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Pell Grants",
+        "phrase_type": "n. phr.",
+        "meaning": "佩尔助学金",
+        "chunk_id": "c_008_004"
+      },
+      {
+        "phrase": "financial need",
+        "phrase_type": "n. phr.",
+        "meaning": "经济需求",
+        "chunk_id": "c_008_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "Their thesis—that a relatively modest intervention could have a big impact—was based on the view that first-generation students may be most lacking not in potential but in practical knowledge about how to deal with the issues that face most college students.",
+    "difficulty": 5,
+    "translation_literal": "他们的论点，即一个相对适度的干预可能产生重大影响，是基于这样一种观点：第一代学生最缺乏的可能不是潜力，而是关于如何处理大多数大学生都会面临的问题的实践知识。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "Their thesis",
+        "chinese": "他们的论点",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "同位语解释结构",
+        "english": "that a relatively modest intervention could have a big impact",
+        "chinese": "即一个相对适度的干预可能产生重大影响",
+        "parent_id": null,
+        "target_id": "c_009_001",
+        "relation": "解释 thesis"
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "谓语",
+        "english": "was based on",
+        "chinese": "基于",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "宾语",
+        "english": "the view",
+        "chinese": "这种观点",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "作 based on 的宾语"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "同位语从句",
+        "english": "that first-generation students may be most lacking not in potential but in practical knowledge",
+        "chinese": "第一代学生最缺乏的可能不是潜力而是实践知识",
+        "parent_id": null,
+        "target_id": "c_009_004",
+        "relation": "解释 the view"
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "宾语从句",
+        "english": "how to deal with the issues that face most college students",
+        "chinese": "如何处理大多数大学生都会面临的问题",
+        "parent_id": "c_009_005",
+        "target_id": "c_009_005",
+        "relation": "作 about 的宾语"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "定语从句",
+        "english": "that face most college students",
+        "chinese": "大多数大学生都会面临的",
+        "parent_id": "c_009_006",
+        "target_id": "c_009_006",
+        "relation": "修饰 issues"
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "同位语从句主语",
+        "english": "a relatively modest intervention",
+        "chinese": "一个相对适度的干预",
+        "parent_id": "c_009_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_009",
+        "role": "同位语从句谓语",
+        "english": "could have",
+        "chinese": "可能产生",
+        "parent_id": "c_009_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_010",
+        "role": "同位语从句宾语",
+        "english": "a big impact",
+        "chinese": "重大影响",
+        "parent_id": "c_009_002",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_011",
+        "role": "从句主语",
+        "english": "first-generation students",
+        "chinese": "第一代学生",
+        "parent_id": "c_009_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_012",
+        "role": "从句谓语",
+        "english": "may be lacking",
+        "chinese": "可能缺乏",
+        "parent_id": "c_009_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_013",
+        "role": "并列宾语",
+        "english": "not in potential",
+        "chinese": "不是潜力",
+        "parent_id": "c_009_005",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_014",
+        "role": "并列宾语",
+        "english": "but in practical knowledge",
+        "chinese": "而是实践知识",
+        "parent_id": "c_009_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "名词 + 破折号解释 / that 从句",
+        "explanation": "破折号中的 that 从句解释 thesis，后面的 that 从句解释 the view。"
+      },
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主语与谓语被同位语隔开",
+        "explanation": "Their thesis 与 was based on 被破折号同位语隔开，阅读时要先合并主干。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "thesis",
+        "pos": "n.",
+        "meaning": "论点，命题",
+        "chunk_id": "c_009_001"
+      },
+      {
+        "word": "relatively",
+        "pos": "adv.",
+        "meaning": "相对地",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "modest",
+        "pos": "adj.",
+        "meaning": "适度的",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "intervention",
+        "pos": "n.",
+        "meaning": "干预",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "impact",
+        "pos": "n.",
+        "meaning": "影响",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "potential",
+        "pos": "n.",
+        "meaning": "潜力",
+        "chunk_id": "c_009_005"
+      },
+      {
+        "word": "practical",
+        "pos": "adj.",
+        "meaning": "实践的，实际的",
+        "chunk_id": "c_009_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "be based on",
+        "phrase_type": "v. phr.",
+        "meaning": "基于",
+        "chunk_id": "c_009_003"
+      },
+      {
+        "phrase": "not in...but in...",
+        "phrase_type": "sentence pattern",
+        "meaning": "不是在……方面，而是在……方面",
+        "chunk_id": "c_009_005"
+      },
+      {
+        "phrase": "deal with",
+        "phrase_type": "v. phr.",
+        "meaning": "处理，应对",
+        "chunk_id": "c_009_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "They cite past research by several authors to show that this is the gap that must be narrowed to close the achievement gap.",
+    "difficulty": 4,
+    "translation_literal": "他们引用几位作者过去的研究来表明，这就是必须被缩小以弥合成就差距的差距。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "They",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "cite",
+        "chinese": "引用",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "宾语",
+        "english": "past research by several authors",
+        "chinese": "几位作者过去的研究",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "作 cite 的宾语"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "状语",
+        "english": "to show that this is the gap that must be narrowed to close the achievement gap",
+        "chinese": "来表明这就是必须被缩小以弥合成就差距的差距",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "说明引用研究的目的"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "宾语从句",
+        "english": "that this is the gap that must be narrowed to close the achievement gap",
+        "chinese": "这就是必须被缩小以弥合成就差距的差距",
+        "parent_id": "c_010_004",
+        "target_id": "c_010_004",
+        "relation": "作 show 的宾语"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "定语从句",
+        "english": "that must be narrowed to close the achievement gap",
+        "chinese": "必须被缩小以弥合成就差距的",
+        "parent_id": "c_010_005",
+        "target_id": "c_010_005",
+        "relation": "修饰 gap"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "cite",
+        "pos": "v.",
+        "meaning": "引用，引证",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "authors",
+        "pos": "n.",
+        "meaning": "作者",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "narrowed",
+        "pos": "v.",
+        "meaning": "缩小",
+        "chunk_id": "c_010_006"
+      },
+      {
+        "word": "close",
+        "pos": "v.",
+        "meaning": "弥合，缩小",
+        "chunk_id": "c_010_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "achievement gap",
+        "phrase_type": "n. phr.",
+        "meaning": "成就差距",
+        "chunk_id": "c_010_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "Many first-generation students “struggle to navigate the middle-class culture of higher education, learn the ‘rules of the game,’ and take advantage of college resources,” they write.",
+    "difficulty": 5,
+    "translation_literal": "他们写道，许多第一代学生“努力适应高等教育中的中产阶级文化，学习‘游戏规则’，并利用大学资源”。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "Many first-generation students",
+        "chinese": "许多第一代学生",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "struggle",
+        "chinese": "努力，艰难地做",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "宾语",
+        "english": "to navigate the middle-class culture of higher education, learn the rules of the game, and take advantage of college resources",
+        "chinese": "适应高等教育中的中产阶级文化、学习游戏规则并利用大学资源",
+        "parent_id": null,
+        "target_id": "c_011_002",
+        "relation": "作 struggle 的内容"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "插入语",
+        "english": "they write",
+        "chinese": "他们写道",
+        "parent_id": null,
+        "target_id": "c_011_003",
+        "relation": "说明引语来源"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "并列宾语",
+        "english": "to navigate the middle-class culture of higher education",
+        "chinese": "适应高等教育中的中产阶级文化",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "并列宾语",
+        "english": "learn the rules of the game",
+        "chinese": "学习游戏规则",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "并列宾语",
+        "english": "take advantage of college resources",
+        "chinese": "利用大学资源",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "to do A, do B, and do C",
+        "explanation": "navigate, learn, take advantage of 三个动作并列，都是 first-generation students struggle to do 的内容。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "引语后插入观点来源",
+        "explanation": "they write 说明前面引语来自论文作者。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "struggle",
+        "pos": "v.",
+        "meaning": "努力，艰难地做",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "word": "navigate",
+        "pos": "v.",
+        "meaning": "应对，适应",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "word": "middle-class",
+        "pos": "adj.",
+        "meaning": "中产阶级的",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "word": "resources",
+        "pos": "n.",
+        "meaning": "资源",
+        "chunk_id": "c_011_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "rules of the game",
+        "phrase_type": "n. phr.",
+        "meaning": "游戏规则，潜规则",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "phrase": "take advantage of",
+        "phrase_type": "v. phr.",
+        "meaning": "利用",
+        "chunk_id": "c_011_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "And this becomes more of a problem when colleges don’t talk about the class advantages and disadvantages of different groups of students.",
+    "difficulty": 4,
+    "translation_literal": "当大学不谈论不同学生群体的阶层优势和劣势时，这会变得更像一个问题。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "连接成分",
+        "english": "And",
+        "chinese": "并且",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "主语",
+        "english": "this",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "谓语",
+        "english": "becomes",
+        "chinese": "变成",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "表语",
+        "english": "more of a problem",
+        "chinese": "更像一个问题",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "作 becomes 的表语"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "状语从句",
+        "english": "when colleges don’t talk about the class advantages and disadvantages of different groups of students",
+        "chinese": "当大学不谈论不同学生群体的阶层优势和劣势时",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "说明问题加重的条件"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "advantages",
+        "pos": "n.",
+        "meaning": "优势",
+        "chunk_id": "c_012_005"
+      },
+      {
+        "word": "disadvantages",
+        "pos": "n.",
+        "meaning": "劣势",
+        "chunk_id": "c_012_005"
+      },
+      {
+        "word": "groups",
+        "pos": "n.",
+        "meaning": "群体",
+        "chunk_id": "c_012_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "talk about",
+        "phrase_type": "v. phr.",
+        "meaning": "谈论",
+        "chunk_id": "c_012_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2015,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "“Because US colleges and universities seldom acknowledge how social class can affect students’ educational experiences, many first-generation students lack sight about why they are struggling and do not understand how students ‘like them’ can improve.”",
+    "difficulty": 5,
+    "translation_literal": "“因为美国的学院和大学很少承认社会阶层如何影响学生的教育经历，许多第一代学生看不清他们为什么在挣扎，也不理解像他们这样的学生如何能够提高。”",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "原因状语从句",
+        "english": "Because US colleges and universities seldom acknowledge how social class can affect students’ educational experiences",
+        "chinese": "因为美国的学院和大学很少承认社会阶层如何影响学生的教育经历",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "主语",
+        "english": "many first-generation students",
+        "chinese": "许多第一代学生",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "并列谓语",
+        "english": "lack sight",
+        "chinese": "缺乏认识，看不清",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "宾语从句",
+        "english": "about why they are struggling",
+        "chinese": "关于他们为什么在挣扎",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "作 about 的宾语"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "并列谓语",
+        "english": "and do not understand",
+        "chinese": "并且不理解",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "与 lack sight 并列"
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "宾语从句",
+        "english": "how students like them can improve",
+        "chinese": "像他们这样的学生如何能够提高",
+        "parent_id": null,
+        "target_id": "c_013_005",
+        "relation": "作 understand 的宾语"
+      },
+      {
+        "chunk_id": "c_013_007",
+        "role": "从句主语",
+        "english": "US colleges and universities",
+        "chinese": "美国的学院和大学",
+        "parent_id": "c_013_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_008",
+        "role": "从句谓语",
+        "english": "seldom acknowledge",
+        "chinese": "很少承认",
+        "parent_id": "c_013_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_009",
+        "role": "从句宾语",
+        "english": "how social class can affect students’ educational experiences",
+        "chinese": "社会阶层如何影响学生的教育经历",
+        "parent_id": "c_013_001",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_010",
+        "role": "并列谓语",
+        "english": "lack sight",
+        "chinese": "缺乏认识",
+        "parent_id": "c_013_003",
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_011",
+        "role": "并列谓语",
+        "english": "do not understand",
+        "chinese": "不理解",
+        "parent_id": "c_013_005",
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "谓语 A and 谓语 B",
+        "explanation": "lack sight 和 do not understand 并列，共同说明第一代学生的困境。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "seldom",
+        "pos": "adv.",
+        "meaning": "很少",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "acknowledge",
+        "pos": "v.",
+        "meaning": "承认",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "affect",
+        "pos": "v.",
+        "meaning": "影响",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "experiences",
+        "pos": "n.",
+        "meaning": "经历",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "struggling",
+        "pos": "v.",
+        "meaning": "挣扎，艰难应对",
+        "chunk_id": "c_013_004"
+      },
+      {
+        "word": "improve",
+        "pos": "v.",
+        "meaning": "提高，改善",
+        "chunk_id": "c_013_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "social class",
+        "phrase_type": "n. phr.",
+        "meaning": "社会阶层",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "phrase": "lack sight about",
+        "phrase_type": "v. phr.",
+        "meaning": "看不清，缺乏认识",
+        "chunk_id": "c_013_003"
+      }
+    ]
+  }
+]
