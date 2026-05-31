@@ -1,0 +1,508 @@
+[
+  {
+    "check_id": "s_002_warrant_meaning_in_context",
+    "source_sentence_id": "s_002",
+    "target": "warrant",
+    "target_type": "word",
+    "prompt": "结合本句语境，warrant 最合适的意思是：",
+    "correct_meaning": "搜查令",
+    "acceptable_meanings": [
+      "搜查令",
+      "授权令"
+    ],
+    "meaning_pool": [
+      "搜查令",
+      "保证",
+      "证书",
+      "命令"
+    ],
+    "explanation": "without a warrant 直接限定了合法性，这里 warrant 是“搜查令”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_003_refrain_from_meaning_in_context",
+    "source_sentence_id": "s_003",
+    "target": "refrain from",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，refrain from 最合适的意思是：",
+    "correct_meaning": "避免/克制",
+    "acceptable_meanings": [
+      "避免",
+      "克制",
+      "不要"
+    ],
+    "meaning_pool": [
+      "避免/克制",
+      "支持",
+      "推动",
+      "接受"
+    ],
+    "explanation": "refrain from a sweeping ruling 表示请求法官“避免作出”那种范围过大的裁决。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_003_sweeping_ruling_meaning_in_context",
+    "source_sentence_id": "s_003",
+    "target": "sweeping ruling",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，sweeping ruling 最合适的意思是：",
+    "correct_meaning": "范围很大的裁决",
+    "acceptable_meanings": [
+      "范围很大的裁决",
+      "全面裁决",
+      "影响广的判决"
+    ],
+    "meaning_pool": [
+      "范围很大的裁决",
+      "简单判决",
+      "临时决定",
+      "口头意见"
+    ],
+    "explanation": "sweeping 强调裁决影响面广，不是普通“裁决”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_003_upsets_meaning_in_context",
+    "source_sentence_id": "s_003",
+    "target": "upsets",
+    "target_type": "word",
+    "prompt": "结合本句语境，upsets 最合适的意思是：",
+    "correct_meaning": "推翻/打破",
+    "acceptable_meanings": [
+      "推翻",
+      "打乱",
+      "动摇"
+    ],
+    "meaning_pool": [
+      "推翻/打破",
+      "让人高兴",
+      "证明",
+      "保存"
+    ],
+    "explanation": "upsets the old assumption 说明它会动摇旧有假设。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_003_search_through_meaning_in_context",
+    "source_sentence_id": "s_003",
+    "target": "search through",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，search through 最合适的意思是：",
+    "correct_meaning": "搜查/翻查",
+    "acceptable_meanings": [
+      "搜查",
+      "翻查",
+      "仔细查看"
+    ],
+    "meaning_pool": [
+      "搜查/翻查",
+      "随便看一眼",
+      "删除",
+      "归还"
+    ],
+    "explanation": "search through the possessions 不是泛泛“看”，而是对财物进行搜查。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_004_discernable_meaning_in_context",
+    "source_sentence_id": "s_004",
+    "target": "discernable",
+    "target_type": "word",
+    "prompt": "结合本句语境，discernable 最合适的意思是：",
+    "correct_meaning": "看得出来的/可辨认的",
+    "acceptable_meanings": [
+      "看得出来的",
+      "可辨认的",
+      "明显的"
+    ],
+    "meaning_pool": [
+      "看得出来的/可辨认的",
+      "模糊的",
+      "虚假的",
+      "缓慢的"
+    ],
+    "explanation": "前文说新技术的影响已经足够明显，所以 discernable 是“可看出的”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_006_updated_guidelines_meaning_in_context",
+    "source_sentence_id": "s_006",
+    "target": "updated guidelines",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，updated guidelines 最合适的意思是：",
+    "correct_meaning": "更新后的指导原则",
+    "acceptable_meanings": [
+      "更新后的指导原则",
+      "修订后的指引"
+    ],
+    "meaning_pool": [
+      "更新后的指导原则",
+      "旧规章",
+      "临时建议",
+      "法律条文"
+    ],
+    "explanation": "法官应给警方和律师提供更新后的指导原则。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_007_lame_argument_meaning_in_context",
+    "source_sentence_id": "s_007",
+    "target": "lame argument",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，lame argument 最合适的意思是：",
+    "correct_meaning": "站不住脚的论点",
+    "acceptable_meanings": [
+      "站不住脚的论点",
+      "牵强的说法"
+    ],
+    "meaning_pool": [
+      "站不住脚的论点",
+      "有力论点",
+      "正式声明",
+      "合理解释"
+    ],
+    "explanation": "作者直接否定 California 的论点，lame 在这里是“蹩脚的”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_007_vast_storehouse_meaning_in_context",
+    "source_sentence_id": "s_007",
+    "target": "vast storehouse",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，vast storehouse 最合适的意思是：",
+    "correct_meaning": "巨大的储存库",
+    "acceptable_meanings": [
+      "巨大的储存库",
+      "庞大的信息库"
+    ],
+    "meaning_pool": [
+      "巨大的储存库",
+      "小仓库",
+      "临时文件夹",
+      "公开档案"
+    ],
+    "explanation": "smartphone 被比作庞大的数字信息库。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_008_the_fourth_amendment_meaning_in_context",
+    "source_sentence_id": "s_008",
+    "target": "The Fourth Amendment",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，The Fourth Amendment 最合适的意思是：",
+    "correct_meaning": "第四修正案",
+    "acceptable_meanings": [
+      "第四修正案"
+    ],
+    "meaning_pool": [
+      "第四修正案",
+      "宪法序言",
+      "第二条款",
+      "隐私法案"
+    ],
+    "explanation": "这里是美国宪法中的具体条款，直接指第四修正案。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_009_more_like_meaning_in_context",
+    "source_sentence_id": "s_009",
+    "target": "more like",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，more like 最合适的意思是：",
+    "correct_meaning": "更像",
+    "acceptable_meanings": [
+      "更像",
+      "更接近"
+    ],
+    "meaning_pool": [
+      "更像",
+      "完全等于",
+      "恰好相反",
+      "毫无关系"
+    ],
+    "explanation": "作者强调探索手机更像进入住宅，而不是像翻钱包。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_011_so_much_the_easier_meaning_in_context",
+    "source_sentence_id": "s_011",
+    "target": "so much the easier",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，so much the easier 最合适的意思是：",
+    "correct_meaning": "因此更容易",
+    "acceptable_meanings": [
+      "因此更容易",
+      "会容易得多"
+    ],
+    "meaning_pool": [
+      "因此更容易",
+      "更加困难",
+      "完全没用",
+      "毫无变化"
+    ],
+    "explanation": "cloud computing 让这种探索“容易得多”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_012_take_steps_meaning_in_context",
+    "source_sentence_id": "s_012",
+    "target": "take steps",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，take steps 最合适的意思是：",
+    "correct_meaning": "采取措施",
+    "acceptable_meanings": [
+      "采取措施",
+      "付诸行动"
+    ],
+    "meaning_pool": [
+      "采取措施",
+      "坐视不管",
+      "提出疑问",
+      "做出判断"
+    ],
+    "explanation": "Americans should take steps to protect... 指应采取保护措施。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_013_requirement_meaning_in_context",
+    "source_sentence_id": "s_013",
+    "target": "requirement",
+    "target_type": "word",
+    "prompt": "结合本句语境，requirement 最合适的意思是：",
+    "correct_meaning": "必需品/必要条件",
+    "acceptable_meanings": [
+      "必需品",
+      "必要条件",
+      "必需性"
+    ],
+    "meaning_pool": [
+      "必需品/必要条件",
+      "装饰品",
+      "选择题",
+      "偶然因素"
+    ],
+    "explanation": "这里说这些设备已越来越成为正常生活的必需条件。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_015_line_drawing_meaning_in_context",
+    "source_sentence_id": "s_015",
+    "target": "line-drawing",
+    "target_type": "word",
+    "prompt": "结合本句语境，line-drawing 最合适的意思是：",
+    "correct_meaning": "划界/界限划分",
+    "acceptable_meanings": [
+      "划界",
+      "界限划分"
+    ],
+    "meaning_pool": [
+      "划界/界限划分",
+      "画线游戏",
+      "直线绘制",
+      "边框装饰"
+    ],
+    "explanation": "the challenge of line-drawing 指如何划定界限。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_016_overly_burdensome_meaning_in_context",
+    "source_sentence_id": "s_016",
+    "target": "overly burdensome",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，overly burdensome 最合适的意思是：",
+    "correct_meaning": "负担过重的",
+    "acceptable_meanings": [
+      "负担过重的",
+      "过于麻烦的"
+    ],
+    "meaning_pool": [
+      "负担过重的",
+      "完全可行的",
+      "非常简单的",
+      "毫无必要的"
+    ],
+    "explanation": "作者说申请搜查令在很多情况下并不算过分麻烦。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_017_invalidate_meaning_in_context",
+    "source_sentence_id": "s_017",
+    "target": "invalidate",
+    "target_type": "word",
+    "prompt": "结合本句语境，invalidate 最合适的意思是：",
+    "correct_meaning": "使无效/使失效",
+    "acceptable_meanings": [
+      "使无效",
+      "使失效"
+    ],
+    "meaning_pool": [
+      "使无效/使失效",
+      "证明",
+      "强化",
+      "保护"
+    ],
+    "explanation": "这里指在紧急情形下，某些做法可能削弱第四修正案保护。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_017_reasonable_measures_meaning_in_context",
+    "source_sentence_id": "s_017",
+    "target": "reasonable measures",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，reasonable measures 最合适的意思是：",
+    "correct_meaning": "合理措施",
+    "acceptable_meanings": [
+      "合理措施",
+      "适当做法"
+    ],
+    "meaning_pool": [
+      "合理措施",
+      "危险手段",
+      "随意做法",
+      "临时借口"
+    ],
+    "explanation": "这里说警方可以采取合理措施防止数据被删改。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_018_allow_room_for_meaning_in_context",
+    "source_sentence_id": "s_018",
+    "target": "allow room for",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，allow room for 最合适的意思是：",
+    "correct_meaning": "为...留出余地",
+    "acceptable_meanings": [
+      "为...留出余地",
+      "给...空间"
+    ],
+    "meaning_pool": [
+      "为...留出余地",
+      "彻底排除",
+      "强行阻止",
+      "公开谴责"
+    ],
+    "explanation": "court may want to allow room for police 表示给警方保留一定空间。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_019_swallow_california_s_argument_whole_meaning_in_context",
+    "source_sentence_id": "s_019",
+    "target": "swallow California's argument whole",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，swallow California's argument whole 最合适的意思是：",
+    "correct_meaning": "全盘接受加州的论点",
+    "acceptable_meanings": [
+      "全盘接受加州的论点",
+      "照单全收"
+    ],
+    "meaning_pool": [
+      "全盘接受加州的论点",
+      "部分接受",
+      "完全忽略",
+      "认真质疑"
+    ],
+    "explanation": "swallow ... whole 是“原封不动吞下去”，这里引申为全盘接受。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_020_novel_applications_meaning_in_context",
+    "source_sentence_id": "s_020",
+    "target": "novel applications",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，novel applications 最合适的意思是：",
+    "correct_meaning": "新的适用方式",
+    "acceptable_meanings": [
+      "新的适用方式",
+      "新应用"
+    ],
+    "meaning_pool": [
+      "新的适用方式",
+      "旧规则",
+      "常规做法",
+      "具体案例"
+    ],
+    "explanation": "new technology sometimes demands novel applications，说明宪法保护需要新的适用方式。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_021_explosion_and_accessibility_meaning_in_context",
+    "source_sentence_id": "s_021",
+    "target": "explosion and accessibility",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，explosion and accessibility 最合适的意思是：",
+    "correct_meaning": "爆炸式增长和易获得性",
+    "acceptable_meanings": [
+      "爆炸式增长和易获得性",
+      "迅速扩张和普及"
+    ],
+    "meaning_pool": [
+      "爆炸式增长和易获得性",
+      "缓慢衰退",
+      "有限传播",
+      "单一来源"
+    ],
+    "explanation": "这里在说数字信息在21世纪的爆发式增长和可获取性。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_022_specify_meaning_in_context",
+    "source_sentence_id": "s_022",
+    "target": "specify",
+    "target_type": "word",
+    "prompt": "结合本句语境，specify 最合适的意思是：",
+    "correct_meaning": "明确规定/具体说明",
+    "acceptable_meanings": [
+      "明确规定",
+      "具体说明",
+      "详细指出"
+    ],
+    "meaning_pool": [
+      "明确规定/具体说明",
+      "随意猜测",
+      "大致提到",
+      "完全回避"
+    ],
+    "explanation": "法官当时需要为汽车这一新领域明确规定规则。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_022_sort_out_meaning_in_context",
+    "source_sentence_id": "s_022",
+    "target": "sort out",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，sort out 最合适的意思是：",
+    "correct_meaning": "理清/弄清",
+    "acceptable_meanings": [
+      "理清",
+      "弄清",
+      "解决"
+    ],
+    "meaning_pool": [
+      "理清/弄清",
+      "故意混淆",
+      "继续拖延",
+      "随便处理"
+    ],
+    "explanation": "they must sort out how... 指他们必须理清第四修正案怎样适用。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_022_applies_to_meaning_in_context",
+    "source_sentence_id": "s_022",
+    "target": "applies to",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，applies to 最合适的意思是：",
+    "correct_meaning": "适用于",
+    "acceptable_meanings": [
+      "适用于"
+    ],
+    "meaning_pool": [
+      "适用于",
+      "反对",
+      "替代",
+      "脱离"
+    ],
+    "explanation": "how the Fourth Amendment applies to digital information now 直说“如何适用于数字信息”。",
+    "priority": 1
+  }
+]

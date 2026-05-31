@@ -1,0 +1,2116 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Robert F. Kennedy once said that a country’s GDP measures “everything except that which makes life worthwhile.”",
+    "difficulty": 4,
+    "translation_literal": "罗伯特·F·肯尼迪曾说，一个国家的 GDP 衡量“除使生活有价值的东西之外的一切”。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "Robert F. Kennedy",
+        "chinese": "罗伯特·F·肯尼迪",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "状语",
+        "english": "once",
+        "chinese": "曾经",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "谓语",
+        "english": "said",
+        "chinese": "说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "宾语从句",
+        "english": "that a country’s GDP measures “everything except that which makes life worthwhile”",
+        "chinese": "一个国家的 GDP 衡量除使生活有价值的东西之外的一切",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "作 said 的宾语"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "从句主语",
+        "english": "a country’s GDP",
+        "chinese": "一个国家的 GDP",
+        "parent_id": "c_001_004",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "从句谓语",
+        "english": "measures",
+        "chinese": "衡量",
+        "parent_id": "c_001_004",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "从句宾语",
+        "english": "everything except that which makes life worthwhile",
+        "chinese": "除使生活有价值的东西之外的一切",
+        "parent_id": "c_001_004",
+        "target_id": "c_001_006",
+        "relation": "作 measures 的宾语"
+      },
+      {
+        "chunk_id": "c_001_008",
+        "role": "定语从句",
+        "english": "which makes life worthwhile",
+        "chinese": "使生活有价值的",
+        "parent_id": "c_001_007",
+        "target_id": "c_001_007",
+        "relation": "修饰 that"
+      },
+      {
+        "chunk_id": "c_001_009",
+        "role": "定语从句主语",
+        "english": "which",
+        "chinese": "它",
+        "parent_id": "c_001_008",
+        "target_id": null,
+        "relation": "which 从句内部主语"
+      },
+      {
+        "chunk_id": "c_001_010",
+        "role": "定语从句谓语",
+        "english": "makes",
+        "chinese": "使",
+        "parent_id": "c_001_008",
+        "target_id": null,
+        "relation": "which 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_001_011",
+        "role": "定语从句宾语",
+        "english": "life",
+        "chinese": "生活",
+        "parent_id": "c_001_008",
+        "target_id": "c_001_010",
+        "relation": "作 makes 的宾语"
+      },
+      {
+        "chunk_id": "c_001_012",
+        "role": "宾语补足语",
+        "english": "worthwhile",
+        "chinese": "有价值的",
+        "parent_id": "c_001_008",
+        "target_id": "c_001_011",
+        "relation": "补充说明 life"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "宾语 everything + except + that + which 从句",
+        "explanation": "which 从句修饰 that，说明 GDP 没有衡量的真正内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "GDP",
+        "pos": "abbr.",
+        "meaning": "国内生产总值",
+        "chunk_id": "c_001_005"
+      },
+      {
+        "word": "measures",
+        "pos": "v.",
+        "meaning": "衡量",
+        "chunk_id": "c_001_006"
+      },
+      {
+        "word": "worthwhile",
+        "pos": "adj.",
+        "meaning": "有价值的",
+        "chunk_id": "c_001_012"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "With Britain voting to leave the European Union, and GDP already predicted to slow as a result, it is now a timely moment to assess what he was referring to.",
+    "difficulty": 5,
+    "translation_literal": "随着英国投票决定离开欧盟，并且 GDP 已经被预测会因此放缓，现在正是评估他所指内容的及时刻。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "状语",
+        "english": "With Britain voting to leave the European Union, and GDP already predicted to slow as a result",
+        "chinese": "随着英国投票决定离开欧盟，并且 GDP 已被预测会因此放缓",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "并列成分",
+        "english": "Britain voting to leave the European Union",
+        "chinese": "英国投票决定离开欧盟",
+        "parent_id": "c_002_001",
+        "target_id": null,
+        "relation": "with 复合结构第一项"
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "并列成分",
+        "english": "GDP already predicted to slow as a result",
+        "chinese": "GDP 已经被预测会因此放缓",
+        "parent_id": "c_002_001",
+        "target_id": null,
+        "relation": "with 复合结构第二项"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "形式主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "表语",
+        "english": "now a timely moment",
+        "chinese": "现在一个及时的时刻",
+        "parent_id": null,
+        "target_id": "c_002_005",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "真正主语",
+        "english": "to assess what he was referring to",
+        "chinese": "评估他所指的内容",
+        "parent_id": null,
+        "target_id": "c_002_004",
+        "relation": "真正主语，对应形式主语 it"
+      },
+      {
+        "chunk_id": "c_002_008",
+        "role": "宾语从句",
+        "english": "what he was referring to",
+        "chinese": "他所指的内容",
+        "parent_id": "c_002_007",
+        "target_id": "c_002_007",
+        "relation": "作 assess 的宾语"
+      },
+      {
+        "chunk_id": "c_002_009",
+        "role": "从句主语",
+        "english": "he",
+        "chinese": "他",
+        "parent_id": "c_002_008",
+        "target_id": null,
+        "relation": "what 从句内部主语"
+      },
+      {
+        "chunk_id": "c_002_010",
+        "role": "从句谓语",
+        "english": "was referring to",
+        "chinese": "指的是",
+        "parent_id": "c_002_008",
+        "target_id": null,
+        "relation": "what 从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "it is + 名词 + to do",
+        "explanation": "it 是形式主语，真正主语是 to assess...。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "with A, and B",
+        "explanation": "句首 with 结构里两个背景并列，说明评估 GDP 的现实语境。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "assess",
+        "pos": "v.",
+        "meaning": "评估",
+        "chunk_id": "c_002_007"
+      },
+      {
+        "word": "timely",
+        "pos": "adj.",
+        "meaning": "及时的",
+        "chunk_id": "c_002_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "refer to",
+        "phrase_type": "v. phr.",
+        "meaning": "指的是",
+        "chunk_id": "c_002_010"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The question of GDP and its usefulness has annoyed policymakers for over half a century.",
+    "difficulty": 3,
+    "translation_literal": "GDP 及其有用性的问题已经困扰政策制定者超过半个世纪。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "The question of GDP and its usefulness",
+        "chinese": "GDP 及其有用性的问题",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "谓语",
+        "english": "has annoyed",
+        "chinese": "已经困扰",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "宾语",
+        "english": "policymakers",
+        "chinese": "政策制定者",
+        "parent_id": null,
+        "target_id": "c_003_002",
+        "relation": "作 annoyed 的宾语"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "状语",
+        "english": "for over half a century",
+        "chinese": "超过半个世纪",
+        "parent_id": null,
+        "target_id": "c_003_002",
+        "relation": "说明 annoyed 的持续时间"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "usefulness",
+        "pos": "n.",
+        "meaning": "有用性",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "annoyed",
+        "pos": "v.",
+        "meaning": "困扰",
+        "chunk_id": "c_003_002"
+      },
+      {
+        "word": "policymakers",
+        "pos": "n.",
+        "meaning": "政策制定者",
+        "chunk_id": "c_003_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Many argue that it is a flawed concept.",
+    "difficulty": 3,
+    "translation_literal": "许多人认为它是一个有缺陷的概念。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "Many",
+        "chinese": "许多人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "谓语",
+        "english": "argue",
+        "chinese": "认为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "宾语从句",
+        "english": "that it is a flawed concept",
+        "chinese": "它是一个有缺陷的概念",
+        "parent_id": null,
+        "target_id": "c_004_002",
+        "relation": "作 argue 的宾语"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_004_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语，指 GDP"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_004_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "从句表语",
+        "english": "a flawed concept",
+        "chinese": "一个有缺陷的概念",
+        "parent_id": "c_004_003",
+        "target_id": "c_004_005",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "flawed",
+        "pos": "adj.",
+        "meaning": "有缺陷的",
+        "chunk_id": "c_004_006"
+      },
+      {
+        "word": "concept",
+        "pos": "n.",
+        "meaning": "概念",
+        "chunk_id": "c_004_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "It measures things that do not matter and misses things that do.",
+    "difficulty": 4,
+    "translation_literal": "它衡量不重要的东西，却漏掉重要的东西。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "It",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "measures",
+        "chinese": "衡量",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "宾语",
+        "english": "things that do not matter",
+        "chinese": "不重要的东西",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "作 measures 的宾语"
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "定语从句",
+        "english": "that do not matter",
+        "chinese": "不重要的",
+        "parent_id": "c_005_003",
+        "target_id": "c_005_003",
+        "relation": "修饰 things"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "并列谓语",
+        "english": "and misses",
+        "chinese": "并漏掉",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "与 measures 并列"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "宾语",
+        "english": "things that do",
+        "chinese": "重要的东西",
+        "parent_id": null,
+        "target_id": "c_005_005",
+        "relation": "作 misses 的宾语"
+      },
+      {
+        "chunk_id": "c_005_007",
+        "role": "定语从句",
+        "english": "that do",
+        "chinese": "重要的",
+        "parent_id": "c_005_006",
+        "target_id": "c_005_006",
+        "relation": "修饰 things，do 代替 matter"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "that do = that matter",
+        "explanation": "第二个定语从句中 do 代替 matter，避免重复。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "measures",
+        "pos": "v.",
+        "meaning": "衡量",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "misses",
+        "pos": "v.",
+        "meaning": "漏掉",
+        "chunk_id": "c_005_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "By most recent measures, the UK’s GDP has been the envy of the Western world, with record low unemployment and high growth figures.",
+    "difficulty": 4,
+    "translation_literal": "按照多数最新指标，英国的 GDP 一直是西方世界羡慕的对象，伴随着创纪录的低失业率和高增长数字。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "状语",
+        "english": "By most recent measures",
+        "chinese": "按照多数最新指标",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "主语",
+        "english": "the UK’s GDP",
+        "chinese": "英国的 GDP",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "谓语",
+        "english": "has been",
+        "chinese": "一直是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "表语",
+        "english": "the envy of the Western world",
+        "chinese": "西方世界羡慕的对象",
+        "parent_id": null,
+        "target_id": "c_006_003",
+        "relation": "作 has been 的表语"
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "非谓语结构",
+        "english": "with record low unemployment and high growth figures",
+        "chinese": "伴随着创纪录的低失业率和高增长数字",
+        "parent_id": null,
+        "target_id": "c_006_004",
+        "relation": "补充说明 GDP 表现好的具体表现"
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "并列成分",
+        "english": "record low unemployment",
+        "chinese": "创纪录的低失业率",
+        "parent_id": "c_006_005",
+        "target_id": null,
+        "relation": "with 结构第一项"
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "并列成分",
+        "english": "high growth figures",
+        "chinese": "高增长数字",
+        "parent_id": "c_006_005",
+        "target_id": null,
+        "relation": "with 结构第二项"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "with A and B",
+        "explanation": "with 后两个经济指标并列，说明 GDP 令人羡慕的原因。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "envy",
+        "pos": "n.",
+        "meaning": "羡慕对象",
+        "chunk_id": "c_006_004"
+      },
+      {
+        "word": "unemployment",
+        "pos": "n.",
+        "meaning": "失业率",
+        "chunk_id": "c_006_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "If everything was going so well, then why did over 17 million people vote for Brexit, despite the warnings about what it could do to their country’s economic prospects?",
+    "difficulty": 5,
+    "translation_literal": "如果一切进展如此顺利，那么为什么超过 1700 万人不顾关于脱欧可能对国家经济前景造成什么影响的警告，投票支持脱欧呢？",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "条件状语从句",
+        "english": "If everything was going so well",
+        "chinese": "如果一切进展如此顺利",
+        "parent_id": null,
+        "target_id": "c_007_005",
+        "relation": "说明疑问主句的条件背景"
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "从句主语",
+        "english": "everything",
+        "chinese": "一切",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": "if 从句内部主语"
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "从句谓语",
+        "english": "was going",
+        "chinese": "进展",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": "if 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "状语",
+        "english": "so well",
+        "chinese": "如此顺利",
+        "parent_id": "c_007_001",
+        "target_id": "c_007_003",
+        "relation": "修饰 was going"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "主语",
+        "english": "over 17 million people",
+        "chinese": "超过 1700 万人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "谓语",
+        "english": "did vote for",
+        "chinese": "投票支持",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "宾语",
+        "english": "Brexit",
+        "chinese": "英国脱欧",
+        "parent_id": null,
+        "target_id": "c_007_006",
+        "relation": "作 vote for 的宾语"
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "状语",
+        "english": "despite the warnings about what it could do to their country’s economic prospects",
+        "chinese": "尽管有关于它可能对国家经济前景造成什么影响的警告",
+        "parent_id": null,
+        "target_id": "c_007_006",
+        "relation": "说明 vote for 的让步背景"
+      },
+      {
+        "chunk_id": "c_007_009",
+        "role": "宾语从句",
+        "english": "what it could do to their country’s economic prospects",
+        "chinese": "它可能对国家经济前景造成什么影响",
+        "parent_id": "c_007_008",
+        "target_id": "c_007_008",
+        "relation": "作 about 的宾语"
+      },
+      {
+        "chunk_id": "c_007_010",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_007_009",
+        "target_id": null,
+        "relation": "what 从句内部主语，指 Brexit"
+      },
+      {
+        "chunk_id": "c_007_011",
+        "role": "从句谓语",
+        "english": "could do",
+        "chinese": "可能造成",
+        "parent_id": "c_007_009",
+        "target_id": null,
+        "relation": "what 从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "why + did + 主语 + 动词原形",
+        "explanation": "特殊疑问句中助动词 did 提前，主语是 over 17 million people。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Brexit",
+        "pos": "n.",
+        "meaning": "英国脱欧",
+        "chunk_id": "c_007_007"
+      },
+      {
+        "word": "prospects",
+        "pos": "n.",
+        "meaning": "前景",
+        "chunk_id": "c_007_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "vote for",
+        "phrase_type": "v. phr.",
+        "meaning": "投票支持",
+        "chunk_id": "c_007_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "A recent annual study of countries and their ability to convert growth into well-being sheds some light on that question.",
+    "difficulty": 4,
+    "translation_literal": "一项关于各国及其将增长转化为福祉能力的近期年度研究，为那个问题提供了一些解释。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "A recent annual study of countries and their ability to convert growth into well-being",
+        "chinese": "一项关于各国及其将增长转化为福祉能力的近期年度研究",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "定语",
+        "english": "of countries and their ability to convert growth into well-being",
+        "chinese": "关于各国及其将增长转化为福祉能力的",
+        "parent_id": "c_008_001",
+        "target_id": "c_008_001",
+        "relation": "修饰 study"
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "谓语",
+        "english": "sheds",
+        "chinese": "投下，提供",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "宾语",
+        "english": "some light on that question",
+        "chinese": "对那个问题的一些解释",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "作 sheds 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "annual",
+        "pos": "adj.",
+        "meaning": "年度的",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "word": "convert",
+        "pos": "v.",
+        "meaning": "转化",
+        "chunk_id": "c_008_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "shed light on",
+        "phrase_type": "idiom",
+        "meaning": "阐明，解释",
+        "chunk_id": "c_008_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Across the 163 countries measured, the UK is one of the poorest performers in ensuring that economic growth is translated into meaningful improvements for its citizens.",
+    "difficulty": 5,
+    "translation_literal": "在被衡量的 163 个国家中，英国是在确保经济增长转化为对公民有意义的改善方面表现最差的国家之一。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "状语",
+        "english": "Across the 163 countries measured",
+        "chinese": "在被衡量的 163 个国家中",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "主语",
+        "english": "the UK",
+        "chinese": "英国",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "表语",
+        "english": "one of the poorest performers in ensuring that economic growth is translated into meaningful improvements for its citizens",
+        "chinese": "在确保经济增长转化为对公民有意义的改善方面表现最差的国家之一",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "定语",
+        "english": "in ensuring that economic growth is translated into meaningful improvements for its citizens",
+        "chinese": "在确保经济增长转化为对公民有意义的改善方面",
+        "parent_id": "c_009_004",
+        "target_id": "c_009_004",
+        "relation": "修饰 performers"
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "宾语从句",
+        "english": "that economic growth is translated into meaningful improvements for its citizens",
+        "chinese": "经济增长被转化为对公民有意义的改善",
+        "parent_id": "c_009_005",
+        "target_id": "c_009_005",
+        "relation": "作 ensuring 的宾语"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "从句主语",
+        "english": "economic growth",
+        "chinese": "经济增长",
+        "parent_id": "c_009_006",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "从句谓语",
+        "english": "is translated",
+        "chinese": "被转化",
+        "parent_id": "c_009_006",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_009",
+        "role": "状语",
+        "english": "into meaningful improvements for its citizens",
+        "chinese": "成为对公民有意义的改善",
+        "parent_id": "c_009_006",
+        "target_id": "c_009_008",
+        "relation": "说明 translated 的结果方向"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "表语中嵌入 ensuring + that 从句",
+        "explanation": "one of the poorest performers 后的 in ensuring... 才说明“表现差”在哪方面。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "performers",
+        "pos": "n.",
+        "meaning": "表现者，国家",
+        "chunk_id": "c_009_004"
+      },
+      {
+        "word": "translated",
+        "pos": "v.",
+        "meaning": "转化",
+        "chunk_id": "c_009_008"
+      },
+      {
+        "word": "meaningful",
+        "pos": "adj.",
+        "meaning": "有意义的",
+        "chunk_id": "c_009_009"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Rather than just focusing on GDP, over 40 different sets of criteria from health, education and civil society engagement have been measured to get a more rounded assessment of how countries are performing.",
+    "difficulty": 5,
+    "translation_literal": "不仅仅关注 GDP，而是衡量了来自健康、教育和公民社会参与等方面的 40 多套不同标准，以便更全面地评估各国表现如何。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "状语",
+        "english": "Rather than just focusing on GDP",
+        "chinese": "而不是仅仅关注 GDP",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "主语",
+        "english": "over 40 different sets of criteria from health, education and civil society engagement",
+        "chinese": "来自健康、教育和公民社会参与等方面的 40 多套不同标准",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "定语",
+        "english": "from health, education and civil society engagement",
+        "chinese": "来自健康、教育和公民社会参与等方面的",
+        "parent_id": "c_010_002",
+        "target_id": "c_010_002",
+        "relation": "修饰 criteria"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "谓语",
+        "english": "have been measured",
+        "chinese": "已经被衡量",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "状语",
+        "english": "to get a more rounded assessment of how countries are performing",
+        "chinese": "为了获得对各国表现如何的更全面评估",
+        "parent_id": null,
+        "target_id": "c_010_004",
+        "relation": "说明 measured 的目的"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "宾语从句",
+        "english": "how countries are performing",
+        "chinese": "各国表现如何",
+        "parent_id": "c_010_005",
+        "target_id": "c_010_005",
+        "relation": "作 assessment of 的宾语"
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "从句主语",
+        "english": "countries",
+        "chinese": "各国",
+        "parent_id": "c_010_006",
+        "target_id": null,
+        "relation": "how 从句内部主语"
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "从句谓语",
+        "english": "are performing",
+        "chinese": "正在表现",
+        "parent_id": "c_010_006",
+        "target_id": null,
+        "relation": "how 从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "Rather than... + 被动主句 + to do",
+        "explanation": "句首 Rather than... 是对照状语，真正主干是 criteria have been measured。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "criteria",
+        "pos": "n.",
+        "meaning": "标准",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "engagement",
+        "pos": "n.",
+        "meaning": "参与",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "rounded",
+        "pos": "adj.",
+        "meaning": "全面的",
+        "chunk_id": "c_010_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "rather than",
+        "phrase_type": "prep. phr.",
+        "meaning": "而不是",
+        "chunk_id": "c_010_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "While all of these countries face their own challenges, there are a number of consistent themes.",
+    "difficulty": 4,
+    "translation_literal": "尽管所有这些国家都面临各自的挑战，但仍有许多一致的主题。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "让步状语从句",
+        "english": "While all of these countries face their own challenges",
+        "chinese": "尽管所有这些国家都面临各自的挑战",
+        "parent_id": null,
+        "target_id": "c_011_004",
+        "relation": "说明主句成立的让步背景"
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "从句主语",
+        "english": "all of these countries",
+        "chinese": "所有这些国家",
+        "parent_id": "c_011_001",
+        "target_id": null,
+        "relation": "while 从句内部主语"
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "从句谓语",
+        "english": "face",
+        "chinese": "面临",
+        "parent_id": "c_011_001",
+        "target_id": null,
+        "relation": "while 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "存在句",
+        "english": "there are a number of consistent themes",
+        "chinese": "有许多一致的主题",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "主语",
+        "english": "a number of consistent themes",
+        "chinese": "许多一致的主题",
+        "parent_id": "c_011_004",
+        "target_id": null,
+        "relation": "there be 结构中的真实主语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "让步倒装",
+        "pattern_form": "While 引导让步从句",
+        "explanation": "While 在这里表示“尽管”，不是时间。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "consistent",
+        "pos": "adj.",
+        "meaning": "一致的",
+        "chunk_id": "c_011_005"
+      },
+      {
+        "word": "themes",
+        "pos": "n.",
+        "meaning": "主题",
+        "chunk_id": "c_011_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Yes, there has been a budding economic recovery since the 2008 global crash, but in key indicators in areas such as health and education, major economies have continued to decline.",
+    "difficulty": 5,
+    "translation_literal": "是的，自 2008 年全球崩盘以来，经济复苏已经开始萌芽，但是在健康和教育等领域的关键指标上，主要经济体继续下滑。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "插入语",
+        "english": "Yes",
+        "chinese": "是的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "并列分句",
+        "english": "there has been a budding economic recovery since the 2008 global crash",
+        "chinese": "自 2008 年全球崩盘以来已经有了萌芽中的经济复苏",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "主语",
+        "english": "a budding economic recovery",
+        "chinese": "萌芽中的经济复苏",
+        "parent_id": "c_012_002",
+        "target_id": null,
+        "relation": "there be 结构真实主语"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "谓语",
+        "english": "has been",
+        "chinese": "已有",
+        "parent_id": "c_012_002",
+        "target_id": null,
+        "relation": "there be 结构谓语"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "状语",
+        "english": "since the 2008 global crash",
+        "chinese": "自 2008 年全球崩盘以来",
+        "parent_id": "c_012_002",
+        "target_id": "c_012_004",
+        "relation": "说明 has been 的时间"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "并列分句",
+        "english": "but in key indicators in areas such as health and education, major economies have continued to decline",
+        "chinese": "但是在健康和教育等领域的关键指标上，主要经济体继续下滑",
+        "parent_id": null,
+        "target_id": "c_012_002",
+        "relation": "与前一分句转折并列"
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "状语",
+        "english": "in key indicators in areas such as health and education",
+        "chinese": "在健康和教育等领域的关键指标上",
+        "parent_id": "c_012_006",
+        "target_id": "c_012_009",
+        "relation": "说明 decline 的方面"
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "主语",
+        "english": "major economies",
+        "chinese": "主要经济体",
+        "parent_id": "c_012_006",
+        "target_id": null,
+        "relation": "but 分句主语"
+      },
+      {
+        "chunk_id": "c_012_009",
+        "role": "谓语",
+        "english": "have continued to decline",
+        "chinese": "继续下滑",
+        "parent_id": "c_012_006",
+        "target_id": null,
+        "relation": "but 分句谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "there has been..., but ... have continued...",
+        "explanation": "but 连接复苏和关键指标下滑的对比。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "budding",
+        "pos": "adj.",
+        "meaning": "萌芽中的",
+        "chunk_id": "c_012_003"
+      },
+      {
+        "word": "indicators",
+        "pos": "n.",
+        "meaning": "指标",
+        "chunk_id": "c_012_007"
+      },
+      {
+        "word": "decline",
+        "pos": "v.",
+        "meaning": "下滑",
+        "chunk_id": "c_012_009"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Yet this isn’t the case with all countries.",
+    "difficulty": 2,
+    "translation_literal": "然而，并非所有国家都是这种情况。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "连接成分",
+        "english": "Yet",
+        "chinese": "然而",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "主语",
+        "english": "this",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "谓语",
+        "english": "is not",
+        "chinese": "不是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "表语",
+        "english": "the case with all countries",
+        "chinese": "所有国家的情况",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "作 is not 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "case",
+        "pos": "n.",
+        "meaning": "情况",
+        "chunk_id": "c_013_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Some relatively poor European countries have seen huge improvements across measures including civil society, income equality and environment.",
+    "difficulty": 4,
+    "translation_literal": "一些相对贫穷的欧洲国家在包括公民社会、收入平等和环境在内的各项指标上已经看到了巨大改善。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "Some relatively poor European countries",
+        "chinese": "一些相对贫穷的欧洲国家",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "have seen",
+        "chinese": "已经看到",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "宾语",
+        "english": "huge improvements",
+        "chinese": "巨大改善",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "作 have seen 的宾语"
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "状语",
+        "english": "across measures including civil society, income equality and environment",
+        "chinese": "在包括公民社会、收入平等和环境在内的各项指标上",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "说明 improvements 涉及的范围"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "并列成分",
+        "english": "civil society, income equality and environment",
+        "chinese": "公民社会、收入平等和环境",
+        "parent_id": "c_014_004",
+        "target_id": null,
+        "relation": "including 后三个指标并列"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "including A, B and C",
+        "explanation": "including 后列出三个衡量领域。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "relatively",
+        "pos": "adv.",
+        "meaning": "相对地",
+        "chunk_id": "c_014_001"
+      },
+      {
+        "word": "improvements",
+        "pos": "n.",
+        "meaning": "改善",
+        "chunk_id": "c_014_003"
+      },
+      {
+        "word": "equality",
+        "pos": "n.",
+        "meaning": "平等",
+        "chunk_id": "c_014_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "This is a lesson that rich countries can learn: When GDP is no longer regarded as the sole measure of a country’s success, the world looks very different.",
+    "difficulty": 5,
+    "translation_literal": "这是富裕国家可以学习的一课：当 GDP 不再被视为一个国家成功的唯一衡量标准时，世界看起来会非常不同。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "This",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "表语",
+        "english": "a lesson that rich countries can learn",
+        "chinese": "富裕国家可以学习的一课",
+        "parent_id": null,
+        "target_id": "c_015_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "定语从句",
+        "english": "that rich countries can learn",
+        "chinese": "富裕国家可以学习的",
+        "parent_id": "c_015_003",
+        "target_id": "c_015_003",
+        "relation": "修饰 lesson"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "同位语解释结构",
+        "english": "When GDP is no longer regarded as the sole measure of a country’s success, the world looks very different",
+        "chinese": "当 GDP 不再被视为一个国家成功的唯一衡量标准时，世界看起来会非常不同",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "冒号后解释 lesson 的内容"
+      },
+      {
+        "chunk_id": "c_015_006",
+        "role": "状语从句",
+        "english": "When GDP is no longer regarded as the sole measure of a country’s success",
+        "chinese": "当 GDP 不再被视为一个国家成功的唯一衡量标准时",
+        "parent_id": "c_015_005",
+        "target_id": "c_015_008",
+        "relation": "说明主句 looks 的时间/条件"
+      },
+      {
+        "chunk_id": "c_015_007",
+        "role": "从句主语",
+        "english": "GDP",
+        "chinese": "GDP",
+        "parent_id": "c_015_006",
+        "target_id": null,
+        "relation": "when 从句内部主语"
+      },
+      {
+        "chunk_id": "c_015_008",
+        "role": "从句谓语",
+        "english": "is no longer regarded",
+        "chinese": "不再被视为",
+        "parent_id": "c_015_006",
+        "target_id": null,
+        "relation": "when 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_015_009",
+        "role": "从句表语",
+        "english": "as the sole measure of a country’s success",
+        "chinese": "作为一个国家成功的唯一衡量标准",
+        "parent_id": "c_015_006",
+        "target_id": "c_015_008",
+        "relation": "补充说明 GDP 被视为什么"
+      },
+      {
+        "chunk_id": "c_015_010",
+        "role": "主语",
+        "english": "the world",
+        "chinese": "世界",
+        "parent_id": "c_015_005",
+        "target_id": null,
+        "relation": "冒号后主句主语"
+      },
+      {
+        "chunk_id": "c_015_011",
+        "role": "谓语",
+        "english": "looks",
+        "chinese": "看起来",
+        "parent_id": "c_015_005",
+        "target_id": null,
+        "relation": "冒号后主句谓语"
+      },
+      {
+        "chunk_id": "c_015_012",
+        "role": "表语",
+        "english": "very different",
+        "chinese": "非常不同",
+        "parent_id": "c_015_005",
+        "target_id": "c_015_011",
+        "relation": "作 looks 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "lesson + 冒号解释",
+        "explanation": "冒号后完整句解释 lesson 的具体内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "sole",
+        "pos": "adj.",
+        "meaning": "唯一的",
+        "chunk_id": "c_015_009"
+      },
+      {
+        "word": "measure",
+        "pos": "n.",
+        "meaning": "衡量标准",
+        "chunk_id": "c_015_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "be regarded as",
+        "phrase_type": "v. phr.",
+        "meaning": "被视为",
+        "chunk_id": "c_015_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "So, what Kennedy was referring to was that while GDP has been the most common method for measuring the economic activity of nations, as a measure, it is no longer enough.",
+    "difficulty": 5,
+    "translation_literal": "所以，肯尼迪所指的是，尽管 GDP 一直是衡量各国经济活动最常用的方法，但作为一种衡量标准，它已经不再足够。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "连接成分",
+        "english": "So",
+        "chinese": "所以",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "主语从句",
+        "english": "what Kennedy was referring to",
+        "chinese": "肯尼迪所指的内容",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "从句主语",
+        "english": "Kennedy",
+        "chinese": "肯尼迪",
+        "parent_id": "c_016_002",
+        "target_id": null,
+        "relation": "what 从句内部主语"
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "从句谓语",
+        "english": "was referring to",
+        "chinese": "指的是",
+        "parent_id": "c_016_002",
+        "target_id": null,
+        "relation": "what 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "谓语",
+        "english": "was",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_006",
+        "role": "表语从句",
+        "english": "that while GDP has been the most common method for measuring the economic activity of nations, as a measure, it is no longer enough",
+        "chinese": "尽管 GDP 一直是衡量各国经济活动最常用的方法，但作为一种衡量标准，它已经不再足够",
+        "parent_id": null,
+        "target_id": "c_016_005",
+        "relation": "作 was 的表语"
+      },
+      {
+        "chunk_id": "c_016_007",
+        "role": "让步状语从句",
+        "english": "while GDP has been the most common method for measuring the economic activity of nations",
+        "chinese": "尽管 GDP 一直是衡量各国经济活动最常用的方法",
+        "parent_id": "c_016_006",
+        "target_id": "c_016_010",
+        "relation": "说明 it is no longer enough 的让步背景"
+      },
+      {
+        "chunk_id": "c_016_008",
+        "role": "从句主语",
+        "english": "GDP",
+        "chinese": "GDP",
+        "parent_id": "c_016_007",
+        "target_id": null,
+        "relation": "while 从句内部主语"
+      },
+      {
+        "chunk_id": "c_016_009",
+        "role": "从句谓语",
+        "english": "has been",
+        "chinese": "一直是",
+        "parent_id": "c_016_007",
+        "target_id": null,
+        "relation": "while 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_016_010",
+        "role": "从句表语",
+        "english": "the most common method for measuring the economic activity of nations",
+        "chinese": "衡量各国经济活动最常用的方法",
+        "parent_id": "c_016_007",
+        "target_id": "c_016_009",
+        "relation": "作 has been 的表语"
+      },
+      {
+        "chunk_id": "c_016_011",
+        "role": "插入语",
+        "english": "as a measure",
+        "chinese": "作为一种衡量标准",
+        "parent_id": "c_016_006",
+        "target_id": "c_016_012",
+        "relation": "限定 it is no longer enough 的角度"
+      },
+      {
+        "chunk_id": "c_016_012",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_016_006",
+        "target_id": null,
+        "relation": "表语从句主句的主语，指 GDP"
+      },
+      {
+        "chunk_id": "c_016_013",
+        "role": "从句谓语",
+        "english": "is no longer",
+        "chinese": "不再是",
+        "parent_id": "c_016_006",
+        "target_id": null,
+        "relation": "表语从句主句的谓语"
+      },
+      {
+        "chunk_id": "c_016_014",
+        "role": "从句表语",
+        "english": "enough",
+        "chinese": "足够的",
+        "parent_id": "c_016_006",
+        "target_id": "c_016_013",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "让步倒装",
+        "pattern_form": "while 引导让步从句",
+        "explanation": "while GDP has been... 表示“尽管”，不是时间。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "method",
+        "pos": "n.",
+        "meaning": "方法",
+        "chunk_id": "c_016_010"
+      },
+      {
+        "word": "economic",
+        "pos": "adj.",
+        "meaning": "经济的",
+        "chunk_id": "c_016_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "refer to",
+        "phrase_type": "v. phr.",
+        "meaning": "指的是",
+        "chunk_id": "c_016_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "It does not include important factors such as environmental quality or education outcomes — all things that contribute to a person’s sense of well-being.",
+    "difficulty": 5,
+    "translation_literal": "它不包括重要因素，例如环境质量或教育结果——这些都是有助于一个人福祉感的东西。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "It",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "does not include",
+        "chinese": "不包括",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "宾语",
+        "english": "important factors such as environmental quality or education outcomes",
+        "chinese": "重要因素，例如环境质量或教育结果",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "作 include 的宾语"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "插入举例",
+        "english": "such as environmental quality or education outcomes",
+        "chinese": "例如环境质量或教育结果",
+        "parent_id": "c_017_003",
+        "target_id": "c_017_003",
+        "relation": "举例说明 important factors"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "同位语解释结构",
+        "english": "all things that contribute to a person’s sense of well-being",
+        "chinese": "所有有助于一个人福祉感的东西",
+        "parent_id": null,
+        "target_id": "c_017_003",
+        "relation": "破折号后概括说明这些 factors 的价值"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "定语从句",
+        "english": "that contribute to a person’s sense of well-being",
+        "chinese": "有助于一个人福祉感的",
+        "parent_id": "c_017_005",
+        "target_id": "c_017_005",
+        "relation": "修饰 things"
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这些东西",
+        "parent_id": "c_017_006",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_017_008",
+        "role": "定语从句谓语",
+        "english": "contribute to",
+        "chinese": "有助于",
+        "parent_id": "c_017_006",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_017_009",
+        "role": "定语从句宾语",
+        "english": "a person’s sense of well-being",
+        "chinese": "一个人的福祉感",
+        "parent_id": "c_017_006",
+        "target_id": "c_017_008",
+        "relation": "作 contribute to 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "破折号后概括解释",
+        "explanation": "all things... 概括前面的 environmental quality 和 education outcomes。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "factors",
+        "pos": "n.",
+        "meaning": "因素",
+        "chunk_id": "c_017_003"
+      },
+      {
+        "word": "outcomes",
+        "pos": "n.",
+        "meaning": "结果",
+        "chunk_id": "c_017_004"
+      },
+      {
+        "word": "well-being",
+        "pos": "n.",
+        "meaning": "福祉",
+        "chunk_id": "c_017_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "contribute to",
+        "phrase_type": "v. phr.",
+        "meaning": "有助于",
+        "chunk_id": "c_017_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The sharp hit to growth predicted around the world and in the UK could lead to a decline in the everyday services we depend on for our well-being and for growth.",
+    "difficulty": 5,
+    "translation_literal": "全球和英国预计会遭受的对增长的猛烈打击，可能导致我们为了福祉和增长所依赖的日常服务下降。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "主语",
+        "english": "The sharp hit to growth predicted around the world and in the UK",
+        "chinese": "全球和英国预计会遭受的对增长的猛烈打击",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "定语",
+        "english": "predicted around the world and in the UK",
+        "chinese": "在全球和英国被预测的",
+        "parent_id": "c_018_001",
+        "target_id": "c_018_001",
+        "relation": "修饰 hit to growth"
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "谓语",
+        "english": "could lead to",
+        "chinese": "可能导致",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "宾语",
+        "english": "a decline in the everyday services we depend on for our well-being and for growth",
+        "chinese": "我们为了福祉和增长所依赖的日常服务下降",
+        "parent_id": null,
+        "target_id": "c_018_003",
+        "relation": "作 lead to 的宾语"
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "定语从句",
+        "english": "we depend on for our well-being and for growth",
+        "chinese": "我们为了福祉和增长所依赖的",
+        "parent_id": "c_018_004",
+        "target_id": "c_018_004",
+        "relation": "省略 that 的定语从句，修饰 services"
+      },
+      {
+        "chunk_id": "c_018_006",
+        "role": "定语从句主语",
+        "english": "we",
+        "chinese": "我们",
+        "parent_id": "c_018_005",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_018_007",
+        "role": "定语从句谓语",
+        "english": "depend on",
+        "chinese": "依赖",
+        "parent_id": "c_018_005",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_018_008",
+        "role": "状语",
+        "english": "for our well-being and for growth",
+        "chinese": "为了我们的福祉和增长",
+        "parent_id": "c_018_005",
+        "target_id": "c_018_007",
+        "relation": "说明 depend on 的目的/方面"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "长主语 + 谓语 + 长宾语定语从句",
+        "explanation": "主语和宾语都带修饰，主干是 The hit could lead to a decline。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "sharp",
+        "pos": "adj.",
+        "meaning": "猛烈的，急剧的",
+        "chunk_id": "c_018_001"
+      },
+      {
+        "word": "decline",
+        "pos": "n.",
+        "meaning": "下降",
+        "chunk_id": "c_018_004"
+      },
+      {
+        "word": "services",
+        "pos": "n.",
+        "meaning": "服务",
+        "chunk_id": "c_018_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "lead to",
+        "phrase_type": "v. phr.",
+        "meaning": "导致",
+        "chunk_id": "c_018_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "But policymakers who refocus efforts on improving well-being rather than simply worrying about GDP figures could avoid the forecasted doom and may even see progress.",
+    "difficulty": 5,
+    "translation_literal": "但是，那些把努力重新集中在改善福祉上，而不是仅仅担心 GDP 数字的政策制定者，可能避免预测中的厄运，甚至可能看到进展。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "主语",
+        "english": "policymakers who refocus efforts on improving well-being rather than simply worrying about GDP figures",
+        "chinese": "那些把努力重新集中在改善福祉上，而不是仅仅担心 GDP 数字的政策制定者",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "定语从句",
+        "english": "who refocus efforts on improving well-being rather than simply worrying about GDP figures",
+        "chinese": "把努力重新集中在改善福祉上，而不是仅仅担心 GDP 数字的",
+        "parent_id": "c_019_002",
+        "target_id": "c_019_002",
+        "relation": "修饰 policymakers"
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "定语从句主语",
+        "english": "who",
+        "chinese": "政策制定者",
+        "parent_id": "c_019_003",
+        "target_id": null,
+        "relation": "who 从句内部主语"
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "定语从句谓语",
+        "english": "refocus",
+        "chinese": "重新集中",
+        "parent_id": "c_019_003",
+        "target_id": null,
+        "relation": "who 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_019_006",
+        "role": "定语从句宾语",
+        "english": "efforts",
+        "chinese": "努力",
+        "parent_id": "c_019_003",
+        "target_id": "c_019_005",
+        "relation": "作 refocus 的宾语"
+      },
+      {
+        "chunk_id": "c_019_007",
+        "role": "状语",
+        "english": "on improving well-being rather than simply worrying about GDP figures",
+        "chinese": "在改善福祉上，而不是仅仅担心 GDP 数字",
+        "parent_id": "c_019_003",
+        "target_id": "c_019_005",
+        "relation": "说明 refocus 的方向"
+      },
+      {
+        "chunk_id": "c_019_008",
+        "role": "谓语",
+        "english": "could avoid",
+        "chinese": "可能避免",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_009",
+        "role": "宾语",
+        "english": "the forecasted doom",
+        "chinese": "预测中的厄运",
+        "parent_id": null,
+        "target_id": "c_019_008",
+        "relation": "作 avoid 的宾语"
+      },
+      {
+        "chunk_id": "c_019_010",
+        "role": "并列谓语",
+        "english": "and may even see",
+        "chinese": "甚至可能看到",
+        "parent_id": null,
+        "target_id": "c_019_008",
+        "relation": "与 could avoid 并列"
+      },
+      {
+        "chunk_id": "c_019_011",
+        "role": "宾语",
+        "english": "progress",
+        "chinese": "进展",
+        "parent_id": null,
+        "target_id": "c_019_010",
+        "relation": "作 see 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主语 + who 定语从句 + 并列谓语",
+        "explanation": "主语 policymakers 被 who 从句拉长，主句谓语是 could avoid and may see。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "refocus",
+        "pos": "v.",
+        "meaning": "重新集中",
+        "chunk_id": "c_019_005"
+      },
+      {
+        "word": "forecasted",
+        "pos": "adj.",
+        "meaning": "预测的",
+        "chunk_id": "c_019_009"
+      },
+      {
+        "word": "doom",
+        "pos": "n.",
+        "meaning": "厄运",
+        "chunk_id": "c_019_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "rather than",
+        "phrase_type": "prep. phr.",
+        "meaning": "而不是",
+        "chunk_id": "c_019_007"
+      }
+    ]
+  }
+]

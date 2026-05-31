@@ -1,0 +1,1411 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Last Thursday, the French Senate passed a digital services tax, which would impose an entirely new tax on large multinationals that provide digital services to consumers or users in France.",
+    "difficulty": 4,
+    "translation_literal": "上周四，法国参议院通过了一项数字服务税，它将对向法国消费者或用户提供数字服务的大型跨国公司征收一种全新的税。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "Last Thursday, the French Senate",
+        "chinese": "上周四，法国参议院",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "谓语",
+        "english": "passed a digital services tax,",
+        "chinese": "通过了一项数字服务",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "定语从句",
+        "english": "which would impose an entirely",
+        "chinese": "税，它将对向法国消",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "状语",
+        "english": "new tax on large multinationals",
+        "chinese": "费者或用户提供数字",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "定语从句",
+        "english": "that provide digital services to",
+        "chinese": "服务的大型跨国公司",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "补语",
+        "english": "consumers or users in France.",
+        "chinese": "征收一种全新的税。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Thursday",
+        "pos": "n.",
+        "meaning": "星期四",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "French",
+        "pos": "n.",
+        "meaning": "法国的",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "word": "Senate",
+        "pos": "n.",
+        "meaning": "参议院",
+        "chunk_id": "c_001_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "digital services tax",
+        "phrase_type": "collocation",
+        "meaning": "数字服务税",
+        "chunk_id": "c_001_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Digital services include everything from providing a platform for selling goods and services online to targeting advertising based on user data, and the tax applies to gross revenue from such services.",
+    "difficulty": 4,
+    "translation_literal": "数字服务包括从提供在线销售商品和服务的平台到基于用户数据进行定向广告的一切内容，并且该税适用于来自这类服务的总收入。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "Digital services include everything from",
+        "chinese": "数字服务包括从提供",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "providing a platform for selling",
+        "chinese": "在线销售商品和服务",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "宾语",
+        "english": "goods and services online to",
+        "chinese": "的平台到基于用户数",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "状语",
+        "english": "targeting advertising based on user",
+        "chinese": "据进行定向广告的一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "定语",
+        "english": "data, and the tax applies",
+        "chinese": "切内容，并且该税适",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "补语",
+        "english": "to gross revenue from such",
+        "chinese": "用于来自这类服务的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "并列成分",
+        "english": "services.",
+        "chinese": "总收入。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Digital",
+        "pos": "adj.",
+        "meaning": "数字的",
+        "chunk_id": "c_002_001"
+      },
+      {
+        "word": "services",
+        "pos": "n.",
+        "meaning": "服务",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "include",
+        "pos": "v.",
+        "meaning": "包括",
+        "chunk_id": "c_002_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Many French politicians and media outlets have referred to this as a “GAFA tax,” meaning that it is designed to apply primarily to companies such as Google, Apple, Facebook and Amazon — in other words, multinational tech companies based in the United States.",
+    "difficulty": 5,
+    "translation_literal": "许多法国政治人物和媒体机构把这称为“GAFA 税”，意思是它主要被设计用于适用于谷歌、苹果、脸书和亚马逊等公司——换言之，总部位于美国的跨国科技公司。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "Many French politicians and media outlets",
+        "chinese": "许多法国政治人物和媒",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "谓语",
+        "english": "have referred to this as a",
+        "chinese": "体机构把这称为“GA",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "宾语",
+        "english": "“GAFA tax,” meaning that it is",
+        "chinese": "FA 税”，意思是它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "状语",
+        "english": "designed to apply primarily to companies",
+        "chinese": "主要被设计用于适用于",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "定语",
+        "english": "such as Google, Apple, Facebook and",
+        "chinese": "谷歌、苹果、脸书和亚",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "补语",
+        "english": "Amazon — in other words, multinational",
+        "chinese": "马逊等公司——换言之",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "并列成分",
+        "english": "tech companies based in the United",
+        "chinese": "，总部位于美国的跨国",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_008",
+        "role": "非谓语结构",
+        "english": "States.",
+        "chinese": "科技公司。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "it is ... that/to ...",
+        "explanation": "it 承担形式位置，真正内容由后面的从句或不定式结构说明。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号插入解释",
+        "explanation": "破折号中间或之后的内容用于补充解释前面的名词或判断。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "French",
+        "pos": "n.",
+        "meaning": "法国的",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "politicians",
+        "pos": "n.",
+        "meaning": "政治人物；政客",
+        "chunk_id": "c_003_002"
+      },
+      {
+        "word": "media",
+        "pos": "n.",
+        "meaning": "媒体",
+        "chunk_id": "c_003_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The digital services tax now awaits the signature of President Emmanuel Macron, who has expressed support for the measure, and it could go into effect within the next few weeks.",
+    "difficulty": 4,
+    "translation_literal": "数字服务税现在等待埃马纽埃尔·马克龙总统签署；他已表示支持该措施，并且它可能在未来几周内生效。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "The digital services tax now",
+        "chinese": "数字服务税现在等",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "谓语",
+        "english": "awaits the signature of President",
+        "chinese": "待埃马纽埃尔·马",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "宾语",
+        "english": "Emmanuel Macron, who has expressed",
+        "chinese": "克龙总统签署；他",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "状语",
+        "english": "support for the measure, and",
+        "chinese": "已表示支持该措施",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "定语",
+        "english": "it could go into effect",
+        "chinese": "，并且它可能在未",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "补语",
+        "english": "within the next few weeks.",
+        "chinese": "来几周内生效。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "digital",
+        "pos": "adj.",
+        "meaning": "数字的",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "word": "services",
+        "pos": "n.",
+        "meaning": "服务",
+        "chunk_id": "c_004_002"
+      },
+      {
+        "word": "awaits",
+        "pos": "v.",
+        "meaning": "等待；等待着",
+        "chunk_id": "c_004_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "digital services tax",
+        "phrase_type": "collocation",
+        "meaning": "数字服务税",
+        "chunk_id": "c_004_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "But it has already sparked significant controversy, with the United States trade representative opening an investigation into whether the tax discriminates against American companies, which in turn could lead to trade sanctions against France.",
+    "difficulty": 4,
+    "translation_literal": "但它已经引发重大争议，美国贸易代表正在调查该税是否歧视美国公司，而这反过来可能导致针对法国的贸易制裁。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "But it has already sparked",
+        "chinese": "但它已经引发重大",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "significant controversy, with the United",
+        "chinese": "争议，美国贸易代",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "宾语",
+        "english": "States trade representative opening an",
+        "chinese": "表正在调查该税是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "状语",
+        "english": "investigation into whether the tax",
+        "chinese": "否歧视美国公司，",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "定语",
+        "english": "discriminates against American companies, which",
+        "chinese": "而这反过来可能导",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "补语",
+        "english": "in turn could lead to",
+        "chinese": "致针对法国的贸易",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_007",
+        "role": "并列成分",
+        "english": "trade sanctions against France.",
+        "chinese": "制裁。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "already",
+        "pos": "n.",
+        "meaning": "已经",
+        "chunk_id": "c_005_001"
+      },
+      {
+        "word": "sparked",
+        "pos": "v.",
+        "meaning": "引发",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "significant",
+        "pos": "n.",
+        "meaning": "重大的；显著的",
+        "chunk_id": "c_005_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "trade sanctions",
+        "phrase_type": "collocation",
+        "meaning": "贸易制裁",
+        "chunk_id": "c_005_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The French tax is not just a unilateral move by one country in need of revenue.",
+    "difficulty": 3,
+    "translation_literal": "法国税并不只是一个需要收入的国家采取的单边举动。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "The French tax",
+        "chinese": "法国税并",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "is not just",
+        "chinese": "不只是一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "宾语",
+        "english": "a unilateral move",
+        "chinese": "个需要收",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "状语",
+        "english": "by one country",
+        "chinese": "入的国家",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "定语",
+        "english": "in need of",
+        "chinese": "采取的单",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "补语",
+        "english": "revenue.",
+        "chinese": "边举动。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "not...but... / 多项并列",
+        "explanation": "并列或对比结构连接多个成分，说明作者强调的范围或重点。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "French",
+        "pos": "n.",
+        "meaning": "法国的",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "unilateral",
+        "pos": "adj.",
+        "meaning": "单方面的",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "country",
+        "pos": "n.",
+        "meaning": "国家",
+        "chunk_id": "c_006_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Instead, the digital services tax is part of a much larger trend, with countries over the past few years proposing or putting in place an alphabet soup of new international tax provisions.",
+    "difficulty": 4,
+    "translation_literal": "相反，数字服务税是一个更大趋势的一部分，过去几年各国一直在提出或实施一堆新的国际税收条款。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "Instead, the digital services tax",
+        "chinese": "相反，数字服务",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "is part of a much",
+        "chinese": "税是一个更大趋",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "宾语",
+        "english": "larger trend, with countries over",
+        "chinese": "势的一部分，过",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "状语",
+        "english": "the past few years proposing",
+        "chinese": "去几年各国一直",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "定语",
+        "english": "or putting in place an",
+        "chinese": "在提出或实施一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "补语",
+        "english": "alphabet soup of new international",
+        "chinese": "堆新的国际税收",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "并列成分",
+        "english": "tax provisions.",
+        "chinese": "条款。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Instead",
+        "pos": "n.",
+        "meaning": "相反；而是",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "digital",
+        "pos": "adj.",
+        "meaning": "数字的",
+        "chunk_id": "c_007_002"
+      },
+      {
+        "word": "services",
+        "pos": "n.",
+        "meaning": "服务",
+        "chunk_id": "c_007_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "digital services tax",
+        "phrase_type": "collocation",
+        "meaning": "数字服务税",
+        "chunk_id": "c_007_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "These have included Britain’s DPT (diverted profits tax), Australia’s MAAL (multinational antiavoidance law), and India’s SEP (significant economic presence) test, to name but a few.",
+    "difficulty": 4,
+    "translation_literal": "这些包括英国的 DPT（转移利润税）、澳大利亚的 MAAL（跨国反避税法）以及印度的 SEP（重大经济存在）测试，仅举几例。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "These have included Britain’s",
+        "chinese": "这些包括英国的 D",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "DPT (diverted profits tax),",
+        "chinese": "PT（转移利润税）",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "宾语",
+        "english": "Australia’s MAAL (multinational antiavoidance",
+        "chinese": "、澳大利亚的 MA",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "状语",
+        "english": "law), and India’s SEP",
+        "chinese": "AL（跨国反避税法",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "定语",
+        "english": "(significant economic presence) test,",
+        "chinese": "）以及印度的 SE",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "补语",
+        "english": "to name but a",
+        "chinese": "P（重大经济存在）",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "并列成分",
+        "english": "few.",
+        "chinese": "测试，仅举几例。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主干被插入语、从句或并列成分隔开",
+        "explanation": "句子主干之间夹有较长修饰或补充内容，阅读时需要先找主谓宾。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "These",
+        "pos": "n.",
+        "meaning": "这些",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "word": "included",
+        "pos": "v.",
+        "meaning": "包括",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "word": "Britain",
+        "pos": "n.",
+        "meaning": "英国",
+        "chunk_id": "c_008_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "At the same time, the European Union, Spain, Britain and several other countries have all seriously contemplated digital services taxes.",
+    "difficulty": 3,
+    "translation_literal": "与此同时，欧盟、西班牙、英国和其他几个国家都认真考虑过数字服务税。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "At the same time,",
+        "chinese": "与此同时，欧盟",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "the European Union, Spain,",
+        "chinese": "、西班牙、英国",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "宾语",
+        "english": "Britain and several other",
+        "chinese": "和其他几个国家",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "状语",
+        "english": "countries have all seriously",
+        "chinese": "都认真考虑过数",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "定语",
+        "english": "contemplated digital services taxes.",
+        "chinese": "字服务税。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主干被插入语、从句或并列成分隔开",
+        "explanation": "句子主干之间夹有较长修饰或补充内容，阅读时需要先找主谓宾。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "European",
+        "pos": "n.",
+        "meaning": "欧洲的",
+        "chunk_id": "c_009_001"
+      },
+      {
+        "word": "Union",
+        "pos": "n.",
+        "meaning": "联盟",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "Spain",
+        "pos": "n.",
+        "meaning": "西班牙",
+        "chunk_id": "c_009_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "digital services tax",
+        "phrase_type": "collocation",
+        "meaning": "数字服务税",
+        "chunk_id": "c_009_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "These unilateral developments differ in their specifics, but they are all designed to tax multinationals on income and revenue that countries believe they should have a right to tax, even if international tax rules do not grant them that right.",
+    "difficulty": 5,
+    "translation_literal": "这些单边发展在具体内容上不同，但它们都旨在对各国认为自己有权征税的收入和营收向跨国公司征税，即使国际税收规则并未赋予它们这种权利。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "These unilateral developments differ in",
+        "chinese": "这些单边发展在具体",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "their specifics, but they are",
+        "chinese": "内容上不同，但它们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "宾语",
+        "english": "all designed to tax multinationals",
+        "chinese": "都旨在对各国认为自",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "状语",
+        "english": "on income and revenue that",
+        "chinese": "己有权征税的收入和",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "定语",
+        "english": "countries believe they should have",
+        "chinese": "营收向跨国公司征税",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "补语",
+        "english": "a right to tax, even",
+        "chinese": "，即使国际税收规则",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "条件状语从句",
+        "english": "if international tax rules do",
+        "chinese": "并未赋予它们这种权",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "非谓语结构",
+        "english": "not grant them that right.",
+        "chinese": "利。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "These",
+        "pos": "n.",
+        "meaning": "这些",
+        "chunk_id": "c_010_001"
+      },
+      {
+        "word": "unilateral",
+        "pos": "adj.",
+        "meaning": "单边的；单方面的",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "developments",
+        "pos": "n.",
+        "meaning": "发展；动向",
+        "chunk_id": "c_010_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "In other words, they all share a view that the international tax system has failed to keep up with the current economy.",
+    "difficulty": 4,
+    "translation_literal": "换言之，它们都持有一种观点：国际税收体系未能跟上当前经济。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "In other words, they",
+        "chinese": "换言之，它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "all share a view",
+        "chinese": "们都持有一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "定语从句",
+        "english": "that the international tax",
+        "chinese": "种观点：国",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "状语",
+        "english": "system has failed to",
+        "chinese": "际税收体系",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "定语",
+        "english": "keep up with the",
+        "chinese": "未能跟上当",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "补语",
+        "english": "current economy.",
+        "chinese": "前经济。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "other",
+        "pos": "n.",
+        "meaning": "其他",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "words",
+        "pos": "n.",
+        "meaning": "话；说法",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "word": "share",
+        "pos": "n.",
+        "meaning": "持有；共有",
+        "chunk_id": "c_011_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "keep up with",
+        "phrase_type": "collocation",
+        "meaning": "跟上；适应",
+        "chunk_id": "c_011_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "In response to these many unilateral measures, the Organization for Economic Cooperation and Development (OECD) is currently working with 131 countries to reach a consensus by the end of 2020 on an international solution.",
+    "difficulty": 4,
+    "translation_literal": "为回应这些许多单边措施，经济合作与发展组织目前正与 131 个国家合作，以便到 2020 年底就一项国际解决方案达成共识。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "In response to these many",
+        "chinese": "为回应这些许多单边",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "unilateral measures, the Organization for",
+        "chinese": "措施，经济合作与发",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "宾语",
+        "english": "Economic Cooperation and Development (OECD)",
+        "chinese": "展组织目前正与 1",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "状语",
+        "english": "is currently working with 131",
+        "chinese": "31 个国家合作，",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "定语",
+        "english": "countries to reach a consensus",
+        "chinese": "以便到 2020",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "补语",
+        "english": "by the end of 2020",
+        "chinese": "年底就一项国际解决",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "并列成分",
+        "english": "on an international solution.",
+        "chinese": "方案达成共识。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "response",
+        "pos": "n.",
+        "meaning": "回应",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "word": "these",
+        "pos": "n.",
+        "meaning": "这些",
+        "chunk_id": "c_012_002"
+      },
+      {
+        "word": "unilateral",
+        "pos": "adj.",
+        "meaning": "单方面的",
+        "chunk_id": "c_012_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "in response to",
+        "phrase_type": "collocation",
+        "meaning": "作为回应；针对",
+        "chunk_id": "c_012_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Both France and the United States are involved in the organization’s work, but France’s digital services tax and the American response raise questions about what the future holds for the international tax system.",
+    "difficulty": 4,
+    "translation_literal": "法国和美国都参与了该组织的工作，但法国的数字服务税和美国的回应提出了关于国际税收体系未来将如何的问题。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "Both France and the United",
+        "chinese": "法国和美国都参与",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "States are involved in the",
+        "chinese": "了该组织的工作，",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "宾语",
+        "english": "organization’s work, but France’s digital",
+        "chinese": "但法国的数字服务",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "状语",
+        "english": "services tax and the American",
+        "chinese": "税和美国的回应提",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "定语",
+        "english": "response raise questions about what",
+        "chinese": "出了关于国际税收",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "补语",
+        "english": "the future holds for the",
+        "chinese": "体系未来将如何的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_007",
+        "role": "并列成分",
+        "english": "international tax system.",
+        "chinese": "问题。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "France",
+        "pos": "n.",
+        "meaning": "法国",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "United",
+        "pos": "v.",
+        "meaning": "美国的",
+        "chunk_id": "c_013_002"
+      },
+      {
+        "word": "States",
+        "pos": "n.",
+        "meaning": "州；国家",
+        "chunk_id": "c_013_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "digital services tax",
+        "phrase_type": "collocation",
+        "meaning": "数字服务税",
+        "chunk_id": "c_013_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "France’s planned tax is a clear warning: Unless a broad consensus can be reached on reforming the international tax system, other nations are likely to follow suit, and American companies will face a cascade of different taxes from dozens of nations that will prove burdensome and costly.",
+    "difficulty": 5,
+    "translation_literal": "法国计划中的税是一个明确警告：除非就改革国际税收体系达成广泛共识，否则其他国家很可能效仿，而美国公司将面临来自几十个国家的一连串不同税收，这些税收将证明是沉重且代价高昂的。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "France’s planned tax is a clear",
+        "chinese": "法国计划中的税是一个明",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "warning: Unless a broad consensus can",
+        "chinese": "确警告：除非就改革国际",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "宾语",
+        "english": "be reached on reforming the international",
+        "chinese": "税收体系达成广泛共识，",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "状语",
+        "english": "tax system, other nations are likely",
+        "chinese": "否则其他国家很可能效仿",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "定语",
+        "english": "to follow suit, and American companies",
+        "chinese": "，而美国公司将面临来自",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "补语",
+        "english": "will face a cascade of different",
+        "chinese": "几十个国家的一连串不同",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_007",
+        "role": "并列成分",
+        "english": "taxes from dozens of nations that",
+        "chinese": "税收，这些税收将证明是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_008",
+        "role": "非谓语结构",
+        "english": "will prove burdensome and costly.",
+        "chinese": "沉重且代价高昂的。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "France",
+        "pos": "n.",
+        "meaning": "法国的",
+        "chunk_id": "c_014_001"
+      },
+      {
+        "word": "planned",
+        "pos": "v.",
+        "meaning": "计划中的",
+        "chunk_id": "c_014_002"
+      },
+      {
+        "word": "clear",
+        "pos": "n.",
+        "meaning": "明确的；清楚的",
+        "chunk_id": "c_014_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "follow suit",
+        "phrase_type": "collocation",
+        "meaning": "效仿；跟着做",
+        "chunk_id": "c_014_001"
+      }
+    ]
+  }
+]

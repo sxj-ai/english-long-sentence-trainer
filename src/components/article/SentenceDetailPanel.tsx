@@ -1,19 +1,22 @@
-import type { Sentence } from "@/features/article/articleTypes";
+import type { Article, Sentence } from "@/features/article/articleTypes";
 import { Badge } from "@/components/common/Badge";
 import { formatDifficulty } from "@/lib/text";
 import { ChunkTable } from "./ChunkTable";
 import { GrammarVisualizer } from "./GrammarVisualizer";
 import { KeyPhraseList } from "./KeyPhraseList";
 import { KeyWordList } from "./KeyWordList";
+import { SentenceBookmarkButton } from "./SentenceBookmarkButton";
 import { SentencePatternList } from "./SentencePatternList";
 
 interface SentenceDetailPanelProps {
+  article: Article;
   sentence?: Sentence;
   selectedChunkId: string | null;
+  onAskAi: () => void;
   onSelectChunk: (chunkId: string | null) => void;
 }
 
-export function SentenceDetailPanel({ sentence, selectedChunkId, onSelectChunk }: SentenceDetailPanelProps) {
+export function SentenceDetailPanel({ article, sentence, selectedChunkId, onAskAi, onSelectChunk }: SentenceDetailPanelProps) {
   if (!sentence) {
     return (
       <aside className="detail-panel">
@@ -29,7 +32,13 @@ export function SentenceDetailPanel({ sentence, selectedChunkId, onSelectChunk }
           <p className="eyebrow">句子解析</p>
           <h2>{sentence.sentenceId}</h2>
         </div>
-        <Badge tone="amber">难度 {formatDifficulty(sentence.difficulty)}</Badge>
+        <div className="panel-actions">
+          <Badge tone="amber">难度 {formatDifficulty(sentence.difficulty)}</Badge>
+          <SentenceBookmarkButton article={article} sentence={sentence} />
+          <button className="primary-link button-like" onClick={onAskAi} type="button">
+            问 AI 老师
+          </button>
+        </div>
       </div>
 
       <div className="analysis-section">

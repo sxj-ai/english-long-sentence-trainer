@@ -1,0 +1,2540 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Among the annoying challenges facing the middle class is one that will probably go unmentioned in the next presidential campaign: What happens when the robots come for their jobs?",
+    "difficulty": 5,
+    "translation_literal": "在中产阶级面临的令人烦恼的挑战之中，有一个可能在下一次总统竞选中不会被提及：当机器人来抢他们的工作时，会发生什么？",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "倒装结构",
+        "english": "Among the annoying challenges facing the middle class is one",
+        "chinese": "在中产阶级面临的令人烦恼的挑战之中有一个",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "表语",
+        "english": "Among the annoying challenges facing the middle class",
+        "chinese": "在中产阶级面临的令人烦恼的挑战之中",
+        "parent_id": "c_001_001",
+        "target_id": null,
+        "relation": "倒装结构中前置的地点/范围表语"
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "定语",
+        "english": "facing the middle class",
+        "chinese": "中产阶级面临的",
+        "parent_id": "c_001_002",
+        "target_id": "c_001_002",
+        "relation": "修饰 challenges"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是，有",
+        "parent_id": "c_001_001",
+        "target_id": null,
+        "relation": "倒装结构谓语"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "主语",
+        "english": "one that will probably go unmentioned in the next presidential campaign",
+        "chinese": "一个可能在下一次总统竞选中不会被提及的问题",
+        "parent_id": "c_001_001",
+        "target_id": null,
+        "relation": "倒装结构真正主语"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "定语从句",
+        "english": "that will probably go unmentioned in the next presidential campaign",
+        "chinese": "可能在下一次总统竞选中不会被提及的",
+        "parent_id": "c_001_005",
+        "target_id": "c_001_005",
+        "relation": "修饰 one"
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这个问题",
+        "parent_id": "c_001_006",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_001_008",
+        "role": "定语从句谓语",
+        "english": "will probably go",
+        "chinese": "可能会变得",
+        "parent_id": "c_001_006",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_001_009",
+        "role": "从句表语",
+        "english": "unmentioned",
+        "chinese": "未被提及的",
+        "parent_id": "c_001_006",
+        "target_id": "c_001_008",
+        "relation": "作 go 的表语"
+      },
+      {
+        "chunk_id": "c_001_010",
+        "role": "同位语解释结构",
+        "english": "What happens when the robots come for their jobs?",
+        "chinese": "当机器人来抢他们的工作时，会发生什么？",
+        "parent_id": null,
+        "target_id": "c_001_005",
+        "relation": "冒号后解释 one 的具体问题"
+      },
+      {
+        "chunk_id": "c_001_011",
+        "role": "状语从句",
+        "english": "when the robots come for their jobs",
+        "chinese": "当机器人来抢他们的工作时",
+        "parent_id": "c_001_010",
+        "target_id": "c_001_012",
+        "relation": "说明 happens 的时间条件"
+      },
+      {
+        "chunk_id": "c_001_012",
+        "role": "从句谓语",
+        "english": "happens",
+        "chinese": "发生",
+        "parent_id": "c_001_010",
+        "target_id": null,
+        "relation": "疑问句主句谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "Among... is one...",
+        "explanation": "介词短语 Among... 位于句首，真正主语是 one。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "one + 冒号问题",
+        "explanation": "冒号后的问句解释 one 这个 challenge 的内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "annoying",
+        "pos": "adj.",
+        "meaning": "令人烦恼的",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "word": "campaign",
+        "pos": "n.",
+        "meaning": "竞选",
+        "chunk_id": "c_001_006"
+      },
+      {
+        "word": "unmentioned",
+        "pos": "adj.",
+        "meaning": "未被提及的",
+        "chunk_id": "c_001_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "come for their jobs",
+        "phrase_type": "v. phr.",
+        "meaning": "来抢他们的工作",
+        "chunk_id": "c_001_011"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Don’t dismiss that possibility entirely.",
+    "difficulty": 2,
+    "translation_literal": "不要完全排除那种可能性。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "祈使句",
+        "english": "Don’t dismiss that possibility entirely",
+        "chinese": "不要完全排除那种可能性",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "Don’t dismiss",
+        "chinese": "不要排除",
+        "parent_id": "c_002_001",
+        "target_id": null,
+        "relation": "祈使句谓语"
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "宾语",
+        "english": "that possibility",
+        "chinese": "那种可能性",
+        "parent_id": "c_002_001",
+        "target_id": "c_002_002",
+        "relation": "作 dismiss 的宾语"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "状语",
+        "english": "entirely",
+        "chinese": "完全地",
+        "parent_id": "c_002_001",
+        "target_id": "c_002_002",
+        "relation": "修饰 dismiss"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "dismiss",
+        "pos": "v.",
+        "meaning": "排除，不予考虑",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "possibility",
+        "pos": "n.",
+        "meaning": "可能性",
+        "chunk_id": "c_002_003"
+      },
+      {
+        "word": "entirely",
+        "pos": "adv.",
+        "meaning": "完全地",
+        "chunk_id": "c_002_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "About half of U.S. jobs are at high risk of being automated, according to a University of Oxford study, with the middle class disproportionately squeezed.",
+    "difficulty": 5,
+    "translation_literal": "根据牛津大学的一项研究，大约一半的美国工作处于被自动化的高风险之中，而中产阶级受到不成比例的挤压。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "About half of U.S. jobs",
+        "chinese": "大约一半的美国工作",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "处于",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "表语",
+        "english": "at high risk of being automated",
+        "chinese": "被自动化的高风险之中",
+        "parent_id": null,
+        "target_id": "c_003_002",
+        "relation": "作 are 的表语"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "插入语",
+        "english": "according to a University of Oxford study",
+        "chinese": "根据牛津大学的一项研究",
+        "parent_id": null,
+        "target_id": "c_003_001",
+        "relation": "说明信息来源"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "非谓语结构",
+        "english": "with the middle class disproportionately squeezed",
+        "chinese": "中产阶级受到不成比例的挤压",
+        "parent_id": null,
+        "target_id": "c_003_003",
+        "relation": "补充说明自动化风险对中产阶级的影响"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "非谓语主语",
+        "english": "the middle class",
+        "chinese": "中产阶级",
+        "parent_id": "c_003_005",
+        "target_id": null,
+        "relation": "with 复合结构中的逻辑主语"
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "非谓语结构",
+        "english": "disproportionately squeezed",
+        "chinese": "受到不成比例的挤压",
+        "parent_id": "c_003_005",
+        "target_id": "c_003_006",
+        "relation": "with 复合结构中的补足语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句 + according to... + with 结构",
+        "explanation": "according to... 说明来源，with 结构补充结果影响。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "automated",
+        "pos": "v.",
+        "meaning": "自动化",
+        "chunk_id": "c_003_003"
+      },
+      {
+        "word": "disproportionately",
+        "pos": "adv.",
+        "meaning": "不成比例地",
+        "chunk_id": "c_003_007"
+      },
+      {
+        "word": "squeezed",
+        "pos": "v.",
+        "meaning": "挤压",
+        "chunk_id": "c_003_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "at high risk of",
+        "phrase_type": "prep. phr.",
+        "meaning": "处于……高风险中",
+        "chunk_id": "c_003_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Lower-income jobs like gardening or day care don’t appeal to robots.",
+    "difficulty": 3,
+    "translation_literal": "像园艺或日托这样的低收入工作对机器人没有吸引力。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "Lower-income jobs like gardening or day care",
+        "chinese": "像园艺或日托这样的低收入工作",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "定语",
+        "english": "like gardening or day care",
+        "chinese": "像园艺或日托这样的",
+        "parent_id": "c_004_001",
+        "target_id": "c_004_001",
+        "relation": "举例说明 Lower-income jobs"
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "谓语",
+        "english": "don’t appeal to",
+        "chinese": "不吸引",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "宾语",
+        "english": "robots",
+        "chinese": "机器人",
+        "parent_id": null,
+        "target_id": "c_004_003",
+        "relation": "作 appeal to 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "gardening",
+        "pos": "n.",
+        "meaning": "园艺",
+        "chunk_id": "c_004_002"
+      },
+      {
+        "word": "appeal",
+        "pos": "v.",
+        "meaning": "有吸引力",
+        "chunk_id": "c_004_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "day care",
+        "phrase_type": "n. phr.",
+        "meaning": "日托",
+        "chunk_id": "c_004_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "But many middle-class occupations — trucking, financial advice, software engineering — have aroused their interest, or soon will.",
+    "difficulty": 5,
+    "translation_literal": "但是许多中产阶级职业——卡车运输、金融咨询、软件工程——已经引起了它们的兴趣，或者很快会引起。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "主语",
+        "english": "many middle-class occupations",
+        "chinese": "许多中产阶级职业",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "插入语",
+        "english": "trucking, financial advice, software engineering",
+        "chinese": "卡车运输、金融咨询、软件工程",
+        "parent_id": "c_005_002",
+        "target_id": "c_005_002",
+        "relation": "举例说明 occupations"
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "谓语",
+        "english": "have aroused",
+        "chinese": "已经引起",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "宾语",
+        "english": "their interest",
+        "chinese": "它们的兴趣",
+        "parent_id": null,
+        "target_id": "c_005_004",
+        "relation": "作 aroused 的宾语"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "并列分句",
+        "english": "or soon will",
+        "chinese": "或者很快会引起",
+        "parent_id": null,
+        "target_id": "c_005_004",
+        "relation": "省略 arouse their interest"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号中举例",
+        "explanation": "破折号中三项列举 middle-class occupations 的例子。"
+      },
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "or soon will",
+        "explanation": "will 后省略 arouse their interest。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "occupations",
+        "pos": "n.",
+        "meaning": "职业",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "aroused",
+        "pos": "v.",
+        "meaning": "引起",
+        "chunk_id": "c_005_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "software engineering",
+        "phrase_type": "n. phr.",
+        "meaning": "软件工程",
+        "chunk_id": "c_005_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The rich own the robots, so they will be fine.",
+    "difficulty": 3,
+    "translation_literal": "富人拥有机器人，所以他们会没事。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "并列分句",
+        "english": "The rich own the robots",
+        "chinese": "富人拥有机器人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "主语",
+        "english": "The rich",
+        "chinese": "富人",
+        "parent_id": "c_006_001",
+        "target_id": null,
+        "relation": "第一分句主语"
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "谓语",
+        "english": "own",
+        "chinese": "拥有",
+        "parent_id": "c_006_001",
+        "target_id": null,
+        "relation": "第一分句谓语"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "宾语",
+        "english": "the robots",
+        "chinese": "机器人",
+        "parent_id": "c_006_001",
+        "target_id": "c_006_003",
+        "relation": "作 own 的宾语"
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "并列分句",
+        "english": "so they will be fine",
+        "chinese": "所以他们会没事",
+        "parent_id": null,
+        "target_id": "c_006_001",
+        "relation": "结果分句"
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_006_005",
+        "target_id": null,
+        "relation": "结果分句主语"
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "谓语",
+        "english": "will be",
+        "chinese": "会是",
+        "parent_id": "c_006_005",
+        "target_id": null,
+        "relation": "结果分句谓语"
+      },
+      {
+        "chunk_id": "c_006_008",
+        "role": "表语",
+        "english": "fine",
+        "chinese": "没事的",
+        "parent_id": "c_006_005",
+        "target_id": "c_006_007",
+        "relation": "作 will be 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, so B",
+        "explanation": "so 连接前后两个因果分句，前一分句说明原因，后一分句说明结果。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "own",
+        "pos": "v.",
+        "meaning": "拥有",
+        "chunk_id": "c_006_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "This isn’t to be alarmist.",
+    "difficulty": 2,
+    "translation_literal": "这并不是危言耸听。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "This",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "is not",
+        "chinese": "不是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "表语",
+        "english": "to be alarmist",
+        "chinese": "危言耸听",
+        "parent_id": null,
+        "target_id": "c_007_002",
+        "relation": "作 is not 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "alarmist",
+        "pos": "adj.",
+        "meaning": "危言耸听的",
+        "chunk_id": "c_007_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Optimists point out that technological upheaval has benefited workers in the past.",
+    "difficulty": 4,
+    "translation_literal": "乐观主义者指出，技术剧变在过去曾使工人受益。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "Optimists",
+        "chinese": "乐观主义者",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "point out",
+        "chinese": "指出",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "宾语从句",
+        "english": "that technological upheaval has benefited workers in the past",
+        "chinese": "技术剧变在过去曾使工人受益",
+        "parent_id": null,
+        "target_id": "c_008_002",
+        "relation": "作 point out 的宾语"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "从句主语",
+        "english": "technological upheaval",
+        "chinese": "技术剧变",
+        "parent_id": "c_008_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "从句谓语",
+        "english": "has benefited",
+        "chinese": "曾使受益",
+        "parent_id": "c_008_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "从句宾语",
+        "english": "workers",
+        "chinese": "工人",
+        "parent_id": "c_008_003",
+        "target_id": "c_008_005",
+        "relation": "作 benefited 的宾语"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "状语",
+        "english": "in the past",
+        "chinese": "在过去",
+        "parent_id": "c_008_003",
+        "target_id": "c_008_005",
+        "relation": "说明 benefited 的时间"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Optimists",
+        "pos": "n.",
+        "meaning": "乐观主义者",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "word": "upheaval",
+        "pos": "n.",
+        "meaning": "剧变",
+        "chunk_id": "c_008_004"
+      },
+      {
+        "word": "benefited",
+        "pos": "v.",
+        "meaning": "使受益",
+        "chunk_id": "c_008_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "point out",
+        "phrase_type": "v. phr.",
+        "meaning": "指出",
+        "chunk_id": "c_008_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The Industrial Revolution didn’t go so well for Luddites whose jobs were displaced by mechanized looms, but it eventually raised living standards and created more jobs than it destroyed.",
+    "difficulty": 5,
+    "translation_literal": "工业革命对那些工作被机械化织布机取代的卢德派工人来说并不顺利，但它最终提高了生活水平，并创造了比其摧毁的更多的工作。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "并列分句",
+        "english": "The Industrial Revolution didn’t go so well for Luddites whose jobs were displaced by mechanized looms",
+        "chinese": "工业革命对那些工作被机械化织布机取代的卢德派工人来说并不顺利",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "主语",
+        "english": "The Industrial Revolution",
+        "chinese": "工业革命",
+        "parent_id": "c_009_001",
+        "target_id": null,
+        "relation": "第一分句主语"
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "谓语",
+        "english": "didn’t go",
+        "chinese": "进展并不",
+        "parent_id": "c_009_001",
+        "target_id": null,
+        "relation": "第一分句谓语"
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "状语",
+        "english": "so well for Luddites",
+        "chinese": "对卢德派工人来说那么顺利",
+        "parent_id": "c_009_001",
+        "target_id": "c_009_003",
+        "relation": "说明 didn’t go 的结果/对象"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "定语从句",
+        "english": "whose jobs were displaced by mechanized looms",
+        "chinese": "其工作被机械化织布机取代的",
+        "parent_id": "c_009_004",
+        "target_id": "c_009_004",
+        "relation": "修饰 Luddites"
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "定语从句主语",
+        "english": "whose jobs",
+        "chinese": "他们的工作",
+        "parent_id": "c_009_005",
+        "target_id": null,
+        "relation": "whose 从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "定语从句谓语",
+        "english": "were displaced",
+        "chinese": "被取代",
+        "parent_id": "c_009_005",
+        "target_id": null,
+        "relation": "whose 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "并列分句",
+        "english": "but it eventually raised living standards and created more jobs than it destroyed",
+        "chinese": "但它最终提高了生活水平，并创造了比其摧毁的更多工作",
+        "parent_id": null,
+        "target_id": "c_009_001",
+        "relation": "转折分句"
+      },
+      {
+        "chunk_id": "c_009_009",
+        "role": "主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_009_008",
+        "target_id": null,
+        "relation": "转折分句主语"
+      },
+      {
+        "chunk_id": "c_009_010",
+        "role": "谓语",
+        "english": "raised",
+        "chinese": "提高",
+        "parent_id": "c_009_008",
+        "target_id": null,
+        "relation": "转折分句第一谓语"
+      },
+      {
+        "chunk_id": "c_009_011",
+        "role": "宾语",
+        "english": "living standards",
+        "chinese": "生活水平",
+        "parent_id": "c_009_008",
+        "target_id": "c_009_010",
+        "relation": "作 raised 的宾语"
+      },
+      {
+        "chunk_id": "c_009_012",
+        "role": "并列谓语",
+        "english": "and created",
+        "chinese": "并创造",
+        "parent_id": "c_009_008",
+        "target_id": "c_009_010",
+        "relation": "与 raised 并列"
+      },
+      {
+        "chunk_id": "c_009_013",
+        "role": "宾语",
+        "english": "more jobs than it destroyed",
+        "chinese": "比它摧毁的更多工作",
+        "parent_id": "c_009_008",
+        "target_id": "c_009_012",
+        "relation": "作 created 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, but B and C",
+        "explanation": "but 后两个谓语 raised 和 created 并列，形成历史经验对比。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "displaced",
+        "pos": "v.",
+        "meaning": "取代",
+        "chunk_id": "c_009_007"
+      },
+      {
+        "word": "mechanized",
+        "pos": "adj.",
+        "meaning": "机械化的",
+        "chunk_id": "c_009_005"
+      },
+      {
+        "word": "looms",
+        "pos": "n.",
+        "meaning": "织布机",
+        "chunk_id": "c_009_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "living standards",
+        "phrase_type": "n. phr.",
+        "meaning": "生活水平",
+        "chunk_id": "c_009_011"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Likewise, automation should eventually boost productivity, stimulate demand by driving down prices, and free workers from hard, boring work.",
+    "difficulty": 4,
+    "translation_literal": "同样，自动化最终应会提高生产率，通过压低价格刺激需求，并把工人从艰苦、乏味的工作中解放出来。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "状语",
+        "english": "Likewise",
+        "chinese": "同样",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "主语",
+        "english": "automation",
+        "chinese": "自动化",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "谓语",
+        "english": "should eventually boost",
+        "chinese": "最终应会提高",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "宾语",
+        "english": "productivity",
+        "chinese": "生产率",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "作 boost 的宾语"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "并列谓语",
+        "english": "stimulate",
+        "chinese": "刺激",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "与 boost 并列"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "宾语",
+        "english": "demand",
+        "chinese": "需求",
+        "parent_id": null,
+        "target_id": "c_010_005",
+        "relation": "作 stimulate 的宾语"
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "状语",
+        "english": "by driving down prices",
+        "chinese": "通过压低价格",
+        "parent_id": "c_010_005",
+        "target_id": "c_010_005",
+        "relation": "说明 stimulate demand 的方式"
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "并列谓语",
+        "english": "and free",
+        "chinese": "并解放",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "与 boost/stimulate 并列"
+      },
+      {
+        "chunk_id": "c_010_009",
+        "role": "宾语",
+        "english": "workers",
+        "chinese": "工人",
+        "parent_id": null,
+        "target_id": "c_010_008",
+        "relation": "作 free 的宾语"
+      },
+      {
+        "chunk_id": "c_010_010",
+        "role": "状语",
+        "english": "from hard, boring work",
+        "chinese": "从艰苦、乏味的工作中",
+        "parent_id": "c_010_008",
+        "target_id": "c_010_008",
+        "relation": "说明 free 的来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "boost..., stimulate..., and free...",
+        "explanation": "三个谓语并列说明自动化的潜在好处。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "boost",
+        "pos": "v.",
+        "meaning": "提高",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "productivity",
+        "pos": "n.",
+        "meaning": "生产率",
+        "chunk_id": "c_010_004"
+      },
+      {
+        "word": "stimulate",
+        "pos": "v.",
+        "meaning": "刺激",
+        "chunk_id": "c_010_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "drive down prices",
+        "phrase_type": "v. phr.",
+        "meaning": "压低价格",
+        "chunk_id": "c_010_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "But in the medium term, middle-class workers may need a lot of help adjusting.",
+    "difficulty": 3,
+    "translation_literal": "但是在中期，中产阶级工人可能需要大量帮助来适应。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "状语",
+        "english": "in the medium term",
+        "chinese": "在中期",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "主语",
+        "english": "middle-class workers",
+        "chinese": "中产阶级工人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "谓语",
+        "english": "may need",
+        "chinese": "可能需要",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "宾语",
+        "english": "a lot of help adjusting",
+        "chinese": "大量帮助来适应",
+        "parent_id": null,
+        "target_id": "c_011_004",
+        "relation": "作 need 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "medium",
+        "pos": "adj.",
+        "meaning": "中期的",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "word": "adjusting",
+        "pos": "v.",
+        "meaning": "适应",
+        "chunk_id": "c_011_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "medium term",
+        "phrase_type": "n. phr.",
+        "meaning": "中期",
+        "chunk_id": "c_011_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The first step, as Erik Brynjolfsson and Andrew McAfee argue in The Second Machine Age, should be rethinking education and job training.",
+    "difficulty": 5,
+    "translation_literal": "第一步，正如埃里克·布林约尔松和安德鲁·麦卡菲在《第二次机器时代》中所论证的，应当是重新思考教育和职业培训。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "The first step",
+        "chinese": "第一步",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "插入语",
+        "english": "as Erik Brynjolfsson and Andrew McAfee argue in The Second Machine Age",
+        "chinese": "正如埃里克·布林约尔松和安德鲁·麦卡菲在《第二次机器时代》中所论证的",
+        "parent_id": null,
+        "target_id": "c_012_001",
+        "relation": "说明观点来源"
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "as 引导结构",
+        "english": "as Erik Brynjolfsson and Andrew McAfee argue",
+        "chinese": "正如二人所论证的",
+        "parent_id": "c_012_002",
+        "target_id": "c_012_002",
+        "relation": "as 引导的插入说明"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "谓语",
+        "english": "should be",
+        "chinese": "应当是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "表语",
+        "english": "rethinking education and job training",
+        "chinese": "重新思考教育和职业培训",
+        "parent_id": null,
+        "target_id": "c_012_004",
+        "relation": "作 should be 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语 + as... + 谓语",
+        "explanation": "as 引导插入语说明观点出处，主干是 The first step should be rethinking...。"
+      },
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "as + 主语 + 谓语",
+        "explanation": "as 表示“正如”，引出引用来源。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "argue",
+        "pos": "v.",
+        "meaning": "论证，主张",
+        "chunk_id": "c_012_003"
+      },
+      {
+        "word": "rethinking",
+        "pos": "v.",
+        "meaning": "重新思考",
+        "chunk_id": "c_012_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "job training",
+        "phrase_type": "n. phr.",
+        "meaning": "职业培训",
+        "chunk_id": "c_012_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Curriculums — from grammar school to college — should evolve to focus less on memorizing facts and more on creativity and complex communication.",
+    "difficulty": 4,
+    "translation_literal": "课程体系——从小学到大学——应当发展为少关注记忆事实，而更多关注创造力和复杂沟通。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "Curriculums",
+        "chinese": "课程体系",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "插入语",
+        "english": "from grammar school to college",
+        "chinese": "从小学到大学",
+        "parent_id": "c_013_001",
+        "target_id": "c_013_001",
+        "relation": "说明 Curriculums 的范围"
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "谓语",
+        "english": "should evolve",
+        "chinese": "应当发展",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "状语",
+        "english": "to focus less on memorizing facts and more on creativity and complex communication",
+        "chinese": "以便少关注记忆事实，而更多关注创造力和复杂沟通",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "说明 evolve 的方向"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "并列成分",
+        "english": "less on memorizing facts",
+        "chinese": "更少关注记忆事实",
+        "parent_id": "c_013_004",
+        "target_id": null,
+        "relation": "focus 的第一项"
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "并列成分",
+        "english": "more on creativity and complex communication",
+        "chinese": "更多关注创造力和复杂沟通",
+        "parent_id": "c_013_004",
+        "target_id": null,
+        "relation": "focus 的第二项"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号中说明范围",
+        "explanation": "from grammar school to college 插入说明 Curriculums 的覆盖范围。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "less on A and more on B",
+        "explanation": "focus 后形成对照并列。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Curriculums",
+        "pos": "n.",
+        "meaning": "课程体系",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "evolve",
+        "pos": "v.",
+        "meaning": "发展，演变",
+        "chunk_id": "c_013_003"
+      },
+      {
+        "word": "creativity",
+        "pos": "n.",
+        "meaning": "创造力",
+        "chunk_id": "c_013_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Vocational schools should do a better job of fostering problem-solving skills and helping students work alongside robots.",
+    "difficulty": 4,
+    "translation_literal": "职业学校应当更好地培养解决问题的技能，并帮助学生与机器人一起工作。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "Vocational schools",
+        "chinese": "职业学校",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "should do",
+        "chinese": "应当做",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "宾语",
+        "english": "a better job of fostering problem-solving skills and helping students work alongside robots",
+        "chinese": "更好地培养解决问题技能并帮助学生与机器人一起工作",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "作 do 的宾语"
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "并列成分",
+        "english": "fostering problem-solving skills",
+        "chinese": "培养解决问题的技能",
+        "parent_id": "c_014_003",
+        "target_id": null,
+        "relation": "of 后第一项"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "并列成分",
+        "english": "helping students work alongside robots",
+        "chinese": "帮助学生与机器人一起工作",
+        "parent_id": "c_014_003",
+        "target_id": null,
+        "relation": "of 后第二项"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "of doing A and helping B",
+        "explanation": "a better job of 后两个动作并列。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Vocational",
+        "pos": "adj.",
+        "meaning": "职业的",
+        "chunk_id": "c_014_001"
+      },
+      {
+        "word": "fostering",
+        "pos": "v.",
+        "meaning": "培养",
+        "chunk_id": "c_014_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "problem-solving skills",
+        "phrase_type": "n. phr.",
+        "meaning": "解决问题的技能",
+        "chunk_id": "c_014_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Online education can supplement the traditional kind.",
+    "difficulty": 2,
+    "translation_literal": "在线教育可以补充传统教育。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "Online education",
+        "chinese": "在线教育",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "谓语",
+        "english": "can supplement",
+        "chinese": "可以补充",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "宾语",
+        "english": "the traditional kind",
+        "chinese": "传统教育",
+        "parent_id": null,
+        "target_id": "c_015_002",
+        "relation": "作 supplement 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "supplement",
+        "pos": "v.",
+        "meaning": "补充",
+        "chunk_id": "c_015_002"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "It could make extra training and instruction affordable.",
+    "difficulty": 3,
+    "translation_literal": "它可以使额外培训和教学变得负担得起。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "主语",
+        "english": "It",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "谓语",
+        "english": "could make",
+        "chinese": "可以使",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "宾语",
+        "english": "extra training and instruction",
+        "chinese": "额外培训和教学",
+        "parent_id": null,
+        "target_id": "c_016_002",
+        "relation": "作 make 的宾语"
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "宾语补足语",
+        "english": "affordable",
+        "chinese": "负担得起",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "补充说明 training and instruction 的状态"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "instruction",
+        "pos": "n.",
+        "meaning": "教学，指导",
+        "chunk_id": "c_016_003"
+      },
+      {
+        "word": "affordable",
+        "pos": "adj.",
+        "meaning": "负担得起的",
+        "chunk_id": "c_016_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Professionals trying to acquire new skills will be able to do so without going into debt.",
+    "difficulty": 4,
+    "translation_literal": "试图获得新技能的专业人士将能够在不负债的情况下做到这一点。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "Professionals trying to acquire new skills",
+        "chinese": "试图获得新技能的专业人士",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "定语",
+        "english": "trying to acquire new skills",
+        "chinese": "试图获得新技能的",
+        "parent_id": "c_017_001",
+        "target_id": "c_017_001",
+        "relation": "修饰 Professionals"
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "谓语",
+        "english": "will be able to do",
+        "chinese": "将能够做",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "宾语",
+        "english": "so",
+        "chinese": "这样",
+        "parent_id": null,
+        "target_id": "c_017_003",
+        "relation": "指 acquire new skills"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "状语",
+        "english": "without going into debt",
+        "chinese": "不负债地",
+        "parent_id": null,
+        "target_id": "c_017_003",
+        "relation": "说明 do so 的方式/代价"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Professionals",
+        "pos": "n.",
+        "meaning": "专业人士",
+        "chunk_id": "c_017_001"
+      },
+      {
+        "word": "acquire",
+        "pos": "v.",
+        "meaning": "获得",
+        "chunk_id": "c_017_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "go into debt",
+        "phrase_type": "v. phr.",
+        "meaning": "负债",
+        "chunk_id": "c_017_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The challenge of coping with automation underlines the need for the U.S. to revive its fading business dynamism: Starting new companies must be made easier.",
+    "difficulty": 5,
+    "translation_literal": "应对自动化的挑战突显出美国重振其正在衰退的商业活力的必要性：创办新公司必须变得更容易。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "主语",
+        "english": "The challenge of coping with automation",
+        "chinese": "应对自动化的挑战",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "定语",
+        "english": "of coping with automation",
+        "chinese": "应对自动化的",
+        "parent_id": "c_018_001",
+        "target_id": "c_018_001",
+        "relation": "修饰 challenge"
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "谓语",
+        "english": "underlines",
+        "chinese": "突显",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "宾语",
+        "english": "the need for the U.S. to revive its fading business dynamism",
+        "chinese": "美国重振其正在衰退的商业活力的必要性",
+        "parent_id": null,
+        "target_id": "c_018_003",
+        "relation": "作 underlines 的宾语"
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "定语",
+        "english": "for the U.S. to revive its fading business dynamism",
+        "chinese": "美国重振其正在衰退的商业活力的",
+        "parent_id": "c_018_004",
+        "target_id": "c_018_004",
+        "relation": "说明 need 的内容"
+      },
+      {
+        "chunk_id": "c_018_006",
+        "role": "同位语解释结构",
+        "english": "Starting new companies must be made easier",
+        "chinese": "创办新公司必须变得更容易",
+        "parent_id": null,
+        "target_id": "c_018_004",
+        "relation": "冒号后解释 revive business dynamism 的具体做法"
+      },
+      {
+        "chunk_id": "c_018_007",
+        "role": "主语",
+        "english": "Starting new companies",
+        "chinese": "创办新公司",
+        "parent_id": "c_018_006",
+        "target_id": null,
+        "relation": "解释分句主语"
+      },
+      {
+        "chunk_id": "c_018_008",
+        "role": "谓语",
+        "english": "must be made",
+        "chinese": "必须被变得/使得",
+        "parent_id": "c_018_006",
+        "target_id": null,
+        "relation": "解释分句谓语"
+      },
+      {
+        "chunk_id": "c_018_009",
+        "role": "宾语补足语",
+        "english": "easier",
+        "chinese": "更容易",
+        "parent_id": "c_018_006",
+        "target_id": "c_018_008",
+        "relation": "补充说明 Starting new companies 的状态"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "抽象名词 + 冒号解释",
+        "explanation": "冒号后解释 revive business dynamism 的具体方向。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "underlines",
+        "pos": "v.",
+        "meaning": "突显",
+        "chunk_id": "c_018_003"
+      },
+      {
+        "word": "revive",
+        "pos": "v.",
+        "meaning": "重振",
+        "chunk_id": "c_018_005"
+      },
+      {
+        "word": "dynamism",
+        "pos": "n.",
+        "meaning": "活力",
+        "chunk_id": "c_018_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "cope with",
+        "phrase_type": "v. phr.",
+        "meaning": "应对",
+        "chunk_id": "c_018_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "In previous eras of drastic technological change, entrepreneurs smoothed the transition by dreaming up ways to combine labor and machines.",
+    "difficulty": 4,
+    "translation_literal": "在以前的剧烈技术变革时代，企业家通过想出把劳动力和机器结合起来的方法，使转型变得平稳。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "状语",
+        "english": "In previous eras of drastic technological change",
+        "chinese": "在以前的剧烈技术变革时代",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "主语",
+        "english": "entrepreneurs",
+        "chinese": "企业家",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "谓语",
+        "english": "smoothed",
+        "chinese": "使平稳",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "宾语",
+        "english": "the transition",
+        "chinese": "转型",
+        "parent_id": null,
+        "target_id": "c_019_003",
+        "relation": "作 smoothed 的宾语"
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "状语",
+        "english": "by dreaming up ways to combine labor and machines",
+        "chinese": "通过想出把劳动力和机器结合起来的方法",
+        "parent_id": null,
+        "target_id": "c_019_003",
+        "relation": "说明 smoothed 的方式"
+      },
+      {
+        "chunk_id": "c_019_006",
+        "role": "定语",
+        "english": "to combine labor and machines",
+        "chinese": "把劳动力和机器结合起来的",
+        "parent_id": "c_019_005",
+        "target_id": "c_019_005",
+        "relation": "修饰 ways"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "drastic",
+        "pos": "adj.",
+        "meaning": "剧烈的",
+        "chunk_id": "c_019_001"
+      },
+      {
+        "word": "entrepreneurs",
+        "pos": "n.",
+        "meaning": "企业家",
+        "chunk_id": "c_019_002"
+      },
+      {
+        "word": "transition",
+        "pos": "n.",
+        "meaning": "转型，过渡",
+        "chunk_id": "c_019_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "dream up",
+        "phrase_type": "v. phr.",
+        "meaning": "想出，构思出",
+        "chunk_id": "c_019_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The best uses of 3D printers and virtual reality haven’t been invented yet.",
+    "difficulty": 3,
+    "translation_literal": "3D 打印机和虚拟现实的最佳用途尚未被发明出来。",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "主语",
+        "english": "The best uses of 3D printers and virtual reality",
+        "chinese": "3D 打印机和虚拟现实的最佳用途",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "谓语",
+        "english": "haven’t been invented",
+        "chinese": "尚未被发明",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "状语",
+        "english": "yet",
+        "chinese": "还，尚",
+        "parent_id": null,
+        "target_id": "c_020_002",
+        "relation": "修饰 haven’t been invented"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "virtual",
+        "pos": "adj.",
+        "meaning": "虚拟的",
+        "chunk_id": "c_020_001"
+      },
+      {
+        "word": "invented",
+        "pos": "v.",
+        "meaning": "发明",
+        "chunk_id": "c_020_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "virtual reality",
+        "phrase_type": "n. phr.",
+        "meaning": "虚拟现实",
+        "chunk_id": "c_020_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_021",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The U.S. needs the new companies that will invent them.",
+    "difficulty": 4,
+    "translation_literal": "美国需要将会发明它们的新公司。",
+    "chunks": [
+      {
+        "chunk_id": "c_021_001",
+        "role": "主语",
+        "english": "The U.S.",
+        "chinese": "美国",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_002",
+        "role": "谓语",
+        "english": "needs",
+        "chinese": "需要",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_003",
+        "role": "宾语",
+        "english": "the new companies that will invent them",
+        "chinese": "将会发明它们的新公司",
+        "parent_id": null,
+        "target_id": "c_021_002",
+        "relation": "作 needs 的宾语"
+      },
+      {
+        "chunk_id": "c_021_004",
+        "role": "定语从句",
+        "english": "that will invent them",
+        "chinese": "将会发明它们的",
+        "parent_id": "c_021_003",
+        "target_id": "c_021_003",
+        "relation": "修饰 companies"
+      },
+      {
+        "chunk_id": "c_021_005",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这些公司",
+        "parent_id": "c_021_004",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_021_006",
+        "role": "定语从句谓语",
+        "english": "will invent",
+        "chinese": "将发明",
+        "parent_id": "c_021_004",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_021_007",
+        "role": "定语从句宾语",
+        "english": "them",
+        "chinese": "它们",
+        "parent_id": "c_021_004",
+        "target_id": "c_021_006",
+        "relation": "作 invent 的宾语，指最佳用途"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "invent",
+        "pos": "v.",
+        "meaning": "发明",
+        "chunk_id": "c_021_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_022",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Finally, because automation threatens to widen the gap between capital income and labor income, taxes and the safety net will have to be rethought.",
+    "difficulty": 5,
+    "translation_literal": "最后，因为自动化威胁要扩大资本收入和劳动收入之间的差距，税收和安全网将不得不被重新思考。",
+    "chunks": [
+      {
+        "chunk_id": "c_022_001",
+        "role": "连接成分",
+        "english": "Finally",
+        "chinese": "最后",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_002",
+        "role": "原因状语从句",
+        "english": "because automation threatens to widen the gap between capital income and labor income",
+        "chinese": "因为自动化威胁要扩大资本收入和劳动收入之间的差距",
+        "parent_id": null,
+        "target_id": "c_022_007",
+        "relation": "说明主句动作的原因"
+      },
+      {
+        "chunk_id": "c_022_003",
+        "role": "从句主语",
+        "english": "automation",
+        "chinese": "自动化",
+        "parent_id": "c_022_002",
+        "target_id": null,
+        "relation": "because 从句内部主语"
+      },
+      {
+        "chunk_id": "c_022_004",
+        "role": "从句谓语",
+        "english": "threatens to widen",
+        "chinese": "威胁要扩大",
+        "parent_id": "c_022_002",
+        "target_id": null,
+        "relation": "because 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_022_005",
+        "role": "从句宾语",
+        "english": "the gap between capital income and labor income",
+        "chinese": "资本收入和劳动收入之间的差距",
+        "parent_id": "c_022_002",
+        "target_id": "c_022_004",
+        "relation": "作 widen 的宾语"
+      },
+      {
+        "chunk_id": "c_022_006",
+        "role": "主语",
+        "english": "taxes and the safety net",
+        "chinese": "税收和安全网",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_007",
+        "role": "谓语",
+        "english": "will have to be rethought",
+        "chinese": "将不得不被重新思考",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "taxes and the safety net",
+        "explanation": "主句主语由 taxes 和 safety net 两项并列构成。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "threatens",
+        "pos": "v.",
+        "meaning": "威胁",
+        "chunk_id": "c_022_004"
+      },
+      {
+        "word": "widen",
+        "pos": "v.",
+        "meaning": "扩大",
+        "chunk_id": "c_022_004"
+      },
+      {
+        "word": "rethought",
+        "pos": "v.",
+        "meaning": "重新思考",
+        "chunk_id": "c_022_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "safety net",
+        "phrase_type": "n. phr.",
+        "meaning": "安全网，保障体系",
+        "chunk_id": "c_022_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_023",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Taxes on low-wage labor need to be cut, and wage subsidies such as the earned income tax credit should be expanded: This would boost incomes, encourage work, reward companies for job creation, and reduce inequality.",
+    "difficulty": 5,
+    "translation_literal": "低工资劳动的税收需要被削减，而诸如劳动所得税抵免这样的工资补贴应当扩大：这会提高收入、鼓励工作、奖励创造就业的公司，并减少不平等。",
+    "chunks": [
+      {
+        "chunk_id": "c_023_001",
+        "role": "并列分句",
+        "english": "Taxes on low-wage labor need to be cut",
+        "chinese": "低工资劳动的税收需要被削减",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_023_002",
+        "role": "主语",
+        "english": "Taxes on low-wage labor",
+        "chinese": "低工资劳动的税收",
+        "parent_id": "c_023_001",
+        "target_id": null,
+        "relation": "第一分句主语"
+      },
+      {
+        "chunk_id": "c_023_003",
+        "role": "谓语",
+        "english": "need to be cut",
+        "chinese": "需要被削减",
+        "parent_id": "c_023_001",
+        "target_id": null,
+        "relation": "第一分句谓语"
+      },
+      {
+        "chunk_id": "c_023_004",
+        "role": "并列分句",
+        "english": "wage subsidies such as the earned income tax credit should be expanded",
+        "chinese": "诸如劳动所得税抵免这样的工资补贴应当扩大",
+        "parent_id": null,
+        "target_id": "c_023_001",
+        "relation": "第二分句"
+      },
+      {
+        "chunk_id": "c_023_005",
+        "role": "主语",
+        "english": "wage subsidies such as the earned income tax credit",
+        "chinese": "诸如劳动所得税抵免这样的工资补贴",
+        "parent_id": "c_023_004",
+        "target_id": null,
+        "relation": "第二分句主语"
+      },
+      {
+        "chunk_id": "c_023_006",
+        "role": "谓语",
+        "english": "should be expanded",
+        "chinese": "应当被扩大",
+        "parent_id": "c_023_004",
+        "target_id": null,
+        "relation": "第二分句谓语"
+      },
+      {
+        "chunk_id": "c_023_007",
+        "role": "同位语解释结构",
+        "english": "This would boost incomes, encourage work, reward companies for job creation, and reduce inequality",
+        "chinese": "这会提高收入、鼓励工作、奖励创造就业的公司，并减少不平等",
+        "parent_id": null,
+        "target_id": "c_023_004",
+        "relation": "冒号后说明政策效果"
+      },
+      {
+        "chunk_id": "c_023_008",
+        "role": "主语",
+        "english": "This",
+        "chinese": "这",
+        "parent_id": "c_023_007",
+        "target_id": null,
+        "relation": "解释分句主语，指前面的政策组合"
+      },
+      {
+        "chunk_id": "c_023_009",
+        "role": "并列谓语",
+        "english": "would boost / encourage / reward / reduce",
+        "chinese": "会提高 / 鼓励 / 奖励 / 减少",
+        "parent_id": "c_023_007",
+        "target_id": null,
+        "relation": "四个政策效果并列"
+      },
+      {
+        "chunk_id": "c_023_010",
+        "role": "并列宾语",
+        "english": "incomes / work / companies / inequality",
+        "chinese": "收入 / 工作 / 公司 / 不平等",
+        "parent_id": "c_023_007",
+        "target_id": "c_023_009",
+        "relation": "四个谓语对应的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A need..., and B should...: This would V1, V2, V3, and V4",
+        "explanation": "前半两个政策并列，冒号后四个效果并列。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "冒号后说明结果",
+        "explanation": "This 指代前面的税收和补贴政策。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "subsidies",
+        "pos": "n.",
+        "meaning": "补贴",
+        "chunk_id": "c_023_005"
+      },
+      {
+        "word": "expanded",
+        "pos": "v.",
+        "meaning": "扩大",
+        "chunk_id": "c_023_006"
+      },
+      {
+        "word": "inequality",
+        "pos": "n.",
+        "meaning": "不平等",
+        "chunk_id": "c_023_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "earned income tax credit",
+        "phrase_type": "n. phr.",
+        "meaning": "劳动所得税抵免",
+        "chunk_id": "c_023_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_024",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Technology will improve society in ways big and small over the next few years, yet this will be little comfort to those who find their lives and careers upended by automation.",
+    "difficulty": 5,
+    "translation_literal": "未来几年，技术将以大大小小的方式改善社会，然而这对那些发现自己的生活和职业被自动化颠覆的人来说几乎没有安慰。",
+    "chunks": [
+      {
+        "chunk_id": "c_024_001",
+        "role": "并列分句",
+        "english": "Technology will improve society in ways big and small over the next few years",
+        "chinese": "未来几年，技术将以大大小小的方式改善社会",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_024_002",
+        "role": "主语",
+        "english": "Technology",
+        "chinese": "技术",
+        "parent_id": "c_024_001",
+        "target_id": null,
+        "relation": "第一分句主语"
+      },
+      {
+        "chunk_id": "c_024_003",
+        "role": "谓语",
+        "english": "will improve",
+        "chinese": "将改善",
+        "parent_id": "c_024_001",
+        "target_id": null,
+        "relation": "第一分句谓语"
+      },
+      {
+        "chunk_id": "c_024_004",
+        "role": "宾语",
+        "english": "society",
+        "chinese": "社会",
+        "parent_id": "c_024_001",
+        "target_id": "c_024_003",
+        "relation": "作 improve 的宾语"
+      },
+      {
+        "chunk_id": "c_024_005",
+        "role": "状语",
+        "english": "in ways big and small over the next few years",
+        "chinese": "在未来几年以大大小小的方式",
+        "parent_id": "c_024_001",
+        "target_id": "c_024_003",
+        "relation": "说明 improve 的方式和时间"
+      },
+      {
+        "chunk_id": "c_024_006",
+        "role": "转折分句",
+        "english": "yet this will be little comfort to those who find their lives and careers upended by automation",
+        "chinese": "然而这对那些发现自己的生活和职业被自动化颠覆的人来说几乎没有安慰",
+        "parent_id": null,
+        "target_id": "c_024_001",
+        "relation": "与前一分句转折"
+      },
+      {
+        "chunk_id": "c_024_007",
+        "role": "主语",
+        "english": "this",
+        "chinese": "这",
+        "parent_id": "c_024_006",
+        "target_id": null,
+        "relation": "转折分句主语"
+      },
+      {
+        "chunk_id": "c_024_008",
+        "role": "谓语",
+        "english": "will be",
+        "chinese": "将是",
+        "parent_id": "c_024_006",
+        "target_id": null,
+        "relation": "转折分句谓语"
+      },
+      {
+        "chunk_id": "c_024_009",
+        "role": "表语",
+        "english": "little comfort to those who find their lives and careers upended by automation",
+        "chinese": "对那些发现生活和职业被自动化颠覆的人来说几乎没有安慰",
+        "parent_id": "c_024_006",
+        "target_id": "c_024_008",
+        "relation": "作 will be 的表语"
+      },
+      {
+        "chunk_id": "c_024_010",
+        "role": "定语从句",
+        "english": "who find their lives and careers upended by automation",
+        "chinese": "发现自己的生活和职业被自动化颠覆的",
+        "parent_id": "c_024_009",
+        "target_id": "c_024_009",
+        "relation": "修饰 those"
+      },
+      {
+        "chunk_id": "c_024_011",
+        "role": "定语从句主语",
+        "english": "who",
+        "chinese": "那些人",
+        "parent_id": "c_024_010",
+        "target_id": null,
+        "relation": "who 从句内部主语"
+      },
+      {
+        "chunk_id": "c_024_012",
+        "role": "定语从句谓语",
+        "english": "find",
+        "chinese": "发现",
+        "parent_id": "c_024_010",
+        "target_id": null,
+        "relation": "who 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_024_013",
+        "role": "定语从句宾语",
+        "english": "their lives and careers",
+        "chinese": "他们的生活和职业",
+        "parent_id": "c_024_010",
+        "target_id": "c_024_012",
+        "relation": "作 find 的宾语"
+      },
+      {
+        "chunk_id": "c_024_014",
+        "role": "宾语补足语",
+        "english": "upended by automation",
+        "chinese": "被自动化颠覆",
+        "parent_id": "c_024_010",
+        "target_id": "c_024_013",
+        "relation": "补充说明 lives and careers 的状态"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, yet B",
+        "explanation": "yet 连接改善社会和对受害者无慰藉的转折。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "comfort",
+        "pos": "n.",
+        "meaning": "安慰",
+        "chunk_id": "c_024_009"
+      },
+      {
+        "word": "upended",
+        "pos": "v.",
+        "meaning": "颠覆",
+        "chunk_id": "c_024_014"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_025",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Destroying the machines that are coming for our jobs would be nuts.",
+    "difficulty": 4,
+    "translation_literal": "摧毁那些正在来抢我们工作的机器会是疯狂的。",
+    "chunks": [
+      {
+        "chunk_id": "c_025_001",
+        "role": "主语",
+        "english": "Destroying the machines that are coming for our jobs",
+        "chinese": "摧毁那些正在来抢我们工作的机器",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_025_002",
+        "role": "定语从句",
+        "english": "that are coming for our jobs",
+        "chinese": "正在来抢我们工作的",
+        "parent_id": "c_025_001",
+        "target_id": "c_025_001",
+        "relation": "修饰 machines"
+      },
+      {
+        "chunk_id": "c_025_003",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "那些机器",
+        "parent_id": "c_025_002",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_025_004",
+        "role": "定语从句谓语",
+        "english": "are coming",
+        "chinese": "正在来",
+        "parent_id": "c_025_002",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_025_005",
+        "role": "谓语",
+        "english": "would be",
+        "chinese": "会是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_025_006",
+        "role": "表语",
+        "english": "nuts",
+        "chinese": "疯狂的",
+        "parent_id": null,
+        "target_id": "c_025_005",
+        "relation": "作 would be 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Destroying",
+        "pos": "v.",
+        "meaning": "摧毁",
+        "chunk_id": "c_025_001"
+      },
+      {
+        "word": "nuts",
+        "pos": "adj.",
+        "meaning": "疯狂的",
+        "chunk_id": "c_025_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "come for our jobs",
+        "phrase_type": "v. phr.",
+        "meaning": "来抢我们的工作",
+        "chunk_id": "c_025_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_026",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "But policies to help workers adapt will be indispensable.",
+    "difficulty": 3,
+    "translation_literal": "但是帮助工人适应的政策将不可或缺。",
+    "chunks": [
+      {
+        "chunk_id": "c_026_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_026_002",
+        "role": "主语",
+        "english": "policies to help workers adapt",
+        "chinese": "帮助工人适应的政策",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_026_003",
+        "role": "定语",
+        "english": "to help workers adapt",
+        "chinese": "帮助工人适应的",
+        "parent_id": "c_026_002",
+        "target_id": "c_026_002",
+        "relation": "修饰 policies"
+      },
+      {
+        "chunk_id": "c_026_004",
+        "role": "谓语",
+        "english": "will be",
+        "chinese": "将是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_026_005",
+        "role": "表语",
+        "english": "indispensable",
+        "chinese": "不可或缺的",
+        "parent_id": null,
+        "target_id": "c_026_004",
+        "relation": "作 will be 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "policies",
+        "pos": "n.",
+        "meaning": "政策",
+        "chunk_id": "c_026_002"
+      },
+      {
+        "word": "adapt",
+        "pos": "v.",
+        "meaning": "适应",
+        "chunk_id": "c_026_003"
+      },
+      {
+        "word": "indispensable",
+        "pos": "adj.",
+        "meaning": "不可或缺的",
+        "chunk_id": "c_026_005"
+      }
+    ],
+    "key_phrases": []
+  }
+]

@@ -1,0 +1,2350 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "First two hours, now three hours — this is how far in advance authorities are recommending people show up to catch a domestic flight, at least at some major U.S. airports with increasingly massive security lines.",
+    "difficulty": 5,
+    "translation_literal": "先是提前两小时，现在是提前三小时——这就是当局正在建议人们为赶上国内航班而提前到达的时间长度，至少在一些安检队伍越来越庞大的美国主要机场是这样。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "插入语",
+        "english": "First two hours, now three hours",
+        "chinese": "先是两小时，现在是三小时",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "主语",
+        "english": "this",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "表语从句",
+        "english": "how far in advance authorities are recommending people show up to catch a domestic flight",
+        "chinese": "当局正在建议人们为赶上国内航班提前多久到达",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "从句主语",
+        "english": "authorities",
+        "chinese": "当局",
+        "parent_id": "c_001_004",
+        "target_id": null,
+        "relation": "how 从句内部主语"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "从句谓语",
+        "english": "are recommending",
+        "chinese": "正在建议",
+        "parent_id": "c_001_004",
+        "target_id": null,
+        "relation": "how 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "从句宾语",
+        "english": "people show up to catch a domestic flight",
+        "chinese": "人们到场以赶上国内航班",
+        "parent_id": "c_001_004",
+        "target_id": "c_001_006",
+        "relation": "作 recommending 的宾语内容"
+      },
+      {
+        "chunk_id": "c_001_008",
+        "role": "从句主语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": "c_001_007",
+        "target_id": null,
+        "relation": "省略 that 的宾语内容内部主语"
+      },
+      {
+        "chunk_id": "c_001_009",
+        "role": "从句谓语",
+        "english": "show up",
+        "chinese": "到场",
+        "parent_id": "c_001_007",
+        "target_id": null,
+        "relation": "省略 that 的宾语内容内部谓语"
+      },
+      {
+        "chunk_id": "c_001_010",
+        "role": "状语",
+        "english": "to catch a domestic flight",
+        "chinese": "为了赶上国内航班",
+        "parent_id": "c_001_007",
+        "target_id": "c_001_009",
+        "relation": "说明 show up 的目的"
+      },
+      {
+        "chunk_id": "c_001_011",
+        "role": "状语",
+        "english": "at least at some major U.S. airports with increasingly massive security lines",
+        "chinese": "至少在一些安检队伍越来越庞大的美国主要机场",
+        "parent_id": null,
+        "target_id": "c_001_004",
+        "relation": "限定建议适用的地点"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号前后补充说明",
+        "explanation": "破折号前的 First two hours, now three hours 是话题引入，主干是 this is how far...。"
+      },
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "this is how... + 地点状语",
+        "explanation": "表语从句很长，需要先抓住 authorities are recommending people show up。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "authorities",
+        "pos": "n.",
+        "meaning": "当局",
+        "chunk_id": "c_001_005"
+      },
+      {
+        "word": "domestic",
+        "pos": "adj.",
+        "meaning": "国内的",
+        "chunk_id": "c_001_010"
+      },
+      {
+        "word": "massive",
+        "pos": "adj.",
+        "meaning": "庞大的",
+        "chunk_id": "c_001_011"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "show up",
+        "phrase_type": "v. phr.",
+        "meaning": "出现，到场",
+        "chunk_id": "c_001_009"
+      },
+      {
+        "phrase": "security lines",
+        "phrase_type": "n. phr.",
+        "meaning": "安检队伍",
+        "chunk_id": "c_001_011"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Americans are willing to tolerate time-consuming security procedures in return for increased safety.",
+    "difficulty": 3,
+    "translation_literal": "美国人愿意容忍耗时的安检程序，以换取更高的安全。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "Americans",
+        "chinese": "美国人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "are willing to tolerate",
+        "chinese": "愿意容忍",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "宾语",
+        "english": "time-consuming security procedures",
+        "chinese": "耗时的安检程序",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "作 tolerate 的宾语"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "状语",
+        "english": "in return for increased safety",
+        "chinese": "以换取更高的安全",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "说明容忍的交换条件"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "tolerate",
+        "pos": "v.",
+        "meaning": "容忍",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "procedures",
+        "pos": "n.",
+        "meaning": "程序",
+        "chunk_id": "c_002_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "in return for",
+        "phrase_type": "prep. phr.",
+        "meaning": "作为……的回报，以换取",
+        "chunk_id": "c_002_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The crash of EgyptAir Flight 804, which terrorists may have downed over the Mediterranean Sea, provides another tragic reminder of why.",
+    "difficulty": 5,
+    "translation_literal": "埃及航空 804 航班的坠毁，恐怖分子可能已经在地中海上空将其击落，又提供了一个悲剧性的提醒，说明为什么会这样。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "The crash of EgyptAir Flight 804",
+        "chinese": "埃及航空 804 航班的坠毁",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "定语从句",
+        "english": "which terrorists may have downed over the Mediterranean Sea",
+        "chinese": "恐怖分子可能已经在地中海上空将其击落",
+        "parent_id": null,
+        "target_id": "c_003_001",
+        "relation": "修饰 The crash of EgyptAir Flight 804"
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "定语从句主语",
+        "english": "terrorists",
+        "chinese": "恐怖分子",
+        "parent_id": "c_003_002",
+        "target_id": null,
+        "relation": "which 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "定语从句谓语",
+        "english": "may have downed",
+        "chinese": "可能已经击落",
+        "parent_id": "c_003_002",
+        "target_id": null,
+        "relation": "which 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "定语从句宾语",
+        "english": "which",
+        "chinese": "它",
+        "parent_id": "c_003_002",
+        "target_id": "c_003_004",
+        "relation": "作 downed 的宾语，指 Flight 804"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "谓语",
+        "english": "provides",
+        "chinese": "提供",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "宾语",
+        "english": "another tragic reminder of why",
+        "chinese": "另一个关于原因的悲剧性提醒",
+        "parent_id": null,
+        "target_id": "c_003_006",
+        "relation": "作 provides 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语 + 非限制性定语从句 + 谓语",
+        "explanation": "which 从句插在主语和谓语之间，主干是 The crash provides another reminder。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "crash",
+        "pos": "n.",
+        "meaning": "坠毁",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "downed",
+        "pos": "v.",
+        "meaning": "击落",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "tragic",
+        "pos": "adj.",
+        "meaning": "悲剧性的",
+        "chunk_id": "c_003_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "But demanding too much of air travelers or providing too little security in return undermines public support for the process.",
+    "difficulty": 4,
+    "translation_literal": "但是，向航空旅客要求太多，或者作为回报提供太少的安全保障，会削弱公众对这一过程的支持。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "主语",
+        "english": "demanding too much of air travelers or providing too little security in return",
+        "chinese": "向航空旅客要求太多，或者作为回报提供太少安全保障",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "并列成分",
+        "english": "demanding too much of air travelers",
+        "chinese": "向航空旅客要求太多",
+        "parent_id": "c_004_002",
+        "target_id": null,
+        "relation": "动名词主语的第一项"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "并列成分",
+        "english": "providing too little security in return",
+        "chinese": "作为回报提供太少安全保障",
+        "parent_id": "c_004_002",
+        "target_id": null,
+        "relation": "动名词主语的第二项"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "谓语",
+        "english": "undermines",
+        "chinese": "削弱",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "宾语",
+        "english": "public support for the process",
+        "chinese": "公众对这一过程的支持",
+        "parent_id": null,
+        "target_id": "c_004_005",
+        "relation": "作 undermines 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "doing A or doing B 作主语",
+        "explanation": "两个动名词短语并列作整体主语，谓语是 undermines。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "demanding",
+        "pos": "v.",
+        "meaning": "要求",
+        "chunk_id": "c_004_003"
+      },
+      {
+        "word": "undermines",
+        "pos": "v.",
+        "meaning": "削弱",
+        "chunk_id": "c_004_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "public support",
+        "phrase_type": "n. phr.",
+        "meaning": "公众支持",
+        "chunk_id": "c_004_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "And it should: Wasted time is a drag on Americans’ economic and private lives, not to mention infuriating.",
+    "difficulty": 4,
+    "translation_literal": "而且它确实应该如此：被浪费的时间是美国人经济生活和私人生活的拖累，更不用说还令人恼火。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "连接成分",
+        "english": "And",
+        "chinese": "而且",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "谓语",
+        "english": "should",
+        "chinese": "应该如此",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "同位语解释结构",
+        "english": "Wasted time is a drag on Americans’ economic and private lives, not to mention infuriating",
+        "chinese": "被浪费的时间是美国人经济生活和私人生活的拖累，更不用说令人恼火",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "冒号后解释为什么 public support 应被削弱"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "主语",
+        "english": "Wasted time",
+        "chinese": "被浪费的时间",
+        "parent_id": "c_005_004",
+        "target_id": null,
+        "relation": "解释分句主语"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_005_004",
+        "target_id": null,
+        "relation": "解释分句谓语"
+      },
+      {
+        "chunk_id": "c_005_007",
+        "role": "表语",
+        "english": "a drag on Americans’ economic and private lives",
+        "chinese": "美国人经济生活和私人生活的拖累",
+        "parent_id": "c_005_004",
+        "target_id": "c_005_006",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_005_008",
+        "role": "插入语",
+        "english": "not to mention infuriating",
+        "chinese": "更不用说令人恼火",
+        "parent_id": "c_005_004",
+        "target_id": "c_005_007",
+        "relation": "补充说明 wasted time 的负面影响"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "冒号后解释前句判断",
+        "explanation": "冒号后整句解释 why it should undermine public support。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "drag",
+        "pos": "n.",
+        "meaning": "拖累",
+        "chunk_id": "c_005_007"
+      },
+      {
+        "word": "infuriating",
+        "pos": "adj.",
+        "meaning": "令人恼火的",
+        "chunk_id": "c_005_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "not to mention",
+        "phrase_type": "parenthetical",
+        "meaning": "更不用说",
+        "chunk_id": "c_005_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Last year, the Transportation Security Administration (TSA) found in a secret check that undercover investigators were able to sneak weapons — both fake and real — past airport security nearly every time they tried.",
+    "difficulty": 5,
+    "translation_literal": "去年，美国运输安全管理局在一次秘密检查中发现，卧底调查人员几乎每次尝试时都能够把武器——假的和真的都有——偷偷带过机场安检。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "状语",
+        "english": "Last year",
+        "chinese": "去年",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "主语",
+        "english": "the Transportation Security Administration (TSA)",
+        "chinese": "美国运输安全管理局",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "谓语",
+        "english": "found",
+        "chinese": "发现",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "状语",
+        "english": "in a secret check",
+        "chinese": "在一次秘密检查中",
+        "parent_id": null,
+        "target_id": "c_006_003",
+        "relation": "说明 found 的场景"
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "宾语从句",
+        "english": "that undercover investigators were able to sneak weapons — both fake and real — past airport security nearly every time they tried",
+        "chinese": "卧底调查人员几乎每次尝试时都能够把武器偷偷带过机场安检",
+        "parent_id": null,
+        "target_id": "c_006_003",
+        "relation": "作 found 的宾语"
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "从句主语",
+        "english": "undercover investigators",
+        "chinese": "卧底调查人员",
+        "parent_id": "c_006_005",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "从句谓语",
+        "english": "were able to sneak",
+        "chinese": "能够偷偷带过",
+        "parent_id": "c_006_005",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_006_008",
+        "role": "从句宾语",
+        "english": "weapons",
+        "chinese": "武器",
+        "parent_id": "c_006_005",
+        "target_id": "c_006_007",
+        "relation": "作 sneak 的宾语"
+      },
+      {
+        "chunk_id": "c_006_009",
+        "role": "插入语",
+        "english": "both fake and real",
+        "chinese": "假的和真的都有",
+        "parent_id": "c_006_008",
+        "target_id": "c_006_008",
+        "relation": "解释 weapons 的类型"
+      },
+      {
+        "chunk_id": "c_006_010",
+        "role": "状语",
+        "english": "past airport security",
+        "chinese": "通过机场安检",
+        "parent_id": "c_006_005",
+        "target_id": "c_006_007",
+        "relation": "说明 sneak 的方向"
+      },
+      {
+        "chunk_id": "c_006_011",
+        "role": "状语从句",
+        "english": "nearly every time they tried",
+        "chinese": "几乎每次他们尝试时",
+        "parent_id": "c_006_005",
+        "target_id": "c_006_007",
+        "relation": "说明成功发生的频率"
+      },
+      {
+        "chunk_id": "c_006_012",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_006_011",
+        "target_id": null,
+        "relation": "every time 从句内部主语"
+      },
+      {
+        "chunk_id": "c_006_013",
+        "role": "从句谓语",
+        "english": "tried",
+        "chinese": "尝试",
+        "parent_id": "c_006_011",
+        "target_id": null,
+        "relation": "every time 从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号中解释宾语",
+        "explanation": "both fake and real 插入解释 weapons，主干是 investigators were able to sneak weapons。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "undercover",
+        "pos": "adj.",
+        "meaning": "卧底的",
+        "chunk_id": "c_006_006"
+      },
+      {
+        "word": "sneak",
+        "pos": "v.",
+        "meaning": "偷偷带过",
+        "chunk_id": "c_006_007"
+      },
+      {
+        "word": "weapons",
+        "pos": "n.",
+        "meaning": "武器",
+        "chunk_id": "c_006_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "secret check",
+        "phrase_type": "n. phr.",
+        "meaning": "秘密检查",
+        "chunk_id": "c_006_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Enhanced security measures since then, combined with a rise in airline travel due to the improving economy and low oil prices, have resulted in long waits at major airports such as Chicago’s O’Hare International.",
+    "difficulty": 5,
+    "translation_literal": "自那以后加强的安全措施，加上由于经济改善和低油价而带来的航空旅行增长，已经导致芝加哥奥黑尔国际机场等主要机场出现长时间等待。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "Enhanced security measures since then",
+        "chinese": "自那以后加强的安全措施",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "非谓语结构",
+        "english": "combined with a rise in airline travel due to the improving economy and low oil prices",
+        "chinese": "加上由于经济改善和低油价而带来的航空旅行增长",
+        "parent_id": null,
+        "target_id": "c_007_001",
+        "relation": "补充说明导致长时间等待的共同因素"
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "定语",
+        "english": "due to the improving economy and low oil prices",
+        "chinese": "由于经济改善和低油价的",
+        "parent_id": "c_007_002",
+        "target_id": "c_007_002",
+        "relation": "修饰 a rise in airline travel"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "谓语",
+        "english": "have resulted in",
+        "chinese": "已经导致",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "宾语",
+        "english": "long waits at major airports such as Chicago’s O’Hare International",
+        "chinese": "芝加哥奥黑尔国际机场等主要机场的长时间等待",
+        "parent_id": null,
+        "target_id": "c_007_004",
+        "relation": "作 resulted in 的宾语"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "定语",
+        "english": "such as Chicago’s O’Hare International",
+        "chinese": "例如芝加哥奥黑尔国际机场",
+        "parent_id": "c_007_005",
+        "target_id": "c_007_005",
+        "relation": "举例说明 major airports"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主语 + combined with 插入 + 谓语",
+        "explanation": "combined with... 插在主语和谓语之间，主干是 measures have resulted in waits。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Enhanced",
+        "pos": "adj.",
+        "meaning": "加强的",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "measures",
+        "pos": "n.",
+        "meaning": "措施",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "resulted",
+        "pos": "v.",
+        "meaning": "导致",
+        "chunk_id": "c_007_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "result in",
+        "phrase_type": "v. phr.",
+        "meaning": "导致",
+        "chunk_id": "c_007_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "It is not yet clear how much more effective airline security has become — but the lines are obvious.",
+    "difficulty": 5,
+    "translation_literal": "航空安全已经变得有效多少尚不清楚——但是队伍很明显。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "形式主语",
+        "english": "It",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "is not yet",
+        "chinese": "尚不是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "表语",
+        "english": "clear",
+        "chinese": "清楚的",
+        "parent_id": null,
+        "target_id": "c_008_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "主语从句",
+        "english": "how much more effective airline security has become",
+        "chinese": "航空安全已经变得有效多少",
+        "parent_id": null,
+        "target_id": "c_008_001",
+        "relation": "真正主语，对应形式主语 It"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "从句主语",
+        "english": "airline security",
+        "chinese": "航空安全",
+        "parent_id": "c_008_004",
+        "target_id": null,
+        "relation": "how 从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "从句谓语",
+        "english": "has become",
+        "chinese": "已经变得",
+        "parent_id": "c_008_004",
+        "target_id": null,
+        "relation": "how 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "从句表语",
+        "english": "how much more effective",
+        "chinese": "有效多少",
+        "parent_id": "c_008_004",
+        "target_id": "c_008_006",
+        "relation": "作 has become 的表语"
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "转折分句",
+        "english": "but the lines are obvious",
+        "chinese": "但是队伍很明显",
+        "parent_id": null,
+        "target_id": "c_008_004",
+        "relation": "与前半句形成转折"
+      },
+      {
+        "chunk_id": "c_008_009",
+        "role": "主语",
+        "english": "the lines",
+        "chinese": "队伍",
+        "parent_id": "c_008_008",
+        "target_id": null,
+        "relation": "转折分句主语"
+      },
+      {
+        "chunk_id": "c_008_010",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_008_008",
+        "target_id": null,
+        "relation": "转折分句谓语"
+      },
+      {
+        "chunk_id": "c_008_011",
+        "role": "表语",
+        "english": "obvious",
+        "chinese": "明显的",
+        "parent_id": "c_008_008",
+        "target_id": "c_008_010",
+        "relation": "转折分句表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is + adj. + how 从句",
+        "explanation": "It 是形式主语，真正主语是 how much... 从句。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "effective",
+        "pos": "adj.",
+        "meaning": "有效的",
+        "chunk_id": "c_008_007"
+      },
+      {
+        "word": "obvious",
+        "pos": "adj.",
+        "meaning": "明显的",
+        "chunk_id": "c_008_011"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Part of the issue is that the government did not anticipate the steep increase in airline travel, so the TSA is now rushing to get new screeners on the line.",
+    "difficulty": 5,
+    "translation_literal": "问题的一部分在于，政府没有预料到航空旅行的急剧增加，所以运输安全管理局现在正急忙让新的安检员上岗。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "Part of the issue",
+        "chinese": "问题的一部分",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "表语从句",
+        "english": "that the government did not anticipate the steep increase in airline travel",
+        "chinese": "政府没有预料到航空旅行的急剧增加",
+        "parent_id": null,
+        "target_id": "c_009_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "从句主语",
+        "english": "the government",
+        "chinese": "政府",
+        "parent_id": "c_009_003",
+        "target_id": null,
+        "relation": "表语从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "从句谓语",
+        "english": "did not anticipate",
+        "chinese": "没有预料到",
+        "parent_id": "c_009_003",
+        "target_id": null,
+        "relation": "表语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "从句宾语",
+        "english": "the steep increase in airline travel",
+        "chinese": "航空旅行的急剧增加",
+        "parent_id": "c_009_003",
+        "target_id": "c_009_005",
+        "relation": "作 anticipate 的宾语"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "并列分句",
+        "english": "so the TSA is now rushing to get new screeners on the line",
+        "chinese": "所以运输安全管理局现在正急忙让新的安检员上岗",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "说明前一问题导致的结果"
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "主语",
+        "english": "the TSA",
+        "chinese": "运输安全管理局",
+        "parent_id": "c_009_007",
+        "target_id": null,
+        "relation": "so 分句主语"
+      },
+      {
+        "chunk_id": "c_009_009",
+        "role": "谓语",
+        "english": "is now rushing",
+        "chinese": "现在正急忙",
+        "parent_id": "c_009_007",
+        "target_id": null,
+        "relation": "so 分句谓语"
+      },
+      {
+        "chunk_id": "c_009_010",
+        "role": "宾语",
+        "english": "to get new screeners on the line",
+        "chinese": "让新的安检员上岗",
+        "parent_id": "c_009_007",
+        "target_id": "c_009_009",
+        "relation": "作 rushing 的目的/内容"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "表语从句 + so 结果分句",
+        "explanation": "前半说明问题原因，so 后说明 TSA 的应对。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "anticipate",
+        "pos": "v.",
+        "meaning": "预料",
+        "chunk_id": "c_009_005"
+      },
+      {
+        "word": "steep",
+        "pos": "adj.",
+        "meaning": "急剧的",
+        "chunk_id": "c_009_006"
+      },
+      {
+        "word": "screeners",
+        "pos": "n.",
+        "meaning": "安检员",
+        "chunk_id": "c_009_010"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Part of the issue is that airports have only so much room for screening lanes.",
+    "difficulty": 3,
+    "translation_literal": "问题的一部分在于，机场只有这么多用于安检通道的空间。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "Part of the issue",
+        "chinese": "问题的一部分",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "表语从句",
+        "english": "that airports have only so much room for screening lanes",
+        "chinese": "机场只有这么多用于安检通道的空间",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "从句主语",
+        "english": "airports",
+        "chinese": "机场",
+        "parent_id": "c_010_003",
+        "target_id": null,
+        "relation": "表语从句内部主语"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "从句谓语",
+        "english": "have",
+        "chinese": "有",
+        "parent_id": "c_010_003",
+        "target_id": null,
+        "relation": "表语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "从句宾语",
+        "english": "only so much room for screening lanes",
+        "chinese": "只有这么多用于安检通道的空间",
+        "parent_id": "c_010_003",
+        "target_id": "c_010_005",
+        "relation": "作 have 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "screening",
+        "pos": "n.",
+        "meaning": "安检",
+        "chunk_id": "c_010_006"
+      },
+      {
+        "word": "lanes",
+        "pos": "n.",
+        "meaning": "通道",
+        "chunk_id": "c_010_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "screening lanes",
+        "phrase_type": "n. phr.",
+        "meaning": "安检通道",
+        "chunk_id": "c_010_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Another factor may be that more people are trying to overpack their carry-on bags to avoid checked-baggage fees, though the airlines strongly dispute this.",
+    "difficulty": 5,
+    "translation_literal": "另一个因素可能是，更多人正试图把随身行李装得过满，以避免托运行李费，尽管航空公司强烈否认这一点。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "Another factor",
+        "chinese": "另一个因素",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "may be",
+        "chinese": "可能是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "表语从句",
+        "english": "that more people are trying to overpack their carry-on bags to avoid checked-baggage fees",
+        "chinese": "更多人正试图把随身行李装得过满，以避免托运行李费",
+        "parent_id": null,
+        "target_id": "c_011_002",
+        "relation": "作 may be 的表语"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "从句主语",
+        "english": "more people",
+        "chinese": "更多人",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": "表语从句内部主语"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "从句谓语",
+        "english": "are trying to overpack",
+        "chinese": "正试图过度装满",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": "表语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "从句宾语",
+        "english": "their carry-on bags",
+        "chinese": "他们的随身行李",
+        "parent_id": "c_011_003",
+        "target_id": "c_011_005",
+        "relation": "作 overpack 的宾语"
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "状语",
+        "english": "to avoid checked-baggage fees",
+        "chinese": "为了避免托运行李费",
+        "parent_id": "c_011_003",
+        "target_id": "c_011_005",
+        "relation": "说明 overpack 的目的"
+      },
+      {
+        "chunk_id": "c_011_008",
+        "role": "让步状语从句",
+        "english": "though the airlines strongly dispute this",
+        "chinese": "尽管航空公司强烈否认这一点",
+        "parent_id": null,
+        "target_id": "c_011_003",
+        "relation": "对前面推测作让步说明"
+      },
+      {
+        "chunk_id": "c_011_009",
+        "role": "从句主语",
+        "english": "the airlines",
+        "chinese": "航空公司",
+        "parent_id": "c_011_008",
+        "target_id": null,
+        "relation": "though 从句内部主语"
+      },
+      {
+        "chunk_id": "c_011_010",
+        "role": "从句谓语",
+        "english": "strongly dispute",
+        "chinese": "强烈否认",
+        "parent_id": "c_011_008",
+        "target_id": null,
+        "relation": "though 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_011_011",
+        "role": "从句宾语",
+        "english": "this",
+        "chinese": "这一点",
+        "parent_id": "c_011_008",
+        "target_id": "c_011_010",
+        "relation": "作 dispute 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "表语从句 + though 让步从句",
+        "explanation": "that 从句解释 factor，though 从句说明航空公司并不承认这一因素。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "overpack",
+        "pos": "v.",
+        "meaning": "过度装满",
+        "chunk_id": "c_011_005"
+      },
+      {
+        "word": "dispute",
+        "pos": "v.",
+        "meaning": "否认，争议",
+        "chunk_id": "c_011_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "carry-on bags",
+        "phrase_type": "n. phr.",
+        "meaning": "随身行李",
+        "chunk_id": "c_011_006"
+      },
+      {
+        "phrase": "checked-baggage fees",
+        "phrase_type": "n. phr.",
+        "meaning": "托运行李费",
+        "chunk_id": "c_011_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "There is one step the TSA could take that would not require remodeling airports or rushing to hire: Enroll more people in the PreCheck program.",
+    "difficulty": 5,
+    "translation_literal": "运输安全管理局可以采取一个不需要改造机场或急忙招聘的步骤：让更多人加入 PreCheck 项目。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "存在句",
+        "english": "There is one step",
+        "chinese": "有一个步骤",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "定语从句",
+        "english": "the TSA could take",
+        "chinese": "运输安全管理局可以采取的",
+        "parent_id": "c_012_001",
+        "target_id": "c_012_001",
+        "relation": "省略 that 的定语从句，修饰 one step"
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "从句主语",
+        "english": "the TSA",
+        "chinese": "运输安全管理局",
+        "parent_id": "c_012_002",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "从句谓语",
+        "english": "could take",
+        "chinese": "可以采取",
+        "parent_id": "c_012_002",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "定语从句",
+        "english": "that would not require remodeling airports or rushing to hire",
+        "chinese": "不需要改造机场或急忙招聘的",
+        "parent_id": "c_012_001",
+        "target_id": "c_012_001",
+        "relation": "修饰 one step"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这一步骤",
+        "parent_id": "c_012_005",
+        "target_id": null,
+        "relation": "that 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "定语从句谓语",
+        "english": "would not require",
+        "chinese": "不需要",
+        "parent_id": "c_012_005",
+        "target_id": null,
+        "relation": "that 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "定语从句宾语",
+        "english": "remodeling airports or rushing to hire",
+        "chinese": "改造机场或急忙招聘",
+        "parent_id": "c_012_005",
+        "target_id": "c_012_007",
+        "relation": "作 require 的宾语"
+      },
+      {
+        "chunk_id": "c_012_009",
+        "role": "同位语解释结构",
+        "english": "Enroll more people in the PreCheck program",
+        "chinese": "让更多人加入 PreCheck 项目",
+        "parent_id": null,
+        "target_id": "c_012_001",
+        "relation": "冒号后解释 one step 的具体内容"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "名词 + 冒号解释",
+        "explanation": "冒号后的祈使句解释 one step 的具体做法。"
+      },
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "one step + 两个定语从句",
+        "explanation": "one step 后连续接两个定语从句，一个说明 TSA 能采取，一个说明不需要什么。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "remodeling",
+        "pos": "v.",
+        "meaning": "改造",
+        "chunk_id": "c_012_008"
+      },
+      {
+        "word": "Enroll",
+        "pos": "v.",
+        "meaning": "注册，使加入",
+        "chunk_id": "c_012_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "PreCheck program",
+        "phrase_type": "n. phr.",
+        "meaning": "预检项目",
+        "chunk_id": "c_012_009"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "PreCheck is supposed to be a win-win for travelers and the TSA.",
+    "difficulty": 2,
+    "translation_literal": "PreCheck 本应对旅客和运输安全管理局都是双赢。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "PreCheck",
+        "chinese": "PreCheck",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "is supposed to be",
+        "chinese": "本应是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "表语",
+        "english": "a win-win for travelers and the TSA",
+        "chinese": "对旅客和运输安全管理局的双赢",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "作 be 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "win-win",
+        "pos": "n.",
+        "meaning": "双赢",
+        "chunk_id": "c_013_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "be supposed to",
+        "phrase_type": "modal phr.",
+        "meaning": "应该，本应",
+        "chunk_id": "c_013_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Passengers who pass a background check are eligible to use expedited screening lanes.",
+    "difficulty": 4,
+    "translation_literal": "通过背景审查的乘客有资格使用快速安检通道。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "Passengers who pass a background check",
+        "chinese": "通过背景审查的乘客",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "定语从句",
+        "english": "who pass a background check",
+        "chinese": "通过背景审查的",
+        "parent_id": "c_014_001",
+        "target_id": "c_014_001",
+        "relation": "修饰 Passengers"
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "定语从句主语",
+        "english": "who",
+        "chinese": "乘客",
+        "parent_id": "c_014_002",
+        "target_id": null,
+        "relation": "who 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "定语从句谓语",
+        "english": "pass",
+        "chinese": "通过",
+        "parent_id": "c_014_002",
+        "target_id": null,
+        "relation": "who 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "表语",
+        "english": "eligible to use expedited screening lanes",
+        "chinese": "有资格使用快速安检通道",
+        "parent_id": null,
+        "target_id": "c_014_005",
+        "relation": "作 are 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "eligible",
+        "pos": "adj.",
+        "meaning": "有资格的",
+        "chunk_id": "c_014_006"
+      },
+      {
+        "word": "expedited",
+        "pos": "adj.",
+        "meaning": "加快的，快速的",
+        "chunk_id": "c_014_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "background check",
+        "phrase_type": "n. phr.",
+        "meaning": "背景审查",
+        "chunk_id": "c_014_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "This allows the TSA to focus on travelers who are higher risk, saving time for everyone involved.",
+    "difficulty": 4,
+    "translation_literal": "这使运输安全管理局能够专注于风险更高的旅客，从而为所有相关人员节省时间。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "This",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "谓语",
+        "english": "allows",
+        "chinese": "使能够",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "宾语",
+        "english": "the TSA",
+        "chinese": "运输安全管理局",
+        "parent_id": null,
+        "target_id": "c_015_002",
+        "relation": "作 allows 的宾语"
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "宾语补足语",
+        "english": "to focus on travelers who are higher risk",
+        "chinese": "专注于风险更高的旅客",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "补充说明允许 TSA 做什么"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "定语从句",
+        "english": "who are higher risk",
+        "chinese": "风险更高的",
+        "parent_id": "c_015_004",
+        "target_id": "c_015_004",
+        "relation": "修饰 travelers"
+      },
+      {
+        "chunk_id": "c_015_006",
+        "role": "定语从句主语",
+        "english": "who",
+        "chinese": "旅客",
+        "parent_id": "c_015_005",
+        "target_id": null,
+        "relation": "who 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_015_007",
+        "role": "定语从句谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_015_005",
+        "target_id": null,
+        "relation": "who 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_015_008",
+        "role": "非谓语结构",
+        "english": "saving time for everyone involved",
+        "chinese": "为所有相关人员节省时间",
+        "parent_id": null,
+        "target_id": "c_015_002",
+        "relation": "说明 This allows... 的结果"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "focus",
+        "pos": "v.",
+        "meaning": "专注",
+        "chunk_id": "c_015_004"
+      },
+      {
+        "word": "involved",
+        "pos": "adj.",
+        "meaning": "相关的",
+        "chunk_id": "c_015_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "focus on",
+        "phrase_type": "v. phr.",
+        "meaning": "专注于",
+        "chunk_id": "c_015_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The TSA wants to enroll 25 million people in PreCheck.",
+    "difficulty": 2,
+    "translation_literal": "运输安全管理局想让 2500 万人加入 PreCheck。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "主语",
+        "english": "The TSA",
+        "chinese": "运输安全管理局",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "谓语",
+        "english": "wants to enroll",
+        "chinese": "想让……加入",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "宾语",
+        "english": "25 million people",
+        "chinese": "2500 万人",
+        "parent_id": null,
+        "target_id": "c_016_002",
+        "relation": "作 enroll 的宾语"
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "状语",
+        "english": "in PreCheck",
+        "chinese": "加入 PreCheck",
+        "parent_id": null,
+        "target_id": "c_016_002",
+        "relation": "说明 enroll 的项目"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "enroll",
+        "pos": "v.",
+        "meaning": "注册，使加入",
+        "chunk_id": "c_016_002"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "It has not gotten anywhere close to that, and one big reason is sticker shock: Passengers must pay $85 every five years to process their background checks.",
+    "difficulty": 5,
+    "translation_literal": "它还远没有接近那个目标，而一个重要原因是标价冲击：乘客必须每五年支付 85 美元来处理他们的背景审查。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "并列分句",
+        "english": "It has not gotten anywhere close to that",
+        "chinese": "它还远没有接近那个目标",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "主语",
+        "english": "It",
+        "chinese": "它",
+        "parent_id": "c_017_001",
+        "target_id": null,
+        "relation": "第一分句主语，指 PreCheck"
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "谓语",
+        "english": "has not gotten",
+        "chinese": "还没有达到",
+        "parent_id": "c_017_001",
+        "target_id": null,
+        "relation": "第一分句谓语"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "状语",
+        "english": "anywhere close to that",
+        "chinese": "接近那个目标",
+        "parent_id": "c_017_001",
+        "target_id": "c_017_003",
+        "relation": "说明 gotten 的程度"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "并列分句",
+        "english": "one big reason is sticker shock",
+        "chinese": "一个重要原因是标价冲击",
+        "parent_id": null,
+        "target_id": "c_017_001",
+        "relation": "第二分句，说明原因"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "主语",
+        "english": "one big reason",
+        "chinese": "一个重要原因",
+        "parent_id": "c_017_005",
+        "target_id": null,
+        "relation": "第二分句主语"
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_017_005",
+        "target_id": null,
+        "relation": "第二分句谓语"
+      },
+      {
+        "chunk_id": "c_017_008",
+        "role": "表语",
+        "english": "sticker shock",
+        "chinese": "标价冲击",
+        "parent_id": "c_017_005",
+        "target_id": "c_017_007",
+        "relation": "第二分句表语"
+      },
+      {
+        "chunk_id": "c_017_009",
+        "role": "同位语解释结构",
+        "english": "Passengers must pay $85 every five years to process their background checks",
+        "chinese": "乘客必须每五年支付 85 美元来处理他们的背景审查",
+        "parent_id": null,
+        "target_id": "c_017_008",
+        "relation": "冒号后解释 sticker shock 的具体内容"
+      },
+      {
+        "chunk_id": "c_017_010",
+        "role": "主语",
+        "english": "Passengers",
+        "chinese": "乘客",
+        "parent_id": "c_017_009",
+        "target_id": null,
+        "relation": "解释分句主语"
+      },
+      {
+        "chunk_id": "c_017_011",
+        "role": "谓语",
+        "english": "must pay",
+        "chinese": "必须支付",
+        "parent_id": "c_017_009",
+        "target_id": null,
+        "relation": "解释分句谓语"
+      },
+      {
+        "chunk_id": "c_017_012",
+        "role": "宾语",
+        "english": "$85",
+        "chinese": "85 美元",
+        "parent_id": "c_017_009",
+        "target_id": "c_017_011",
+        "relation": "作 pay 的宾语"
+      },
+      {
+        "chunk_id": "c_017_013",
+        "role": "状语",
+        "english": "every five years",
+        "chinese": "每五年",
+        "parent_id": "c_017_009",
+        "target_id": "c_017_011",
+        "relation": "说明 pay 的频率"
+      },
+      {
+        "chunk_id": "c_017_014",
+        "role": "状语",
+        "english": "to process their background checks",
+        "chinese": "为了处理他们的背景审查",
+        "parent_id": "c_017_009",
+        "target_id": "c_017_011",
+        "relation": "说明 pay 的目的"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "抽象名词 + 冒号解释",
+        "explanation": "冒号后说明 sticker shock 的具体价格内容。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, and B: C",
+        "explanation": "句子先并列说明现状和原因，再用冒号解释原因。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "sticker",
+        "pos": "n.",
+        "meaning": "标价",
+        "chunk_id": "c_017_008"
+      },
+      {
+        "word": "process",
+        "pos": "v.",
+        "meaning": "处理",
+        "chunk_id": "c_017_014"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "sticker shock",
+        "phrase_type": "n. phr.",
+        "meaning": "标价冲击，价格太高带来的震惊",
+        "chunk_id": "c_017_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Since the beginning, this price tag has been PreCheck’s fatal flaw.",
+    "difficulty": 3,
+    "translation_literal": "从一开始，这个价格标签就是 PreCheck 的致命缺陷。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "状语",
+        "english": "Since the beginning",
+        "chinese": "从一开始",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "主语",
+        "english": "this price tag",
+        "chinese": "这个价格标签",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "谓语",
+        "english": "has been",
+        "chinese": "一直是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "表语",
+        "english": "PreCheck’s fatal flaw",
+        "chinese": "PreCheck 的致命缺陷",
+        "parent_id": null,
+        "target_id": "c_018_003",
+        "relation": "作 has been 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "fatal",
+        "pos": "adj.",
+        "meaning": "致命的",
+        "chunk_id": "c_018_004"
+      },
+      {
+        "word": "flaw",
+        "pos": "n.",
+        "meaning": "缺陷",
+        "chunk_id": "c_018_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "price tag",
+        "phrase_type": "n. phr.",
+        "meaning": "价格标签，价格",
+        "chunk_id": "c_018_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Upcoming reforms might bring the price to a more reasonable level.",
+    "difficulty": 3,
+    "translation_literal": "即将到来的改革可能会把价格降到一个更合理的水平。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "主语",
+        "english": "Upcoming reforms",
+        "chinese": "即将到来的改革",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "谓语",
+        "english": "might bring",
+        "chinese": "可能带来",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "宾语",
+        "english": "the price",
+        "chinese": "价格",
+        "parent_id": null,
+        "target_id": "c_019_002",
+        "relation": "作 bring 的宾语"
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "宾语补足语",
+        "english": "to a more reasonable level",
+        "chinese": "到一个更合理的水平",
+        "parent_id": null,
+        "target_id": "c_019_003",
+        "relation": "说明 bring the price 的结果"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Upcoming",
+        "pos": "adj.",
+        "meaning": "即将到来的",
+        "chunk_id": "c_019_001"
+      },
+      {
+        "word": "reasonable",
+        "pos": "adj.",
+        "meaning": "合理的",
+        "chunk_id": "c_019_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "But Congress should look into doing so directly, by helping to finance PreCheck enrollment or to cut costs in other ways.",
+    "difficulty": 4,
+    "translation_literal": "但是国会应该直接研究这样做，通过帮助资助 PreCheck 注册或以其他方式削减成本。",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "主语",
+        "english": "Congress",
+        "chinese": "国会",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "谓语",
+        "english": "should look into",
+        "chinese": "应该研究",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_004",
+        "role": "宾语",
+        "english": "doing so directly",
+        "chinese": "直接这样做",
+        "parent_id": null,
+        "target_id": "c_020_003",
+        "relation": "作 look into 的宾语"
+      },
+      {
+        "chunk_id": "c_020_005",
+        "role": "状语",
+        "english": "by helping to finance PreCheck enrollment or to cut costs in other ways",
+        "chinese": "通过帮助资助 PreCheck 注册或以其他方式削减成本",
+        "parent_id": null,
+        "target_id": "c_020_003",
+        "relation": "说明 doing so 的方式"
+      },
+      {
+        "chunk_id": "c_020_006",
+        "role": "并列成分",
+        "english": "helping to finance PreCheck enrollment",
+        "chinese": "帮助资助 PreCheck 注册",
+        "parent_id": "c_020_005",
+        "target_id": null,
+        "relation": "方式状语中的第一项"
+      },
+      {
+        "chunk_id": "c_020_007",
+        "role": "并列成分",
+        "english": "to cut costs in other ways",
+        "chinese": "以其他方式削减成本",
+        "parent_id": "c_020_005",
+        "target_id": null,
+        "relation": "方式状语中的第二项"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "by doing A or to do B",
+        "explanation": "by 后两个方式并列，说明国会可以怎样降低价格。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Congress",
+        "pos": "n.",
+        "meaning": "国会",
+        "chunk_id": "c_020_002"
+      },
+      {
+        "word": "finance",
+        "pos": "v.",
+        "meaning": "资助",
+        "chunk_id": "c_020_006"
+      },
+      {
+        "word": "enrollment",
+        "pos": "n.",
+        "meaning": "注册，加入",
+        "chunk_id": "c_020_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "look into",
+        "phrase_type": "v. phr.",
+        "meaning": "调查，研究",
+        "chunk_id": "c_020_003"
+      },
+      {
+        "phrase": "cut costs",
+        "phrase_type": "v. phr.",
+        "meaning": "削减成本",
+        "chunk_id": "c_020_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_021",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The TSA cannot continue diverting resources into underused PreCheck lanes while most of the traveling public suffers in unnecessary lines.",
+    "difficulty": 5,
+    "translation_literal": "当大多数旅行公众在不必要的队伍中受苦时，运输安全管理局不能继续把资源转移到利用不足的 PreCheck 通道中。",
+    "chunks": [
+      {
+        "chunk_id": "c_021_001",
+        "role": "主语",
+        "english": "The TSA",
+        "chinese": "运输安全管理局",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_002",
+        "role": "谓语",
+        "english": "cannot continue diverting",
+        "chinese": "不能继续转移",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_003",
+        "role": "宾语",
+        "english": "resources",
+        "chinese": "资源",
+        "parent_id": null,
+        "target_id": "c_021_002",
+        "relation": "作 diverting 的宾语"
+      },
+      {
+        "chunk_id": "c_021_004",
+        "role": "状语",
+        "english": "into underused PreCheck lanes",
+        "chinese": "到利用不足的 PreCheck 通道中",
+        "parent_id": null,
+        "target_id": "c_021_002",
+        "relation": "说明 diverting 的方向"
+      },
+      {
+        "chunk_id": "c_021_005",
+        "role": "状语从句",
+        "english": "while most of the traveling public suffers in unnecessary lines",
+        "chinese": "当大多数旅行公众在不必要的队伍中受苦时",
+        "parent_id": null,
+        "target_id": "c_021_002",
+        "relation": "说明 continue diverting 的同时背景"
+      },
+      {
+        "chunk_id": "c_021_006",
+        "role": "从句主语",
+        "english": "most of the traveling public",
+        "chinese": "大多数旅行公众",
+        "parent_id": "c_021_005",
+        "target_id": null,
+        "relation": "while 从句内部主语"
+      },
+      {
+        "chunk_id": "c_021_007",
+        "role": "从句谓语",
+        "english": "suffers",
+        "chinese": "受苦",
+        "parent_id": "c_021_005",
+        "target_id": null,
+        "relation": "while 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_021_008",
+        "role": "状语",
+        "english": "in unnecessary lines",
+        "chinese": "在不必要的队伍中",
+        "parent_id": "c_021_005",
+        "target_id": "c_021_007",
+        "relation": "说明 suffers 的地点/状态"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主句 + while 从句",
+        "explanation": "while 从句不是转折，而是说明 TSA 分配资源时公众仍在排队的背景。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "diverting",
+        "pos": "v.",
+        "meaning": "转移",
+        "chunk_id": "c_021_002"
+      },
+      {
+        "word": "underused",
+        "pos": "adj.",
+        "meaning": "利用不足的",
+        "chunk_id": "c_021_004"
+      },
+      {
+        "word": "unnecessary",
+        "pos": "adj.",
+        "meaning": "不必要的",
+        "chunk_id": "c_021_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "PreCheck lanes",
+        "phrase_type": "n. phr.",
+        "meaning": "PreCheck 通道",
+        "chunk_id": "c_021_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_022",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "It is long past time to make the program work.",
+    "difficulty": 3,
+    "translation_literal": "早就该让这个项目发挥作用了。",
+    "chunks": [
+      {
+        "chunk_id": "c_022_001",
+        "role": "形式主语",
+        "english": "It",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_003",
+        "role": "表语",
+        "english": "long past time",
+        "chinese": "早就过了该做某事的时候",
+        "parent_id": null,
+        "target_id": "c_022_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_022_004",
+        "role": "真正主语",
+        "english": "to make the program work",
+        "chinese": "让这个项目发挥作用",
+        "parent_id": null,
+        "target_id": "c_022_001",
+        "relation": "真正主语，对应形式主语 It"
+      },
+      {
+        "chunk_id": "c_022_005",
+        "role": "宾语",
+        "english": "the program",
+        "chinese": "这个项目",
+        "parent_id": "c_022_004",
+        "target_id": null,
+        "relation": "make 的宾语"
+      },
+      {
+        "chunk_id": "c_022_006",
+        "role": "宾语补足语",
+        "english": "work",
+        "chinese": "发挥作用",
+        "parent_id": "c_022_004",
+        "target_id": "c_022_005",
+        "relation": "补充说明 program 的状态"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is time to do",
+        "explanation": "It 是形式主语，真正主语是不定式 to make...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "program",
+        "pos": "n.",
+        "meaning": "项目",
+        "chunk_id": "c_022_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "make ... work",
+        "phrase_type": "v. phr.",
+        "meaning": "让……发挥作用",
+        "chunk_id": "c_022_004"
+      }
+    ]
+  }
+]

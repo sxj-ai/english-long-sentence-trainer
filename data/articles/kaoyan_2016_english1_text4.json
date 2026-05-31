@@ -1,0 +1,2561 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "There will eventually come a day when The New York Times ceases to publish stories on newsprint.",
+    "difficulty": 4,
+    "translation_literal": "终将有一天，《纽约时报》会停止在新闻纸上发表报道。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "存在句",
+        "english": "There will eventually come a day",
+        "chinese": "终将有一天到来",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "从句谓语",
+        "english": "will eventually come",
+        "chinese": "终将到来",
+        "parent_id": "c_001_001",
+        "target_id": null,
+        "relation": "存在句中的谓语"
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "从句主语",
+        "english": "a day",
+        "chinese": "一天",
+        "parent_id": "c_001_001",
+        "target_id": null,
+        "relation": "存在句中的真实主语"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "定语从句",
+        "english": "when The New York Times ceases to publish stories on newsprint",
+        "chinese": "《纽约时报》停止在新闻纸上发表报道的",
+        "parent_id": "c_001_003",
+        "target_id": "c_001_003",
+        "relation": "修饰 a day"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "从句主语",
+        "english": "The New York Times",
+        "chinese": "《纽约时报》",
+        "parent_id": "c_001_004",
+        "target_id": null,
+        "relation": "when 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "从句谓语",
+        "english": "ceases to publish",
+        "chinese": "停止发表",
+        "parent_id": "c_001_004",
+        "target_id": null,
+        "relation": "when 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "从句宾语",
+        "english": "stories on newsprint",
+        "chinese": "新闻纸上的报道",
+        "parent_id": "c_001_004",
+        "target_id": "c_001_006",
+        "relation": "作 publish 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "eventually",
+        "pos": "adv.",
+        "meaning": "最终",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "word": "ceases",
+        "pos": "v.",
+        "meaning": "停止",
+        "chunk_id": "c_001_006"
+      },
+      {
+        "word": "newsprint",
+        "pos": "n.",
+        "meaning": "新闻纸",
+        "chunk_id": "c_001_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Exactly when that day will be is a matter of debate.",
+    "difficulty": 3,
+    "translation_literal": "那一天究竟会在何时，是一个有争议的问题。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语从句",
+        "english": "Exactly when that day will be",
+        "chinese": "那一天究竟会在何时",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "从句主语",
+        "english": "that day",
+        "chinese": "那一天",
+        "parent_id": "c_002_001",
+        "target_id": null,
+        "relation": "主语从句内部主语"
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "从句谓语",
+        "english": "will be",
+        "chinese": "会是",
+        "parent_id": "c_002_001",
+        "target_id": null,
+        "relation": "主语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "表语",
+        "english": "a matter of debate",
+        "chinese": "一个有争议的问题",
+        "parent_id": null,
+        "target_id": "c_002_004",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "debate",
+        "pos": "n.",
+        "meaning": "争议，辩论",
+        "chunk_id": "c_002_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "“Sometime in the future,” the paper’s publisher said back in 2010.",
+    "difficulty": 2,
+    "translation_literal": "该报出版人在2010年曾说：“未来某个时候。”",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "宾语",
+        "english": "Sometime in the future",
+        "chinese": "未来某个时候",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "主语",
+        "english": "the paper’s publisher",
+        "chinese": "该报出版人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "谓语",
+        "english": "said",
+        "chinese": "说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "状语",
+        "english": "back in 2010",
+        "chinese": "早在2010年",
+        "parent_id": null,
+        "target_id": "c_003_003",
+        "relation": "说明说话时间"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "publisher",
+        "pos": "n.",
+        "meaning": "出版人，发行人",
+        "chunk_id": "c_003_002"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Nostalgia for ink on paper and the rustle of pages aside, there’s plenty of incentive to ditch print.",
+    "difficulty": 4,
+    "translation_literal": "撇开对纸上油墨和翻页沙沙声的怀旧不谈，放弃印刷版有充足的动因。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "插入语",
+        "english": "Nostalgia for ink on paper and the rustle of pages aside",
+        "chinese": "撇开对纸上油墨和翻页声的怀旧不谈",
+        "parent_id": null,
+        "target_id": "c_004_002",
+        "relation": "独立结构，说明不考虑的情感因素"
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "存在句",
+        "english": "there is plenty of incentive to ditch print",
+        "chinese": "有充足的动因去放弃印刷版",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "有",
+        "parent_id": "c_004_002",
+        "target_id": null,
+        "relation": "存在句谓语"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "从句主语",
+        "english": "plenty of incentive to ditch print",
+        "chinese": "充足的放弃印刷版的动因",
+        "parent_id": "c_004_002",
+        "target_id": null,
+        "relation": "存在句真实主语"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "定语",
+        "english": "to ditch print",
+        "chinese": "去放弃印刷版的",
+        "parent_id": "c_004_004",
+        "target_id": "c_004_004",
+        "relation": "不定式修饰 incentive"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "名词短语 + aside",
+        "explanation": "Nostalgia... aside 是独立结构，意思是“撇开……不谈”。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Nostalgia",
+        "pos": "n.",
+        "meaning": "怀旧",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "word": "incentive",
+        "pos": "n.",
+        "meaning": "动因，激励",
+        "chunk_id": "c_004_004"
+      },
+      {
+        "word": "ditch",
+        "pos": "v.",
+        "meaning": "抛弃，放弃",
+        "chunk_id": "c_004_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The infrastructure required to make a physical newspaper — printing presses, delivery trucks — isn’t just expensive; it’s excessive at a time when online-only competitors don’t have the same set of financial constraints.",
+    "difficulty": 5,
+    "translation_literal": "制作实体报纸所需的基础设施——印刷机、送报卡车——不仅昂贵；在纯在线竞争者没有同样财务约束的时候，它还显得过度。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "The infrastructure required to make a physical newspaper",
+        "chinese": "制作实体报纸所需的基础设施",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "定语",
+        "english": "required to make a physical newspaper",
+        "chinese": "制作实体报纸所需的",
+        "parent_id": "c_005_001",
+        "target_id": "c_005_001",
+        "relation": "修饰 infrastructure"
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "插入语",
+        "english": "printing presses, delivery trucks",
+        "chinese": "印刷机、送报卡车",
+        "parent_id": "c_005_001",
+        "target_id": "c_005_001",
+        "relation": "举例说明 infrastructure"
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "并列分句",
+        "english": "is not just expensive",
+        "chinese": "不仅昂贵",
+        "parent_id": null,
+        "target_id": "c_005_001",
+        "relation": "第一并列判断"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_005_004",
+        "target_id": null,
+        "relation": "第一并列分句谓语"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "从句表语",
+        "english": "not just expensive",
+        "chinese": "不仅昂贵",
+        "parent_id": "c_005_004",
+        "target_id": "c_005_005",
+        "relation": "第一并列分句表语"
+      },
+      {
+        "chunk_id": "c_005_007",
+        "role": "并列分句",
+        "english": "it is excessive at a time when online-only competitors don’t have the same set of financial constraints",
+        "chinese": "在纯在线竞争者没有同样财务约束时它显得过度",
+        "parent_id": null,
+        "target_id": "c_005_004",
+        "relation": "第二并列判断"
+      },
+      {
+        "chunk_id": "c_005_008",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_005_007",
+        "target_id": null,
+        "relation": "第二并列分句主语"
+      },
+      {
+        "chunk_id": "c_005_009",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_005_007",
+        "target_id": null,
+        "relation": "第二并列分句谓语"
+      },
+      {
+        "chunk_id": "c_005_010",
+        "role": "从句表语",
+        "english": "excessive",
+        "chinese": "过度的",
+        "parent_id": "c_005_007",
+        "target_id": "c_005_009",
+        "relation": "第二并列分句表语"
+      },
+      {
+        "chunk_id": "c_005_011",
+        "role": "状语",
+        "english": "at a time when online-only competitors don’t have the same set of financial constraints",
+        "chinese": "在纯在线竞争者没有同样财务约束的时候",
+        "parent_id": "c_005_007",
+        "target_id": "c_005_009",
+        "relation": "说明 excessive 的时代背景"
+      },
+      {
+        "chunk_id": "c_005_012",
+        "role": "定语从句",
+        "english": "when online-only competitors don’t have the same set of financial constraints",
+        "chinese": "纯在线竞争者没有同样财务约束的",
+        "parent_id": "c_005_011",
+        "target_id": "c_005_011",
+        "relation": "修饰 a time"
+      },
+      {
+        "chunk_id": "c_005_013",
+        "role": "从句主语",
+        "english": "online-only competitors",
+        "chinese": "纯在线竞争者",
+        "parent_id": "c_005_012",
+        "target_id": null,
+        "relation": "when 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_005_014",
+        "role": "从句谓语",
+        "english": "don’t have",
+        "chinese": "没有",
+        "parent_id": "c_005_012",
+        "target_id": null,
+        "relation": "when 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_005_015",
+        "role": "从句宾语",
+        "english": "the same set of financial constraints",
+        "chinese": "同样的一套财务约束",
+        "parent_id": "c_005_012",
+        "target_id": "c_005_014",
+        "relation": "作 have 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语 + 破折号举例 + 谓语",
+        "explanation": "printing presses, delivery trucks 是破折号插入的举例说明。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "infrastructure",
+        "pos": "n.",
+        "meaning": "基础设施",
+        "chunk_id": "c_005_001"
+      },
+      {
+        "word": "excessive",
+        "pos": "adj.",
+        "meaning": "过度的",
+        "chunk_id": "c_005_010"
+      },
+      {
+        "word": "constraints",
+        "pos": "n.",
+        "meaning": "约束",
+        "chunk_id": "c_005_015"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Readers are migrating away from print anyway.",
+    "difficulty": 2,
+    "translation_literal": "无论如何，读者正在离开印刷版。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "Readers",
+        "chinese": "读者",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "are migrating away from",
+        "chinese": "正在离开",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "宾语",
+        "english": "print",
+        "chinese": "印刷版",
+        "parent_id": null,
+        "target_id": "c_006_002",
+        "relation": "作 migrate away from 的对象"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "状语",
+        "english": "anyway",
+        "chinese": "无论如何",
+        "parent_id": null,
+        "target_id": "c_006_002",
+        "relation": "说明趋势不受其他因素影响"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "migrating",
+        "pos": "v.",
+        "meaning": "迁移，转移",
+        "chunk_id": "c_006_002"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "And though print ad sales still dwarf their online and mobile counterparts, revenue from print is still declining.",
+    "difficulty": 4,
+    "translation_literal": "并且，尽管印刷广告销售额仍使在线和移动端对应收入相形见绌，印刷版收入仍在下降。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "连接成分",
+        "english": "And",
+        "chinese": "并且",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "让步状语从句",
+        "english": "though print ad sales still dwarf their online and mobile counterparts",
+        "chinese": "尽管印刷广告销售额仍远超在线和移动端对应收入",
+        "parent_id": null,
+        "target_id": "c_007_006",
+        "relation": "说明主句让步背景"
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "从句主语",
+        "english": "print ad sales",
+        "chinese": "印刷广告销售额",
+        "parent_id": "c_007_002",
+        "target_id": null,
+        "relation": "though 从句内部主语"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "从句谓语",
+        "english": "dwarf",
+        "chinese": "使相形见绌，远超",
+        "parent_id": "c_007_002",
+        "target_id": null,
+        "relation": "though 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "从句宾语",
+        "english": "their online and mobile counterparts",
+        "chinese": "其在线和移动端对应收入",
+        "parent_id": "c_007_002",
+        "target_id": "c_007_004",
+        "relation": "作 dwarf 的宾语"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "主语",
+        "english": "revenue from print",
+        "chinese": "印刷版收入",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "谓语",
+        "english": "is declining",
+        "chinese": "正在下降",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "状语",
+        "english": "still",
+        "chinese": "仍然",
+        "parent_id": null,
+        "target_id": "c_007_007",
+        "relation": "修饰 is declining"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "dwarf",
+        "pos": "v.",
+        "meaning": "使相形见绌，远超",
+        "chunk_id": "c_007_004"
+      },
+      {
+        "word": "counterparts",
+        "pos": "n.",
+        "meaning": "对应物",
+        "chunk_id": "c_007_005"
+      },
+      {
+        "word": "revenue",
+        "pos": "n.",
+        "meaning": "收入",
+        "chunk_id": "c_007_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Overhead may be high and circulation lower, but rushing to eliminate its print edition would be a mistake, says BuzzFeed CEO Jonah Peretti.",
+    "difficulty": 4,
+    "translation_literal": "BuzzFeed首席执行官乔纳·佩雷蒂说，运营开销可能很高、发行量可能较低，但急于取消其印刷版将是一个错误。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "并列分句",
+        "english": "Overhead may be high and circulation lower",
+        "chinese": "运营开销可能很高且发行量较低",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "从句主语",
+        "english": "Overhead",
+        "chinese": "运营开销",
+        "parent_id": "c_008_001",
+        "target_id": null,
+        "relation": "第一分句第一主语"
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "从句谓语",
+        "english": "may be",
+        "chinese": "可能是",
+        "parent_id": "c_008_001",
+        "target_id": null,
+        "relation": "第一分句谓语"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "从句表语",
+        "english": "high",
+        "chinese": "高的",
+        "parent_id": "c_008_001",
+        "target_id": "c_008_003",
+        "relation": "表语"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "并列成分",
+        "english": "circulation lower",
+        "chinese": "发行量较低",
+        "parent_id": "c_008_001",
+        "target_id": "c_008_001",
+        "relation": "与 Overhead may be high 并列，省略 may be"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "转折分句",
+        "english": "but rushing to eliminate its print edition would be a mistake",
+        "chinese": "但急于取消其印刷版会是错误",
+        "parent_id": null,
+        "target_id": "c_008_001",
+        "relation": "与前一分句转折"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "从句主语",
+        "english": "rushing to eliminate its print edition",
+        "chinese": "急于取消其印刷版",
+        "parent_id": "c_008_006",
+        "target_id": null,
+        "relation": "转折分句主语"
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "从句谓语",
+        "english": "would be",
+        "chinese": "会是",
+        "parent_id": "c_008_006",
+        "target_id": null,
+        "relation": "转折分句谓语"
+      },
+      {
+        "chunk_id": "c_008_009",
+        "role": "从句表语",
+        "english": "a mistake",
+        "chinese": "一个错误",
+        "parent_id": "c_008_006",
+        "target_id": "c_008_008",
+        "relation": "转折分句表语"
+      },
+      {
+        "chunk_id": "c_008_010",
+        "role": "倒装结构",
+        "english": "says BuzzFeed CEO Jonah Peretti",
+        "chinese": "BuzzFeed首席执行官乔纳·佩雷蒂说",
+        "parent_id": null,
+        "target_id": "c_008_006",
+        "relation": "句末报道结构"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "A may be high and B lower",
+        "explanation": "circulation lower 省略了 may be。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Overhead",
+        "pos": "n.",
+        "meaning": "运营开销",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "word": "circulation",
+        "pos": "n.",
+        "meaning": "发行量",
+        "chunk_id": "c_008_005"
+      },
+      {
+        "word": "eliminate",
+        "pos": "v.",
+        "meaning": "取消，淘汰",
+        "chunk_id": "c_008_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Peretti says the Times shouldn’t waste time getting out of the print business, but only if they go about doing it the right way.",
+    "difficulty": 5,
+    "translation_literal": "佩雷蒂说，《纽约时报》不应浪费时间退出印刷业务，但前提是他们以正确方式去做这件事。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "Peretti",
+        "chinese": "佩雷蒂",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "says",
+        "chinese": "说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "宾语从句",
+        "english": "the Times shouldn’t waste time getting out of the print business",
+        "chinese": "《纽约时报》不应浪费时间退出印刷业务",
+        "parent_id": null,
+        "target_id": "c_009_002",
+        "relation": "作 says 的宾语"
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "从句主语",
+        "english": "the Times",
+        "chinese": "《纽约时报》",
+        "parent_id": "c_009_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "从句谓语",
+        "english": "shouldn’t waste",
+        "chinese": "不应浪费",
+        "parent_id": "c_009_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "从句宾语",
+        "english": "time",
+        "chinese": "时间",
+        "parent_id": "c_009_003",
+        "target_id": "c_009_005",
+        "relation": "作 waste 的宾语"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "状语",
+        "english": "getting out of the print business",
+        "chinese": "退出印刷业务",
+        "parent_id": "c_009_003",
+        "target_id": "c_009_005",
+        "relation": "说明 waste time 的内容"
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "条件状语从句",
+        "english": "but only if they go about doing it the right way",
+        "chinese": "但只有当他们以正确方式去做时",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "补充限制前面建议成立的条件"
+      },
+      {
+        "chunk_id": "c_009_009",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_009_008",
+        "target_id": null,
+        "relation": "if 从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_010",
+        "role": "从句谓语",
+        "english": "go about doing",
+        "chinese": "着手做",
+        "parent_id": "c_009_008",
+        "target_id": null,
+        "relation": "if 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_011",
+        "role": "从句宾语",
+        "english": "it",
+        "chinese": "这件事",
+        "parent_id": "c_009_008",
+        "target_id": "c_009_010",
+        "relation": "作 doing 的宾语"
+      },
+      {
+        "chunk_id": "c_009_012",
+        "role": "状语",
+        "english": "the right way",
+        "chinese": "以正确方式",
+        "parent_id": "c_009_008",
+        "target_id": "c_009_010",
+        "relation": "说明做事方式"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主句 + but only if...",
+        "explanation": "but only if 引出限制条件，说明不是简单退出印刷业务，而是要用正确方式退出。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "waste",
+        "pos": "v.",
+        "meaning": "浪费",
+        "chunk_id": "c_009_005"
+      },
+      {
+        "word": "print",
+        "pos": "n.",
+        "meaning": "印刷版",
+        "chunk_id": "c_009_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "get out of",
+        "phrase_type": "v. phr.",
+        "meaning": "退出，摆脱",
+        "chunk_id": "c_009_007"
+      },
+      {
+        "phrase": "go about doing",
+        "phrase_type": "v. phr.",
+        "meaning": "着手做，处理",
+        "chunk_id": "c_009_010"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "“Figuring out a way to accelerate that transition would make sense for them,” he said, “but if you discontinue it, you’re going to have your most loyal customers really upset with you.”",
+    "difficulty": 5,
+    "translation_literal": "他说：“想出一种加速这一转型的方法对他们来说是合理的，但如果你中止它，你将会让你最忠诚的顾客非常不满。”",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "Figuring out a way to accelerate that transition",
+        "chinese": "想出一种加速这一转型的方法",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "定语",
+        "english": "to accelerate that transition",
+        "chinese": "加速这一转型的",
+        "parent_id": "c_010_001",
+        "target_id": "c_010_001",
+        "relation": "修饰 way"
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "谓语",
+        "english": "would make sense",
+        "chinese": "会有道理",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "状语",
+        "english": "for them",
+        "chinese": "对他们来说",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "说明 make sense 的对象"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "插入语",
+        "english": "he said",
+        "chinese": "他说",
+        "parent_id": null,
+        "target_id": "c_010_001",
+        "relation": "报道语插入引语中"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "转折分句",
+        "english": "but if you discontinue it, you’re going to have your most loyal customers really upset with you",
+        "chinese": "但如果你中止它你会让最忠诚顾客非常不满",
+        "parent_id": null,
+        "target_id": "c_010_001",
+        "relation": "与前一判断形成转折警告"
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "条件状语从句",
+        "english": "if you discontinue it",
+        "chinese": "如果你中止它",
+        "parent_id": "c_010_006",
+        "target_id": "c_010_008",
+        "relation": "说明顾客不满的条件"
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "从句主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_010_007",
+        "target_id": null,
+        "relation": "if 从句内部主语"
+      },
+      {
+        "chunk_id": "c_010_009",
+        "role": "从句谓语",
+        "english": "discontinue",
+        "chinese": "中止",
+        "parent_id": "c_010_007",
+        "target_id": null,
+        "relation": "if 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_010_010",
+        "role": "从句宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_010_007",
+        "target_id": "c_010_009",
+        "relation": "作 discontinue 的宾语"
+      },
+      {
+        "chunk_id": "c_010_011",
+        "role": "主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_010_006",
+        "target_id": null,
+        "relation": "转折分句主语"
+      },
+      {
+        "chunk_id": "c_010_012",
+        "role": "谓语",
+        "english": "are going to have",
+        "chinese": "将会使",
+        "parent_id": "c_010_006",
+        "target_id": null,
+        "relation": "转折分句谓语"
+      },
+      {
+        "chunk_id": "c_010_013",
+        "role": "宾语",
+        "english": "your most loyal customers",
+        "chinese": "你最忠诚的顾客",
+        "parent_id": "c_010_006",
+        "target_id": "c_010_012",
+        "relation": "作 have 的宾语"
+      },
+      {
+        "chunk_id": "c_010_014",
+        "role": "宾语补足语",
+        "english": "really upset with you",
+        "chinese": "对你非常不满",
+        "parent_id": "c_010_006",
+        "target_id": "c_010_013",
+        "relation": "补充说明 customers 的状态"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "引语 + he said + 引语",
+        "explanation": "he said 插在直接引语中间，阅读时应连接前后引语内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "accelerate",
+        "pos": "v.",
+        "meaning": "加速",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "transition",
+        "pos": "n.",
+        "meaning": "转型",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "discontinue",
+        "pos": "v.",
+        "meaning": "中止",
+        "chunk_id": "c_010_009"
+      },
+      {
+        "word": "loyal",
+        "pos": "adj.",
+        "meaning": "忠诚的",
+        "chunk_id": "c_010_013"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Sometimes that’s worth making a change anyway.",
+    "difficulty": 2,
+    "translation_literal": "有时候，无论如何那都值得做出改变。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "状语",
+        "english": "Sometimes",
+        "chinese": "有时候",
+        "parent_id": null,
+        "target_id": "c_011_003",
+        "relation": "说明频率"
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "主语",
+        "english": "that",
+        "chinese": "那",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "谓语",
+        "english": "is worth",
+        "chinese": "值得",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "宾语",
+        "english": "making a change anyway",
+        "chinese": "无论如何做出改变",
+        "parent_id": null,
+        "target_id": "c_011_003",
+        "relation": "作 worth 的宾语内容"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "worth",
+        "pos": "adj.",
+        "meaning": "值得的",
+        "chunk_id": "c_011_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Peretti gives the example of Netflix discontinuing its DVD-mailing service to focus on streaming.",
+    "difficulty": 3,
+    "translation_literal": "佩雷蒂举了Netflix停止其DVD邮寄服务以专注于流媒体的例子。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "Peretti",
+        "chinese": "佩雷蒂",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "gives",
+        "chinese": "给出",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "宾语",
+        "english": "the example of Netflix discontinuing its DVD-mailing service",
+        "chinese": "Netflix停止其DVD邮寄服务的例子",
+        "parent_id": null,
+        "target_id": "c_012_002",
+        "relation": "作 gives 的宾语"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "状语",
+        "english": "to focus on streaming",
+        "chinese": "以专注于流媒体",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "说明停止DVD邮寄服务的目的"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "discontinuing",
+        "pos": "v.",
+        "meaning": "停止",
+        "chunk_id": "c_012_003"
+      },
+      {
+        "word": "streaming",
+        "pos": "n.",
+        "meaning": "流媒体",
+        "chunk_id": "c_012_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "“It was seen as a blunder,” he said.",
+    "difficulty": 2,
+    "translation_literal": "他说：“这曾被视为一个失误。”",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "It",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "was seen as",
+        "chinese": "被视为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "宾语补足语",
+        "english": "a blunder",
+        "chinese": "一个失误",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "说明 It 被看作什么"
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "插入语",
+        "english": "he said",
+        "chinese": "他说",
+        "parent_id": null,
+        "target_id": "c_013_001",
+        "relation": "说明引语来源"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "blunder",
+        "pos": "n.",
+        "meaning": "失误，大错",
+        "chunk_id": "c_013_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The move turned out to be foresighted.",
+    "difficulty": 2,
+    "translation_literal": "这一举措后来证明是有远见的。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "The move",
+        "chinese": "这一举措",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "turned out to be",
+        "chinese": "结果证明是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "表语",
+        "english": "foresighted",
+        "chinese": "有远见的",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "作 turned out to be 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "foresighted",
+        "pos": "adj.",
+        "meaning": "有远见的",
+        "chunk_id": "c_014_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "And if Peretti were in charge at the Times?",
+    "difficulty": 2,
+    "translation_literal": "那么，如果佩雷蒂掌管《纽约时报》呢？",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "连接成分",
+        "english": "And",
+        "chinese": "那么",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "条件状语从句",
+        "english": "if Peretti were in charge at the Times",
+        "chinese": "如果佩雷蒂掌管《纽约时报》",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "从句主语",
+        "english": "Peretti",
+        "chinese": "佩雷蒂",
+        "parent_id": "c_015_002",
+        "target_id": null,
+        "relation": "if 从句内部主语"
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "从句谓语",
+        "english": "were in charge",
+        "chinese": "负责，掌管",
+        "parent_id": "c_015_002",
+        "target_id": null,
+        "relation": "if 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "状语",
+        "english": "at the Times",
+        "chinese": "在《纽约时报》",
+        "parent_id": "c_015_002",
+        "target_id": "c_015_004",
+        "relation": "说明掌管对象"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "charge",
+        "pos": "n.",
+        "meaning": "掌管，负责",
+        "chunk_id": "c_015_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "in charge",
+        "phrase_type": "adj. phr.",
+        "meaning": "负责，掌管",
+        "chunk_id": "c_015_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "“I wouldn’t pick a year to end print,” he said.",
+    "difficulty": 2,
+    "translation_literal": "他说：“我不会选定某一年结束印刷版。”",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "主语",
+        "english": "I",
+        "chinese": "我",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "谓语",
+        "english": "wouldn’t pick",
+        "chinese": "不会选择",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "宾语",
+        "english": "a year to end print",
+        "chinese": "结束印刷版的某一年",
+        "parent_id": null,
+        "target_id": "c_016_002",
+        "relation": "作 pick 的宾语"
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "插入语",
+        "english": "he said",
+        "chinese": "他说",
+        "parent_id": null,
+        "target_id": "c_016_001",
+        "relation": "说明引语来源"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "pick",
+        "pos": "v.",
+        "meaning": "选择",
+        "chunk_id": "c_016_002"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "“I would raise prices and make it into more of a legacy product.”",
+    "difficulty": 3,
+    "translation_literal": "“我会提高价格，并把它变成更像一种遗产产品的东西。”",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "I",
+        "chinese": "我",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "并列谓语",
+        "english": "would raise",
+        "chinese": "会提高",
+        "parent_id": null,
+        "target_id": "c_017_001",
+        "relation": "第一个并列谓语"
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "宾语",
+        "english": "prices",
+        "chinese": "价格",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "作 raise 的宾语"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "并列谓语",
+        "english": "make",
+        "chinese": "使变成",
+        "parent_id": null,
+        "target_id": "c_017_001",
+        "relation": "第二个并列谓语"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": "c_017_004",
+        "relation": "作 make 的宾语"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "宾语补足语",
+        "english": "into more of a legacy product",
+        "chinese": "变成更像一种遗产产品的东西",
+        "parent_id": null,
+        "target_id": "c_017_005",
+        "relation": "补充说明 it 的结果状态"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "legacy",
+        "pos": "n.",
+        "meaning": "遗产，传承物",
+        "chunk_id": "c_017_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The most loyal customers would still get the product they favor, the idea goes, and they’d feel like they were helping sustain the quality of something they believe in.",
+    "difficulty": 5,
+    "translation_literal": "这种想法是，最忠诚的顾客仍会得到他们偏爱的产品，而且他们会觉得自己在帮助维持他们所相信之物的质量。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "并列分句",
+        "english": "The most loyal customers would still get the product they favor",
+        "chinese": "最忠诚的顾客仍会得到他们偏爱的产品",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "从句主语",
+        "english": "The most loyal customers",
+        "chinese": "最忠诚的顾客",
+        "parent_id": "c_018_001",
+        "target_id": null,
+        "relation": "第一并列分句主语"
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "从句谓语",
+        "english": "would still get",
+        "chinese": "仍会得到",
+        "parent_id": "c_018_001",
+        "target_id": null,
+        "relation": "第一并列分句谓语"
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "从句宾语",
+        "english": "the product they favor",
+        "chinese": "他们偏爱的产品",
+        "parent_id": "c_018_001",
+        "target_id": "c_018_003",
+        "relation": "作 get 的宾语"
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "定语从句",
+        "english": "they favor",
+        "chinese": "他们偏爱的",
+        "parent_id": "c_018_004",
+        "target_id": "c_018_004",
+        "relation": "修饰 product"
+      },
+      {
+        "chunk_id": "c_018_006",
+        "role": "插入语",
+        "english": "the idea goes",
+        "chinese": "这种想法是",
+        "parent_id": null,
+        "target_id": "c_018_001",
+        "relation": "插入说明这是观点表述"
+      },
+      {
+        "chunk_id": "c_018_007",
+        "role": "并列分句",
+        "english": "and they would feel like they were helping sustain the quality of something they believe in",
+        "chinese": "而且他们会觉得自己在帮助维持所信之物的质量",
+        "parent_id": null,
+        "target_id": "c_018_001",
+        "relation": "与前一分句并列"
+      },
+      {
+        "chunk_id": "c_018_008",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_018_007",
+        "target_id": null,
+        "relation": "第二并列分句主语"
+      },
+      {
+        "chunk_id": "c_018_009",
+        "role": "从句谓语",
+        "english": "would feel like",
+        "chinese": "会觉得",
+        "parent_id": "c_018_007",
+        "target_id": null,
+        "relation": "第二并列分句谓语"
+      },
+      {
+        "chunk_id": "c_018_010",
+        "role": "宾语从句",
+        "english": "they were helping sustain the quality of something they believe in",
+        "chinese": "他们在帮助维持他们所信之物的质量",
+        "parent_id": "c_018_007",
+        "target_id": "c_018_009",
+        "relation": "作 feel like 的宾语"
+      },
+      {
+        "chunk_id": "c_018_011",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_018_010",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_018_012",
+        "role": "从句谓语",
+        "english": "were helping sustain",
+        "chinese": "正在帮助维持",
+        "parent_id": "c_018_010",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_018_013",
+        "role": "从句宾语",
+        "english": "the quality of something they believe in",
+        "chinese": "他们所信之物的质量",
+        "parent_id": "c_018_010",
+        "target_id": "c_018_012",
+        "relation": "作 sustain 的宾语"
+      },
+      {
+        "chunk_id": "c_018_014",
+        "role": "定语从句",
+        "english": "they believe in",
+        "chinese": "他们所相信的",
+        "parent_id": "c_018_013",
+        "target_id": "c_018_013",
+        "relation": "修饰 something"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句, the idea goes, and 主句",
+        "explanation": "the idea goes 是插入语，说明这是对策略逻辑的转述。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "loyal",
+        "pos": "adj.",
+        "meaning": "忠诚的",
+        "chunk_id": "c_018_002"
+      },
+      {
+        "word": "sustain",
+        "pos": "v.",
+        "meaning": "维持",
+        "chunk_id": "c_018_012"
+      },
+      {
+        "word": "quality",
+        "pos": "n.",
+        "meaning": "质量",
+        "chunk_id": "c_018_013"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "“So if you’re overpaying for print, you could feel like you were helping,” Peretti said.",
+    "difficulty": 4,
+    "translation_literal": "佩雷蒂说：“所以，如果你为印刷版支付过高费用，你可能会觉得自己是在帮忙。”",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "连接成分",
+        "english": "So",
+        "chinese": "所以",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "条件状语从句",
+        "english": "if you are overpaying for print",
+        "chinese": "如果你为印刷版支付过高费用",
+        "parent_id": null,
+        "target_id": "c_019_005",
+        "relation": "说明感觉自己在帮忙的条件"
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "从句主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_019_002",
+        "target_id": null,
+        "relation": "if 从句内部主语"
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "从句谓语",
+        "english": "are overpaying for",
+        "chinese": "支付过高费用",
+        "parent_id": "c_019_002",
+        "target_id": null,
+        "relation": "if 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_006",
+        "role": "谓语",
+        "english": "could feel like",
+        "chinese": "可能觉得",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_007",
+        "role": "宾语从句",
+        "english": "you were helping",
+        "chinese": "你是在帮忙",
+        "parent_id": null,
+        "target_id": "c_019_006",
+        "relation": "作 feel like 的宾语"
+      },
+      {
+        "chunk_id": "c_019_008",
+        "role": "从句主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_019_007",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_019_009",
+        "role": "从句谓语",
+        "english": "were helping",
+        "chinese": "在帮忙",
+        "parent_id": "c_019_007",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_019_010",
+        "role": "插入语",
+        "english": "Peretti said",
+        "chinese": "佩雷蒂说",
+        "parent_id": null,
+        "target_id": "c_019_005",
+        "relation": "说明引语来源"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "overpaying",
+        "pos": "v.",
+        "meaning": "支付过高费用",
+        "chunk_id": "c_019_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "“Then increase it at a higher rate each year and essentially try to generate additional revenue.”",
+    "difficulty": 3,
+    "translation_literal": "“然后每年以更高幅度提高它，并基本上试图产生额外收入。”",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "并列谓语",
+        "english": "increase",
+        "chinese": "提高",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": "c_020_001",
+        "relation": "作 increase 的宾语"
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "状语",
+        "english": "at a higher rate each year",
+        "chinese": "每年以更高幅度",
+        "parent_id": null,
+        "target_id": "c_020_001",
+        "relation": "说明提高方式"
+      },
+      {
+        "chunk_id": "c_020_004",
+        "role": "并列谓语",
+        "english": "try to generate",
+        "chinese": "试图产生",
+        "parent_id": null,
+        "target_id": "c_020_001",
+        "relation": "与 increase 并列"
+      },
+      {
+        "chunk_id": "c_020_005",
+        "role": "宾语",
+        "english": "additional revenue",
+        "chinese": "额外收入",
+        "parent_id": null,
+        "target_id": "c_020_004",
+        "relation": "作 generate 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "increase",
+        "pos": "v.",
+        "meaning": "提高",
+        "chunk_id": "c_020_001"
+      },
+      {
+        "word": "generate",
+        "pos": "v.",
+        "meaning": "产生",
+        "chunk_id": "c_020_004"
+      },
+      {
+        "word": "revenue",
+        "pos": "n.",
+        "meaning": "收入",
+        "chunk_id": "c_020_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_021",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "In other words, if you’re going to make a print product, make it for the people who are already obsessed with it.",
+    "difficulty": 4,
+    "translation_literal": "换句话说，如果你要制作印刷产品，就为那些已经对它着迷的人制作。",
+    "chunks": [
+      {
+        "chunk_id": "c_021_001",
+        "role": "状语",
+        "english": "In other words",
+        "chinese": "换句话说",
+        "parent_id": null,
+        "target_id": "c_021_003",
+        "relation": "说明后文是换一种说法"
+      },
+      {
+        "chunk_id": "c_021_002",
+        "role": "条件状语从句",
+        "english": "if you are going to make a print product",
+        "chinese": "如果你要制作印刷产品",
+        "parent_id": null,
+        "target_id": "c_021_003",
+        "relation": "说明祈使句成立的条件"
+      },
+      {
+        "chunk_id": "c_021_003",
+        "role": "从句主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_021_002",
+        "target_id": null,
+        "relation": "if 从句内部主语"
+      },
+      {
+        "chunk_id": "c_021_004",
+        "role": "从句谓语",
+        "english": "are going to make",
+        "chinese": "将要制作",
+        "parent_id": "c_021_002",
+        "target_id": null,
+        "relation": "if 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_021_005",
+        "role": "从句宾语",
+        "english": "a print product",
+        "chinese": "一种印刷产品",
+        "parent_id": "c_021_002",
+        "target_id": "c_021_004",
+        "relation": "作 make 的宾语"
+      },
+      {
+        "chunk_id": "c_021_006",
+        "role": "祈使句",
+        "english": "make it for the people who are already obsessed with it",
+        "chinese": "为那些已经对它着迷的人制作它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_007",
+        "role": "谓语",
+        "english": "make",
+        "chinese": "制作",
+        "parent_id": "c_021_006",
+        "target_id": null,
+        "relation": "祈使句谓语"
+      },
+      {
+        "chunk_id": "c_021_008",
+        "role": "宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_021_006",
+        "target_id": "c_021_007",
+        "relation": "作 make 的宾语"
+      },
+      {
+        "chunk_id": "c_021_009",
+        "role": "状语",
+        "english": "for the people who are already obsessed with it",
+        "chinese": "为那些已经对它着迷的人",
+        "parent_id": "c_021_006",
+        "target_id": "c_021_007",
+        "relation": "说明制作对象"
+      },
+      {
+        "chunk_id": "c_021_010",
+        "role": "定语从句",
+        "english": "who are already obsessed with it",
+        "chinese": "已经对它着迷的",
+        "parent_id": "c_021_009",
+        "target_id": "c_021_009",
+        "relation": "修饰 people"
+      },
+      {
+        "chunk_id": "c_021_011",
+        "role": "从句主语",
+        "english": "who",
+        "chinese": "这些人",
+        "parent_id": "c_021_010",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_021_012",
+        "role": "从句谓语",
+        "english": "are obsessed with",
+        "chinese": "对……着迷",
+        "parent_id": "c_021_010",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_021_013",
+        "role": "从句宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_021_010",
+        "target_id": "c_021_012",
+        "relation": "作 obsessed with 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "obsessed",
+        "pos": "adj.",
+        "meaning": "着迷的",
+        "chunk_id": "c_021_012"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "in other words",
+        "phrase_type": "adv. phr.",
+        "meaning": "换句话说",
+        "chunk_id": "c_021_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_022",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Which may be what the Times is doing already.",
+    "difficulty": 3,
+    "translation_literal": "这可能正是《纽约时报》已经在做的事。",
+    "chunks": [
+      {
+        "chunk_id": "c_022_001",
+        "role": "主语",
+        "english": "Which",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_002",
+        "role": "谓语",
+        "english": "may be",
+        "chinese": "可能是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_003",
+        "role": "表语从句",
+        "english": "what the Times is doing already",
+        "chinese": "《纽约时报》已经在做的事",
+        "parent_id": null,
+        "target_id": "c_022_002",
+        "relation": "作 may be 的表语"
+      },
+      {
+        "chunk_id": "c_022_004",
+        "role": "从句主语",
+        "english": "the Times",
+        "chinese": "《纽约时报》",
+        "parent_id": "c_022_003",
+        "target_id": null,
+        "relation": "what 表语从句内部主语"
+      },
+      {
+        "chunk_id": "c_022_005",
+        "role": "从句谓语",
+        "english": "is doing",
+        "chinese": "正在做",
+        "parent_id": "c_022_003",
+        "target_id": null,
+        "relation": "what 表语从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_023",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Getting the print edition seven days a week costs nearly $500 a year — more than twice as much as a digital-only subscription.",
+    "difficulty": 3,
+    "translation_literal": "每周七天获得印刷版每年花费近500美元，是纯数字订阅费用的两倍多。",
+    "chunks": [
+      {
+        "chunk_id": "c_023_001",
+        "role": "主语",
+        "english": "Getting the print edition seven days a week",
+        "chinese": "每周七天获得印刷版",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_023_002",
+        "role": "谓语",
+        "english": "costs",
+        "chinese": "花费",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_023_003",
+        "role": "宾语",
+        "english": "nearly $500 a year",
+        "chinese": "每年近500美元",
+        "parent_id": null,
+        "target_id": "c_023_002",
+        "relation": "作 costs 的宾语"
+      },
+      {
+        "chunk_id": "c_023_004",
+        "role": "同位语解释结构",
+        "english": "more than twice as much as a digital-only subscription",
+        "chinese": "是纯数字订阅费用的两倍多",
+        "parent_id": "c_023_003",
+        "target_id": "c_023_003",
+        "relation": "破折号后补充说明价格水平"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "edition",
+        "pos": "n.",
+        "meaning": "版本",
+        "chunk_id": "c_023_001"
+      },
+      {
+        "word": "subscription",
+        "pos": "n.",
+        "meaning": "订阅",
+        "chunk_id": "c_023_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_024",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "“It’s a really hard thing to do and it’s a tremendous luxury that BuzzFeed doesn’t have a legacy business,” Peretti remarked.",
+    "difficulty": 5,
+    "translation_literal": "佩雷蒂评论道：“这是一件非常难做的事，而且BuzzFeed没有传统业务是一个巨大的奢侈。”",
+    "chunks": [
+      {
+        "chunk_id": "c_024_001",
+        "role": "并列分句",
+        "english": "It is a really hard thing to do",
+        "chinese": "这是一件非常难做的事",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_024_002",
+        "role": "从句主语",
+        "english": "It",
+        "chinese": "这",
+        "parent_id": "c_024_001",
+        "target_id": null,
+        "relation": "第一并列分句主语"
+      },
+      {
+        "chunk_id": "c_024_003",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_024_001",
+        "target_id": null,
+        "relation": "第一并列分句谓语"
+      },
+      {
+        "chunk_id": "c_024_004",
+        "role": "从句表语",
+        "english": "a really hard thing to do",
+        "chinese": "一件非常难做的事",
+        "parent_id": "c_024_001",
+        "target_id": "c_024_003",
+        "relation": "第一并列分句表语"
+      },
+      {
+        "chunk_id": "c_024_005",
+        "role": "并列分句",
+        "english": "and it is a tremendous luxury that BuzzFeed doesn’t have a legacy business",
+        "chinese": "而且BuzzFeed没有传统业务是一种巨大奢侈",
+        "parent_id": null,
+        "target_id": "c_024_001",
+        "relation": "第二并列分句"
+      },
+      {
+        "chunk_id": "c_024_006",
+        "role": "形式主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": "c_024_005",
+        "target_id": "c_024_008",
+        "relation": "第二并列分句形式主语"
+      },
+      {
+        "chunk_id": "c_024_007",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_024_005",
+        "target_id": null,
+        "relation": "第二并列分句谓语"
+      },
+      {
+        "chunk_id": "c_024_008",
+        "role": "表语",
+        "english": "a tremendous luxury",
+        "chinese": "一种巨大奢侈",
+        "parent_id": "c_024_005",
+        "target_id": "c_024_007",
+        "relation": "第二并列分句表语"
+      },
+      {
+        "chunk_id": "c_024_009",
+        "role": "真正主语从句",
+        "english": "that BuzzFeed doesn’t have a legacy business",
+        "chinese": "BuzzFeed没有传统业务",
+        "parent_id": "c_024_005",
+        "target_id": "c_024_006",
+        "relation": "真正主语，对应 it"
+      },
+      {
+        "chunk_id": "c_024_010",
+        "role": "从句主语",
+        "english": "BuzzFeed",
+        "chinese": "BuzzFeed",
+        "parent_id": "c_024_009",
+        "target_id": null,
+        "relation": "真正主语从句内部主语"
+      },
+      {
+        "chunk_id": "c_024_011",
+        "role": "从句谓语",
+        "english": "doesn’t have",
+        "chinese": "没有",
+        "parent_id": "c_024_009",
+        "target_id": null,
+        "relation": "真正主语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_024_012",
+        "role": "从句宾语",
+        "english": "a legacy business",
+        "chinese": "传统业务",
+        "parent_id": "c_024_009",
+        "target_id": "c_024_011",
+        "relation": "作 have 的宾语"
+      },
+      {
+        "chunk_id": "c_024_013",
+        "role": "插入语",
+        "english": "Peretti remarked",
+        "chinese": "佩雷蒂评论道",
+        "parent_id": null,
+        "target_id": "c_024_001",
+        "relation": "说明引语来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "it is + n. + that 从句",
+        "explanation": "第二个 it 是形式主语，真正主语是 that BuzzFeed doesn’t have a legacy business。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "tremendous",
+        "pos": "adj.",
+        "meaning": "巨大的",
+        "chunk_id": "c_024_008"
+      },
+      {
+        "word": "luxury",
+        "pos": "n.",
+        "meaning": "奢侈，难得优势",
+        "chunk_id": "c_024_008"
+      },
+      {
+        "word": "legacy",
+        "pos": "n.",
+        "meaning": "传统遗留",
+        "chunk_id": "c_024_012"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_025",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "“But we’re going to have questions like that where we have things we’re doing that don’t make sense when the market changes and the world changes.",
+    "difficulty": 5,
+    "translation_literal": "“但我们将会遇到类似那样的问题，在那些问题中，我们有一些正在做的事情，而当市场和世界发生变化时，这些事情不再有意义。”",
+    "chunks": [
+      {
+        "chunk_id": "c_025_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_025_002",
+        "role": "主语",
+        "english": "we",
+        "chinese": "我们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_025_003",
+        "role": "谓语",
+        "english": "are going to have",
+        "chinese": "将会有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_025_004",
+        "role": "宾语",
+        "english": "questions like that",
+        "chinese": "类似那样的问题",
+        "parent_id": null,
+        "target_id": "c_025_003",
+        "relation": "作 have 的宾语"
+      },
+      {
+        "chunk_id": "c_025_005",
+        "role": "定语从句",
+        "english": "where we have things we’re doing that don’t make sense when the market changes and the world changes",
+        "chinese": "在那些问题中我们有正在做但在市场和世界变化时不再有意义的事情",
+        "parent_id": "c_025_004",
+        "target_id": "c_025_004",
+        "relation": "修饰 questions"
+      },
+      {
+        "chunk_id": "c_025_006",
+        "role": "从句主语",
+        "english": "we",
+        "chinese": "我们",
+        "parent_id": "c_025_005",
+        "target_id": null,
+        "relation": "where 从句内部主语"
+      },
+      {
+        "chunk_id": "c_025_007",
+        "role": "从句谓语",
+        "english": "have",
+        "chinese": "有",
+        "parent_id": "c_025_005",
+        "target_id": null,
+        "relation": "where 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_025_008",
+        "role": "从句宾语",
+        "english": "things we’re doing that don’t make sense when the market changes and the world changes",
+        "chinese": "我们正在做但在市场和世界变化时不再有意义的事情",
+        "parent_id": "c_025_005",
+        "target_id": "c_025_007",
+        "relation": "作 have 的宾语"
+      },
+      {
+        "chunk_id": "c_025_009",
+        "role": "定语从句",
+        "english": "we’re doing",
+        "chinese": "我们正在做的",
+        "parent_id": "c_025_008",
+        "target_id": "c_025_008",
+        "relation": "修饰 things"
+      },
+      {
+        "chunk_id": "c_025_010",
+        "role": "定语从句",
+        "english": "that don’t make sense when the market changes and the world changes",
+        "chinese": "在市场和世界变化时不再有意义的",
+        "parent_id": "c_025_008",
+        "target_id": "c_025_008",
+        "relation": "修饰 things"
+      },
+      {
+        "chunk_id": "c_025_011",
+        "role": "从句主语",
+        "english": "that",
+        "chinese": "这些事情",
+        "parent_id": "c_025_010",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_025_012",
+        "role": "从句谓语",
+        "english": "don’t make sense",
+        "chinese": "没有意义",
+        "parent_id": "c_025_010",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_025_013",
+        "role": "状语从句",
+        "english": "when the market changes and the world changes",
+        "chinese": "当市场和世界发生变化时",
+        "parent_id": "c_025_010",
+        "target_id": "c_025_012",
+        "relation": "说明没有意义的时间条件"
+      },
+      {
+        "chunk_id": "c_025_014",
+        "role": "从句主语",
+        "english": "the market and the world",
+        "chinese": "市场和世界",
+        "parent_id": "c_025_013",
+        "target_id": null,
+        "relation": "when 从句内部并列主语"
+      },
+      {
+        "chunk_id": "c_025_015",
+        "role": "从句谓语",
+        "english": "change",
+        "chinese": "变化",
+        "parent_id": "c_025_013",
+        "target_id": null,
+        "relation": "when 从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "things + 定语从句 + 定语从句 + when 从句",
+        "explanation": "things 后连续接多个修饰结构，是本句理解难点。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "questions",
+        "pos": "n.",
+        "meaning": "问题",
+        "chunk_id": "c_025_004"
+      },
+      {
+        "word": "sense",
+        "pos": "n.",
+        "meaning": "意义，道理",
+        "chunk_id": "c_025_012"
+      },
+      {
+        "word": "market",
+        "pos": "n.",
+        "meaning": "市场",
+        "chunk_id": "c_025_014"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "make sense",
+        "phrase_type": "v. phr.",
+        "meaning": "有意义，讲得通",
+        "chunk_id": "c_025_012"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_026",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "In those situations, it’s better to be more aggressive than less aggressive.”",
+    "difficulty": 3,
+    "translation_literal": "在那些情况下，更激进比不那么激进更好。",
+    "chunks": [
+      {
+        "chunk_id": "c_026_001",
+        "role": "状语",
+        "english": "In those situations",
+        "chinese": "在那些情况下",
+        "parent_id": null,
+        "target_id": "c_026_004",
+        "relation": "说明判断适用场景"
+      },
+      {
+        "chunk_id": "c_026_002",
+        "role": "形式主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": "c_026_005",
+        "relation": "形式主语"
+      },
+      {
+        "chunk_id": "c_026_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_026_004",
+        "role": "表语",
+        "english": "better",
+        "chinese": "更好",
+        "parent_id": null,
+        "target_id": "c_026_003",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_026_005",
+        "role": "真正主语",
+        "english": "to be more aggressive than less aggressive",
+        "chinese": "更激进而不是不那么激进",
+        "parent_id": null,
+        "target_id": "c_026_002",
+        "relation": "真正主语，对应 it"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "it is + adj. + to do",
+        "explanation": "it 是形式主语，真正主语是 to be more aggressive...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "situations",
+        "pos": "n.",
+        "meaning": "情况",
+        "chunk_id": "c_026_001"
+      },
+      {
+        "word": "aggressive",
+        "pos": "adj.",
+        "meaning": "激进的，进取的",
+        "chunk_id": "c_026_005"
+      }
+    ],
+    "key_phrases": []
+  }
+]

@@ -1,0 +1,2296 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Any fair-minded assessment of the dangers of the deal between Britain’s National Health Service (NHS) and DeepMind must start by acknowledging that both sides mean well.",
+    "difficulty": 5,
+    "translation_literal": "任何对英国国家医疗服务体系和 DeepMind 之间交易危险的公正评估，都必须从承认双方本意良好开始。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "Any fair-minded assessment of the dangers of the deal between Britain’s National Health Service (NHS) and DeepMind",
+        "chinese": "任何对英国国家医疗服务体系和 DeepMind 之间交易危险的公正评估",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "定语",
+        "english": "of the dangers of the deal between Britain’s National Health Service (NHS) and DeepMind",
+        "chinese": "关于英国国家医疗服务体系和 DeepMind 之间交易危险的",
+        "parent_id": "c_001_001",
+        "target_id": "c_001_001",
+        "relation": "修饰 assessment"
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "谓语",
+        "english": "must start",
+        "chinese": "必须开始",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "状语",
+        "english": "by acknowledging that both sides mean well",
+        "chinese": "通过承认双方本意良好",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "说明 start 的方式"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "宾语从句",
+        "english": "that both sides mean well",
+        "chinese": "双方本意良好",
+        "parent_id": "c_001_004",
+        "target_id": "c_001_004",
+        "relation": "作 acknowledging 的宾语"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "从句主语",
+        "english": "both sides",
+        "chinese": "双方",
+        "parent_id": "c_001_005",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "从句谓语",
+        "english": "mean",
+        "chinese": "本意是",
+        "parent_id": "c_001_005",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_001_008",
+        "role": "从句宾语",
+        "english": "well",
+        "chinese": "好的",
+        "parent_id": "c_001_005",
+        "target_id": "c_001_007",
+        "relation": "作 mean 的补足内容"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "长主语 + must start + by doing + that 从句",
+        "explanation": "主语被多层 of 短语拉长，主干是 assessment must start。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "fair-minded",
+        "pos": "adj.",
+        "meaning": "公正的",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "assessment",
+        "pos": "n.",
+        "meaning": "评估",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "acknowledging",
+        "pos": "v.",
+        "meaning": "承认",
+        "chunk_id": "c_001_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "DeepMind is one of the leading artificial intelligence (AI) companies in the world.",
+    "difficulty": 3,
+    "translation_literal": "DeepMind 是世界领先的人工智能公司之一。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "DeepMind",
+        "chinese": "DeepMind",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "表语",
+        "english": "one of the leading artificial intelligence (AI) companies in the world",
+        "chinese": "世界领先的人工智能公司之一",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "leading",
+        "pos": "adj.",
+        "meaning": "领先的",
+        "chunk_id": "c_002_003"
+      },
+      {
+        "word": "artificial",
+        "pos": "adj.",
+        "meaning": "人工的",
+        "chunk_id": "c_002_003"
+      },
+      {
+        "word": "intelligence",
+        "pos": "n.",
+        "meaning": "智能",
+        "chunk_id": "c_002_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "artificial intelligence",
+        "phrase_type": "n. phr.",
+        "meaning": "人工智能",
+        "chunk_id": "c_002_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The potential of this work applied to healthcare is very great, but it could also lead to further concentration of power in the tech giants.",
+    "difficulty": 5,
+    "translation_literal": "这项工作应用于医疗保健的潜力非常巨大，但它也可能导致权力在科技巨头中进一步集中。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "并列分句",
+        "english": "The potential of this work applied to healthcare is very great",
+        "chinese": "这项工作应用于医疗保健的潜力非常巨大",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "主语",
+        "english": "The potential of this work applied to healthcare",
+        "chinese": "这项工作应用于医疗保健的潜力",
+        "parent_id": "c_003_001",
+        "target_id": null,
+        "relation": "第一分句主语"
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "定语",
+        "english": "applied to healthcare",
+        "chinese": "应用于医疗保健的",
+        "parent_id": "c_003_002",
+        "target_id": "c_003_002",
+        "relation": "修饰 this work"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_003_001",
+        "target_id": null,
+        "relation": "第一分句谓语"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "表语",
+        "english": "very great",
+        "chinese": "非常巨大",
+        "parent_id": "c_003_001",
+        "target_id": "c_003_004",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "并列分句",
+        "english": "but it could also lead to further concentration of power in the tech giants",
+        "chinese": "但它也可能导致权力在科技巨头中进一步集中",
+        "parent_id": null,
+        "target_id": "c_003_001",
+        "relation": "转折分句"
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_003_006",
+        "target_id": null,
+        "relation": "转折分句主语"
+      },
+      {
+        "chunk_id": "c_003_008",
+        "role": "谓语",
+        "english": "could also lead to",
+        "chinese": "也可能导致",
+        "parent_id": "c_003_006",
+        "target_id": null,
+        "relation": "转折分句谓语"
+      },
+      {
+        "chunk_id": "c_003_009",
+        "role": "宾语",
+        "english": "further concentration of power in the tech giants",
+        "chinese": "权力在科技巨头中进一步集中",
+        "parent_id": "c_003_006",
+        "target_id": "c_003_008",
+        "relation": "作 lead to 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A is great, but B could lead to...",
+        "explanation": "but 连接潜力和风险两面。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "potential",
+        "pos": "n.",
+        "meaning": "潜力",
+        "chunk_id": "c_003_002"
+      },
+      {
+        "word": "concentration",
+        "pos": "n.",
+        "meaning": "集中",
+        "chunk_id": "c_003_009"
+      },
+      {
+        "word": "giants",
+        "pos": "n.",
+        "meaning": "巨头",
+        "chunk_id": "c_003_009"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "It is against that background that the information commissioner, Elizabeth Denham, has issued her damning verdict against the Royal Free hospital trust under the NHS, which handed over to DeepMind the records of 1.6 million patients in 2015 on the basis of a vague agreement which took far too little account of the patients’ rights and their expectations of privacy.",
+    "difficulty": 5,
+    "translation_literal": "正是在这样的背景下，信息专员伊丽莎白·德纳姆对 NHS 旗下皇家自由医院信托作出了严厉裁定；该信托在 2015 年基于一项含糊协议把 160 万患者的记录交给 DeepMind，而该协议远远没有充分考虑患者权利及其隐私期待。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "强调结构",
+        "english": "It is against that background that the information commissioner, Elizabeth Denham, has issued her damning verdict against the Royal Free hospital trust under the NHS",
+        "chinese": "正是在这样的背景下，信息专员伊丽莎白·德纳姆作出了严厉裁定",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "被强调部分",
+        "english": "against that background",
+        "chinese": "在这样的背景下",
+        "parent_id": "c_004_001",
+        "target_id": null,
+        "relation": "强调句中被强调的状语"
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "主语",
+        "english": "the information commissioner, Elizabeth Denham",
+        "chinese": "信息专员伊丽莎白·德纳姆",
+        "parent_id": "c_004_001",
+        "target_id": null,
+        "relation": "强调句还原后的主句主语"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "同位语",
+        "english": "Elizabeth Denham",
+        "chinese": "伊丽莎白·德纳姆",
+        "parent_id": "c_004_003",
+        "target_id": "c_004_003",
+        "relation": "解释 information commissioner"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "谓语",
+        "english": "has issued",
+        "chinese": "已经作出",
+        "parent_id": "c_004_001",
+        "target_id": null,
+        "relation": "强调句还原后的谓语"
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "宾语",
+        "english": "her damning verdict against the Royal Free hospital trust under the NHS",
+        "chinese": "她对 NHS 旗下皇家自由医院信托的严厉裁定",
+        "parent_id": "c_004_001",
+        "target_id": "c_004_005",
+        "relation": "作 issued 的宾语"
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "定语从句",
+        "english": "which handed over to DeepMind the records of 1.6 million patients in 2015 on the basis of a vague agreement",
+        "chinese": "该信托在 2015 年基于一项含糊协议把 160 万患者记录交给 DeepMind",
+        "parent_id": "c_004_006",
+        "target_id": "c_004_006",
+        "relation": "修饰 Royal Free hospital trust"
+      },
+      {
+        "chunk_id": "c_004_008",
+        "role": "定语从句主语",
+        "english": "which",
+        "chinese": "该信托",
+        "parent_id": "c_004_007",
+        "target_id": null,
+        "relation": "which 从句内部主语"
+      },
+      {
+        "chunk_id": "c_004_009",
+        "role": "定语从句谓语",
+        "english": "handed over",
+        "chinese": "交出",
+        "parent_id": "c_004_007",
+        "target_id": null,
+        "relation": "which 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_004_010",
+        "role": "定语从句宾语",
+        "english": "the records of 1.6 million patients",
+        "chinese": "160 万患者的记录",
+        "parent_id": "c_004_007",
+        "target_id": "c_004_009",
+        "relation": "作 handed over 的宾语"
+      },
+      {
+        "chunk_id": "c_004_011",
+        "role": "状语",
+        "english": "to DeepMind",
+        "chinese": "给 DeepMind",
+        "parent_id": "c_004_007",
+        "target_id": "c_004_009",
+        "relation": "说明 handed over 的对象"
+      },
+      {
+        "chunk_id": "c_004_012",
+        "role": "状语",
+        "english": "on the basis of a vague agreement",
+        "chinese": "基于一项含糊协议",
+        "parent_id": "c_004_007",
+        "target_id": "c_004_009",
+        "relation": "说明 handed over 的依据"
+      },
+      {
+        "chunk_id": "c_004_013",
+        "role": "定语从句",
+        "english": "which took far too little account of the patients’ rights and their expectations of privacy",
+        "chinese": "该协议远远没有充分考虑患者权利及其隐私期待",
+        "parent_id": "c_004_012",
+        "target_id": "c_004_012",
+        "relation": "修饰 agreement"
+      },
+      {
+        "chunk_id": "c_004_014",
+        "role": "定语从句主语",
+        "english": "which",
+        "chinese": "该协议",
+        "parent_id": "c_004_013",
+        "target_id": null,
+        "relation": "which 从句内部主语"
+      },
+      {
+        "chunk_id": "c_004_015",
+        "role": "定语从句谓语",
+        "english": "took",
+        "chinese": "考虑",
+        "parent_id": "c_004_013",
+        "target_id": null,
+        "relation": "which 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_004_016",
+        "role": "从句宾语",
+        "english": "far too little account of the patients’ rights and their expectations of privacy",
+        "chinese": "对患者权利及其隐私期待远远太少的考虑",
+        "parent_id": "c_004_013",
+        "target_id": "c_004_015",
+        "relation": "作 took 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "强调句",
+        "pattern_form": "It is + 被强调状语 + that + 句子",
+        "explanation": "强调 against that background，去掉 It is...that 后主干仍完整。"
+      },
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "强调句 + which 从句 + which 从句",
+        "explanation": "句中连续两个 which 从句，分别修饰 trust 和 agreement。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "commissioner",
+        "pos": "n.",
+        "meaning": "专员",
+        "chunk_id": "c_004_003"
+      },
+      {
+        "word": "damning",
+        "pos": "adj.",
+        "meaning": "严厉批评的",
+        "chunk_id": "c_004_006"
+      },
+      {
+        "word": "verdict",
+        "pos": "n.",
+        "meaning": "裁定",
+        "chunk_id": "c_004_006"
+      },
+      {
+        "word": "vague",
+        "pos": "adj.",
+        "meaning": "含糊的",
+        "chunk_id": "c_004_012"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "hand over",
+        "phrase_type": "v. phr.",
+        "meaning": "移交，交出",
+        "chunk_id": "c_004_009"
+      },
+      {
+        "phrase": "take account of",
+        "phrase_type": "v. phr.",
+        "meaning": "考虑",
+        "chunk_id": "c_004_015"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "DeepMind has almost apologized.",
+    "difficulty": 2,
+    "translation_literal": "DeepMind 几乎已经道歉了。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "DeepMind",
+        "chinese": "DeepMind",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "状语",
+        "english": "almost",
+        "chinese": "几乎",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "谓语",
+        "english": "has apologized",
+        "chinese": "已经道歉",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "almost",
+        "pos": "adv.",
+        "meaning": "几乎",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "apologized",
+        "pos": "v.",
+        "meaning": "道歉",
+        "chunk_id": "c_005_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The NHS trust has mended its ways.",
+    "difficulty": 3,
+    "translation_literal": "NHS 信托已经改正了自己的做法。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "The NHS trust",
+        "chinese": "NHS 信托",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "has mended",
+        "chinese": "已经改正",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "宾语",
+        "english": "its ways",
+        "chinese": "自己的做法",
+        "parent_id": null,
+        "target_id": "c_006_002",
+        "relation": "作 mended 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "mended",
+        "pos": "v.",
+        "meaning": "改正，修补",
+        "chunk_id": "c_006_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "mend one’s ways",
+        "phrase_type": "idiom",
+        "meaning": "改正做法，改过自新",
+        "chunk_id": "c_006_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Further arrangements — and there may be many — between the NHS and DeepMind will be carefully scrutinised to ensure that all necessary permissions have been asked of patients and all unnecessary data has been cleaned.",
+    "difficulty": 5,
+    "translation_literal": "NHS 和 DeepMind 之间的进一步安排——而且可能会有很多——将被仔细审查，以确保已经向患者请求所有必要许可，并且所有不必要数据都已被清理。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "Further arrangements between the NHS and DeepMind",
+        "chinese": "NHS 和 DeepMind 之间的进一步安排",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "插入语",
+        "english": "and there may be many",
+        "chinese": "而且可能会有很多",
+        "parent_id": null,
+        "target_id": "c_007_001",
+        "relation": "补充说明 arrangements 的数量可能很多"
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "谓语",
+        "english": "will be carefully scrutinised",
+        "chinese": "将被仔细审查",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "状语",
+        "english": "to ensure that all necessary permissions have been asked of patients and all unnecessary data has been cleaned",
+        "chinese": "以确保已经向患者请求所有必要许可，并且所有不必要数据都已被清理",
+        "parent_id": null,
+        "target_id": "c_007_003",
+        "relation": "说明 scrutinised 的目的"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "宾语从句",
+        "english": "that all necessary permissions have been asked of patients and all unnecessary data has been cleaned",
+        "chinese": "已经向患者请求所有必要许可，并且所有不必要数据都已被清理",
+        "parent_id": "c_007_004",
+        "target_id": "c_007_004",
+        "relation": "作 ensure 的宾语"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "并列分句",
+        "english": "all necessary permissions have been asked of patients",
+        "chinese": "已经向患者请求所有必要许可",
+        "parent_id": "c_007_005",
+        "target_id": null,
+        "relation": "that 从句第一并列分句"
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "主语",
+        "english": "all necessary permissions",
+        "chinese": "所有必要许可",
+        "parent_id": "c_007_006",
+        "target_id": null,
+        "relation": "第一并列分句主语"
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "谓语",
+        "english": "have been asked",
+        "chinese": "已经被请求",
+        "parent_id": "c_007_006",
+        "target_id": null,
+        "relation": "第一并列分句谓语"
+      },
+      {
+        "chunk_id": "c_007_009",
+        "role": "并列分句",
+        "english": "all unnecessary data has been cleaned",
+        "chinese": "所有不必要数据都已被清理",
+        "parent_id": "c_007_005",
+        "target_id": null,
+        "relation": "that 从句第二并列分句"
+      },
+      {
+        "chunk_id": "c_007_010",
+        "role": "主语",
+        "english": "all unnecessary data",
+        "chinese": "所有不必要数据",
+        "parent_id": "c_007_009",
+        "target_id": null,
+        "relation": "第二并列分句主语"
+      },
+      {
+        "chunk_id": "c_007_011",
+        "role": "谓语",
+        "english": "has been cleaned",
+        "chinese": "已经被清理",
+        "parent_id": "c_007_009",
+        "target_id": null,
+        "relation": "第二并列分句谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号中插入数量说明",
+        "explanation": "and there may be many 插入主语内部，主干是 arrangements will be scrutinised。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "that A and B",
+        "explanation": "ensure 后 that 从句中两个被动分句并列。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "arrangements",
+        "pos": "n.",
+        "meaning": "安排",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "scrutinised",
+        "pos": "v.",
+        "meaning": "仔细审查",
+        "chunk_id": "c_007_003"
+      },
+      {
+        "word": "permissions",
+        "pos": "n.",
+        "meaning": "许可",
+        "chunk_id": "c_007_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "There are lessons about informed patient consent to learn.",
+    "difficulty": 3,
+    "translation_literal": "有关于知情患者同意的教训需要吸取。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "存在句",
+        "english": "There are lessons about informed patient consent to learn",
+        "chinese": "有关于知情患者同意的教训需要吸取",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "主语",
+        "english": "lessons about informed patient consent",
+        "chinese": "关于知情患者同意的教训",
+        "parent_id": "c_008_001",
+        "target_id": null,
+        "relation": "there be 结构真实主语"
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "定语",
+        "english": "to learn",
+        "chinese": "要学习/吸取的",
+        "parent_id": "c_008_002",
+        "target_id": "c_008_002",
+        "relation": "修饰 lessons"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "informed",
+        "pos": "adj.",
+        "meaning": "知情的",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "word": "consent",
+        "pos": "n.",
+        "meaning": "同意",
+        "chunk_id": "c_008_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "patient consent",
+        "phrase_type": "n. phr.",
+        "meaning": "患者同意",
+        "chunk_id": "c_008_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "But privacy is not the only angle in this case and not even the most important.",
+    "difficulty": 4,
+    "translation_literal": "但隐私不是这个案例中唯一的角度，甚至不是最重要的角度。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "主语",
+        "english": "privacy",
+        "chinese": "隐私",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "谓语",
+        "english": "is not",
+        "chinese": "不是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "表语",
+        "english": "the only angle in this case",
+        "chinese": "这个案例中唯一的角度",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "作 is not 的表语"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "并列表语",
+        "english": "and not even the most important",
+        "chinese": "甚至也不是最重要的角度",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "与 the only angle 并列"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "privacy",
+        "pos": "n.",
+        "meaning": "隐私",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "angle",
+        "pos": "n.",
+        "meaning": "角度",
+        "chunk_id": "c_009_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Ms Denham chose to concentrate the blame on the NHS trust, since under existing law it “controlled” the data and DeepMind merely “processed” it.",
+    "difficulty": 5,
+    "translation_literal": "德纳姆女士选择把责任集中在 NHS 信托上，因为根据现行法律，它“控制”数据，而 DeepMind 只是“处理”数据。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "Ms Denham",
+        "chinese": "德纳姆女士",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "chose",
+        "chinese": "选择",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "宾语",
+        "english": "to concentrate the blame on the NHS trust",
+        "chinese": "把责任集中在 NHS 信托上",
+        "parent_id": "c_010_002",
+        "target_id": "c_010_002",
+        "relation": "作 chose 的宾语"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "原因状语从句",
+        "english": "since under existing law it “controlled” the data and DeepMind merely “processed” it",
+        "chinese": "因为根据现行法律，它控制数据，而 DeepMind 只是处理数据",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "说明 chose 的原因"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "状语",
+        "english": "under existing law",
+        "chinese": "根据现行法律",
+        "parent_id": "c_010_004",
+        "target_id": "c_010_006",
+        "relation": "说明 controlled/processed 的法律依据"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "并列分句",
+        "english": "it “controlled” the data",
+        "chinese": "它控制数据",
+        "parent_id": "c_010_004",
+        "target_id": null,
+        "relation": "since 从句第一分句"
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_010_006",
+        "target_id": null,
+        "relation": "第一分句主语，指 NHS trust"
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "谓语",
+        "english": "controlled",
+        "chinese": "控制",
+        "parent_id": "c_010_006",
+        "target_id": null,
+        "relation": "第一分句谓语"
+      },
+      {
+        "chunk_id": "c_010_009",
+        "role": "宾语",
+        "english": "the data",
+        "chinese": "数据",
+        "parent_id": "c_010_006",
+        "target_id": "c_010_008",
+        "relation": "作 controlled 的宾语"
+      },
+      {
+        "chunk_id": "c_010_010",
+        "role": "并列分句",
+        "english": "DeepMind merely “processed” it",
+        "chinese": "DeepMind 只是处理它",
+        "parent_id": "c_010_004",
+        "target_id": null,
+        "relation": "since 从句第二分句"
+      },
+      {
+        "chunk_id": "c_010_011",
+        "role": "主语",
+        "english": "DeepMind",
+        "chinese": "DeepMind",
+        "parent_id": "c_010_010",
+        "target_id": null,
+        "relation": "第二分句主语"
+      },
+      {
+        "chunk_id": "c_010_012",
+        "role": "谓语",
+        "english": "processed",
+        "chinese": "处理",
+        "parent_id": "c_010_010",
+        "target_id": null,
+        "relation": "第二分句谓语"
+      },
+      {
+        "chunk_id": "c_010_013",
+        "role": "宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_010_010",
+        "target_id": "c_010_012",
+        "relation": "作 processed 的宾语，指 data"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "since A and B",
+        "explanation": "since 原因从句中 controlled 和 processed 两个法律角色并列对比。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "concentrate",
+        "pos": "v.",
+        "meaning": "集中",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "blame",
+        "pos": "n.",
+        "meaning": "责任",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "processed",
+        "pos": "v.",
+        "meaning": "处理",
+        "chunk_id": "c_010_012"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "But this distinction misses the point that it is processing and aggregation, not the mere possession of bits, that gives the data value.",
+    "difficulty": 5,
+    "translation_literal": "但这种区分漏掉了关键点：正是处理和聚合，而不是对数据片段的单纯占有，赋予了数据价值。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "主语",
+        "english": "this distinction",
+        "chinese": "这种区分",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "谓语",
+        "english": "misses",
+        "chinese": "漏掉",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "宾语",
+        "english": "the point",
+        "chinese": "关键点",
+        "parent_id": null,
+        "target_id": "c_011_003",
+        "relation": "作 misses 的宾语"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "同位语从句",
+        "english": "that it is processing and aggregation, not the mere possession of bits, that gives the data value",
+        "chinese": "正是处理和聚合，而不是对数据片段的单纯占有，赋予数据价值",
+        "parent_id": "c_011_004",
+        "target_id": "c_011_004",
+        "relation": "解释 point 的具体内容"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "强调结构",
+        "english": "it is processing and aggregation, not the mere possession of bits, that gives the data value",
+        "chinese": "正是处理和聚合，而不是对数据片段的单纯占有，赋予数据价值",
+        "parent_id": "c_011_005",
+        "target_id": null,
+        "relation": "同位语从句内部强调句"
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "主语",
+        "english": "processing and aggregation, not the mere possession of bits",
+        "chinese": "处理和聚合，而不是对数据片段的单纯占有",
+        "parent_id": "c_011_006",
+        "target_id": null,
+        "relation": "强调句中被强调的主语"
+      },
+      {
+        "chunk_id": "c_011_008",
+        "role": "谓语",
+        "english": "gives",
+        "chinese": "赋予",
+        "parent_id": "c_011_006",
+        "target_id": null,
+        "relation": "强调句还原后的谓语"
+      },
+      {
+        "chunk_id": "c_011_009",
+        "role": "宾语",
+        "english": "the data value",
+        "chinese": "数据价值",
+        "parent_id": "c_011_006",
+        "target_id": "c_011_008",
+        "relation": "作 gives 的双宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "point + that 从句",
+        "explanation": "that 从句解释 point 的内容。"
+      },
+      {
+        "pattern_name": "强调句",
+        "pattern_form": "it is + 被强调部分 + that...",
+        "explanation": "强调 processing and aggregation 才是数据价值来源。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "distinction",
+        "pos": "n.",
+        "meaning": "区分",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "word": "aggregation",
+        "pos": "n.",
+        "meaning": "聚合",
+        "chunk_id": "c_011_007"
+      },
+      {
+        "word": "possession",
+        "pos": "n.",
+        "meaning": "占有",
+        "chunk_id": "c_011_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The great question is who should benefit from the analysis of all the data that our lives now generate.",
+    "difficulty": 5,
+    "translation_literal": "重大问题是，谁应该从分析我们生活如今产生的所有数据中受益。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "The great question",
+        "chinese": "重大问题",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "表语从句",
+        "english": "who should benefit from the analysis of all the data that our lives now generate",
+        "chinese": "谁应该从分析我们生活如今产生的所有数据中受益",
+        "parent_id": null,
+        "target_id": "c_012_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "从句主语",
+        "english": "who",
+        "chinese": "谁",
+        "parent_id": "c_012_003",
+        "target_id": null,
+        "relation": "who 从句内部主语"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "从句谓语",
+        "english": "should benefit from",
+        "chinese": "应该从……受益",
+        "parent_id": "c_012_003",
+        "target_id": null,
+        "relation": "who 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "从句宾语",
+        "english": "the analysis of all the data that our lives now generate",
+        "chinese": "对我们生活如今产生的所有数据的分析",
+        "parent_id": "c_012_003",
+        "target_id": "c_012_005",
+        "relation": "作 benefit from 的宾语"
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "定语从句",
+        "english": "that our lives now generate",
+        "chinese": "我们生活如今产生的",
+        "parent_id": "c_012_006",
+        "target_id": "c_012_006",
+        "relation": "修饰 data"
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "定语从句主语",
+        "english": "our lives",
+        "chinese": "我们的生活",
+        "parent_id": "c_012_007",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_012_009",
+        "role": "定语从句谓语",
+        "english": "generate",
+        "chinese": "产生",
+        "parent_id": "c_012_007",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "表语从句 + data 定语从句",
+        "explanation": "表语从句中 analysis 的宾语 data 又带定语从句。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "analysis",
+        "pos": "n.",
+        "meaning": "分析",
+        "chunk_id": "c_012_006"
+      },
+      {
+        "word": "generate",
+        "pos": "v.",
+        "meaning": "产生",
+        "chunk_id": "c_012_009"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Privacy law builds on the concept of damage to an individual from identifiable knowledge about them.",
+    "difficulty": 4,
+    "translation_literal": "隐私法建立在由关于个人的可识别知识对个人造成损害这一概念之上。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "Privacy law",
+        "chinese": "隐私法",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "builds on",
+        "chinese": "建立在……之上",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "宾语",
+        "english": "the concept of damage to an individual from identifiable knowledge about them",
+        "chinese": "由关于个人的可识别知识对个人造成损害这一概念",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "作 builds on 的宾语"
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "定语",
+        "english": "of damage to an individual from identifiable knowledge about them",
+        "chinese": "对个人造成损害的",
+        "parent_id": "c_013_003",
+        "target_id": "c_013_003",
+        "relation": "修饰 concept"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "concept",
+        "pos": "n.",
+        "meaning": "概念",
+        "chunk_id": "c_013_003"
+      },
+      {
+        "word": "identifiable",
+        "pos": "adj.",
+        "meaning": "可识别的",
+        "chunk_id": "c_013_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "build on",
+        "phrase_type": "v. phr.",
+        "meaning": "建立在……之上",
+        "chunk_id": "c_013_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "That misses the way the surveillance economy works.",
+    "difficulty": 3,
+    "translation_literal": "那漏掉了监控经济运行的方式。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "That",
+        "chinese": "那",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "misses",
+        "chinese": "漏掉",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "宾语",
+        "english": "the way the surveillance economy works",
+        "chinese": "监控经济运行的方式",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "作 misses 的宾语"
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "定语从句",
+        "english": "the surveillance economy works",
+        "chinese": "监控经济运行",
+        "parent_id": "c_014_003",
+        "target_id": "c_014_003",
+        "relation": "省略 that/in which 的定语从句，修饰 way"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "从句主语",
+        "english": "the surveillance economy",
+        "chinese": "监控经济",
+        "parent_id": "c_014_004",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "从句谓语",
+        "english": "works",
+        "chinese": "运行",
+        "parent_id": "c_014_004",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "the way + 主语 + 谓语",
+        "explanation": "way 后省略关系词，后面的分句说明“运行方式”。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "surveillance",
+        "pos": "n.",
+        "meaning": "监控",
+        "chunk_id": "c_014_005"
+      },
+      {
+        "word": "economy",
+        "pos": "n.",
+        "meaning": "经济",
+        "chunk_id": "c_014_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The data of an individual there gains its value only when it is compared with the data of countless millions more.",
+    "difficulty": 5,
+    "translation_literal": "在那里，某个个人的数据只有在与无数其他人的数据比较时才获得其价值。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "The data of an individual there",
+        "chinese": "那里某个个人的数据",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "谓语",
+        "english": "gains",
+        "chinese": "获得",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "宾语",
+        "english": "its value",
+        "chinese": "其价值",
+        "parent_id": null,
+        "target_id": "c_015_002",
+        "relation": "作 gains 的宾语"
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "状语从句",
+        "english": "only when it is compared with the data of countless millions more",
+        "chinese": "只有在它与无数其他人的数据比较时",
+        "parent_id": null,
+        "target_id": "c_015_002",
+        "relation": "说明 gains value 的条件"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_015_004",
+        "target_id": null,
+        "relation": "when 从句内部主语"
+      },
+      {
+        "chunk_id": "c_015_006",
+        "role": "从句谓语",
+        "english": "is compared",
+        "chinese": "被比较",
+        "parent_id": "c_015_004",
+        "target_id": null,
+        "relation": "when 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_015_007",
+        "role": "状语",
+        "english": "with the data of countless millions more",
+        "chinese": "与无数其他人的数据",
+        "parent_id": "c_015_004",
+        "target_id": "c_015_006",
+        "relation": "说明 compared 的对象"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "only when 从句",
+        "explanation": "only when 限定数据获得价值的条件。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "individual",
+        "pos": "n.",
+        "meaning": "个人",
+        "chunk_id": "c_015_001"
+      },
+      {
+        "word": "countless",
+        "pos": "adj.",
+        "meaning": "无数的",
+        "chunk_id": "c_015_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The use of privacy law to curb the tech giants in this instance feels slightly maladapted.",
+    "difficulty": 4,
+    "translation_literal": "在这个案例中，使用隐私法来限制科技巨头感觉稍微有些不适配。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "主语",
+        "english": "The use of privacy law to curb the tech giants in this instance",
+        "chinese": "在这个案例中使用隐私法来限制科技巨头",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "定语",
+        "english": "to curb the tech giants in this instance",
+        "chinese": "在这个案例中限制科技巨头的",
+        "parent_id": "c_016_001",
+        "target_id": "c_016_001",
+        "relation": "修饰 use"
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "谓语",
+        "english": "feels",
+        "chinese": "感觉",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "表语",
+        "english": "slightly maladapted",
+        "chinese": "稍微不适配",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "作 feels 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "curb",
+        "pos": "v.",
+        "meaning": "限制",
+        "chunk_id": "c_016_002"
+      },
+      {
+        "word": "maladapted",
+        "pos": "adj.",
+        "meaning": "不适配的",
+        "chunk_id": "c_016_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "This practice does not address the real worry.",
+    "difficulty": 3,
+    "translation_literal": "这种做法没有处理真正的担忧。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "This practice",
+        "chinese": "这种做法",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "does not address",
+        "chinese": "没有处理",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "宾语",
+        "english": "the real worry",
+        "chinese": "真正的担忧",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "作 address 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "practice",
+        "pos": "n.",
+        "meaning": "做法",
+        "chunk_id": "c_017_001"
+      },
+      {
+        "word": "address",
+        "pos": "v.",
+        "meaning": "处理，应对",
+        "chunk_id": "c_017_002"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "It is not enough to say that the algorithms DeepMind develops will benefit patients and save lives.",
+    "difficulty": 5,
+    "translation_literal": "说 DeepMind 开发的算法将使患者受益并拯救生命，这是不够的。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "形式主语",
+        "english": "It",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "谓语",
+        "english": "is not",
+        "chinese": "不是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "表语",
+        "english": "enough",
+        "chinese": "足够的",
+        "parent_id": null,
+        "target_id": "c_018_002",
+        "relation": "作 is not 的表语"
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "真正主语",
+        "english": "to say that the algorithms DeepMind develops will benefit patients and save lives",
+        "chinese": "说 DeepMind 开发的算法将使患者受益并拯救生命",
+        "parent_id": null,
+        "target_id": "c_018_001",
+        "relation": "真正主语，对应形式主语 It"
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "宾语从句",
+        "english": "that the algorithms DeepMind develops will benefit patients and save lives",
+        "chinese": "DeepMind 开发的算法将使患者受益并拯救生命",
+        "parent_id": "c_018_004",
+        "target_id": "c_018_004",
+        "relation": "作 say 的宾语"
+      },
+      {
+        "chunk_id": "c_018_006",
+        "role": "从句主语",
+        "english": "the algorithms DeepMind develops",
+        "chinese": "DeepMind 开发的算法",
+        "parent_id": "c_018_005",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_018_007",
+        "role": "定语从句",
+        "english": "DeepMind develops",
+        "chinese": "DeepMind 开发的",
+        "parent_id": "c_018_006",
+        "target_id": "c_018_006",
+        "relation": "省略 that 的定语从句，修饰 algorithms"
+      },
+      {
+        "chunk_id": "c_018_008",
+        "role": "从句谓语",
+        "english": "will benefit",
+        "chinese": "将使受益",
+        "parent_id": "c_018_005",
+        "target_id": null,
+        "relation": "that 从句第一谓语"
+      },
+      {
+        "chunk_id": "c_018_009",
+        "role": "从句宾语",
+        "english": "patients",
+        "chinese": "患者",
+        "parent_id": "c_018_005",
+        "target_id": "c_018_008",
+        "relation": "作 benefit 的宾语"
+      },
+      {
+        "chunk_id": "c_018_010",
+        "role": "并列谓语",
+        "english": "and save",
+        "chinese": "并拯救",
+        "parent_id": "c_018_005",
+        "target_id": "c_018_008",
+        "relation": "与 will benefit 并列"
+      },
+      {
+        "chunk_id": "c_018_011",
+        "role": "从句宾语",
+        "english": "lives",
+        "chinese": "生命",
+        "parent_id": "c_018_005",
+        "target_id": "c_018_010",
+        "relation": "作 save 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is not enough to say that...",
+        "explanation": "It 是形式主语，真正主语是 to say...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "algorithms",
+        "pos": "n.",
+        "meaning": "算法",
+        "chunk_id": "c_018_006"
+      },
+      {
+        "word": "benefit",
+        "pos": "v.",
+        "meaning": "使受益",
+        "chunk_id": "c_018_008"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "What matters is that they will belong to a private monopoly which developed them using public resources.",
+    "difficulty": 5,
+    "translation_literal": "重要的是，它们将属于一个私人垄断企业，而该企业使用公共资源开发了它们。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "主语从句",
+        "english": "What matters",
+        "chinese": "重要的事情",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "从句主语",
+        "english": "What",
+        "chinese": "什么",
+        "parent_id": "c_019_001",
+        "target_id": null,
+        "relation": "主语从句内部主语"
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "从句谓语",
+        "english": "matters",
+        "chinese": "重要",
+        "parent_id": "c_019_001",
+        "target_id": null,
+        "relation": "主语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "表语从句",
+        "english": "that they will belong to a private monopoly which developed them using public resources",
+        "chinese": "它们将属于一个使用公共资源开发它们的私人垄断企业",
+        "parent_id": null,
+        "target_id": "c_019_004",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_019_006",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "它们",
+        "parent_id": "c_019_005",
+        "target_id": null,
+        "relation": "表语从句内部主语，指 algorithms"
+      },
+      {
+        "chunk_id": "c_019_007",
+        "role": "从句谓语",
+        "english": "will belong to",
+        "chinese": "将属于",
+        "parent_id": "c_019_005",
+        "target_id": null,
+        "relation": "表语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_019_008",
+        "role": "从句宾语",
+        "english": "a private monopoly which developed them using public resources",
+        "chinese": "一个使用公共资源开发它们的私人垄断企业",
+        "parent_id": "c_019_005",
+        "target_id": "c_019_007",
+        "relation": "作 belong to 的宾语"
+      },
+      {
+        "chunk_id": "c_019_009",
+        "role": "定语从句",
+        "english": "which developed them using public resources",
+        "chinese": "使用公共资源开发了它们的",
+        "parent_id": "c_019_008",
+        "target_id": "c_019_008",
+        "relation": "修饰 monopoly"
+      },
+      {
+        "chunk_id": "c_019_010",
+        "role": "定语从句主语",
+        "english": "which",
+        "chinese": "该垄断企业",
+        "parent_id": "c_019_009",
+        "target_id": null,
+        "relation": "which 从句内部主语"
+      },
+      {
+        "chunk_id": "c_019_011",
+        "role": "定语从句谓语",
+        "english": "developed",
+        "chinese": "开发",
+        "parent_id": "c_019_009",
+        "target_id": null,
+        "relation": "which 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_019_012",
+        "role": "定语从句宾语",
+        "english": "them",
+        "chinese": "它们",
+        "parent_id": "c_019_009",
+        "target_id": "c_019_011",
+        "relation": "作 developed 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "monopoly",
+        "pos": "n.",
+        "meaning": "垄断企业",
+        "chunk_id": "c_019_008"
+      },
+      {
+        "word": "resources",
+        "pos": "n.",
+        "meaning": "资源",
+        "chunk_id": "c_019_009"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "If software promises to save lives on the scale that drugs now can, big data may be expected to behave as big pharma has done.",
+    "difficulty": 5,
+    "translation_literal": "如果软件承诺以如今药物能够做到的规模拯救生命，大数据可能会被期待像大型制药公司那样行事。",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "条件状语从句",
+        "english": "If software promises to save lives on the scale that drugs now can",
+        "chinese": "如果软件承诺以如今药物能够做到的规模拯救生命",
+        "parent_id": null,
+        "target_id": "c_020_008",
+        "relation": "说明主句成立的条件"
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "从句主语",
+        "english": "software",
+        "chinese": "软件",
+        "parent_id": "c_020_001",
+        "target_id": null,
+        "relation": "if 从句内部主语"
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "从句谓语",
+        "english": "promises to save",
+        "chinese": "承诺拯救",
+        "parent_id": "c_020_001",
+        "target_id": null,
+        "relation": "if 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_020_004",
+        "role": "从句宾语",
+        "english": "lives",
+        "chinese": "生命",
+        "parent_id": "c_020_001",
+        "target_id": "c_020_003",
+        "relation": "作 save 的宾语"
+      },
+      {
+        "chunk_id": "c_020_005",
+        "role": "状语",
+        "english": "on the scale that drugs now can",
+        "chinese": "以如今药物能够做到的规模",
+        "parent_id": "c_020_001",
+        "target_id": "c_020_003",
+        "relation": "说明 save lives 的规模"
+      },
+      {
+        "chunk_id": "c_020_006",
+        "role": "定语从句",
+        "english": "that drugs now can",
+        "chinese": "如今药物能够做到的",
+        "parent_id": "c_020_005",
+        "target_id": "c_020_005",
+        "relation": "修饰 scale"
+      },
+      {
+        "chunk_id": "c_020_007",
+        "role": "定语从句主语",
+        "english": "drugs",
+        "chinese": "药物",
+        "parent_id": "c_020_006",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_020_008",
+        "role": "主语",
+        "english": "big data",
+        "chinese": "大数据",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_009",
+        "role": "谓语",
+        "english": "may be expected",
+        "chinese": "可能被期待",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_010",
+        "role": "补语",
+        "english": "to behave as big pharma has done",
+        "chinese": "像大型制药公司那样行事",
+        "parent_id": null,
+        "target_id": "c_020_009",
+        "relation": "说明被期待做什么"
+      },
+      {
+        "chunk_id": "c_020_011",
+        "role": "状语从句",
+        "english": "as big pharma has done",
+        "chinese": "像大型制药公司已经做过的那样",
+        "parent_id": "c_020_010",
+        "target_id": "c_020_010",
+        "relation": "说明 behave 的方式"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "as + 分句",
+        "explanation": "as big pharma has done 表示行为方式的类比。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "scale",
+        "pos": "n.",
+        "meaning": "规模",
+        "chunk_id": "c_020_005"
+      },
+      {
+        "word": "pharma",
+        "pos": "n.",
+        "meaning": "制药公司",
+        "chunk_id": "c_020_011"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "big data",
+        "phrase_type": "n. phr.",
+        "meaning": "大数据",
+        "chunk_id": "c_020_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_021",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "We are still at the beginning of this revolution and small choices now may turn out to have gigantic consequences later.",
+    "difficulty": 4,
+    "translation_literal": "我们仍处在这场革命的开端，而现在的小选择后来可能会证明具有巨大后果。",
+    "chunks": [
+      {
+        "chunk_id": "c_021_001",
+        "role": "并列分句",
+        "english": "We are still at the beginning of this revolution",
+        "chinese": "我们仍处在这场革命的开端",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_002",
+        "role": "主语",
+        "english": "We",
+        "chinese": "我们",
+        "parent_id": "c_021_001",
+        "target_id": null,
+        "relation": "第一分句主语"
+      },
+      {
+        "chunk_id": "c_021_003",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "处在",
+        "parent_id": "c_021_001",
+        "target_id": null,
+        "relation": "第一分句谓语"
+      },
+      {
+        "chunk_id": "c_021_004",
+        "role": "表语",
+        "english": "at the beginning of this revolution",
+        "chinese": "在这场革命的开端",
+        "parent_id": "c_021_001",
+        "target_id": "c_021_003",
+        "relation": "作 are 的表语"
+      },
+      {
+        "chunk_id": "c_021_005",
+        "role": "并列分句",
+        "english": "small choices now may turn out to have gigantic consequences later",
+        "chinese": "现在的小选择后来可能会证明具有巨大后果",
+        "parent_id": null,
+        "target_id": "c_021_001",
+        "relation": "第二分句"
+      },
+      {
+        "chunk_id": "c_021_006",
+        "role": "主语",
+        "english": "small choices now",
+        "chinese": "现在的小选择",
+        "parent_id": "c_021_005",
+        "target_id": null,
+        "relation": "第二分句主语"
+      },
+      {
+        "chunk_id": "c_021_007",
+        "role": "谓语",
+        "english": "may turn out to have",
+        "chinese": "可能会证明具有",
+        "parent_id": "c_021_005",
+        "target_id": null,
+        "relation": "第二分句谓语"
+      },
+      {
+        "chunk_id": "c_021_008",
+        "role": "宾语",
+        "english": "gigantic consequences later",
+        "chinese": "后来的巨大后果",
+        "parent_id": "c_021_005",
+        "target_id": "c_021_007",
+        "relation": "作 have 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A and B",
+        "explanation": "and 连接当前阶段判断和未来后果判断。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "revolution",
+        "pos": "n.",
+        "meaning": "革命",
+        "chunk_id": "c_021_004"
+      },
+      {
+        "word": "gigantic",
+        "pos": "adj.",
+        "meaning": "巨大的",
+        "chunk_id": "c_021_008"
+      },
+      {
+        "word": "consequences",
+        "pos": "n.",
+        "meaning": "后果",
+        "chunk_id": "c_021_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "turn out to",
+        "phrase_type": "v. phr.",
+        "meaning": "结果是，证明是",
+        "chunk_id": "c_021_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_022",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "A long struggle will be needed to avoid a future of digital feudalism.",
+    "difficulty": 4,
+    "translation_literal": "为了避免一个数字封建主义的未来，将需要一场长期斗争。",
+    "chunks": [
+      {
+        "chunk_id": "c_022_001",
+        "role": "主语",
+        "english": "A long struggle",
+        "chinese": "一场长期斗争",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_002",
+        "role": "谓语",
+        "english": "will be needed",
+        "chinese": "将被需要",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_003",
+        "role": "状语",
+        "english": "to avoid a future of digital feudalism",
+        "chinese": "为了避免一个数字封建主义的未来",
+        "parent_id": null,
+        "target_id": "c_022_002",
+        "relation": "说明 struggle 的目的"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "struggle",
+        "pos": "n.",
+        "meaning": "斗争",
+        "chunk_id": "c_022_001"
+      },
+      {
+        "word": "feudalism",
+        "pos": "n.",
+        "meaning": "封建主义",
+        "chunk_id": "c_022_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "digital feudalism",
+        "phrase_type": "n. phr.",
+        "meaning": "数字封建主义",
+        "chunk_id": "c_022_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_023",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Ms Denham’s report is a welcome start.",
+    "difficulty": 2,
+    "translation_literal": "德纳姆女士的报告是一个受欢迎的开端。",
+    "chunks": [
+      {
+        "chunk_id": "c_023_001",
+        "role": "主语",
+        "english": "Ms Denham’s report",
+        "chinese": "德纳姆女士的报告",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_023_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_023_003",
+        "role": "表语",
+        "english": "a welcome start",
+        "chinese": "一个受欢迎的开端",
+        "parent_id": null,
+        "target_id": "c_023_002",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "welcome",
+        "pos": "adj.",
+        "meaning": "受欢迎的",
+        "chunk_id": "c_023_003"
+      },
+      {
+        "word": "start",
+        "pos": "n.",
+        "meaning": "开端",
+        "chunk_id": "c_023_003"
+      }
+    ],
+    "key_phrases": []
+  }
+]

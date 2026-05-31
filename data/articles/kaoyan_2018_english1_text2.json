@@ -1,0 +1,1981 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "A new survey by Harvard University finds more than two-thirds of young Americans disapprove of President Trump’s use of Twitter.",
+    "difficulty": 4,
+    "translation_literal": "哈佛大学的一项新调查发现，超过三分之二的年轻美国人不赞成特朗普总统使用 Twitter。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "A new survey by Harvard University",
+        "chinese": "哈佛大学的一项新调查",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "谓语",
+        "english": "finds",
+        "chinese": "发现",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "宾语从句",
+        "english": "more than two-thirds of young Americans disapprove of President Trump’s use of Twitter",
+        "chinese": "超过三分之二的年轻美国人不赞成特朗普总统使用 Twitter",
+        "parent_id": null,
+        "target_id": "c_001_002",
+        "relation": "作 finds 的宾语"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "从句主语",
+        "english": "more than two-thirds of young Americans",
+        "chinese": "超过三分之二的年轻美国人",
+        "parent_id": "c_001_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "从句谓语",
+        "english": "disapprove of",
+        "chinese": "不赞成",
+        "parent_id": "c_001_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "从句宾语",
+        "english": "President Trump’s use of Twitter",
+        "chinese": "特朗普总统使用 Twitter",
+        "parent_id": "c_001_003",
+        "target_id": "c_001_005",
+        "relation": "作 disapprove of 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "survey",
+        "pos": "n.",
+        "meaning": "调查",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "disapprove",
+        "pos": "v.",
+        "meaning": "不赞成",
+        "chunk_id": "c_001_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "more than two-thirds",
+        "phrase_type": "n. phr.",
+        "meaning": "超过三分之二",
+        "chunk_id": "c_001_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The implication is that Millennials prefer news from the White House to be filtered through other sources, not a president’s social media platform.",
+    "difficulty": 5,
+    "translation_literal": "其含义是，千禧一代更喜欢来自白宫的新闻通过其他来源过滤，而不是通过总统的社交媒体平台。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "The implication",
+        "chinese": "其含义",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "表语从句",
+        "english": "that Millennials prefer news from the White House to be filtered through other sources, not a president’s social media platform",
+        "chinese": "千禧一代更喜欢来自白宫的新闻通过其他来源过滤，而不是通过总统的社交媒体平台",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "从句主语",
+        "english": "Millennials",
+        "chinese": "千禧一代",
+        "parent_id": "c_002_003",
+        "target_id": null,
+        "relation": "表语从句内部主语"
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "从句谓语",
+        "english": "prefer",
+        "chinese": "更喜欢",
+        "parent_id": "c_002_003",
+        "target_id": null,
+        "relation": "表语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "从句宾语",
+        "english": "news from the White House",
+        "chinese": "来自白宫的新闻",
+        "parent_id": "c_002_003",
+        "target_id": "c_002_005",
+        "relation": "作 prefer 的宾语"
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "宾语补足语",
+        "english": "to be filtered through other sources",
+        "chinese": "通过其他来源过滤",
+        "parent_id": "c_002_003",
+        "target_id": "c_002_006",
+        "relation": "补充说明 news 的接收方式"
+      },
+      {
+        "chunk_id": "c_002_008",
+        "role": "插入语",
+        "english": "not a president’s social media platform",
+        "chinese": "而不是总统的社交媒体平台",
+        "parent_id": "c_002_007",
+        "target_id": "c_002_007",
+        "relation": "对 other sources 作对比说明"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "prefer + 宾语 + to be done",
+        "explanation": "prefer 的宾语 news 后接不定式被动补足语，说明新闻应如何被过滤。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "implication",
+        "pos": "n.",
+        "meaning": "含义",
+        "chunk_id": "c_002_001"
+      },
+      {
+        "word": "filtered",
+        "pos": "v.",
+        "meaning": "过滤",
+        "chunk_id": "c_002_007"
+      },
+      {
+        "word": "platform",
+        "pos": "n.",
+        "meaning": "平台",
+        "chunk_id": "c_002_008"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Most Americans rely on social media to check daily headlines.",
+    "difficulty": 3,
+    "translation_literal": "大多数美国人依靠社交媒体查看每日头条。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "Most Americans",
+        "chinese": "大多数美国人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "谓语",
+        "english": "rely on",
+        "chinese": "依靠",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "宾语",
+        "english": "social media",
+        "chinese": "社交媒体",
+        "parent_id": null,
+        "target_id": "c_003_002",
+        "relation": "作 rely on 的宾语"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "状语",
+        "english": "to check daily headlines",
+        "chinese": "查看每日头条",
+        "parent_id": null,
+        "target_id": "c_003_002",
+        "relation": "说明 rely on social media 的目的"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "rely",
+        "pos": "v.",
+        "meaning": "依靠",
+        "chunk_id": "c_003_002"
+      },
+      {
+        "word": "headlines",
+        "pos": "n.",
+        "meaning": "头条",
+        "chunk_id": "c_003_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "social media",
+        "phrase_type": "n. phr.",
+        "meaning": "社交媒体",
+        "chunk_id": "c_003_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Yet as distrust has risen toward all media, people may be starting to beef up their media literacy skills.",
+    "difficulty": 5,
+    "translation_literal": "然而，随着对所有媒体的不信任已经上升，人们可能正开始加强自己的媒介素养技能。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "连接成分",
+        "english": "Yet",
+        "chinese": "然而",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "状语从句",
+        "english": "as distrust has risen toward all media",
+        "chinese": "随着对所有媒体的不信任已经上升",
+        "parent_id": null,
+        "target_id": "c_004_005",
+        "relation": "说明主句动作的背景"
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "从句主语",
+        "english": "distrust",
+        "chinese": "不信任",
+        "parent_id": "c_004_002",
+        "target_id": null,
+        "relation": "as 从句内部主语"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "从句谓语",
+        "english": "has risen",
+        "chinese": "已经上升",
+        "parent_id": "c_004_002",
+        "target_id": null,
+        "relation": "as 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "主语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "谓语",
+        "english": "may be starting",
+        "chinese": "可能正开始",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "宾语",
+        "english": "to beef up their media literacy skills",
+        "chinese": "加强自己的媒介素养技能",
+        "parent_id": "c_004_005",
+        "target_id": "c_004_006",
+        "relation": "作 starting 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "as + 分句",
+        "explanation": "as 在这里表示“随着”，引出背景变化。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "distrust",
+        "pos": "n.",
+        "meaning": "不信任",
+        "chunk_id": "c_004_003"
+      },
+      {
+        "word": "literacy",
+        "pos": "n.",
+        "meaning": "素养",
+        "chunk_id": "c_004_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "beef up",
+        "phrase_type": "v. phr.",
+        "meaning": "加强",
+        "chunk_id": "c_004_007"
+      },
+      {
+        "phrase": "media literacy",
+        "phrase_type": "n. phr.",
+        "meaning": "媒介素养",
+        "chunk_id": "c_004_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Such a trend is badly needed.",
+    "difficulty": 2,
+    "translation_literal": "这样的趋势是非常需要的。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "Such a trend",
+        "chinese": "这样的趋势",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "is needed",
+        "chinese": "是被需要的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "状语",
+        "english": "badly",
+        "chinese": "非常",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "修饰 is needed"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "trend",
+        "pos": "n.",
+        "meaning": "趋势",
+        "chunk_id": "c_005_001"
+      },
+      {
+        "word": "badly",
+        "pos": "adv.",
+        "meaning": "非常，迫切地",
+        "chunk_id": "c_005_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "During the 2016 presidential campaign, nearly a quarter of web content shared by Twitter users in the politically critical state of Michigan was fake news, according to the University of Oxford.",
+    "difficulty": 5,
+    "translation_literal": "根据牛津大学的说法，在 2016 年总统竞选期间，在政治上关键的密歇根州，Twitter 用户分享的网络内容中近四分之一是假新闻。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "状语",
+        "english": "During the 2016 presidential campaign",
+        "chinese": "在 2016 年总统竞选期间",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "主语",
+        "english": "nearly a quarter of web content shared by Twitter users in the politically critical state of Michigan",
+        "chinese": "在政治上关键的密歇根州由 Twitter 用户分享的网络内容中近四分之一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "定语",
+        "english": "shared by Twitter users in the politically critical state of Michigan",
+        "chinese": "由政治上关键的密歇根州的 Twitter 用户分享的",
+        "parent_id": "c_006_002",
+        "target_id": "c_006_002",
+        "relation": "修饰 web content"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "谓语",
+        "english": "was",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "表语",
+        "english": "fake news",
+        "chinese": "假新闻",
+        "parent_id": null,
+        "target_id": "c_006_004",
+        "relation": "作 was 的表语"
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "插入语",
+        "english": "according to the University of Oxford",
+        "chinese": "根据牛津大学",
+        "parent_id": null,
+        "target_id": "c_006_002",
+        "relation": "说明信息来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "长主语 + was + 表语 + 来源插入",
+        "explanation": "主语很长，核心是 nearly a quarter was fake news。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "campaign",
+        "pos": "n.",
+        "meaning": "竞选",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "critical",
+        "pos": "adj.",
+        "meaning": "关键的",
+        "chunk_id": "c_006_003"
+      },
+      {
+        "word": "fake",
+        "pos": "adj.",
+        "meaning": "假的",
+        "chunk_id": "c_006_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "And a survey conducted for BuzzFeed News found 44 percent of Facebook users rarely or never trust news from the media giant.",
+    "difficulty": 4,
+    "translation_literal": "并且一项为 BuzzFeed News 进行的调查发现，44% 的 Facebook 用户很少或从不信任来自这个媒体巨头的新闻。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "连接成分",
+        "english": "And",
+        "chinese": "并且",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "主语",
+        "english": "a survey conducted for BuzzFeed News",
+        "chinese": "一项为 BuzzFeed News 进行的调查",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "定语",
+        "english": "conducted for BuzzFeed News",
+        "chinese": "为 BuzzFeed News 进行的",
+        "parent_id": "c_007_002",
+        "target_id": "c_007_002",
+        "relation": "修饰 survey"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "谓语",
+        "english": "found",
+        "chinese": "发现",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "宾语从句",
+        "english": "44 percent of Facebook users rarely or never trust news from the media giant",
+        "chinese": "44% 的 Facebook 用户很少或从不信任来自这个媒体巨头的新闻",
+        "parent_id": null,
+        "target_id": "c_007_004",
+        "relation": "作 found 的宾语"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "从句主语",
+        "english": "44 percent of Facebook users",
+        "chinese": "44% 的 Facebook 用户",
+        "parent_id": "c_007_005",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "状语",
+        "english": "rarely or never",
+        "chinese": "很少或从不",
+        "parent_id": "c_007_005",
+        "target_id": "c_007_008",
+        "relation": "修饰 trust"
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "从句谓语",
+        "english": "trust",
+        "chinese": "信任",
+        "parent_id": "c_007_005",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_007_009",
+        "role": "从句宾语",
+        "english": "news from the media giant",
+        "chinese": "来自这个媒体巨头的新闻",
+        "parent_id": "c_007_005",
+        "target_id": "c_007_008",
+        "relation": "作 trust 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "conducted",
+        "pos": "v.",
+        "meaning": "进行",
+        "chunk_id": "c_007_003"
+      },
+      {
+        "word": "rarely",
+        "pos": "adv.",
+        "meaning": "很少",
+        "chunk_id": "c_007_007"
+      },
+      {
+        "word": "giant",
+        "pos": "n.",
+        "meaning": "巨头",
+        "chunk_id": "c_007_009"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Young people who are digital natives are indeed becoming more skillful at separating fact from fiction in cyberspace.",
+    "difficulty": 5,
+    "translation_literal": "作为数字原住民的年轻人确实正在变得更善于在网络空间中区分事实与虚构。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "Young people who are digital natives",
+        "chinese": "作为数字原住民的年轻人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "定语从句",
+        "english": "who are digital natives",
+        "chinese": "是数字原住民的",
+        "parent_id": "c_008_001",
+        "target_id": "c_008_001",
+        "relation": "修饰 Young people"
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "定语从句主语",
+        "english": "who",
+        "chinese": "年轻人",
+        "parent_id": "c_008_002",
+        "target_id": null,
+        "relation": "who 从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "定语从句谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_008_002",
+        "target_id": null,
+        "relation": "who 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "谓语",
+        "english": "are becoming",
+        "chinese": "正在变得",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "表语",
+        "english": "more skillful at separating fact from fiction in cyberspace",
+        "chinese": "更善于在网络空间中区分事实与虚构",
+        "parent_id": null,
+        "target_id": "c_008_005",
+        "relation": "作 are becoming 的表语"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "状语",
+        "english": "at separating fact from fiction in cyberspace",
+        "chinese": "在网络空间中区分事实与虚构方面",
+        "parent_id": "c_008_006",
+        "target_id": "c_008_006",
+        "relation": "说明 skillful 的方面"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "natives",
+        "pos": "n.",
+        "meaning": "原住民",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "word": "skillful",
+        "pos": "adj.",
+        "meaning": "熟练的，善于的",
+        "chunk_id": "c_008_006"
+      },
+      {
+        "word": "fiction",
+        "pos": "n.",
+        "meaning": "虚构",
+        "chunk_id": "c_008_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "digital natives",
+        "phrase_type": "n. phr.",
+        "meaning": "数字原住民",
+        "chunk_id": "c_008_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "A Knight Foundation focus-group survey of young people between ages 14 and 24 found they use “distributed trust” to verify stories.",
+    "difficulty": 4,
+    "translation_literal": "奈特基金会对 14 至 24 岁年轻人进行的一项焦点小组调查发现，他们使用“分布式信任”来核实新闻。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "A Knight Foundation focus-group survey of young people between ages 14 and 24",
+        "chinese": "奈特基金会对 14 至 24 岁年轻人进行的一项焦点小组调查",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "定语",
+        "english": "of young people between ages 14 and 24",
+        "chinese": "关于 14 至 24 岁年轻人的",
+        "parent_id": "c_009_001",
+        "target_id": "c_009_001",
+        "relation": "修饰 survey"
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "谓语",
+        "english": "found",
+        "chinese": "发现",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "宾语从句",
+        "english": "they use “distributed trust” to verify stories",
+        "chinese": "他们使用分布式信任来核实新闻",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "作 found 的宾语"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_009_004",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "从句谓语",
+        "english": "use",
+        "chinese": "使用",
+        "parent_id": "c_009_004",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "从句宾语",
+        "english": "“distributed trust”",
+        "chinese": "分布式信任",
+        "parent_id": "c_009_004",
+        "target_id": "c_009_006",
+        "relation": "作 use 的宾语"
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "状语",
+        "english": "to verify stories",
+        "chinese": "为了核实新闻",
+        "parent_id": "c_009_004",
+        "target_id": "c_009_006",
+        "relation": "说明 use 的目的"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "verify",
+        "pos": "v.",
+        "meaning": "核实",
+        "chunk_id": "c_009_008"
+      },
+      {
+        "word": "stories",
+        "pos": "n.",
+        "meaning": "新闻报道",
+        "chunk_id": "c_009_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "distributed trust",
+        "phrase_type": "n. phr.",
+        "meaning": "分布式信任",
+        "chunk_id": "c_009_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "They cross-check sources and prefer news from different perspectives — especially those that are open about any bias.",
+    "difficulty": 5,
+    "translation_literal": "他们交叉核对来源，并偏好来自不同视角的新闻，尤其是那些公开说明任何偏见的新闻来源。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "They",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "并列谓语",
+        "english": "cross-check",
+        "chinese": "交叉核对",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "宾语",
+        "english": "sources",
+        "chinese": "来源",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "作 cross-check 的宾语"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "并列谓语",
+        "english": "and prefer",
+        "chinese": "并偏好",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "与 cross-check 并列"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "宾语",
+        "english": "news from different perspectives",
+        "chinese": "来自不同视角的新闻",
+        "parent_id": null,
+        "target_id": "c_010_004",
+        "relation": "作 prefer 的宾语"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "插入语",
+        "english": "especially those that are open about any bias",
+        "chinese": "尤其是那些公开说明任何偏见的新闻来源",
+        "parent_id": null,
+        "target_id": "c_010_005",
+        "relation": "补充说明 prefer 的新闻来源"
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "定语从句",
+        "english": "that are open about any bias",
+        "chinese": "公开说明任何偏见的",
+        "parent_id": "c_010_006",
+        "target_id": "c_010_006",
+        "relation": "修饰 those"
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "那些来源",
+        "parent_id": "c_010_007",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_010_009",
+        "role": "定语从句谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_010_007",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_010_010",
+        "role": "从句表语",
+        "english": "open about any bias",
+        "chinese": "公开说明任何偏见的",
+        "parent_id": "c_010_007",
+        "target_id": "c_010_009",
+        "relation": "作 are 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号后补充限定",
+        "explanation": "especially those... 补充说明他们偏爱的来源类型。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "cross-check",
+        "pos": "v.",
+        "meaning": "交叉核对",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "perspectives",
+        "pos": "n.",
+        "meaning": "视角",
+        "chunk_id": "c_010_005"
+      },
+      {
+        "word": "bias",
+        "pos": "n.",
+        "meaning": "偏见",
+        "chunk_id": "c_010_010"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "“Many young people assume a great deal of personal responsibility for educating themselves and actively seeking out opposing viewpoints,” the survey concluded.",
+    "difficulty": 5,
+    "translation_literal": "调查总结道：“许多年轻人认为自己对教育自己和主动寻找相反观点负有很大的个人责任。”",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "Many young people",
+        "chinese": "许多年轻人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "assume",
+        "chinese": "承担，认为负有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "宾语",
+        "english": "a great deal of personal responsibility",
+        "chinese": "很大的个人责任",
+        "parent_id": null,
+        "target_id": "c_011_002",
+        "relation": "作 assume 的宾语"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "状语",
+        "english": "for educating themselves and actively seeking out opposing viewpoints",
+        "chinese": "对于教育自己和主动寻找相反观点",
+        "parent_id": null,
+        "target_id": "c_011_003",
+        "relation": "说明 responsibility 的内容"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "并列成分",
+        "english": "educating themselves",
+        "chinese": "教育自己",
+        "parent_id": "c_011_004",
+        "target_id": null,
+        "relation": "for 后第一项"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "并列成分",
+        "english": "actively seeking out opposing viewpoints",
+        "chinese": "主动寻找相反观点",
+        "parent_id": "c_011_004",
+        "target_id": null,
+        "relation": "for 后第二项"
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "插入语",
+        "english": "the survey concluded",
+        "chinese": "调查总结道",
+        "parent_id": null,
+        "target_id": "c_011_001",
+        "relation": "说明引语来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "直接引语 + the survey concluded",
+        "explanation": "the survey concluded 是引语来源。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "educating... and seeking...",
+        "explanation": "for 后两个动作并列说明责任内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "assume",
+        "pos": "v.",
+        "meaning": "承担，认为负有",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "word": "responsibility",
+        "pos": "n.",
+        "meaning": "责任",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "word": "opposing",
+        "pos": "adj.",
+        "meaning": "相反的",
+        "chunk_id": "c_011_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "seek out",
+        "phrase_type": "v. phr.",
+        "meaning": "寻找，搜寻",
+        "chunk_id": "c_011_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Such active research can have another effect.",
+    "difficulty": 3,
+    "translation_literal": "这种主动研究可能产生另一个影响。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "Such active research",
+        "chinese": "这种主动研究",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "can have",
+        "chinese": "可能有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "宾语",
+        "english": "another effect",
+        "chinese": "另一个影响",
+        "parent_id": null,
+        "target_id": "c_012_002",
+        "relation": "作 have 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "active",
+        "pos": "adj.",
+        "meaning": "主动的",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "word": "effect",
+        "pos": "n.",
+        "meaning": "影响",
+        "chunk_id": "c_012_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "A 2014 survey conducted in Australia, Britain, and the United States by the University of Wisconsin-Madison found that young people’s reliance on social media led to greater political engagement.",
+    "difficulty": 5,
+    "translation_literal": "威斯康星大学麦迪逊分校在澳大利亚、英国和美国进行的一项 2014 年调查发现，年轻人对社交媒体的依赖导致了更大的政治参与。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "A 2014 survey conducted in Australia, Britain, and the United States by the University of Wisconsin-Madison",
+        "chinese": "威斯康星大学麦迪逊分校在澳大利亚、英国和美国进行的一项 2014 年调查",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "定语",
+        "english": "conducted in Australia, Britain, and the United States by the University of Wisconsin-Madison",
+        "chinese": "由威斯康星大学麦迪逊分校在澳大利亚、英国和美国进行的",
+        "parent_id": "c_013_001",
+        "target_id": "c_013_001",
+        "relation": "修饰 survey"
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "谓语",
+        "english": "found",
+        "chinese": "发现",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "宾语从句",
+        "english": "that young people’s reliance on social media led to greater political engagement",
+        "chinese": "年轻人对社交媒体的依赖导致了更大的政治参与",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "作 found 的宾语"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "从句主语",
+        "english": "young people’s reliance on social media",
+        "chinese": "年轻人对社交媒体的依赖",
+        "parent_id": "c_013_004",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "从句谓语",
+        "english": "led to",
+        "chinese": "导致",
+        "parent_id": "c_013_004",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_013_007",
+        "role": "从句宾语",
+        "english": "greater political engagement",
+        "chinese": "更大的政治参与",
+        "parent_id": "c_013_004",
+        "target_id": "c_013_006",
+        "relation": "作 led to 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "reliance",
+        "pos": "n.",
+        "meaning": "依赖",
+        "chunk_id": "c_013_005"
+      },
+      {
+        "word": "political",
+        "pos": "adj.",
+        "meaning": "政治的",
+        "chunk_id": "c_013_007"
+      },
+      {
+        "word": "engagement",
+        "pos": "n.",
+        "meaning": "参与",
+        "chunk_id": "c_013_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "led to",
+        "phrase_type": "v. phr.",
+        "meaning": "导致",
+        "chunk_id": "c_013_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Social media allows users to experience news events more intimately and immediately while also permitting them to re-share news as a projection of their values and interests.",
+    "difficulty": 5,
+    "translation_literal": "社交媒体允许用户更亲密、更即时地体验新闻事件，同时也允许他们把新闻作为自身价值观和兴趣的投射来再次分享。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "Social media",
+        "chinese": "社交媒体",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "allows",
+        "chinese": "允许",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "宾语",
+        "english": "users",
+        "chinese": "用户",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "作 allows 的宾语"
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "宾语补足语",
+        "english": "to experience news events more intimately and immediately",
+        "chinese": "更亲密、更即时地体验新闻事件",
+        "parent_id": null,
+        "target_id": "c_014_003",
+        "relation": "补充说明 users 做什么"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "状语从句",
+        "english": "while also permitting them to re-share news as a projection of their values and interests",
+        "chinese": "同时也允许他们把新闻作为自身价值观和兴趣的投射来再次分享",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "说明 social media 的并行动能"
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "从句谓语",
+        "english": "permitting",
+        "chinese": "允许",
+        "parent_id": "c_014_005",
+        "target_id": null,
+        "relation": "while 从句省略主语 social media 后的谓语"
+      },
+      {
+        "chunk_id": "c_014_007",
+        "role": "从句宾语",
+        "english": "them",
+        "chinese": "他们",
+        "parent_id": "c_014_005",
+        "target_id": "c_014_006",
+        "relation": "作 permitting 的宾语"
+      },
+      {
+        "chunk_id": "c_014_008",
+        "role": "宾语补足语",
+        "english": "to re-share news as a projection of their values and interests",
+        "chinese": "把新闻作为自身价值观和兴趣的投射来再次分享",
+        "parent_id": "c_014_005",
+        "target_id": "c_014_007",
+        "relation": "补充说明 them 做什么"
+      },
+      {
+        "chunk_id": "c_014_009",
+        "role": "从句主语",
+        "english": "Social media (省略)",
+        "chinese": "社交媒体（省略）",
+        "parent_id": "c_014_005",
+        "target_id": null,
+        "relation": "while 从句省略的主语，承接主句 Social media"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "allows... while permitting...",
+        "explanation": "allows 和 permitting 说明社交媒体两个并行作用。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "intimately",
+        "pos": "adv.",
+        "meaning": "亲密地",
+        "chunk_id": "c_014_004"
+      },
+      {
+        "word": "projection",
+        "pos": "n.",
+        "meaning": "投射",
+        "chunk_id": "c_014_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "re-share news",
+        "phrase_type": "v. phr.",
+        "meaning": "再次分享新闻",
+        "chunk_id": "c_014_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "This forces users to be more conscious of their role in passing along information.",
+    "difficulty": 3,
+    "translation_literal": "这迫使用户更加意识到自己在传递信息中的角色。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "This",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "谓语",
+        "english": "forces",
+        "chinese": "迫使",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "宾语",
+        "english": "users",
+        "chinese": "用户",
+        "parent_id": null,
+        "target_id": "c_015_002",
+        "relation": "作 forces 的宾语"
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "宾语补足语",
+        "english": "to be more conscious of their role in passing along information",
+        "chinese": "更加意识到自己在传递信息中的角色",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "补充说明 users 被迫做什么"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "conscious",
+        "pos": "adj.",
+        "meaning": "意识到的",
+        "chunk_id": "c_015_004"
+      },
+      {
+        "word": "role",
+        "pos": "n.",
+        "meaning": "角色",
+        "chunk_id": "c_015_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "pass along information",
+        "phrase_type": "v. phr.",
+        "meaning": "传递信息",
+        "chunk_id": "c_015_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "A survey by Barna research group found the top reason given by Americans for the fake news phenomenon is “reader error,” more so than made-up stories or factual mistakes in reporting.",
+    "difficulty": 5,
+    "translation_literal": "巴纳研究集团的一项调查发现，美国人为假新闻现象给出的首要原因是“读者错误”，比编造的报道或报道中的事实错误更是如此。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "主语",
+        "english": "A survey by Barna research group",
+        "chinese": "巴纳研究集团的一项调查",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "谓语",
+        "english": "found",
+        "chinese": "发现",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "宾语从句",
+        "english": "the top reason given by Americans for the fake news phenomenon is “reader error,” more so than made-up stories or factual mistakes in reporting",
+        "chinese": "美国人为假新闻现象给出的首要原因是读者错误，比编造故事或报道事实错误更是如此",
+        "parent_id": null,
+        "target_id": "c_016_002",
+        "relation": "作 found 的宾语"
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "从句主语",
+        "english": "the top reason given by Americans for the fake news phenomenon",
+        "chinese": "美国人为假新闻现象给出的首要原因",
+        "parent_id": "c_016_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "定语",
+        "english": "given by Americans for the fake news phenomenon",
+        "chinese": "由美国人为假新闻现象给出的",
+        "parent_id": "c_016_004",
+        "target_id": "c_016_004",
+        "relation": "修饰 reason"
+      },
+      {
+        "chunk_id": "c_016_006",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_016_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_016_007",
+        "role": "从句表语",
+        "english": "“reader error”",
+        "chinese": "读者错误",
+        "parent_id": "c_016_003",
+        "target_id": "c_016_006",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_016_008",
+        "role": "插入语",
+        "english": "more so than made-up stories or factual mistakes in reporting",
+        "chinese": "比编造的报道或报道中的事实错误更是如此",
+        "parent_id": "c_016_007",
+        "target_id": "c_016_007",
+        "relation": "补充比较 reader error 的重要性"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "found + 宾语从句 + 比较插入",
+        "explanation": "宾语从句主语 reason 带后置定语，句尾 more so than... 作比较补充。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "phenomenon",
+        "pos": "n.",
+        "meaning": "现象",
+        "chunk_id": "c_016_004"
+      },
+      {
+        "word": "factual",
+        "pos": "adj.",
+        "meaning": "事实的",
+        "chunk_id": "c_016_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "reader error",
+        "phrase_type": "n. phr.",
+        "meaning": "读者错误",
+        "chunk_id": "c_016_007"
+      },
+      {
+        "phrase": "made-up stories",
+        "phrase_type": "n. phr.",
+        "meaning": "编造的报道",
+        "chunk_id": "c_016_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "About a third say the problem of fake news lies in “misinterpretation or exaggeration of actual news” via social media.",
+    "difficulty": 4,
+    "translation_literal": "大约三分之一的人说，假新闻的问题在于通过社交媒体对真实新闻的“误解或夸大”。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "About a third",
+        "chinese": "大约三分之一的人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "say",
+        "chinese": "说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "宾语从句",
+        "english": "the problem of fake news lies in “misinterpretation or exaggeration of actual news” via social media",
+        "chinese": "假新闻的问题在于通过社交媒体对真实新闻的误解或夸大",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "作 say 的宾语"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "从句主语",
+        "english": "the problem of fake news",
+        "chinese": "假新闻的问题",
+        "parent_id": "c_017_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "从句谓语",
+        "english": "lies in",
+        "chinese": "在于",
+        "parent_id": "c_017_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "从句宾语",
+        "english": "“misinterpretation or exaggeration of actual news” via social media",
+        "chinese": "通过社交媒体对真实新闻的误解或夸大",
+        "parent_id": "c_017_003",
+        "target_id": "c_017_005",
+        "relation": "作 lies in 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "misinterpretation",
+        "pos": "n.",
+        "meaning": "误解",
+        "chunk_id": "c_017_006"
+      },
+      {
+        "word": "exaggeration",
+        "pos": "n.",
+        "meaning": "夸大",
+        "chunk_id": "c_017_006"
+      },
+      {
+        "word": "actual",
+        "pos": "adj.",
+        "meaning": "真实的",
+        "chunk_id": "c_017_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "In other words, the choice to share news on social media may be the heart of the issue.",
+    "difficulty": 3,
+    "translation_literal": "换句话说，在社交媒体上分享新闻的选择可能是问题的核心。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "连接成分",
+        "english": "In other words",
+        "chinese": "换句话说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "主语",
+        "english": "the choice to share news on social media",
+        "chinese": "在社交媒体上分享新闻的选择",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "定语",
+        "english": "to share news on social media",
+        "chinese": "在社交媒体上分享新闻的",
+        "parent_id": "c_018_002",
+        "target_id": "c_018_002",
+        "relation": "修饰 choice"
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "谓语",
+        "english": "may be",
+        "chinese": "可能是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "表语",
+        "english": "the heart of the issue",
+        "chinese": "问题的核心",
+        "parent_id": null,
+        "target_id": "c_018_004",
+        "relation": "作 may be 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "choice",
+        "pos": "n.",
+        "meaning": "选择",
+        "chunk_id": "c_018_002"
+      },
+      {
+        "word": "issue",
+        "pos": "n.",
+        "meaning": "问题",
+        "chunk_id": "c_018_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "heart of the issue",
+        "phrase_type": "n. phr.",
+        "meaning": "问题核心",
+        "chunk_id": "c_018_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "“This indicates there is a real personal responsibility in counteracting this problem,” says Roxanne Stone, editor in chief at Barna Group.",
+    "difficulty": 5,
+    "translation_literal": "巴纳集团主编罗克珊·斯通说：“这表明，在抵制这个问题方面存在真正的个人责任。”",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "主语",
+        "english": "This",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "谓语",
+        "english": "indicates",
+        "chinese": "表明",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "宾语从句",
+        "english": "there is a real personal responsibility in counteracting this problem",
+        "chinese": "在抵制这个问题方面存在真正的个人责任",
+        "parent_id": null,
+        "target_id": "c_019_002",
+        "relation": "作 indicates 的宾语"
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "存在句",
+        "english": "there is a real personal responsibility",
+        "chinese": "存在真正的个人责任",
+        "parent_id": "c_019_003",
+        "target_id": null,
+        "relation": "宾语从句内部 there be 结构"
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "主语",
+        "english": "a real personal responsibility",
+        "chinese": "真正的个人责任",
+        "parent_id": "c_019_004",
+        "target_id": null,
+        "relation": "there be 结构真实主语"
+      },
+      {
+        "chunk_id": "c_019_006",
+        "role": "状语",
+        "english": "in counteracting this problem",
+        "chinese": "在抵制这个问题方面",
+        "parent_id": "c_019_003",
+        "target_id": "c_019_004",
+        "relation": "说明 responsibility 的方面"
+      },
+      {
+        "chunk_id": "c_019_007",
+        "role": "插入语",
+        "english": "says Roxanne Stone, editor in chief at Barna Group",
+        "chinese": "巴纳集团主编罗克珊·斯通说",
+        "parent_id": null,
+        "target_id": "c_019_001",
+        "relation": "说明引语来源"
+      },
+      {
+        "chunk_id": "c_019_008",
+        "role": "同位语",
+        "english": "editor in chief at Barna Group",
+        "chinese": "巴纳集团主编",
+        "parent_id": "c_019_007",
+        "target_id": "c_019_007",
+        "relation": "解释 Roxanne Stone 的身份"
+      },
+      {
+        "chunk_id": "c_019_009",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "存在",
+        "parent_id": "c_019_003",
+        "target_id": null,
+        "relation": "there be 结构中宾语从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "直接引语 + says + 发言人",
+        "explanation": "says... 是引语来源。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "人名 + 职务",
+        "explanation": "editor in chief... 解释 Roxanne Stone 的身份。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "indicates",
+        "pos": "v.",
+        "meaning": "表明",
+        "chunk_id": "c_019_002"
+      },
+      {
+        "word": "counteracting",
+        "pos": "v.",
+        "meaning": "抵制，反制",
+        "chunk_id": "c_019_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "personal responsibility",
+        "phrase_type": "n. phr.",
+        "meaning": "个人责任",
+        "chunk_id": "c_019_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "So when young people are critical of an over-tweeting president, they reveal a mental discipline in thinking skills — and in their choices on when to share on social media.",
+    "difficulty": 5,
+    "translation_literal": "所以，当年轻人批评一位过度发推的总统时，他们展现出思维技能上的一种心理纪律，以及在何时在社交媒体上分享方面的选择纪律。",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "连接成分",
+        "english": "So",
+        "chinese": "所以",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "状语从句",
+        "english": "when young people are critical of an over-tweeting president",
+        "chinese": "当年轻人批评一位过度发推的总统时",
+        "parent_id": null,
+        "target_id": "c_020_006",
+        "relation": "说明主句 reveal 的时间背景"
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "从句主语",
+        "english": "young people",
+        "chinese": "年轻人",
+        "parent_id": "c_020_002",
+        "target_id": null,
+        "relation": "when 从句内部主语"
+      },
+      {
+        "chunk_id": "c_020_004",
+        "role": "从句谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_020_002",
+        "target_id": null,
+        "relation": "when 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_020_005",
+        "role": "从句表语",
+        "english": "critical of an over-tweeting president",
+        "chinese": "批评一位过度发推的总统",
+        "parent_id": "c_020_002",
+        "target_id": "c_020_004",
+        "relation": "作 are 的表语"
+      },
+      {
+        "chunk_id": "c_020_006",
+        "role": "主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_007",
+        "role": "谓语",
+        "english": "reveal",
+        "chinese": "展现",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_008",
+        "role": "宾语",
+        "english": "a mental discipline in thinking skills",
+        "chinese": "思维技能上的一种心理纪律",
+        "parent_id": null,
+        "target_id": "c_020_007",
+        "relation": "作 reveal 的宾语"
+      },
+      {
+        "chunk_id": "c_020_009",
+        "role": "并列成分",
+        "english": "and in their choices on when to share on social media",
+        "chinese": "以及在何时在社交媒体上分享方面的选择",
+        "parent_id": "c_020_008",
+        "target_id": null,
+        "relation": "与 in thinking skills 并列补充 discipline 的体现"
+      },
+      {
+        "chunk_id": "c_020_010",
+        "role": "宾语从句",
+        "english": "when to share on social media",
+        "chinese": "何时在社交媒体上分享",
+        "parent_id": "c_020_009",
+        "target_id": "c_020_009",
+        "relation": "作 choices on 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "when 从句 + 主句 + 破折号补充",
+        "explanation": "when 从句给出语境，破折号后补充 mental discipline 的第二个体现。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "critical",
+        "pos": "adj.",
+        "meaning": "批评的",
+        "chunk_id": "c_020_005"
+      },
+      {
+        "word": "discipline",
+        "pos": "n.",
+        "meaning": "纪律，自律",
+        "chunk_id": "c_020_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "social media",
+        "phrase_type": "n. phr.",
+        "meaning": "社交媒体",
+        "chunk_id": "c_020_010"
+      }
+    ]
+  }
+]

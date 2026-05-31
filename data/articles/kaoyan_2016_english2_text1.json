@@ -1,0 +1,2190 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "It’s true that high-school coding classes aren’t essential for learning computer science in college.",
+    "difficulty": 4,
+    "translation_literal": "高中编程课对于在大学学习计算机科学来说并不是必不可少的，这是真的。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "形式主语",
+        "english": "It",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "表语",
+        "english": "true",
+        "chinese": "真的",
+        "parent_id": null,
+        "target_id": "c_001_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "主语从句",
+        "english": "that high-school coding classes aren’t essential for learning computer science in college",
+        "chinese": "高中编程课对于在大学学习计算机科学来说并不是必不可少的",
+        "parent_id": null,
+        "target_id": "c_001_001",
+        "relation": "真正主语，对应形式主语 It"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "从句主语",
+        "english": "high-school coding classes",
+        "chinese": "高中编程课",
+        "parent_id": "c_001_004",
+        "target_id": null,
+        "relation": "主语从句内部主语"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "从句谓语",
+        "english": "aren’t",
+        "chinese": "不是",
+        "parent_id": "c_001_004",
+        "target_id": null,
+        "relation": "主语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "从句表语",
+        "english": "essential for learning computer science in college",
+        "chinese": "对于在大学学习计算机科学来说必不可少的",
+        "parent_id": "c_001_004",
+        "target_id": "c_001_006",
+        "relation": "作主语从句中 aren’t 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is + adj. + that 从句",
+        "explanation": "It 是形式主语，真正主语是后面的 that 从句。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "essential",
+        "pos": "adj.",
+        "meaning": "必不可少的",
+        "chunk_id": "c_001_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "computer science",
+        "phrase_type": "n. phr.",
+        "meaning": "计算机科学",
+        "chunk_id": "c_001_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "Students without experience can catch up after a few introductory courses, said Tom Cortina, the assistant dean at Carnegie Mellon’s School of Computer Science.",
+    "difficulty": 3,
+    "translation_literal": "卡内基梅隆大学计算机科学学院助理院长汤姆·科尔蒂纳说，没有经验的学生可以在几门入门课程之后赶上来。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "Students without experience",
+        "chinese": "没有经验的学生",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "定语",
+        "english": "without experience",
+        "chinese": "没有经验的",
+        "parent_id": "c_002_001",
+        "target_id": "c_002_001",
+        "relation": "修饰 Students"
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "谓语",
+        "english": "can catch up",
+        "chinese": "可以赶上来",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "状语",
+        "english": "after a few introductory courses",
+        "chinese": "在几门入门课程之后",
+        "parent_id": null,
+        "target_id": "c_002_003",
+        "relation": "说明 catch up 的时间"
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "插入语",
+        "english": "said Tom Cortina, the assistant dean at Carnegie Mellon’s School of Computer Science",
+        "chinese": "卡内基梅隆大学计算机科学学院助理院长汤姆·科尔蒂纳说",
+        "parent_id": null,
+        "target_id": "c_002_001",
+        "relation": "说明前面观点的来源"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "同位语",
+        "english": "the assistant dean at Carnegie Mellon’s School of Computer Science",
+        "chinese": "卡内基梅隆大学计算机科学学院助理院长",
+        "parent_id": "c_002_005",
+        "target_id": "c_002_005",
+        "relation": "解释 Tom Cortina 的身份"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句 + said + 发言人",
+        "explanation": "said Tom Cortina 位于句末，说明前面观点的来源。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "人名 + 身份说明",
+        "explanation": "the assistant dean... 是 Tom Cortina 的同位语，解释其身份。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "introductory",
+        "pos": "adj.",
+        "meaning": "入门的",
+        "chunk_id": "c_002_004"
+      },
+      {
+        "word": "assistant",
+        "pos": "adj.",
+        "meaning": "助理的",
+        "chunk_id": "c_002_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "catch up",
+        "phrase_type": "v. phr.",
+        "meaning": "赶上",
+        "chunk_id": "c_002_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "However, Cortina said, early exposure is beneficial.",
+    "difficulty": 2,
+    "translation_literal": "然而，科尔蒂纳说，早期接触是有益的。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "连接成分",
+        "english": "However",
+        "chinese": "然而",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "插入语",
+        "english": "Cortina said",
+        "chinese": "科尔蒂纳说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "主语",
+        "english": "early exposure",
+        "chinese": "早期接触",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "表语",
+        "english": "beneficial",
+        "chinese": "有益的",
+        "parent_id": null,
+        "target_id": "c_003_004",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语前后插入 said",
+        "explanation": "Cortina said 插在句中，只说明信息来源，主干是 early exposure is beneficial。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "exposure",
+        "pos": "n.",
+        "meaning": "接触",
+        "chunk_id": "c_003_003"
+      },
+      {
+        "word": "beneficial",
+        "pos": "adj.",
+        "meaning": "有益的",
+        "chunk_id": "c_003_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "When younger kids learn computer science, they learn that it’s not just a confusing, endless string of letters and numbers — but a tool to build apps, or create artwork, or test hypotheses.",
+    "difficulty": 5,
+    "translation_literal": "当更小的孩子学习计算机科学时，他们会了解到它不只是一串令人困惑的、无尽的字母和数字，而是一个用来构建应用、创作艺术作品或检验假设的工具。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "状语从句",
+        "english": "When younger kids learn computer science",
+        "chinese": "当更小的孩子学习计算机科学时",
+        "parent_id": null,
+        "target_id": "c_004_004",
+        "relation": "说明 learn 发生的时间"
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "从句主语",
+        "english": "younger kids",
+        "chinese": "更小的孩子",
+        "parent_id": "c_004_001",
+        "target_id": null,
+        "relation": "when 状语从句内部主语"
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "从句谓语",
+        "english": "learn",
+        "chinese": "学习",
+        "parent_id": "c_004_001",
+        "target_id": null,
+        "relation": "when 状语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "谓语",
+        "english": "learn",
+        "chinese": "了解到",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "宾语从句",
+        "english": "that it’s not just a confusing, endless string of letters and numbers — but a tool to build apps, or create artwork, or test hypotheses",
+        "chinese": "它不只是一串令人困惑的、无尽的字母和数字，而是一个用来构建应用、创作艺术作品或检验假设的工具",
+        "parent_id": null,
+        "target_id": "c_004_005",
+        "relation": "作 learn 的宾语"
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_004_006",
+        "target_id": null,
+        "relation": "宾语从句内部主语，指 computer science"
+      },
+      {
+        "chunk_id": "c_004_008",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_004_006",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_004_009",
+        "role": "从句表语",
+        "english": "not just a confusing, endless string of letters and numbers — but a tool",
+        "chinese": "不只是一串令人困惑的、无尽的字母和数字，而是一个工具",
+        "parent_id": "c_004_006",
+        "target_id": "c_004_008",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_004_010",
+        "role": "定语",
+        "english": "to build apps, or create artwork, or test hypotheses",
+        "chinese": "用来构建应用、创作艺术作品或检验假设的",
+        "parent_id": "c_004_009",
+        "target_id": "c_004_009",
+        "relation": "修饰 tool"
+      },
+      {
+        "chunk_id": "c_004_011",
+        "role": "并列成分",
+        "english": "build apps / create artwork / test hypotheses",
+        "chinese": "构建应用 / 创作艺术作品 / 检验假设",
+        "parent_id": "c_004_010",
+        "target_id": "c_004_010",
+        "relation": "三个不定式动作并列修饰 tool"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "not just A but B; to do, or do, or do",
+        "explanation": "宾语从句中既有 not just...but... 对照，又有三个并列动作修饰 tool。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "confusing",
+        "pos": "adj.",
+        "meaning": "令人困惑的",
+        "chunk_id": "c_004_009"
+      },
+      {
+        "word": "endless",
+        "pos": "adj.",
+        "meaning": "无尽的",
+        "chunk_id": "c_004_009"
+      },
+      {
+        "word": "hypotheses",
+        "pos": "n.",
+        "meaning": "假设",
+        "chunk_id": "c_004_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "not just ... but ...",
+        "phrase_type": "collocation",
+        "meaning": "不只是……而是……",
+        "chunk_id": "c_004_009"
+      },
+      {
+        "phrase": "test hypotheses",
+        "phrase_type": "v. phr.",
+        "meaning": "检验假设",
+        "chunk_id": "c_004_010"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "It’s not as hard for them to transform their thought processes as it is for older students.",
+    "difficulty": 4,
+    "translation_literal": "对他们来说，转变他们的思维过程并不像对年龄更大的学生来说那样困难。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "形式主语",
+        "english": "It",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "is not",
+        "chinese": "不是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "表语",
+        "english": "as hard for them",
+        "chinese": "对他们来说那样困难",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "作 is not 的表语"
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "真正主语",
+        "english": "to transform their thought processes",
+        "chinese": "转变他们的思维过程",
+        "parent_id": null,
+        "target_id": "c_005_001",
+        "relation": "真正主语，对应形式主语 It"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "状语从句",
+        "english": "as it is for older students",
+        "chinese": "像对年龄更大的学生来说那样",
+        "parent_id": null,
+        "target_id": "c_005_003",
+        "relation": "比较说明 hard 的程度"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": "c_005_005",
+        "target_id": null,
+        "relation": "as 比较从句内部主语"
+      },
+      {
+        "chunk_id": "c_005_007",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_005_005",
+        "target_id": null,
+        "relation": "as 比较从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is + adj. + for sb. + to do",
+        "explanation": "It 是形式主语，真正主语是不定式 to transform...。"
+      },
+      {
+        "pattern_name": "as...as...",
+        "pattern_form": "not as + adj. + as",
+        "explanation": "比较结构容易把真正主语漏掉，核心意思是转变思维对孩子没那么难。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "transform",
+        "pos": "v.",
+        "meaning": "转变",
+        "chunk_id": "c_005_004"
+      },
+      {
+        "word": "processes",
+        "pos": "n.",
+        "meaning": "过程",
+        "chunk_id": "c_005_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "thought processes",
+        "phrase_type": "n. phr.",
+        "meaning": "思维过程",
+        "chunk_id": "c_005_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "Breaking down problems into bite-sized chunks and using code to solve them becomes normal.",
+    "difficulty": 4,
+    "translation_literal": "把问题拆分成小块并使用代码解决它们会变得正常。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "Breaking down problems into bite-sized chunks and using code to solve them",
+        "chinese": "把问题拆分成小块并使用代码解决它们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "并列成分",
+        "english": "Breaking down problems into bite-sized chunks",
+        "chinese": "把问题拆分成小块",
+        "parent_id": "c_006_001",
+        "target_id": null,
+        "relation": "动名词主语的第一项"
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "并列成分",
+        "english": "using code to solve them",
+        "chinese": "使用代码解决它们",
+        "parent_id": "c_006_001",
+        "target_id": null,
+        "relation": "动名词主语的第二项"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "谓语",
+        "english": "becomes",
+        "chinese": "变得",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "表语",
+        "english": "normal",
+        "chinese": "正常的",
+        "parent_id": null,
+        "target_id": "c_006_004",
+        "relation": "作 becomes 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "doing A and doing B 作主语",
+        "explanation": "两个动名词短语并列作整体主语，谓语是 becomes。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "chunks",
+        "pos": "n.",
+        "meaning": "小块",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "normal",
+        "pos": "adj.",
+        "meaning": "正常的",
+        "chunk_id": "c_006_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "break down",
+        "phrase_type": "v. phr.",
+        "meaning": "拆分",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "phrase": "bite-sized chunks",
+        "phrase_type": "n. phr.",
+        "meaning": "小块、易处理的部分",
+        "chunk_id": "c_006_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "Giving more children this training could increase the number of people interested in the field and help fill the jobs gap, Cortina said.",
+    "difficulty": 4,
+    "translation_literal": "科尔蒂纳说，给更多孩子这种训练可能会增加对该领域感兴趣的人数，并帮助填补就业缺口。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "Giving more children this training",
+        "chinese": "给更多孩子这种训练",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "could increase",
+        "chinese": "可能会增加",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "宾语",
+        "english": "the number of people interested in the field",
+        "chinese": "对该领域感兴趣的人数",
+        "parent_id": null,
+        "target_id": "c_007_002",
+        "relation": "作 increase 的宾语"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "定语",
+        "english": "interested in the field",
+        "chinese": "对该领域感兴趣的",
+        "parent_id": "c_007_003",
+        "target_id": "c_007_003",
+        "relation": "修饰 people"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "并列谓语",
+        "english": "and help fill",
+        "chinese": "并帮助填补",
+        "parent_id": null,
+        "target_id": "c_007_002",
+        "relation": "与 could increase 并列，共用主语 Giving..."
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "宾语",
+        "english": "the jobs gap",
+        "chinese": "就业缺口",
+        "parent_id": null,
+        "target_id": "c_007_005",
+        "relation": "作 fill 的宾语"
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "插入语",
+        "english": "Cortina said",
+        "chinese": "科尔蒂纳说",
+        "parent_id": null,
+        "target_id": "c_007_001",
+        "relation": "说明观点来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "could increase... and help...",
+        "explanation": "两个谓语动作共用动名词主语 Giving more children this training。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "training",
+        "pos": "n.",
+        "meaning": "训练",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "increase",
+        "pos": "v.",
+        "meaning": "增加",
+        "chunk_id": "c_007_002"
+      },
+      {
+        "word": "gap",
+        "pos": "n.",
+        "meaning": "缺口",
+        "chunk_id": "c_007_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "jobs gap",
+        "phrase_type": "n. phr.",
+        "meaning": "就业缺口",
+        "chunk_id": "c_007_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "Students also benefit from learning something about coding before they get to college, where introductory computer-science classes are packed to the brim, which can drive the less-experienced or determined students away.",
+    "difficulty": 5,
+    "translation_literal": "学生们也会从在上大学之前学习一些关于编程的东西中受益，在大学里，计算机科学入门课挤得满满当当，这可能会把经验较少或决心不足的学生赶走。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "Students",
+        "chinese": "学生们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "状语",
+        "english": "also",
+        "chinese": "也",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "修饰 benefit"
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "谓语",
+        "english": "benefit from",
+        "chinese": "从……中受益",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "宾语",
+        "english": "learning something about coding",
+        "chinese": "学习一些关于编程的东西",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "作 benefit from 的宾语"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "状语从句",
+        "english": "before they get to college",
+        "chinese": "在他们上大学之前",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "说明 benefit 的时间背景"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_008_005",
+        "target_id": null,
+        "relation": "before 从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "从句谓语",
+        "english": "get to",
+        "chinese": "到达",
+        "parent_id": "c_008_005",
+        "target_id": null,
+        "relation": "before 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "定语从句",
+        "english": "where introductory computer-science classes are packed to the brim",
+        "chinese": "在那里计算机科学入门课挤得满满当当",
+        "parent_id": null,
+        "target_id": "c_008_005",
+        "relation": "修饰 college"
+      },
+      {
+        "chunk_id": "c_008_009",
+        "role": "定语从句主语",
+        "english": "introductory computer-science classes",
+        "chinese": "计算机科学入门课",
+        "parent_id": "c_008_008",
+        "target_id": null,
+        "relation": "where 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_010",
+        "role": "定语从句谓语",
+        "english": "are packed",
+        "chinese": "被挤满",
+        "parent_id": "c_008_008",
+        "target_id": null,
+        "relation": "where 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_011",
+        "role": "定语从句",
+        "english": "which can drive the less-experienced or determined students away",
+        "chinese": "这可能会把经验较少或决心不足的学生赶走",
+        "parent_id": null,
+        "target_id": "c_008_008",
+        "relation": "指代前面课程拥挤这一情况"
+      },
+      {
+        "chunk_id": "c_008_012",
+        "role": "定语从句主语",
+        "english": "which",
+        "chinese": "这",
+        "parent_id": "c_008_011",
+        "target_id": null,
+        "relation": "which 从句内部主语，指前面整个情况"
+      },
+      {
+        "chunk_id": "c_008_013",
+        "role": "定语从句谓语",
+        "english": "can drive",
+        "chinese": "可能会赶走",
+        "parent_id": "c_008_011",
+        "target_id": null,
+        "relation": "which 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_014",
+        "role": "定语从句宾语",
+        "english": "the less-experienced or determined students",
+        "chinese": "经验较少或决心不足的学生",
+        "parent_id": "c_008_011",
+        "target_id": "c_008_013",
+        "relation": "作 drive 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主句 + before 从句 + where 从句 + which 从句",
+        "explanation": "主句 Students benefit from... 后连续接两个定语从句，容易把修饰对象看乱。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "benefit",
+        "pos": "v.",
+        "meaning": "受益",
+        "chunk_id": "c_008_003"
+      },
+      {
+        "word": "introductory",
+        "pos": "adj.",
+        "meaning": "入门的",
+        "chunk_id": "c_008_009"
+      },
+      {
+        "word": "packed",
+        "pos": "adj.",
+        "meaning": "挤满的",
+        "chunk_id": "c_008_010"
+      },
+      {
+        "word": "determined",
+        "pos": "adj.",
+        "meaning": "有决心的",
+        "chunk_id": "c_008_014"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "to the brim",
+        "phrase_type": "adv. phr.",
+        "meaning": "满到边缘，满满当当",
+        "chunk_id": "c_008_010"
+      },
+      {
+        "phrase": "drive away",
+        "phrase_type": "v. phr.",
+        "meaning": "赶走，使离开",
+        "chunk_id": "c_008_013"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that’s become popular for adults looking for a career change.",
+    "difficulty": 5,
+    "translation_literal": "Flatiron 学校，一个人们付费学习编程的地方，最初是许多编程训练营之一，这类训练营已在寻求职业转变的成年人中流行起来。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "The Flatiron School",
+        "chinese": "Flatiron 学校",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "定语从句",
+        "english": "where people pay to learn programming",
+        "chinese": "人们在那里付费学习编程",
+        "parent_id": null,
+        "target_id": "c_009_001",
+        "relation": "修饰 The Flatiron School"
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "定语从句主语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": "c_009_002",
+        "target_id": null,
+        "relation": "where 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "定语从句谓语",
+        "english": "pay",
+        "chinese": "付费",
+        "parent_id": "c_009_002",
+        "target_id": null,
+        "relation": "where 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "谓语",
+        "english": "started as",
+        "chinese": "最初是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "宾语",
+        "english": "one of the many coding bootcamps",
+        "chinese": "许多编程训练营之一",
+        "parent_id": null,
+        "target_id": "c_009_005",
+        "relation": "作 started as 的宾语"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "定语从句",
+        "english": "that’s become popular for adults looking for a career change",
+        "chinese": "已在寻求职业转变的成年人中流行起来的",
+        "parent_id": null,
+        "target_id": "c_009_006",
+        "relation": "修饰 coding bootcamps"
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这类训练营",
+        "parent_id": "c_009_007",
+        "target_id": null,
+        "relation": "that 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_009",
+        "role": "定语从句谓语",
+        "english": "has become",
+        "chinese": "已经变得",
+        "parent_id": "c_009_007",
+        "target_id": null,
+        "relation": "that 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_010",
+        "role": "定语",
+        "english": "looking for a career change",
+        "chinese": "寻求职业转变的",
+        "parent_id": "c_009_007",
+        "target_id": "c_009_011",
+        "relation": "修饰 adults"
+      },
+      {
+        "chunk_id": "c_009_011",
+        "role": "状语",
+        "english": "for adults",
+        "chinese": "对成年人来说",
+        "parent_id": "c_009_007",
+        "target_id": "c_009_009",
+        "relation": "说明 popular 的对象"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主语插入 where 从句，宾语后再接 that 从句",
+        "explanation": "句子主干是 The Flatiron School started as one of...，两个从句分别修饰 School 和 bootcamps。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "programming",
+        "pos": "n.",
+        "meaning": "编程",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "bootcamps",
+        "pos": "n.",
+        "meaning": "训练营",
+        "chunk_id": "c_009_006"
+      },
+      {
+        "word": "career",
+        "pos": "n.",
+        "meaning": "职业",
+        "chunk_id": "c_009_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "career change",
+        "phrase_type": "n. phr.",
+        "meaning": "职业转变",
+        "chunk_id": "c_009_010"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "The high-schoolers get the same curriculum, but “we try to gear lessons toward things they’re interested in,” said Victoria Friedman, an instructor.",
+    "difficulty": 4,
+    "translation_literal": "高中生学习同样的课程，但“我们努力让课程面向他们感兴趣的东西”，教师维多利亚·弗里德曼说。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "并列分句",
+        "english": "The high-schoolers get the same curriculum",
+        "chinese": "高中生学习同样的课程",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "主语",
+        "english": "The high-schoolers",
+        "chinese": "高中生",
+        "parent_id": "c_010_001",
+        "target_id": null,
+        "relation": "第一并列分句的主语"
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "谓语",
+        "english": "get",
+        "chinese": "获得，学习",
+        "parent_id": "c_010_001",
+        "target_id": null,
+        "relation": "第一并列分句的谓语"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "宾语",
+        "english": "the same curriculum",
+        "chinese": "同样的课程",
+        "parent_id": "c_010_001",
+        "target_id": "c_010_003",
+        "relation": "作 get 的宾语"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "连接成分",
+        "english": "but",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "并列分句",
+        "english": "we try to gear lessons toward things they’re interested in",
+        "chinese": "我们努力让课程面向他们感兴趣的东西",
+        "parent_id": null,
+        "target_id": "c_010_001",
+        "relation": "第二并列分句，与前一分句转折并列"
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "主语",
+        "english": "we",
+        "chinese": "我们",
+        "parent_id": "c_010_006",
+        "target_id": null,
+        "relation": "第二并列分句的主语"
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "谓语",
+        "english": "try to gear",
+        "chinese": "努力使……适合",
+        "parent_id": "c_010_006",
+        "target_id": null,
+        "relation": "第二并列分句的谓语"
+      },
+      {
+        "chunk_id": "c_010_009",
+        "role": "宾语",
+        "english": "lessons",
+        "chinese": "课程",
+        "parent_id": "c_010_006",
+        "target_id": "c_010_008",
+        "relation": "作 gear 的宾语"
+      },
+      {
+        "chunk_id": "c_010_010",
+        "role": "定语从句",
+        "english": "they’re interested in",
+        "chinese": "他们感兴趣的",
+        "parent_id": "c_010_006",
+        "target_id": "c_010_011",
+        "relation": "修饰 things"
+      },
+      {
+        "chunk_id": "c_010_011",
+        "role": "状语",
+        "english": "toward things",
+        "chinese": "面向东西",
+        "parent_id": "c_010_006",
+        "target_id": "c_010_008",
+        "relation": "说明 gear 的方向"
+      },
+      {
+        "chunk_id": "c_010_012",
+        "role": "插入语",
+        "english": "said Victoria Friedman, an instructor",
+        "chinese": "教师维多利亚·弗里德曼说",
+        "parent_id": null,
+        "target_id": "c_010_006",
+        "relation": "说明引语来源"
+      },
+      {
+        "chunk_id": "c_010_013",
+        "role": "同位语",
+        "english": "an instructor",
+        "chinese": "一名教师",
+        "parent_id": "c_010_012",
+        "target_id": "c_010_012",
+        "relation": "解释 Victoria Friedman 的身份"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, but “B,” said C",
+        "explanation": "but 连接两个分句，said... 是引语来源，不是第二分句主干。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "curriculum",
+        "pos": "n.",
+        "meaning": "课程",
+        "chunk_id": "c_010_004"
+      },
+      {
+        "word": "gear",
+        "pos": "v.",
+        "meaning": "使适合，使面向",
+        "chunk_id": "c_010_008"
+      },
+      {
+        "word": "instructor",
+        "pos": "n.",
+        "meaning": "教师",
+        "chunk_id": "c_010_013"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "gear ... toward ...",
+        "phrase_type": "v. phr.",
+        "meaning": "使……面向/适合……",
+        "chunk_id": "c_010_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "For instance, one of the apps the students are developing suggests movies based on your mood.",
+    "difficulty": 3,
+    "translation_literal": "例如，学生们正在开发的应用之一会根据你的心情推荐电影。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "连接成分",
+        "english": "For instance",
+        "chinese": "例如",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "主语",
+        "english": "one of the apps the students are developing",
+        "chinese": "学生们正在开发的应用之一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "定语从句",
+        "english": "the students are developing",
+        "chinese": "学生们正在开发的",
+        "parent_id": "c_011_002",
+        "target_id": "c_011_002",
+        "relation": "省略 that 的定语从句，修饰 apps"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "从句主语",
+        "english": "the students",
+        "chinese": "学生们",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "从句谓语",
+        "english": "are developing",
+        "chinese": "正在开发",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "谓语",
+        "english": "suggests",
+        "chinese": "推荐",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "宾语",
+        "english": "movies",
+        "chinese": "电影",
+        "parent_id": null,
+        "target_id": "c_011_006",
+        "relation": "作 suggests 的宾语"
+      },
+      {
+        "chunk_id": "c_011_008",
+        "role": "状语",
+        "english": "based on your mood",
+        "chinese": "根据你的心情",
+        "parent_id": null,
+        "target_id": "c_011_006",
+        "relation": "说明推荐依据"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "名词 + 主语 + 谓语",
+        "explanation": "the students are developing 是省略关系词的定语从句，修饰 apps。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "apps",
+        "pos": "n.",
+        "meaning": "应用程序",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "word": "suggests",
+        "pos": "v.",
+        "meaning": "推荐，建议",
+        "chunk_id": "c_011_006"
+      },
+      {
+        "word": "mood",
+        "pos": "n.",
+        "meaning": "心情",
+        "chunk_id": "c_011_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "based on",
+        "phrase_type": "prep. phr.",
+        "meaning": "根据，基于",
+        "chunk_id": "c_011_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "The students in the Flatiron class probably won’t drop out of high school and build the next Facebook.",
+    "difficulty": 3,
+    "translation_literal": "Flatiron 课程中的学生很可能不会从高中辍学并打造下一个 Facebook。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "The students in the Flatiron class",
+        "chinese": "Flatiron 课程中的学生",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "定语",
+        "english": "in the Flatiron class",
+        "chinese": "在 Flatiron 课程中的",
+        "parent_id": "c_012_001",
+        "target_id": "c_012_001",
+        "relation": "修饰 students"
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "状语",
+        "english": "probably",
+        "chinese": "很可能",
+        "parent_id": null,
+        "target_id": "c_012_004",
+        "relation": "修饰 won’t drop out and build"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "谓语",
+        "english": "won’t drop out",
+        "chinese": "不会辍学",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "状语",
+        "english": "of high school",
+        "chinese": "从高中",
+        "parent_id": null,
+        "target_id": "c_012_004",
+        "relation": "说明 drop out 的范围"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "并列谓语",
+        "english": "and build",
+        "chinese": "并打造",
+        "parent_id": null,
+        "target_id": "c_012_004",
+        "relation": "与 drop out 并列"
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "宾语",
+        "english": "the next Facebook",
+        "chinese": "下一个 Facebook",
+        "parent_id": null,
+        "target_id": "c_012_006",
+        "relation": "作 build 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "probably",
+        "pos": "adv.",
+        "meaning": "很可能",
+        "chunk_id": "c_012_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "drop out of",
+        "phrase_type": "v. phr.",
+        "meaning": "从……辍学",
+        "chunk_id": "c_012_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "Programming languages have a quick turnover, so the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market.",
+    "difficulty": 5,
+    "translation_literal": "编程语言更新换代很快，所以他们学的 “Ruby on Rails” 语言到他们进入就业市场时甚至可能已经不相关了。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "并列分句",
+        "english": "Programming languages have a quick turnover",
+        "chinese": "编程语言更新换代很快",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "主语",
+        "english": "Programming languages",
+        "chinese": "编程语言",
+        "parent_id": "c_013_001",
+        "target_id": null,
+        "relation": "第一分句的主语"
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "谓语",
+        "english": "have",
+        "chinese": "有",
+        "parent_id": "c_013_001",
+        "target_id": null,
+        "relation": "第一分句的谓语"
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "宾语",
+        "english": "a quick turnover",
+        "chinese": "快速更新换代",
+        "parent_id": "c_013_001",
+        "target_id": "c_013_003",
+        "relation": "作 have 的宾语"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "连接成分",
+        "english": "so",
+        "chinese": "所以",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "并列分句",
+        "english": "the “Ruby on Rails” language they learned may not even be relevant by the time they enter the job market",
+        "chinese": "他们学的 Ruby on Rails 语言到他们进入就业市场时甚至可能已经不相关了",
+        "parent_id": null,
+        "target_id": "c_013_001",
+        "relation": "第二分句，说明前一事实的结果"
+      },
+      {
+        "chunk_id": "c_013_007",
+        "role": "主语",
+        "english": "the “Ruby on Rails” language they learned",
+        "chinese": "他们学的 Ruby on Rails 语言",
+        "parent_id": "c_013_006",
+        "target_id": null,
+        "relation": "第二分句的主语"
+      },
+      {
+        "chunk_id": "c_013_008",
+        "role": "定语从句",
+        "english": "they learned",
+        "chinese": "他们学的",
+        "parent_id": "c_013_007",
+        "target_id": "c_013_007",
+        "relation": "省略 that 的定语从句，修饰 language"
+      },
+      {
+        "chunk_id": "c_013_009",
+        "role": "谓语",
+        "english": "may not even be",
+        "chinese": "甚至可能不是",
+        "parent_id": "c_013_006",
+        "target_id": null,
+        "relation": "第二分句的谓语"
+      },
+      {
+        "chunk_id": "c_013_010",
+        "role": "表语",
+        "english": "relevant",
+        "chinese": "相关的",
+        "parent_id": "c_013_006",
+        "target_id": "c_013_009",
+        "relation": "作 be 的表语"
+      },
+      {
+        "chunk_id": "c_013_011",
+        "role": "状语从句",
+        "english": "by the time they enter the job market",
+        "chinese": "到他们进入就业市场时",
+        "parent_id": "c_013_006",
+        "target_id": "c_013_009",
+        "relation": "说明 relevant 的时间界限"
+      },
+      {
+        "chunk_id": "c_013_012",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_013_011",
+        "target_id": null,
+        "relation": "by the time 从句内部主语"
+      },
+      {
+        "chunk_id": "c_013_013",
+        "role": "从句谓语",
+        "english": "enter",
+        "chinese": "进入",
+        "parent_id": "c_013_011",
+        "target_id": null,
+        "relation": "by the time 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_013_014",
+        "role": "从句宾语",
+        "english": "the job market",
+        "chinese": "就业市场",
+        "parent_id": "c_013_011",
+        "target_id": "c_013_013",
+        "relation": "作 enter 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, so B",
+        "explanation": "so 连接因果分句，第二分句内部还有省略关系词的定语从句和时间状语从句。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "turnover",
+        "pos": "n.",
+        "meaning": "更新换代",
+        "chunk_id": "c_013_004"
+      },
+      {
+        "word": "relevant",
+        "pos": "adj.",
+        "meaning": "相关的",
+        "chunk_id": "c_013_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "job market",
+        "phrase_type": "n. phr.",
+        "meaning": "就业市场",
+        "chunk_id": "c_013_014"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "But the skills they learn — how to think logically through a problem and organize the results — apply to any coding language, said Deborah Seehorn, an education consultant for the state of North Carolina.",
+    "difficulty": 5,
+    "translation_literal": "但是他们学到的技能，即如何通过逻辑思考处理一个问题并组织结果，适用于任何编程语言，北卡罗来纳州教育顾问黛博拉·西霍恩说。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "主语",
+        "english": "the skills they learn",
+        "chinese": "他们学到的技能",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "定语从句",
+        "english": "they learn",
+        "chinese": "他们学到的",
+        "parent_id": "c_014_002",
+        "target_id": "c_014_002",
+        "relation": "省略 that 的定语从句，修饰 skills"
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "同位语",
+        "english": "how to think logically through a problem and organize the results",
+        "chinese": "如何通过逻辑思考处理一个问题并组织结果",
+        "parent_id": "c_014_002",
+        "target_id": "c_014_002",
+        "relation": "解释 skills 的具体内容"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "并列成分",
+        "english": "how to think logically through a problem",
+        "chinese": "如何通过逻辑思考处理一个问题",
+        "parent_id": "c_014_004",
+        "target_id": null,
+        "relation": "同位语中第一项技能"
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "并列成分",
+        "english": "organize the results",
+        "chinese": "组织结果",
+        "parent_id": "c_014_004",
+        "target_id": null,
+        "relation": "同位语中第二项技能"
+      },
+      {
+        "chunk_id": "c_014_007",
+        "role": "谓语",
+        "english": "apply to",
+        "chinese": "适用于",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_008",
+        "role": "宾语",
+        "english": "any coding language",
+        "chinese": "任何编程语言",
+        "parent_id": null,
+        "target_id": "c_014_007",
+        "relation": "作 apply to 的宾语"
+      },
+      {
+        "chunk_id": "c_014_009",
+        "role": "插入语",
+        "english": "said Deborah Seehorn, an education consultant for the state of North Carolina",
+        "chinese": "北卡罗来纳州教育顾问黛博拉·西霍恩说",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "说明观点来源"
+      },
+      {
+        "chunk_id": "c_014_010",
+        "role": "同位语",
+        "english": "an education consultant for the state of North Carolina",
+        "chinese": "北卡罗来纳州教育顾问",
+        "parent_id": "c_014_009",
+        "target_id": "c_014_009",
+        "relation": "解释 Deborah Seehorn 的身份"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "名词 + 破折号解释 + 谓语",
+        "explanation": "破折号中的 how to... 解释 skills，主干是 the skills apply to...。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句 + said + 发言人",
+        "explanation": "said Deborah Seehorn 是句末插入的信息来源。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "logically",
+        "pos": "adv.",
+        "meaning": "合乎逻辑地",
+        "chunk_id": "c_014_005"
+      },
+      {
+        "word": "consultant",
+        "pos": "n.",
+        "meaning": "顾问",
+        "chunk_id": "c_014_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "apply to",
+        "phrase_type": "v. phr.",
+        "meaning": "适用于",
+        "chunk_id": "c_014_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "Indeed, the Flatiron students might not go into IT at all.",
+    "difficulty": 2,
+    "translation_literal": "事实上，Flatiron 的学生可能根本不会进入信息技术行业。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "连接成分",
+        "english": "Indeed",
+        "chinese": "事实上",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "主语",
+        "english": "the Flatiron students",
+        "chinese": "Flatiron 的学生",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "谓语",
+        "english": "might not go into",
+        "chinese": "可能不会进入",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "宾语",
+        "english": "IT",
+        "chinese": "信息技术行业",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "作 go into 的宾语"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "状语",
+        "english": "at all",
+        "chinese": "根本",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "加强否定语气"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Indeed",
+        "pos": "adv.",
+        "meaning": "事实上",
+        "chunk_id": "c_015_001"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "go into",
+        "phrase_type": "v. phr.",
+        "meaning": "进入，从事",
+        "chunk_id": "c_015_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "But creating a future army of coders is not the sole purpose of the classes.",
+    "difficulty": 3,
+    "translation_literal": "但是，培养未来的程序员大军并不是这些课程的唯一目的。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "主语",
+        "english": "creating a future army of coders",
+        "chinese": "培养未来的程序员大军",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "定语",
+        "english": "of coders",
+        "chinese": "程序员的",
+        "parent_id": "c_016_002",
+        "target_id": "c_016_002",
+        "relation": "修饰 army"
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "谓语",
+        "english": "is not",
+        "chinese": "不是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "表语",
+        "english": "the sole purpose of the classes",
+        "chinese": "这些课程的唯一目的",
+        "parent_id": null,
+        "target_id": "c_016_004",
+        "relation": "作 is not 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "coders",
+        "pos": "n.",
+        "meaning": "程序员",
+        "chunk_id": "c_016_003"
+      },
+      {
+        "word": "sole",
+        "pos": "adj.",
+        "meaning": "唯一的",
+        "chunk_id": "c_016_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "future army of coders",
+        "phrase_type": "n. phr.",
+        "meaning": "未来的程序员大军",
+        "chunk_id": "c_016_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "These kids are going to be surrounded by computers — in their pockets, in their offices, in their homes — for the rest of their lives.",
+    "difficulty": 4,
+    "translation_literal": "这些孩子将在他们余生中被电脑包围，在他们的口袋里、办公室里、家里。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "These kids",
+        "chinese": "这些孩子",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "are going to be surrounded",
+        "chinese": "将会被包围",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "状语",
+        "english": "by computers",
+        "chinese": "被电脑",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "说明 surround 的施动者"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "插入语",
+        "english": "in their pockets, in their offices, in their homes",
+        "chinese": "在他们的口袋里、办公室里、家里",
+        "parent_id": null,
+        "target_id": "c_017_003",
+        "relation": "列举 computers 出现的位置"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "状语",
+        "english": "for the rest of their lives",
+        "chinese": "在他们余生中",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "说明时间范围"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "并列成分",
+        "english": "in their pockets",
+        "chinese": "在他们的口袋里",
+        "parent_id": "c_017_004",
+        "target_id": "c_017_004",
+        "relation": "插入语中第一个位置"
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "并列成分",
+        "english": "in their offices",
+        "chinese": "在他们的办公室里",
+        "parent_id": "c_017_004",
+        "target_id": "c_017_004",
+        "relation": "插入语中第二个位置"
+      },
+      {
+        "chunk_id": "c_017_008",
+        "role": "并列成分",
+        "english": "in their homes",
+        "chinese": "在他们的家里",
+        "parent_id": "c_017_004",
+        "target_id": "c_017_004",
+        "relation": "插入语中第三个位置"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号中列举说明",
+        "explanation": "破折号中的三个介词短语列举电脑存在的位置，主干是 These kids are going to be surrounded。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "surrounded",
+        "pos": "v.",
+        "meaning": "包围",
+        "chunk_id": "c_017_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "for the rest of their lives",
+        "phrase_type": "prep. phr.",
+        "meaning": "在他们余生中",
+        "chunk_id": "c_017_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 1",
+    "original": "The younger they learn how computers think, how to coax the machine into producing what they want — the earlier they learn that they have the power to do that — the better.",
+    "difficulty": 5,
+    "translation_literal": "他们越早学会电脑如何思考、如何引导机器产生他们想要的东西，他们越早明白自己有能力做到这一点，就越好。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "状语从句",
+        "english": "The younger they learn how computers think, how to coax the machine into producing what they want",
+        "chinese": "他们越早学会电脑如何思考、如何引导机器产生他们想要的东西",
+        "parent_id": null,
+        "target_id": "c_018_009",
+        "relation": "表示“越早……越好”的前一部分"
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_018_001",
+        "target_id": null,
+        "relation": "the younger 从句内部主语"
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "从句谓语",
+        "english": "learn",
+        "chinese": "学会",
+        "parent_id": "c_018_001",
+        "target_id": null,
+        "relation": "the younger 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "宾语从句",
+        "english": "how computers think",
+        "chinese": "电脑如何思考",
+        "parent_id": "c_018_001",
+        "target_id": "c_018_003",
+        "relation": "作 learn 的第一宾语内容"
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "从句主语",
+        "english": "computers",
+        "chinese": "电脑",
+        "parent_id": "c_018_004",
+        "target_id": null,
+        "relation": "how 从句内部主语"
+      },
+      {
+        "chunk_id": "c_018_006",
+        "role": "从句谓语",
+        "english": "think",
+        "chinese": "思考",
+        "parent_id": "c_018_004",
+        "target_id": null,
+        "relation": "how 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_018_007",
+        "role": "并列宾语从句",
+        "english": "how to coax the machine into producing what they want",
+        "chinese": "如何引导机器产生他们想要的东西",
+        "parent_id": "c_018_001",
+        "target_id": "c_018_003",
+        "relation": "与 how computers think 并列作 learn 的内容"
+      },
+      {
+        "chunk_id": "c_018_008",
+        "role": "宾语从句",
+        "english": "what they want",
+        "chinese": "他们想要的东西",
+        "parent_id": "c_018_007",
+        "target_id": "c_018_007",
+        "relation": "作 producing 的宾语"
+      },
+      {
+        "chunk_id": "c_018_009",
+        "role": "并列分句",
+        "english": "the earlier they learn that they have the power to do that",
+        "chinese": "他们越早明白自己有能力做到这一点",
+        "parent_id": "c_018_001",
+        "target_id": null,
+        "relation": "第二个 the + 比较级分句"
+      },
+      {
+        "chunk_id": "c_018_010",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_018_009",
+        "target_id": null,
+        "relation": "the earlier 分句内部主语"
+      },
+      {
+        "chunk_id": "c_018_011",
+        "role": "从句谓语",
+        "english": "learn",
+        "chinese": "明白",
+        "parent_id": "c_018_009",
+        "target_id": null,
+        "relation": "the earlier 分句内部谓语"
+      },
+      {
+        "chunk_id": "c_018_012",
+        "role": "宾语从句",
+        "english": "that they have the power to do that",
+        "chinese": "他们有能力做到这一点",
+        "parent_id": "c_018_009",
+        "target_id": "c_018_011",
+        "relation": "作 learn 的宾语"
+      },
+      {
+        "chunk_id": "c_018_013",
+        "role": "并列分句",
+        "english": "the better",
+        "chinese": "就越好",
+        "parent_id": null,
+        "target_id": "c_018_001",
+        "relation": "与前两个 the + 比较级结构呼应"
+      },
+      {
+        "chunk_id": "c_018_014",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_018_012",
+        "target_id": null,
+        "relation": "that 宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_018_015",
+        "role": "从句谓语",
+        "english": "have",
+        "chinese": "有",
+        "parent_id": "c_018_012",
+        "target_id": null,
+        "relation": "that 宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_018_016",
+        "role": "从句宾语",
+        "english": "the power to do that",
+        "chinese": "做到这一点的能力",
+        "parent_id": "c_018_012",
+        "target_id": "c_018_015",
+        "relation": "作 have 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "the + 比较级..., the + 比较级..., the + 比较级",
+        "explanation": "三个比较级分句层层推进，核心意思是越早理解计算机，越有利。"
+      },
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "how 从句 + how to 结构 + that 从句",
+        "explanation": "多个宾语内容被破折号隔开，阅读时要分别挂到 learn 上。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "coax",
+        "pos": "v.",
+        "meaning": "诱导，引导",
+        "chunk_id": "c_018_007"
+      },
+      {
+        "word": "producing",
+        "pos": "v.",
+        "meaning": "产生",
+        "chunk_id": "c_018_007"
+      },
+      {
+        "word": "power",
+        "pos": "n.",
+        "meaning": "能力",
+        "chunk_id": "c_018_012"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "coax ... into ...",
+        "phrase_type": "v. phr.",
+        "meaning": "引导……去做……",
+        "chunk_id": "c_018_007"
+      }
+    ]
+  }
+]

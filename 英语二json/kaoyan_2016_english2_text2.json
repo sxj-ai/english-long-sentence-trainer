@@ -1,0 +1,1948 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "Biologists estimate that as many as 2 million lesser prairie chickens — a kind of bird living on stretching grasslands — once lent red to the often gray landscape of the Midwestern and southwestern United States.",
+    "difficulty": 5,
+    "translation_literal": "生物学家估计，多达 200 万只小草原榛鸡，一种生活在绵延草原上的鸟，曾经给美国中西部和西南部常常灰色的景观增添红色。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "Biologists",
+        "chinese": "生物学家",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "谓语",
+        "english": "estimate",
+        "chinese": "估计",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "宾语从句",
+        "english": "that as many as 2 million lesser prairie chickens — a kind of bird living on stretching grasslands — once lent red to the often gray landscape of the Midwestern and southwestern United States",
+        "chinese": "多达 200 万只小草原榛鸡曾经给美国中西部和西南部常常灰色的景观增添红色",
+        "parent_id": null,
+        "target_id": "c_001_002",
+        "relation": "作 estimate 的宾语"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "从句主语",
+        "english": "as many as 2 million lesser prairie chickens",
+        "chinese": "多达 200 万只小草原榛鸡",
+        "parent_id": "c_001_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "同位语",
+        "english": "a kind of bird living on stretching grasslands",
+        "chinese": "一种生活在绵延草原上的鸟",
+        "parent_id": "c_001_003",
+        "target_id": "c_001_004",
+        "relation": "解释 lesser prairie chickens"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "定语",
+        "english": "living on stretching grasslands",
+        "chinese": "生活在绵延草原上的",
+        "parent_id": "c_001_005",
+        "target_id": "c_001_005",
+        "relation": "修饰 bird"
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "从句谓语",
+        "english": "once lent",
+        "chinese": "曾经增添",
+        "parent_id": "c_001_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_001_008",
+        "role": "从句宾语",
+        "english": "red",
+        "chinese": "红色",
+        "parent_id": "c_001_003",
+        "target_id": "c_001_007",
+        "relation": "作 lent 的宾语"
+      },
+      {
+        "chunk_id": "c_001_009",
+        "role": "状语",
+        "english": "to the often gray landscape of the Midwestern and southwestern United States",
+        "chinese": "给美国中西部和西南部常常灰色的景观",
+        "parent_id": "c_001_003",
+        "target_id": "c_001_007",
+        "relation": "说明 lent red 的对象"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "名词 + 破折号解释 + 谓语",
+        "explanation": "破折号中的 a kind of bird... 解释 lesser prairie chickens，不是主句主干。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "estimate",
+        "pos": "v.",
+        "meaning": "估计",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "word": "stretching",
+        "pos": "adj.",
+        "meaning": "绵延的",
+        "chunk_id": "c_001_006"
+      },
+      {
+        "word": "landscape",
+        "pos": "n.",
+        "meaning": "景观",
+        "chunk_id": "c_001_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "as many as",
+        "phrase_type": "collocation",
+        "meaning": "多达",
+        "chunk_id": "c_001_004"
+      },
+      {
+        "phrase": "lesser prairie chickens",
+        "phrase_type": "n. phr.",
+        "meaning": "小草原榛鸡",
+        "chunk_id": "c_001_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "But just some 22,000 birds remain today, occupying about 16% of the species’ historic range.",
+    "difficulty": 4,
+    "translation_literal": "但是今天仅剩大约 22000 只鸟，占据该物种历史分布范围的大约 16%。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "主语",
+        "english": "just some 22,000 birds",
+        "chinese": "仅大约 22000 只鸟",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "谓语",
+        "english": "remain",
+        "chinese": "剩下",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "状语",
+        "english": "today",
+        "chinese": "今天",
+        "parent_id": null,
+        "target_id": "c_002_003",
+        "relation": "说明 remain 的时间"
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "非谓语结构",
+        "english": "occupying about 16% of the species’ historic range",
+        "chinese": "占据该物种历史分布范围的大约 16%",
+        "parent_id": "c_002_002",
+        "target_id": "c_002_002",
+        "relation": "补充说明剩余鸟群的分布范围"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "remain",
+        "pos": "v.",
+        "meaning": "剩下，仍然存在",
+        "chunk_id": "c_002_003"
+      },
+      {
+        "word": "occupying",
+        "pos": "v.",
+        "meaning": "占据",
+        "chunk_id": "c_002_005"
+      },
+      {
+        "word": "range",
+        "pos": "n.",
+        "meaning": "范围",
+        "chunk_id": "c_002_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "historic range",
+        "phrase_type": "n. phr.",
+        "meaning": "历史分布范围",
+        "chunk_id": "c_002_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "The crash was a major reason the U.S Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened.",
+    "difficulty": 4,
+    "translation_literal": "这种暴跌是美国鱼类及野生动物管理局决定正式把这种鸟列为受威胁物种的一个主要原因。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "The crash",
+        "chinese": "这种暴跌",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "谓语",
+        "english": "was",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "表语",
+        "english": "a major reason",
+        "chinese": "一个主要原因",
+        "parent_id": null,
+        "target_id": "c_003_002",
+        "relation": "作 was 的表语"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "定语从句",
+        "english": "the U.S Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened",
+        "chinese": "美国鱼类及野生动物管理局决定正式把这种鸟列为受威胁物种的",
+        "parent_id": "c_003_003",
+        "target_id": "c_003_003",
+        "relation": "省略 why/that 的定语从句，修饰 reason"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "从句主语",
+        "english": "the U.S Fish and Wildlife Service (USFWS)",
+        "chinese": "美国鱼类及野生动物管理局",
+        "parent_id": "c_003_004",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "从句谓语",
+        "english": "decided",
+        "chinese": "决定",
+        "parent_id": "c_003_004",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "从句宾语",
+        "english": "to formally list the bird as threatened",
+        "chinese": "正式把这种鸟列为受威胁物种",
+        "parent_id": "c_003_004",
+        "target_id": "c_003_006",
+        "relation": "作 decided 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "reason + 主语 + 谓语",
+        "explanation": "reason 后省略关系词，后面整个从句解释 reason 的内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "crash",
+        "pos": "n.",
+        "meaning": "暴跌",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "formally",
+        "pos": "adv.",
+        "meaning": "正式地",
+        "chunk_id": "c_003_007"
+      },
+      {
+        "word": "threatened",
+        "pos": "adj.",
+        "meaning": "受威胁的",
+        "chunk_id": "c_003_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "list ... as ...",
+        "phrase_type": "v. phr.",
+        "meaning": "把……列为……",
+        "chunk_id": "c_003_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "“The lesser prairie chicken is in a desperate situation,” said USFWS Director Daniel Ashe.",
+    "difficulty": 3,
+    "translation_literal": "美国鱼类及野生动物管理局局长丹尼尔·阿什说：“小草原榛鸡处在绝境中。”",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "The lesser prairie chicken",
+        "chinese": "小草原榛鸡",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "处在",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "表语",
+        "english": "in a desperate situation",
+        "chinese": "在绝境中",
+        "parent_id": null,
+        "target_id": "c_004_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "插入语",
+        "english": "said USFWS Director Daniel Ashe",
+        "chinese": "美国鱼类及野生动物管理局局长丹尼尔·阿什说",
+        "parent_id": null,
+        "target_id": "c_004_001",
+        "relation": "说明引语来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "直接引语 + said + 发言人",
+        "explanation": "said... 位于引语之后，只说明来源。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "desperate",
+        "pos": "adj.",
+        "meaning": "绝望的，危急的",
+        "chunk_id": "c_004_003"
+      },
+      {
+        "word": "situation",
+        "pos": "n.",
+        "meaning": "处境",
+        "chunk_id": "c_004_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "Some environmentalists, however, were disappointed.",
+    "difficulty": 2,
+    "translation_literal": "然而，一些环保人士感到失望。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "Some environmentalists",
+        "chinese": "一些环保人士",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "插入语",
+        "english": "however",
+        "chinese": "然而",
+        "parent_id": null,
+        "target_id": "c_005_001",
+        "relation": "表示转折"
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "谓语",
+        "english": "were",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "表语",
+        "english": "disappointed",
+        "chinese": "失望的",
+        "parent_id": null,
+        "target_id": "c_005_003",
+        "relation": "作 were 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语后插入 however",
+        "explanation": "however 插在主语后，提示与前文转折。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "environmentalists",
+        "pos": "n.",
+        "meaning": "环保人士",
+        "chunk_id": "c_005_001"
+      },
+      {
+        "word": "disappointed",
+        "pos": "adj.",
+        "meaning": "失望的",
+        "chunk_id": "c_005_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats.",
+    "difficulty": 5,
+    "translation_literal": "他们曾推动该机构把这种鸟指定为“濒危”物种，这一身份会给予联邦官员更大的监管权力来打击威胁。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "They",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "had pushed",
+        "chinese": "曾推动",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "宾语",
+        "english": "the agency",
+        "chinese": "该机构",
+        "parent_id": null,
+        "target_id": "c_006_002",
+        "relation": "作 pushed 的宾语"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "宾语补足语",
+        "english": "to designate the bird as “endangered,”",
+        "chinese": "把这种鸟指定为“濒危”物种",
+        "parent_id": null,
+        "target_id": "c_006_003",
+        "relation": "补充说明推动该机构去做的事"
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "同位语",
+        "english": "a status that gives federal officials greater regulatory power to crack down on threats",
+        "chinese": "这一会给予联邦官员更大监管权力来打击威胁的身份",
+        "parent_id": "c_006_004",
+        "target_id": "c_006_004",
+        "relation": "解释 endangered 这一身份"
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "定语从句",
+        "english": "that gives federal officials greater regulatory power to crack down on threats",
+        "chinese": "会给予联邦官员更大监管权力来打击威胁的",
+        "parent_id": "c_006_005",
+        "target_id": "c_006_005",
+        "relation": "修饰 status"
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这一身份",
+        "parent_id": "c_006_006",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_006_008",
+        "role": "定语从句谓语",
+        "english": "gives",
+        "chinese": "给予",
+        "parent_id": "c_006_006",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_006_009",
+        "role": "定语从句宾语",
+        "english": "federal officials greater regulatory power",
+        "chinese": "联邦官员更大的监管权力",
+        "parent_id": "c_006_006",
+        "target_id": "c_006_008",
+        "relation": "作 gives 的双宾语"
+      },
+      {
+        "chunk_id": "c_006_010",
+        "role": "定语",
+        "english": "to crack down on threats",
+        "chinese": "用来打击威胁的",
+        "parent_id": "c_006_009",
+        "target_id": "c_006_009",
+        "relation": "修饰 power"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "名词/标签 + a status + 定语从句",
+        "explanation": "a status 解释 endangered，后面的 that 从句继续修饰 status。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "designate",
+        "pos": "v.",
+        "meaning": "指定，认定",
+        "chunk_id": "c_006_004"
+      },
+      {
+        "word": "regulatory",
+        "pos": "adj.",
+        "meaning": "监管的",
+        "chunk_id": "c_006_009"
+      },
+      {
+        "word": "threats",
+        "pos": "n.",
+        "meaning": "威胁",
+        "chunk_id": "c_006_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "crack down on",
+        "phrase_type": "v. phr.",
+        "meaning": "严厉打击",
+        "chunk_id": "c_006_010"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches.",
+    "difficulty": 5,
+    "translation_literal": "但是阿什和其他人认为，“受威胁”这一标签给予联邦政府灵活性，去尝试新的、可能更少对抗性的保护方法。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "主语",
+        "english": "Ashe and others",
+        "chinese": "阿什和其他人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "谓语",
+        "english": "argued",
+        "chinese": "认为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "宾语从句",
+        "english": "that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches",
+        "chinese": "“受威胁”这一标签给予联邦政府灵活性，去尝试新的、可能更少对抗性的保护方法",
+        "parent_id": null,
+        "target_id": "c_007_003",
+        "relation": "作 argued 的宾语"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "从句主语",
+        "english": "the “threatened” tag",
+        "chinese": "“受威胁”这一标签",
+        "parent_id": "c_007_004",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "从句谓语",
+        "english": "gave",
+        "chinese": "给予",
+        "parent_id": "c_007_004",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "从句宾语",
+        "english": "the federal government flexibility",
+        "chinese": "联邦政府灵活性",
+        "parent_id": "c_007_004",
+        "target_id": "c_007_006",
+        "relation": "作 gave 的双宾语"
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "定语",
+        "english": "to try out new, potentially less confrontational conservation approaches",
+        "chinese": "去尝试新的、可能更少对抗性的保护方法的",
+        "parent_id": "c_007_007",
+        "target_id": "c_007_007",
+        "relation": "说明 flexibility 的用途"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "tag",
+        "pos": "n.",
+        "meaning": "标签，称号",
+        "chunk_id": "c_007_005"
+      },
+      {
+        "word": "flexibility",
+        "pos": "n.",
+        "meaning": "灵活性",
+        "chunk_id": "c_007_007"
+      },
+      {
+        "word": "confrontational",
+        "pos": "adj.",
+        "meaning": "对抗性的",
+        "chunk_id": "c_007_008"
+      },
+      {
+        "word": "conservation",
+        "pos": "n.",
+        "meaning": "保护",
+        "chunk_id": "c_007_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "try out",
+        "phrase_type": "v. phr.",
+        "meaning": "试用，尝试",
+        "chunk_id": "c_007_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action and with the private landowners who control an estimated 95% of the prairie chicken’s habitat.",
+    "difficulty": 5,
+    "translation_literal": "特别是，他们呼吁与西部州政府建立更密切的合作，而这些州政府常常对联邦行动以及控制估计 95% 草原榛鸡栖息地的私人土地所有者感到不安。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "状语",
+        "english": "In particular",
+        "chinese": "特别是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "谓语",
+        "english": "called for",
+        "chinese": "呼吁",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "宾语",
+        "english": "forging closer collaborations with western state governments",
+        "chinese": "与西部州政府建立更密切的合作",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "作 called for 的宾语"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "定语从句",
+        "english": "which are often uneasy with federal action and with the private landowners who control an estimated 95% of the prairie chicken’s habitat",
+        "chinese": "这些州政府常常对联邦行动以及控制估计 95% 草原榛鸡栖息地的私人土地所有者感到不安",
+        "parent_id": null,
+        "target_id": "c_008_004",
+        "relation": "修饰 western state governments"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "定语从句主语",
+        "english": "which",
+        "chinese": "这些州政府",
+        "parent_id": "c_008_005",
+        "target_id": null,
+        "relation": "which 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "定语从句谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_008_005",
+        "target_id": null,
+        "relation": "which 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "从句表语",
+        "english": "often uneasy with federal action and with the private landowners",
+        "chinese": "常常对联邦行动以及私人土地所有者感到不安",
+        "parent_id": "c_008_005",
+        "target_id": "c_008_007",
+        "relation": "作 are 的表语"
+      },
+      {
+        "chunk_id": "c_008_009",
+        "role": "定语从句",
+        "english": "who control an estimated 95% of the prairie chicken’s habitat",
+        "chinese": "控制估计 95% 草原榛鸡栖息地的",
+        "parent_id": "c_008_008",
+        "target_id": "c_008_008",
+        "relation": "修饰 private landowners"
+      },
+      {
+        "chunk_id": "c_008_010",
+        "role": "定语从句主语",
+        "english": "who",
+        "chinese": "他们",
+        "parent_id": "c_008_009",
+        "target_id": null,
+        "relation": "who 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_011",
+        "role": "定语从句谓语",
+        "english": "control",
+        "chinese": "控制",
+        "parent_id": "c_008_009",
+        "target_id": null,
+        "relation": "who 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_012",
+        "role": "从句宾语",
+        "english": "an estimated 95% of the prairie chicken’s habitat",
+        "chinese": "估计 95% 的草原榛鸡栖息地",
+        "parent_id": "c_008_009",
+        "target_id": "c_008_011",
+        "relation": "作 control 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主句 + which 从句 + who 从句",
+        "explanation": "which 从句修饰 governments，who 从句修饰 landowners，不能都挂到主句谓语上。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "forging",
+        "pos": "v.",
+        "meaning": "建立，形成",
+        "chunk_id": "c_008_004"
+      },
+      {
+        "word": "collaborations",
+        "pos": "n.",
+        "meaning": "合作",
+        "chunk_id": "c_008_004"
+      },
+      {
+        "word": "habitat",
+        "pos": "n.",
+        "meaning": "栖息地",
+        "chunk_id": "c_008_012"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "call for",
+        "phrase_type": "v. phr.",
+        "meaning": "呼吁，要求",
+        "chunk_id": "c_008_003"
+      },
+      {
+        "phrase": "be uneasy with",
+        "phrase_type": "adj. phr.",
+        "meaning": "对……感到不安",
+        "chunk_id": "c_008_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "Under the plan, for example, the agency said it would not prosecute landowner or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat.",
+    "difficulty": 5,
+    "translation_literal": "例如，根据该计划，该机构说，只要土地所有者或企业已经签署一项恢复草原榛鸡栖息地的全范围管理计划，它就不会起诉那些无意中杀死、伤害或惊扰这种鸟的土地所有者或企业。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "状语",
+        "english": "Under the plan, for example",
+        "chinese": "例如，根据该计划",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "主语",
+        "english": "the agency",
+        "chinese": "该机构",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "谓语",
+        "english": "said",
+        "chinese": "说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "宾语从句",
+        "english": "it would not prosecute landowner or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat",
+        "chinese": "只要他们签署了恢复草原榛鸡栖息地的全范围管理计划，它就不会起诉无意中杀死、伤害或惊扰这种鸟的土地所有者或企业",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "作 said 的宾语"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_009_004",
+        "target_id": null,
+        "relation": "宾语从句内部主语，指 agency"
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "从句谓语",
+        "english": "would not prosecute",
+        "chinese": "不会起诉",
+        "parent_id": "c_009_004",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "从句宾语",
+        "english": "landowner or businesses",
+        "chinese": "土地所有者或企业",
+        "parent_id": "c_009_004",
+        "target_id": "c_009_006",
+        "relation": "作 prosecute 的宾语"
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "定语从句",
+        "english": "that unintentionally kill, harm, or disturb the bird",
+        "chinese": "无意中杀死、伤害或惊扰这种鸟的",
+        "parent_id": "c_009_004",
+        "target_id": "c_009_007",
+        "relation": "修饰 landowner or businesses"
+      },
+      {
+        "chunk_id": "c_009_009",
+        "role": "定语从句谓语",
+        "english": "kill, harm, or disturb",
+        "chinese": "杀死、伤害或惊扰",
+        "parent_id": "c_009_008",
+        "target_id": null,
+        "relation": "that 定语从句内部并列谓语"
+      },
+      {
+        "chunk_id": "c_009_010",
+        "role": "状语从句",
+        "english": "as long as they had signed a range-wide management plan to restore prairie chicken habitat",
+        "chinese": "只要他们已经签署一项恢复草原榛鸡栖息地的全范围管理计划",
+        "parent_id": "c_009_004",
+        "target_id": "c_009_006",
+        "relation": "说明不被起诉的条件"
+      },
+      {
+        "chunk_id": "c_009_011",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_009_010",
+        "target_id": null,
+        "relation": "as long as 从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_012",
+        "role": "从句谓语",
+        "english": "had signed",
+        "chinese": "已经签署",
+        "parent_id": "c_009_010",
+        "target_id": null,
+        "relation": "as long as 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_013",
+        "role": "从句宾语",
+        "english": "a range-wide management plan",
+        "chinese": "一项全范围管理计划",
+        "parent_id": "c_009_010",
+        "target_id": "c_009_012",
+        "relation": "作 signed 的宾语"
+      },
+      {
+        "chunk_id": "c_009_014",
+        "role": "定语",
+        "english": "to restore prairie chicken habitat",
+        "chinese": "恢复草原榛鸡栖息地的",
+        "parent_id": "c_009_013",
+        "target_id": "c_009_013",
+        "relation": "修饰 plan"
+      },
+      {
+        "chunk_id": "c_009_015",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这些土地所有者或企业",
+        "parent_id": "c_009_008",
+        "target_id": null,
+        "relation": "that 定语从句内部主语，指 landowner or businesses"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "kill, harm, or disturb",
+        "explanation": "定语从句中三个动作并列，说明可能造成的无意伤害。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "prosecute",
+        "pos": "v.",
+        "meaning": "起诉",
+        "chunk_id": "c_009_006"
+      },
+      {
+        "word": "unintentionally",
+        "pos": "adv.",
+        "meaning": "无意地",
+        "chunk_id": "c_009_008"
+      },
+      {
+        "word": "restore",
+        "pos": "v.",
+        "meaning": "恢复",
+        "chunk_id": "c_009_014"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "as long as",
+        "phrase_type": "conj. phr.",
+        "meaning": "只要",
+        "chunk_id": "c_009_010"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre destroyed with 2 new acres of suitable habitat.",
+    "difficulty": 5,
+    "translation_literal": "由美国鱼类及野生动物管理局和各州协商制定的该计划，要求那些在经营活动中破坏栖息地的个人和企业向一个基金缴款，用每破坏一英亩替换两英亩新的适宜栖息地。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "非谓语结构",
+        "english": "Negotiated by USFWS and the states",
+        "chinese": "由美国鱼类及野生动物管理局和各州协商制定的",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "修饰 the plan"
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "主语",
+        "english": "the plan",
+        "chinese": "该计划",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "谓语",
+        "english": "requires",
+        "chinese": "要求",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "宾语",
+        "english": "individuals and businesses that damage habitat as part of their operations",
+        "chinese": "在经营活动中破坏栖息地的个人和企业",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "作 requires 的宾语"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "定语从句",
+        "english": "that damage habitat as part of their operations",
+        "chinese": "在经营活动中破坏栖息地的",
+        "parent_id": "c_010_004",
+        "target_id": "c_010_004",
+        "relation": "修饰 individuals and businesses"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这些个人和企业",
+        "parent_id": "c_010_005",
+        "target_id": null,
+        "relation": "that 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "定语从句谓语",
+        "english": "damage",
+        "chinese": "破坏",
+        "parent_id": "c_010_005",
+        "target_id": null,
+        "relation": "that 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "定语从句宾语",
+        "english": "habitat",
+        "chinese": "栖息地",
+        "parent_id": "c_010_005",
+        "target_id": "c_010_007",
+        "relation": "作 damage 的宾语"
+      },
+      {
+        "chunk_id": "c_010_009",
+        "role": "宾语补足语",
+        "english": "to pay into a fund",
+        "chinese": "向一个基金缴款",
+        "parent_id": null,
+        "target_id": "c_010_004",
+        "relation": "补充说明 requires 的宾语要做什么"
+      },
+      {
+        "chunk_id": "c_010_010",
+        "role": "定语",
+        "english": "to replace every acre destroyed with 2 new acres of suitable habitat",
+        "chinese": "用两英亩新的适宜栖息地替换每一英亩被破坏的栖息地的",
+        "parent_id": "c_010_009",
+        "target_id": "c_010_009",
+        "relation": "说明 fund 的用途"
+      },
+      {
+        "chunk_id": "c_010_011",
+        "role": "定语",
+        "english": "destroyed",
+        "chinese": "被破坏的",
+        "parent_id": "c_010_010",
+        "target_id": "c_010_010",
+        "relation": "修饰 every acre"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "requires + 宾语 + to do",
+        "explanation": "requires 的宾语 individuals and businesses 后带定语从句，真正的宾补是 to pay...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Negotiated",
+        "pos": "v.",
+        "meaning": "协商制定",
+        "chunk_id": "c_010_001"
+      },
+      {
+        "word": "requires",
+        "pos": "v.",
+        "meaning": "要求",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "suitable",
+        "pos": "adj.",
+        "meaning": "适宜的",
+        "chunk_id": "c_010_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "pay into a fund",
+        "phrase_type": "v. phr.",
+        "meaning": "向基金缴款",
+        "chunk_id": "c_010_009"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "The fund will also be used to compensate landowners who set aside habitat, USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67,000 birds over the next 10 years.",
+    "difficulty": 5,
+    "translation_literal": "该基金还将被用来补偿留出栖息地的土地所有者，美国鱼类及野生动物管理局还设定了一个临时目标，即在未来 10 年把草原榛鸡数量恢复到年均 67000 只。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "并列分句",
+        "english": "The fund will also be used to compensate landowners who set aside habitat",
+        "chinese": "该基金还将被用来补偿留出栖息地的土地所有者",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "主语",
+        "english": "The fund",
+        "chinese": "该基金",
+        "parent_id": "c_011_001",
+        "target_id": null,
+        "relation": "第一分句的主语"
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "谓语",
+        "english": "will also be used",
+        "chinese": "还将被使用",
+        "parent_id": "c_011_001",
+        "target_id": null,
+        "relation": "第一分句的谓语"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "补语",
+        "english": "to compensate landowners who set aside habitat",
+        "chinese": "用来补偿留出栖息地的土地所有者",
+        "parent_id": "c_011_001",
+        "target_id": "c_011_003",
+        "relation": "说明 fund 的用途"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "定语从句",
+        "english": "who set aside habitat",
+        "chinese": "留出栖息地的",
+        "parent_id": "c_011_004",
+        "target_id": "c_011_004",
+        "relation": "修饰 landowners"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "并列分句",
+        "english": "USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67,000 birds over the next 10 years",
+        "chinese": "美国鱼类及野生动物管理局还设定了一个临时目标，即在未来 10 年把草原榛鸡数量恢复到年均 67000 只",
+        "parent_id": null,
+        "target_id": "c_011_001",
+        "relation": "第二分句，与第一分句并列"
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "主语",
+        "english": "USFWS",
+        "chinese": "美国鱼类及野生动物管理局",
+        "parent_id": "c_011_006",
+        "target_id": null,
+        "relation": "第二分句的主语"
+      },
+      {
+        "chunk_id": "c_011_008",
+        "role": "谓语",
+        "english": "set",
+        "chinese": "设定",
+        "parent_id": "c_011_006",
+        "target_id": null,
+        "relation": "第二分句的谓语"
+      },
+      {
+        "chunk_id": "c_011_009",
+        "role": "宾语",
+        "english": "an interim goal",
+        "chinese": "一个临时目标",
+        "parent_id": "c_011_006",
+        "target_id": "c_011_008",
+        "relation": "作 set 的宾语"
+      },
+      {
+        "chunk_id": "c_011_010",
+        "role": "定语",
+        "english": "of restoring prairie chicken populations to an annual average of 67,000 birds over the next 10 years",
+        "chinese": "在未来 10 年把草原榛鸡数量恢复到年均 67000 只的",
+        "parent_id": "c_011_009",
+        "target_id": "c_011_009",
+        "relation": "说明 goal 的内容"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A will be used..., USFWS also set...",
+        "explanation": "逗号连接两个并列分句，分别说明基金用途和机构目标。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "compensate",
+        "pos": "v.",
+        "meaning": "补偿",
+        "chunk_id": "c_011_004"
+      },
+      {
+        "word": "interim",
+        "pos": "adj.",
+        "meaning": "临时的，过渡性的",
+        "chunk_id": "c_011_009"
+      },
+      {
+        "word": "annual",
+        "pos": "adj.",
+        "meaning": "年度的",
+        "chunk_id": "c_011_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "set aside",
+        "phrase_type": "v. phr.",
+        "meaning": "留出，拨出",
+        "chunk_id": "c_011_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "And it gives the Western Association of Fish and Wildlife Agencies (WAFWA), a coalition of state agencies, the job of monitoring progress.",
+    "difficulty": 4,
+    "translation_literal": "并且它把监督进展的工作交给西部鱼类及野生动物机构协会，一个州机构联盟。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "连接成分",
+        "english": "And",
+        "chinese": "并且",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "谓语",
+        "english": "gives",
+        "chinese": "给予",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "宾语",
+        "english": "the Western Association of Fish and Wildlife Agencies (WAFWA)",
+        "chinese": "西部鱼类及野生动物机构协会",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "作 gives 的间接宾语"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "同位语",
+        "english": "a coalition of state agencies",
+        "chinese": "一个州机构联盟",
+        "parent_id": "c_012_004",
+        "target_id": "c_012_004",
+        "relation": "解释 WAFWA"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "宾语",
+        "english": "the job of monitoring progress",
+        "chinese": "监督进展的工作",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "作 gives 的直接宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "机构名 + 同位语",
+        "explanation": "a coalition of state agencies 解释 WAFWA 的性质。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "coalition",
+        "pos": "n.",
+        "meaning": "联盟",
+        "chunk_id": "c_012_005"
+      },
+      {
+        "word": "monitoring",
+        "pos": "v.",
+        "meaning": "监督，监测",
+        "chunk_id": "c_012_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "monitoring progress",
+        "phrase_type": "v. phr.",
+        "meaning": "监督进展",
+        "chunk_id": "c_012_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "Overall, the idea is to let “states” remain in the driver’s seat for managing the species,” Ashe said.",
+    "difficulty": 4,
+    "translation_literal": "阿什说，总体而言，这一想法是让“各州”在管理该物种方面保持主导地位。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "状语",
+        "english": "Overall",
+        "chinese": "总体而言",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "主语",
+        "english": "the idea",
+        "chinese": "这一想法",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "表语",
+        "english": "to let “states” remain in the driver’s seat for managing the species",
+        "chinese": "让各州在管理该物种方面保持主导地位",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "宾语",
+        "english": "“states”",
+        "chinese": "各州",
+        "parent_id": "c_013_004",
+        "target_id": "c_013_004",
+        "relation": "作 let 的宾语"
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "宾语补足语",
+        "english": "remain in the driver’s seat",
+        "chinese": "保持主导地位",
+        "parent_id": "c_013_004",
+        "target_id": "c_013_005",
+        "relation": "补充说明 states 的状态"
+      },
+      {
+        "chunk_id": "c_013_007",
+        "role": "状语",
+        "english": "for managing the species",
+        "chinese": "在管理该物种方面",
+        "parent_id": "c_013_004",
+        "target_id": "c_013_006",
+        "relation": "说明 remain 的领域"
+      },
+      {
+        "chunk_id": "c_013_008",
+        "role": "插入语",
+        "english": "Ashe said",
+        "chinese": "阿什说",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "说明观点来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句 + said",
+        "explanation": "Ashe said 是引语来源，主干是 the idea is to let states remain...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Overall",
+        "pos": "adv.",
+        "meaning": "总体而言",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "species",
+        "pos": "n.",
+        "meaning": "物种",
+        "chunk_id": "c_013_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "in the driver’s seat",
+        "phrase_type": "idiom",
+        "meaning": "处于主导地位",
+        "chunk_id": "c_013_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "Not everyone buys the win-win rhetoric.",
+    "difficulty": 3,
+    "translation_literal": "并不是每个人都相信这种双赢说法。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "Not everyone",
+        "chinese": "并不是每个人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "buys",
+        "chinese": "相信",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "宾语",
+        "english": "the win-win rhetoric",
+        "chinese": "这种双赢说法",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "作 buys 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "buys",
+        "pos": "v.",
+        "meaning": "相信，接受",
+        "chunk_id": "c_014_002"
+      },
+      {
+        "word": "rhetoric",
+        "pos": "n.",
+        "meaning": "说法，言辞",
+        "chunk_id": "c_014_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "win-win rhetoric",
+        "phrase_type": "n. phr.",
+        "meaning": "双赢说法",
+        "chunk_id": "c_014_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "Some Congress members are trying to block the plan, and at least a dozen industry groups, four states, and three environmental groups are challenging it in federal court.",
+    "difficulty": 4,
+    "translation_literal": "一些国会议员正试图阻止该计划，并且至少十几个行业组织、四个州和三个环保组织正在联邦法院质疑它。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "并列分句",
+        "english": "Some Congress members are trying to block the plan",
+        "chinese": "一些国会议员正试图阻止该计划",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "主语",
+        "english": "Some Congress members",
+        "chinese": "一些国会议员",
+        "parent_id": "c_015_001",
+        "target_id": null,
+        "relation": "第一分句的主语"
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "谓语",
+        "english": "are trying to block",
+        "chinese": "正试图阻止",
+        "parent_id": "c_015_001",
+        "target_id": null,
+        "relation": "第一分句的谓语"
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "宾语",
+        "english": "the plan",
+        "chinese": "该计划",
+        "parent_id": "c_015_001",
+        "target_id": "c_015_003",
+        "relation": "作 block 的宾语"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "并列分句",
+        "english": "at least a dozen industry groups, four states, and three environmental groups are challenging it in federal court",
+        "chinese": "至少十几个行业组织、四个州和三个环保组织正在联邦法院质疑它",
+        "parent_id": null,
+        "target_id": "c_015_001",
+        "relation": "第二分句，与前一分句并列"
+      },
+      {
+        "chunk_id": "c_015_006",
+        "role": "主语",
+        "english": "at least a dozen industry groups, four states, and three environmental groups",
+        "chinese": "至少十几个行业组织、四个州和三个环保组织",
+        "parent_id": "c_015_005",
+        "target_id": null,
+        "relation": "第二分句的并列主语"
+      },
+      {
+        "chunk_id": "c_015_007",
+        "role": "谓语",
+        "english": "are challenging",
+        "chinese": "正在质疑",
+        "parent_id": "c_015_005",
+        "target_id": null,
+        "relation": "第二分句的谓语"
+      },
+      {
+        "chunk_id": "c_015_008",
+        "role": "宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_015_005",
+        "target_id": "c_015_007",
+        "relation": "作 challenging 的宾语，指 the plan"
+      },
+      {
+        "chunk_id": "c_015_009",
+        "role": "状语",
+        "english": "in federal court",
+        "chinese": "在联邦法院",
+        "parent_id": "c_015_005",
+        "target_id": "c_015_007",
+        "relation": "说明 challenging 的地点"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A are trying..., and B are challenging...",
+        "explanation": "and 连接两个分句；第二分句主语本身又由三类群体并列构成。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "block",
+        "pos": "v.",
+        "meaning": "阻止",
+        "chunk_id": "c_015_003"
+      },
+      {
+        "word": "challenging",
+        "pos": "v.",
+        "meaning": "质疑，挑战",
+        "chunk_id": "c_015_007"
+      },
+      {
+        "word": "federal",
+        "pos": "adj.",
+        "meaning": "联邦的",
+        "chunk_id": "c_015_009"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "Not surprisingly, doesn’t go far enough.",
+    "difficulty": 2,
+    "translation_literal": "不足为奇的是，它还远远不够。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "状语",
+        "english": "Not surprisingly",
+        "chinese": "不足为奇的是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "省略结构",
+        "english": "doesn’t go far enough",
+        "chinese": "还远远不够",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_016_002",
+        "target_id": null,
+        "relation": "原文省略的主语，指该计划或联邦行动"
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "谓语",
+        "english": "doesn’t go",
+        "chinese": "没有走到",
+        "parent_id": "c_016_002",
+        "target_id": null,
+        "relation": "省略结构中的谓语"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "状语",
+        "english": "far enough",
+        "chinese": "足够远",
+        "parent_id": null,
+        "target_id": "c_016_004",
+        "relation": "说明 go 的程度"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "省略主语 + doesn’t go far enough",
+        "explanation": "原句缺少显性主语，需要根据上下文补出 it，指该计划力度不足。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "surprisingly",
+        "pos": "adv.",
+        "meaning": "令人惊讶地",
+        "chunk_id": "c_016_001"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "go far enough",
+        "phrase_type": "v. phr.",
+        "meaning": "力度足够，做得够远",
+        "chunk_id": "c_016_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 2",
+    "original": "“The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says biologist Jay Lininger.",
+    "difficulty": 5,
+    "translation_literal": "生物学家杰伊·利宁格说：“联邦政府正在把管理这种鸟的责任交给那些正在把它推向灭绝的同一批行业。”",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "The federal government",
+        "chinese": "联邦政府",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "is giving",
+        "chinese": "正在给予",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "宾语",
+        "english": "responsibility for managing the bird",
+        "chinese": "管理这种鸟的责任",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "作 giving 的直接宾语"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "定语",
+        "english": "for managing the bird",
+        "chinese": "管理这种鸟的",
+        "parent_id": "c_017_003",
+        "target_id": "c_017_003",
+        "relation": "修饰 responsibility"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "状语",
+        "english": "to the same industries that are pushing it to extinction",
+        "chinese": "给那些正在把它推向灭绝的同一批行业",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "说明 giving 的对象"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "定语从句",
+        "english": "that are pushing it to extinction",
+        "chinese": "正在把它推向灭绝的",
+        "parent_id": "c_017_005",
+        "target_id": "c_017_005",
+        "relation": "修饰 industries"
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这些行业",
+        "parent_id": "c_017_006",
+        "target_id": null,
+        "relation": "that 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_017_008",
+        "role": "定语从句谓语",
+        "english": "are pushing",
+        "chinese": "正在推动",
+        "parent_id": "c_017_006",
+        "target_id": null,
+        "relation": "that 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_017_009",
+        "role": "定语从句宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_017_006",
+        "target_id": "c_017_008",
+        "relation": "作 pushing 的宾语，指 the bird"
+      },
+      {
+        "chunk_id": "c_017_010",
+        "role": "状语",
+        "english": "to extinction",
+        "chinese": "走向灭绝",
+        "parent_id": null,
+        "target_id": "c_017_008",
+        "relation": "说明 pushing 的结果方向"
+      },
+      {
+        "chunk_id": "c_017_011",
+        "role": "插入语",
+        "english": "says biologist Jay Lininger",
+        "chinese": "生物学家杰伊·利宁格说",
+        "parent_id": null,
+        "target_id": "c_017_001",
+        "relation": "说明引语来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "give A to B + 定语从句",
+        "explanation": "giving 的直接宾语是 responsibility，to 后对象 industries 又带定语从句。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "responsibility",
+        "pos": "n.",
+        "meaning": "责任",
+        "chunk_id": "c_017_003"
+      },
+      {
+        "word": "extinction",
+        "pos": "n.",
+        "meaning": "灭绝",
+        "chunk_id": "c_017_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "push ... to extinction",
+        "phrase_type": "v. phr.",
+        "meaning": "把……推向灭绝",
+        "chunk_id": "c_017_008"
+      }
+    ]
+  }
+]

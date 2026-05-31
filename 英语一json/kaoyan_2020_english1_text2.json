@@ -1,0 +1,1544 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Scientific publishing has long been a licence to print money.",
+    "difficulty": 2,
+    "translation_literal": "科学出版长期以来一直是一种印钞许可证。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "Scientific publishing has",
+        "chinese": "科学出版长",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "谓语",
+        "english": "long been a",
+        "chinese": "期以来一直",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "宾语",
+        "english": "licence to print",
+        "chinese": "是一种印钞",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "状语",
+        "english": "money.",
+        "chinese": "许可证。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Scientific",
+        "pos": "adj.",
+        "meaning": "科学的",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "publishing",
+        "pos": "v.",
+        "meaning": "出版",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "word": "licence",
+        "pos": "n.",
+        "meaning": "特许；赚钱机器",
+        "chunk_id": "c_001_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Scientists need journals in which to publish their research, so they will supply the articles without monetary reward.",
+    "difficulty": 3,
+    "translation_literal": "科学家需要期刊来发表他们的研究，因此他们会无金钱回报地提供文章。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "Scientists need journals",
+        "chinese": "科学家需要期",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "in which to",
+        "chinese": "刊来发表他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "宾语",
+        "english": "publish their research,",
+        "chinese": "的研究，因此",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "状语",
+        "english": "so they will",
+        "chinese": "他们会无金钱",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "定语",
+        "english": "supply the articles",
+        "chinese": "回报地提供文",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "补语",
+        "english": "without monetary reward.",
+        "chinese": "章。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Scientists",
+        "pos": "n.",
+        "meaning": "科学家",
+        "chunk_id": "c_002_001"
+      },
+      {
+        "word": "journals",
+        "pos": "n.",
+        "meaning": "期刊",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "publish",
+        "pos": "n.",
+        "meaning": "发表",
+        "chunk_id": "c_002_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Other scientists perform the specialised work of peer review also for free, because it is a central element in the acquisition of status and the production of scientific knowledge.",
+    "difficulty": 4,
+    "translation_literal": "其他科学家也免费从事同行评议这种专业工作，因为它是获得地位和生产科学知识的一个核心要素。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "Other scientists perform the specialised",
+        "chinese": "其他科学家也免费",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "谓语",
+        "english": "work of peer review also",
+        "chinese": "从事同行评议这种",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "宾语",
+        "english": "for free, because it is",
+        "chinese": "专业工作，因为它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "状语",
+        "english": "a central element in the",
+        "chinese": "是获得地位和生产",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "定语",
+        "english": "acquisition of status and the",
+        "chinese": "科学知识的一个核",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "补语",
+        "english": "production of scientific knowledge.",
+        "chinese": "心要素。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Other",
+        "pos": "n.",
+        "meaning": "其他的",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "scientists",
+        "pos": "n.",
+        "meaning": "科学家",
+        "chunk_id": "c_003_002"
+      },
+      {
+        "word": "perform",
+        "pos": "n.",
+        "meaning": "承担；进行",
+        "chunk_id": "c_003_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "peer review",
+        "phrase_type": "collocation",
+        "meaning": "同行评审",
+        "chunk_id": "c_003_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "With the content of papers secured for free, the publisher needs only to find a market for its journal.",
+    "difficulty": 3,
+    "translation_literal": "论文内容免费得到保障之后，出版商只需要为其期刊找到市场。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "With the content of",
+        "chinese": "论文内容免费",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "谓语",
+        "english": "papers secured for free,",
+        "chinese": "得到保障之后",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "宾语",
+        "english": "the publisher needs only",
+        "chinese": "，出版商只需",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "状语",
+        "english": "to find a market",
+        "chinese": "要为其期刊找",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "定语",
+        "english": "for its journal.",
+        "chinese": "到市场。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "content",
+        "pos": "n.",
+        "meaning": "内容",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "word": "papers",
+        "pos": "n.",
+        "meaning": "论文",
+        "chunk_id": "c_004_002"
+      },
+      {
+        "word": "secured",
+        "pos": "v.",
+        "meaning": "获得保障的；弄到手的",
+        "chunk_id": "c_004_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Until this century, university libraries were not very price sensitive.",
+    "difficulty": 2,
+    "translation_literal": "直到本世纪，大学图书馆对价格并不十分敏感。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "Until this century,",
+        "chinese": "直到本世纪，",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "university libraries were",
+        "chinese": "大学图书馆对",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "宾语",
+        "english": "not very price",
+        "chinese": "价格并不十分",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "状语",
+        "english": "sensitive.",
+        "chinese": "敏感。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Until",
+        "pos": "n.",
+        "meaning": "直到",
+        "chunk_id": "c_005_001"
+      },
+      {
+        "word": "century",
+        "pos": "n.",
+        "meaning": "世纪",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "university",
+        "pos": "n.",
+        "meaning": "大学",
+        "chunk_id": "c_005_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Scientific publishers routinely report profit margins approaching 40% on their operations, at a time when the rest of the publishing industry is in an existential crisis.",
+    "difficulty": 4,
+    "translation_literal": "科学出版商经常报告其业务利润率接近 40%，而此时出版业其他部分正处于生存危机之中。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "Scientific publishers routinely report",
+        "chinese": "科学出版商经",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "profit margins approaching 40%",
+        "chinese": "常报告其业务",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "宾语",
+        "english": "on their operations, at",
+        "chinese": "利润率接近",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "状语",
+        "english": "a time when the",
+        "chinese": "40%，而此",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "定语",
+        "english": "rest of the publishing",
+        "chinese": "时出版业其他",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "补语",
+        "english": "industry is in an",
+        "chinese": "部分正处于生",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "并列成分",
+        "english": "existential crisis.",
+        "chinese": "存危机之中。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Scientific",
+        "pos": "adj.",
+        "meaning": "科学的",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "publishers",
+        "pos": "n.",
+        "meaning": "出版商",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "routinely",
+        "pos": "adv.",
+        "meaning": "通常；惯常地",
+        "chunk_id": "c_006_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The Dutch giant Elsevier, which claims to publish 25% of the scientific papers produced in the world, made profits of more than £900m last year, while UK universities alone spent more than £210m in 2016 to enable researchers to access their own publicly funded research; both figures seem to rise unstoppably despite increasingly desperate efforts to change them.",
+    "difficulty": 5,
+    "translation_literal": "荷兰巨头爱思唯尔声称出版了世界上 25% 的科学论文，去年获利超过 9 亿英镑；而仅英国大学在 2016 年就花费超过 2.1 亿英镑，以使研究人员能够获取他们自己由公共资金资助的研究；尽管改变它们的努力日益绝望，这两个数字似乎仍不可阻挡地上升。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "The Dutch giant Elsevier, which claims to publish",
+        "chinese": "荷兰巨头爱思唯尔声称出版了世界上",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "25% of the scientific papers produced in the",
+        "chinese": "25% 的科学论文，去年获利超",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "宾语",
+        "english": "world, made profits of more than £900m last",
+        "chinese": "过 9 亿英镑；而仅英国大学在",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "状语",
+        "english": "year, while UK universities alone spent more than",
+        "chinese": "2016 年就花费超过 2.1",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "定语",
+        "english": "£210m in 2016 to enable researchers to access",
+        "chinese": "亿英镑，以使研究人员能够获取他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "补语",
+        "english": "their own publicly funded research; both figures seem",
+        "chinese": "自己由公共资金资助的研究；尽管改",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "并列成分",
+        "english": "to rise unstoppably despite increasingly desperate efforts to",
+        "chinese": "变它们的努力日益绝望，这两个数字",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "非谓语结构",
+        "english": "change them.",
+        "chinese": "似乎仍不可阻挡地上升。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主干被插入语、从句或并列成分隔开",
+        "explanation": "句子主干之间夹有较长修饰或补充内容，阅读时需要先找主谓宾。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Dutch",
+        "pos": "n.",
+        "meaning": "荷兰的",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "giant",
+        "pos": "n.",
+        "meaning": "巨头",
+        "chunk_id": "c_007_002"
+      },
+      {
+        "word": "Elsevier",
+        "pos": "n.",
+        "meaning": "爱思唯尔",
+        "chunk_id": "c_007_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The most drastic, and thoroughly illegal, reaction has been the emergence of Sci- Hub, a kind of global photocopier for scientific papers, set up in 2012, which now claims to offer access to every paywalled article published since 2015.",
+    "difficulty": 5,
+    "translation_literal": "最激烈且完全非法的反应，是 Sci-Hub 的出现；它是一种科学论文的全球复印机，成立于 2012 年，现在声称能提供自 2015 年以来每一篇付费墙文章的访问权。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "The most drastic, and thoroughly",
+        "chinese": "最激烈且完全非法的反应",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "illegal, reaction has been the",
+        "chinese": "，是 Sci-Hub",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "宾语",
+        "english": "emergence of Sci- Hub, a",
+        "chinese": "的出现；它是一种科学论",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "状语",
+        "english": "kind of global photocopier for",
+        "chinese": "文的全球复印机，成立于",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "定语",
+        "english": "scientific papers, set up in",
+        "chinese": "2012 年，现在声",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "补语",
+        "english": "2012, which now claims to",
+        "chinese": "称能提供自 2015",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "并列成分",
+        "english": "offer access to every paywalled",
+        "chinese": "年以来每一篇付费墙文章",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "非谓语结构",
+        "english": "article published since 2015.",
+        "chinese": "的访问权。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主干被插入语、从句或并列成分隔开",
+        "explanation": "句子主干之间夹有较长修饰或补充内容，阅读时需要先找主谓宾。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "drastic",
+        "pos": "adj.",
+        "meaning": "激烈的；极端的",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "word": "thoroughly",
+        "pos": "adv.",
+        "meaning": "彻底地",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "word": "illegal",
+        "pos": "adj.",
+        "meaning": "非法的",
+        "chunk_id": "c_008_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The success of Sci-Hub, which relies on researchers passing on copies they have themselves legally accessed, shows the legal ecosystem has lost legitimacy among its users and must be transformed so that it works for all participants.",
+    "difficulty": 5,
+    "translation_literal": "Sci-Hub 的成功依赖研究人员传递他们自己合法获取的副本，这表明法律生态系统已经在其用户中失去合法性，并且必须被改造，以便为所有参与者服务。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "The success of Sci-Hub, which",
+        "chinese": "Sci-Hub 的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "relies on researchers passing on",
+        "chinese": "成功依赖研究人员传",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "宾语",
+        "english": "copies they have themselves legally",
+        "chinese": "递他们自己合法获取",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "状语",
+        "english": "accessed, shows the legal ecosystem",
+        "chinese": "的副本，这表明法律",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "定语",
+        "english": "has lost legitimacy among its",
+        "chinese": "生态系统已经在其用",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "补语",
+        "english": "users and must be transformed",
+        "chinese": "户中失去合法性，并",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "并列成分",
+        "english": "so that it works for",
+        "chinese": "且必须被改造，以便",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "非谓语结构",
+        "english": "all participants.",
+        "chinese": "为所有参与者服务。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "success",
+        "pos": "n.",
+        "meaning": "成功",
+        "chunk_id": "c_009_001"
+      },
+      {
+        "word": "Sci-Hub",
+        "pos": "n.",
+        "meaning": "Sci-Hub（论文共享网站）",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "relies",
+        "pos": "n.",
+        "meaning": "依赖",
+        "chunk_id": "c_009_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "In Britain the move towards open access publishing has been driven by funding bodies.",
+    "difficulty": 3,
+    "translation_literal": "在英国，向开放获取出版的转变一直由资助机构推动。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "In Britain the move",
+        "chinese": "在英国，向开",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "towards open access publishing",
+        "chinese": "放获取出版的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "宾语",
+        "english": "has been driven by",
+        "chinese": "转变一直由资",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "状语",
+        "english": "funding bodies.",
+        "chinese": "助机构推动。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Britain",
+        "pos": "n.",
+        "meaning": "英国",
+        "chunk_id": "c_010_001"
+      },
+      {
+        "word": "towards",
+        "pos": "n.",
+        "meaning": "朝着；趋向",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "access",
+        "pos": "n.",
+        "meaning": "获取；访问",
+        "chunk_id": "c_010_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "open access",
+        "phrase_type": "collocation",
+        "meaning": "开放获取",
+        "chunk_id": "c_010_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "In some ways it has been very successful.",
+    "difficulty": 2,
+    "translation_literal": "在某些方面，它非常成功。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "In some ways",
+        "chinese": "在某些方",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "it has been",
+        "chinese": "面，它非",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "宾语",
+        "english": "very successful.",
+        "chinese": "常成功。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "successful",
+        "pos": "n.",
+        "meaning": "成功的",
+        "chunk_id": "c_011_001"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "More than half of all British scientific research is now published under open access terms: either freely available from the moment of publication, or paywalled for a year or more so that the publishers can make a profit before being placed on general release.",
+    "difficulty": 5,
+    "translation_literal": "超过一半的英国科学研究现在以开放获取条款发表：要么从发表那一刻起免费可得，要么被付费墙封锁一年或更久，以便出版商在一般发布前能够获利。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "More than half of all British",
+        "chinese": "超过一半的英国科学",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "scientific research is now published under",
+        "chinese": "研究现在以开放获取",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "宾语",
+        "english": "open access terms: either freely available",
+        "chinese": "条款发表：要么从发",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "状语",
+        "english": "from the moment of publication, or",
+        "chinese": "表那一刻起免费可得",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "定语",
+        "english": "paywalled for a year or more",
+        "chinese": "，要么被付费墙封锁",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "补语",
+        "english": "so that the publishers can make",
+        "chinese": "一年或更久，以便出",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "并列成分",
+        "english": "a profit before being placed on",
+        "chinese": "版商在一般发布前能",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "非谓语结构",
+        "english": "general release.",
+        "chinese": "够获利。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "British",
+        "pos": "n.",
+        "meaning": "英国的",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "word": "scientific",
+        "pos": "adj.",
+        "meaning": "科学的",
+        "chunk_id": "c_012_002"
+      },
+      {
+        "word": "research",
+        "pos": "n.",
+        "meaning": "研究",
+        "chunk_id": "c_012_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "open access",
+        "phrase_type": "collocation",
+        "meaning": "开放获取",
+        "chunk_id": "c_012_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Yet the new system has not worked out any cheaper for the universities.",
+    "difficulty": 3,
+    "translation_literal": "然而，新系统并没有让大学变得更便宜。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "Yet the new system",
+        "chinese": "然而，新系",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "has not worked out",
+        "chinese": "统并没有让",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "宾语",
+        "english": "any cheaper for the",
+        "chinese": "大学变得更",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "状语",
+        "english": "universities.",
+        "chinese": "便宜。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "system",
+        "pos": "n.",
+        "meaning": "制度；体系",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "worked",
+        "pos": "v.",
+        "meaning": "奏效；运转",
+        "chunk_id": "c_013_002"
+      },
+      {
+        "word": "cheaper",
+        "pos": "n.",
+        "meaning": "更便宜",
+        "chunk_id": "c_013_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Publishers have responded to the demand that they make their product free to readers by charging their writers fees to cover the costs of preparing an article.",
+    "difficulty": 4,
+    "translation_literal": "出版商通过向作者收取费用以支付准备文章的成本，回应了让其产品对读者免费的要求。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "Publishers have responded to",
+        "chinese": "出版商通过向",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "the demand that they",
+        "chinese": "作者收取费用",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "宾语",
+        "english": "make their product free",
+        "chinese": "以支付准备文",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "状语",
+        "english": "to readers by charging",
+        "chinese": "章的成本，回",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "定语",
+        "english": "their writers fees to",
+        "chinese": "应了让其产品",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "补语",
+        "english": "cover the costs of",
+        "chinese": "对读者免费的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_007",
+        "role": "并列成分",
+        "english": "preparing an article.",
+        "chinese": "要求。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Publishers",
+        "pos": "n.",
+        "meaning": "出版商",
+        "chunk_id": "c_014_001"
+      },
+      {
+        "word": "responded",
+        "pos": "v.",
+        "meaning": "回应",
+        "chunk_id": "c_014_002"
+      },
+      {
+        "word": "demand",
+        "pos": "n.",
+        "meaning": "要求",
+        "chunk_id": "c_014_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "These range from around £500 to $5,000.",
+    "difficulty": 2,
+    "translation_literal": "这些费用从约 500 英镑到 5000 美元不等。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "These range from",
+        "chinese": "这些费用从约 50",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "谓语",
+        "english": "around £500 to",
+        "chinese": "0 英镑到 500",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "宾语",
+        "english": "$5,000.",
+        "chinese": "0 美元不等。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "These",
+        "pos": "n.",
+        "meaning": "这些费用",
+        "chunk_id": "c_015_001"
+      },
+      {
+        "word": "range",
+        "pos": "n.",
+        "meaning": "介于",
+        "chunk_id": "c_015_002"
+      },
+      {
+        "word": "around",
+        "pos": "n.",
+        "meaning": "大约",
+        "chunk_id": "c_015_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "A report last year pointed out that the costs both of subscriptions and of these “article preparation costs” had been steadily rising at a rate above inflation.",
+    "difficulty": 4,
+    "translation_literal": "去年的一份报告指出，订阅成本和这些“文章准备成本”的成本一直以高于通胀的速度稳定上升。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "主语",
+        "english": "A report last year",
+        "chinese": "去年的一份报告",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "谓语",
+        "english": "pointed out that the",
+        "chinese": "指出，订阅成本",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "宾语",
+        "english": "costs both of subscriptions",
+        "chinese": "和这些“文章准",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "状语",
+        "english": "and of these “article",
+        "chinese": "备成本”的成本",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "定语",
+        "english": "preparation costs” had been",
+        "chinese": "一直以高于通胀",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_006",
+        "role": "补语",
+        "english": "steadily rising at a",
+        "chinese": "的速度稳定上升",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_007",
+        "role": "并列成分",
+        "english": "rate above inflation.",
+        "chinese": "。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "report",
+        "pos": "n.",
+        "meaning": "报告",
+        "chunk_id": "c_016_001"
+      },
+      {
+        "word": "pointed",
+        "pos": "v.",
+        "meaning": "指出",
+        "chunk_id": "c_016_002"
+      },
+      {
+        "word": "costs",
+        "pos": "n.",
+        "meaning": "成本；费用",
+        "chunk_id": "c_016_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "In some ways the scientific publishing model resembles the economy of the social internet: labour is provided free in exchange for the hope of status, while huge profits are made by a few big firms who run the market places.",
+    "difficulty": 5,
+    "translation_literal": "在某些方面，科学出版模式类似于社交互联网经济：劳动力被免费提供以换取地位的希望，而巨额利润由少数经营市场的大公司获得。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "In some ways the scientific",
+        "chinese": "在某些方面，科学",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "publishing model resembles the economy",
+        "chinese": "出版模式类似于社",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "宾语",
+        "english": "of the social internet: labour",
+        "chinese": "交互联网经济：劳",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "状语",
+        "english": "is provided free in exchange",
+        "chinese": "动力被免费提供以",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "定语",
+        "english": "for the hope of status,",
+        "chinese": "换取地位的希望，",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "状语从句",
+        "english": "while huge profits are made",
+        "chinese": "而巨额利润由少数",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "并列成分",
+        "english": "by a few big firms",
+        "chinese": "经营市场的大公司",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_008",
+        "role": "定语从句",
+        "english": "who run the market places.",
+        "chinese": "获得。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "scientific",
+        "pos": "adj.",
+        "meaning": "科学的",
+        "chunk_id": "c_017_001"
+      },
+      {
+        "word": "publishing",
+        "pos": "v.",
+        "meaning": "出版",
+        "chunk_id": "c_017_002"
+      },
+      {
+        "word": "model",
+        "pos": "n.",
+        "meaning": "模式",
+        "chunk_id": "c_017_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "In both cases, we need a rebalancing of power.",
+    "difficulty": 2,
+    "translation_literal": "在这两种情况下，我们都需要权力的重新平衡。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "主语",
+        "english": "In both cases,",
+        "chinese": "在这两种情况下",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "谓语",
+        "english": "we need a",
+        "chinese": "，我们都需要权",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "宾语",
+        "english": "rebalancing of power.",
+        "chinese": "力的重新平衡。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "cases",
+        "pos": "n.",
+        "meaning": "情况；情形",
+        "chunk_id": "c_018_001"
+      },
+      {
+        "word": "rebalancing",
+        "pos": "v.",
+        "meaning": "重新平衡",
+        "chunk_id": "c_018_002"
+      },
+      {
+        "word": "power",
+        "pos": "n.",
+        "meaning": "权力；力量",
+        "chunk_id": "c_018_003"
+      }
+    ],
+    "key_phrases": []
+  }
+]

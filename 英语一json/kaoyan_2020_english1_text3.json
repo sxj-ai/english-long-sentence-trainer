@@ -1,0 +1,1589 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Progressives often support diversity mandates as a path to equality and a way to level the playing field.",
+    "difficulty": 3,
+    "translation_literal": "进步派常常支持多样性强制规定，将其作为通向平等的路径和拉平竞争场地的方式。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "Progressives often support",
+        "chinese": "进步派常常支持",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "谓语",
+        "english": "diversity mandates as",
+        "chinese": "多样性强制规定",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "宾语",
+        "english": "a path to",
+        "chinese": "，将其作为通向",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "状语",
+        "english": "equality and a",
+        "chinese": "平等的路径和拉",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "定语",
+        "english": "way to level",
+        "chinese": "平竞争场地的方",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "补语",
+        "english": "the playing field.",
+        "chinese": "式。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Progressives",
+        "pos": "n.",
+        "meaning": "进步派人士",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "often",
+        "pos": "n.",
+        "meaning": "常常",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "word": "support",
+        "pos": "v.",
+        "meaning": "支持",
+        "chunk_id": "c_001_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "level the playing field",
+        "phrase_type": "collocation",
+        "meaning": "使竞争环境公平；拉平起跑线",
+        "chunk_id": "c_001_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "But all too often such policies are an insincere form of virtue-signaling that benefits only the most privileged and does little to help average people.",
+    "difficulty": 4,
+    "translation_literal": "但这类政策往往是一种不真诚的美德表态，只惠及最有特权者，并且几乎无助于普通人。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "But all too often",
+        "chinese": "但这类政策往",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "such policies are an",
+        "chinese": "往是一种不真",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "宾语",
+        "english": "insincere form of virtue-signaling",
+        "chinese": "诚的美德表态",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "定语从句",
+        "english": "that benefits only the",
+        "chinese": "，只惠及最有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "定语",
+        "english": "most privileged and does",
+        "chinese": "特权者，并且",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "补语",
+        "english": "little to help average",
+        "chinese": "几乎无助于普",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "并列成分",
+        "english": "people.",
+        "chinese": "通人。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "often",
+        "pos": "n.",
+        "meaning": "常常",
+        "chunk_id": "c_002_001"
+      },
+      {
+        "word": "policies",
+        "pos": "n.",
+        "meaning": "政策",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "insincere",
+        "pos": "n.",
+        "meaning": "虚伪的；不真诚的",
+        "chunk_id": "c_002_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "A pair of bills sponsored by Massachusetts state Senator Jason Lewis and House Speaker Pro Tempore Patricia Haddad, to ensure “gender parity” on boards and commissions, provide a case in point.",
+    "difficulty": 4,
+    "translation_literal": "由马萨诸塞州参议员杰森·刘易斯和众议院临时议长帕特里夏·哈达德发起的一对法案，旨在确保委员会和理事会中的“性别平等”，就是一个恰当例子。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "A pair of bills sponsored",
+        "chinese": "由马萨诸塞州参议员杰",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "谓语",
+        "english": "by Massachusetts state Senator Jason",
+        "chinese": "森·刘易斯和众议院临",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "宾语",
+        "english": "Lewis and House Speaker Pro",
+        "chinese": "时议长帕特里夏·哈达",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "状语",
+        "english": "Tempore Patricia Haddad, to ensure",
+        "chinese": "德发起的一对法案，旨",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "定语",
+        "english": "“gender parity” on boards and",
+        "chinese": "在确保委员会和理事会",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "补语",
+        "english": "commissions, provide a case in",
+        "chinese": "中的“性别平等”，就",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "并列成分",
+        "english": "point.",
+        "chinese": "是一个恰当例子。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "bills",
+        "pos": "n.",
+        "meaning": "法案",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "sponsored",
+        "pos": "v.",
+        "meaning": "提出的；发起的",
+        "chunk_id": "c_003_002"
+      },
+      {
+        "word": "Massachusetts",
+        "pos": "n.",
+        "meaning": "马萨诸塞州",
+        "chunk_id": "c_003_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "gender parity",
+        "phrase_type": "collocation",
+        "meaning": "性别均衡",
+        "chunk_id": "c_003_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Haddad and Lewis are concerned that more than half the state-government boards are less than 40 percent female.",
+    "difficulty": 3,
+    "translation_literal": "哈达德和刘易斯担心，超过一半的州政府委员会女性比例低于 40%。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "Haddad and Lewis",
+        "chinese": "哈达德和刘易",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "谓语",
+        "english": "are concerned that",
+        "chinese": "斯担心，超过",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "宾语",
+        "english": "more than half",
+        "chinese": "一半的州政府",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "状语",
+        "english": "the state-government boards",
+        "chinese": "委员会女性比",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "定语",
+        "english": "are less than",
+        "chinese": "例低于 40",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "补语",
+        "english": "40 percent female.",
+        "chinese": "%。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Haddad",
+        "pos": "n.",
+        "meaning": "哈达德",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "word": "Lewis",
+        "pos": "n.",
+        "meaning": "刘易斯",
+        "chunk_id": "c_004_002"
+      },
+      {
+        "word": "concerned",
+        "pos": "v.",
+        "meaning": "担心；关切",
+        "chunk_id": "c_004_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "In order to ensure that elite women have more such opportunities, they have proposed imposing government quotas.",
+    "difficulty": 3,
+    "translation_literal": "为了确保精英女性拥有更多这类机会，他们提议实施政府配额。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "In order to",
+        "chinese": "为了确保精",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "ensure that elite",
+        "chinese": "英女性拥有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "宾语",
+        "english": "women have more",
+        "chinese": "更多这类机",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "状语",
+        "english": "such opportunities, they",
+        "chinese": "会，他们提",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "定语",
+        "english": "have proposed imposing",
+        "chinese": "议实施政府",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "补语",
+        "english": "government quotas.",
+        "chinese": "配额。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "order",
+        "pos": "n.",
+        "meaning": "为了；目的",
+        "chunk_id": "c_005_001"
+      },
+      {
+        "word": "ensure",
+        "pos": "n.",
+        "meaning": "确保",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "elite",
+        "pos": "n.",
+        "meaning": "精英的；上层的",
+        "chunk_id": "c_005_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "If the bills become law, state boards and commissions will be required to set aside 50 percent of board seats for women by 2022.",
+    "difficulty": 4,
+    "translation_literal": "如果这些法案成为法律，州理事会和委员会将被要求到 2022 年为女性留出 50% 的席位。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "条件状语从句",
+        "english": "If the bills become",
+        "chinese": "如果这些法案成为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "law, state boards and",
+        "chinese": "法律，州理事会和",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "宾语",
+        "english": "commissions will be required",
+        "chinese": "委员会将被要求到",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "状语",
+        "english": "to set aside 50",
+        "chinese": "2022 年为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "定语",
+        "english": "percent of board seats",
+        "chinese": "女性留出 50%",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "补语",
+        "english": "for women by 2022.",
+        "chinese": "的席位。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "从句前置 + 主句",
+        "explanation": "句首从句先给出条件、原因或让步背景，后面主句才是核心判断。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "bills",
+        "pos": "n.",
+        "meaning": "法案",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "become",
+        "pos": "n.",
+        "meaning": "成为；变成",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "state",
+        "pos": "n.",
+        "meaning": "州；州的",
+        "chunk_id": "c_006_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The bills are similar to a measure recently adopted in California, which last year became the first state to require gender quotas for private companies.",
+    "difficulty": 4,
+    "translation_literal": "这些法案类似于加州最近通过的一项措施；加州去年成为第一个要求私营公司实行性别配额的州。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "The bills are similar",
+        "chinese": "这些法案类似于",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "to a measure recently",
+        "chinese": "加州最近通过的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "宾语",
+        "english": "adopted in California, which",
+        "chinese": "一项措施；加州",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "状语",
+        "english": "last year became the",
+        "chinese": "去年成为第一个",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "定语",
+        "english": "first state to require",
+        "chinese": "要求私营公司实",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "补语",
+        "english": "gender quotas for private",
+        "chinese": "行性别配额的州",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "并列成分",
+        "english": "companies.",
+        "chinese": "。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "bills",
+        "pos": "n.",
+        "meaning": "法案",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "similar",
+        "pos": "n.",
+        "meaning": "相似的",
+        "chunk_id": "c_007_002"
+      },
+      {
+        "word": "measure",
+        "pos": "n.",
+        "meaning": "措施；法案",
+        "chunk_id": "c_007_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "In signing the measure, California’s Governor Jerry Brown admitted that the law, which expressly classifies people on the basis of sex, is probably unconstitutional.",
+    "difficulty": 4,
+    "translation_literal": "在签署该措施时，加州州长杰里·布朗承认，这项明确按性别对人分类的法律很可能违宪。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "In signing the measure,",
+        "chinese": "在签署该措施时",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "California’s Governor Jerry Brown",
+        "chinese": "，加州州长杰里",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "宾语",
+        "english": "admitted that the law,",
+        "chinese": "·布朗承认，这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "定语从句",
+        "english": "which expressly classifies people",
+        "chinese": "项明确按性别对",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "定语",
+        "english": "on the basis of",
+        "chinese": "人分类的法律很",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "补语",
+        "english": "sex, is probably unconstitutional.",
+        "chinese": "可能违宪。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主干被插入语、从句或并列成分隔开",
+        "explanation": "句子主干之间夹有较长修饰或补充内容，阅读时需要先找主谓宾。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "signing",
+        "pos": "v.",
+        "meaning": "签署",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "word": "measure",
+        "pos": "n.",
+        "meaning": "措施；法案",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "word": "California",
+        "pos": "n.",
+        "meaning": "加利福尼亚州",
+        "chunk_id": "c_008_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The US Supreme Court frowns on sex-based classifications unless they are designed to address an “important” policy interest.",
+    "difficulty": 3,
+    "translation_literal": "美国最高法院不赞成基于性别的分类，除非它们旨在处理一项“重要的”政策利益。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "The US Supreme",
+        "chinese": "美国最高法院不",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "Court frowns on",
+        "chinese": "赞成基于性别的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "宾语",
+        "english": "sex-based classifications unless",
+        "chinese": "分类，除非它们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "状语",
+        "english": "they are designed",
+        "chinese": "旨在处理一项“",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "定语",
+        "english": "to address an",
+        "chinese": "重要的”政策利",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "补语",
+        "english": "“important” policy interest.",
+        "chinese": "益。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Supreme",
+        "pos": "n.",
+        "meaning": "最高的",
+        "chunk_id": "c_009_001"
+      },
+      {
+        "word": "Court",
+        "pos": "n.",
+        "meaning": "法院",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "frowns",
+        "pos": "n.",
+        "meaning": "不赞成；反对",
+        "chunk_id": "c_009_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Because the California law applies to all boards, even where there is no history of prior discrimination, courts are likely to rule that the law violates the constitutional guarantee of “equal protection” .",
+    "difficulty": 4,
+    "translation_literal": "因为加州法律适用于所有董事会，即使在没有先前歧视历史的地方也是如此，法院很可能裁定该法律违反“平等保护”的宪法保障。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "状语从句",
+        "english": "Because the California law applies",
+        "chinese": "因为加州法律适用于",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "to all boards, even where",
+        "chinese": "所有董事会，即使在",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "宾语",
+        "english": "there is no history of",
+        "chinese": "没有先前歧视历史的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "状语",
+        "english": "prior discrimination, courts are likely",
+        "chinese": "地方也是如此，法院",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "定语",
+        "english": "to rule that the law",
+        "chinese": "很可能裁定该法律违",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "补语",
+        "english": "violates the constitutional guarantee of",
+        "chinese": "反“平等保护”的宪",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "并列成分",
+        "english": "“equal protection” .",
+        "chinese": "法保障。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "从句前置 + 主句",
+        "explanation": "句首从句先给出条件、原因或让步背景，后面主句才是核心判断。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "California",
+        "pos": "n.",
+        "meaning": "加州的",
+        "chunk_id": "c_010_001"
+      },
+      {
+        "word": "applies",
+        "pos": "v.",
+        "meaning": "适用于",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "boards",
+        "pos": "n.",
+        "meaning": "董事会；委员会",
+        "chunk_id": "c_010_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "equal protection",
+        "phrase_type": "collocation",
+        "meaning": "平等保护",
+        "chunk_id": "c_010_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "But are such government mandates even necessary?",
+    "difficulty": 2,
+    "translation_literal": "但是，这类政府强制规定真的有必要吗？",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "But are such",
+        "chinese": "但是，这类政",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "government mandates even",
+        "chinese": "府强制规定真",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "宾语",
+        "english": "necessary?",
+        "chinese": "的有必要吗？",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "government",
+        "pos": "n.",
+        "meaning": "政府的",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "mandates",
+        "pos": "n.",
+        "meaning": "强制规定；命令",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "word": "necessary",
+        "pos": "adj.",
+        "meaning": "必要的",
+        "chunk_id": "c_011_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Female participation on corporate boards may not currently mirror the percentage of women in the general population, but so what?",
+    "difficulty": 3,
+    "translation_literal": "公司董事会上的女性参与目前也许并不反映普通人口中女性的比例，但那又怎样？",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "Female participation on corporate",
+        "chinese": "公司董事会上的女",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "boards may not currently",
+        "chinese": "性参与目前也许并",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "宾语",
+        "english": "mirror the percentage of",
+        "chinese": "不反映普通人口中",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "状语",
+        "english": "women in the general",
+        "chinese": "女性的比例，但那",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "定语",
+        "english": "population, but so what?",
+        "chinese": "又怎样？",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Female",
+        "pos": "n.",
+        "meaning": "女性的",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "word": "participation",
+        "pos": "n.",
+        "meaning": "参与",
+        "chunk_id": "c_012_002"
+      },
+      {
+        "word": "corporate",
+        "pos": "n.",
+        "meaning": "公司的；企业的",
+        "chunk_id": "c_012_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The number of women on corporate boards has been steadily increasing without government interference.",
+    "difficulty": 3,
+    "translation_literal": "公司董事会上的女性人数一直在没有政府干预的情况下稳步增加。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "The number of women",
+        "chinese": "公司董事会上的女",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "on corporate boards has",
+        "chinese": "性人数一直在没有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "宾语",
+        "english": "been steadily increasing without",
+        "chinese": "政府干预的情况下",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "状语",
+        "english": "government interference.",
+        "chinese": "稳步增加。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "number",
+        "pos": "n.",
+        "meaning": "数量",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "women",
+        "pos": "n.",
+        "meaning": "女性",
+        "chunk_id": "c_013_002"
+      },
+      {
+        "word": "corporate",
+        "pos": "n.",
+        "meaning": "企业的",
+        "chunk_id": "c_013_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "According to a study by Catalyst, between 2010 and 2015 the share of women on the boards of global corporations increased by 54 percent.",
+    "difficulty": 4,
+    "translation_literal": "根据 Catalyst 的一项研究，2010 至 2015 年间，全球公司董事会中女性所占比例增加了 54%。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "According to a study",
+        "chinese": "根据 Catalys",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "by Catalyst, between 2010",
+        "chinese": "t 的一项研究，20",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "宾语",
+        "english": "and 2015 the share",
+        "chinese": "10 至 2015",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "状语",
+        "english": "of women on the",
+        "chinese": "年间，全球公司董事会",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "定语",
+        "english": "boards of global corporations",
+        "chinese": "中女性所占比例增加了",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "补语",
+        "english": "increased by 54 percent.",
+        "chinese": "54%。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "According",
+        "pos": "v.",
+        "meaning": "根据",
+        "chunk_id": "c_014_001"
+      },
+      {
+        "word": "study",
+        "pos": "n.",
+        "meaning": "研究",
+        "chunk_id": "c_014_002"
+      },
+      {
+        "word": "Catalyst",
+        "pos": "n.",
+        "meaning": "Catalyst（机构名）",
+        "chunk_id": "c_014_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Requiring companies to make gender the primary qualification for board membership will inevitably lead to less experienced private sector boards.",
+    "difficulty": 3,
+    "translation_literal": "要求公司把性别作为董事会成员资格的首要条件，将不可避免地导致私营部门董事会经验更少。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "Requiring companies to make",
+        "chinese": "要求公司把性别作为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "谓语",
+        "english": "gender the primary qualification",
+        "chinese": "董事会成员资格的首",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "宾语",
+        "english": "for board membership will",
+        "chinese": "要条件，将不可避免",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "状语",
+        "english": "inevitably lead to less",
+        "chinese": "地导致私营部门董事",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "定语",
+        "english": "experienced private sector boards.",
+        "chinese": "会经验更少。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Requiring",
+        "pos": "v.",
+        "meaning": "要求；规定",
+        "chunk_id": "c_015_001"
+      },
+      {
+        "word": "companies",
+        "pos": "n.",
+        "meaning": "公司",
+        "chunk_id": "c_015_002"
+      },
+      {
+        "word": "gender",
+        "pos": "n.",
+        "meaning": "性别",
+        "chunk_id": "c_015_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "That is exactly what happened when Norway adopted a nationwide corporate gender quota.",
+    "difficulty": 3,
+    "translation_literal": "这正是挪威采用全国性公司性别配额时所发生的事情。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "定语从句",
+        "english": "That is exactly what",
+        "chinese": "这正是挪威采",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "谓语",
+        "english": "happened when Norway adopted",
+        "chinese": "用全国性公司",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "宾语",
+        "english": "a nationwide corporate gender",
+        "chinese": "性别配额时所",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "状语",
+        "english": "quota.",
+        "chinese": "发生的事情。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "exactly",
+        "pos": "adv.",
+        "meaning": "正是；恰好",
+        "chunk_id": "c_016_001"
+      },
+      {
+        "word": "happened",
+        "pos": "v.",
+        "meaning": "发生",
+        "chunk_id": "c_016_002"
+      },
+      {
+        "word": "Norway",
+        "pos": "n.",
+        "meaning": "挪威",
+        "chunk_id": "c_016_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Writing in The New Republic, Alice Lee notes that increasing the number of opportunities for board membership without increasing the pool of qualified women to serve on such boards has led to a “golden skirt” phenomenon, where the same elite women scoop up multiple seats on a variety of boards.",
+    "difficulty": 5,
+    "translation_literal": "爱丽丝·李在《新共和》上写道，在不增加有资格在这类董事会任职的女性群体的情况下增加董事会成员机会，已经导致一种“金裙子”现象，即同一批精英女性在各种董事会中攫取多个席位。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "Writing in The New Republic, Alice Lee",
+        "chinese": "爱丽丝·李在《新共和》",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "notes that increasing the number of opportunities",
+        "chinese": "上写道，在不增加有资格",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "宾语",
+        "english": "for board membership without increasing the pool",
+        "chinese": "在这类董事会任职的女性",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "状语",
+        "english": "of qualified women to serve on such",
+        "chinese": "群体的情况下增加董事会",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "定语",
+        "english": "boards has led to a “golden skirt”",
+        "chinese": "成员机会，已经导致一种",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "补语",
+        "english": "phenomenon, where the same elite women scoop",
+        "chinese": "“金裙子”现象，即同一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "并列成分",
+        "english": "up multiple seats on a variety of",
+        "chinese": "批精英女性在各种董事会",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_008",
+        "role": "非谓语结构",
+        "english": "boards.",
+        "chinese": "中攫取多个席位。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Writing",
+        "pos": "v.",
+        "meaning": "撰写；写道",
+        "chunk_id": "c_017_001"
+      },
+      {
+        "word": "Republic",
+        "pos": "adj.",
+        "meaning": "共和国（杂志名）",
+        "chunk_id": "c_017_002"
+      },
+      {
+        "word": "Alice",
+        "pos": "n.",
+        "meaning": "爱丽丝",
+        "chunk_id": "c_017_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Next time somebody pushes corporate quotas as a way to promote gender equity, remember that such policies are largely self-serving measures that make their sponsors feel good but do little to help average women.",
+    "difficulty": 4,
+    "translation_literal": "下次有人把公司配额作为促进性别公平的方式来推动时，请记住，这类政策很大程度上是自利措施，它们让赞助者感觉良好，却几乎无助于普通女性。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "主语",
+        "english": "Next time somebody pushes corporate",
+        "chinese": "下次有人把公司配额作",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "谓语",
+        "english": "quotas as a way to",
+        "chinese": "为促进性别公平的方式",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "宾语",
+        "english": "promote gender equity, remember that",
+        "chinese": "来推动时，请记住，这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "状语",
+        "english": "such policies are largely self-serving",
+        "chinese": "类政策很大程度上是自",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "定语",
+        "english": "measures that make their sponsors",
+        "chinese": "利措施，它们让赞助者",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_006",
+        "role": "补语",
+        "english": "feel good but do little",
+        "chinese": "感觉良好，却几乎无助",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_007",
+        "role": "并列成分",
+        "english": "to help average women.",
+        "chinese": "于普通女性。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "somebody",
+        "pos": "n.",
+        "meaning": "有人",
+        "chunk_id": "c_018_001"
+      },
+      {
+        "word": "pushes",
+        "pos": "n.",
+        "meaning": "推动；鼓吹",
+        "chunk_id": "c_018_002"
+      },
+      {
+        "word": "corporate",
+        "pos": "n.",
+        "meaning": "企业的",
+        "chunk_id": "c_018_003"
+      }
+    ],
+    "key_phrases": []
+  }
+]

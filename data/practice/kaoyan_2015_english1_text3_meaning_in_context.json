@@ -1,0 +1,424 @@
+[
+  {
+    "check_id": "s_001_statistical_checks_meaning_in_context",
+    "source_sentence_id": "s_001",
+    "target": "statistical checks",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，statistical checks 最合适的意思是：",
+    "correct_meaning": "统计检查",
+    "acceptable_meanings": [
+      "统计检查",
+      "统计核查"
+    ],
+    "meaning_pool": [
+      "统计检查",
+      "内容审读",
+      "语言润色",
+      "排版校对"
+    ],
+    "explanation": "peer-review process 中加入 extra round of statistical checks，说明这里指统计层面的核查。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_001_peer_review_process_meaning_in_context",
+    "source_sentence_id": "s_001",
+    "target": "peer-review process",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，peer-review process 最合适的意思是：",
+    "correct_meaning": "同行评审流程",
+    "acceptable_meanings": [
+      "同行评审流程",
+      "同行审稿流程"
+    ],
+    "meaning_pool": [
+      "同行评审流程",
+      "发行流程",
+      "编辑排版流程",
+      "投稿登记流程"
+    ],
+    "explanation": "它是期刊审稿体系中的同行评审环节。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_002_widespread_concern_meaning_in_context",
+    "source_sentence_id": "s_002",
+    "target": "widespread concern",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，widespread concern 最合适的意思是：",
+    "correct_meaning": "广泛担忧",
+    "acceptable_meanings": [
+      "广泛担忧",
+      "普遍顾虑"
+    ],
+    "meaning_pool": [
+      "广泛担忧",
+      "热烈欢迎",
+      "个别怀疑",
+      "正式通知"
+    ],
+    "explanation": "这里说很多期刊都受到一种普遍担忧的推动。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_002_irreproducibility_meaning_in_context",
+    "source_sentence_id": "s_002",
+    "target": "irreproducibility",
+    "target_type": "word",
+    "prompt": "结合本句语境，irreproducibility 最合适的意思是：",
+    "correct_meaning": "不可重复性",
+    "acceptable_meanings": [
+      "不可重复性",
+      "难以复现性"
+    ],
+    "meaning_pool": [
+      "不可重复性",
+      "可读性",
+      "准确性",
+      "完整性"
+    ],
+    "explanation": "这里指实验/研究结果难以被重复验证。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_003_have_confidence_in_meaning_in_context",
+    "source_sentence_id": "s_003",
+    "target": "have confidence in",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，have confidence in 最合适的意思是：",
+    "correct_meaning": "对...有信心",
+    "acceptable_meanings": [
+      "对...有信心",
+      "相信"
+    ],
+    "meaning_pool": [
+      "对...有信心",
+      "怀疑",
+      "忽视",
+      "反对"
+    ],
+    "explanation": "读者必须对期刊发表的结论有信心。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_004_appointed_meaning_in_context",
+    "source_sentence_id": "s_004",
+    "target": "appointed",
+    "target_type": "word",
+    "prompt": "结合本句语境，appointed 最合适的意思是：",
+    "correct_meaning": "任命/委派",
+    "acceptable_meanings": [
+      "任命",
+      "委派",
+      "聘请"
+    ],
+    "meaning_pool": [
+      "任命/委派",
+      "取消",
+      "质疑",
+      "拖延"
+    ],
+    "explanation": "journal has appointed seven experts 说的是“任命”专家进入委员会。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_004_statistics_board_meaning_in_context",
+    "source_sentence_id": "s_004",
+    "target": "statistics board",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，statistics board 最合适的意思是：",
+    "correct_meaning": "统计编辑委员会",
+    "acceptable_meanings": [
+      "统计编辑委员会",
+      "统计审稿委员会"
+    ],
+    "meaning_pool": [
+      "统计编辑委员会",
+      "新闻编辑部",
+      "校对小组",
+      "读者委员会"
+    ],
+    "explanation": "这里不是一般的 board，而是专门负责统计审查的编辑委员会。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_005_flagged_up_meaning_in_context",
+    "source_sentence_id": "s_005",
+    "target": "flagged up",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，flagged up 最合适的意思是：",
+    "correct_meaning": "标记出来/提请注意",
+    "acceptable_meanings": [
+      "标记出来",
+      "提请注意",
+      "筛选出来"
+    ],
+    "meaning_pool": [
+      "标记出来/提请注意",
+      "彻底删除",
+      "正式批准",
+      "偷偷隐藏"
+    ],
+    "explanation": "manuscripts will be flagged up 指稿件会先被标出，接受进一步审查。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_005_additional_scrutiny_meaning_in_context",
+    "source_sentence_id": "s_005",
+    "target": "additional scrutiny",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，additional scrutiny 最合适的意思是：",
+    "correct_meaning": "额外审查",
+    "acceptable_meanings": [
+      "额外审查",
+      "进一步审视"
+    ],
+    "meaning_pool": [
+      "额外审查",
+      "最终定稿",
+      "公开发行",
+      "快速通过"
+    ],
+    "explanation": "flagged up for additional scrutiny 说明要接受更多层的检查。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_006_external_statisticians_meaning_in_context",
+    "source_sentence_id": "s_006",
+    "target": "external statisticians",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，external statisticians 最合适的意思是：",
+    "correct_meaning": "外部统计学家",
+    "acceptable_meanings": [
+      "外部统计学家",
+      "校外统计专家"
+    ],
+    "meaning_pool": [
+      "外部统计学家",
+      "内部编辑",
+      "普通读者",
+      "法律顾问"
+    ],
+    "explanation": "这里强调不是内部编辑，而是请外部统计专家来审稿。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_007_impelled_meaning_in_context",
+    "source_sentence_id": "s_007",
+    "target": "impelled",
+    "target_type": "word",
+    "prompt": "结合本句语境，impelled 最合适的意思是：",
+    "correct_meaning": "促使",
+    "acceptable_meanings": [
+      "促使",
+      "推动"
+    ],
+    "meaning_pool": [
+      "促使",
+      "阻止",
+      "延迟",
+      "证明"
+    ],
+    "explanation": "asked whether any particular papers had impelled the change 里 impelled 是“促使改变”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_007_overall_drive_meaning_in_context",
+    "source_sentence_id": "s_007",
+    "target": "overall drive",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，overall drive 最合适的意思是：",
+    "correct_meaning": "总体推进/整体努力",
+    "acceptable_meanings": [
+      "总体推进",
+      "整体推动"
+    ],
+    "meaning_pool": [
+      "总体推进/整体努力",
+      "局部修补",
+      "最终结论",
+      "临时安排"
+    ],
+    "explanation": "overall drive to increase reproducibility 指整个提升可重复性的推进。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_008_play_primarily_an_advisory_role_meaning_in_context",
+    "source_sentence_id": "s_008",
+    "target": "play primarily an advisory role",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，play primarily an advisory role 最合适的意思是：",
+    "correct_meaning": "主要起咨询作用",
+    "acceptable_meanings": [
+      "主要起咨询作用",
+      "主要提供建议"
+    ],
+    "meaning_pool": [
+      "主要起咨询作用",
+      "主要负责审判",
+      "完全没有作用",
+      "直接做决定"
+    ],
+    "explanation": "board 的定位不是决策，而是提供建议。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_009_lasting_impact_meaning_in_context",
+    "source_sentence_id": "s_009",
+    "target": "lasting impact",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，lasting impact 最合适的意思是：",
+    "correct_meaning": "持久影响",
+    "acceptable_meanings": [
+      "持久影响",
+      "长期影响"
+    ],
+    "meaning_pool": [
+      "持久影响",
+      "短暂效果",
+      "偶然结果",
+      "表面变化"
+    ],
+    "explanation": "he found the foresight... likely to have a lasting impact 说的是会产生长期影响。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_010_model_their_approach_after_meaning_in_context",
+    "source_sentence_id": "s_010",
+    "target": "model their approach after",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，model their approach after 最合适的意思是：",
+    "correct_meaning": "仿照...的方法",
+    "acceptable_meanings": [
+      "仿照...的方法",
+      "以...为榜样"
+    ],
+    "meaning_pool": [
+      "仿照...的方法",
+      "反对...做法",
+      "脱离...做法",
+      "推翻...做法"
+    ],
+    "explanation": "这里说其他出版机构可能会仿照 Science 的做法。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_011_step_forward_meaning_in_context",
+    "source_sentence_id": "s_011",
+    "target": "step forward",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，step forward 最合适的意思是：",
+    "correct_meaning": "进步/前进一步",
+    "acceptable_meanings": [
+      "进步",
+      "前进一步"
+    ],
+    "meaning_pool": [
+      "进步/前进一步",
+      "倒退",
+      "小错误",
+      "终点"
+    ],
+    "explanation": "policy is a most welcome step forward 直接是“令人欢迎的进步”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_012_statistical_review_meaning_in_context",
+    "source_sentence_id": "s_012",
+    "target": "statistical review",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，statistical review 最合适的意思是：",
+    "correct_meaning": "统计审查",
+    "acceptable_meanings": [
+      "统计审查"
+    ],
+    "meaning_pool": [
+      "统计审查",
+      "文本审读",
+      "图片审查",
+      "法律审查"
+    ],
+    "explanation": "Most journals are weak in statistical review 指统计审查薄弱。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_013_more_essential_meaning_in_context",
+    "source_sentence_id": "s_013",
+    "target": "more essential",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，more essential 最合适的意思是：",
+    "correct_meaning": "更重要/更必要",
+    "acceptable_meanings": [
+      "更重要",
+      "更必要"
+    ],
+    "meaning_pool": [
+      "更重要/更必要",
+      "更随意",
+      "更复杂",
+      "更模糊"
+    ],
+    "explanation": "for the majority of scientific papers... statistical review is more essential 强调其更关键。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_016_take_a_tougher_line_meaning_in_context",
+    "source_sentence_id": "s_016",
+    "target": "take a tougher line",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，take a tougher line 最合适的意思是：",
+    "correct_meaning": "采取更严格的立场",
+    "acceptable_meanings": [
+      "采取更严格的立场",
+      "态度更强硬"
+    ],
+    "meaning_pool": [
+      "采取更严格的立场",
+      "放宽要求",
+      "保持中立",
+      "放弃审查"
+    ],
+    "explanation": "journals should also take a tougher line 说明期刊应更严格。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_016_statistically_literate_meaning_in_context",
+    "source_sentence_id": "s_016",
+    "target": "statistically literate",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，statistically literate 最合适的意思是：",
+    "correct_meaning": "熟悉统计学的",
+    "acceptable_meanings": [
+      "熟悉统计学的",
+      "懂统计的"
+    ],
+    "meaning_pool": [
+      "熟悉统计学的",
+      "文笔优美的",
+      "擅长营销的",
+      "不懂数据的"
+    ],
+    "explanation": "这里说要聘请熟悉统计学的审稿人。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_017_in_the_first_place_meaning_in_context",
+    "source_sentence_id": "s_017",
+    "target": "in the first place",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，in the first place 最合适的意思是：",
+    "correct_meaning": "一开始/首先",
+    "acceptable_meanings": [
+      "一开始",
+      "首先",
+      "本来"
+    ],
+    "meaning_pool": [
+      "一开始/首先",
+      "最后",
+      "顺便说",
+      "反而"
+    ],
+    "explanation": "identify the papers that need scrutiny in the first place 指“首先/一开始”就要找对对象。",
+    "priority": 1
+  }
+]

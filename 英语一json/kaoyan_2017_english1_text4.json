@@ -1,0 +1,1933 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "In a rare unanimous ruling, the US Supreme Court has overturned the corruption conviction of a former Virginia governor, Robert McDonnell.",
+    "difficulty": 4,
+    "translation_literal": "在一次罕见的一致裁决中，美国最高法院推翻了前弗吉尼亚州州长罗伯特·麦克唐纳的腐败定罪。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "状语",
+        "english": "In a rare unanimous ruling",
+        "chinese": "在一次罕见的一致裁决中",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "主语",
+        "english": "the US Supreme Court",
+        "chinese": "美国最高法院",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "谓语",
+        "english": "has overturned",
+        "chinese": "已经推翻",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "宾语",
+        "english": "the corruption conviction of a former Virginia governor, Robert McDonnell",
+        "chinese": "前弗吉尼亚州州长罗伯特·麦克唐纳的腐败定罪",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "作 overturned 的宾语"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "同位语",
+        "english": "Robert McDonnell",
+        "chinese": "罗伯特·麦克唐纳",
+        "parent_id": "c_001_004",
+        "target_id": "c_001_004",
+        "relation": "解释 a former Virginia governor"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "身份 + 人名",
+        "explanation": "Robert McDonnell 是 a former Virginia governor 的同位语。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "unanimous",
+        "pos": "adj.",
+        "meaning": "一致的",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "overturned",
+        "pos": "v.",
+        "meaning": "推翻",
+        "chunk_id": "c_001_003"
+      },
+      {
+        "word": "conviction",
+        "pos": "n.",
+        "meaning": "定罪",
+        "chunk_id": "c_001_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "But it did so while holding its nose at the ethics of his conduct, which included accepting gifts such as a Rolex watch and a Ferrari automobile from a company seeking access to government.",
+    "difficulty": 5,
+    "translation_literal": "但是法院这样做时，对他的行为伦理嗤之以鼻；其行为包括从一家寻求接触政府的公司接受劳力士手表和法拉利汽车等礼物。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "谓语",
+        "english": "did so",
+        "chinese": "这样做",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "状语从句",
+        "english": "while holding its nose at the ethics of his conduct",
+        "chinese": "同时对他的行为伦理嗤之以鼻",
+        "parent_id": null,
+        "target_id": "c_002_003",
+        "relation": "说明 did so 时的态度"
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_002_004",
+        "target_id": null,
+        "relation": "while 从句省略主语，指 court"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "从句谓语",
+        "english": "holding",
+        "chinese": "捏着鼻子/嗤之以鼻",
+        "parent_id": "c_002_004",
+        "target_id": null,
+        "relation": "while 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "定语从句",
+        "english": "which included accepting gifts such as a Rolex watch and a Ferrari automobile from a company seeking access to government",
+        "chinese": "他的行为包括从一家寻求接触政府的公司接受劳力士手表和法拉利汽车等礼物",
+        "parent_id": null,
+        "target_id": "c_002_004",
+        "relation": "修饰 conduct"
+      },
+      {
+        "chunk_id": "c_002_008",
+        "role": "定语从句主语",
+        "english": "which",
+        "chinese": "这种行为",
+        "parent_id": "c_002_007",
+        "target_id": null,
+        "relation": "which 从句内部主语"
+      },
+      {
+        "chunk_id": "c_002_009",
+        "role": "定语从句谓语",
+        "english": "included",
+        "chinese": "包括",
+        "parent_id": "c_002_007",
+        "target_id": null,
+        "relation": "which 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_002_010",
+        "role": "宾语",
+        "english": "accepting gifts such as a Rolex watch and a Ferrari automobile from a company seeking access to government",
+        "chinese": "从寻求接触政府的公司接受劳力士手表和法拉利汽车等礼物",
+        "parent_id": "c_002_007",
+        "target_id": "c_002_009",
+        "relation": "作 included 的宾语"
+      },
+      {
+        "chunk_id": "c_002_011",
+        "role": "定语",
+        "english": "seeking access to government",
+        "chinese": "寻求接触政府的",
+        "parent_id": "c_002_010",
+        "target_id": "c_002_010",
+        "relation": "修饰 company"
+      },
+      {
+        "chunk_id": "c_002_012",
+        "role": "从句主语",
+        "english": "a company",
+        "chinese": "一家公司",
+        "parent_id": "c_002_010",
+        "target_id": null,
+        "relation": "accepting gifts 短语中 from 后名词的核心"
+      },
+      {
+        "chunk_id": "c_002_013",
+        "role": "定语",
+        "english": "such as a Rolex watch and a Ferrari automobile",
+        "chinese": "例如劳力士手表和法拉利汽车",
+        "parent_id": "c_002_010",
+        "target_id": "c_002_010",
+        "relation": "举例说明 gifts"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主句 + while 从句 + which 从句",
+        "explanation": "while 从句说明法院态度，which 从句解释 conduct 的内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "ethics",
+        "pos": "n.",
+        "meaning": "伦理",
+        "chunk_id": "c_002_004"
+      },
+      {
+        "word": "conduct",
+        "pos": "n.",
+        "meaning": "行为",
+        "chunk_id": "c_002_004"
+      },
+      {
+        "word": "access",
+        "pos": "n.",
+        "meaning": "接触机会，通道",
+        "chunk_id": "c_002_011"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "hold one’s nose at",
+        "phrase_type": "idiom",
+        "meaning": "对……感到厌恶/嗤之以鼻",
+        "chunk_id": "c_002_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The high court’s decision said the judge in Mr. McDonnell’s trial failed to tell a jury that it must look only at his “official acts,” or the former governor’s decisions on “specific” and “unsettled” issues related to his duties.",
+    "difficulty": 5,
+    "translation_literal": "最高法院的判决称，麦克唐纳先生审判中的法官没有告诉陪审团，它必须只看他的“官方行为”，也就是这位前州长在与其职责相关的“具体”和“未决”问题上的决定。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "The high court’s decision",
+        "chinese": "最高法院的判决",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "谓语",
+        "english": "said",
+        "chinese": "称",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "宾语从句",
+        "english": "the judge in Mr. McDonnell’s trial failed to tell a jury that it must look only at his “official acts,” or the former governor’s decisions on “specific” and “unsettled” issues related to his duties",
+        "chinese": "麦克唐纳先生审判中的法官没有告诉陪审团它必须只看他的官方行为",
+        "parent_id": null,
+        "target_id": "c_003_002",
+        "relation": "作 said 的宾语"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "从句主语",
+        "english": "the judge in Mr. McDonnell’s trial",
+        "chinese": "麦克唐纳先生审判中的法官",
+        "parent_id": "c_003_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "从句谓语",
+        "english": "failed to tell",
+        "chinese": "没有告诉",
+        "parent_id": "c_003_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "从句宾语",
+        "english": "a jury",
+        "chinese": "陪审团",
+        "parent_id": "c_003_003",
+        "target_id": "c_003_005",
+        "relation": "作 tell 的宾语"
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "宾语从句",
+        "english": "that it must look only at his “official acts,” or the former governor’s decisions on “specific” and “unsettled” issues related to his duties",
+        "chinese": "它必须只看他的官方行为，或这位前州长在与职责相关的具体和未决问题上的决定",
+        "parent_id": "c_003_003",
+        "target_id": "c_003_005",
+        "relation": "作 tell 的直接内容"
+      },
+      {
+        "chunk_id": "c_003_008",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_003_007",
+        "target_id": null,
+        "relation": "that 从句内部主语，指 jury"
+      },
+      {
+        "chunk_id": "c_003_009",
+        "role": "从句谓语",
+        "english": "must look",
+        "chinese": "必须看",
+        "parent_id": "c_003_007",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_003_010",
+        "role": "从句宾语",
+        "english": "his “official acts,” or the former governor’s decisions",
+        "chinese": "他的官方行为，或这位前州长的决定",
+        "parent_id": "c_003_007",
+        "target_id": "c_003_009",
+        "relation": "作 look at 的宾语"
+      },
+      {
+        "chunk_id": "c_003_011",
+        "role": "定语",
+        "english": "on “specific” and “unsettled” issues related to his duties",
+        "chinese": "关于与其职责相关的具体和未决问题的",
+        "parent_id": "c_003_010",
+        "target_id": "c_003_010",
+        "relation": "修饰 decisions"
+      },
+      {
+        "chunk_id": "c_003_012",
+        "role": "定语",
+        "english": "related to his duties",
+        "chinese": "与其职责相关的",
+        "parent_id": "c_003_011",
+        "target_id": "c_003_011",
+        "relation": "修饰 issues"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "said + 宾语从句 + tell + that 从句",
+        "explanation": "said 后嵌套两层宾语从句，阅读时要先找 judge failed to tell a jury。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "official acts, or decisions...",
+        "explanation": "or 后内容解释 official acts 的范围。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "jury",
+        "pos": "n.",
+        "meaning": "陪审团",
+        "chunk_id": "c_003_006"
+      },
+      {
+        "word": "official",
+        "pos": "adj.",
+        "meaning": "官方的",
+        "chunk_id": "c_003_010"
+      },
+      {
+        "word": "unsettled",
+        "pos": "adj.",
+        "meaning": "未决的",
+        "chunk_id": "c_003_011"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Merely helping a gift-giver gain access to other officials, unless done with clear intent to pressure those officials, is not corruption, the justices found.",
+    "difficulty": 5,
+    "translation_literal": "大法官们发现，仅仅帮助送礼者接触其他官员，如果不是带着向这些官员施压的明确意图去做，就不是腐败。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "Merely helping a gift-giver gain access to other officials",
+        "chinese": "仅仅帮助送礼者接触其他官员",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "状语从句",
+        "english": "unless done with clear intent to pressure those officials",
+        "chinese": "除非是带着向这些官员施压的明确意图做的",
+        "parent_id": null,
+        "target_id": "c_004_005",
+        "relation": "说明 is not corruption 的例外条件"
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "省略结构",
+        "english": "done with clear intent",
+        "chinese": "带着明确意图做的",
+        "parent_id": "c_004_002",
+        "target_id": "c_004_002",
+        "relation": "unless 从句省略 it is"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "定语",
+        "english": "to pressure those officials",
+        "chinese": "向那些官员施压的",
+        "parent_id": "c_004_003",
+        "target_id": "c_004_003",
+        "relation": "修饰 intent"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "谓语",
+        "english": "is not",
+        "chinese": "不是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "表语",
+        "english": "corruption",
+        "chinese": "腐败",
+        "parent_id": null,
+        "target_id": "c_004_005",
+        "relation": "作 is not 的表语"
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "插入语",
+        "english": "the justices found",
+        "chinese": "大法官们发现",
+        "parent_id": null,
+        "target_id": "c_004_001",
+        "relation": "说明判断来源"
+      },
+      {
+        "chunk_id": "c_004_008",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_004_002",
+        "target_id": null,
+        "relation": "unless 从句省略结构中补出的主语，指 helping 行为"
+      },
+      {
+        "chunk_id": "c_004_009",
+        "role": "从句谓语",
+        "english": "is done",
+        "chinese": "被做",
+        "parent_id": "c_004_002",
+        "target_id": null,
+        "relation": "unless 从句省略结构中补出的谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "unless done...",
+        "explanation": "unless 从句中省略 it is，完整为 unless it is done with clear intent。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句 + the justices found",
+        "explanation": "the justices found 放在句末说明判定来源。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Merely",
+        "pos": "adv.",
+        "meaning": "仅仅",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "word": "intent",
+        "pos": "n.",
+        "meaning": "意图",
+        "chunk_id": "c_004_003"
+      },
+      {
+        "word": "corruption",
+        "pos": "n.",
+        "meaning": "腐败",
+        "chunk_id": "c_004_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "gain access to",
+        "phrase_type": "v. phr.",
+        "meaning": "获得接触……的机会",
+        "chunk_id": "c_004_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The court did suggest that accepting favors in return for opening doors is “distasteful” and “nasty.”",
+    "difficulty": 4,
+    "translation_literal": "法院确实表示，以开门办事作为回报而接受好处是“令人反感的”和“肮脏的”。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "The court",
+        "chinese": "法院",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "did suggest",
+        "chinese": "确实表示",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "宾语从句",
+        "english": "that accepting favors in return for opening doors is “distasteful” and “nasty”",
+        "chinese": "以开门办事作为回报而接受好处是令人反感和肮脏的",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "作 suggest 的宾语"
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "从句主语",
+        "english": "accepting favors in return for opening doors",
+        "chinese": "以开门办事作为回报而接受好处",
+        "parent_id": "c_005_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_005_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "从句表语",
+        "english": "“distasteful” and “nasty”",
+        "chinese": "令人反感的和肮脏的",
+        "parent_id": "c_005_003",
+        "target_id": "c_005_005",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "favors",
+        "pos": "n.",
+        "meaning": "好处，恩惠",
+        "chunk_id": "c_005_004"
+      },
+      {
+        "word": "distasteful",
+        "pos": "adj.",
+        "meaning": "令人反感的",
+        "chunk_id": "c_005_006"
+      },
+      {
+        "word": "nasty",
+        "pos": "adj.",
+        "meaning": "肮脏的，恶劣的",
+        "chunk_id": "c_005_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "in return for",
+        "phrase_type": "prep. phr.",
+        "meaning": "作为……的回报",
+        "chunk_id": "c_005_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "But under anti-bribery laws, proof must be made of concrete benefits, such as approval of a contract or regulation.",
+    "difficulty": 4,
+    "translation_literal": "但是根据反贿赂法律，必须提供具体利益的证据，例如合同或规定的批准。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "状语",
+        "english": "under anti-bribery laws",
+        "chinese": "根据反贿赂法律",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "主语",
+        "english": "proof",
+        "chinese": "证据",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "谓语",
+        "english": "must be made",
+        "chinese": "必须被提出",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "定语",
+        "english": "of concrete benefits",
+        "chinese": "关于具体利益的",
+        "parent_id": "c_006_003",
+        "target_id": "c_006_003",
+        "relation": "修饰 proof"
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "插入举例",
+        "english": "such as approval of a contract or regulation",
+        "chinese": "例如合同或规定的批准",
+        "parent_id": "c_006_005",
+        "target_id": "c_006_005",
+        "relation": "举例说明 concrete benefits"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "anti-bribery",
+        "pos": "adj.",
+        "meaning": "反贿赂的",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "concrete",
+        "pos": "adj.",
+        "meaning": "具体的",
+        "chunk_id": "c_006_005"
+      },
+      {
+        "word": "approval",
+        "pos": "n.",
+        "meaning": "批准",
+        "chunk_id": "c_006_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Simply arranging a meeting, making a phone call, or hosting an event is not an “official act.”",
+    "difficulty": 4,
+    "translation_literal": "仅仅安排会议、打电话或主办活动并不是“官方行为”。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "Simply arranging a meeting, making a phone call, or hosting an event",
+        "chinese": "仅仅安排会议、打电话或主办活动",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "并列成分",
+        "english": "arranging a meeting",
+        "chinese": "安排会议",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": "动名词主语第一项"
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "并列成分",
+        "english": "making a phone call",
+        "chinese": "打电话",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": "动名词主语第二项"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "并列成分",
+        "english": "hosting an event",
+        "chinese": "主办活动",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": "动名词主语第三项"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "谓语",
+        "english": "is not",
+        "chinese": "不是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "表语",
+        "english": "an “official act”",
+        "chinese": "一种官方行为",
+        "parent_id": null,
+        "target_id": "c_007_005",
+        "relation": "作 is not 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "doing A, doing B, or doing C 作主语",
+        "explanation": "三个动名词短语并列作整体主语。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "arranging",
+        "pos": "v.",
+        "meaning": "安排",
+        "chunk_id": "c_007_002"
+      },
+      {
+        "word": "hosting",
+        "pos": "v.",
+        "meaning": "主办",
+        "chunk_id": "c_007_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The court’s ruling is legally sound in defining a kind of favoritism that is not criminal.",
+    "difficulty": 4,
+    "translation_literal": "法院的裁决在界定一种不构成犯罪的偏袒行为方面，在法律上是合理的。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "The court’s ruling",
+        "chinese": "法院的裁决",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "表语",
+        "english": "legally sound",
+        "chinese": "在法律上合理的",
+        "parent_id": null,
+        "target_id": "c_008_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "状语",
+        "english": "in defining a kind of favoritism that is not criminal",
+        "chinese": "在界定一种不构成犯罪的偏袒行为方面",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "说明 sound 的方面"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "定语从句",
+        "english": "that is not criminal",
+        "chinese": "不构成犯罪的",
+        "parent_id": "c_008_004",
+        "target_id": "c_008_004",
+        "relation": "修饰 favoritism"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这种偏袒",
+        "parent_id": "c_008_005",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "定语从句谓语",
+        "english": "is not",
+        "chinese": "不是",
+        "parent_id": "c_008_005",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "从句表语",
+        "english": "criminal",
+        "chinese": "犯罪的",
+        "parent_id": "c_008_005",
+        "target_id": "c_008_007",
+        "relation": "作 is not 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "ruling",
+        "pos": "n.",
+        "meaning": "裁决",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "word": "favoritism",
+        "pos": "n.",
+        "meaning": "偏袒",
+        "chunk_id": "c_008_004"
+      },
+      {
+        "word": "criminal",
+        "pos": "adj.",
+        "meaning": "犯罪的",
+        "chunk_id": "c_008_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "legally sound",
+        "phrase_type": "adj. phr.",
+        "meaning": "法律上合理的",
+        "chunk_id": "c_008_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Elected leaders must be allowed to help supporters deal with bureaucratic problems without fear of prosecution for bribery.",
+    "difficulty": 4,
+    "translation_literal": "民选领导人必须被允许帮助支持者处理官僚问题，而不必担心因贿赂被起诉。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "Elected leaders",
+        "chinese": "民选领导人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "must be allowed",
+        "chinese": "必须被允许",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "补语",
+        "english": "to help supporters deal with bureaucratic problems",
+        "chinese": "帮助支持者处理官僚问题",
+        "parent_id": null,
+        "target_id": "c_009_002",
+        "relation": "说明被允许做什么"
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "宾语",
+        "english": "supporters",
+        "chinese": "支持者",
+        "parent_id": "c_009_003",
+        "target_id": null,
+        "relation": "help 的宾语"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "宾语补足语",
+        "english": "deal with bureaucratic problems",
+        "chinese": "处理官僚问题",
+        "parent_id": "c_009_003",
+        "target_id": "c_009_004",
+        "relation": "补充说明 supporters 做什么"
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "状语",
+        "english": "without fear of prosecution for bribery",
+        "chinese": "而不必担心因贿赂被起诉",
+        "parent_id": null,
+        "target_id": "c_009_002",
+        "relation": "说明 allowed 的限制条件"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Elected",
+        "pos": "adj.",
+        "meaning": "选举产生的",
+        "chunk_id": "c_009_001"
+      },
+      {
+        "word": "bureaucratic",
+        "pos": "adj.",
+        "meaning": "官僚的",
+        "chunk_id": "c_009_005"
+      },
+      {
+        "word": "prosecution",
+        "pos": "n.",
+        "meaning": "起诉",
+        "chunk_id": "c_009_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "deal with",
+        "phrase_type": "v. phr.",
+        "meaning": "处理",
+        "chunk_id": "c_009_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "“The basic compact underlying representative government,” wrote Chief Justice John Roberts for the court, “assumes that public officials will hear from their constituents and act on their concerns.”",
+    "difficulty": 5,
+    "translation_literal": "首席大法官约翰·罗伯茨代表法院写道：“支撑代议制政府的基本契约假定，公职人员会听取选民意见并回应他们的关切。”",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "The basic compact underlying representative government",
+        "chinese": "支撑代议制政府的基本契约",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "定语",
+        "english": "underlying representative government",
+        "chinese": "支撑代议制政府的",
+        "parent_id": "c_010_001",
+        "target_id": "c_010_001",
+        "relation": "修饰 compact"
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "插入语",
+        "english": "wrote Chief Justice John Roberts for the court",
+        "chinese": "首席大法官约翰·罗伯茨代表法院写道",
+        "parent_id": null,
+        "target_id": "c_010_001",
+        "relation": "说明引语来源"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "谓语",
+        "english": "assumes",
+        "chinese": "假定",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "宾语从句",
+        "english": "that public officials will hear from their constituents and act on their concerns",
+        "chinese": "公职人员会听取选民意见并回应他们的关切",
+        "parent_id": null,
+        "target_id": "c_010_004",
+        "relation": "作 assumes 的宾语"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "从句主语",
+        "english": "public officials",
+        "chinese": "公职人员",
+        "parent_id": "c_010_005",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "从句谓语",
+        "english": "will hear from",
+        "chinese": "将听取",
+        "parent_id": "c_010_005",
+        "target_id": null,
+        "relation": "宾语从句第一谓语"
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "从句宾语",
+        "english": "their constituents",
+        "chinese": "他们的选民",
+        "parent_id": "c_010_005",
+        "target_id": "c_010_007",
+        "relation": "作 hear from 的宾语"
+      },
+      {
+        "chunk_id": "c_010_009",
+        "role": "并列谓语",
+        "english": "and act on",
+        "chinese": "并回应",
+        "parent_id": "c_010_005",
+        "target_id": "c_010_007",
+        "relation": "与 will hear from 并列"
+      },
+      {
+        "chunk_id": "c_010_010",
+        "role": "从句宾语",
+        "english": "their concerns",
+        "chinese": "他们的关切",
+        "parent_id": "c_010_005",
+        "target_id": "c_010_009",
+        "relation": "作 act on 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "引语主语 + wrote... + 谓语",
+        "explanation": "wrote... 插在主语和谓语 assumes 之间，主干是 compact assumes that...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "compact",
+        "pos": "n.",
+        "meaning": "契约",
+        "chunk_id": "c_010_001"
+      },
+      {
+        "word": "representative",
+        "pos": "adj.",
+        "meaning": "代议制的",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "constituents",
+        "pos": "n.",
+        "meaning": "选民",
+        "chunk_id": "c_010_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "act on",
+        "phrase_type": "v. phr.",
+        "meaning": "按照……行动，回应",
+        "chunk_id": "c_010_009"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "But the ruling reinforces the need for citizens and their elected representatives, not the courts, to ensure equality of access to government.",
+    "difficulty": 5,
+    "translation_literal": "但是，这一裁决强化了由公民及其民选代表，而不是法院，来确保接触政府机会平等的必要性。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "主语",
+        "english": "the ruling",
+        "chinese": "这一裁决",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "谓语",
+        "english": "reinforces",
+        "chinese": "强化",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "宾语",
+        "english": "the need for citizens and their elected representatives, not the courts, to ensure equality of access to government",
+        "chinese": "由公民及其民选代表而不是法院来确保接触政府机会平等的必要性",
+        "parent_id": null,
+        "target_id": "c_011_003",
+        "relation": "作 reinforces 的宾语"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "定语",
+        "english": "for citizens and their elected representatives, not the courts",
+        "chinese": "对公民及其民选代表，而不是法院而言的",
+        "parent_id": "c_011_004",
+        "target_id": "c_011_004",
+        "relation": "说明 need 的承担者"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "插入语",
+        "english": "not the courts",
+        "chinese": "不是法院",
+        "parent_id": "c_011_005",
+        "target_id": "c_011_005",
+        "relation": "对 citizens and representatives 作对比限制"
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "定语",
+        "english": "to ensure equality of access to government",
+        "chinese": "确保接触政府机会平等的",
+        "parent_id": "c_011_004",
+        "target_id": "c_011_004",
+        "relation": "说明 need 的内容"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "not the courts 插入对比",
+        "explanation": "not the courts 插入说明责任主体不是法院，而是公民和代表。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "reinforces",
+        "pos": "v.",
+        "meaning": "强化",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "word": "equality",
+        "pos": "n.",
+        "meaning": "平等",
+        "chunk_id": "c_011_007"
+      },
+      {
+        "word": "access",
+        "pos": "n.",
+        "meaning": "接触机会",
+        "chunk_id": "c_011_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Officials must not be allowed to play favorites in providing information or in arranging meetings simply because an individual or group provides a campaign donation or a personal gift.",
+    "difficulty": 5,
+    "translation_literal": "官员不得仅仅因为某个人或团体提供竞选捐款或私人礼物，就在提供信息或安排会议时偏袒某些人。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "Officials",
+        "chinese": "官员",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "must not be allowed",
+        "chinese": "不得被允许",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "补语",
+        "english": "to play favorites in providing information or in arranging meetings",
+        "chinese": "在提供信息或安排会议时偏袒某些人",
+        "parent_id": null,
+        "target_id": "c_012_002",
+        "relation": "说明不得被允许做什么"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "并列成分",
+        "english": "in providing information",
+        "chinese": "在提供信息时",
+        "parent_id": "c_012_003",
+        "target_id": null,
+        "relation": "play favorites 的第一种场景"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "并列成分",
+        "english": "in arranging meetings",
+        "chinese": "在安排会议时",
+        "parent_id": "c_012_003",
+        "target_id": null,
+        "relation": "play favorites 的第二种场景"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "原因状语从句",
+        "english": "simply because an individual or group provides a campaign donation or a personal gift",
+        "chinese": "仅仅因为某个人或团体提供竞选捐款或私人礼物",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "说明不得偏袒的原因条件"
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "从句主语",
+        "english": "an individual or group",
+        "chinese": "某个人或团体",
+        "parent_id": "c_012_006",
+        "target_id": null,
+        "relation": "because 从句内部主语"
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "从句谓语",
+        "english": "provides",
+        "chinese": "提供",
+        "parent_id": "c_012_006",
+        "target_id": null,
+        "relation": "because 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_012_009",
+        "role": "从句宾语",
+        "english": "a campaign donation or a personal gift",
+        "chinese": "竞选捐款或私人礼物",
+        "parent_id": "c_012_006",
+        "target_id": "c_012_008",
+        "relation": "作 provides 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "in doing A or in doing B; donation or gift",
+        "explanation": "句中有两组并列：偏袒场景并列，以及提供物并列。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "favorites",
+        "pos": "n.",
+        "meaning": "受偏袒者",
+        "chunk_id": "c_012_003"
+      },
+      {
+        "word": "campaign",
+        "pos": "n.",
+        "meaning": "竞选",
+        "chunk_id": "c_012_009"
+      },
+      {
+        "word": "donation",
+        "pos": "n.",
+        "meaning": "捐款",
+        "chunk_id": "c_012_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "play favorites",
+        "phrase_type": "idiom",
+        "meaning": "偏袒，厚此薄彼",
+        "chunk_id": "c_012_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "This type of integrity requires well-enforced laws in government transparency, such as records of official meetings, rules on lobbying, and information about each elected leader’s source of wealth.",
+    "difficulty": 5,
+    "translation_literal": "这种诚信要求政府透明度方面有执行良好的法律，例如官方会议记录、游说规则，以及关于每位民选领导人财富来源的信息。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "This type of integrity",
+        "chinese": "这种诚信",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "requires",
+        "chinese": "要求",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "宾语",
+        "english": "well-enforced laws in government transparency",
+        "chinese": "政府透明度方面执行良好的法律",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "作 requires 的宾语"
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "插入举例",
+        "english": "such as records of official meetings, rules on lobbying, and information about each elected leader’s source of wealth",
+        "chinese": "例如官方会议记录、游说规则，以及关于每位民选领导人财富来源的信息",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "举例说明 laws 的具体内容"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "并列成分",
+        "english": "records of official meetings",
+        "chinese": "官方会议记录",
+        "parent_id": "c_013_004",
+        "target_id": null,
+        "relation": "such as 后第一项"
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "并列成分",
+        "english": "rules on lobbying",
+        "chinese": "游说规则",
+        "parent_id": "c_013_004",
+        "target_id": null,
+        "relation": "such as 后第二项"
+      },
+      {
+        "chunk_id": "c_013_007",
+        "role": "并列成分",
+        "english": "information about each elected leader’s source of wealth",
+        "chinese": "关于每位民选领导人财富来源的信息",
+        "parent_id": "c_013_004",
+        "target_id": null,
+        "relation": "such as 后第三项"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "such as A, B, and C",
+        "explanation": "such as 后列举三类政府透明度法律内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "integrity",
+        "pos": "n.",
+        "meaning": "诚信，正直",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "transparency",
+        "pos": "n.",
+        "meaning": "透明度",
+        "chunk_id": "c_013_003"
+      },
+      {
+        "word": "lobbying",
+        "pos": "n.",
+        "meaning": "游说",
+        "chunk_id": "c_013_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Favoritism in official access can fan public perceptions of corruption.",
+    "difficulty": 3,
+    "translation_literal": "官方接触机会中的偏袒会煽动公众对腐败的感知。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "Favoritism in official access",
+        "chinese": "官方接触机会中的偏袒",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "can fan",
+        "chinese": "会煽动，加剧",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "宾语",
+        "english": "public perceptions of corruption",
+        "chinese": "公众对腐败的感知",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "作 fan 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Favoritism",
+        "pos": "n.",
+        "meaning": "偏袒",
+        "chunk_id": "c_014_001"
+      },
+      {
+        "word": "perceptions",
+        "pos": "n.",
+        "meaning": "感知，看法",
+        "chunk_id": "c_014_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "But it is not always corruption.",
+    "difficulty": 2,
+    "translation_literal": "但它并不总是腐败。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "谓语",
+        "english": "is not always",
+        "chinese": "并不总是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "表语",
+        "english": "corruption",
+        "chinese": "腐败",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "corruption",
+        "pos": "n.",
+        "meaning": "腐败",
+        "chunk_id": "c_015_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Rather officials must avoid double standards, or different types of access for average people and the wealthy.",
+    "difficulty": 4,
+    "translation_literal": "相反，官员必须避免双重标准，也就是给普通人和富人不同类型的接触机会。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "连接成分",
+        "english": "Rather",
+        "chinese": "相反",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "主语",
+        "english": "officials",
+        "chinese": "官员",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "谓语",
+        "english": "must avoid",
+        "chinese": "必须避免",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "宾语",
+        "english": "double standards",
+        "chinese": "双重标准",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "作 avoid 的宾语"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "同位语",
+        "english": "different types of access for average people and the wealthy",
+        "chinese": "给普通人和富人不同类型的接触机会",
+        "parent_id": "c_016_004",
+        "target_id": "c_016_004",
+        "relation": "解释 double standards 的具体含义"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "double standards, or different types...",
+        "explanation": "or 后内容解释 double standards 在本文中的具体含义。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "avoid",
+        "pos": "v.",
+        "meaning": "避免",
+        "chunk_id": "c_016_003"
+      },
+      {
+        "word": "standards",
+        "pos": "n.",
+        "meaning": "标准",
+        "chunk_id": "c_016_004"
+      },
+      {
+        "word": "wealthy",
+        "pos": "n.",
+        "meaning": "富人",
+        "chunk_id": "c_016_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "double standards",
+        "phrase_type": "n. phr.",
+        "meaning": "双重标准",
+        "chunk_id": "c_016_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "If connections can be bought, a basic premise of democratic society — that all are equal in treatment by government — is undermined.",
+    "difficulty": 5,
+    "translation_literal": "如果关系可以被购买，民主社会的一个基本前提——所有人在政府待遇中都是平等的——就会被削弱。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "条件状语从句",
+        "english": "If connections can be bought",
+        "chinese": "如果关系可以被购买",
+        "parent_id": null,
+        "target_id": "c_017_006",
+        "relation": "说明主句被削弱的条件"
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "从句主语",
+        "english": "connections",
+        "chinese": "关系",
+        "parent_id": "c_017_001",
+        "target_id": null,
+        "relation": "if 从句内部主语"
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "从句谓语",
+        "english": "can be bought",
+        "chinese": "可以被购买",
+        "parent_id": "c_017_001",
+        "target_id": null,
+        "relation": "if 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "主语",
+        "english": "a basic premise of democratic society",
+        "chinese": "民主社会的一个基本前提",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "同位语从句",
+        "english": "that all are equal in treatment by government",
+        "chinese": "所有人在政府待遇中都是平等的",
+        "parent_id": "c_017_004",
+        "target_id": "c_017_004",
+        "relation": "破折号中解释 premise 的内容"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "谓语",
+        "english": "is undermined",
+        "chinese": "被削弱",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "同位语从句主语",
+        "english": "all",
+        "chinese": "所有人",
+        "parent_id": "c_017_005",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_017_008",
+        "role": "同位语从句谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_017_005",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_017_009",
+        "role": "同位语从句表语",
+        "english": "equal in treatment by government",
+        "chinese": "在政府待遇中平等",
+        "parent_id": "c_017_005",
+        "target_id": "c_017_008",
+        "relation": "作 are 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "premise + 破折号 that 从句",
+        "explanation": "破折号中的 that 从句解释 basic premise 的内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "connections",
+        "pos": "n.",
+        "meaning": "关系，人脉",
+        "chunk_id": "c_017_002"
+      },
+      {
+        "word": "premise",
+        "pos": "n.",
+        "meaning": "前提",
+        "chunk_id": "c_017_004"
+      },
+      {
+        "word": "undermined",
+        "pos": "v.",
+        "meaning": "削弱",
+        "chunk_id": "c_017_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Good government rests on an understanding of the inherent worth of each individual.",
+    "difficulty": 3,
+    "translation_literal": "良好政府建立在对每个人内在价值的理解之上。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "主语",
+        "english": "Good government",
+        "chinese": "良好政府",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "谓语",
+        "english": "rests on",
+        "chinese": "建立在……之上",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "宾语",
+        "english": "an understanding of the inherent worth of each individual",
+        "chinese": "对每个人内在价值的理解",
+        "parent_id": null,
+        "target_id": "c_018_002",
+        "relation": "作 rests on 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "rests",
+        "pos": "v.",
+        "meaning": "建立，依靠",
+        "chunk_id": "c_018_002"
+      },
+      {
+        "word": "inherent",
+        "pos": "adj.",
+        "meaning": "内在的",
+        "chunk_id": "c_018_003"
+      },
+      {
+        "word": "worth",
+        "pos": "n.",
+        "meaning": "价值",
+        "chunk_id": "c_018_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "rest on",
+        "phrase_type": "v. phr.",
+        "meaning": "基于，建立在……之上",
+        "chunk_id": "c_018_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2017,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The court’s ruling is a step forward in the struggle against both corruption and official favoritism.",
+    "difficulty": 3,
+    "translation_literal": "法院的裁决是在反对腐败和官方偏袒的斗争中向前迈出的一步。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "主语",
+        "english": "The court’s ruling",
+        "chinese": "法院的裁决",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "表语",
+        "english": "a step forward in the struggle against both corruption and official favoritism",
+        "chinese": "在反对腐败和官方偏袒的斗争中向前迈出的一步",
+        "parent_id": null,
+        "target_id": "c_019_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "定语",
+        "english": "against both corruption and official favoritism",
+        "chinese": "反对腐败和官方偏袒的",
+        "parent_id": "c_019_003",
+        "target_id": "c_019_003",
+        "relation": "修饰 struggle"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "struggle",
+        "pos": "n.",
+        "meaning": "斗争",
+        "chunk_id": "c_019_003"
+      },
+      {
+        "word": "favoritism",
+        "pos": "n.",
+        "meaning": "偏袒",
+        "chunk_id": "c_019_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "step forward",
+        "phrase_type": "n. phr.",
+        "meaning": "向前一步，进步",
+        "chunk_id": "c_019_003"
+      }
+    ]
+  }
+]

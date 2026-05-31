@@ -1,0 +1,1568 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "A group of Labour MPs, among them Yvette Cooper, are bringing in the new year with a call to institute a UK “town of culture” award.",
+    "difficulty": 4,
+    "translation_literal": "一群工党议员，其中包括伊薇特·库珀，正以一项呼吁迎接新年：设立一个英国“文化之镇”奖。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "A group of Labour",
+        "chinese": "一群工党议员，",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "谓语",
+        "english": "MPs, among them Yvette",
+        "chinese": "其中包括伊薇特",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "宾语",
+        "english": "Cooper, are bringing in",
+        "chinese": "·库珀，正以一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "状语",
+        "english": "the new year with",
+        "chinese": "项呼吁迎接新年",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "定语",
+        "english": "a call to institute",
+        "chinese": "：设立一个英国",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "补语",
+        "english": "a UK “town of",
+        "chinese": "“文化之镇”奖",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "并列成分",
+        "english": "culture” award.",
+        "chinese": "。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "group",
+        "pos": "n.",
+        "meaning": "一批；一群",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "Labour",
+        "pos": "n.",
+        "meaning": "工党",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "word": "among",
+        "pos": "n.",
+        "meaning": "其中",
+        "chunk_id": "c_001_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The proposal is that it should sit alongside the existing city of culture title, which was held by Hull in 2017, and has been awarded to Coventry for 2021.",
+    "difficulty": 4,
+    "translation_literal": "该提议是，它应当与现有的“文化之城”称号并列；该称号 2017 年由赫尔获得，并已授予考文垂用于 2021 年。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "The proposal is that it",
+        "chinese": "该提议是，它应当与现",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "should sit alongside the existing",
+        "chinese": "有的“文化之城”称号",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "宾语",
+        "english": "city of culture title, which",
+        "chinese": "并列；该称号 201",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "状语",
+        "english": "was held by Hull in",
+        "chinese": "7 年由赫尔获得，并",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "定语",
+        "english": "2017, and has been awarded",
+        "chinese": "已授予考文垂用于 2",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "补语",
+        "english": "to Coventry for 2021.",
+        "chinese": "021 年。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "proposal",
+        "pos": "adj.",
+        "meaning": "提议；方案",
+        "chunk_id": "c_002_001"
+      },
+      {
+        "word": "should",
+        "pos": "n.",
+        "meaning": "应该；应当",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "alongside",
+        "pos": "n.",
+        "meaning": "与...并列；与...一起",
+        "chunk_id": "c_002_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Cooper and her colleagues argue that the success of the crown for Hull, where it brought in £220m of investment and an avalanche of arts, ought not to be confined to cities.",
+    "difficulty": 4,
+    "translation_literal": "库珀和她的同事们认为，赫尔获得这一桂冠的成功，即它带来了 2.2 亿英镑投资和大量艺术活动，不应只局限于城市。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "Cooper and her colleagues argue",
+        "chinese": "库珀和她的同事们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "定语从句",
+        "english": "that the success of the",
+        "chinese": "认为，赫尔获得这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "宾语",
+        "english": "crown for Hull, where it",
+        "chinese": "一桂冠的成功，即",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "状语",
+        "english": "brought in £220m of investment",
+        "chinese": "它带来了 2.2",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "定语",
+        "english": "and an avalanche of arts,",
+        "chinese": "亿英镑投资和大",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "补语",
+        "english": "ought not to be confined",
+        "chinese": "量艺术活动，不应",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "并列成分",
+        "english": "to cities.",
+        "chinese": "只局限于城市。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Cooper",
+        "pos": "n.",
+        "meaning": "库珀",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "colleagues",
+        "pos": "n.",
+        "meaning": "同事；同僚",
+        "chunk_id": "c_003_002"
+      },
+      {
+        "word": "argue",
+        "pos": "v.",
+        "meaning": "主张；认为",
+        "chunk_id": "c_003_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Britain’s towns, it is true, are not prevented from applying, but they generally lack the resources to put together a bid to beat their bigger competitors.",
+    "difficulty": 4,
+    "translation_literal": "诚然，英国的城镇并非被阻止申请，但它们通常缺乏资源来组织一份投标方案以击败更大的竞争者。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "Britain’s towns, it is",
+        "chinese": "诚然，英国的城",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "谓语",
+        "english": "true, are not prevented",
+        "chinese": "镇并非被阻止申",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "宾语",
+        "english": "from applying, but they",
+        "chinese": "请，但它们通常",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "状语",
+        "english": "generally lack the resources",
+        "chinese": "缺乏资源来组织",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "定语",
+        "english": "to put together a",
+        "chinese": "一份投标方案以",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "补语",
+        "english": "bid to beat their",
+        "chinese": "击败更大的竞争",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "并列成分",
+        "english": "bigger competitors.",
+        "chinese": "者。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主干被插入语、从句或并列成分隔开",
+        "explanation": "句子主干之间夹有较长修饰或补充内容，阅读时需要先找主谓宾。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Britain",
+        "pos": "n.",
+        "meaning": "英国",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "word": "towns",
+        "pos": "n.",
+        "meaning": "城镇",
+        "chunk_id": "c_004_002"
+      },
+      {
+        "word": "prevented",
+        "pos": "v.",
+        "meaning": "阻止；妨碍",
+        "chunk_id": "c_004_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "A town of culture award could, it is argued, become an annual event, attracting funding and creating jobs.",
+    "difficulty": 3,
+    "translation_literal": "有人认为，“文化之镇”奖可以成为一项年度活动，吸引资金并创造就业。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "A town of",
+        "chinese": "有人认为，“",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "culture award could,",
+        "chinese": "文化之镇”奖",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "宾语",
+        "english": "it is argued,",
+        "chinese": "可以成为一项",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "状语",
+        "english": "become an annual",
+        "chinese": "年度活动，吸",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "定语",
+        "english": "event, attracting funding",
+        "chinese": "引资金并创造",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "补语",
+        "english": "and creating jobs.",
+        "chinese": "就业。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主干被插入语、从句或并列成分隔开",
+        "explanation": "句子主干之间夹有较长修饰或补充内容，阅读时需要先找主谓宾。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "culture",
+        "pos": "n.",
+        "meaning": "文化",
+        "chunk_id": "c_005_001"
+      },
+      {
+        "word": "award",
+        "pos": "n.",
+        "meaning": "奖项",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "could",
+        "pos": "n.",
+        "meaning": "可以；可能",
+        "chunk_id": "c_005_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Some might see the proposal as a booby prize for the fact that Britain is no longer able to apply for the much more prestigious title of European capital of culture, a sought- after award bagged by Glasgow in 1990 and Liverpool in 2008.",
+    "difficulty": 5,
+    "translation_literal": "有些人可能把这一提议看作一个安慰奖，因为英国已不再能够申请更有声望的“欧洲文化之都”称号；这一抢手奖项曾由格拉斯哥在 1990 年、利物浦在 2008 年获得。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "Some might see the proposal as",
+        "chinese": "有些人可能把这一提议",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "a booby prize for the fact",
+        "chinese": "看作一个安慰奖，因为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "定语从句",
+        "english": "that Britain is no longer able",
+        "chinese": "英国已不再能够申请更",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "状语",
+        "english": "to apply for the much more",
+        "chinese": "有声望的“欧洲文化之",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "定语",
+        "english": "prestigious title of European capital of",
+        "chinese": "都”称号；这一抢手奖",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "补语",
+        "english": "culture, a sought- after award bagged",
+        "chinese": "项曾由格拉斯哥在 1",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "并列成分",
+        "english": "by Glasgow in 1990 and Liverpool",
+        "chinese": "990 年、利物浦在",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_008",
+        "role": "非谓语结构",
+        "english": "in 2008.",
+        "chinese": "2008 年获得。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "might",
+        "pos": "n.",
+        "meaning": "可能会",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "proposal",
+        "pos": "adj.",
+        "meaning": "提议；方案",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "booby",
+        "pos": "n.",
+        "meaning": "次等的；安慰奖式的",
+        "chunk_id": "c_006_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "booby prize",
+        "phrase_type": "collocation",
+        "meaning": "安慰奖；末等奖",
+        "chunk_id": "c_006_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "A cynic might speculate that the UK is on the verge of disappearing into an endless fever of self-celebration in its desperation to reinvent itself for the post-Brexit world: after town of culture, who knows what will follow — village of culture?",
+    "difficulty": 5,
+    "translation_literal": "犬儒者可能会推测，英国在为后脱欧世界重塑自身的绝望中，正处在消失于无尽自我庆祝狂热边缘：在文化之镇之后，谁知道还会跟着什么——文化之村？",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "A cynic might speculate that the",
+        "chinese": "犬儒者可能会推测，英",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "UK is on the verge of",
+        "chinese": "国在为后脱欧世界重塑",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "宾语",
+        "english": "disappearing into an endless fever of",
+        "chinese": "自身的绝望中，正处在",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "状语",
+        "english": "self-celebration in its desperation to reinvent",
+        "chinese": "消失于无尽自我庆祝狂",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "定语",
+        "english": "itself for the post-Brexit world: after",
+        "chinese": "热边缘：在文化之镇之",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "补语",
+        "english": "town of culture, who knows what",
+        "chinese": "后，谁知道还会跟着什",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "并列成分",
+        "english": "will follow — village of culture?",
+        "chinese": "么——文化之村？",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号插入解释",
+        "explanation": "破折号中间或之后的内容用于补充解释前面的名词或判断。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "cynic",
+        "pos": "adj.",
+        "meaning": "愤世嫉俗者；悲观怀疑者",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "might",
+        "pos": "n.",
+        "meaning": "可能会",
+        "chunk_id": "c_007_002"
+      },
+      {
+        "word": "speculate",
+        "pos": "n.",
+        "meaning": "猜测；臆测",
+        "chunk_id": "c_007_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "on the verge of",
+        "phrase_type": "collocation",
+        "meaning": "濒于；即将",
+        "chunk_id": "c_007_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Suburb of culture?",
+    "difficulty": 2,
+    "translation_literal": "文化之郊区？",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "Suburb",
+        "chinese": "文化",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "of",
+        "chinese": "之郊",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "宾语",
+        "english": "culture?",
+        "chinese": "区？",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Suburb",
+        "pos": "n.",
+        "meaning": "郊区",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "word": "culture",
+        "pos": "n.",
+        "meaning": "文化",
+        "chunk_id": "c_008_002"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Hamlet of culture?",
+    "difficulty": 2,
+    "translation_literal": "文化之小村庄？",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "Hamlet",
+        "chinese": "文化之",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "of",
+        "chinese": "小村庄",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "宾语",
+        "english": "culture?",
+        "chinese": "？",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Hamlet",
+        "pos": "n.",
+        "meaning": "村落；小村庄",
+        "chunk_id": "c_009_001"
+      },
+      {
+        "word": "culture",
+        "pos": "n.",
+        "meaning": "文化",
+        "chunk_id": "c_009_002"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "It is also wise to recall that such titles are not a cure-all.",
+    "difficulty": 3,
+    "translation_literal": "同样明智的是要记得，这类称号并不是万灵药。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "It is also wise",
+        "chinese": "同样明智的是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "to recall that such",
+        "chinese": "要记得，这类",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "宾语",
+        "english": "titles are not a",
+        "chinese": "称号并不是万",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "状语",
+        "english": "cure-all.",
+        "chinese": "灵药。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "it is ... that/to ...",
+        "explanation": "it 承担形式位置，真正内容由后面的从句或不定式结构说明。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "recall",
+        "pos": "n.",
+        "meaning": "回想；记起",
+        "chunk_id": "c_010_001"
+      },
+      {
+        "word": "titles",
+        "pos": "n.",
+        "meaning": "称号；头衔",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "cure-all",
+        "pos": "n.",
+        "meaning": "包治百病的良方；万灵药",
+        "chunk_id": "c_010_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "cure-all",
+        "phrase_type": "n. phr.",
+        "meaning": "包治百病的良方；万灵药",
+        "chunk_id": "c_010_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "A badly run “year of culture” washes in and out of a place like the tide, bringing prominence for a spell but leaving no lasting benefits to the community.",
+    "difficulty": 4,
+    "translation_literal": "一个运作糟糕的“文化年”像潮水一样涌入又退出一个地方，带来一阵显赫，却不给社区留下持久好处。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "A badly run “year of",
+        "chinese": "一个运作糟糕的“",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "culture” washes in and out",
+        "chinese": "文化年”像潮水一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "宾语",
+        "english": "of a place like the",
+        "chinese": "样涌入又退出一个",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "状语",
+        "english": "tide, bringing prominence for a",
+        "chinese": "地方，带来一阵显",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "定语",
+        "english": "spell but leaving no lasting",
+        "chinese": "赫，却不给社区留",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "补语",
+        "english": "benefits to the community.",
+        "chinese": "下持久好处。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "badly",
+        "pos": "adv.",
+        "meaning": "糟糕地；不当地产生",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "culture",
+        "pos": "n.",
+        "meaning": "文化",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "word": "washes",
+        "pos": "n.",
+        "meaning": "席卷；冲刷",
+        "chunk_id": "c_011_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The really successful holders of such titles are those that do a great deal more than fill hotel bedrooms and bring in high-profile arts events and good press for a year.",
+    "difficulty": 4,
+    "translation_literal": "真正成功持有这类称号的地方，是那些所做的远不止填满酒店客房、引入高知名度艺术活动和一年的好媒体报道的地方。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "The really successful holders of",
+        "chinese": "真正成功持有这类",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "such titles are those that",
+        "chinese": "称号的地方，是那",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "宾语",
+        "english": "do a great deal more",
+        "chinese": "些所做的远不止填",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "状语",
+        "english": "than fill hotel bedrooms and",
+        "chinese": "满酒店客房、引入",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "定语",
+        "english": "bring in high-profile arts events",
+        "chinese": "高知名度艺术活动",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "补语",
+        "english": "and good press for a",
+        "chinese": "和一年的好媒体报",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "并列成分",
+        "english": "year.",
+        "chinese": "道的地方。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "really",
+        "pos": "adv.",
+        "meaning": "真正地；确实",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "word": "successful",
+        "pos": "n.",
+        "meaning": "成功的",
+        "chunk_id": "c_012_002"
+      },
+      {
+        "word": "holders",
+        "pos": "n.",
+        "meaning": "持有者；拥有者",
+        "chunk_id": "c_012_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "They transform the aspirations of the people who live there; they nudge the self-image of the city into a bolder and more optimistic light.",
+    "difficulty": 4,
+    "translation_literal": "它们改变居住在那里的人们的抱负；它们把城市的自我形象推向更大胆、更乐观的光线中。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "They transform the aspirations",
+        "chinese": "它们改变居住在",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "of the people who",
+        "chinese": "那里的人们的抱",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "宾语",
+        "english": "live there; they nudge",
+        "chinese": "负；它们把城市",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "状语",
+        "english": "the self-image of the",
+        "chinese": "的自我形象推向",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "定语",
+        "english": "city into a bolder",
+        "chinese": "更大胆、更乐观",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "补语",
+        "english": "and more optimistic light.",
+        "chinese": "的光线中。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主干被插入语、从句或并列成分隔开",
+        "explanation": "句子主干之间夹有较长修饰或补充内容，阅读时需要先找主谓宾。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "transform",
+        "pos": "n.",
+        "meaning": "改变；转化",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "aspirations",
+        "pos": "n.",
+        "meaning": "愿望；抱负",
+        "chunk_id": "c_013_002"
+      },
+      {
+        "word": "people",
+        "pos": "n.",
+        "meaning": "人们；居民",
+        "chunk_id": "c_013_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "It is hard to get right, and requires a remarkable degree of vision, as well as cooperation between city authorities, the private sector, community groups and cultural organisations.",
+    "difficulty": 4,
+    "translation_literal": "把这件事做好很难，并且需要非凡程度的远见，也需要城市当局、私营部门、社区团体和文化组织之间的合作。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "It is hard to",
+        "chinese": "把这件事做好很",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "get right, and requires",
+        "chinese": "难，并且需要非",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "宾语",
+        "english": "a remarkable degree of",
+        "chinese": "凡程度的远见，",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "状语",
+        "english": "vision, as well as",
+        "chinese": "也需要城市当局",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "定语",
+        "english": "cooperation between city authorities,",
+        "chinese": "、私营部门、社",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "补语",
+        "english": "the private sector, community",
+        "chinese": "区团体和文化组",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_007",
+        "role": "并列成分",
+        "english": "groups and cultural organisations.",
+        "chinese": "织之间的合作。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主干被插入语、从句或并列成分隔开",
+        "explanation": "句子主干之间夹有较长修饰或补充内容，阅读时需要先找主谓宾。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "right",
+        "pos": "n.",
+        "meaning": "妥善；正确",
+        "chunk_id": "c_014_001"
+      },
+      {
+        "word": "requires",
+        "pos": "v.",
+        "meaning": "需要；要求",
+        "chunk_id": "c_014_002"
+      },
+      {
+        "word": "remarkable",
+        "pos": "n.",
+        "meaning": "非凡的；显著的",
+        "chunk_id": "c_014_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "But it can be done: Glasgow’s year as European capital of culture can certainly be seen as one of a complex series of factors that have turned the city into the powerhouse of art, music and theatre that it remains today.",
+    "difficulty": 5,
+    "translation_literal": "但这是可以做到的：格拉斯哥作为欧洲文化之都的那一年，当然可以被看作一系列复杂因素之一，这些因素把这座城市变成了今天仍然是的艺术、音乐和戏剧强市。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "But it can be done: Glasgow’s",
+        "chinese": "但这是可以做到的：格拉",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "谓语",
+        "english": "year as European capital of culture",
+        "chinese": "斯哥作为欧洲文化之都的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "宾语",
+        "english": "can certainly be seen as one",
+        "chinese": "那一年，当然可以被看作",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "状语",
+        "english": "of a complex series of factors",
+        "chinese": "一系列复杂因素之一，这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "定语从句",
+        "english": "that have turned the city into",
+        "chinese": "些因素把这座城市变成了",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_006",
+        "role": "补语",
+        "english": "the powerhouse of art, music and",
+        "chinese": "今天仍然是的艺术、音乐",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_007",
+        "role": "并列成分",
+        "english": "theatre that it remains today.",
+        "chinese": "和戏剧强市。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Glasgow",
+        "pos": "n.",
+        "meaning": "格拉斯哥",
+        "chunk_id": "c_015_001"
+      },
+      {
+        "word": "European",
+        "pos": "n.",
+        "meaning": "欧洲的",
+        "chunk_id": "c_015_002"
+      },
+      {
+        "word": "capital",
+        "pos": "adj.",
+        "meaning": "首都；中心城市",
+        "chunk_id": "c_015_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "A “town of culture” could be not just about the arts but about honouring a town’s peculiarities — helping sustain its high street, supporting local facilities and above all celebrating its people.",
+    "difficulty": 4,
+    "translation_literal": "“文化之镇”不仅可以关乎艺术，也可以关乎尊重一个城镇的独特性——帮助维持其商业街，支持当地设施，最重要的是赞美其人民。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "主语",
+        "english": "A “town of culture” could",
+        "chinese": "“文化之镇”不仅可",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "谓语",
+        "english": "be not just about the",
+        "chinese": "以关乎艺术，也可以",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "宾语",
+        "english": "arts but about honouring a",
+        "chinese": "关乎尊重一个城镇的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "状语",
+        "english": "town’s peculiarities — helping sustain",
+        "chinese": "独特性——帮助维持",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "定语",
+        "english": "its high street, supporting local",
+        "chinese": "其商业街，支持当地",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_006",
+        "role": "补语",
+        "english": "facilities and above all celebrating",
+        "chinese": "设施，最重要的是赞",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_007",
+        "role": "并列成分",
+        "english": "its people.",
+        "chinese": "美其人民。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号插入解释",
+        "explanation": "破折号中间或之后的内容用于补充解释前面的名词或判断。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "not...but... / 多项并列",
+        "explanation": "并列或对比结构连接多个成分，说明作者强调的范围或重点。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "culture",
+        "pos": "n.",
+        "meaning": "文化",
+        "chunk_id": "c_016_001"
+      },
+      {
+        "word": "could",
+        "pos": "n.",
+        "meaning": "可以；可能",
+        "chunk_id": "c_016_002"
+      },
+      {
+        "word": "honouring",
+        "pos": "v.",
+        "meaning": "尊重；彰显",
+        "chunk_id": "c_016_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2020,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Jeremy Wright, the culture secretary, should welcome this positive hope-filled proposal, and turn it into action.",
+    "difficulty": 3,
+    "translation_literal": "文化大臣杰里米·赖特应当欢迎这一积极而充满希望的提议，并把它转化为行动。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "Jeremy Wright, the",
+        "chinese": "文化大臣杰里",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "culture secretary, should",
+        "chinese": "米·赖特应当",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "宾语",
+        "english": "welcome this positive",
+        "chinese": "欢迎这一积极",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "状语",
+        "english": "hope-filled proposal, and",
+        "chinese": "而充满希望的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "定语",
+        "english": "turn it into",
+        "chinese": "提议，并把它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "补语",
+        "english": "action.",
+        "chinese": "转化为行动。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主干被插入语、从句或并列成分隔开",
+        "explanation": "句子主干之间夹有较长修饰或补充内容，阅读时需要先找主谓宾。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Jeremy",
+        "pos": "n.",
+        "meaning": "杰里米",
+        "chunk_id": "c_017_001"
+      },
+      {
+        "word": "Wright",
+        "pos": "n.",
+        "meaning": "赖特",
+        "chunk_id": "c_017_002"
+      },
+      {
+        "word": "culture",
+        "pos": "n.",
+        "meaning": "文化",
+        "chunk_id": "c_017_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "turn it into action",
+        "phrase_type": "collocation",
+        "meaning": "把它付诸行动",
+        "chunk_id": "c_017_001"
+      }
+    ]
+  }
+]

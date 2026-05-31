@@ -1,0 +1,1548 @@
+[
+  {
+    "practice_id": "practice_s_003_precision",
+    "source_sentence_id": "s_003",
+    "practice_type": "precision_analysis",
+    "version": "v1",
+    "source_snapshot": {
+      "year": 2015,
+      "exam_type": "英语一",
+      "text_id": "Text 1",
+      "original": "So, does the Spanish crisis suggest that monarchy is seeing its last days?",
+      "translation_literal": "那么，西班牙危机是否表明君主制正在走向它的末日？",
+      "difficulty": 3
+    },
+    "difficulty": 3,
+    "is_key_sentence": true,
+    "focus_tags": ["一般疑问句", "宾语从句", "熟词僻义", "主干识别"],
+    "why_key": "本句短但检测价值高：学生容易把 suggest 误译成“建议”，也容易只看疑问句形式而漏掉 that 从句作宾语。",
+    "subjective_tasks": [
+      {
+        "task_id": "s_003_main_structure",
+        "task_type": "main_structure",
+        "prompt": "请写出本句主干，并标明主语、谓语、宾语。",
+        "input_hint": "注意 does 提前构成一般疑问句，核心谓语仍然是 suggest。",
+        "score": 20
+      },
+      {
+        "task_id": "s_003_grammar_analysis",
+        "task_type": "grammar_analysis",
+        "prompt": "请分析本句主要语法成分，尤其说明 that 从句在句中作什么成分。",
+        "input_hint": "看 that 从句跟在哪个动词后面。",
+        "score": 25
+      },
+      {
+        "task_id": "s_003_sentence_cuts",
+        "task_type": "sentence_cuts",
+        "prompt": "请用 / 把本句切分成便于翻译的小段。",
+        "input_hint": "按连接成分、主句外壳、宾语从句切分。",
+        "score": 15
+      },
+      {
+        "task_id": "s_003_key_language",
+        "task_type": "key_language",
+        "prompt": "请写出本句重点词、熟词僻义或固定搭配。",
+        "input_hint": "重点关注 suggest 和 see its last days。",
+        "score": 10
+      },
+      {
+        "task_id": "s_003_translation",
+        "task_type": "structure_translation",
+        "prompt": "请按照句子结构，把本句翻译成一个完整通顺的中文句子。",
+        "input_hint": "不要把 suggest 生硬译成“建议”。",
+        "score": 20
+      },
+      {
+        "task_id": "s_003_self_check",
+        "task_type": "self_check",
+        "prompt": "对照答案后，请写出你最需要订正的一处语法或词义问题。",
+        "input_hint": "写清错因，不要只写“已订正”。",
+        "score": 10
+      }
+    ],
+    "diagnostic_choices": [
+      {
+        "choice_id": "s_003_suggest_meaning",
+        "choice_type": "vocab_trap",
+        "target": "suggest",
+        "error_tag": "familiar_word_unfamiliar_meaning",
+        "prompt": "本句中 suggest 最合适的意思是：",
+        "options": [
+          {
+            "label": "A",
+            "text": "建议",
+            "is_correct": false,
+            "trap_reason": "这是 suggest 的常见义，但本句后接 that 从句，语境中是“表明/暗示”。"
+          },
+          {
+            "label": "B",
+            "text": "表明/暗示",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "C",
+            "text": "推荐",
+            "is_correct": false,
+            "trap_reason": "与 suggest 的部分用法接近，但本句不是推荐某人或某物。"
+          },
+          {
+            "label": "D",
+            "text": "使想起",
+            "is_correct": false,
+            "trap_reason": "混淆 suggest 和 remind。"
+          }
+        ],
+        "explanation": "So, does the Spanish crisis suggest that... 中，suggest 后接 that 宾语从句，表示“表明/暗示”。"
+      },
+      {
+        "choice_id": "s_003_that_clause_role",
+        "choice_type": "grammar_trap",
+        "target": "that monarchy is seeing its last days",
+        "error_tag": "clause_type_wrong",
+        "prompt": "that monarchy is seeing its last days 在句中作什么成分？",
+        "options": [
+          {
+            "label": "A",
+            "text": "主语从句",
+            "is_correct": false,
+            "trap_reason": "没有看 that 从句跟在 suggest 后面。"
+          },
+          {
+            "label": "B",
+            "text": "宾语从句",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "C",
+            "text": "定语从句",
+            "is_correct": false,
+            "trap_reason": "that 从句没有修饰前面的名词，而是说明 suggest 的内容。"
+          },
+          {
+            "label": "D",
+            "text": "状语从句",
+            "is_correct": false,
+            "trap_reason": "该从句不表示时间、原因、条件、让步等状语关系。"
+          }
+        ],
+        "explanation": "that 从句跟在 suggest 后面，说明 crisis 暗示的内容，所以是宾语从句。"
+      }
+    ],
+    "answer_key": {
+      "main_structure": {
+        "subject": "the Spanish crisis",
+        "predicate": "does suggest",
+        "object": "that monarchy is seeing its last days",
+        "note": "does 提前构成一般疑问句，陈述语序可还原为 the Spanish crisis does suggest..."
+      },
+      "grammar_analysis": [
+        {
+          "text": "So",
+          "role": "连接成分",
+          "target": "前文",
+          "explanation": "承接上文，引出关于君主制前途的问题。"
+        },
+        {
+          "text": "that monarchy is seeing its last days",
+          "role": "宾语从句",
+          "target": "suggest",
+          "explanation": "说明西班牙危机可能暗示的内容。"
+        },
+        {
+          "text": "monarchy is seeing its last days",
+          "role": "从句主干",
+          "target": "that 从句内部",
+          "explanation": "monarchy 是从句主语，is seeing 是从句谓语，its last days 是从句宾语。"
+        }
+      ],
+      "standard_cuts": ["So", "does the Spanish crisis suggest", "that monarchy is seeing its last days"],
+      "key_language": [
+        {
+          "text": "suggest",
+          "type": "熟词僻义",
+          "meaning": "表明，暗示"
+        },
+        {
+          "text": "see its last days",
+          "type": "固定表达",
+          "meaning": "走向末日，行将终结"
+        }
+      ],
+      "translation": {
+        "literal": "那么，西班牙危机是否表明君主制正在走向它的末日？",
+        "polished": "那么，西班牙危机是否暗示君主制已时日无多？"
+      }
+    },
+    "rubric": {
+      "total_score": 100,
+      "items": [
+        {
+          "task_type": "main_structure",
+          "score": 20,
+          "criteria": ["找出主语 the Spanish crisis", "找出谓语 does suggest", "指出 that 从句作宾语", "能说明疑问句外壳 does 提前"]
+        },
+        {
+          "task_type": "grammar_analysis",
+          "score": 25,
+          "criteria": ["说明 So 的承接作用", "判断 that 从句是宾语从句", "能拆出从句内部主谓宾", "能说明 suggest 和 that 从句的关系"]
+        },
+        {
+          "task_type": "sentence_cuts",
+          "score": 15,
+          "criteria": ["切分包含连接成分", "主句外壳不断裂", "that 从句作为完整意义单元"]
+        },
+        {
+          "task_type": "key_language",
+          "score": 10,
+          "criteria": ["写出 suggest 的语境义", "写出 see its last days 的表达义"]
+        },
+        {
+          "task_type": "structure_translation",
+          "score": 20,
+          "criteria": ["译出疑问语气", "译出宾语从句内容", "中文完整通顺", "不误译 suggest"]
+        },
+        {
+          "task_type": "self_check",
+          "score": 10,
+          "criteria": ["能指出具体错点", "能写出订正方向"]
+        }
+      ],
+      "level_rules": [
+        {
+          "level": "A",
+          "range": [90, 100],
+          "description": "结构清楚，词义准确，能说明关键从句。"
+        },
+        {
+          "level": "B",
+          "range": [75, 89],
+          "description": "主干基本正确，但语法细节或词义有遗漏。"
+        },
+        {
+          "level": "C",
+          "range": [60, 74],
+          "description": "能看出部分结构，但从句或翻译不稳定。"
+        },
+        {
+          "level": "D",
+          "range": [0, 59],
+          "description": "主要依赖感觉，主干或关键从句判断错误。"
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "error_tag": "predicate_wrong",
+        "description": "只写 suggest，漏掉疑问句中的助动词 does。",
+        "diagnosis": "没有先还原一般疑问句结构。",
+        "remediation": "先还原为 the Spanish crisis does suggest... 再分析主干。"
+      },
+      {
+        "error_tag": "clause_type_wrong",
+        "description": "没有说明 that 从句作 suggest 的宾语。",
+        "diagnosis": "看到 that 从句后，没有判断它在主句中的功能。",
+        "remediation": "看从句前面的动词，suggest 后面的 that 从句说明 suggest 的内容。"
+      },
+      {
+        "error_tag": "familiar_word_unfamiliar_meaning",
+        "description": "把 suggest 误译成“建议”。",
+        "diagnosis": "只记熟词常见义，没有结合上下文。",
+        "remediation": "遇到 suggest that... 要优先考虑“表明/暗示”。"
+      }
+    ],
+    "review_plan": {
+      "default_intervals": [1, 3, 7, 14],
+      "review_prompts": [
+        {
+          "review_type": "main_structure",
+          "prompt": "不看答案，快速写出本句主干。"
+        },
+        {
+          "review_type": "key_trap",
+          "prompt": "suggest 在本句中是什么意思？为什么不是“建议”？"
+        },
+        {
+          "review_type": "translation",
+          "prompt": "请按结构重新翻译本句。"
+        }
+      ]
+    }
+  },
+  {
+    "practice_id": "practice_s_007_precision",
+    "source_sentence_id": "s_007",
+    "practice_type": "precision_analysis",
+    "version": "v1",
+    "source_snapshot": {
+      "year": 2015,
+      "exam_type": "英语一",
+      "text_id": "Text 1",
+      "original": "It is this apparent transcendence of politics that explains monarchs’ continuing popularity as heads of state.",
+      "translation_literal": "正是这种表面上的对政治的超越，解释了君主们作为国家元首的持续受欢迎。",
+      "difficulty": 4
+    },
+    "difficulty": 4,
+    "is_key_sentence": true,
+    "focus_tags": ["强调句", "抽象名词", "后置修饰", "主干识别"],
+    "why_key": "本句用于检测学生能否识别 It is...that... 强调句，并把被强调部分还原为真正主语。",
+    "subjective_tasks": [
+      {
+        "task_id": "s_007_main_structure",
+        "task_type": "main_structure",
+        "prompt": "请去掉强调句外壳，写出本句真正主干。",
+        "input_hint": "不要把 It 当作真正主语。",
+        "score": 20
+      },
+      {
+        "task_id": "s_007_grammar_analysis",
+        "task_type": "grammar_analysis",
+        "prompt": "请分析本句强调句结构，并说明 of politics、as heads of state 分别修饰或说明什么。",
+        "input_hint": "先还原主干，再看两个后置成分。",
+        "score": 25
+      },
+      {
+        "task_id": "s_007_sentence_cuts",
+        "task_type": "sentence_cuts",
+        "prompt": "请用 / 把本句切分成便于翻译的小段。",
+        "input_hint": "强调结构和真正主干都要体现。",
+        "score": 15
+      },
+      {
+        "task_id": "s_007_key_language",
+        "task_type": "key_language",
+        "prompt": "请写出本句重点词和短语的含义。",
+        "input_hint": "重点关注 apparent、transcendence、heads of state。",
+        "score": 10
+      },
+      {
+        "task_id": "s_007_translation",
+        "task_type": "structure_translation",
+        "prompt": "请按照强调句结构，把本句翻译成完整中文。",
+        "input_hint": "中文里可以用“正是……解释了……”。",
+        "score": 20
+      },
+      {
+        "task_id": "s_007_self_check",
+        "task_type": "self_check",
+        "prompt": "对照答案后，请写出你最需要订正的一处语法或词义问题。",
+        "input_hint": "尤其检查是否误把 It 当作形式主语。",
+        "score": 10
+      }
+    ],
+    "diagnostic_choices": [
+      {
+        "choice_id": "s_007_sentence_pattern",
+        "choice_type": "pattern_trap",
+        "target": "It is this apparent transcendence of politics that explains...",
+        "error_tag": "emphasis_vs_formal_subject_confused",
+        "prompt": "本句 It is...that... 最准确的结构判断是：",
+        "options": [
+          {
+            "label": "A",
+            "text": "形式主语结构",
+            "is_correct": false,
+            "trap_reason": "形式主语一般由后面的 that/to do 承担真正主语；本句去掉 It is...that 后仍有完整主干。"
+          },
+          {
+            "label": "B",
+            "text": "强调句",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "C",
+            "text": "定语从句",
+            "is_correct": false,
+            "trap_reason": "that 不是修饰 politics，而是强调句标记。"
+          },
+          {
+            "label": "D",
+            "text": "倒装句",
+            "is_correct": false,
+            "trap_reason": "句子没有发生主谓倒装。"
+          }
+        ],
+        "explanation": "去掉 It is 和 that 后，this apparent transcendence of politics explains... 仍然完整，所以是强调句。"
+      },
+      {
+        "choice_id": "s_007_true_subject",
+        "choice_type": "grammar_trap",
+        "target": "this apparent transcendence of politics",
+        "error_tag": "subject_wrong",
+        "prompt": "还原强调句后，本句真正主语是：",
+        "options": [
+          {
+            "label": "A",
+            "text": "It",
+            "is_correct": false,
+            "trap_reason": "It 是强调句外壳，不是真正主语。"
+          },
+          {
+            "label": "B",
+            "text": "this apparent transcendence of politics",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "C",
+            "text": "monarchs’ continuing popularity",
+            "is_correct": false,
+            "trap_reason": "这是 explains 的宾语，不是主语。"
+          },
+          {
+            "label": "D",
+            "text": "heads of state",
+            "is_correct": false,
+            "trap_reason": "这是 as 短语中的名词成分，说明身份。"
+          }
+        ],
+        "explanation": "强调句强调的就是 this apparent transcendence of politics，它在还原后的句子中作主语。"
+      },
+      {
+        "choice_id": "s_007_as_phrase_target",
+        "choice_type": "modifier_target_trap",
+        "target": "as heads of state",
+        "error_tag": "modifier_target_wrong",
+        "prompt": "as heads of state 主要说明的是：",
+        "options": [
+          {
+            "label": "A",
+            "text": "monarchs 的身份",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "B",
+            "text": "politics 的性质",
+            "is_correct": false,
+            "trap_reason": "as 短语离 politics 较远，语义上说明的是 monarchs。"
+          },
+          {
+            "label": "C",
+            "text": "transcendence 的方式",
+            "is_correct": false,
+            "trap_reason": "as heads of state 不是说明“超越”的方式。"
+          },
+          {
+            "label": "D",
+            "text": "It 的指代内容",
+            "is_correct": false,
+            "trap_reason": "It 是强调句外壳，不承载身份说明。"
+          }
+        ],
+        "explanation": "as heads of state 补充说明 monarchs 作为国家元首这一身份。"
+      }
+    ],
+    "answer_key": {
+      "main_structure": {
+        "subject": "this apparent transcendence of politics",
+        "predicate": "explains",
+        "object": "monarchs’ continuing popularity",
+        "note": "It is...that... 是强调句外壳，被强调部分是主语。"
+      },
+      "grammar_analysis": [
+        {
+          "text": "It is this apparent transcendence of politics that",
+          "role": "强调结构",
+          "target": "this apparent transcendence of politics",
+          "explanation": "强调真正主语。"
+        },
+        {
+          "text": "of politics",
+          "role": "定语",
+          "target": "transcendence",
+          "explanation": "说明超越的对象是 politics。"
+        },
+        {
+          "text": "as heads of state",
+          "role": "状语/身份说明",
+          "target": "monarchs",
+          "explanation": "说明君主们作为国家元首这一身份。"
+        }
+      ],
+      "standard_cuts": ["It is", "this apparent transcendence of politics", "that explains", "monarchs’ continuing popularity", "as heads of state"],
+      "key_language": [
+        {
+          "text": "apparent",
+          "type": "重点词",
+          "meaning": "表面上的，显然的"
+        },
+        {
+          "text": "transcendence",
+          "type": "抽象名词",
+          "meaning": "超越"
+        },
+        {
+          "text": "heads of state",
+          "type": "名词短语",
+          "meaning": "国家元首"
+        }
+      ],
+      "translation": {
+        "literal": "正是这种表面上的对政治的超越，解释了君主们作为国家元首的持续受欢迎。",
+        "polished": "正是这种表面上超越政治的姿态，解释了君主作为国家元首为何能持续受欢迎。"
+      }
+    },
+    "rubric": {
+      "total_score": 100,
+      "items": [
+        {
+          "task_type": "main_structure",
+          "score": 20,
+          "criteria": ["识别强调句", "不把 It 当真正主语", "还原真正主语", "找出 explains 和宾语"]
+        },
+        {
+          "task_type": "grammar_analysis",
+          "score": 25,
+          "criteria": ["说明强调对象", "说明 of politics 修饰 transcendence", "说明 as heads of state 的身份作用", "能区分强调句和形式主语"]
+        },
+        {
+          "task_type": "sentence_cuts",
+          "score": 15,
+          "criteria": ["强调外壳切分清楚", "主语短语保持完整", "宾语和 as 短语不混切"]
+        },
+        {
+          "task_type": "key_language",
+          "score": 10,
+          "criteria": ["理解 apparent", "理解 transcendence", "理解 heads of state"]
+        },
+        {
+          "task_type": "structure_translation",
+          "score": 20,
+          "criteria": ["突出强调语气", "译出抽象名词关系", "译文通顺", "不丢 as 短语"]
+        },
+        {
+          "task_type": "self_check",
+          "score": 10,
+          "criteria": ["能指出具体错点", "能写出订正方向"]
+        }
+      ],
+      "level_rules": [
+        {
+          "level": "A",
+          "range": [90, 100],
+          "description": "能准确还原强调句并说明修饰关系。"
+        },
+        {
+          "level": "B",
+          "range": [75, 89],
+          "description": "主干正确，但个别修饰关系或词义不够完整。"
+        },
+        {
+          "level": "C",
+          "range": [60, 74],
+          "description": "知道大意，但强调句或修饰对象分析不稳。"
+        },
+        {
+          "level": "D",
+          "range": [0, 59],
+          "description": "把强调句外壳当主干，结构判断明显错误。"
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "error_tag": "emphasis_vs_formal_subject_confused",
+        "description": "把 It is...that... 误判为形式主语。",
+        "diagnosis": "没有用“去掉 It is 和 that 后句子是否完整”的方法判断强调句。",
+        "remediation": "还原为 this apparent transcendence of politics explains...，检查主谓宾是否完整。"
+      },
+      {
+        "error_tag": "subject_wrong",
+        "description": "把 It 或 monarchs’ continuing popularity 当作主语。",
+        "diagnosis": "没有找出被强调部分在还原句中的成分。",
+        "remediation": "强调句里被强调部分 this apparent transcendence of politics 是真正主语。"
+      },
+      {
+        "error_tag": "modifier_target_wrong",
+        "description": "误判 as heads of state 的说明对象。",
+        "diagnosis": "只看位置，没有结合语义判断身份说明。",
+        "remediation": "as heads of state 说明 monarchs 的身份。"
+      }
+    ],
+    "review_plan": {
+      "default_intervals": [1, 3, 7, 14],
+      "review_prompts": [
+        {
+          "review_type": "pattern",
+          "prompt": "去掉 It is 和 that 后，本句真正主干是什么？"
+        },
+        {
+          "review_type": "modifier",
+          "prompt": "of politics 和 as heads of state 分别说明什么？"
+        },
+        {
+          "review_type": "translation",
+          "prompt": "请用“正是……”结构重新翻译本句。"
+        }
+      ]
+    }
+  },
+  {
+    "practice_id": "practice_s_012_precision",
+    "source_sentence_id": "s_012",
+    "practice_type": "precision_analysis",
+    "version": "v1",
+    "source_snapshot": {
+      "year": 2015,
+      "exam_type": "英语一",
+      "text_id": "Text 1",
+      "original": "At a time when Thomas Piketty and other economists are warning of rising inequality and the increasing power of inherited wealth, it is bizarre that wealthy aristocratic families should still be the symbolic heart of modern democratic states.",
+      "translation_literal": "在一个托马斯·皮凯蒂和其他经济学家正在警告日益加剧的不平等以及继承财富不断增强的力量的时代，富有的贵族家庭竟然仍然是现代民主国家的象征核心，这是奇怪的。",
+      "difficulty": 5
+    },
+    "difficulty": 5,
+    "is_key_sentence": true,
+    "focus_tags": ["形式主语", "主语从句", "定语从句", "长句切分", "抽象名词"],
+    "why_key": "本句是典型长难句：前置时间背景中含 when 定语从句，主句又包含 It is + adj. + that 主语从句，适合检测层级意识。",
+    "subjective_tasks": [
+      {
+        "task_id": "s_012_main_structure",
+        "task_type": "main_structure",
+        "prompt": "请写出本句主句骨架，并说明 it 和 that 从句的关系。",
+        "input_hint": "it 是形式主语，真正主语在后面。",
+        "score": 20
+      },
+      {
+        "task_id": "s_012_grammar_analysis",
+        "task_type": "grammar_analysis",
+        "prompt": "请分析 At a time、when 从句、that 从句分别在句中的作用。",
+        "input_hint": "注意 when 修饰 a time，不是引导主句的时间状语从句。",
+        "score": 25
+      },
+      {
+        "task_id": "s_012_sentence_cuts",
+        "task_type": "sentence_cuts",
+        "prompt": "请用 / 把本句切分成便于翻译的小段。",
+        "input_hint": "先切前置背景，再切形式主语结构。",
+        "score": 15
+      },
+      {
+        "task_id": "s_012_key_language",
+        "task_type": "key_language",
+        "prompt": "请写出本句重点词、重点短语或抽象名词表达。",
+        "input_hint": "重点关注 warning of、inequality、inherited wealth、bizarre、symbolic heart。",
+        "score": 10
+      },
+      {
+        "task_id": "s_012_translation",
+        "task_type": "structure_translation",
+        "prompt": "请按照句子层级，把本句翻译成一个完整通顺的中文句子。",
+        "input_hint": "中文可以先译背景，再译“……竟然……，这很奇怪”。",
+        "score": 20
+      },
+      {
+        "task_id": "s_012_self_check",
+        "task_type": "self_check",
+        "prompt": "对照答案后，请写出你最需要订正的一处语法或词义问题。",
+        "input_hint": "尤其检查形式主语和 when 从句判断。",
+        "score": 10
+      }
+    ],
+    "diagnostic_choices": [
+      {
+        "choice_id": "s_012_it_structure",
+        "choice_type": "pattern_trap",
+        "target": "it is bizarre that...",
+        "error_tag": "emphasis_vs_formal_subject_confused",
+        "prompt": "it is bizarre that... 在本句中属于什么结构？",
+        "options": [
+          {
+            "label": "A",
+            "text": "强调句",
+            "is_correct": false,
+            "trap_reason": "本句不能去掉 it is 和 that 后保持完整语义，因此不是强调句。"
+          },
+          {
+            "label": "B",
+            "text": "形式主语结构",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "C",
+            "text": "宾语从句结构",
+            "is_correct": false,
+            "trap_reason": "that 从句不是某个动词的宾语，而是真正主语。"
+          },
+          {
+            "label": "D",
+            "text": "倒装结构",
+            "is_correct": false,
+            "trap_reason": "本句没有主谓倒装。"
+          }
+        ],
+        "explanation": "it 是形式主语，that wealthy aristocratic families... 是真正主语，bizarre 是表语。"
+      },
+      {
+        "choice_id": "s_012_when_clause_role",
+        "choice_type": "grammar_trap",
+        "target": "when Thomas Piketty and other economists are warning...",
+        "error_tag": "clause_type_wrong",
+        "prompt": "when Thomas Piketty and other economists are warning... 在句中主要作用是：",
+        "options": [
+          {
+            "label": "A",
+            "text": "修饰 a time，说明这个时代的特征",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "B",
+            "text": "作主句谓语 is 的宾语",
+            "is_correct": false,
+            "trap_reason": "is 后面接表语 bizarre，不接这个 when 从句作宾语。"
+          },
+          {
+            "label": "C",
+            "text": "作 that 从句的主语",
+            "is_correct": false,
+            "trap_reason": "that 从句主语是 wealthy aristocratic families。"
+          },
+          {
+            "label": "D",
+            "text": "修饰 modern democratic states",
+            "is_correct": false,
+            "trap_reason": "该 when 从句位置和语义都对应前面的 a time。"
+          }
+        ],
+        "explanation": "At a time when... 中，when 从句修饰 a time，说明“一个怎样的时代”。"
+      },
+      {
+        "choice_id": "s_012_warning_of_meaning",
+        "choice_type": "vocab_trap",
+        "target": "warning of",
+        "error_tag": "phrase_missing",
+        "prompt": "本句中 are warning of 最合适的理解是：",
+        "options": [
+          {
+            "label": "A",
+            "text": "正在警告/提醒人们注意",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "B",
+            "text": "正在惩罚",
+            "is_correct": false,
+            "trap_reason": "warn 不是 punish，of 后接警告内容。"
+          },
+          {
+            "label": "C",
+            "text": "正在欢迎",
+            "is_correct": false,
+            "trap_reason": "混淆 warning 和 welcoming。"
+          },
+          {
+            "label": "D",
+            "text": "正在摆脱",
+            "is_correct": false,
+            "trap_reason": "of 在这里不是“摆脱”的结构。"
+          }
+        ],
+        "explanation": "warn of 表示“警告/提醒注意某事”，宾语是 rising inequality and the increasing power..."
+      }
+    ],
+    "answer_key": {
+      "main_structure": {
+        "subject": "it",
+        "predicate": "is",
+        "predicative": "bizarre",
+        "real_subject": "that wealthy aristocratic families should still be the symbolic heart of modern democratic states",
+        "note": "主句是形式主语结构，真正主语由 that 从句承担。"
+      },
+      "grammar_analysis": [
+        {
+          "text": "At a time",
+          "role": "状语",
+          "target": "主句 it is bizarre...",
+          "explanation": "放在句首，说明主句判断发生的时代背景。"
+        },
+        {
+          "text": "when Thomas Piketty and other economists are warning of...",
+          "role": "定语从句",
+          "target": "a time",
+          "explanation": "说明这是一个怎样的时代。"
+        },
+        {
+          "text": "that wealthy aristocratic families should still be...",
+          "role": "主语从句",
+          "target": "形式主语 it",
+          "explanation": "是真正让人觉得 bizarre 的内容。"
+        }
+      ],
+      "standard_cuts": [
+        "At a time",
+        "when Thomas Piketty and other economists are warning of rising inequality and the increasing power of inherited wealth",
+        "it is bizarre",
+        "that wealthy aristocratic families should still be the symbolic heart of modern democratic states"
+      ],
+      "key_language": [
+        {
+          "text": "warning of",
+          "type": "动词短语",
+          "meaning": "警告，提醒注意"
+        },
+        {
+          "text": "inherited wealth",
+          "type": "名词短语",
+          "meaning": "继承财富"
+        },
+        {
+          "text": "bizarre",
+          "type": "重点词",
+          "meaning": "奇怪的，怪异的"
+        },
+        {
+          "text": "the symbolic heart",
+          "type": "抽象名词短语",
+          "meaning": "象征核心"
+        }
+      ],
+      "translation": {
+        "literal": "在一个托马斯·皮凯蒂和其他经济学家正在警告日益加剧的不平等以及继承财富不断增强的力量的时代，富有的贵族家庭竟然仍然是现代民主国家的象征核心，这是奇怪的。",
+        "polished": "在托马斯·皮凯蒂等经济学家不断警告不平等加剧和继承财富力量上升的时代，富有的贵族家庭竟仍是现代民主国家的象征核心，这实在怪异。"
+      }
+    },
+    "rubric": {
+      "total_score": 100,
+      "items": [
+        {
+          "task_type": "main_structure",
+          "score": 20,
+          "criteria": ["识别 it 是形式主语", "找出 is bizarre", "找出 that 从句是真正主语", "不误判为强调句"]
+        },
+        {
+          "task_type": "grammar_analysis",
+          "score": 25,
+          "criteria": ["说明 At a time 作前置背景", "判断 when 从句修饰 a time", "分析 that 主语从句内部主系表", "说明 inherited wealth 等抽象名词关系"]
+        },
+        {
+          "task_type": "sentence_cuts",
+          "score": 15,
+          "criteria": ["前置背景切分完整", "when 从句不随意截断", "形式主语结构切分清楚"]
+        },
+        {
+          "task_type": "key_language",
+          "score": 10,
+          "criteria": ["理解 warning of", "理解 inherited wealth", "理解 bizarre", "理解 symbolic heart"]
+        },
+        {
+          "task_type": "structure_translation",
+          "score": 20,
+          "criteria": ["先背景后主句", "译出“竟然/仍然”的语气", "译出抽象名词", "中文完整通顺"]
+        },
+        {
+          "task_type": "self_check",
+          "score": 10,
+          "criteria": ["能指出具体错点", "能写出订正方向"]
+        }
+      ],
+      "level_rules": [
+        {
+          "level": "A",
+          "range": [90, 100],
+          "description": "层级清楚，能区分前置背景、定语从句和形式主语结构。"
+        },
+        {
+          "level": "B",
+          "range": [75, 89],
+          "description": "主结构基本正确，但个别修饰或词义有遗漏。"
+        },
+        {
+          "level": "C",
+          "range": [60, 74],
+          "description": "能译出大意，但层级混乱或从句判断不稳。"
+        },
+        {
+          "level": "D",
+          "range": [0, 59],
+          "description": "形式主语、定语从句或主句骨架判断错误。"
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "error_tag": "emphasis_vs_formal_subject_confused",
+        "description": "把 it is bizarre that... 误判成强调句。",
+        "diagnosis": "没有检查去掉 it is 和 that 后句子是否仍然完整。",
+        "remediation": "看到 It is + adj. + that 从句，优先检查形式主语结构。"
+      },
+      {
+        "error_tag": "clause_type_wrong",
+        "description": "把 when 从句当成主句时间状语从句，而不是 a time 的定语从句。",
+        "diagnosis": "没有注意 At a time when... 的固定层级。",
+        "remediation": "先把 At a time 看作整体背景，再判断 when 修饰 a time。"
+      },
+      {
+        "error_tag": "translation_fragmented",
+        "description": "中文翻译只堆词义，不能体现“在……时代，……竟然……，这很奇怪”的结构。",
+        "diagnosis": "没有按句子层级组织中文。",
+        "remediation": "先译前置背景，再译形式主语结构中的真正主语内容。"
+      }
+    ],
+    "review_plan": {
+      "default_intervals": [1, 3, 7, 14],
+      "review_prompts": [
+        {
+          "review_type": "main_structure",
+          "prompt": "不看答案，写出本句形式主语结构中的真正主语。"
+        },
+        {
+          "review_type": "clause",
+          "prompt": "when 从句修饰谁？为什么不是主句状语从句？"
+        },
+        {
+          "review_type": "translation",
+          "prompt": "请按“背景 + 主句判断 + 真正主语内容”重新翻译。"
+        }
+      ]
+    }
+  },
+  {
+    "practice_id": "practice_s_016_precision",
+    "source_sentence_id": "s_016",
+    "practice_type": "precision_analysis",
+    "version": "v1",
+    "source_snapshot": {
+      "year": 2015,
+      "exam_type": "英语一",
+      "text_id": "Text 1",
+      "original": "While Europe’s monarchies will no doubt be smart enough to survive for some time to come, it is the British royals who have most to fear from the Spanish example.",
+      "translation_literal": "尽管欧洲的君主制无疑会足够聪明以在未来一段时间内存续下来，但最需要从西班牙例子中感到担忧的是英国王室成员。",
+      "difficulty": 5
+    },
+    "difficulty": 5,
+    "is_key_sentence": true,
+    "focus_tags": ["让步状语从句", "强调句", "补语", "固定搭配", "主干识别"],
+    "why_key": "本句同时包含 While 让步从句和 it is...who 强调句，能检测学生是否会先分主从，再还原主句主干。",
+    "subjective_tasks": [
+      {
+        "task_id": "s_016_main_structure",
+        "task_type": "main_structure",
+        "prompt": "请写出主句真正主干，并说明 it is...who 的作用。",
+        "input_hint": "先忽略 While 从句，再还原强调句。",
+        "score": 20
+      },
+      {
+        "task_id": "s_016_grammar_analysis",
+        "task_type": "grammar_analysis",
+        "prompt": "请分析 While 从句、强调句、to survive、from the Spanish example 的作用。",
+        "input_hint": "注意 While 表示让步，不是单纯时间。",
+        "score": 25
+      },
+      {
+        "task_id": "s_016_sentence_cuts",
+        "task_type": "sentence_cuts",
+        "prompt": "请用 / 把本句切分成便于翻译的小段。",
+        "input_hint": "先切让步从句，再切主句强调结构。",
+        "score": 15
+      },
+      {
+        "task_id": "s_016_key_language",
+        "task_type": "key_language",
+        "prompt": "请写出本句重点词、固定搭配或短语。",
+        "input_hint": "重点关注 no doubt、for some time to come、have most to fear。",
+        "score": 10
+      },
+      {
+        "task_id": "s_016_translation",
+        "task_type": "structure_translation",
+        "prompt": "请按照句子结构，把本句翻译成完整中文。",
+        "input_hint": "用“尽管……但……”表达让步关系。",
+        "score": 20
+      },
+      {
+        "task_id": "s_016_self_check",
+        "task_type": "self_check",
+        "prompt": "对照答案后，请写出你最需要订正的一处语法或词义问题。",
+        "input_hint": "尤其检查 While 和强调句判断。",
+        "score": 10
+      }
+    ],
+    "diagnostic_choices": [
+      {
+        "choice_id": "s_016_while_relation",
+        "choice_type": "grammar_trap",
+        "target": "While Europe’s monarchies will no doubt be smart enough...",
+        "error_tag": "clause_type_wrong",
+        "prompt": "本句开头 While 从句主要表示：",
+        "options": [
+          {
+            "label": "A",
+            "text": "时间：当欧洲君主制……的时候",
+            "is_correct": false,
+            "trap_reason": "while 可表时间，但本句前后存在转折让步关系。"
+          },
+          {
+            "label": "B",
+            "text": "让步：尽管欧洲君主制……",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "C",
+            "text": "原因：因为欧洲君主制……",
+            "is_correct": false,
+            "trap_reason": "句中不是解释原因，而是先承认一方面，再转向英国王室的风险。"
+          },
+          {
+            "label": "D",
+            "text": "目的：为了欧洲君主制……",
+            "is_correct": false,
+            "trap_reason": "while 不引导目的状语。"
+          }
+        ],
+        "explanation": "本句 While 更接近 although，表示“尽管”。"
+      },
+      {
+        "choice_id": "s_016_emphasized_part",
+        "choice_type": "pattern_trap",
+        "target": "it is the British royals who...",
+        "error_tag": "emphasis_vs_formal_subject_confused",
+        "prompt": "it is the British royals who... 强调的是：",
+        "options": [
+          {
+            "label": "A",
+            "text": "Europe’s monarchies",
+            "is_correct": false,
+            "trap_reason": "这是让步从句里的主语，不是主句强调对象。"
+          },
+          {
+            "label": "B",
+            "text": "the British royals",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "C",
+            "text": "the Spanish example",
+            "is_correct": false,
+            "trap_reason": "这是 from 短语中的来源，不是被强调成分。"
+          },
+          {
+            "label": "D",
+            "text": "most to fear",
+            "is_correct": false,
+            "trap_reason": "most to fear 是 have 的宾语内容，不是强调对象。"
+          }
+        ],
+        "explanation": "it is...who 强调 the British royals，说明最该担忧的是英国王室成员。"
+      },
+      {
+        "choice_id": "s_016_have_most_to_fear",
+        "choice_type": "vocab_trap",
+        "target": "have most to fear",
+        "error_tag": "phrase_missing",
+        "prompt": "have most to fear 在本句中最合适的意思是：",
+        "options": [
+          {
+            "label": "A",
+            "text": "最有理由担忧",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "B",
+            "text": "最害怕别人",
+            "is_correct": false,
+            "trap_reason": "不是说他们胆小，而是说面临的风险最大。"
+          },
+          {
+            "label": "C",
+            "text": "拥有最多恐惧",
+            "is_correct": false,
+            "trap_reason": "逐词硬译，中文不成结构。"
+          },
+          {
+            "label": "D",
+            "text": "最需要恐吓别人",
+            "is_correct": false,
+            "trap_reason": "误解 fear 的方向。"
+          }
+        ],
+        "explanation": "have most to fear 表示“最有理由担忧/最需要担心”。"
+      }
+    ],
+    "answer_key": {
+      "main_structure": {
+        "subject": "the British royals",
+        "predicate": "have",
+        "object": "most to fear",
+        "adverbial": "from the Spanish example",
+        "note": "主句是强调句，还原后为 the British royals have most to fear from the Spanish example。"
+      },
+      "grammar_analysis": [
+        {
+          "text": "While Europe’s monarchies will no doubt be smart enough to survive for some time to come",
+          "role": "让步状语从句",
+          "target": "主句",
+          "explanation": "先承认欧洲君主制整体可能还能存续。"
+        },
+        {
+          "text": "it is the British royals who",
+          "role": "强调结构",
+          "target": "the British royals",
+          "explanation": "强调真正需要担忧的是英国王室。"
+        },
+        {
+          "text": "to survive for some time to come",
+          "role": "补语",
+          "target": "smart enough",
+          "explanation": "说明足够聪明所能带来的结果。"
+        },
+        {
+          "text": "from the Spanish example",
+          "role": "状语",
+          "target": "most to fear",
+          "explanation": "说明担忧的来源。"
+        }
+      ],
+      "standard_cuts": [
+        "While Europe’s monarchies will no doubt be smart enough",
+        "to survive for some time to come",
+        "it is the British royals who",
+        "have most to fear",
+        "from the Spanish example"
+      ],
+      "key_language": [
+        {
+          "text": "no doubt",
+          "type": "副词短语",
+          "meaning": "无疑"
+        },
+        {
+          "text": "for some time to come",
+          "type": "时间短语",
+          "meaning": "在未来一段时间内"
+        },
+        {
+          "text": "have most to fear",
+          "type": "固定表达",
+          "meaning": "最有理由担忧"
+        }
+      ],
+      "translation": {
+        "literal": "尽管欧洲的君主制无疑会足够聪明以在未来一段时间内存续下来，但最需要从西班牙例子中感到担忧的是英国王室成员。",
+        "polished": "尽管欧洲各君主制国家无疑会足够聪明，还能在未来一段时间内维持下去，但最该从西班牙例子中感到担忧的，正是英国王室。"
+      }
+    },
+    "rubric": {
+      "total_score": 100,
+      "items": [
+        {
+          "task_type": "main_structure",
+          "score": 20,
+          "criteria": ["忽略 While 从句后抓主句", "识别强调句", "还原 the British royals have most to fear", "指出 from 短语的来源作用"]
+        },
+        {
+          "task_type": "grammar_analysis",
+          "score": 25,
+          "criteria": ["判断 While 表让步", "说明 to survive 修饰 smart enough", "说明强调对象", "说明 from the Spanish example 的作用"]
+        },
+        {
+          "task_type": "sentence_cuts",
+          "score": 15,
+          "criteria": ["让步从句切分完整", "to survive 不和 smart enough 割裂", "主句强调结构切分清楚"]
+        },
+        {
+          "task_type": "key_language",
+          "score": 10,
+          "criteria": ["理解 no doubt", "理解 for some time to come", "理解 have most to fear"]
+        },
+        {
+          "task_type": "structure_translation",
+          "score": 20,
+          "criteria": ["译出尽管/但关系", "突出强调对象", "译出担忧来源", "中文完整通顺"]
+        },
+        {
+          "task_type": "self_check",
+          "score": 10,
+          "criteria": ["能指出具体错点", "能写出订正方向"]
+        }
+      ],
+      "level_rules": [
+        {
+          "level": "A",
+          "range": [90, 100],
+          "description": "能准确区分让步从句和主句强调结构。"
+        },
+        {
+          "level": "B",
+          "range": [75, 89],
+          "description": "主干正确，但个别补语或短语理解有遗漏。"
+        },
+        {
+          "level": "C",
+          "range": [60, 74],
+          "description": "能看出大意，但 While 或强调句判断不稳。"
+        },
+        {
+          "level": "D",
+          "range": [0, 59],
+          "description": "主从关系和主句骨架判断错误。"
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "error_tag": "clause_type_wrong",
+        "description": "把 While 误译成“当……时”，没有看出让步。",
+        "diagnosis": "只记 while 的时间义，没有结合前后语义转折。",
+        "remediation": "看到 while 连接两个相反方向的信息时，要考虑“尽管”。"
+      },
+      {
+        "error_tag": "emphasis_vs_formal_subject_confused",
+        "description": "把 it is the British royals who... 当作形式主语。",
+        "diagnosis": "没有还原强调句。",
+        "remediation": "去掉 it is 和 who 后，还原为 the British royals have most to fear..."
+      },
+      {
+        "error_tag": "phrase_missing",
+        "description": "把 have most to fear 逐词硬译。",
+        "diagnosis": "没有识别固定表达。",
+        "remediation": "把 have most to fear 整体理解为“最有理由担忧”。"
+      }
+    ],
+    "review_plan": {
+      "default_intervals": [1, 3, 7, 14],
+      "review_prompts": [
+        {
+          "review_type": "main_structure",
+          "prompt": "还原主句强调结构：谁 have most to fear？"
+        },
+        {
+          "review_type": "clause",
+          "prompt": "While 在本句中为什么译为“尽管”？"
+        },
+        {
+          "review_type": "key_trap",
+          "prompt": "have most to fear 应该怎样整体理解？"
+        }
+      ]
+    }
+  },
+  {
+    "practice_id": "practice_s_020_precision",
+    "source_sentence_id": "s_020",
+    "practice_type": "precision_analysis",
+    "version": "v1",
+    "source_snapshot": {
+      "year": 2015,
+      "exam_type": "英语一",
+      "text_id": "Text 1",
+      "original": "Charles ought to know that as English history shows, it is kings, not republicans, who are the monarchy’s worst enemies.",
+      "translation_literal": "查尔斯应该知道，正如英国历史所表明的那样，正是国王，而不是共和主义者，才是君主制最坏的敌人。",
+      "difficulty": 5
+    },
+    "difficulty": 5,
+    "is_key_sentence": true,
+    "focus_tags": ["宾语从句", "插入语", "强调句", "对比结构", "情态动词"],
+    "why_key": "本句嵌套了 know 后的宾语从句、as 插入语和强调句，同时包含 kings, not republicans 的对比结构，是综合检测句。",
+    "subjective_tasks": [
+      {
+        "task_id": "s_020_main_structure",
+        "task_type": "main_structure",
+        "prompt": "请写出整句主干，并说明 that 从句在主句中的成分。",
+        "input_hint": "先看 Charles ought to know，再看 know 后面接的内容。",
+        "score": 20
+      },
+      {
+        "task_id": "s_020_grammar_analysis",
+        "task_type": "grammar_analysis",
+        "prompt": "请分析 as English history shows、it is...who、not republicans 的作用。",
+        "input_hint": "注意 as 结构是插入式说明，不要当成主干。",
+        "score": 25
+      },
+      {
+        "task_id": "s_020_sentence_cuts",
+        "task_type": "sentence_cuts",
+        "prompt": "请用 / 把本句切分成便于翻译的小段。",
+        "input_hint": "that 宾语从句内部还要继续切出插入语和强调结构。",
+        "score": 15
+      },
+      {
+        "task_id": "s_020_key_language",
+        "task_type": "key_language",
+        "prompt": "请写出本句重点词、短语或固定结构。",
+        "input_hint": "重点关注 ought to、as English history shows、worst enemies。",
+        "score": 10
+      },
+      {
+        "task_id": "s_020_translation",
+        "task_type": "structure_translation",
+        "prompt": "请按照句子结构，把本句翻译成完整中文。",
+        "input_hint": "要译出“正如……所表明”和“正是……而不是……”。",
+        "score": 20
+      },
+      {
+        "task_id": "s_020_self_check",
+        "task_type": "self_check",
+        "prompt": "对照答案后，请写出你最需要订正的一处语法或词义问题。",
+        "input_hint": "尤其检查宾语从句、插入语和强调句层级。",
+        "score": 10
+      }
+    ],
+    "diagnostic_choices": [
+      {
+        "choice_id": "s_020_that_clause_role",
+        "choice_type": "grammar_trap",
+        "target": "that as English history shows, it is kings...",
+        "error_tag": "clause_type_wrong",
+        "prompt": "that as English history shows... 在 Charles ought to know 后面作什么成分？",
+        "options": [
+          {
+            "label": "A",
+            "text": "宾语从句",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "B",
+            "text": "主语从句",
+            "is_correct": false,
+            "trap_reason": "它跟在 know 后面，说明 Charles 应该知道的内容。"
+          },
+          {
+            "label": "C",
+            "text": "定语从句",
+            "is_correct": false,
+            "trap_reason": "它不是修饰 Charles 或 history 的从句。"
+          },
+          {
+            "label": "D",
+            "text": "让步状语从句",
+            "is_correct": false,
+            "trap_reason": "that 从句不表示让步，而是 know 的内容。"
+          }
+        ],
+        "explanation": "know 后面的 that 从句说明“知道”的内容，因此是宾语从句。"
+      },
+      {
+        "choice_id": "s_020_as_structure",
+        "choice_type": "grammar_trap",
+        "target": "as English history shows",
+        "error_tag": "appositive_vs_parenthesis_confused",
+        "prompt": "as English history shows 在句中的作用是：",
+        "options": [
+          {
+            "label": "A",
+            "text": "插入式说明，表示“正如英国历史所表明的那样”",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "B",
+            "text": "主句主语",
+            "is_correct": false,
+            "trap_reason": "主句主语是 Charles。"
+          },
+          {
+            "label": "C",
+            "text": "宾语从句的表语",
+            "is_correct": false,
+            "trap_reason": "宾语从句内部的表语是 the monarchy’s worst enemies。"
+          },
+          {
+            "label": "D",
+            "text": "修饰 republicans 的定语从句",
+            "is_correct": false,
+            "trap_reason": "as 结构不修饰 republicans，而是对整个判断作依据说明。"
+          }
+        ],
+        "explanation": "as English history shows 是插入式 as 结构，给后面的判断提供历史依据。"
+      },
+      {
+        "choice_id": "s_020_emphasis_target",
+        "choice_type": "pattern_trap",
+        "target": "it is kings, not republicans, who...",
+        "error_tag": "emphasis_vs_formal_subject_confused",
+        "prompt": "it is kings, not republicans, who... 强调的是：",
+        "options": [
+          {
+            "label": "A",
+            "text": "English history",
+            "is_correct": false,
+            "trap_reason": "English history 出现在插入语中，不是强调对象。"
+          },
+          {
+            "label": "B",
+            "text": "kings, not republicans",
+            "is_correct": true,
+            "trap_reason": null
+          },
+          {
+            "label": "C",
+            "text": "the monarchy’s worst enemies",
+            "is_correct": false,
+            "trap_reason": "这是 are 后面的表语，不是被强调主语。"
+          },
+          {
+            "label": "D",
+            "text": "Charles",
+            "is_correct": false,
+            "trap_reason": "Charles 是整句主语，不在强调结构内部。"
+          }
+        ],
+        "explanation": "强调句强调的是 kings, not republicans，意为“正是国王，而不是共和主义者”。"
+      }
+    ],
+    "answer_key": {
+      "main_structure": {
+        "subject": "Charles",
+        "predicate": "ought to know",
+        "object": "that as English history shows, it is kings, not republicans, who are the monarchy’s worst enemies",
+        "note": "that 从句作 know 的宾语；宾语从句内部含 as 插入语和强调句。"
+      },
+      "grammar_analysis": [
+        {
+          "text": "that as English history shows, it is kings, not republicans, who are the monarchy’s worst enemies",
+          "role": "宾语从句",
+          "target": "ought to know",
+          "explanation": "说明 Charles 应该知道的内容。"
+        },
+        {
+          "text": "as English history shows",
+          "role": "插入语",
+          "target": "宾语从句中的判断",
+          "explanation": "补充说明这个判断有历史依据。"
+        },
+        {
+          "text": "it is kings, not republicans, who",
+          "role": "强调结构",
+          "target": "kings, not republicans",
+          "explanation": "强调真正的主语是国王而不是共和主义者。"
+        },
+        {
+          "text": "the monarchy’s worst enemies",
+          "role": "表语",
+          "target": "are",
+          "explanation": "说明被强调主语的身份或性质。"
+        }
+      ],
+      "standard_cuts": [
+        "Charles ought to know",
+        "that as English history shows",
+        "it is kings, not republicans, who",
+        "are the monarchy’s worst enemies"
+      ],
+      "key_language": [
+        {
+          "text": "ought to",
+          "type": "情态表达",
+          "meaning": "应该，应当"
+        },
+        {
+          "text": "as English history shows",
+          "type": "as 插入结构",
+          "meaning": "正如英国历史所表明的那样"
+        },
+        {
+          "text": "worst enemies",
+          "type": "名词短语",
+          "meaning": "最坏的敌人，最大的敌人"
+        }
+      ],
+      "translation": {
+        "literal": "查尔斯应该知道，正如英国历史所表明的那样，正是国王，而不是共和主义者，才是君主制最坏的敌人。",
+        "polished": "查尔斯应该明白，正如英国历史所显示的，君主制最大的敌人恰恰是国王，而不是共和主义者。"
+      }
+    },
+    "rubric": {
+      "total_score": 100,
+      "items": [
+        {
+          "task_type": "main_structure",
+          "score": 20,
+          "criteria": ["找出 Charles", "找出 ought to know", "判断 that 从句作宾语", "说明宾语从句内部还有强调句"]
+        },
+        {
+          "task_type": "grammar_analysis",
+          "score": 25,
+          "criteria": ["说明 as 插入语作用", "识别强调句", "找出被强调主语", "说明 not republicans 的对比作用"]
+        },
+        {
+          "task_type": "sentence_cuts",
+          "score": 15,
+          "criteria": ["主句和宾语从句切分清楚", "as 插入语独立切出", "强调结构保持完整"]
+        },
+        {
+          "task_type": "key_language",
+          "score": 10,
+          "criteria": ["理解 ought to", "理解 as English history shows", "理解 worst enemies"]
+        },
+        {
+          "task_type": "structure_translation",
+          "score": 20,
+          "criteria": ["译出“应该知道”", "译出插入语", "译出强调和对比", "中文完整通顺"]
+        },
+        {
+          "task_type": "self_check",
+          "score": 10,
+          "criteria": ["能指出具体错点", "能写出订正方向"]
+        }
+      ],
+      "level_rules": [
+        {
+          "level": "A",
+          "range": [90, 100],
+          "description": "能清楚拆出宾语从句、插入语和强调句三层结构。"
+        },
+        {
+          "level": "B",
+          "range": [75, 89],
+          "description": "主干正确，但插入语或强调结构说明略有遗漏。"
+        },
+        {
+          "level": "C",
+          "range": [60, 74],
+          "description": "能译出大意，但结构层级不够清楚。"
+        },
+        {
+          "level": "D",
+          "range": [0, 59],
+          "description": "宾语从句和强调句判断错误，翻译主要靠猜。"
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "error_tag": "clause_type_wrong",
+        "description": "没有判断 that 从句作 know 的宾语。",
+        "diagnosis": "没有先抓整句主干 Charles ought to know...",
+        "remediation": "先找主句谓语 know，再判断 know 后面的 that 从句是其内容。"
+      },
+      {
+        "error_tag": "appositive_vs_parenthesis_confused",
+        "description": "把 as English history shows 当作主干或定语。",
+        "diagnosis": "没有识别插入式 as 结构。",
+        "remediation": "as English history shows 可先括起来，理解为“正如……所表明”。"
+      },
+      {
+        "error_tag": "emphasis_vs_formal_subject_confused",
+        "description": "把 it is kings, not republicans, who... 误判为形式主语。",
+        "diagnosis": "没有还原强调句。",
+        "remediation": "还原为 kings, not republicans, are the monarchy’s worst enemies。"
+      }
+    ],
+    "review_plan": {
+      "default_intervals": [1, 3, 7, 14],
+      "review_prompts": [
+        {
+          "review_type": "main_structure",
+          "prompt": "写出整句主干：Charles + 谓语 + 宾语从句。"
+        },
+        {
+          "review_type": "pattern",
+          "prompt": "宾语从句内部的 it is...who 强调了谁？"
+        },
+        {
+          "review_type": "translation",
+          "prompt": "请译出“正如……所表明”和“正是……而不是……”。"
+        }
+      ]
+    }
+  }
+]

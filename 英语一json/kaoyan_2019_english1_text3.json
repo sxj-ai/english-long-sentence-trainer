@@ -1,0 +1,2421 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "This year marks exactly two centuries since the publication of Frankenstein; or, The Modern Prometheus, by Mary Shelley.",
+    "difficulty": 3,
+    "translation_literal": "今年正好标志着玛丽·雪莱的《弗兰肯斯坦；或现代普罗米修斯》出版以来两个世纪。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "This year",
+        "chinese": "今年",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "谓语",
+        "english": "marks",
+        "chinese": "标志着",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "宾语",
+        "english": "exactly two centuries since the publication of Frankenstein; or, The Modern Prometheus, by Mary Shelley",
+        "chinese": "自玛丽·雪莱《弗兰肯斯坦；或现代普罗米修斯》出版以来正好两个世纪",
+        "parent_id": null,
+        "target_id": "c_001_002",
+        "relation": "作 marks 的宾语"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "定语",
+        "english": "since the publication of Frankenstein; or, The Modern Prometheus, by Mary Shelley",
+        "chinese": "自玛丽·雪莱《弗兰肯斯坦；或现代普罗米修斯》出版以来的",
+        "parent_id": "c_001_003",
+        "target_id": "c_001_003",
+        "relation": "修饰 two centuries"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "同位语解释结构",
+        "english": "or, The Modern Prometheus",
+        "chinese": "或《现代普罗米修斯》",
+        "parent_id": "c_001_004",
+        "target_id": "c_001_004",
+        "relation": "解释 Frankenstein 的副标题"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "定语",
+        "english": "by Mary Shelley",
+        "chinese": "玛丽·雪莱所著的",
+        "parent_id": "c_001_004",
+        "target_id": "c_001_004",
+        "relation": "修饰作品名"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "Frankenstein; or, The Modern Prometheus",
+        "explanation": "or 后是作品副标题，用来解释完整书名。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "marks",
+        "pos": "v.",
+        "meaning": "标志着",
+        "chunk_id": "c_001_002"
+      },
+      {
+        "word": "publication",
+        "pos": "n.",
+        "meaning": "出版",
+        "chunk_id": "c_001_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Even before the invention of the electric light bulb, the author produced a remarkable work of speculative fiction that would foreshadow many ethical questions to be raised by technologies yet to come.",
+    "difficulty": 5,
+    "translation_literal": "甚至在电灯泡发明之前，这位作者就创作了一部非凡的思辨小说作品，它预示了许多将由尚未到来的技术提出的伦理问题。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "状语",
+        "english": "Even before the invention of the electric light bulb",
+        "chinese": "甚至在电灯泡发明之前",
+        "parent_id": null,
+        "target_id": "c_002_003",
+        "relation": "说明 produced 的时间"
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "主语",
+        "english": "the author",
+        "chinese": "这位作者",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "谓语",
+        "english": "produced",
+        "chinese": "创作了",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "宾语",
+        "english": "a remarkable work of speculative fiction that would foreshadow many ethical questions to be raised by technologies yet to come",
+        "chinese": "一部非凡的思辨小说作品，它会预示许多由未来技术提出的伦理问题",
+        "parent_id": null,
+        "target_id": "c_002_003",
+        "relation": "作 produced 的宾语"
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "定语从句",
+        "english": "that would foreshadow many ethical questions to be raised by technologies yet to come",
+        "chinese": "会预示许多将由未来技术提出的伦理问题的",
+        "parent_id": "c_002_004",
+        "target_id": "c_002_004",
+        "relation": "修饰 work"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这部作品",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "定语从句谓语",
+        "english": "would foreshadow",
+        "chinese": "会预示",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_002_008",
+        "role": "从句宾语",
+        "english": "many ethical questions to be raised by technologies yet to come",
+        "chinese": "许多将由尚未到来的技术提出的伦理问题",
+        "parent_id": "c_002_005",
+        "target_id": "c_002_007",
+        "relation": "作 foreshadow 的宾语"
+      },
+      {
+        "chunk_id": "c_002_009",
+        "role": "定语",
+        "english": "to be raised by technologies yet to come",
+        "chinese": "将由尚未到来的技术提出的",
+        "parent_id": "c_002_008",
+        "target_id": "c_002_008",
+        "relation": "修饰 ethical questions"
+      },
+      {
+        "chunk_id": "c_002_010",
+        "role": "定语",
+        "english": "yet to come",
+        "chinese": "尚未到来的",
+        "parent_id": "c_002_009",
+        "target_id": "c_002_009",
+        "relation": "修饰 technologies"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "remarkable",
+        "pos": "adj.",
+        "meaning": "非凡的",
+        "chunk_id": "c_002_004"
+      },
+      {
+        "word": "speculative",
+        "pos": "adj.",
+        "meaning": "思辨的；推测性的",
+        "chunk_id": "c_002_004"
+      },
+      {
+        "word": "foreshadow",
+        "pos": "v.",
+        "meaning": "预示",
+        "chunk_id": "c_002_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Today the rapid growth of artificial intelligence (AI) raises fundamental questions: “What is intelligence, identity, or consciousness? What makes humans humans?”",
+    "difficulty": 4,
+    "translation_literal": "今天，人工智能的快速发展提出了根本问题：“什么是智能、身份或意识？是什么使人类成为人类？”",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "状语",
+        "english": "Today",
+        "chinese": "今天",
+        "parent_id": null,
+        "target_id": "c_003_003",
+        "relation": "说明 raises 的时间背景"
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "主语",
+        "english": "the rapid growth of artificial intelligence (AI)",
+        "chinese": "人工智能的快速发展",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "谓语",
+        "english": "raises",
+        "chinese": "提出",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "宾语",
+        "english": "fundamental questions",
+        "chinese": "根本问题",
+        "parent_id": null,
+        "target_id": "c_003_003",
+        "relation": "作 raises 的宾语"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "同位语解释结构",
+        "english": "“What is intelligence, identity, or consciousness? What makes humans humans?”",
+        "chinese": "“什么是智能、身份或意识？是什么使人类成为人类？”",
+        "parent_id": null,
+        "target_id": "c_003_004",
+        "relation": "冒号后解释 questions 的具体内容"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "并列成分",
+        "english": "What is intelligence, identity, or consciousness?",
+        "chinese": "什么是智能、身份或意识？",
+        "parent_id": "c_003_005",
+        "target_id": null,
+        "relation": "第一个问题"
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "并列成分",
+        "english": "What makes humans humans?",
+        "chinese": "是什么使人类成为人类？",
+        "parent_id": "c_003_005",
+        "target_id": null,
+        "relation": "第二个问题"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "questions: 引号内问题",
+        "explanation": "冒号后的两个问句解释 fundamental questions 的内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "artificial",
+        "pos": "adj.",
+        "meaning": "人工的",
+        "chunk_id": "c_003_002"
+      },
+      {
+        "word": "fundamental",
+        "pos": "adj.",
+        "meaning": "根本的",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "consciousness",
+        "pos": "n.",
+        "meaning": "意识",
+        "chunk_id": "c_003_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "What is being called artificial general intelligence, machines that would imitate the way humans think, continues to evade scientists.",
+    "difficulty": 5,
+    "translation_literal": "所谓的人工通用智能，即会模仿人类思维方式的机器，仍然让科学家难以掌握。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "What is being called artificial general intelligence",
+        "chinese": "所谓的人工通用智能",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "同位语解释结构",
+        "english": "machines that would imitate the way humans think",
+        "chinese": "会模仿人类思维方式的机器",
+        "parent_id": null,
+        "target_id": "c_004_001",
+        "relation": "解释 artificial general intelligence 的含义"
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "定语从句",
+        "english": "that would imitate the way humans think",
+        "chinese": "会模仿人类思维方式的",
+        "parent_id": "c_004_002",
+        "target_id": "c_004_002",
+        "relation": "修饰 machines"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这些机器",
+        "parent_id": "c_004_003",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "定语从句谓语",
+        "english": "would imitate",
+        "chinese": "会模仿",
+        "parent_id": "c_004_003",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "定语从句宾语",
+        "english": "the way humans think",
+        "chinese": "人类思考的方式",
+        "parent_id": "c_004_003",
+        "target_id": "c_004_005",
+        "relation": "作 imitate 的宾语"
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "定语从句",
+        "english": "humans think",
+        "chinese": "人类思考的",
+        "parent_id": "c_004_006",
+        "target_id": "c_004_006",
+        "relation": "省略 that/in which，修饰 way"
+      },
+      {
+        "chunk_id": "c_004_008",
+        "role": "从句主语",
+        "english": "humans",
+        "chinese": "人类",
+        "parent_id": "c_004_007",
+        "target_id": null,
+        "relation": "way 后省略从句内部主语"
+      },
+      {
+        "chunk_id": "c_004_009",
+        "role": "从句谓语",
+        "english": "think",
+        "chinese": "思考",
+        "parent_id": "c_004_007",
+        "target_id": null,
+        "relation": "way 后省略从句内部谓语"
+      },
+      {
+        "chunk_id": "c_004_010",
+        "role": "谓语",
+        "english": "continues to evade",
+        "chinese": "继续逃避；仍让……难以掌握",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_011",
+        "role": "宾语",
+        "english": "scientists",
+        "chinese": "科学家",
+        "parent_id": null,
+        "target_id": "c_004_010",
+        "relation": "作 evade 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "AGI, machines that...",
+        "explanation": "逗号后的 machines... 解释 artificial general intelligence。"
+      },
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "the way humans think",
+        "explanation": "way 后省略 that/in which，humans think 作定语从句修饰 way。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "imitate",
+        "pos": "v.",
+        "meaning": "模仿",
+        "chunk_id": "c_004_005"
+      },
+      {
+        "word": "evade",
+        "pos": "v.",
+        "meaning": "避开；使难以理解",
+        "chunk_id": "c_004_010"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Yet humans remain fascinated by the idea of robots that would look, move, and respond like humans, similar to those recently depicted on popular sci-fi TV series such as “Westworld” and “Humans.”",
+    "difficulty": 5,
+    "translation_literal": "然而，人类仍然着迷于机器人这一想法：这些机器人会像人类一样看、移动和回应，类似于最近在《西部世界》和《真实的人类》等流行科幻电视剧中描绘的那些机器人。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "连接成分",
+        "english": "Yet",
+        "chinese": "然而",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "主语",
+        "english": "humans",
+        "chinese": "人类",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "谓语",
+        "english": "remain",
+        "chinese": "仍然是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "表语",
+        "english": "fascinated by the idea of robots that would look, move, and respond like humans",
+        "chinese": "着迷于会像人类一样看、移动和回应的机器人这一想法",
+        "parent_id": null,
+        "target_id": "c_005_003",
+        "relation": "作 remain 的表语"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "定语",
+        "english": "of robots that would look, move, and respond like humans",
+        "chinese": "会像人类一样看、移动和回应的机器人这一",
+        "parent_id": "c_005_004",
+        "target_id": "c_005_004",
+        "relation": "修饰 idea"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "定语从句",
+        "english": "that would look, move, and respond like humans",
+        "chinese": "会像人类一样看、移动和回应的",
+        "parent_id": "c_005_005",
+        "target_id": "c_005_005",
+        "relation": "修饰 robots"
+      },
+      {
+        "chunk_id": "c_005_007",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "机器人",
+        "parent_id": "c_005_006",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_005_008",
+        "role": "定语从句谓语",
+        "english": "would look, move, and respond",
+        "chinese": "会看、移动和回应",
+        "parent_id": "c_005_006",
+        "target_id": null,
+        "relation": "that 从句内部并列谓语"
+      },
+      {
+        "chunk_id": "c_005_009",
+        "role": "状语",
+        "english": "like humans",
+        "chinese": "像人类一样",
+        "parent_id": "c_005_006",
+        "target_id": "c_005_008",
+        "relation": "说明 look/move/respond 的方式"
+      },
+      {
+        "chunk_id": "c_005_010",
+        "role": "状语",
+        "english": "similar to those recently depicted on popular sci-fi TV series such as “Westworld” and “Humans”",
+        "chinese": "类似于最近在《西部世界》和《真实的人类》等流行科幻电视剧中描绘的那些机器人",
+        "parent_id": null,
+        "target_id": "c_005_004",
+        "relation": "补充说明 robots 的形象来源"
+      },
+      {
+        "chunk_id": "c_005_011",
+        "role": "定语",
+        "english": "recently depicted on popular sci-fi TV series",
+        "chinese": "最近在流行科幻电视剧中描绘的",
+        "parent_id": "c_005_010",
+        "target_id": "c_005_010",
+        "relation": "修饰 those"
+      },
+      {
+        "chunk_id": "c_005_012",
+        "role": "插入举例",
+        "english": "such as “Westworld” and “Humans”",
+        "chinese": "例如《西部世界》和《真实的人类》",
+        "parent_id": "c_005_010",
+        "target_id": "c_005_011",
+        "relation": "举例说明 sci-fi TV series"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "look, move, and respond",
+        "explanation": "三个动词并列说明人形机器人被设想出的行为特征。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "fascinated",
+        "pos": "adj.",
+        "meaning": "着迷的",
+        "chunk_id": "c_005_004"
+      },
+      {
+        "word": "depicted",
+        "pos": "v.",
+        "meaning": "描绘",
+        "chunk_id": "c_005_011"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Just how people think is still far too complex to be understood, let alone reproduced, says David Eagleman, a Stanford University neuroscientist.",
+    "difficulty": 5,
+    "translation_literal": "斯坦福大学神经科学家大卫·伊格曼说，人们究竟如何思考仍然太复杂，以至于无法被理解，更不用说被复制了。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语从句",
+        "english": "Just how people think",
+        "chinese": "人们究竟如何思考",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "状语",
+        "english": "Just how",
+        "chinese": "究竟如何",
+        "parent_id": "c_006_001",
+        "target_id": "c_006_003",
+        "relation": "修饰 think"
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "从句主语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": "c_006_001",
+        "target_id": null,
+        "relation": "主语从句内部主语"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "从句谓语",
+        "english": "think",
+        "chinese": "思考",
+        "parent_id": "c_006_001",
+        "target_id": null,
+        "relation": "主语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "表语",
+        "english": "still far too complex to be understood, let alone reproduced",
+        "chinese": "仍然太复杂，无法被理解，更不用说被复制",
+        "parent_id": null,
+        "target_id": "c_006_005",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "状语",
+        "english": "to be understood",
+        "chinese": "以至于被理解",
+        "parent_id": "c_006_006",
+        "target_id": "c_006_006",
+        "relation": "说明 too complex 的结果"
+      },
+      {
+        "chunk_id": "c_006_008",
+        "role": "省略结构",
+        "english": "let alone reproduced",
+        "chinese": "更不用说被复制了",
+        "parent_id": "c_006_006",
+        "target_id": "c_006_007",
+        "relation": "省略 to be，递进说明更难做到"
+      },
+      {
+        "chunk_id": "c_006_009",
+        "role": "插入语",
+        "english": "says David Eagleman, a Stanford University neuroscientist",
+        "chinese": "斯坦福大学神经科学家大卫·伊格曼说",
+        "parent_id": null,
+        "target_id": "c_006_001",
+        "relation": "说明判断来源"
+      },
+      {
+        "chunk_id": "c_006_010",
+        "role": "同位语",
+        "english": "a Stanford University neuroscientist",
+        "chinese": "一位斯坦福大学神经科学家",
+        "parent_id": "c_006_009",
+        "target_id": "c_006_009",
+        "relation": "解释 David Eagleman 的身份"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "let alone reproduced",
+        "explanation": "let alone 后省略 to be，承接 understood，表示“更不用说被复制”。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句 + says + 人名身份",
+        "explanation": "says... 位于句末，说明前面判断的来源。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "complex",
+        "pos": "adj.",
+        "meaning": "复杂的",
+        "chunk_id": "c_006_006"
+      },
+      {
+        "word": "reproduced",
+        "pos": "v.",
+        "meaning": "复制；再现",
+        "chunk_id": "c_006_008"
+      },
+      {
+        "word": "neuroscientist",
+        "pos": "n.",
+        "meaning": "神经科学家",
+        "chunk_id": "c_006_010"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "“We are just in a situation where there are no good theories explaining what consciousness actually is and how you could ever build a machine to get there.”",
+    "difficulty": 5,
+    "translation_literal": "“我们只是处在这样一种情形中：没有好的理论来解释意识实际上是什么，以及你究竟如何能够制造一台机器达到那里。”",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "We",
+        "chinese": "我们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "处在",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "表语",
+        "english": "just in a situation where there are no good theories explaining what consciousness actually is and how you could ever build a machine to get there",
+        "chinese": "只是处在一种没有好理论解释意识是什么以及如何制造机器达到那里的情形中",
+        "parent_id": null,
+        "target_id": "c_007_002",
+        "relation": "作 are 的表语"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "定语从句",
+        "english": "where there are no good theories explaining what consciousness actually is and how you could ever build a machine to get there",
+        "chinese": "在其中没有好理论解释意识是什么以及如何制造机器达到那里的",
+        "parent_id": "c_007_003",
+        "target_id": "c_007_003",
+        "relation": "修饰 situation"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "存在句",
+        "english": "there are no good theories",
+        "chinese": "没有好的理论",
+        "parent_id": "c_007_004",
+        "target_id": null,
+        "relation": "where 从句内部存在句"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "定语",
+        "english": "explaining what consciousness actually is and how you could ever build a machine to get there",
+        "chinese": "解释意识实际上是什么以及如何制造机器达到那里的",
+        "parent_id": "c_007_005",
+        "target_id": "c_007_005",
+        "relation": "修饰 theories"
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "宾语从句",
+        "english": "what consciousness actually is",
+        "chinese": "意识实际上是什么",
+        "parent_id": "c_007_006",
+        "target_id": "c_007_006",
+        "relation": "作 explaining 的第一宾语内容"
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "从句主语",
+        "english": "consciousness",
+        "chinese": "意识",
+        "parent_id": "c_007_007",
+        "target_id": null,
+        "relation": "what 从句内部主语"
+      },
+      {
+        "chunk_id": "c_007_009",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_007_007",
+        "target_id": null,
+        "relation": "what 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_007_010",
+        "role": "并列宾语从句",
+        "english": "how you could ever build a machine to get there",
+        "chinese": "你究竟如何能够制造一台机器达到那里",
+        "parent_id": "c_007_006",
+        "target_id": "c_007_006",
+        "relation": "作 explaining 的第二宾语内容"
+      },
+      {
+        "chunk_id": "c_007_011",
+        "role": "从句主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_007_010",
+        "target_id": null,
+        "relation": "how 从句内部主语"
+      },
+      {
+        "chunk_id": "c_007_012",
+        "role": "从句谓语",
+        "english": "could ever build",
+        "chinese": "究竟能够制造",
+        "parent_id": "c_007_010",
+        "target_id": null,
+        "relation": "how 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_007_013",
+        "role": "从句宾语",
+        "english": "a machine",
+        "chinese": "一台机器",
+        "parent_id": "c_007_010",
+        "target_id": "c_007_012",
+        "relation": "作 build 的宾语"
+      },
+      {
+        "chunk_id": "c_007_014",
+        "role": "状语",
+        "english": "to get there",
+        "chinese": "为了达到那里",
+        "parent_id": "c_007_010",
+        "target_id": "c_007_012",
+        "relation": "说明 build a machine 的目的"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "situation where there are theories explaining A and B",
+        "explanation": "situation 后接 where 从句，theories 后又接 explaining 结构，层级较深。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "what... and how...",
+        "explanation": "explaining 后有两个并列宾语从句，分别解释意识本质和机器实现路径。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "situation",
+        "pos": "n.",
+        "meaning": "情形；处境",
+        "chunk_id": "c_007_003"
+      },
+      {
+        "word": "theories",
+        "pos": "n.",
+        "meaning": "理论",
+        "chunk_id": "c_007_005"
+      },
+      {
+        "word": "consciousness",
+        "pos": "n.",
+        "meaning": "意识",
+        "chunk_id": "c_007_008"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "But that doesn’t mean crucial ethical issues involving AI aren’t at hand.",
+    "difficulty": 4,
+    "translation_literal": "但是那并不意味着涉及 AI 的关键伦理问题并不迫在眉睫。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "主语",
+        "english": "that",
+        "chinese": "那",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "谓语",
+        "english": "doesn’t mean",
+        "chinese": "并不意味着",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "宾语从句",
+        "english": "crucial ethical issues involving AI aren’t at hand",
+        "chinese": "涉及 AI 的关键伦理问题并非不在眼前",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "作 mean 的宾语"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "从句主语",
+        "english": "crucial ethical issues involving AI",
+        "chinese": "涉及 AI 的关键伦理问题",
+        "parent_id": "c_008_004",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "定语",
+        "english": "involving AI",
+        "chinese": "涉及 AI 的",
+        "parent_id": "c_008_005",
+        "target_id": "c_008_005",
+        "relation": "修饰 ethical issues"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "从句谓语",
+        "english": "aren’t",
+        "chinese": "并非不是",
+        "parent_id": "c_008_004",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "从句表语",
+        "english": "at hand",
+        "chinese": "近在眼前的",
+        "parent_id": "c_008_004",
+        "target_id": "c_008_007",
+        "relation": "作 aren’t 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "crucial",
+        "pos": "adj.",
+        "meaning": "关键的",
+        "chunk_id": "c_008_005"
+      },
+      {
+        "word": "ethical",
+        "pos": "adj.",
+        "meaning": "伦理的",
+        "chunk_id": "c_008_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "at hand",
+        "phrase_type": "prep. phr.",
+        "meaning": "在眼前；即将到来",
+        "chunk_id": "c_008_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The coming use of autonomous vehicles, for example, poses thorny ethical questions.",
+    "difficulty": 3,
+    "translation_literal": "例如，自动驾驶车辆即将到来的使用提出了棘手的伦理问题。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "The coming use of autonomous vehicles",
+        "chinese": "自动驾驶车辆即将到来的使用",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "定语",
+        "english": "of autonomous vehicles",
+        "chinese": "自动驾驶车辆的",
+        "parent_id": "c_009_001",
+        "target_id": "c_009_001",
+        "relation": "修饰 use"
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "插入语",
+        "english": "for example",
+        "chinese": "例如",
+        "parent_id": null,
+        "target_id": "c_009_001",
+        "relation": "举例说明前句 ethical issues"
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "谓语",
+        "english": "poses",
+        "chinese": "提出",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "宾语",
+        "english": "thorny ethical questions",
+        "chinese": "棘手的伦理问题",
+        "parent_id": null,
+        "target_id": "c_009_004",
+        "relation": "作 poses 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语, for example, 谓语",
+        "explanation": "for example 插入说明自动驾驶车辆是 AI 伦理问题的例子。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "autonomous",
+        "pos": "adj.",
+        "meaning": "自动的；自主的",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "thorny",
+        "pos": "adj.",
+        "meaning": "棘手的",
+        "chunk_id": "c_009_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Human drivers sometimes must make split-second decisions.",
+    "difficulty": 2,
+    "translation_literal": "人类司机有时必须做出瞬间决定。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "Human drivers",
+        "chinese": "人类司机",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "状语",
+        "english": "sometimes",
+        "chinese": "有时",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "修饰 must make"
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "谓语",
+        "english": "must make",
+        "chinese": "必须做出",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "宾语",
+        "english": "split-second decisions",
+        "chinese": "瞬间决定",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "作 make 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "split-second",
+        "pos": "adj.",
+        "meaning": "瞬间的",
+        "chunk_id": "c_010_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Their reactions may be a complex combination of instant reflexes, input from past driving experiences, and what their eyes and ears tell them in that moment.",
+    "difficulty": 5,
+    "translation_literal": "他们的反应可能是即时反射、来自过去驾驶经验的输入，以及他们的眼睛和耳朵在那一刻告诉他们的东西的复杂组合。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "Their reactions",
+        "chinese": "他们的反应",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "may be",
+        "chinese": "可能是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "表语",
+        "english": "a complex combination of instant reflexes, input from past driving experiences, and what their eyes and ears tell them in that moment",
+        "chinese": "即时反射、过去驾驶经验输入以及眼耳当刻信息的复杂组合",
+        "parent_id": null,
+        "target_id": "c_011_002",
+        "relation": "作 may be 的表语"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "并列成分",
+        "english": "instant reflexes",
+        "chinese": "即时反射",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": "combination 的第一项"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "并列成分",
+        "english": "input from past driving experiences",
+        "chinese": "来自过去驾驶经验的输入",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": "combination 的第二项"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "并列成分",
+        "english": "what their eyes and ears tell them in that moment",
+        "chinese": "他们的眼睛和耳朵在那一刻告诉他们的东西",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": "combination 的第三项"
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "宾语从句",
+        "english": "what their eyes and ears tell them in that moment",
+        "chinese": "他们的眼睛和耳朵在那一刻告诉他们的东西",
+        "parent_id": "c_011_006",
+        "target_id": "c_011_006",
+        "relation": "what 引导的名词性结构作并列项"
+      },
+      {
+        "chunk_id": "c_011_008",
+        "role": "从句主语",
+        "english": "their eyes and ears",
+        "chinese": "他们的眼睛和耳朵",
+        "parent_id": "c_011_007",
+        "target_id": null,
+        "relation": "what 从句内部主语"
+      },
+      {
+        "chunk_id": "c_011_009",
+        "role": "从句谓语",
+        "english": "tell",
+        "chinese": "告诉",
+        "parent_id": "c_011_007",
+        "target_id": null,
+        "relation": "what 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_011_010",
+        "role": "从句宾语",
+        "english": "them",
+        "chinese": "他们",
+        "parent_id": "c_011_007",
+        "target_id": "c_011_009",
+        "relation": "作 tell 的间接宾语"
+      },
+      {
+        "chunk_id": "c_011_011",
+        "role": "状语",
+        "english": "in that moment",
+        "chinese": "在那一刻",
+        "parent_id": "c_011_007",
+        "target_id": "c_011_009",
+        "relation": "说明 tell 的时间"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, B, and what...",
+        "explanation": "combination 后三个并列成分中，第三项是 what 引导的名词性结构。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "reactions",
+        "pos": "n.",
+        "meaning": "反应",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "reflexes",
+        "pos": "n.",
+        "meaning": "反射反应",
+        "chunk_id": "c_011_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "AI “vision” today is not nearly as sophisticated as that of humans.",
+    "difficulty": 3,
+    "translation_literal": "今天的 AI“视觉”远不如人类视觉那样复杂精密。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "AI “vision” today",
+        "chinese": "今天的 AI“视觉”",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "表语",
+        "english": "not nearly as sophisticated as that of humans",
+        "chinese": "远不如人类视觉那样复杂精密",
+        "parent_id": null,
+        "target_id": "c_012_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "状语",
+        "english": "that of humans",
+        "chinese": "人类的视觉",
+        "parent_id": "c_012_003",
+        "target_id": "c_012_003",
+        "relation": "as...as... 中的比较对象"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as...as...",
+        "pattern_form": "not nearly as sophisticated as...",
+        "explanation": "as...as... 构成比较，not nearly 表示“远远不如”。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "vision",
+        "pos": "n.",
+        "meaning": "视觉",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "word": "sophisticated",
+        "pos": "adj.",
+        "meaning": "复杂精密的",
+        "chunk_id": "c_012_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "And to anticipate every imaginable driving situation is a difficult programming problem.",
+    "difficulty": 3,
+    "translation_literal": "并且预见每一种可想象的驾驶情境，是一个困难的编程问题。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "连接成分",
+        "english": "And",
+        "chinese": "并且",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "主语",
+        "english": "to anticipate every imaginable driving situation",
+        "chinese": "预见每一种可想象的驾驶情境",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "表语",
+        "english": "a difficult programming problem",
+        "chinese": "一个困难的编程问题",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "anticipate",
+        "pos": "v.",
+        "meaning": "预见；预料",
+        "chunk_id": "c_013_002"
+      },
+      {
+        "word": "imaginable",
+        "pos": "adj.",
+        "meaning": "可想象的",
+        "chunk_id": "c_013_002"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Whenever decisions are based on masses of data, “you quickly get into a lot of ethical questions,” notes Tan Kiat How, chief executive of a Singapore-based agency that is helping the government develop a voluntary code for the ethical use of AI.",
+    "difficulty": 5,
+    "translation_literal": "新加坡一家机构的首席执行官陈杰豪指出：“每当决策基于大量数据时，你很快就会陷入许多伦理问题”；该机构正在帮助政府制定一套 AI 伦理使用的自愿准则。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "状语从句",
+        "english": "Whenever decisions are based on masses of data",
+        "chinese": "每当决策基于大量数据时",
+        "parent_id": null,
+        "target_id": "c_014_007",
+        "relation": "说明 get into 的时间条件"
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "从句主语",
+        "english": "decisions",
+        "chinese": "决策",
+        "parent_id": "c_014_001",
+        "target_id": null,
+        "relation": "Whenever 从句内部主语"
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "从句谓语",
+        "english": "are based on",
+        "chinese": "基于",
+        "parent_id": "c_014_001",
+        "target_id": null,
+        "relation": "Whenever 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "从句宾语",
+        "english": "masses of data",
+        "chinese": "大量数据",
+        "parent_id": "c_014_001",
+        "target_id": "c_014_003",
+        "relation": "作 based on 的宾语"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "状语",
+        "english": "quickly",
+        "chinese": "很快",
+        "parent_id": null,
+        "target_id": "c_014_007",
+        "relation": "修饰 get into"
+      },
+      {
+        "chunk_id": "c_014_007",
+        "role": "谓语",
+        "english": "get into",
+        "chinese": "陷入",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_008",
+        "role": "宾语",
+        "english": "a lot of ethical questions",
+        "chinese": "许多伦理问题",
+        "parent_id": null,
+        "target_id": "c_014_007",
+        "relation": "作 get into 的宾语"
+      },
+      {
+        "chunk_id": "c_014_009",
+        "role": "插入语",
+        "english": "notes Tan Kiat How, chief executive of a Singapore-based agency that is helping the government develop a voluntary code for the ethical use of AI",
+        "chinese": "新加坡一家机构的首席执行官陈杰豪指出，该机构正在帮助政府制定 AI 伦理使用的自愿准则",
+        "parent_id": null,
+        "target_id": "c_014_007",
+        "relation": "说明引语来源"
+      },
+      {
+        "chunk_id": "c_014_010",
+        "role": "同位语",
+        "english": "chief executive of a Singapore-based agency that is helping the government develop a voluntary code for the ethical use of AI",
+        "chinese": "一家新加坡机构的首席执行官，该机构正在帮助政府制定 AI 伦理使用的自愿准则",
+        "parent_id": "c_014_009",
+        "target_id": "c_014_009",
+        "relation": "解释 Tan Kiat How 的身份"
+      },
+      {
+        "chunk_id": "c_014_011",
+        "role": "定语从句",
+        "english": "that is helping the government develop a voluntary code for the ethical use of AI",
+        "chinese": "正在帮助政府制定 AI 伦理使用自愿准则的",
+        "parent_id": "c_014_010",
+        "target_id": "c_014_010",
+        "relation": "修饰 agency"
+      },
+      {
+        "chunk_id": "c_014_012",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "该机构",
+        "parent_id": "c_014_011",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_014_013",
+        "role": "定语从句谓语",
+        "english": "is helping",
+        "chinese": "正在帮助",
+        "parent_id": "c_014_011",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_014_014",
+        "role": "定语从句宾语",
+        "english": "the government",
+        "chinese": "政府",
+        "parent_id": "c_014_011",
+        "target_id": "c_014_013",
+        "relation": "作 helping 的宾语"
+      },
+      {
+        "chunk_id": "c_014_015",
+        "role": "宾语补足语",
+        "english": "develop a voluntary code for the ethical use of AI",
+        "chinese": "制定 AI 伦理使用的自愿准则",
+        "parent_id": "c_014_011",
+        "target_id": "c_014_014",
+        "relation": "补充说明 government 做什么"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "引语 + notes + 人名身份",
+        "explanation": "notes... 说明引语来源，后面身份短语又带定语从句。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "masses",
+        "pos": "n.",
+        "meaning": "大量",
+        "chunk_id": "c_014_004"
+      },
+      {
+        "word": "ethical",
+        "pos": "adj.",
+        "meaning": "伦理的",
+        "chunk_id": "c_014_008"
+      },
+      {
+        "word": "voluntary",
+        "pos": "adj.",
+        "meaning": "自愿的",
+        "chunk_id": "c_014_015"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Along with Singapore, other governments and mega-corporations are beginning to establish their own guidelines.",
+    "difficulty": 3,
+    "translation_literal": "除了新加坡之外，其他政府和大型企业也开始建立自己的准则。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "状语",
+        "english": "Along with Singapore",
+        "chinese": "连同新加坡；除了新加坡之外",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "说明 are beginning 的范围"
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "主语",
+        "english": "other governments and mega-corporations",
+        "chinese": "其他政府和大型企业",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "谓语",
+        "english": "are beginning to establish",
+        "chinese": "正在开始建立",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "宾语",
+        "english": "their own guidelines",
+        "chinese": "它们自己的准则",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "作 establish 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "mega-corporations",
+        "pos": "n.",
+        "meaning": "大型企业",
+        "chunk_id": "c_015_002"
+      },
+      {
+        "word": "guidelines",
+        "pos": "n.",
+        "meaning": "准则；指导方针",
+        "chunk_id": "c_015_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Britain is setting up a data ethics center.",
+    "difficulty": 2,
+    "translation_literal": "英国正在建立一个数据伦理中心。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "主语",
+        "english": "Britain",
+        "chinese": "英国",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "谓语",
+        "english": "is setting up",
+        "chinese": "正在建立",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "宾语",
+        "english": "a data ethics center",
+        "chinese": "一个数据伦理中心",
+        "parent_id": null,
+        "target_id": "c_016_002",
+        "relation": "作 setting up 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "ethics",
+        "pos": "n.",
+        "meaning": "伦理",
+        "chunk_id": "c_016_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "set up",
+        "phrase_type": "v. phr.",
+        "meaning": "建立",
+        "chunk_id": "c_016_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "India released its AI ethics strategy this spring.",
+    "difficulty": 2,
+    "translation_literal": "印度今年春天发布了其 AI 伦理战略。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "India",
+        "chinese": "印度",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "released",
+        "chinese": "发布了",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "宾语",
+        "english": "its AI ethics strategy",
+        "chinese": "其 AI 伦理战略",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "作 released 的宾语"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "状语",
+        "english": "this spring",
+        "chinese": "今年春天",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "说明 released 的时间"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "released",
+        "pos": "v.",
+        "meaning": "发布",
+        "chunk_id": "c_017_002"
+      },
+      {
+        "word": "strategy",
+        "pos": "n.",
+        "meaning": "战略",
+        "chunk_id": "c_017_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "On June 7 Google pledged not to “design or deploy AI” that would cause “overall harm,” or to develop AI-directed weapons or use AI for surveillance that would violate international norms.",
+    "difficulty": 5,
+    "translation_literal": "6 月 7 日，谷歌承诺不“设计或部署”会造成“整体伤害”的 AI，也不开发 AI 指导的武器，或将 AI 用于会违反国际规范的监控。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "状语",
+        "english": "On June 7",
+        "chinese": "6 月 7 日",
+        "parent_id": null,
+        "target_id": "c_018_003",
+        "relation": "说明 pledged 的时间"
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "主语",
+        "english": "Google",
+        "chinese": "谷歌",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "谓语",
+        "english": "pledged",
+        "chinese": "承诺",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "宾语",
+        "english": "not to “design or deploy AI” that would cause “overall harm,” or to develop AI-directed weapons or use AI for surveillance that would violate international norms",
+        "chinese": "不设计或部署会造成整体伤害的 AI，也不开发 AI 武器或将 AI 用于违反国际规范的监控",
+        "parent_id": null,
+        "target_id": "c_018_003",
+        "relation": "作 pledged 的宾语内容"
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "并列成分",
+        "english": "not to “design or deploy AI” that would cause “overall harm”",
+        "chinese": "不设计或部署会造成整体伤害的 AI",
+        "parent_id": "c_018_004",
+        "target_id": null,
+        "relation": "承诺内容第一项"
+      },
+      {
+        "chunk_id": "c_018_006",
+        "role": "定语从句",
+        "english": "that would cause “overall harm”",
+        "chinese": "会造成“整体伤害”的",
+        "parent_id": "c_018_005",
+        "target_id": "c_018_005",
+        "relation": "修饰 AI"
+      },
+      {
+        "chunk_id": "c_018_007",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "AI",
+        "parent_id": "c_018_006",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_018_008",
+        "role": "定语从句谓语",
+        "english": "would cause",
+        "chinese": "会造成",
+        "parent_id": "c_018_006",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_018_009",
+        "role": "定语从句宾语",
+        "english": "“overall harm”",
+        "chinese": "“整体伤害”",
+        "parent_id": "c_018_006",
+        "target_id": "c_018_008",
+        "relation": "作 cause 的宾语"
+      },
+      {
+        "chunk_id": "c_018_010",
+        "role": "并列成分",
+        "english": "or to develop AI-directed weapons",
+        "chinese": "或者开发 AI 指导的武器",
+        "parent_id": "c_018_004",
+        "target_id": null,
+        "relation": "承诺内容第二项"
+      },
+      {
+        "chunk_id": "c_018_011",
+        "role": "并列成分",
+        "english": "or use AI for surveillance that would violate international norms",
+        "chinese": "或者将 AI 用于会违反国际规范的监控",
+        "parent_id": "c_018_004",
+        "target_id": null,
+        "relation": "承诺内容第三项"
+      },
+      {
+        "chunk_id": "c_018_012",
+        "role": "定语从句",
+        "english": "that would violate international norms",
+        "chinese": "会违反国际规范的",
+        "parent_id": "c_018_011",
+        "target_id": "c_018_011",
+        "relation": "修饰 surveillance"
+      },
+      {
+        "chunk_id": "c_018_013",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这种监控",
+        "parent_id": "c_018_012",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_018_014",
+        "role": "定语从句谓语",
+        "english": "would violate",
+        "chinese": "会违反",
+        "parent_id": "c_018_012",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_018_015",
+        "role": "定语从句宾语",
+        "english": "international norms",
+        "chinese": "国际规范",
+        "parent_id": "c_018_012",
+        "target_id": "c_018_014",
+        "relation": "作 violate 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "not to design/deploy..., or to develop..., or use...",
+        "explanation": "pledged 后有多个并列不定式内容，说明谷歌承诺不做的事项。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "pledged",
+        "pos": "v.",
+        "meaning": "承诺",
+        "chunk_id": "c_018_003"
+      },
+      {
+        "word": "deploy",
+        "pos": "v.",
+        "meaning": "部署",
+        "chunk_id": "c_018_005"
+      },
+      {
+        "word": "surveillance",
+        "pos": "n.",
+        "meaning": "监控",
+        "chunk_id": "c_018_011"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "It also pledged not to deploy AI whose use would violate international laws or human rights.",
+    "difficulty": 4,
+    "translation_literal": "它还承诺不部署其使用会违反国际法或人权的 AI。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "主语",
+        "english": "It",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "状语",
+        "english": "also",
+        "chinese": "也",
+        "parent_id": null,
+        "target_id": "c_019_003",
+        "relation": "修饰 pledged"
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "谓语",
+        "english": "pledged",
+        "chinese": "承诺",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "宾语",
+        "english": "not to deploy AI whose use would violate international laws or human rights",
+        "chinese": "不部署其使用会违反国际法或人权的 AI",
+        "parent_id": null,
+        "target_id": "c_019_003",
+        "relation": "作 pledged 的宾语内容"
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "定语从句",
+        "english": "whose use would violate international laws or human rights",
+        "chinese": "其使用会违反国际法或人权的",
+        "parent_id": "c_019_004",
+        "target_id": "c_019_004",
+        "relation": "修饰 AI"
+      },
+      {
+        "chunk_id": "c_019_006",
+        "role": "定语从句主语",
+        "english": "whose use",
+        "chinese": "其使用",
+        "parent_id": "c_019_005",
+        "target_id": null,
+        "relation": "whose 从句内部主语"
+      },
+      {
+        "chunk_id": "c_019_007",
+        "role": "定语从句谓语",
+        "english": "would violate",
+        "chinese": "会违反",
+        "parent_id": "c_019_005",
+        "target_id": null,
+        "relation": "whose 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_019_008",
+        "role": "定语从句宾语",
+        "english": "international laws or human rights",
+        "chinese": "国际法或人权",
+        "parent_id": "c_019_005",
+        "target_id": "c_019_007",
+        "relation": "作 violate 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "deploy",
+        "pos": "v.",
+        "meaning": "部署",
+        "chunk_id": "c_019_004"
+      },
+      {
+        "word": "violate",
+        "pos": "v.",
+        "meaning": "违反",
+        "chunk_id": "c_019_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "While the statement is vague, it represents one starting point.",
+    "difficulty": 3,
+    "translation_literal": "虽然该声明是模糊的，但它代表了一个起点。",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "让步状语从句",
+        "english": "While the statement is vague",
+        "chinese": "虽然该声明是模糊的",
+        "parent_id": null,
+        "target_id": "c_020_005",
+        "relation": "说明 represents 的让步背景"
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "从句主语",
+        "english": "the statement",
+        "chinese": "该声明",
+        "parent_id": "c_020_001",
+        "target_id": null,
+        "relation": "While 从句内部主语"
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_020_001",
+        "target_id": null,
+        "relation": "While 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_020_004",
+        "role": "从句表语",
+        "english": "vague",
+        "chinese": "模糊的",
+        "parent_id": "c_020_001",
+        "target_id": "c_020_003",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_020_005",
+        "role": "主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_006",
+        "role": "谓语",
+        "english": "represents",
+        "chinese": "代表",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_007",
+        "role": "宾语",
+        "english": "one starting point",
+        "chinese": "一个起点",
+        "parent_id": null,
+        "target_id": "c_020_006",
+        "relation": "作 represents 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "vague",
+        "pos": "adj.",
+        "meaning": "模糊的",
+        "chunk_id": "c_020_004"
+      },
+      {
+        "word": "represents",
+        "pos": "v.",
+        "meaning": "代表",
+        "chunk_id": "c_020_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_021",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "So does the idea that decisions made by AI systems should be explainable, transparent, and fair.",
+    "difficulty": 5,
+    "translation_literal": "AI 系统作出的决定应该是可解释、透明和公平的，这一想法也是一个起点。",
+    "chunks": [
+      {
+        "chunk_id": "c_021_001",
+        "role": "倒装结构",
+        "english": "So does the idea that decisions made by AI systems should be explainable, transparent, and fair",
+        "chinese": "AI 系统作出的决定应该可解释、透明和公平，这一想法也是如此",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_002",
+        "role": "连接成分",
+        "english": "So",
+        "chinese": "也如此",
+        "parent_id": "c_021_001",
+        "target_id": null,
+        "relation": "倒装句中表示前句情况同样适用"
+      },
+      {
+        "chunk_id": "c_021_003",
+        "role": "谓语",
+        "english": "does",
+        "chinese": "也是",
+        "parent_id": "c_021_001",
+        "target_id": null,
+        "relation": "倒装结构助动词提前"
+      },
+      {
+        "chunk_id": "c_021_004",
+        "role": "主语",
+        "english": "the idea that decisions made by AI systems should be explainable, transparent, and fair",
+        "chinese": "AI 系统作出的决定应该可解释、透明和公平这一想法",
+        "parent_id": "c_021_001",
+        "target_id": null,
+        "relation": "倒装结构真正主语"
+      },
+      {
+        "chunk_id": "c_021_005",
+        "role": "同位语从句",
+        "english": "that decisions made by AI systems should be explainable, transparent, and fair",
+        "chinese": "AI 系统作出的决定应该可解释、透明和公平",
+        "parent_id": "c_021_004",
+        "target_id": "c_021_004",
+        "relation": "解释 idea 的内容"
+      },
+      {
+        "chunk_id": "c_021_006",
+        "role": "同位语从句主语",
+        "english": "decisions made by AI systems",
+        "chinese": "AI 系统作出的决定",
+        "parent_id": "c_021_005",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_021_007",
+        "role": "定语",
+        "english": "made by AI systems",
+        "chinese": "由 AI 系统作出的",
+        "parent_id": "c_021_006",
+        "target_id": "c_021_006",
+        "relation": "修饰 decisions"
+      },
+      {
+        "chunk_id": "c_021_008",
+        "role": "同位语从句谓语",
+        "english": "should be",
+        "chinese": "应该是",
+        "parent_id": "c_021_005",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_021_009",
+        "role": "同位语从句表语",
+        "english": "explainable, transparent, and fair",
+        "chinese": "可解释、透明且公平的",
+        "parent_id": "c_021_005",
+        "target_id": "c_021_008",
+        "relation": "作 should be 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "So does + 主语",
+        "explanation": "So does... 表示前一句 one starting point 的判断同样适用于 the idea。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "idea + that 从句",
+        "explanation": "that 从句解释 idea 的具体内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "explainable",
+        "pos": "adj.",
+        "meaning": "可解释的",
+        "chunk_id": "c_021_009"
+      },
+      {
+        "word": "transparent",
+        "pos": "adj.",
+        "meaning": "透明的",
+        "chunk_id": "c_021_009"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_022",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "To put it another way: How can we make sure that the thinking of intelligent machines reflects humanity’s highest values?",
+    "difficulty": 4,
+    "translation_literal": "换句话说：我们怎样才能确保智能机器的思维反映人类最高的价值观？",
+    "chunks": [
+      {
+        "chunk_id": "c_022_001",
+        "role": "插入语",
+        "english": "To put it another way",
+        "chinese": "换句话说",
+        "parent_id": null,
+        "target_id": "c_022_002",
+        "relation": "提示后面对问题换一种表达"
+      },
+      {
+        "chunk_id": "c_022_002",
+        "role": "主语",
+        "english": "we",
+        "chinese": "我们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_003",
+        "role": "谓语",
+        "english": "can make sure",
+        "chinese": "能够确保",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_004",
+        "role": "宾语从句",
+        "english": "that the thinking of intelligent machines reflects humanity’s highest values",
+        "chinese": "智能机器的思维反映人类最高价值观",
+        "parent_id": null,
+        "target_id": "c_022_003",
+        "relation": "作 make sure 的宾语"
+      },
+      {
+        "chunk_id": "c_022_005",
+        "role": "从句主语",
+        "english": "the thinking of intelligent machines",
+        "chinese": "智能机器的思维",
+        "parent_id": "c_022_004",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_022_006",
+        "role": "从句谓语",
+        "english": "reflects",
+        "chinese": "反映",
+        "parent_id": "c_022_004",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_022_007",
+        "role": "从句宾语",
+        "english": "humanity’s highest values",
+        "chinese": "人类最高价值观",
+        "parent_id": "c_022_004",
+        "target_id": "c_022_006",
+        "relation": "作 reflects 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "To put it another way",
+        "explanation": "句首不定式短语作为话语标记，引出对前文问题的改述。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "reflects",
+        "pos": "v.",
+        "meaning": "反映",
+        "chunk_id": "c_022_006"
+      },
+      {
+        "word": "humanity",
+        "pos": "n.",
+        "meaning": "人类",
+        "chunk_id": "c_022_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_023",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Only then will they be useful servants and not Frankenstein’s out-of-control monster.",
+    "difficulty": 4,
+    "translation_literal": "只有到那时，它们才会成为有用的仆人，而不是弗兰肯斯坦式失控的怪物。",
+    "chunks": [
+      {
+        "chunk_id": "c_023_001",
+        "role": "倒装结构",
+        "english": "Only then will they be useful servants and not Frankenstein’s out-of-control monster",
+        "chinese": "只有到那时，它们才会成为有用的仆人而不是失控怪物",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_023_002",
+        "role": "状语",
+        "english": "Only then",
+        "chinese": "只有到那时",
+        "parent_id": "c_023_001",
+        "target_id": "c_023_003",
+        "relation": "倒装触发成分，说明 will be 的条件时间"
+      },
+      {
+        "chunk_id": "c_023_003",
+        "role": "谓语",
+        "english": "will be",
+        "chinese": "将会是",
+        "parent_id": "c_023_001",
+        "target_id": null,
+        "relation": "倒装结构中助动词提前后的谓语"
+      },
+      {
+        "chunk_id": "c_023_004",
+        "role": "主语",
+        "english": "they",
+        "chinese": "它们",
+        "parent_id": "c_023_001",
+        "target_id": null,
+        "relation": "倒装结构主语"
+      },
+      {
+        "chunk_id": "c_023_005",
+        "role": "并列表语",
+        "english": "useful servants",
+        "chinese": "有用的仆人",
+        "parent_id": "c_023_001",
+        "target_id": "c_023_003",
+        "relation": "will be 的肯定表语"
+      },
+      {
+        "chunk_id": "c_023_006",
+        "role": "并列表语",
+        "english": "and not Frankenstein’s out-of-control monster",
+        "chinese": "而不是弗兰肯斯坦式失控的怪物",
+        "parent_id": "c_023_001",
+        "target_id": "c_023_003",
+        "relation": "will be 的否定对照表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "Only then will + 主语 + 动词",
+        "explanation": "Only then 位于句首触发部分倒装，will 提前到主语 they 前。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "servants",
+        "pos": "n.",
+        "meaning": "仆人；服务者",
+        "chunk_id": "c_023_005"
+      },
+      {
+        "word": "out-of-control",
+        "pos": "adj.",
+        "meaning": "失控的",
+        "chunk_id": "c_023_006"
+      }
+    ],
+    "key_phrases": []
+  }
+]

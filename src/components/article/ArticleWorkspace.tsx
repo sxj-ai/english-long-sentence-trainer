@@ -3,11 +3,27 @@
 import { useMemo, useRef, useState } from "react";
 import type { Article, Sentence } from "@/features/article/articleTypes";
 import { ArticleReader } from "./ArticleReader";
+import { SentenceAiTutor } from "./SentenceAiTutor";
 import { SentenceDetailPanel } from "./SentenceDetailPanel";
 
-export function ArticleWorkspace({ article }: { article: Article }) {
-  const [selectedSentenceId, setSelectedSentenceId] = useState(article.sentences[0]?.sentenceId);
+type SideMode = "sentences" | "ai";
+type AiAccess = "student" | "anonymous" | "other";
+
+interface ArticleWorkspaceProps {
+  aiAccess: AiAccess;
+  article: Article;
+  initialSentenceId?: string;
+  initialSideMode?: SideMode;
+}
+
+export function ArticleWorkspace({ aiAccess, article, initialSentenceId, initialSideMode = "sentences" }: ArticleWorkspaceProps) {
+  const fallbackSentenceId = article.sentences[0]?.sentenceId;
+  const initialSelectedSentenceId = article.sentences.some((sentence) => sentence.sentenceId === initialSentenceId)
+    ? initialSentenceId
+    : fallbackSentenceId;
+  const [selectedSentenceId, setSelectedSentenceId] = useState(initialSelectedSentenceId);
   const [selectedChunkId, setSelectedChunkId] = useState<string | null>(null);
+  const [sideMode, setSideMode] = useState<SideMode>(initialSideMode);
   const [leftWidth, setLeftWidth] = useState(32);
   const layoutRef = useRef<HTMLElement | null>(null);
 
@@ -45,14 +61,27 @@ export function ArticleWorkspace({ article }: { article: Article }) {
       ref={layoutRef}
       style={{ gridTemplateColumns: `minmax(260px, ${leftWidth}%) 12px minmax(520px, 1fr)` }}
     >
-      <ArticleReader
-        article={article}
-        selectedSentenceId={selectedSentenceId}
-        onSelectSentence={(sentenceId) => {
-          setSelectedSentenceId(sentenceId);
-          setSelectedChunkId(null);
-        }}
-      />
+      <div className="workspace-side-slot">
+        <div hidden={sideMode !== "sentences"}>
+          <ArticleReader
+            article={article}
+            selectedSentenceId={selectedSentenceId}
+            onAskAi={() => setSideMode("ai")}
+            onSelectSentence={(sentenceId) => {
+              setSelectedSentenceId(sentenceId);
+              setSelectedChunkId(null);
+            }}
+          />
+        </div>
+        <div hidden={sideMode !== "ai"}>
+          <SentenceAiTutor
+            aiAccess={aiAccess}
+            article={article}
+            onShowSentences={() => setSideMode("sentences")}
+            sentence={selectedSentence}
+          />
+        </div>
+      </div>
       <button
         aria-label="拖动调整左右区域宽度"
         className="pane-resizer"
@@ -62,8 +91,10 @@ export function ArticleWorkspace({ article }: { article: Article }) {
         type="button"
       />
       <SentenceDetailPanel
+        article={article}
         sentence={selectedSentence}
         selectedChunkId={selectedChunkId}
+        onAskAi={() => setSideMode("ai")}
         onSelectChunk={setSelectedChunkId}
       />
     </section>

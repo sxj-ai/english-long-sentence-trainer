@@ -1,0 +1,1929 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Financial regulators in Britain have imposed a rather unusual rule on the bosses of big banks.",
+    "difficulty": 2,
+    "translation_literal": "英国金融监管机构已经对大型银行的老板们施加了一条相当不寻常的规则。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "Financial regulators in Britain",
+        "chinese": "英国金融监管机构",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "定语",
+        "english": "in Britain",
+        "chinese": "在英国的",
+        "parent_id": "c_001_001",
+        "target_id": "c_001_001",
+        "relation": "修饰 Financial regulators"
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "谓语",
+        "english": "have imposed",
+        "chinese": "已经施加",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "宾语",
+        "english": "a rather unusual rule",
+        "chinese": "一条相当不寻常的规则",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "作 imposed 的宾语"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "状语",
+        "english": "on the bosses of big banks",
+        "chinese": "对大型银行的老板们",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "说明 imposed 的对象"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "regulators",
+        "pos": "n.",
+        "meaning": "监管机构；监管者",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "imposed",
+        "pos": "v.",
+        "meaning": "施加；强制实行",
+        "chunk_id": "c_001_003"
+      },
+      {
+        "word": "unusual",
+        "pos": "adj.",
+        "meaning": "不寻常的",
+        "chunk_id": "c_001_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "impose a rule on",
+        "phrase_type": "collocation",
+        "meaning": "对……施加规则",
+        "chunk_id": "c_001_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Starting next year, any guaranteed bonus of top executives could be delayed 10 years if their banks are under investigation for wrongdoing.",
+    "difficulty": 4,
+    "translation_literal": "从明年开始，如果他们所在的银行因不当行为受到调查，高管的任何保证奖金都可能被推迟 10 年发放。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "状语",
+        "english": "Starting next year",
+        "chinese": "从明年开始",
+        "parent_id": null,
+        "target_id": "c_002_004",
+        "relation": "说明 could be delayed 的起始时间"
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "主语",
+        "english": "any guaranteed bonus of top executives",
+        "chinese": "高管的任何保证奖金",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "定语",
+        "english": "of top executives",
+        "chinese": "高管的",
+        "parent_id": "c_002_002",
+        "target_id": "c_002_002",
+        "relation": "修饰 bonus"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "谓语",
+        "english": "could be delayed",
+        "chinese": "可能被推迟发放",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "状语",
+        "english": "10 years",
+        "chinese": "10 年",
+        "parent_id": null,
+        "target_id": "c_002_004",
+        "relation": "说明 delayed 的时间长度"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "条件状语从句",
+        "english": "if their banks are under investigation for wrongdoing",
+        "chinese": "如果他们的银行因不当行为正在接受调查",
+        "parent_id": null,
+        "target_id": "c_002_004",
+        "relation": "说明 could be delayed 的条件"
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "从句主语",
+        "english": "their banks",
+        "chinese": "他们的银行",
+        "parent_id": "c_002_006",
+        "target_id": null,
+        "relation": "if 从句内部主语"
+      },
+      {
+        "chunk_id": "c_002_008",
+        "role": "从句谓语",
+        "english": "are",
+        "chinese": "处于",
+        "parent_id": "c_002_006",
+        "target_id": null,
+        "relation": "if 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_002_009",
+        "role": "从句表语",
+        "english": "under investigation for wrongdoing",
+        "chinese": "因不当行为受到调查",
+        "parent_id": "c_002_006",
+        "target_id": "c_002_008",
+        "relation": "作 are 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "guaranteed",
+        "pos": "adj.",
+        "meaning": "有保证的",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "executives",
+        "pos": "n.",
+        "meaning": "高管",
+        "chunk_id": "c_002_003"
+      },
+      {
+        "word": "wrongdoing",
+        "pos": "n.",
+        "meaning": "不当行为；违法行为",
+        "chunk_id": "c_002_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "under investigation",
+        "phrase_type": "prep. phr.",
+        "meaning": "正在接受调查",
+        "chunk_id": "c_002_009"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The main purpose of this “clawback” rule is to hold bankers accountable for harmful risk-taking and to restore public trust in financial institutions.",
+    "difficulty": 4,
+    "translation_literal": "这条“追回”规则的主要目的，是让银行家为有害的冒险行为负责，并恢复公众对金融机构的信任。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "The main purpose of this “clawback” rule",
+        "chinese": "这条“追回”规则的主要目的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "定语",
+        "english": "of this “clawback” rule",
+        "chinese": "这条“追回”规则的",
+        "parent_id": "c_003_001",
+        "target_id": "c_003_001",
+        "relation": "修饰 purpose"
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "表语",
+        "english": "to hold bankers accountable for harmful risk-taking and to restore public trust in financial institutions",
+        "chinese": "让银行家为有害的冒险行为负责并恢复公众对金融机构的信任",
+        "parent_id": null,
+        "target_id": "c_003_003",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "并列成分",
+        "english": "to hold bankers accountable for harmful risk-taking",
+        "chinese": "让银行家为有害的冒险行为负责",
+        "parent_id": "c_003_004",
+        "target_id": null,
+        "relation": "表语中的第一个不定式目的"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "宾语",
+        "english": "bankers",
+        "chinese": "银行家",
+        "parent_id": "c_003_005",
+        "target_id": "c_003_005",
+        "relation": "作 hold 的宾语"
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "宾语补足语",
+        "english": "accountable for harmful risk-taking",
+        "chinese": "为有害的冒险行为负责",
+        "parent_id": "c_003_005",
+        "target_id": "c_003_006",
+        "relation": "补充说明 bankers 的状态"
+      },
+      {
+        "chunk_id": "c_003_008",
+        "role": "并列成分",
+        "english": "to restore public trust in financial institutions",
+        "chinese": "恢复公众对金融机构的信任",
+        "parent_id": "c_003_004",
+        "target_id": null,
+        "relation": "表语中的第二个不定式目的"
+      },
+      {
+        "chunk_id": "c_003_009",
+        "role": "宾语",
+        "english": "public trust in financial institutions",
+        "chinese": "公众对金融机构的信任",
+        "parent_id": "c_003_008",
+        "target_id": "c_003_008",
+        "relation": "作 restore 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "to hold... and to restore...",
+        "explanation": "两个不定式并列作表语，分别说明 clawback rule 的两个目的。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "purpose",
+        "pos": "n.",
+        "meaning": "目的",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "accountable",
+        "pos": "adj.",
+        "meaning": "负有责任的",
+        "chunk_id": "c_003_007"
+      },
+      {
+        "word": "restore",
+        "pos": "v.",
+        "meaning": "恢复",
+        "chunk_id": "c_003_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "hold sb accountable for",
+        "phrase_type": "collocation",
+        "meaning": "让某人为……负责",
+        "chunk_id": "c_003_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Yet officials also hope for a much larger benefit: more long-term decision-making, not only by banks but by all corporations, to build a stronger economy for future generations.",
+    "difficulty": 5,
+    "translation_literal": "然而，官员们也期待一个大得多的益处：更多长期决策，不仅由银行作出，也由所有公司作出，以为后代建立一个更强大的经济。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "连接成分",
+        "english": "Yet",
+        "chinese": "然而",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "主语",
+        "english": "officials",
+        "chinese": "官员们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "状语",
+        "english": "also",
+        "chinese": "也",
+        "parent_id": null,
+        "target_id": "c_004_004",
+        "relation": "修饰 hope for"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "谓语",
+        "english": "hope for",
+        "chinese": "期待",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "宾语",
+        "english": "a much larger benefit",
+        "chinese": "一个大得多的益处",
+        "parent_id": null,
+        "target_id": "c_004_004",
+        "relation": "作 hope for 的宾语"
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "同位语解释结构",
+        "english": "more long-term decision-making, not only by banks but by all corporations",
+        "chinese": "更多长期决策，不仅由银行作出，也由所有公司作出",
+        "parent_id": null,
+        "target_id": "c_004_005",
+        "relation": "冒号后解释 larger benefit 的具体内容"
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "并列成分",
+        "english": "not only by banks but by all corporations",
+        "chinese": "不仅由银行而且由所有公司",
+        "parent_id": "c_004_006",
+        "target_id": "c_004_006",
+        "relation": "说明 decision-making 的执行者范围"
+      },
+      {
+        "chunk_id": "c_004_008",
+        "role": "状语",
+        "english": "to build a stronger economy for future generations",
+        "chinese": "为了为后代建立一个更强大的经济",
+        "parent_id": null,
+        "target_id": "c_004_004",
+        "relation": "说明 hope for 这一益处的最终目的"
+      },
+      {
+        "chunk_id": "c_004_009",
+        "role": "宾语",
+        "english": "a stronger economy",
+        "chinese": "一个更强大的经济",
+        "parent_id": "c_004_008",
+        "target_id": "c_004_008",
+        "relation": "作 build 的宾语"
+      },
+      {
+        "chunk_id": "c_004_010",
+        "role": "定语",
+        "english": "for future generations",
+        "chinese": "为了后代的",
+        "parent_id": "c_004_009",
+        "target_id": "c_004_009",
+        "relation": "修饰 economy"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "benefit: more long-term decision-making",
+        "explanation": "冒号后的名词短语解释前面的 larger benefit。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "not only by A but by B",
+        "explanation": "not only...but... 展示长期决策应来自银行和所有公司两个范围。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "officials",
+        "pos": "n.",
+        "meaning": "官员",
+        "chunk_id": "c_004_002"
+      },
+      {
+        "word": "corporations",
+        "pos": "n.",
+        "meaning": "公司；企业",
+        "chunk_id": "c_004_007"
+      },
+      {
+        "word": "generations",
+        "pos": "n.",
+        "meaning": "几代人；后代",
+        "chunk_id": "c_004_010"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "“Short-termism” or the desire for quick profits, has worsened in publicly traded companies, says the Bank of England’s top economist, Andrew Haldane.",
+    "difficulty": 4,
+    "translation_literal": "英格兰银行首席经济学家安德鲁·霍尔丹说，“短期主义”，或者说对快速利润的渴望，在上市公司中已经恶化。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "“Short-termism” or the desire for quick profits",
+        "chinese": "“短期主义”，或者说对快速利润的渴望",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "同位语",
+        "english": "the desire for quick profits",
+        "chinese": "对快速利润的渴望",
+        "parent_id": "c_005_001",
+        "target_id": "c_005_001",
+        "relation": "解释 Short-termism 的含义"
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "谓语",
+        "english": "has worsened",
+        "chinese": "已经恶化",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "状语",
+        "english": "in publicly traded companies",
+        "chinese": "在上市公司中",
+        "parent_id": null,
+        "target_id": "c_005_003",
+        "relation": "说明 worsened 的范围"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "插入语",
+        "english": "says the Bank of England’s top economist, Andrew Haldane",
+        "chinese": "英格兰银行首席经济学家安德鲁·霍尔丹说",
+        "parent_id": null,
+        "target_id": "c_005_001",
+        "relation": "说明该判断的来源"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "同位语",
+        "english": "Andrew Haldane",
+        "chinese": "安德鲁·霍尔丹",
+        "parent_id": "c_005_005",
+        "target_id": "c_005_005",
+        "relation": "解释 top economist 的姓名"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句 + says + 人物",
+        "explanation": "says... 插入在句末，说明前面判断的说话者。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "Short-termism or the desire...",
+        "explanation": "or 后面的名词短语解释 Short-termism 的具体含义。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "desire",
+        "pos": "n.",
+        "meaning": "渴望；欲望",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "worsened",
+        "pos": "v.",
+        "meaning": "恶化",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "economist",
+        "pos": "n.",
+        "meaning": "经济学家",
+        "chunk_id": "c_005_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "publicly traded companies",
+        "phrase_type": "n. phr.",
+        "meaning": "上市公司",
+        "chunk_id": "c_005_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "He quotes a giant of classical economics, Alfred Marshall, in describing this financial impatience as acting like “children who pick the plums out of their pudding to eat them at once” rather than putting them aside to be eaten last.",
+    "difficulty": 5,
+    "translation_literal": "他在描述这种金融上的急躁时，引用了古典经济学巨匠阿尔弗雷德·马歇尔的话，把它说成像“把李子从布丁里挑出来马上吃掉的孩子们”那样行事，而不是把它们放在一边留到最后吃。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "He",
+        "chinese": "他",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "quotes",
+        "chinese": "引用",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "宾语",
+        "english": "a giant of classical economics, Alfred Marshall",
+        "chinese": "古典经济学巨匠阿尔弗雷德·马歇尔",
+        "parent_id": null,
+        "target_id": "c_006_002",
+        "relation": "作 quotes 的宾语"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "同位语",
+        "english": "Alfred Marshall",
+        "chinese": "阿尔弗雷德·马歇尔",
+        "parent_id": "c_006_003",
+        "target_id": "c_006_003",
+        "relation": "解释 a giant of classical economics"
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "状语",
+        "english": "in describing this financial impatience as acting like children rather than putting them aside",
+        "chinese": "在把这种金融急躁描述为像孩子们那样行动而不是把它们放在一边时",
+        "parent_id": null,
+        "target_id": "c_006_002",
+        "relation": "说明 quotes 的语境"
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "宾语",
+        "english": "this financial impatience",
+        "chinese": "这种金融上的急躁",
+        "parent_id": "c_006_005",
+        "target_id": "c_006_005",
+        "relation": "作 describing 的宾语"
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "宾语补足语",
+        "english": "as acting like “children who pick the plums out of their pudding to eat them at once”",
+        "chinese": "为像“把李子从布丁里挑出来马上吃掉的孩子们”那样行事",
+        "parent_id": "c_006_005",
+        "target_id": "c_006_006",
+        "relation": "补充说明 financial impatience 的表现"
+      },
+      {
+        "chunk_id": "c_006_008",
+        "role": "定语从句",
+        "english": "who pick the plums out of their pudding to eat them at once",
+        "chinese": "把李子从布丁里挑出来马上吃掉的",
+        "parent_id": "c_006_007",
+        "target_id": "c_006_007",
+        "relation": "修饰 children"
+      },
+      {
+        "chunk_id": "c_006_009",
+        "role": "定语从句主语",
+        "english": "who",
+        "chinese": "这些孩子",
+        "parent_id": "c_006_008",
+        "target_id": null,
+        "relation": "who 从句内部主语"
+      },
+      {
+        "chunk_id": "c_006_010",
+        "role": "定语从句谓语",
+        "english": "pick",
+        "chinese": "挑出",
+        "parent_id": "c_006_008",
+        "target_id": null,
+        "relation": "who 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_006_011",
+        "role": "定语从句宾语",
+        "english": "the plums",
+        "chinese": "李子",
+        "parent_id": "c_006_008",
+        "target_id": "c_006_010",
+        "relation": "作 pick 的宾语"
+      },
+      {
+        "chunk_id": "c_006_012",
+        "role": "状语",
+        "english": "out of their pudding",
+        "chinese": "从他们的布丁里",
+        "parent_id": "c_006_008",
+        "target_id": "c_006_010",
+        "relation": "说明 pick 的来源"
+      },
+      {
+        "chunk_id": "c_006_013",
+        "role": "状语",
+        "english": "to eat them at once",
+        "chinese": "为了马上吃掉它们",
+        "parent_id": "c_006_008",
+        "target_id": "c_006_010",
+        "relation": "说明 pick 的目的"
+      },
+      {
+        "chunk_id": "c_006_014",
+        "role": "并列成分",
+        "english": "rather than putting them aside to be eaten last",
+        "chinese": "而不是把它们放在一边留到最后吃",
+        "parent_id": "c_006_005",
+        "target_id": "c_006_007",
+        "relation": "与 acting like... 对比"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "a giant..., Alfred Marshall",
+        "explanation": "Alfred Marshall 解释 a giant of classical economics 的具体身份。"
+      },
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "describing A as B rather than C",
+        "explanation": "describing 的宾语和补足语之间较长，且 rather than 引出对照行为。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "quotes",
+        "pos": "v.",
+        "meaning": "引用",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "impatience",
+        "pos": "n.",
+        "meaning": "急躁；缺乏耐心",
+        "chunk_id": "c_006_006"
+      },
+      {
+        "word": "classical",
+        "pos": "adj.",
+        "meaning": "古典的",
+        "chunk_id": "c_006_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "rather than",
+        "phrase_type": "conj. phr.",
+        "meaning": "而不是",
+        "chunk_id": "c_006_014"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The average time for holding a stock in both the United States and Britain, he notes, has dropped from seven years to seven months in recent decades.",
+    "difficulty": 4,
+    "translation_literal": "他指出，在美国和英国持有一只股票的平均时间，在最近几十年里已经从七年下降到七个月。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "The average time for holding a stock in both the United States and Britain",
+        "chinese": "在美国和英国持有一只股票的平均时间",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "定语",
+        "english": "for holding a stock",
+        "chinese": "持有一只股票的",
+        "parent_id": "c_007_001",
+        "target_id": "c_007_001",
+        "relation": "修饰 average time"
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "状语",
+        "english": "in both the United States and Britain",
+        "chinese": "在美国和英国",
+        "parent_id": "c_007_002",
+        "target_id": "c_007_002",
+        "relation": "说明 holding 的范围"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "插入语",
+        "english": "he notes",
+        "chinese": "他指出",
+        "parent_id": null,
+        "target_id": "c_007_001",
+        "relation": "说明信息来源"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "谓语",
+        "english": "has dropped",
+        "chinese": "已经下降",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "状语",
+        "english": "from seven years to seven months",
+        "chinese": "从七年到七个月",
+        "parent_id": null,
+        "target_id": "c_007_005",
+        "relation": "说明 dropped 的变化幅度"
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "状语",
+        "english": "in recent decades",
+        "chinese": "在最近几十年里",
+        "parent_id": null,
+        "target_id": "c_007_005",
+        "relation": "说明 dropped 的时间范围"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语, he notes, 谓语",
+        "explanation": "he notes 插在主语和谓语之间，阅读时可先跳过。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "average",
+        "pos": "adj.",
+        "meaning": "平均的",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "dropped",
+        "pos": "v.",
+        "meaning": "下降",
+        "chunk_id": "c_007_005"
+      },
+      {
+        "word": "decades",
+        "pos": "n.",
+        "meaning": "几十年",
+        "chunk_id": "c_007_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Transient investors, who demand high quarterly profits from companies, can hinder a firm’s efforts to invest in long-term research or to build up customer loyalty.",
+    "difficulty": 5,
+    "translation_literal": "短期投资者，那些要求公司提供高季度利润的人，可能会阻碍一家公司投资长期研究或建立客户忠诚度的努力。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "Transient investors",
+        "chinese": "短期投资者",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "定语从句",
+        "english": "who demand high quarterly profits from companies",
+        "chinese": "要求公司提供高季度利润的",
+        "parent_id": null,
+        "target_id": "c_008_001",
+        "relation": "修饰 Transient investors"
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "定语从句主语",
+        "english": "who",
+        "chinese": "这些投资者",
+        "parent_id": "c_008_002",
+        "target_id": null,
+        "relation": "who 从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "定语从句谓语",
+        "english": "demand",
+        "chinese": "要求",
+        "parent_id": "c_008_002",
+        "target_id": null,
+        "relation": "who 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "定语从句宾语",
+        "english": "high quarterly profits",
+        "chinese": "高季度利润",
+        "parent_id": "c_008_002",
+        "target_id": "c_008_004",
+        "relation": "作 demand 的宾语"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "状语",
+        "english": "from companies",
+        "chinese": "从公司那里",
+        "parent_id": "c_008_002",
+        "target_id": "c_008_004",
+        "relation": "说明 demand 的对象来源"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "谓语",
+        "english": "can hinder",
+        "chinese": "可能阻碍",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "宾语",
+        "english": "a firm’s efforts to invest in long-term research or to build up customer loyalty",
+        "chinese": "一家公司投资长期研究或建立客户忠诚度的努力",
+        "parent_id": null,
+        "target_id": "c_008_007",
+        "relation": "作 hinder 的宾语"
+      },
+      {
+        "chunk_id": "c_008_009",
+        "role": "定语",
+        "english": "to invest in long-term research",
+        "chinese": "投资长期研究的",
+        "parent_id": "c_008_008",
+        "target_id": "c_008_008",
+        "relation": "修饰 efforts 的第一项内容"
+      },
+      {
+        "chunk_id": "c_008_010",
+        "role": "并列定语",
+        "english": "or to build up customer loyalty",
+        "chinese": "或者建立客户忠诚度的",
+        "parent_id": "c_008_008",
+        "target_id": "c_008_008",
+        "relation": "修饰 efforts 的第二项内容"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语, who..., 谓语",
+        "explanation": "非限制性定语从句插入主语后，补充说明 transient investors 的行为。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "to invest... or to build up...",
+        "explanation": "两个不定式并列说明 firm’s efforts 的具体方向。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Transient",
+        "pos": "adj.",
+        "meaning": "短暂的；临时的",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "word": "quarterly",
+        "pos": "adj.",
+        "meaning": "季度的",
+        "chunk_id": "c_008_005"
+      },
+      {
+        "word": "hinder",
+        "pos": "v.",
+        "meaning": "阻碍",
+        "chunk_id": "c_008_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "build up customer loyalty",
+        "phrase_type": "v. phr.",
+        "meaning": "建立客户忠诚度",
+        "chunk_id": "c_008_010"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "This has been dubbed “quarterly capitalism.”",
+    "difficulty": 2,
+    "translation_literal": "这已经被称为“季度资本主义”。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "This",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "has been dubbed",
+        "chinese": "已经被称为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "宾语补足语",
+        "english": "“quarterly capitalism”",
+        "chinese": "“季度资本主义”",
+        "parent_id": null,
+        "target_id": "c_009_001",
+        "relation": "补充说明 This 被称作什么"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "dubbed",
+        "pos": "v.",
+        "meaning": "给……起名；称为",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "quarterly",
+        "pos": "adj.",
+        "meaning": "季度的",
+        "chunk_id": "c_009_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "In addition, new digital technologies have allowed more rapid trading of equities, quicker use of information, and thus shorter attention spans in financial markets.",
+    "difficulty": 4,
+    "translation_literal": "此外，新的数字技术已经使股票交易更快、信息使用更快，并因此使金融市场中的注意力持续时间更短。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "连接成分",
+        "english": "In addition",
+        "chinese": "此外",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "主语",
+        "english": "new digital technologies",
+        "chinese": "新的数字技术",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "谓语",
+        "english": "have allowed",
+        "chinese": "已经使得",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "并列宾语",
+        "english": "more rapid trading of equities",
+        "chinese": "更快速的股票交易",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "allowed 的第一项结果"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "并列宾语",
+        "english": "quicker use of information",
+        "chinese": "更快速的信息使用",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "allowed 的第二项结果"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "并列宾语",
+        "english": "and thus shorter attention spans in financial markets",
+        "chinese": "并因此在金融市场中更短的注意力持续时间",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "allowed 的第三项结果"
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "状语",
+        "english": "in financial markets",
+        "chinese": "在金融市场中",
+        "parent_id": "c_010_006",
+        "target_id": "c_010_006",
+        "relation": "说明 attention spans 的范围"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A, B, and thus C",
+        "explanation": "三个名词短语并列作 allowed 的结果，第三项由 thus 引出因果推进。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "equities",
+        "pos": "n.",
+        "meaning": "股票；股权",
+        "chunk_id": "c_010_004"
+      },
+      {
+        "word": "rapid",
+        "pos": "adj.",
+        "meaning": "快速的",
+        "chunk_id": "c_010_004"
+      },
+      {
+        "word": "spans",
+        "pos": "n.",
+        "meaning": "持续时间",
+        "chunk_id": "c_010_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "“There seems to be a predominance of short-term thinking at the expense of long-term investing,” said Commissioner Daniel Gallagher of the US Securities and Exchange Commission in a speech this week.",
+    "difficulty": 4,
+    "translation_literal": "美国证券交易委员会委员丹尼尔·加拉格尔本周在一次演讲中说：“短期思维似乎占据主导，而这是以长期投资为代价的。”",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "存在句",
+        "english": "There seems to be a predominance of short-term thinking at the expense of long-term investing",
+        "chinese": "短期思维似乎占据主导，而这是以长期投资为代价的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "seems to be",
+        "chinese": "似乎有",
+        "parent_id": "c_011_001",
+        "target_id": null,
+        "relation": "there be 结构中的谓语"
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "真正主语",
+        "english": "a predominance of short-term thinking",
+        "chinese": "短期思维的主导地位",
+        "parent_id": "c_011_001",
+        "target_id": null,
+        "relation": "there be 结构的真实主语"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "状语",
+        "english": "at the expense of long-term investing",
+        "chinese": "以长期投资为代价",
+        "parent_id": "c_011_001",
+        "target_id": "c_011_002",
+        "relation": "说明 predominance 的代价"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "插入语",
+        "english": "said Commissioner Daniel Gallagher of the US Securities and Exchange Commission in a speech this week",
+        "chinese": "美国证券交易委员会委员丹尼尔·加拉格尔本周在一次演讲中说",
+        "parent_id": null,
+        "target_id": "c_011_001",
+        "relation": "说明引语来源"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "主语",
+        "english": "Commissioner Daniel Gallagher of the US Securities and Exchange Commission",
+        "chinese": "美国证券交易委员会委员丹尼尔·加拉格尔",
+        "parent_id": "c_011_005",
+        "target_id": null,
+        "relation": "said 的主语"
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "谓语",
+        "english": "said",
+        "chinese": "说",
+        "parent_id": "c_011_005",
+        "target_id": null,
+        "relation": "引语谓语"
+      },
+      {
+        "chunk_id": "c_011_008",
+        "role": "状语",
+        "english": "in a speech this week",
+        "chinese": "本周在一次演讲中",
+        "parent_id": "c_011_005",
+        "target_id": "c_011_007",
+        "relation": "说明 said 的场合"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "引语 + said + 人物",
+        "explanation": "said... 说明引语来源，阅读时先处理引号内 there be 结构。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "predominance",
+        "pos": "n.",
+        "meaning": "主导地位；优势",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "word": "expense",
+        "pos": "n.",
+        "meaning": "代价",
+        "chunk_id": "c_011_004"
+      },
+      {
+        "word": "Commissioner",
+        "pos": "n.",
+        "meaning": "委员；专员",
+        "chunk_id": "c_011_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "at the expense of",
+        "phrase_type": "prep. phr.",
+        "meaning": "以……为代价",
+        "chunk_id": "c_011_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "In the US, the Sarbanes-Oxley Act of 2002 has pushed most public companies to defer performance bonuses for senior executives by about a year, slightly helping reduce “short-termism.”",
+    "difficulty": 5,
+    "translation_literal": "在美国，2002 年的《萨班斯-奥克斯利法案》已经推动大多数上市公司把高级管理人员的绩效奖金推迟大约一年发放，从而略微帮助减少“短期主义”。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "状语",
+        "english": "In the US",
+        "chinese": "在美国",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "说明 has pushed 的地点范围"
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "主语",
+        "english": "the Sarbanes-Oxley Act of 2002",
+        "chinese": "2002 年的《萨班斯-奥克斯利法案》",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "谓语",
+        "english": "has pushed",
+        "chinese": "已经推动",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "宾语",
+        "english": "most public companies",
+        "chinese": "大多数上市公司",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "作 pushed 的宾语"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "宾语补足语",
+        "english": "to defer performance bonuses for senior executives by about a year",
+        "chinese": "把高级管理人员的绩效奖金推迟大约一年",
+        "parent_id": null,
+        "target_id": "c_012_004",
+        "relation": "补充说明 public companies 被推动去做什么"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "宾语",
+        "english": "performance bonuses for senior executives",
+        "chinese": "高级管理人员的绩效奖金",
+        "parent_id": "c_012_005",
+        "target_id": "c_012_005",
+        "relation": "作 defer 的宾语"
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "状语",
+        "english": "by about a year",
+        "chinese": "大约一年",
+        "parent_id": "c_012_005",
+        "target_id": "c_012_005",
+        "relation": "说明 defer 的时间幅度"
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "非谓语结构",
+        "english": "slightly helping reduce “short-termism”",
+        "chinese": "从而略微帮助减少“短期主义”",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "说明 has pushed 的结果"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "defer",
+        "pos": "v.",
+        "meaning": "推迟",
+        "chunk_id": "c_012_005"
+      },
+      {
+        "word": "performance",
+        "pos": "n.",
+        "meaning": "绩效；表现",
+        "chunk_id": "c_012_006"
+      },
+      {
+        "word": "slightly",
+        "pos": "adv.",
+        "meaning": "略微地",
+        "chunk_id": "c_012_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "public companies",
+        "phrase_type": "n. phr.",
+        "meaning": "上市公司",
+        "chunk_id": "c_012_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "In its latest survey of CEO pay, The Wall Street Journal finds that “a substantial part” of executive pay is now tied to performance.",
+    "difficulty": 4,
+    "translation_literal": "在其最新的 CEO 薪酬调查中，《华尔街日报》发现，高管薪酬的“相当大一部分”现在与绩效挂钩。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "状语",
+        "english": "In its latest survey of CEO pay",
+        "chinese": "在其最新的 CEO 薪酬调查中",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "说明 finds 的信息来源范围"
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "主语",
+        "english": "The Wall Street Journal",
+        "chinese": "《华尔街日报》",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "谓语",
+        "english": "finds",
+        "chinese": "发现",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "宾语从句",
+        "english": "that “a substantial part” of executive pay is now tied to performance",
+        "chinese": "高管薪酬的“相当大一部分”现在与绩效挂钩",
+        "parent_id": null,
+        "target_id": "c_013_003",
+        "relation": "作 finds 的宾语"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "从句主语",
+        "english": "“a substantial part” of executive pay",
+        "chinese": "高管薪酬的“相当大一部分”",
+        "parent_id": "c_013_004",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "从句谓语",
+        "english": "is now tied to",
+        "chinese": "现在与……挂钩",
+        "parent_id": "c_013_004",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_013_007",
+        "role": "从句宾语",
+        "english": "performance",
+        "chinese": "绩效",
+        "parent_id": "c_013_004",
+        "target_id": "c_013_006",
+        "relation": "作 tied to 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "latest",
+        "pos": "adj.",
+        "meaning": "最新的",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "substantial",
+        "pos": "adj.",
+        "meaning": "相当大的",
+        "chunk_id": "c_013_005"
+      },
+      {
+        "word": "performance",
+        "pos": "n.",
+        "meaning": "绩效",
+        "chunk_id": "c_013_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "be tied to",
+        "phrase_type": "collocation",
+        "meaning": "与……挂钩",
+        "chunk_id": "c_013_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Much more could be done to encourage “long-termism,” such as changes in the tax code and quicker disclosure of stock acquisitions.",
+    "difficulty": 3,
+    "translation_literal": "可以做更多事情来鼓励“长期主义”，例如税法的变化和更快披露股票收购。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "Much more",
+        "chinese": "更多的事情",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "could be done",
+        "chinese": "可以被做",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "状语",
+        "english": "to encourage “long-termism”",
+        "chinese": "为了鼓励“长期主义”",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "说明 could be done 的目的"
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "插入举例",
+        "english": "such as changes in the tax code and quicker disclosure of stock acquisitions",
+        "chinese": "例如税法的变化和更快披露股票收购",
+        "parent_id": null,
+        "target_id": "c_014_001",
+        "relation": "举例说明 Much more 的具体措施"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "并列成分",
+        "english": "changes in the tax code",
+        "chinese": "税法的变化",
+        "parent_id": "c_014_004",
+        "target_id": null,
+        "relation": "举例中的第一项"
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "并列成分",
+        "english": "quicker disclosure of stock acquisitions",
+        "chinese": "更快披露股票收购",
+        "parent_id": "c_014_004",
+        "target_id": null,
+        "relation": "举例中的第二项"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "such as A and B",
+        "explanation": "such as 后列举鼓励长期主义的具体措施。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "encourage",
+        "pos": "v.",
+        "meaning": "鼓励；促进",
+        "chunk_id": "c_014_003"
+      },
+      {
+        "word": "disclosure",
+        "pos": "n.",
+        "meaning": "披露",
+        "chunk_id": "c_014_006"
+      },
+      {
+        "word": "acquisitions",
+        "pos": "n.",
+        "meaning": "收购",
+        "chunk_id": "c_014_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "In France, shareholders who hold onto a company investment for at least two years can sometimes earn more voting rights in a company.",
+    "difficulty": 4,
+    "translation_literal": "在法国，持有一家公司投资至少两年的股东，有时可以在公司中获得更多投票权。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "状语",
+        "english": "In France",
+        "chinese": "在法国",
+        "parent_id": null,
+        "target_id": "c_015_007",
+        "relation": "说明 can earn 的地点范围"
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "主语",
+        "english": "shareholders who hold onto a company investment for at least two years",
+        "chinese": "持有一家公司投资至少两年的股东",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "定语从句",
+        "english": "who hold onto a company investment for at least two years",
+        "chinese": "持有一家公司投资至少两年的",
+        "parent_id": "c_015_002",
+        "target_id": "c_015_002",
+        "relation": "修饰 shareholders"
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "定语从句主语",
+        "english": "who",
+        "chinese": "这些股东",
+        "parent_id": "c_015_003",
+        "target_id": null,
+        "relation": "who 从句内部主语"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "定语从句谓语",
+        "english": "hold onto",
+        "chinese": "持有",
+        "parent_id": "c_015_003",
+        "target_id": null,
+        "relation": "who 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_015_006",
+        "role": "定语从句宾语",
+        "english": "a company investment",
+        "chinese": "一家公司投资",
+        "parent_id": "c_015_003",
+        "target_id": "c_015_005",
+        "relation": "作 hold onto 的宾语"
+      },
+      {
+        "chunk_id": "c_015_007",
+        "role": "谓语",
+        "english": "can sometimes earn",
+        "chinese": "有时可以获得",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_008",
+        "role": "宾语",
+        "english": "more voting rights",
+        "chinese": "更多投票权",
+        "parent_id": null,
+        "target_id": "c_015_007",
+        "relation": "作 earn 的宾语"
+      },
+      {
+        "chunk_id": "c_015_009",
+        "role": "状语",
+        "english": "in a company",
+        "chinese": "在公司中",
+        "parent_id": null,
+        "target_id": "c_015_007",
+        "relation": "说明 earn voting rights 的范围"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "shareholders",
+        "pos": "n.",
+        "meaning": "股东",
+        "chunk_id": "c_015_002"
+      },
+      {
+        "word": "investment",
+        "pos": "n.",
+        "meaning": "投资",
+        "chunk_id": "c_015_006"
+      },
+      {
+        "word": "voting",
+        "pos": "adj.",
+        "meaning": "投票的",
+        "chunk_id": "c_015_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "hold onto",
+        "phrase_type": "v. phr.",
+        "meaning": "持续持有",
+        "chunk_id": "c_015_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Within companies, the right compensation design can provide incentives for executives to think beyond their own time at the company and on behalf of all stakeholders.",
+    "difficulty": 4,
+    "translation_literal": "在公司内部，正确的薪酬设计可以提供激励，使高管超越自己在公司的任期并代表所有利益相关者来思考。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "状语",
+        "english": "Within companies",
+        "chinese": "在公司内部",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "说明 provide 的范围"
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "主语",
+        "english": "the right compensation design",
+        "chinese": "正确的薪酬设计",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "谓语",
+        "english": "can provide",
+        "chinese": "可以提供",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "宾语",
+        "english": "incentives for executives to think beyond their own time at the company and on behalf of all stakeholders",
+        "chinese": "激励，使高管超越自己在公司的任期并代表所有利益相关者来思考",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "作 provide 的宾语"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "定语",
+        "english": "for executives to think beyond their own time at the company and on behalf of all stakeholders",
+        "chinese": "使高管超越自己的任期并代表所有利益相关者来思考的",
+        "parent_id": "c_016_004",
+        "target_id": "c_016_004",
+        "relation": "修饰 incentives 的内容"
+      },
+      {
+        "chunk_id": "c_016_006",
+        "role": "并列状语",
+        "english": "beyond their own time at the company",
+        "chinese": "超越他们自己在公司的时间",
+        "parent_id": "c_016_005",
+        "target_id": "c_016_005",
+        "relation": "说明 think 的第一方向"
+      },
+      {
+        "chunk_id": "c_016_007",
+        "role": "并列状语",
+        "english": "and on behalf of all stakeholders",
+        "chinese": "并代表所有利益相关者",
+        "parent_id": "c_016_005",
+        "target_id": "c_016_005",
+        "relation": "说明 think 的第二方向"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "beyond... and on behalf of...",
+        "explanation": "两个介词短语并列，说明 executives 思考时需要超越自身任期并考虑利益相关者。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "compensation",
+        "pos": "n.",
+        "meaning": "薪酬；补偿",
+        "chunk_id": "c_016_002"
+      },
+      {
+        "word": "incentives",
+        "pos": "n.",
+        "meaning": "激励",
+        "chunk_id": "c_016_004"
+      },
+      {
+        "word": "stakeholders",
+        "pos": "n.",
+        "meaning": "利益相关者",
+        "chunk_id": "c_016_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "on behalf of",
+        "phrase_type": "prep. phr.",
+        "meaning": "代表；为了……的利益",
+        "chunk_id": "c_016_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Britain’s new rule is a reminder to bankers that society has an interest in their performance, not just for the short term but for the long term.",
+    "difficulty": 4,
+    "translation_literal": "英国的新规则是对银行家的一个提醒：社会对他们的表现有利害关系，不只是为了短期，而且是为了长期。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "Britain’s new rule",
+        "chinese": "英国的新规则",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "表语",
+        "english": "a reminder to bankers",
+        "chinese": "对银行家的一个提醒",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "同位语从句",
+        "english": "that society has an interest in their performance, not just for the short term but for the long term",
+        "chinese": "社会对他们的表现有利害关系，不只是为了短期，而且是为了长期",
+        "parent_id": "c_017_003",
+        "target_id": "c_017_003",
+        "relation": "解释 reminder 的具体内容"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "同位语从句主语",
+        "english": "society",
+        "chinese": "社会",
+        "parent_id": "c_017_004",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "同位语从句谓语",
+        "english": "has",
+        "chinese": "有",
+        "parent_id": "c_017_004",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "同位语从句宾语",
+        "english": "an interest in their performance",
+        "chinese": "对他们表现的利害关系",
+        "parent_id": "c_017_004",
+        "target_id": "c_017_006",
+        "relation": "作 has 的宾语"
+      },
+      {
+        "chunk_id": "c_017_008",
+        "role": "并列状语",
+        "english": "not just for the short term but for the long term",
+        "chinese": "不只是为了短期，而是为了长期",
+        "parent_id": "c_017_004",
+        "target_id": "c_017_006",
+        "relation": "说明 society has an interest 的时间维度"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "reminder + that 从句",
+        "explanation": "that 从句解释 reminder 提醒银行家的具体内容。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "not just... but...",
+        "explanation": "not just...but... 对比短期和长期两个时间维度。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "reminder",
+        "pos": "n.",
+        "meaning": "提醒物；提示",
+        "chunk_id": "c_017_003"
+      },
+      {
+        "word": "society",
+        "pos": "n.",
+        "meaning": "社会",
+        "chunk_id": "c_017_005"
+      },
+      {
+        "word": "performance",
+        "pos": "n.",
+        "meaning": "表现；业绩",
+        "chunk_id": "c_017_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "have an interest in",
+        "phrase_type": "collocation",
+        "meaning": "对……有利害关系；关心",
+        "chunk_id": "c_017_007"
+      }
+    ]
+  }
+]

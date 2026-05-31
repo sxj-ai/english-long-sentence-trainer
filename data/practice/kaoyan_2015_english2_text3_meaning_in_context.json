@@ -1,0 +1,456 @@
+[
+  {
+    "check_id": "s_001_lingua_franca_meaning_in_context",
+    "source_sentence_id": "s_001",
+    "target": "lingua franca",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，lingua franca 最合适的意思是：",
+    "correct_meaning": "通用语",
+    "acceptable_meanings": [
+      "通用语"
+    ],
+    "meaning_pool": [
+      "通用语",
+      "口号",
+      "职位",
+      "规则"
+    ],
+    "explanation": "lingua franca of corporate America 指企业美国中的通用表达方式。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_001_much_more_emotional_meaning_in_context",
+    "source_sentence_id": "s_001",
+    "target": "much more emotional",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，much more emotional 最合适的意思是：",
+    "correct_meaning": "情绪色彩更强",
+    "acceptable_meanings": [
+      "情绪色彩更强",
+      "更感性"
+    ],
+    "meaning_pool": [
+      "情绪色彩更强",
+      "更理性",
+      "更正式",
+      "更安静"
+    ],
+    "explanation": "这里说公司语言变得更感性、更情绪化了。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_001_right_brained_meaning_in_context",
+    "source_sentence_id": "s_001",
+    "target": "right-brained",
+    "target_type": "word",
+    "prompt": "结合本句语境，right-brained 最合适的意思是：",
+    "correct_meaning": "偏右脑的/偏感性的",
+    "acceptable_meanings": [
+      "偏右脑的",
+      "更偏感性的"
+    ],
+    "meaning_pool": [
+      "偏右脑的/偏感性的",
+      "机械的",
+      "法律的",
+      "数字化的"
+    ],
+    "explanation": "right-brained 在这里不是医学判断，而是偏感性、重直觉。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_002_spinning_off_meaning_in_context",
+    "source_sentence_id": "s_002",
+    "target": "spinning off",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，spinning off 最合适的意思是：",
+    "correct_meaning": "接连举出/展开",
+    "acceptable_meanings": [
+      "接连举出",
+      "展开说明"
+    ],
+    "meaning_pool": [
+      "接连举出/展开",
+      "停止",
+      "删除",
+      "隐藏"
+    ],
+    "explanation": "She started spinning off examples 说明她开始不断举例。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_003_fortune_500_companies_meaning_in_context",
+    "source_sentence_id": "s_003",
+    "target": "Fortune 500 companies",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，Fortune 500 companies 最合适的意思是：",
+    "correct_meaning": "《财富》500强公司",
+    "acceptable_meanings": [
+      "《财富》500强公司"
+    ],
+    "meaning_pool": [
+      "《财富》500强公司",
+      "初创公司",
+      "国有企业",
+      "外包公司"
+    ],
+    "explanation": "这里是一个固定专名，指大型企业名单。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_005_not_by_coincidence_meaning_in_context",
+    "source_sentence_id": "s_005",
+    "target": "not by coincidence",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，not by coincidence 最合适的意思是：",
+    "correct_meaning": "并非偶然",
+    "acceptable_meanings": [
+      "并非偶然",
+      "不是巧合"
+    ],
+    "meaning_pool": [
+      "并非偶然",
+      "纯属巧合",
+      "完全随机",
+      "毫无关系"
+    ],
+    "explanation": "Koehn 说这种变化不是偶然发生的。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_005_team_oriented_meaning_in_context",
+    "source_sentence_id": "s_005",
+    "target": "team-oriented",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，team-oriented 最合适的意思是：",
+    "correct_meaning": "团队导向的",
+    "acceptable_meanings": [
+      "团队导向的"
+    ],
+    "meaning_pool": [
+      "团队导向的",
+      "个人主义的",
+      "学术性的",
+      "法律性的"
+    ],
+    "explanation": "new era of corporate vocabulary is very team-oriented 指更强调团队。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_006_big_deal_meaning_in_context",
+    "source_sentence_id": "s_006",
+    "target": "big deal",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，big deal 最合适的意思是：",
+    "correct_meaning": "大事/要紧事",
+    "acceptable_meanings": [
+      "大事",
+      "要紧事"
+    ],
+    "meaning_pool": [
+      "大事/要紧事",
+      "小麻烦",
+      "错误",
+      "借口"
+    ],
+    "explanation": "It's still a big deal 指“这仍然很重要”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_007_in_this_together_meaning_in_context",
+    "source_sentence_id": "s_007",
+    "target": "in this together",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，in this together 最合适的意思是：",
+    "correct_meaning": "同舟共济",
+    "acceptable_meanings": [
+      "同舟共济",
+      "一起面对"
+    ],
+    "meaning_pool": [
+      "同舟共济",
+      "各干各的",
+      "互不相关",
+      "彼此对立"
+    ],
+    "explanation": "we're in this together 表示大家一起面对同一件事。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_009_be_intended_to_meaning_in_context",
+    "source_sentence_id": "s_009",
+    "target": "be intended to",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，be intended to 最合适的意思是：",
+    "correct_meaning": "旨在",
+    "acceptable_meanings": [
+      "旨在",
+      "意在"
+    ],
+    "meaning_pool": [
+      "旨在",
+      "被迫",
+      "无意中",
+      "不允许"
+    ],
+    "explanation": "These terms are intended to infuse work with meaning 说明这些词的目的就是...",
+    "priority": 1
+  },
+  {
+    "check_id": "s_009_infuse_work_with_meaning_meaning_in_context",
+    "source_sentence_id": "s_009",
+    "target": "infuse work with meaning",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，infuse work with meaning 最合适的意思是：",
+    "correct_meaning": "赋予工作意义",
+    "acceptable_meanings": [
+      "赋予工作意义",
+      "让工作更有意义"
+    ],
+    "meaning_pool": [
+      "赋予工作意义",
+      "剥夺工作意义",
+      "把工作变慢",
+      "让工作更复杂"
+    ],
+    "explanation": "这里说这些词会给工作注入意义感。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_009_increase_allegiance_meaning_in_context",
+    "source_sentence_id": "s_009",
+    "target": "increase allegiance",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，increase allegiance 最合适的意思是：",
+    "correct_meaning": "增强归属感/忠诚度",
+    "acceptable_meanings": [
+      "增强归属感",
+      "增强忠诚度"
+    ],
+    "meaning_pool": [
+      "增强归属感/忠诚度",
+      "削弱联系",
+      "制造冲突",
+      "取消规则"
+    ],
+    "explanation": "increase allegiance to the firm 指增强员工对公司的认同。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_010_historically_used_to_be_associated_with_meaning_in_context",
+    "source_sentence_id": "s_010",
+    "target": "historically used to be associated with",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，historically used to be associated with 最合适的意思是：",
+    "correct_meaning": "历来与...相关",
+    "acceptable_meanings": [
+      "历来与...相关",
+      "过去常和...联系在一起"
+    ],
+    "meaning_pool": [
+      "历来与...相关",
+      "完全无关",
+      "刚刚出现",
+      "已经过时"
+    ],
+    "explanation": "这里说这些词以前主要和非营利、宗教组织有关。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_011_personal_fulfillment_meaning_in_context",
+    "source_sentence_id": "s_011",
+    "target": "personal fulfillment",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，personal fulfillment 最合适的意思是：",
+    "correct_meaning": "自我实现",
+    "acceptable_meanings": [
+      "自我实现",
+      "个人满足"
+    ],
+    "meaning_pool": [
+      "自我实现",
+      "经济危机",
+      "职业倦怠",
+      "外部压力"
+    ],
+    "explanation": "This new focus on personal fulfillment 指更重视自我实现。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_011_work_life_balance_meaning_in_context",
+    "source_sentence_id": "s_011",
+    "target": "work-life balance",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，work-life balance 最合适的意思是：",
+    "correct_meaning": "工作与生活平衡",
+    "acceptable_meanings": [
+      "工作与生活平衡"
+    ],
+    "meaning_pool": [
+      "工作与生活平衡",
+      "上下班时间",
+      "工资福利",
+      "职位等级"
+    ],
+    "explanation": "这里讨论的是工作与生活的平衡问题。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_012_mommy_wars_meaning_in_context",
+    "source_sentence_id": "s_012",
+    "target": "mommy wars",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，mommy wars 最合适的意思是：",
+    "correct_meaning": "妈妈之争/宝妈争论",
+    "acceptable_meanings": [
+      "妈妈之争",
+      "宝妈争论"
+    ],
+    "meaning_pool": [
+      "妈妈之争/宝妈争论",
+      "办公室联盟",
+      "学校冲突",
+      "代际战争"
+    ],
+    "explanation": "mommy wars 是一种很具体的文化表达，指围绕母职和工作展开的争论。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_012_have_it_all_meaning_in_context",
+    "source_sentence_id": "s_012",
+    "target": "have it all",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，have it all 最合适的意思是：",
+    "correct_meaning": "鱼与熊掌兼得",
+    "acceptable_meanings": [
+      "鱼与熊掌兼得",
+      "什么都拥有"
+    ],
+    "meaning_pool": [
+      "鱼与熊掌兼得",
+      "一无所有",
+      "只选其一",
+      "完全放弃"
+    ],
+    "explanation": "women still can’t have it all 指常说的“兼得”难题。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_013_buzzword_in_its_own_right_meaning_in_context",
+    "source_sentence_id": "s_013",
+    "target": "buzzword in its own right",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，buzzword in its own right 最合适的意思是：",
+    "correct_meaning": "作为一个独立热词",
+    "acceptable_meanings": [
+      "作为一个独立热词"
+    ],
+    "meaning_pool": [
+      "作为一个独立热词",
+      "被删除的词",
+      "过时词汇",
+      "纯粹术语"
+    ],
+    "explanation": "这里说 Lean In 的标题本身已经成了一个热词。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_013_setting_boundaries_meaning_in_context",
+    "source_sentence_id": "s_013",
+    "target": "setting boundaries",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，setting boundaries 最合适的意思是：",
+    "correct_meaning": "划清界限",
+    "acceptable_meanings": [
+      "划清界限"
+    ],
+    "meaning_pool": [
+      "划清界限",
+      "打破限制",
+      "取消边界",
+      "扩大范围"
+    ],
+    "explanation": "unplug 等词都在强调工作和家庭之间划界。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_014_devote_yourself_to_meaning_in_context",
+    "source_sentence_id": "s_014",
+    "target": "devote yourself to",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，devote yourself to 最合适的意思是：",
+    "correct_meaning": "全身心投入",
+    "acceptable_meanings": [
+      "全身心投入",
+      "致力于"
+    ],
+    "meaning_pool": [
+      "全身心投入",
+      "回避",
+      "质疑",
+      "否定"
+    ],
+    "explanation": "if your work is your passion，你就更可能全身心投入。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_016_buy_into_meaning_in_context",
+    "source_sentence_id": "s_016",
+    "target": "buy into",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，buy into 最合适的意思是：",
+    "correct_meaning": "接受/信以为真",
+    "acceptable_meanings": [
+      "接受",
+      "信以为真"
+    ],
+    "meaning_pool": [
+      "接受/信以为真",
+      "完全否认",
+      "偷偷删除",
+      "公开批评"
+    ],
+    "explanation": "You can get people to think it's nonsense at the same time that you buy into it 指一边觉得荒唐，一边又接受它。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_017_figure_out_meaning_in_context",
+    "source_sentence_id": "s_017",
+    "target": "figure out",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，figure out 最合适的意思是：",
+    "correct_meaning": "弄清",
+    "acceptable_meanings": [
+      "弄清",
+      "想明白"
+    ],
+    "meaning_pool": [
+      "弄清",
+      "想明白",
+      "绕开",
+      "忘记"
+    ],
+    "explanation": "office speak can help you figure out how you relate to your work 说明它能帮助你弄清关系。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_017_relate_to_meaning_in_context",
+    "source_sentence_id": "s_017",
+    "target": "relate to",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，relate to 最合适的意思是：",
+    "correct_meaning": "与...建立联系/理解",
+    "acceptable_meanings": [
+      "与...建立联系",
+      "和...相关联"
+    ],
+    "meaning_pool": [
+      "与...建立联系/理解",
+      "删除",
+      "怀疑",
+      "取代"
+    ],
+    "explanation": "这里说弄清你和工作的关系，以及工作如何定义你。",
+    "priority": 1
+  }
+]

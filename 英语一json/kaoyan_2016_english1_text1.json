@@ -1,0 +1,2243 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "France, which prides itself as the global innovator of fashion, has decided its fashion industry has lost an absolute right to define physical beauty for women.",
+    "difficulty": 5,
+    "translation_literal": "法国，这个自认为是全球时尚创新者的国家，已经认定其时尚产业已经失去了为女性定义身体美的绝对权利。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "France",
+        "chinese": "法国",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "定语从句",
+        "english": "which prides itself as the global innovator of fashion",
+        "chinese": "这个自认为是全球时尚创新者的国家",
+        "parent_id": "c_001_001",
+        "target_id": "c_001_001",
+        "relation": "修饰 France，补充说明法国的自我定位"
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "从句主语",
+        "english": "which",
+        "chinese": "它",
+        "parent_id": "c_001_002",
+        "target_id": null,
+        "relation": "定语从句内部主语，指 France"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "从句谓语",
+        "english": "prides itself as",
+        "chinese": "自认为是",
+        "parent_id": "c_001_002",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "从句宾语",
+        "english": "the global innovator of fashion",
+        "chinese": "全球时尚创新者",
+        "parent_id": "c_001_002",
+        "target_id": "c_001_004",
+        "relation": "作 prides itself as 的宾语补足内容"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "谓语",
+        "english": "has decided",
+        "chinese": "已经认定",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "宾语从句",
+        "english": "its fashion industry has lost an absolute right to define physical beauty for women",
+        "chinese": "其时尚产业已经失去了为女性定义身体美的绝对权利",
+        "parent_id": null,
+        "target_id": "c_001_006",
+        "relation": "作 has decided 的宾语"
+      },
+      {
+        "chunk_id": "c_001_008",
+        "role": "从句主语",
+        "english": "its fashion industry",
+        "chinese": "其时尚产业",
+        "parent_id": "c_001_007",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_001_009",
+        "role": "从句谓语",
+        "english": "has lost",
+        "chinese": "已经失去",
+        "parent_id": "c_001_007",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_001_010",
+        "role": "从句宾语",
+        "english": "an absolute right to define physical beauty for women",
+        "chinese": "为女性定义身体美的绝对权利",
+        "parent_id": "c_001_007",
+        "target_id": "c_001_009",
+        "relation": "作 has lost 的宾语"
+      },
+      {
+        "chunk_id": "c_001_011",
+        "role": "定语",
+        "english": "to define physical beauty for women",
+        "chinese": "为女性定义身体美的",
+        "parent_id": "c_001_010",
+        "target_id": "c_001_010",
+        "relation": "不定式作后置定语，修饰 right"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语 + 非限制性定语从句 + 谓语",
+        "explanation": "which 引导的非限制性定语从句插入主语和谓语之间，阅读时应先抓 France has decided。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "innovator",
+        "pos": "n.",
+        "meaning": "创新者",
+        "chunk_id": "c_001_005"
+      },
+      {
+        "word": "absolute",
+        "pos": "adj.",
+        "meaning": "绝对的",
+        "chunk_id": "c_001_010"
+      },
+      {
+        "word": "define",
+        "pos": "v.",
+        "meaning": "定义，界定",
+        "chunk_id": "c_001_011"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "prides itself as",
+        "phrase_type": "v. phr.",
+        "meaning": "自认为是，以……自居",
+        "chunk_id": "c_001_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Its lawmakers gave preliminary approval last week to a law that would make it a crime to employ ultra-thin models on runways.",
+    "difficulty": 4,
+    "translation_literal": "其立法者上周初步批准了一项法律，这项法律会把在T台上雇用超瘦模特定为犯罪。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "Its lawmakers",
+        "chinese": "其立法者",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "gave",
+        "chinese": "给予",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "宾语",
+        "english": "preliminary approval",
+        "chinese": "初步批准",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "作 gave 的宾语"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "状语",
+        "english": "last week",
+        "chinese": "上周",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "说明批准发生的时间"
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "状语",
+        "english": "to a law",
+        "chinese": "对于一项法律",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "说明批准所指向的对象"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "定语从句",
+        "english": "that would make it a crime to employ ultra-thin models on runways",
+        "chinese": "这项法律会把在T台上雇用超瘦模特定为犯罪",
+        "parent_id": "c_002_005",
+        "target_id": "c_002_005",
+        "relation": "修饰 a law"
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "从句主语",
+        "english": "that",
+        "chinese": "这项法律",
+        "parent_id": "c_002_006",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_002_008",
+        "role": "从句谓语",
+        "english": "would make",
+        "chinese": "会使……成为",
+        "parent_id": "c_002_006",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_002_009",
+        "role": "形式宾语",
+        "english": "it",
+        "chinese": "这件事",
+        "parent_id": "c_002_006",
+        "target_id": "c_002_010",
+        "relation": "make 后的形式宾语"
+      },
+      {
+        "chunk_id": "c_002_010",
+        "role": "真正宾语",
+        "english": "to employ ultra-thin models on runways",
+        "chinese": "在T台上雇用超瘦模特",
+        "parent_id": "c_002_006",
+        "target_id": "c_002_009",
+        "relation": "真正宾语，对应形式宾语 it"
+      },
+      {
+        "chunk_id": "c_002_011",
+        "role": "宾语补足语",
+        "english": "a crime",
+        "chinese": "一种犯罪",
+        "parent_id": "c_002_006",
+        "target_id": "c_002_009",
+        "relation": "补充说明 it/真正宾语的性质"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式宾语",
+        "pattern_form": "make it + n. + to do",
+        "explanation": "it 是形式宾语，真正宾语是后面的 to employ ultra-thin models on runways。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "lawmakers",
+        "pos": "n.",
+        "meaning": "立法者",
+        "chunk_id": "c_002_001"
+      },
+      {
+        "word": "preliminary",
+        "pos": "adj.",
+        "meaning": "初步的",
+        "chunk_id": "c_002_003"
+      },
+      {
+        "word": "employ",
+        "pos": "v.",
+        "meaning": "雇用",
+        "chunk_id": "c_002_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "gave approval to",
+        "phrase_type": "v. phr.",
+        "meaning": "批准，同意",
+        "chunk_id": "c_002_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The parliament also agreed to ban websites that “incite excessive thinness” by promoting extreme dieting.",
+    "difficulty": 3,
+    "translation_literal": "议会还同意禁止那些通过宣传极端节食来“煽动过度瘦身”的网站。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "The parliament",
+        "chinese": "议会",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "状语",
+        "english": "also",
+        "chinese": "还",
+        "parent_id": null,
+        "target_id": "c_003_003",
+        "relation": "修饰 agreed，说明附加动作"
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "谓语",
+        "english": "agreed",
+        "chinese": "同意",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "宾语",
+        "english": "to ban websites",
+        "chinese": "禁止网站",
+        "parent_id": null,
+        "target_id": "c_003_003",
+        "relation": "作 agreed 的内容"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "定语从句",
+        "english": "that incite excessive thinness",
+        "chinese": "煽动过度瘦身的",
+        "parent_id": "c_003_004",
+        "target_id": "c_003_004",
+        "relation": "修饰 websites"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "从句主语",
+        "english": "that",
+        "chinese": "这些网站",
+        "parent_id": "c_003_005",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "从句谓语",
+        "english": "incite",
+        "chinese": "煽动",
+        "parent_id": "c_003_005",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_003_008",
+        "role": "从句宾语",
+        "english": "excessive thinness",
+        "chinese": "过度瘦身",
+        "parent_id": "c_003_005",
+        "target_id": "c_003_007",
+        "relation": "作 incite 的宾语"
+      },
+      {
+        "chunk_id": "c_003_009",
+        "role": "状语",
+        "english": "by promoting extreme dieting",
+        "chinese": "通过宣传极端节食",
+        "parent_id": "c_003_005",
+        "target_id": "c_003_007",
+        "relation": "说明 incite 的方式"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "parliament",
+        "pos": "n.",
+        "meaning": "议会",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "incite",
+        "pos": "v.",
+        "meaning": "煽动，鼓动",
+        "chunk_id": "c_003_007"
+      },
+      {
+        "word": "excessive",
+        "pos": "adj.",
+        "meaning": "过度的",
+        "chunk_id": "c_003_008"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Such measures have a couple of uplifting motives.",
+    "difficulty": 2,
+    "translation_literal": "这些措施有几个令人振奋的动机。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "Such measures",
+        "chinese": "这些措施",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "谓语",
+        "english": "have",
+        "chinese": "有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "宾语",
+        "english": "a couple of uplifting motives",
+        "chinese": "几个令人振奋的动机",
+        "parent_id": null,
+        "target_id": "c_004_002",
+        "relation": "作 have 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "measures",
+        "pos": "n.",
+        "meaning": "措施",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "word": "uplifting",
+        "pos": "adj.",
+        "meaning": "令人振奋的",
+        "chunk_id": "c_004_003"
+      },
+      {
+        "word": "motives",
+        "pos": "n.",
+        "meaning": "动机",
+        "chunk_id": "c_004_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "They suggest beauty should not be defined by looks that end up impinging on health.",
+    "difficulty": 4,
+    "translation_literal": "它们表明，美不应由最终损害健康的外貌来定义。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "They",
+        "chinese": "它们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "suggest",
+        "chinese": "表明",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "宾语从句",
+        "english": "beauty should not be defined by looks that end up impinging on health",
+        "chinese": "美不应由最终损害健康的外貌来定义",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "作 suggest 的宾语"
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "从句主语",
+        "english": "beauty",
+        "chinese": "美",
+        "parent_id": "c_005_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "从句谓语",
+        "english": "should not be defined",
+        "chinese": "不应被定义",
+        "parent_id": "c_005_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "状语",
+        "english": "by looks",
+        "chinese": "由外貌",
+        "parent_id": "c_005_003",
+        "target_id": "c_005_005",
+        "relation": "说明定义的依据"
+      },
+      {
+        "chunk_id": "c_005_007",
+        "role": "定语从句",
+        "english": "that end up impinging on health",
+        "chinese": "最终损害健康的",
+        "parent_id": "c_005_006",
+        "target_id": "c_005_006",
+        "relation": "修饰 looks"
+      },
+      {
+        "chunk_id": "c_005_008",
+        "role": "从句主语",
+        "english": "that",
+        "chinese": "这些外貌",
+        "parent_id": "c_005_007",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_005_009",
+        "role": "从句谓语",
+        "english": "end up impinging on",
+        "chinese": "最终损害",
+        "parent_id": "c_005_007",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_005_010",
+        "role": "从句宾语",
+        "english": "health",
+        "chinese": "健康",
+        "parent_id": "c_005_007",
+        "target_id": "c_005_009",
+        "relation": "作 impinging on 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "defined",
+        "pos": "v.",
+        "meaning": "定义",
+        "chunk_id": "c_005_005"
+      },
+      {
+        "word": "looks",
+        "pos": "n.",
+        "meaning": "外貌",
+        "chunk_id": "c_005_006"
+      },
+      {
+        "word": "health",
+        "pos": "n.",
+        "meaning": "健康",
+        "chunk_id": "c_005_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "end up doing",
+        "phrase_type": "v. phr.",
+        "meaning": "最终做某事",
+        "chunk_id": "c_005_009"
+      },
+      {
+        "phrase": "impinge on",
+        "phrase_type": "v. phr.",
+        "meaning": "损害，侵犯，影响",
+        "chunk_id": "c_005_009"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "That’s a start.",
+    "difficulty": 1,
+    "translation_literal": "那是一个开始。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "That",
+        "chinese": "那",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "表语",
+        "english": "a start",
+        "chinese": "一个开始",
+        "parent_id": null,
+        "target_id": "c_006_002",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "And the ban on ultra-thin models seems to go beyond protecting models from starving themselves to death — as some have done.",
+    "difficulty": 4,
+    "translation_literal": "而且，对超瘦模特的禁令似乎超出了保护模特不把自己饿死这一范围——正如有些人已经做过的那样。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "连接成分",
+        "english": "And",
+        "chinese": "而且",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "主语",
+        "english": "the ban on ultra-thin models",
+        "chinese": "对超瘦模特的禁令",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "谓语",
+        "english": "seems to go beyond",
+        "chinese": "似乎超出",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "宾语",
+        "english": "protecting models from starving themselves to death",
+        "chinese": "保护模特不把自己饿死",
+        "parent_id": null,
+        "target_id": "c_007_003",
+        "relation": "作 go beyond 的宾语内容"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "状语从句",
+        "english": "as some have done",
+        "chinese": "正如有些人已经做过的那样",
+        "parent_id": null,
+        "target_id": "c_007_004",
+        "relation": "说明前述 starving themselves to death 的现实例子"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "从句主语",
+        "english": "some",
+        "chinese": "有些人",
+        "parent_id": "c_007_005",
+        "target_id": null,
+        "relation": "as 从句内部主语"
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "从句谓语",
+        "english": "have done",
+        "chinese": "已经做过",
+        "parent_id": "c_007_005",
+        "target_id": null,
+        "relation": "as 从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "as + 主语 + have done",
+        "explanation": "as some have done 是插入式比较/例证结构，指前面“把自己饿死”这种情况确实发生过。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "ban",
+        "pos": "n.",
+        "meaning": "禁令",
+        "chunk_id": "c_007_002"
+      },
+      {
+        "word": "protecting",
+        "pos": "v.",
+        "meaning": "保护",
+        "chunk_id": "c_007_004"
+      },
+      {
+        "word": "starving",
+        "pos": "v.",
+        "meaning": "挨饿，使饿死",
+        "chunk_id": "c_007_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "go beyond",
+        "phrase_type": "v. phr.",
+        "meaning": "超出，不止于",
+        "chunk_id": "c_007_003"
+      },
+      {
+        "phrase": "to death",
+        "phrase_type": "adv. phr.",
+        "meaning": "到死亡的程度",
+        "chunk_id": "c_007_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "It tells the fashion industry that it must take responsibility for the signal it sends women, especially teenage girls, about the social tape-measure they must use to determine their individual worth.",
+    "difficulty": 5,
+    "translation_literal": "它告诉时尚产业，它必须为它传递给女性，尤其是少女的信号负责，这个信号是关于她们必须用来判定个人价值的社会尺码标准的。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "It",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "tells",
+        "chinese": "告诉",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "宾语",
+        "english": "the fashion industry",
+        "chinese": "时尚产业",
+        "parent_id": null,
+        "target_id": "c_008_002",
+        "relation": "作 tells 的宾语"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "宾语从句",
+        "english": "that it must take responsibility for the signal it sends women, especially teenage girls, about the social tape-measure they must use to determine their individual worth",
+        "chinese": "它必须为它传递给女性尤其是少女的关于社会尺码标准的信号负责",
+        "parent_id": null,
+        "target_id": "c_008_002",
+        "relation": "作 tells 的直接内容"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_008_004",
+        "target_id": null,
+        "relation": "宾语从句内部主语，指时尚产业"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "从句谓语",
+        "english": "must take responsibility for",
+        "chinese": "必须为……负责",
+        "parent_id": "c_008_004",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "从句宾语",
+        "english": "the signal",
+        "chinese": "信号",
+        "parent_id": "c_008_004",
+        "target_id": "c_008_006",
+        "relation": "作 take responsibility for 的宾语"
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "定语从句",
+        "english": "it sends women, especially teenage girls",
+        "chinese": "它传递给女性尤其是少女的",
+        "parent_id": "c_008_007",
+        "target_id": "c_008_007",
+        "relation": "修饰 signal"
+      },
+      {
+        "chunk_id": "c_008_009",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_008_008",
+        "target_id": null,
+        "relation": "定语从句内部主语，指 fashion industry"
+      },
+      {
+        "chunk_id": "c_008_010",
+        "role": "从句谓语",
+        "english": "sends",
+        "chinese": "传递",
+        "parent_id": "c_008_008",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_011",
+        "role": "从句宾语",
+        "english": "women, especially teenage girls",
+        "chinese": "女性，尤其是少女",
+        "parent_id": "c_008_008",
+        "target_id": "c_008_010",
+        "relation": "作 sends 的宾语"
+      },
+      {
+        "chunk_id": "c_008_012",
+        "role": "定语",
+        "english": "about the social tape-measure they must use to determine their individual worth",
+        "chinese": "关于她们必须用来判定个人价值的社会尺码标准的",
+        "parent_id": "c_008_007",
+        "target_id": "c_008_007",
+        "relation": "修饰 signal"
+      },
+      {
+        "chunk_id": "c_008_013",
+        "role": "定语从句",
+        "english": "they must use to determine their individual worth",
+        "chinese": "她们必须用来判定个人价值的",
+        "parent_id": "c_008_012",
+        "target_id": "c_008_012",
+        "relation": "修饰 social tape-measure"
+      },
+      {
+        "chunk_id": "c_008_014",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "她们",
+        "parent_id": "c_008_013",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_015",
+        "role": "从句谓语",
+        "english": "must use",
+        "chinese": "必须使用",
+        "parent_id": "c_008_013",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_016",
+        "role": "状语",
+        "english": "to determine their individual worth",
+        "chinese": "来判定她们的个人价值",
+        "parent_id": "c_008_013",
+        "target_id": "c_008_015",
+        "relation": "说明使用社会尺码标准的目的"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "signal + 定语从句 + about 短语 + 定语从句",
+        "explanation": "signal 后面的修饰成分被 it sends women 和 about the social tape-measure... 拉长，阅读时要回到 signal。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "responsibility",
+        "pos": "n.",
+        "meaning": "责任",
+        "chunk_id": "c_008_006"
+      },
+      {
+        "word": "signal",
+        "pos": "n.",
+        "meaning": "信号，信息",
+        "chunk_id": "c_008_007"
+      },
+      {
+        "word": "determine",
+        "pos": "v.",
+        "meaning": "判定，决定",
+        "chunk_id": "c_008_016"
+      },
+      {
+        "word": "worth",
+        "pos": "n.",
+        "meaning": "价值",
+        "chunk_id": "c_008_016"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "take responsibility for",
+        "phrase_type": "v. phr.",
+        "meaning": "为……负责",
+        "chunk_id": "c_008_006"
+      },
+      {
+        "phrase": "tape-measure",
+        "phrase_type": "n. phr.",
+        "meaning": "衡量标准，尺码标准",
+        "chunk_id": "c_008_012"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The bans, if fully enforced, would suggest to women (and many men) that they should not let others be arbiters of their beauty.",
+    "difficulty": 4,
+    "translation_literal": "这些禁令，如果被完全执行，将会向女性（以及许多男性）表明，他们不应让别人做自己美的仲裁者。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "The bans",
+        "chinese": "这些禁令",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "插入语",
+        "english": "if fully enforced",
+        "chinese": "如果被完全执行",
+        "parent_id": "c_009_001",
+        "target_id": "c_009_001",
+        "relation": "省略 they are 的条件插入语，说明禁令被执行的条件"
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "谓语",
+        "english": "would suggest",
+        "chinese": "将会表明",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "状语",
+        "english": "to women and many men",
+        "chinese": "向女性以及许多男性",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "说明 suggest 的对象"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "宾语从句",
+        "english": "that they should not let others be arbiters of their beauty",
+        "chinese": "他们不应让别人做自己美的仲裁者",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "作 suggest 的宾语"
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_009_005",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "从句谓语",
+        "english": "should not let",
+        "chinese": "不应让",
+        "parent_id": "c_009_005",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "从句宾语",
+        "english": "others",
+        "chinese": "别人",
+        "parent_id": "c_009_005",
+        "target_id": "c_009_007",
+        "relation": "作 let 的宾语"
+      },
+      {
+        "chunk_id": "c_009_009",
+        "role": "宾语补足语",
+        "english": "be arbiters of their beauty",
+        "chinese": "做自己美的仲裁者",
+        "parent_id": "c_009_005",
+        "target_id": "c_009_008",
+        "relation": "补充说明 others 的身份"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "if fully enforced",
+        "explanation": "if fully enforced 省略了 they are，完整意思是 if the bans are fully enforced。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "enforced",
+        "pos": "v.",
+        "meaning": "执行，实施",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "arbiters",
+        "pos": "n.",
+        "meaning": "仲裁者，裁定者",
+        "chunk_id": "c_009_009"
+      },
+      {
+        "word": "beauty",
+        "pos": "n.",
+        "meaning": "美",
+        "chunk_id": "c_009_009"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "And perhaps faintly, they hint that people should look to intangible qualities like character and intellect rather than dieting their way to size zero or wasp-waist physiques.",
+    "difficulty": 4,
+    "translation_literal": "并且也许隐约地，它们暗示人们应该看向诸如品格和智力这样的无形品质，而不是通过节食把自己推向零号身材或蜂腰体形。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "连接成分",
+        "english": "And",
+        "chinese": "并且",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "状语",
+        "english": "perhaps faintly",
+        "chinese": "也许隐约地",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "修饰 hint 的语气"
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "主语",
+        "english": "they",
+        "chinese": "它们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "谓语",
+        "english": "hint",
+        "chinese": "暗示",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "宾语从句",
+        "english": "that people should look to intangible qualities like character and intellect rather than dieting their way to size zero or wasp-waist physiques",
+        "chinese": "人们应该看向无形品质而不是通过节食变成零号或蜂腰体形",
+        "parent_id": null,
+        "target_id": "c_010_004",
+        "relation": "作 hint 的宾语"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "从句主语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": "c_010_005",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "从句谓语",
+        "english": "should look to",
+        "chinese": "应该看向，依靠",
+        "parent_id": "c_010_005",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "从句宾语",
+        "english": "intangible qualities like character and intellect",
+        "chinese": "诸如品格和智力这样的无形品质",
+        "parent_id": "c_010_005",
+        "target_id": "c_010_007",
+        "relation": "作 look to 的宾语"
+      },
+      {
+        "chunk_id": "c_010_009",
+        "role": "并列成分",
+        "english": "rather than dieting their way to size zero or wasp-waist physiques",
+        "chinese": "而不是通过节食变成零号身材或蜂腰体形",
+        "parent_id": "c_010_005",
+        "target_id": "c_010_007",
+        "relation": "与 look to intangible qualities 形成取舍对比"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "faintly",
+        "pos": "adv.",
+        "meaning": "隐约地",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "intangible",
+        "pos": "adj.",
+        "meaning": "无形的",
+        "chunk_id": "c_010_008"
+      },
+      {
+        "word": "intellect",
+        "pos": "n.",
+        "meaning": "智力",
+        "chunk_id": "c_010_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "rather than",
+        "phrase_type": "conj. phr.",
+        "meaning": "而不是",
+        "chunk_id": "c_010_009"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The French measures, however, rely too much on severe punishment to change a culture that still regards beauty as skin-deep — and bone-showing.",
+    "difficulty": 4,
+    "translation_literal": "然而，法国的措施过于依赖严厉惩罚来改变一种仍把美看作肤浅且露骨的文化。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "The French measures",
+        "chinese": "法国的措施",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "插入语",
+        "english": "however",
+        "chinese": "然而",
+        "parent_id": "c_011_001",
+        "target_id": "c_011_001",
+        "relation": "转折插入语"
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "谓语",
+        "english": "rely too much on",
+        "chinese": "过于依赖",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "宾语",
+        "english": "severe punishment",
+        "chinese": "严厉惩罚",
+        "parent_id": null,
+        "target_id": "c_011_003",
+        "relation": "作 rely on 的宾语"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "状语",
+        "english": "to change a culture",
+        "chinese": "来改变一种文化",
+        "parent_id": null,
+        "target_id": "c_011_003",
+        "relation": "说明依赖惩罚的目的"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "定语从句",
+        "english": "that still regards beauty as skin-deep and bone-showing",
+        "chinese": "仍把美看作肤浅且露骨的",
+        "parent_id": "c_011_005",
+        "target_id": "c_011_005",
+        "relation": "修饰 culture"
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "从句主语",
+        "english": "that",
+        "chinese": "这种文化",
+        "parent_id": "c_011_006",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_011_008",
+        "role": "从句谓语",
+        "english": "regards",
+        "chinese": "看作",
+        "parent_id": "c_011_006",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_011_009",
+        "role": "从句宾语",
+        "english": "beauty",
+        "chinese": "美",
+        "parent_id": "c_011_006",
+        "target_id": "c_011_008",
+        "relation": "作 regards 的宾语"
+      },
+      {
+        "chunk_id": "c_011_010",
+        "role": "宾语补足语",
+        "english": "skin-deep and bone-showing",
+        "chinese": "肤浅且露骨的",
+        "parent_id": "c_011_006",
+        "target_id": "c_011_009",
+        "relation": "补充说明 beauty 被看作的状态"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语 + however + 谓语",
+        "explanation": "however 插在主语和谓语之间，真正主干是 The French measures rely...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "severe",
+        "pos": "adj.",
+        "meaning": "严厉的",
+        "chunk_id": "c_011_004"
+      },
+      {
+        "word": "punishment",
+        "pos": "n.",
+        "meaning": "惩罚",
+        "chunk_id": "c_011_004"
+      },
+      {
+        "word": "regards",
+        "pos": "v.",
+        "meaning": "把……看作",
+        "chunk_id": "c_011_008"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Under the law, using a fashion model that does not meet a government-defined index of body mass could result in a $85,000 fine and six months in prison.",
+    "difficulty": 4,
+    "translation_literal": "根据该法律，使用未达到政府规定体重指数的时装模特可能会导致8.5万美元罚款和六个月监禁。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "状语",
+        "english": "Under the law",
+        "chinese": "根据该法律",
+        "parent_id": null,
+        "target_id": "c_012_004",
+        "relation": "说明法律依据"
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "主语",
+        "english": "using a fashion model that does not meet a government-defined index of body mass",
+        "chinese": "使用未达到政府规定体重指数的时装模特",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "定语从句",
+        "english": "that does not meet a government-defined index of body mass",
+        "chinese": "未达到政府规定体重指数的",
+        "parent_id": "c_012_002",
+        "target_id": "c_012_002",
+        "relation": "修饰 a fashion model"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "从句主语",
+        "english": "that",
+        "chinese": "该模特",
+        "parent_id": "c_012_003",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "从句谓语",
+        "english": "does not meet",
+        "chinese": "未达到",
+        "parent_id": "c_012_003",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "从句宾语",
+        "english": "a government-defined index of body mass",
+        "chinese": "政府规定的体重指数",
+        "parent_id": "c_012_003",
+        "target_id": "c_012_005",
+        "relation": "作 meet 的宾语"
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "谓语",
+        "english": "could result in",
+        "chinese": "可能导致",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "宾语",
+        "english": "a $85,000 fine and six months in prison",
+        "chinese": "8.5万美元罚款和六个月监禁",
+        "parent_id": null,
+        "target_id": "c_012_007",
+        "relation": "作 result in 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "index",
+        "pos": "n.",
+        "meaning": "指数，指标",
+        "chunk_id": "c_012_006"
+      },
+      {
+        "word": "fine",
+        "pos": "n.",
+        "meaning": "罚款",
+        "chunk_id": "c_012_008"
+      },
+      {
+        "word": "prison",
+        "pos": "n.",
+        "meaning": "监禁",
+        "chunk_id": "c_012_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "result in",
+        "phrase_type": "v. phr.",
+        "meaning": "导致",
+        "chunk_id": "c_012_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The fashion industry knows it has an inherent problem in focusing on material adornment and idealized body types.",
+    "difficulty": 3,
+    "translation_literal": "时尚产业知道，它在关注物质装饰和理想化体型方面存在内在问题。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "The fashion industry",
+        "chinese": "时尚产业",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "knows",
+        "chinese": "知道",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "宾语从句",
+        "english": "it has an inherent problem in focusing on material adornment and idealized body types",
+        "chinese": "它在关注物质装饰和理想化体型方面存在内在问题",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "作 knows 的宾语"
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_013_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "从句谓语",
+        "english": "has",
+        "chinese": "有",
+        "parent_id": "c_013_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "从句宾语",
+        "english": "an inherent problem",
+        "chinese": "一个内在问题",
+        "parent_id": "c_013_003",
+        "target_id": "c_013_005",
+        "relation": "作 has 的宾语"
+      },
+      {
+        "chunk_id": "c_013_007",
+        "role": "定语",
+        "english": "in focusing on material adornment and idealized body types",
+        "chinese": "在关注物质装饰和理想化体型方面的",
+        "parent_id": "c_013_006",
+        "target_id": "c_013_006",
+        "relation": "修饰 problem"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "inherent",
+        "pos": "adj.",
+        "meaning": "内在的，固有的",
+        "chunk_id": "c_013_006"
+      },
+      {
+        "word": "adornment",
+        "pos": "n.",
+        "meaning": "装饰",
+        "chunk_id": "c_013_007"
+      },
+      {
+        "word": "idealized",
+        "pos": "adj.",
+        "meaning": "理想化的",
+        "chunk_id": "c_013_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "In Denmark, the United States, and a few other countries, it is trying to set voluntary standards for models and fashion images that rely more on peer pressure for enforcement.",
+    "difficulty": 4,
+    "translation_literal": "在丹麦、美国和其他几个国家，它正试图为模特和时尚形象制定自愿标准，这些标准更多依靠同侪压力来执行。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "状语",
+        "english": "In Denmark, the United States, and a few other countries",
+        "chinese": "在丹麦、美国和其他几个国家",
+        "parent_id": null,
+        "target_id": "c_014_003",
+        "relation": "说明尝试发生的国家范围"
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "谓语",
+        "english": "is trying to set",
+        "chinese": "正试图制定",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "宾语",
+        "english": "voluntary standards for models and fashion images",
+        "chinese": "针对模特和时尚形象的自愿标准",
+        "parent_id": null,
+        "target_id": "c_014_003",
+        "relation": "作 set 的宾语"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "定语从句",
+        "english": "that rely more on peer pressure for enforcement",
+        "chinese": "更多依靠同侪压力来执行的",
+        "parent_id": "c_014_004",
+        "target_id": "c_014_004",
+        "relation": "修饰 standards"
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "从句主语",
+        "english": "that",
+        "chinese": "这些标准",
+        "parent_id": "c_014_005",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_014_007",
+        "role": "从句谓语",
+        "english": "rely more on",
+        "chinese": "更多依靠",
+        "parent_id": "c_014_005",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_014_008",
+        "role": "从句宾语",
+        "english": "peer pressure",
+        "chinese": "同侪压力",
+        "parent_id": "c_014_005",
+        "target_id": "c_014_007",
+        "relation": "作 rely on 的宾语"
+      },
+      {
+        "chunk_id": "c_014_009",
+        "role": "状语",
+        "english": "for enforcement",
+        "chinese": "为了执行",
+        "parent_id": "c_014_005",
+        "target_id": "c_014_007",
+        "relation": "说明依靠同侪压力的目的"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "voluntary",
+        "pos": "adj.",
+        "meaning": "自愿的",
+        "chunk_id": "c_014_004"
+      },
+      {
+        "word": "standards",
+        "pos": "n.",
+        "meaning": "标准",
+        "chunk_id": "c_014_004"
+      },
+      {
+        "word": "enforcement",
+        "pos": "n.",
+        "meaning": "执行",
+        "chunk_id": "c_014_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "rely on",
+        "phrase_type": "v. phr.",
+        "meaning": "依靠",
+        "chunk_id": "c_014_007"
+      },
+      {
+        "phrase": "peer pressure",
+        "phrase_type": "n. phr.",
+        "meaning": "同侪压力",
+        "chunk_id": "c_014_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "In contrast to France’s actions, Denmark’s fashion industry agreed last month on rules and sanctions regarding the age, health, and other characteristics of models.",
+    "difficulty": 3,
+    "translation_literal": "与法国的行动相比，丹麦时尚产业上个月就有关模特年龄、健康和其他特征的规则与制裁达成一致。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "状语",
+        "english": "In contrast to France’s actions",
+        "chinese": "与法国的行动相比",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "说明对比对象"
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "主语",
+        "english": "Denmark’s fashion industry",
+        "chinese": "丹麦时尚产业",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "谓语",
+        "english": "agreed",
+        "chinese": "达成一致",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "状语",
+        "english": "last month",
+        "chinese": "上个月",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "说明时间"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "宾语",
+        "english": "on rules and sanctions regarding the age, health, and other characteristics of models",
+        "chinese": "就有关模特年龄、健康和其他特征的规则与制裁",
+        "parent_id": null,
+        "target_id": "c_015_003",
+        "relation": "作 agreed on 的内容"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "sanctions",
+        "pos": "n.",
+        "meaning": "制裁，惩戒措施",
+        "chunk_id": "c_015_005"
+      },
+      {
+        "word": "regarding",
+        "pos": "prep.",
+        "meaning": "关于",
+        "chunk_id": "c_015_005"
+      },
+      {
+        "word": "characteristics",
+        "pos": "n.",
+        "meaning": "特征",
+        "chunk_id": "c_015_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "in contrast to",
+        "phrase_type": "prep. phr.",
+        "meaning": "与……相比",
+        "chunk_id": "c_015_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The newly revised Danish Fashion Ethical Charter clearly states: “We are aware of and take responsibility for the impact the fashion industry has on body ideals, especially on young people.”",
+    "difficulty": 5,
+    "translation_literal": "新修订的《丹麦时尚伦理宪章》明确声明：“我们意识到并承担时尚产业对身体理想，尤其是对年轻人身体理想的影响的责任。”",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "主语",
+        "english": "The newly revised Danish Fashion Ethical Charter",
+        "chinese": "新修订的《丹麦时尚伦理宪章》",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "谓语",
+        "english": "clearly states",
+        "chinese": "明确声明",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "宾语从句",
+        "english": "We are aware of and take responsibility for the impact the fashion industry has on body ideals, especially on young people",
+        "chinese": "我们意识到并承担时尚产业对身体理想尤其是年轻人的身体理想的影响的责任",
+        "parent_id": null,
+        "target_id": "c_016_002",
+        "relation": "冒号后引语作 states 的内容"
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "从句主语",
+        "english": "We",
+        "chinese": "我们",
+        "parent_id": "c_016_003",
+        "target_id": null,
+        "relation": "引语宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "并列谓语",
+        "english": "are aware of and take responsibility for",
+        "chinese": "意识到并承担责任",
+        "parent_id": "c_016_003",
+        "target_id": null,
+        "relation": "引语宾语从句内部并列谓语"
+      },
+      {
+        "chunk_id": "c_016_006",
+        "role": "从句宾语",
+        "english": "the impact",
+        "chinese": "影响",
+        "parent_id": "c_016_003",
+        "target_id": "c_016_005",
+        "relation": "作 aware of 和 take responsibility for 的共同宾语"
+      },
+      {
+        "chunk_id": "c_016_007",
+        "role": "定语从句",
+        "english": "the fashion industry has on body ideals, especially on young people",
+        "chinese": "时尚产业对身体理想尤其是年轻人的身体理想所具有的",
+        "parent_id": "c_016_006",
+        "target_id": "c_016_006",
+        "relation": "修饰 impact"
+      },
+      {
+        "chunk_id": "c_016_008",
+        "role": "从句主语",
+        "english": "the fashion industry",
+        "chinese": "时尚产业",
+        "parent_id": "c_016_007",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_016_009",
+        "role": "从句谓语",
+        "english": "has",
+        "chinese": "具有",
+        "parent_id": "c_016_007",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_016_010",
+        "role": "从句宾语",
+        "english": "on body ideals, especially on young people",
+        "chinese": "对身体理想尤其是对年轻人",
+        "parent_id": "c_016_007",
+        "target_id": "c_016_009",
+        "relation": "说明 impact 作用对象"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "be aware of and take responsibility for + 宾语",
+        "explanation": "are aware of 和 take responsibility for 共用宾语 the impact。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "revised",
+        "pos": "adj.",
+        "meaning": "修订的",
+        "chunk_id": "c_016_001"
+      },
+      {
+        "word": "ethical",
+        "pos": "adj.",
+        "meaning": "伦理的",
+        "chunk_id": "c_016_001"
+      },
+      {
+        "word": "impact",
+        "pos": "n.",
+        "meaning": "影响",
+        "chunk_id": "c_016_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "be aware of",
+        "phrase_type": "v. phr.",
+        "meaning": "意识到",
+        "chunk_id": "c_016_005"
+      },
+      {
+        "phrase": "take responsibility for",
+        "phrase_type": "v. phr.",
+        "meaning": "承担……责任",
+        "chunk_id": "c_016_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "The charter’s main tool of enforcement is to deny access for designers and modeling agencies to Copenhagen Fashion Week (CFW), which is run by the Danish Fashion Institute.",
+    "difficulty": 4,
+    "translation_literal": "该宪章的主要执行工具是拒绝设计师和模特经纪机构进入哥本哈根时装周，而该时装周由丹麦时尚协会运营。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "The charter’s main tool of enforcement",
+        "chinese": "该宪章的主要执行工具",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "表语",
+        "english": "to deny access for designers and modeling agencies to Copenhagen Fashion Week",
+        "chinese": "拒绝设计师和模特经纪机构进入哥本哈根时装周",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "定语从句",
+        "english": "which is run by the Danish Fashion Institute",
+        "chinese": "该时装周由丹麦时尚协会运营",
+        "parent_id": "c_017_003",
+        "target_id": "c_017_003",
+        "relation": "修饰 Copenhagen Fashion Week"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "从句主语",
+        "english": "which",
+        "chinese": "该时装周",
+        "parent_id": "c_017_004",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "从句谓语",
+        "english": "is run",
+        "chinese": "被运营",
+        "parent_id": "c_017_004",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "状语",
+        "english": "by the Danish Fashion Institute",
+        "chinese": "由丹麦时尚协会",
+        "parent_id": "c_017_004",
+        "target_id": "c_017_006",
+        "relation": "说明运营者"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "charter",
+        "pos": "n.",
+        "meaning": "宪章，章程",
+        "chunk_id": "c_017_001"
+      },
+      {
+        "word": "enforcement",
+        "pos": "n.",
+        "meaning": "执行",
+        "chunk_id": "c_017_001"
+      },
+      {
+        "word": "deny",
+        "pos": "v.",
+        "meaning": "拒绝给予",
+        "chunk_id": "c_017_003"
+      },
+      {
+        "word": "access",
+        "pos": "n.",
+        "meaning": "进入权，准入",
+        "chunk_id": "c_017_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "deny access to",
+        "phrase_type": "v. phr.",
+        "meaning": "拒绝准入",
+        "chunk_id": "c_017_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "But in general it relies on a name-and-shame method of compliance.",
+    "difficulty": 2,
+    "translation_literal": "但总体而言，它依靠一种点名羞辱的合规方法。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "状语",
+        "english": "in general",
+        "chinese": "总体而言",
+        "parent_id": null,
+        "target_id": "c_018_004",
+        "relation": "修饰 relies on"
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "谓语",
+        "english": "relies on",
+        "chinese": "依靠",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "宾语",
+        "english": "a name-and-shame method of compliance",
+        "chinese": "一种点名羞辱的合规方法",
+        "parent_id": null,
+        "target_id": "c_018_004",
+        "relation": "作 relies on 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "compliance",
+        "pos": "n.",
+        "meaning": "合规，遵守",
+        "chunk_id": "c_018_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "name-and-shame",
+        "phrase_type": "collocation",
+        "meaning": "点名羞辱，以公开批评促使遵守",
+        "chunk_id": "c_018_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Relying on ethical persuasion rather than law to address the misuse of body ideals may be the best step.",
+    "difficulty": 3,
+    "translation_literal": "依靠伦理劝导而不是法律来处理身体理想的误用，可能是最佳一步。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "主语",
+        "english": "Relying on ethical persuasion rather than law to address the misuse of body ideals",
+        "chinese": "依靠伦理劝导而不是法律来处理身体理想的误用",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "并列成分",
+        "english": "ethical persuasion",
+        "chinese": "伦理劝导",
+        "parent_id": "c_019_001",
+        "target_id": "c_019_001",
+        "relation": "relying on 的第一对象"
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "并列成分",
+        "english": "law",
+        "chinese": "法律",
+        "parent_id": "c_019_001",
+        "target_id": "c_019_001",
+        "relation": "rather than 后的对比对象"
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "状语",
+        "english": "to address the misuse of body ideals",
+        "chinese": "来处理身体理想的误用",
+        "parent_id": "c_019_001",
+        "target_id": "c_019_001",
+        "relation": "说明依靠伦理劝导的目的"
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "谓语",
+        "english": "may be",
+        "chinese": "可能是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_006",
+        "role": "表语",
+        "english": "the best step",
+        "chinese": "最佳一步",
+        "parent_id": null,
+        "target_id": "c_019_005",
+        "relation": "作 may be 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "ethical",
+        "pos": "adj.",
+        "meaning": "伦理的",
+        "chunk_id": "c_019_002"
+      },
+      {
+        "word": "persuasion",
+        "pos": "n.",
+        "meaning": "劝导，说服",
+        "chunk_id": "c_019_002"
+      },
+      {
+        "word": "misuse",
+        "pos": "n.",
+        "meaning": "误用，滥用",
+        "chunk_id": "c_019_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "rather than",
+        "phrase_type": "conj. phr.",
+        "meaning": "而不是",
+        "chunk_id": "c_019_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 1",
+    "original": "Even better would be to help elevate notions of beauty beyond the material standards of a particular industry.",
+    "difficulty": 3,
+    "translation_literal": "更好的做法将是帮助把美的观念提升到某个特定行业的物质标准之外。",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "表语",
+        "english": "Even better",
+        "chinese": "甚至更好的",
+        "parent_id": null,
+        "target_id": "c_020_002",
+        "relation": "倒装结构中前置的表语"
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "谓语",
+        "english": "would be",
+        "chinese": "将是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "真正主语",
+        "english": "to help elevate notions of beauty beyond the material standards of a particular industry",
+        "chinese": "帮助把美的观念提升到某个特定行业的物质标准之外",
+        "parent_id": null,
+        "target_id": "c_020_002",
+        "relation": "不定式是真正主语"
+      },
+      {
+        "chunk_id": "c_020_004",
+        "role": "非谓语结构",
+        "english": "elevate notions of beauty beyond the material standards of a particular industry",
+        "chinese": "把美的观念提升到某个特定行业的物质标准之外",
+        "parent_id": "c_020_003",
+        "target_id": "c_020_003",
+        "relation": "help 后省略 to 的动作内容"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "表语 + would be + to do",
+        "explanation": "Even better 前置，正常语序可理解为 To help elevate... would be even better。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "elevate",
+        "pos": "v.",
+        "meaning": "提升",
+        "chunk_id": "c_020_004"
+      },
+      {
+        "word": "notions",
+        "pos": "n.",
+        "meaning": "观念",
+        "chunk_id": "c_020_004"
+      },
+      {
+        "word": "particular",
+        "pos": "adj.",
+        "meaning": "特定的",
+        "chunk_id": "c_020_004"
+      }
+    ],
+    "key_phrases": []
+  }
+]

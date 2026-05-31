@@ -4,6 +4,8 @@
 
 完整的 v1.3 标注规范见 [v1.3-data-spec.md](./v1.3-data-spec.md)。后续生成新年份、新 Text 的 JSON 时，应以该文档为准。
 
+生成 2016 及后续年份数据前，还必须遵守 [v1.3-generation-quality-gate.md](./v1.3-generation-quality-gate.md)，避免出现从句内部不拆、重复 chunk、relation 空泛、并列结构归属不清等粗糙问题。
+
 必填字段：
 
 - `sentence_id`

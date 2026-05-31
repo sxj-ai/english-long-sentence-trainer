@@ -1,0 +1,1859 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found.",
+    "difficulty": 5,
+    "translation_literal": "在经济和人口结构发生剧烈变化的背景下，一项最新民调发现，年轻美国人正在绘制一幅新的 21 世纪成功路线图。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "状语",
+        "english": "Against a backdrop of drastic changes in economy and population structure",
+        "chinese": "在经济和人口结构发生剧烈变化的背景下",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "主语",
+        "english": "younger Americans",
+        "chinese": "年轻美国人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "谓语",
+        "english": "are drawing",
+        "chinese": "正在绘制",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "宾语",
+        "english": "a new 21st-century road map to success",
+        "chinese": "一幅新的 21 世纪成功路线图",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "作 drawing 的宾语"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "插入语",
+        "english": "a latest poll has found",
+        "chinese": "一项最新民调发现",
+        "parent_id": null,
+        "target_id": "c_001_002",
+        "relation": "说明信息来源"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "定语",
+        "english": "of drastic changes in economy and population structure",
+        "chinese": "经济和人口结构剧烈变化的",
+        "parent_id": "c_001_001",
+        "target_id": "c_001_001",
+        "relation": "修饰 backdrop"
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "定语",
+        "english": "to success",
+        "chinese": "通往成功的",
+        "parent_id": "c_001_004",
+        "target_id": "c_001_004",
+        "relation": "修饰 road map"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句 + 句末来源说明",
+        "explanation": "a latest poll has found 放在句末，说明前面结论来源。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "backdrop",
+        "pos": "n.",
+        "meaning": "背景",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "drastic",
+        "pos": "adj.",
+        "meaning": "剧烈的",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "poll",
+        "pos": "n.",
+        "meaning": "民调",
+        "chunk_id": "c_001_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "road map to success",
+        "phrase_type": "n. phr.",
+        "meaning": "成功路线图",
+        "chunk_id": "c_001_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.",
+    "difficulty": 5,
+    "translation_literal": "跨越代际界限，美国人继续珍视成功人生中许多相同的传统里程碑，包括结婚、生子、拥有住房以及在六十多岁退休。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "状语",
+        "english": "Across generational lines",
+        "chinese": "跨越代际界限",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "主语",
+        "english": "Americans",
+        "chinese": "美国人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "谓语",
+        "english": "continue to prize",
+        "chinese": "继续珍视",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "宾语",
+        "english": "many of the same traditional milestones of a successful life",
+        "chinese": "成功人生中许多相同的传统里程碑",
+        "parent_id": null,
+        "target_id": "c_002_003",
+        "relation": "作 prize 的宾语"
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "插入举例",
+        "english": "including getting married, having children, owning a home, and retiring in their sixties",
+        "chinese": "包括结婚、生子、拥有住房以及在六十多岁退休",
+        "parent_id": null,
+        "target_id": "c_002_004",
+        "relation": "列举 traditional milestones 的内容"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "并列成分",
+        "english": "getting married / having children / owning a home / retiring in their sixties",
+        "chinese": "结婚 / 生子 / 拥有住房 / 在六十多岁退休",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": "四个传统人生里程碑并列"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "including A, B, C, and D",
+        "explanation": "including 后四个动名词结构并列，都是 milestones 的例子。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "generational",
+        "pos": "adj.",
+        "meaning": "代际的",
+        "chunk_id": "c_002_001"
+      },
+      {
+        "word": "milestones",
+        "pos": "n.",
+        "meaning": "里程碑",
+        "chunk_id": "c_002_004"
+      },
+      {
+        "word": "retiring",
+        "pos": "v.",
+        "meaning": "退休",
+        "chunk_id": "c_002_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "successful life",
+        "phrase_type": "n. phr.",
+        "meaning": "成功人生",
+        "chunk_id": "c_002_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "But while young and old mostly agree on what constitutes the finish line of a fulfilling life, they offer strikingly different paths for reaching it.",
+    "difficulty": 5,
+    "translation_literal": "但是，尽管年轻人和老年人大体同意什么构成充实人生的终点，他们却提供了到达这一终点的截然不同的路径。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "让步状语从句",
+        "english": "while young and old mostly agree on what constitutes the finish line of a fulfilling life",
+        "chinese": "尽管年轻人和老年人大体同意什么构成充实人生的终点",
+        "parent_id": null,
+        "target_id": "c_003_008",
+        "relation": "说明主句成立的让步背景"
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "从句主语",
+        "english": "young and old",
+        "chinese": "年轻人和老年人",
+        "parent_id": "c_003_002",
+        "target_id": null,
+        "relation": "while 从句内部主语"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "从句谓语",
+        "english": "mostly agree on",
+        "chinese": "大体同意",
+        "parent_id": "c_003_002",
+        "target_id": null,
+        "relation": "while 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "宾语从句",
+        "english": "what constitutes the finish line of a fulfilling life",
+        "chinese": "什么构成充实人生的终点",
+        "parent_id": "c_003_002",
+        "target_id": "c_003_004",
+        "relation": "作 agree on 的宾语"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "从句主语",
+        "english": "what",
+        "chinese": "什么",
+        "parent_id": "c_003_005",
+        "target_id": null,
+        "relation": "what 从句内部主语"
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "从句谓语",
+        "english": "constitutes",
+        "chinese": "构成",
+        "parent_id": "c_003_005",
+        "target_id": null,
+        "relation": "what 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_003_008",
+        "role": "主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_009",
+        "role": "谓语",
+        "english": "offer",
+        "chinese": "提供",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_010",
+        "role": "宾语",
+        "english": "strikingly different paths for reaching it",
+        "chinese": "到达这一终点的截然不同的路径",
+        "parent_id": null,
+        "target_id": "c_003_009",
+        "relation": "作 offer 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "让步倒装",
+        "pattern_form": "while 引导让步从句",
+        "explanation": "while 在这里不是时间“当……时”，而是“尽管”，引出让步背景。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "constitutes",
+        "pos": "v.",
+        "meaning": "构成",
+        "chunk_id": "c_003_007"
+      },
+      {
+        "word": "fulfilling",
+        "pos": "adj.",
+        "meaning": "充实的",
+        "chunk_id": "c_003_005"
+      },
+      {
+        "word": "strikingly",
+        "pos": "adv.",
+        "meaning": "显著地，惊人地",
+        "chunk_id": "c_003_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "agree on",
+        "phrase_type": "v. phr.",
+        "meaning": "就……达成一致",
+        "chunk_id": "c_003_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.",
+    "difficulty": 5,
+    "translation_literal": "调查发现，仍处在人生起步阶段的年轻人比年长成年人更可能优先考虑工作中的个人成就感，认为他们通过定期换工作最能推进职业发展，偏爱有更多公共服务和更快生活节奏的社区，认同夫妻应在结婚或生子前经济稳定，并坚持认为有两个在外工作的父母最有利于孩子。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "Young people who are still getting started in life",
+        "chinese": "仍处在人生起步阶段的年轻人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "定语从句",
+        "english": "who are still getting started in life",
+        "chinese": "仍处在人生起步阶段的",
+        "parent_id": "c_004_001",
+        "target_id": "c_004_001",
+        "relation": "修饰 Young people"
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "定语从句主语",
+        "english": "who",
+        "chinese": "年轻人",
+        "parent_id": "c_004_002",
+        "target_id": null,
+        "relation": "who 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "定语从句谓语",
+        "english": "are getting started",
+        "chinese": "正在起步",
+        "parent_id": "c_004_002",
+        "target_id": null,
+        "relation": "who 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "谓语",
+        "english": "were more likely",
+        "chinese": "更可能",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "状语",
+        "english": "than older adults",
+        "chinese": "比年长成年人",
+        "parent_id": null,
+        "target_id": "c_004_005",
+        "relation": "说明 more likely 的比较对象"
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "并列成分",
+        "english": "to prioritize personal fulfillment in their work",
+        "chinese": "优先考虑工作中的个人成就感",
+        "parent_id": "c_004_005",
+        "target_id": "c_004_005",
+        "relation": "likely 后第一项不定式"
+      },
+      {
+        "chunk_id": "c_004_008",
+        "role": "并列成分",
+        "english": "to believe they will advance their careers most by regularly changing jobs",
+        "chinese": "认为他们通过定期换工作最能推进职业发展",
+        "parent_id": "c_004_005",
+        "target_id": "c_004_005",
+        "relation": "likely 后第二项不定式"
+      },
+      {
+        "chunk_id": "c_004_009",
+        "role": "宾语从句",
+        "english": "they will advance their careers most by regularly changing jobs",
+        "chinese": "他们通过定期换工作最能推进职业发展",
+        "parent_id": "c_004_008",
+        "target_id": "c_004_008",
+        "relation": "作 believe 的宾语"
+      },
+      {
+        "chunk_id": "c_004_010",
+        "role": "并列成分",
+        "english": "to favor communities with more public services and a faster pace of life",
+        "chinese": "偏爱有更多公共服务和更快生活节奏的社区",
+        "parent_id": "c_004_005",
+        "target_id": "c_004_005",
+        "relation": "likely 后第三项不定式"
+      },
+      {
+        "chunk_id": "c_004_011",
+        "role": "并列成分",
+        "english": "to agree that couples should be financially secure before getting married or having children",
+        "chinese": "认同夫妻应在结婚或生子前经济稳定",
+        "parent_id": "c_004_005",
+        "target_id": "c_004_005",
+        "relation": "likely 后第四项不定式"
+      },
+      {
+        "chunk_id": "c_004_012",
+        "role": "宾语从句",
+        "english": "that couples should be financially secure before getting married or having children",
+        "chinese": "夫妻应在结婚或生子前经济稳定",
+        "parent_id": "c_004_011",
+        "target_id": "c_004_011",
+        "relation": "作 agree 的宾语"
+      },
+      {
+        "chunk_id": "c_004_013",
+        "role": "并列成分",
+        "english": "to maintain that children are best served by two parents working outside the home",
+        "chinese": "坚持认为有两个在外工作的父母最有利于孩子",
+        "parent_id": "c_004_005",
+        "target_id": "c_004_005",
+        "relation": "likely 后第五项不定式"
+      },
+      {
+        "chunk_id": "c_004_014",
+        "role": "宾语从句",
+        "english": "that children are best served by two parents working outside the home",
+        "chinese": "有两个在外工作的父母最有利于孩子",
+        "parent_id": "c_004_013",
+        "target_id": "c_004_013",
+        "relation": "作 maintain 的宾语"
+      },
+      {
+        "chunk_id": "c_004_015",
+        "role": "插入语",
+        "english": "the survey found",
+        "chinese": "调查发现",
+        "parent_id": null,
+        "target_id": "c_004_001",
+        "relation": "说明整句信息来源"
+      },
+      {
+        "chunk_id": "c_004_016",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_004_009",
+        "target_id": null,
+        "relation": "believe 后宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_004_017",
+        "role": "从句谓语",
+        "english": "will advance",
+        "chinese": "将推进",
+        "parent_id": "c_004_009",
+        "target_id": null,
+        "relation": "believe 后宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_004_018",
+        "role": "从句宾语",
+        "english": "their careers",
+        "chinese": "他们的职业发展",
+        "parent_id": "c_004_009",
+        "target_id": "c_004_017",
+        "relation": "作 will advance 的宾语"
+      },
+      {
+        "chunk_id": "c_004_019",
+        "role": "从句主语",
+        "english": "couples",
+        "chinese": "夫妻",
+        "parent_id": "c_004_012",
+        "target_id": null,
+        "relation": "agree 后宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_004_020",
+        "role": "从句谓语",
+        "english": "should be",
+        "chinese": "应该是",
+        "parent_id": "c_004_012",
+        "target_id": null,
+        "relation": "agree 后宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_004_021",
+        "role": "从句表语",
+        "english": "financially secure",
+        "chinese": "经济稳定的",
+        "parent_id": "c_004_012",
+        "target_id": "c_004_020",
+        "relation": "作 should be 的表语"
+      },
+      {
+        "chunk_id": "c_004_022",
+        "role": "从句主语",
+        "english": "children",
+        "chinese": "孩子",
+        "parent_id": "c_004_014",
+        "target_id": null,
+        "relation": "maintain 后宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_004_023",
+        "role": "从句谓语",
+        "english": "are served",
+        "chinese": "被服务/被照顾",
+        "parent_id": "c_004_014",
+        "target_id": null,
+        "relation": "maintain 后宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_004_024",
+        "role": "状语",
+        "english": "by two parents working outside the home",
+        "chinese": "由两个在外工作的父母",
+        "parent_id": "c_004_014",
+        "target_id": "c_004_023",
+        "relation": "说明 are served 的施动者"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "were more likely to A, to B, to C, to D, and to E",
+        "explanation": "more likely 后接五个并列不定式，是本句的主要难点。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "prioritize",
+        "pos": "v.",
+        "meaning": "优先考虑",
+        "chunk_id": "c_004_007"
+      },
+      {
+        "word": "fulfillment",
+        "pos": "n.",
+        "meaning": "成就感，满足感",
+        "chunk_id": "c_004_007"
+      },
+      {
+        "word": "financially",
+        "pos": "adv.",
+        "meaning": "经济上",
+        "chunk_id": "c_004_012"
+      },
+      {
+        "word": "maintain",
+        "pos": "v.",
+        "meaning": "坚持认为",
+        "chunk_id": "c_004_013"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "get started in life",
+        "phrase_type": "v. phr.",
+        "meaning": "开始人生，人生起步",
+        "chunk_id": "c_004_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.",
+    "difficulty": 5,
+    "translation_literal": "从职业到社区和家庭，这些差异表明，在严重的大衰退之后，那些刚刚开始人生的人正在定义优先事项和期望，而这些优先事项和期望将越来越扩展到美国生活几乎所有方面，从消费者偏好到住房模式再到政治。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "状语",
+        "english": "From career to community and family",
+        "chinese": "从职业到社区和家庭",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "主语",
+        "english": "these contrasts",
+        "chinese": "这些差异",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "谓语",
+        "english": "suggest",
+        "chinese": "表明",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "宾语从句",
+        "english": "that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics",
+        "chinese": "在严重的大衰退之后，那些刚刚开始人生的人正在定义优先事项和期望，而这些将越来越扩展到美国生活几乎所有方面",
+        "parent_id": null,
+        "target_id": "c_005_003",
+        "relation": "作 suggest 的宾语"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "状语",
+        "english": "in the aftermath of the searing Great Recession",
+        "chinese": "在严重的大衰退之后",
+        "parent_id": "c_005_004",
+        "target_id": "c_005_007",
+        "relation": "说明 are defining 的背景"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "从句主语",
+        "english": "those just starting out in life",
+        "chinese": "那些刚刚开始人生的人",
+        "parent_id": "c_005_004",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_005_007",
+        "role": "从句谓语",
+        "english": "are defining",
+        "chinese": "正在定义",
+        "parent_id": "c_005_004",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_005_008",
+        "role": "从句宾语",
+        "english": "priorities and expectations",
+        "chinese": "优先事项和期望",
+        "parent_id": "c_005_004",
+        "target_id": "c_005_007",
+        "relation": "作 are defining 的宾语"
+      },
+      {
+        "chunk_id": "c_005_009",
+        "role": "定语从句",
+        "english": "that will increasingly spread through virtually all aspects of American life",
+        "chinese": "将越来越扩展到美国生活几乎所有方面的",
+        "parent_id": "c_005_008",
+        "target_id": "c_005_008",
+        "relation": "修饰 priorities and expectations"
+      },
+      {
+        "chunk_id": "c_005_010",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这些优先事项和期望",
+        "parent_id": "c_005_009",
+        "target_id": null,
+        "relation": "that 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_005_011",
+        "role": "定语从句谓语",
+        "english": "will increasingly spread",
+        "chinese": "将越来越扩展",
+        "parent_id": "c_005_009",
+        "target_id": null,
+        "relation": "that 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_005_012",
+        "role": "状语",
+        "english": "through virtually all aspects of American life",
+        "chinese": "遍及美国生活几乎所有方面",
+        "parent_id": "c_005_009",
+        "target_id": "c_005_011",
+        "relation": "说明 spread 的范围"
+      },
+      {
+        "chunk_id": "c_005_013",
+        "role": "插入举例",
+        "english": "from consumer preferences to housing patterns to politics",
+        "chinese": "从消费者偏好到住房模式再到政治",
+        "parent_id": "c_005_012",
+        "target_id": "c_005_012",
+        "relation": "举例说明 all aspects"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "suggest that + 状语 + 主语 + 谓语 + 定语从句",
+        "explanation": "that 从句内部先插入长状语，宾语 priorities and expectations 后又接定语从句。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "contrasts",
+        "pos": "n.",
+        "meaning": "差异，对比",
+        "chunk_id": "c_005_002"
+      },
+      {
+        "word": "aftermath",
+        "pos": "n.",
+        "meaning": "后果，余波",
+        "chunk_id": "c_005_005"
+      },
+      {
+        "word": "searing",
+        "pos": "adj.",
+        "meaning": "剧烈的，灼人的",
+        "chunk_id": "c_005_005"
+      },
+      {
+        "word": "virtually",
+        "pos": "adv.",
+        "meaning": "几乎",
+        "chunk_id": "c_005_012"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Great Recession",
+        "phrase_type": "n. phr.",
+        "meaning": "大衰退",
+        "chunk_id": "c_005_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.",
+    "difficulty": 5,
+    "translation_literal": "年轻人和老年人在一个关键点上趋同：两组中的压倒性多数都说，他们认为今天的年轻人开始人生比早先几代人更难。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "Young and old",
+        "chinese": "年轻人和老年人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "converge on",
+        "chinese": "在……上趋同",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "宾语",
+        "english": "one key point",
+        "chinese": "一个关键点",
+        "parent_id": null,
+        "target_id": "c_006_002",
+        "relation": "作 converge on 的宾语"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "同位语解释结构",
+        "english": "Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations",
+        "chinese": "两组中的压倒性多数都说，他们认为今天的年轻人开始人生比早先几代人更难",
+        "parent_id": null,
+        "target_id": "c_006_003",
+        "relation": "冒号后解释 one key point 的内容"
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "主语",
+        "english": "Overwhelming majorities of both groups",
+        "chinese": "两组中的压倒性多数",
+        "parent_id": "c_006_004",
+        "target_id": null,
+        "relation": "解释分句主语"
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "谓语",
+        "english": "said",
+        "chinese": "说",
+        "parent_id": "c_006_004",
+        "target_id": null,
+        "relation": "解释分句谓语"
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "宾语从句",
+        "english": "they believe it is harder for young people today to get started in life than it was for earlier generations",
+        "chinese": "他们认为今天的年轻人开始人生比早先几代人更难",
+        "parent_id": "c_006_004",
+        "target_id": "c_006_006",
+        "relation": "作 said 的宾语"
+      },
+      {
+        "chunk_id": "c_006_008",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_006_007",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_006_009",
+        "role": "从句谓语",
+        "english": "believe",
+        "chinese": "认为",
+        "parent_id": "c_006_007",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_006_010",
+        "role": "形式主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": "c_006_007",
+        "target_id": null,
+        "relation": "believe 后小从句的形式主语"
+      },
+      {
+        "chunk_id": "c_006_011",
+        "role": "表语",
+        "english": "harder for young people today",
+        "chinese": "对今天的年轻人来说更难",
+        "parent_id": "c_006_007",
+        "target_id": "c_006_010",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_006_012",
+        "role": "真正主语",
+        "english": "to get started in life",
+        "chinese": "开始人生",
+        "parent_id": "c_006_007",
+        "target_id": "c_006_010",
+        "relation": "真正主语，对应形式主语 it"
+      },
+      {
+        "chunk_id": "c_006_013",
+        "role": "状语从句",
+        "english": "than it was for earlier generations",
+        "chinese": "比对早先几代人来说",
+        "parent_id": "c_006_007",
+        "target_id": "c_006_011",
+        "relation": "比较说明 harder"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "名词 + 冒号解释",
+        "explanation": "冒号后的整句解释 one key point。"
+      },
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "it is + adj. + for sb. + to do",
+        "explanation": "it 是形式主语，真正主语是 to get started in life。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "converge",
+        "pos": "v.",
+        "meaning": "趋同，汇合",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "Overwhelming",
+        "pos": "adj.",
+        "meaning": "压倒性的",
+        "chunk_id": "c_006_005"
+      },
+      {
+        "word": "majorities",
+        "pos": "n.",
+        "meaning": "多数",
+        "chunk_id": "c_006_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "get started in life",
+        "phrase_type": "v. phr.",
+        "meaning": "开始人生，人生起步",
+        "chunk_id": "c_006_012"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "While younger people are somewhat more optimistic than their elders about the prospects for those starting out today, big majorities in both groups believe those “just getting started in life” face a tougher good-paying job, starting a family, managing debt, and finding affordable housing.",
+    "difficulty": 5,
+    "translation_literal": "尽管年轻人对于今天起步者的前景比他们的长辈略微更乐观，两组中的大多数人都认为那些“刚开始人生”的人面临更困难的局面，包括找到高薪工作、组建家庭、管理债务以及找到负担得起的住房。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "让步状语从句",
+        "english": "While younger people are somewhat more optimistic than their elders about the prospects for those starting out today",
+        "chinese": "尽管年轻人对于今天起步者的前景比他们的长辈略微更乐观",
+        "parent_id": null,
+        "target_id": "c_007_008",
+        "relation": "说明主句观点的让步背景"
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "从句主语",
+        "english": "younger people",
+        "chinese": "年轻人",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": "while 从句内部主语"
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "从句谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": "while 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "从句表语",
+        "english": "somewhat more optimistic than their elders",
+        "chinese": "比他们的长辈略微更乐观",
+        "parent_id": "c_007_001",
+        "target_id": "c_007_003",
+        "relation": "作 are 的表语"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "状语",
+        "english": "about the prospects for those starting out today",
+        "chinese": "关于今天起步者的前景",
+        "parent_id": "c_007_001",
+        "target_id": "c_007_004",
+        "relation": "说明 optimistic 的对象"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "主语",
+        "english": "big majorities in both groups",
+        "chinese": "两组中的大多数人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "谓语",
+        "english": "believe",
+        "chinese": "认为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "宾语从句",
+        "english": "those “just getting started in life” face a tougher good-paying job, starting a family, managing debt, and finding affordable housing",
+        "chinese": "那些刚刚开始人生的人面临更困难的高薪工作、组建家庭、管理债务和寻找负担得起住房等问题",
+        "parent_id": null,
+        "target_id": "c_007_007",
+        "relation": "作 believe 的宾语"
+      },
+      {
+        "chunk_id": "c_007_009",
+        "role": "从句主语",
+        "english": "those “just getting started in life”",
+        "chinese": "那些刚刚开始人生的人",
+        "parent_id": "c_007_008",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_007_010",
+        "role": "从句谓语",
+        "english": "face",
+        "chinese": "面临",
+        "parent_id": "c_007_008",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_007_011",
+        "role": "从句宾语",
+        "english": "a tougher good-paying job, starting a family, managing debt, and finding affordable housing",
+        "chinese": "更困难的高薪工作、组建家庭、管理债务和寻找负担得起住房",
+        "parent_id": "c_007_008",
+        "target_id": "c_007_010",
+        "relation": "作 face 的宾语，原文此处表达略有省略"
+      },
+      {
+        "chunk_id": "c_007_012",
+        "role": "并列成分",
+        "english": "starting a family / managing debt / finding affordable housing",
+        "chinese": "组建家庭 / 管理债务 / 寻找负担得起的住房",
+        "parent_id": "c_007_011",
+        "target_id": null,
+        "relation": "face 的后续并列困难事项"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "让步倒装",
+        "pattern_form": "While 引导让步从句",
+        "explanation": "While 这里表示“尽管”，不是时间。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "job, starting..., managing..., and finding...",
+        "explanation": "宾语部分列举多个年轻人面临的现实困难。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "optimistic",
+        "pos": "adj.",
+        "meaning": "乐观的",
+        "chunk_id": "c_007_004"
+      },
+      {
+        "word": "prospects",
+        "pos": "n.",
+        "meaning": "前景",
+        "chunk_id": "c_007_005"
+      },
+      {
+        "word": "affordable",
+        "pos": "adj.",
+        "meaning": "负担得起的",
+        "chunk_id": "c_007_012"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "good-paying job",
+        "phrase_type": "n. phr.",
+        "meaning": "高薪工作",
+        "chunk_id": "c_007_011"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "Pete Schneider considers the climb tougher today.",
+    "difficulty": 3,
+    "translation_literal": "皮特·施奈德认为如今这种攀登更艰难。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "Pete Schneider",
+        "chinese": "皮特·施奈德",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "considers",
+        "chinese": "认为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "宾语",
+        "english": "the climb",
+        "chinese": "这种攀登",
+        "parent_id": null,
+        "target_id": "c_008_002",
+        "relation": "作 considers 的宾语"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "宾语补足语",
+        "english": "tougher today",
+        "chinese": "如今更艰难",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "补充说明 the climb 的状态"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "considers",
+        "pos": "v.",
+        "meaning": "认为",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "word": "climb",
+        "pos": "n.",
+        "meaning": "攀登，艰难进程",
+        "chunk_id": "c_008_003"
+      },
+      {
+        "word": "tougher",
+        "pos": "adj.",
+        "meaning": "更艰难的",
+        "chunk_id": "c_008_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "Schneider, a 27-year-old auto technician from the Chicago suburbs says he struggled to find a job after graduating from college.",
+    "difficulty": 4,
+    "translation_literal": "施奈德，一个来自芝加哥郊区的 27 岁汽车技师，说他大学毕业后很努力才找到工作。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "Schneider",
+        "chinese": "施奈德",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "同位语",
+        "english": "a 27-year-old auto technician from the Chicago suburbs",
+        "chinese": "一个来自芝加哥郊区的 27 岁汽车技师",
+        "parent_id": "c_009_001",
+        "target_id": "c_009_001",
+        "relation": "解释 Schneider 的身份"
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "谓语",
+        "english": "says",
+        "chinese": "说",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "宾语从句",
+        "english": "he struggled to find a job after graduating from college",
+        "chinese": "他大学毕业后很努力才找到工作",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "作 says 的宾语"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "从句主语",
+        "english": "he",
+        "chinese": "他",
+        "parent_id": "c_009_004",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "从句谓语",
+        "english": "struggled",
+        "chinese": "努力，艰难地做",
+        "parent_id": "c_009_004",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "从句宾语",
+        "english": "to find a job",
+        "chinese": "找到工作",
+        "parent_id": "c_009_004",
+        "target_id": "c_009_006",
+        "relation": "作 struggled 的宾语/目的"
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "状语",
+        "english": "after graduating from college",
+        "chinese": "大学毕业后",
+        "parent_id": null,
+        "target_id": "c_009_006",
+        "relation": "说明 struggled 的时间"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "人名 + 身份说明 + 谓语",
+        "explanation": "a 27-year-old... 是 Schneider 的同位语，主句谓语是 says。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "technician",
+        "pos": "n.",
+        "meaning": "技师",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "suburbs",
+        "pos": "n.",
+        "meaning": "郊区",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "struggled",
+        "pos": "v.",
+        "meaning": "艰难努力",
+        "chunk_id": "c_009_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "graduate from college",
+        "phrase_type": "v. phr.",
+        "meaning": "大学毕业",
+        "chunk_id": "c_009_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "Even now that he is working steadily, he said, “I can’t afford to pay my monthly mortgage payments on my own, so I have to rent rooms out to people to make that happen.”",
+    "difficulty": 5,
+    "translation_literal": "他说：“即使现在我稳定工作，我也负担不起独自支付每月按揭款，所以我不得不把房间出租给别人来做到这一点。”",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "让步状语从句",
+        "english": "Even now that he is working steadily",
+        "chinese": "即使现在他稳定工作",
+        "parent_id": null,
+        "target_id": "c_010_005",
+        "relation": "说明主句内容成立的让步背景"
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "从句主语",
+        "english": "he",
+        "chinese": "他",
+        "parent_id": "c_010_001",
+        "target_id": null,
+        "relation": "now that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "从句谓语",
+        "english": "is working",
+        "chinese": "正在工作",
+        "parent_id": "c_010_001",
+        "target_id": null,
+        "relation": "now that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "状语",
+        "english": "steadily",
+        "chinese": "稳定地",
+        "parent_id": "c_010_001",
+        "target_id": "c_010_003",
+        "relation": "修饰 is working"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "插入语",
+        "english": "he said",
+        "chinese": "他说",
+        "parent_id": null,
+        "target_id": "c_010_006",
+        "relation": "说明引语来源"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "并列分句",
+        "english": "I can’t afford to pay my monthly mortgage payments on my own",
+        "chinese": "我负担不起独自支付每月按揭款",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "主语",
+        "english": "I",
+        "chinese": "我",
+        "parent_id": "c_010_006",
+        "target_id": null,
+        "relation": "第一引语分句主语"
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "谓语",
+        "english": "can’t afford",
+        "chinese": "负担不起",
+        "parent_id": "c_010_006",
+        "target_id": null,
+        "relation": "第一引语分句谓语"
+      },
+      {
+        "chunk_id": "c_010_009",
+        "role": "宾语",
+        "english": "to pay my monthly mortgage payments on my own",
+        "chinese": "独自支付每月按揭款",
+        "parent_id": "c_010_006",
+        "target_id": "c_010_008",
+        "relation": "作 afford 的宾语"
+      },
+      {
+        "chunk_id": "c_010_010",
+        "role": "连接成分",
+        "english": "so",
+        "chinese": "所以",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_011",
+        "role": "并列分句",
+        "english": "I have to rent rooms out to people to make that happen",
+        "chinese": "我不得不把房间出租给别人来做到这一点",
+        "parent_id": null,
+        "target_id": "c_010_006",
+        "relation": "第二引语分句，说明结果"
+      },
+      {
+        "chunk_id": "c_010_012",
+        "role": "主语",
+        "english": "I",
+        "chinese": "我",
+        "parent_id": "c_010_011",
+        "target_id": null,
+        "relation": "第二引语分句主语"
+      },
+      {
+        "chunk_id": "c_010_013",
+        "role": "谓语",
+        "english": "have to rent out",
+        "chinese": "不得不出租",
+        "parent_id": "c_010_011",
+        "target_id": null,
+        "relation": "第二引语分句谓语"
+      },
+      {
+        "chunk_id": "c_010_014",
+        "role": "宾语",
+        "english": "rooms",
+        "chinese": "房间",
+        "parent_id": "c_010_011",
+        "target_id": "c_010_013",
+        "relation": "作 rent out 的宾语"
+      },
+      {
+        "chunk_id": "c_010_015",
+        "role": "状语",
+        "english": "to make that happen",
+        "chinese": "来做到这一点",
+        "parent_id": "c_010_011",
+        "target_id": "c_010_013",
+        "relation": "说明 rent out 的目的"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "状语从句 + he said + 引语",
+        "explanation": "he said 插在让步状语和引语之间，主干在引语内部。"
+      },
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "can’t afford..., so have to...",
+        "explanation": "so 连接原因结果，说明为什么要出租房间。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "steadily",
+        "pos": "adv.",
+        "meaning": "稳定地",
+        "chunk_id": "c_010_004"
+      },
+      {
+        "word": "afford",
+        "pos": "v.",
+        "meaning": "负担得起",
+        "chunk_id": "c_010_008"
+      },
+      {
+        "word": "mortgage",
+        "pos": "n.",
+        "meaning": "按揭，抵押贷款",
+        "chunk_id": "c_010_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "rent out",
+        "phrase_type": "v. phr.",
+        "meaning": "出租",
+        "chunk_id": "c_010_013"
+      },
+      {
+        "phrase": "on my own",
+        "phrase_type": "adv. phr.",
+        "meaning": "独自地",
+        "chunk_id": "c_010_009"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young.",
+    "difficulty": 5,
+    "translation_literal": "回头看，他感到震惊的是，尽管在他小时候父母两人都没有完成大学学业，他们却能为孩子提供舒适的生活。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "非谓语结构",
+        "english": "Looking back",
+        "chinese": "回头看",
+        "parent_id": null,
+        "target_id": "c_011_002",
+        "relation": "说明 he is struck 的时间/角度"
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "主语",
+        "english": "he",
+        "chinese": "他",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "谓语",
+        "english": "is struck",
+        "chinese": "感到震惊",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "宾语从句",
+        "english": "that his parents could provide a comfortable life for their children even though neither had completed college when he was young",
+        "chinese": "他的父母尽管都没有完成大学学业，却能为孩子提供舒适的生活",
+        "parent_id": null,
+        "target_id": "c_011_003",
+        "relation": "说明 struck 的原因内容"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "从句主语",
+        "english": "his parents",
+        "chinese": "他的父母",
+        "parent_id": "c_011_004",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "从句谓语",
+        "english": "could provide",
+        "chinese": "能够提供",
+        "parent_id": "c_011_004",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "从句宾语",
+        "english": "a comfortable life",
+        "chinese": "舒适的生活",
+        "parent_id": "c_011_004",
+        "target_id": "c_011_006",
+        "relation": "作 provide 的宾语"
+      },
+      {
+        "chunk_id": "c_011_008",
+        "role": "状语",
+        "english": "for their children",
+        "chinese": "给他们的孩子",
+        "parent_id": "c_011_004",
+        "target_id": "c_011_006",
+        "relation": "说明 provide 的对象"
+      },
+      {
+        "chunk_id": "c_011_009",
+        "role": "让步状语从句",
+        "english": "even though neither had completed college when he was young",
+        "chinese": "尽管在他小时候父母两人都没有完成大学学业",
+        "parent_id": "c_011_004",
+        "target_id": "c_011_006",
+        "relation": "说明 could provide 的让步背景"
+      },
+      {
+        "chunk_id": "c_011_010",
+        "role": "从句主语",
+        "english": "neither",
+        "chinese": "两者都不",
+        "parent_id": "c_011_009",
+        "target_id": null,
+        "relation": "even though 从句内部主语"
+      },
+      {
+        "chunk_id": "c_011_011",
+        "role": "从句谓语",
+        "english": "had completed",
+        "chinese": "完成",
+        "parent_id": "c_011_009",
+        "target_id": null,
+        "relation": "even though 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_011_012",
+        "role": "状语从句",
+        "english": "when he was young",
+        "chinese": "当他小时候",
+        "parent_id": "c_011_009",
+        "target_id": "c_011_011",
+        "relation": "说明 completed 的时间"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "让步倒装",
+        "pattern_form": "even though 引导让步从句",
+        "explanation": "even though 从句说明父母未读完大学，却仍能提供舒适生活。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "struck",
+        "pos": "adj.",
+        "meaning": "震惊的",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "word": "provide",
+        "pos": "v.",
+        "meaning": "提供",
+        "chunk_id": "c_011_006"
+      },
+      {
+        "word": "completed",
+        "pos": "v.",
+        "meaning": "完成",
+        "chunk_id": "c_011_011"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Looking back",
+        "phrase_type": "parenthetical",
+        "meaning": "回头看",
+        "chunk_id": "c_011_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "“I still grew up in an upper middle-class home with parents who didn’t have college degrees,” Schneider said.",
+    "difficulty": 4,
+    "translation_literal": "施奈德说：“我仍然是在一个上层中产家庭长大的，父母没有大学学位。”",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "I",
+        "chinese": "我",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "状语",
+        "english": "still",
+        "chinese": "仍然",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "修饰 grew up"
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "谓语",
+        "english": "grew up",
+        "chinese": "长大",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "状语",
+        "english": "in an upper middle-class home with parents who didn’t have college degrees",
+        "chinese": "在一个父母没有大学学位的上层中产家庭中",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "说明 grew up 的环境"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "定语从句",
+        "english": "who didn’t have college degrees",
+        "chinese": "没有大学学位的",
+        "parent_id": "c_012_004",
+        "target_id": "c_012_004",
+        "relation": "修饰 parents"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "定语从句主语",
+        "english": "who",
+        "chinese": "父母",
+        "parent_id": "c_012_005",
+        "target_id": null,
+        "relation": "who 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "定语从句谓语",
+        "english": "didn’t have",
+        "chinese": "没有",
+        "parent_id": "c_012_005",
+        "target_id": null,
+        "relation": "who 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "定语从句宾语",
+        "english": "college degrees",
+        "chinese": "大学学位",
+        "parent_id": "c_012_005",
+        "target_id": "c_012_007",
+        "relation": "作 have 的宾语"
+      },
+      {
+        "chunk_id": "c_012_009",
+        "role": "插入语",
+        "english": "Schneider said",
+        "chinese": "施奈德说",
+        "parent_id": null,
+        "target_id": "c_012_001",
+        "relation": "说明引语来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "直接引语 + said",
+        "explanation": "Schneider said 位于句末，说明引语来源。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "upper",
+        "pos": "adj.",
+        "meaning": "上层的",
+        "chunk_id": "c_012_004"
+      },
+      {
+        "word": "degrees",
+        "pos": "n.",
+        "meaning": "学位",
+        "chunk_id": "c_012_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "middle-class home",
+        "phrase_type": "n. phr.",
+        "meaning": "中产阶级家庭",
+        "chunk_id": "c_012_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 4",
+    "original": "“I don’t think people are capable of that anymore.”",
+    "difficulty": 3,
+    "translation_literal": "“我认为人们现在不再有能力做到那一点了。”",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "I",
+        "chinese": "我",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "don’t think",
+        "chinese": "不认为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "宾语从句",
+        "english": "people are capable of that anymore",
+        "chinese": "人们现在还有能力做到那一点",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "作 think 的宾语，否定转移在主句"
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "从句主语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": "c_013_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "从句谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_013_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "从句表语",
+        "english": "capable of that anymore",
+        "chinese": "现在还有能力做到那一点",
+        "parent_id": "c_013_003",
+        "target_id": "c_013_005",
+        "relation": "作 are 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "否定转移 I don’t think...",
+        "explanation": "中文理解时通常把否定转到宾语从句：我认为人们不再有能力。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "capable",
+        "pos": "adj.",
+        "meaning": "有能力的",
+        "chunk_id": "c_013_006"
+      },
+      {
+        "word": "anymore",
+        "pos": "adv.",
+        "meaning": "再，也不",
+        "chunk_id": "c_013_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "be capable of",
+        "phrase_type": "adj. phr.",
+        "meaning": "有能力做……",
+        "chunk_id": "c_013_006"
+      }
+    ]
+  }
+]

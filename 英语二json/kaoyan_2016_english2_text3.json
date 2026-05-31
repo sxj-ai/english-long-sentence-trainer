@@ -1,0 +1,2263 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "That everyone’s too busy these days is a cliché.",
+    "difficulty": 3,
+    "translation_literal": "如今每个人都太忙这个说法是陈词滥调。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语从句",
+        "english": "That everyone’s too busy these days",
+        "chinese": "如今每个人都太忙",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "从句主语",
+        "english": "everyone",
+        "chinese": "每个人",
+        "parent_id": "c_001_001",
+        "target_id": null,
+        "relation": "主语从句内部主语"
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_001_001",
+        "target_id": null,
+        "relation": "主语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "从句表语",
+        "english": "too busy these days",
+        "chinese": "如今太忙",
+        "parent_id": "c_001_001",
+        "target_id": "c_001_003",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "表语",
+        "english": "a cliché",
+        "chinese": "一个陈词滥调",
+        "parent_id": null,
+        "target_id": "c_001_005",
+        "relation": "作主句 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "cliché",
+        "pos": "n.",
+        "meaning": "陈词滥调",
+        "chunk_id": "c_001_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "But one specific complaint is made especially mournfully: There’s never any time to read.",
+    "difficulty": 4,
+    "translation_literal": "但是有一种具体抱怨被格外悲伤地提出：从来没有任何时间阅读。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "主语",
+        "english": "one specific complaint",
+        "chinese": "一种具体抱怨",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "谓语",
+        "english": "is made",
+        "chinese": "被提出",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "状语",
+        "english": "especially mournfully",
+        "chinese": "格外悲伤地",
+        "parent_id": null,
+        "target_id": "c_002_003",
+        "relation": "修饰 is made"
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "同位语解释结构",
+        "english": "There’s never any time to read",
+        "chinese": "从来没有任何时间阅读",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "冒号后解释 complaint 的内容"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "存在句",
+        "english": "There’s never any time",
+        "chinese": "从来没有任何时间",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": "解释内容中的 there be 结构"
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "定语",
+        "english": "to read",
+        "chinese": "阅读的",
+        "parent_id": "c_002_006",
+        "target_id": "c_002_006",
+        "relation": "修饰 time"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "抽象名词 + 冒号解释",
+        "explanation": "冒号后的 There’s... 解释 complaint 的具体内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "specific",
+        "pos": "adj.",
+        "meaning": "具体的",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "mournfully",
+        "pos": "adv.",
+        "meaning": "悲伤地",
+        "chunk_id": "c_002_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "time to read",
+        "phrase_type": "n. phr.",
+        "meaning": "阅读的时间",
+        "chunk_id": "c_002_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "What makes the problem thornier is that the usual time-management techniques don’t seem sufficient.",
+    "difficulty": 5,
+    "translation_literal": "使这个问题更加棘手的是，通常的时间管理技巧似乎不够。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语从句",
+        "english": "What makes the problem thornier",
+        "chinese": "使这个问题更加棘手的东西",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "从句主语",
+        "english": "What",
+        "chinese": "什么",
+        "parent_id": "c_003_001",
+        "target_id": null,
+        "relation": "主语从句内部主语"
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "从句谓语",
+        "english": "makes",
+        "chinese": "使",
+        "parent_id": "c_003_001",
+        "target_id": null,
+        "relation": "主语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "从句宾语",
+        "english": "the problem",
+        "chinese": "这个问题",
+        "parent_id": "c_003_001",
+        "target_id": "c_003_003",
+        "relation": "作 makes 的宾语"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "宾语补足语",
+        "english": "thornier",
+        "chinese": "更加棘手",
+        "parent_id": "c_003_001",
+        "target_id": "c_003_004",
+        "relation": "补充说明 problem 的状态"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "表语从句",
+        "english": "that the usual time-management techniques don’t seem sufficient",
+        "chinese": "通常的时间管理技巧似乎不够",
+        "parent_id": null,
+        "target_id": "c_003_006",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_003_008",
+        "role": "从句主语",
+        "english": "the usual time-management techniques",
+        "chinese": "通常的时间管理技巧",
+        "parent_id": "c_003_007",
+        "target_id": null,
+        "relation": "表语从句内部主语"
+      },
+      {
+        "chunk_id": "c_003_009",
+        "role": "从句谓语",
+        "english": "don’t seem",
+        "chinese": "似乎不",
+        "parent_id": "c_003_007",
+        "target_id": null,
+        "relation": "表语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_003_010",
+        "role": "从句表语",
+        "english": "sufficient",
+        "chinese": "足够的",
+        "parent_id": "c_003_007",
+        "target_id": "c_003_009",
+        "relation": "作 seem 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "What 从句 + is + that 从句",
+        "explanation": "句子两端都是从句，What 从句作主语，that 从句作表语，容易误判主干。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "thornier",
+        "pos": "adj.",
+        "meaning": "更棘手的",
+        "chunk_id": "c_003_005"
+      },
+      {
+        "word": "sufficient",
+        "pos": "adj.",
+        "meaning": "足够的",
+        "chunk_id": "c_003_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "time-management techniques",
+        "phrase_type": "n. phr.",
+        "meaning": "时间管理技巧",
+        "chunk_id": "c_003_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "The web’s full of articles offering tips on making time to read: “Give up TV” or “Carry a book with you at all times”.",
+    "difficulty": 4,
+    "translation_literal": "网络上满是提供挤出阅读时间建议的文章：“放弃电视”或者“随时带一本书”。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "The web",
+        "chinese": "网络",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "表语",
+        "english": "full of articles offering tips on making time to read",
+        "chinese": "满是提供挤出阅读时间建议的文章",
+        "parent_id": null,
+        "target_id": "c_004_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "定语",
+        "english": "offering tips on making time to read",
+        "chinese": "提供挤出阅读时间建议的",
+        "parent_id": "c_004_003",
+        "target_id": "c_004_003",
+        "relation": "修饰 articles"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "定语",
+        "english": "on making time to read",
+        "chinese": "关于挤出阅读时间的",
+        "parent_id": "c_004_004",
+        "target_id": "c_004_004",
+        "relation": "修饰 tips"
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "插入举例",
+        "english": "“Give up TV” or “Carry a book with you at all times”",
+        "chinese": "“放弃电视”或者“随时带一本书”",
+        "parent_id": null,
+        "target_id": "c_004_004",
+        "relation": "冒号后举例说明 tips 的内容"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "冒号后列举",
+        "explanation": "冒号后两个引号内容是 tips 的例子，不是新的主干。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "articles",
+        "pos": "n.",
+        "meaning": "文章",
+        "chunk_id": "c_004_003"
+      },
+      {
+        "word": "tips",
+        "pos": "n.",
+        "meaning": "建议",
+        "chunk_id": "c_004_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "make time to read",
+        "phrase_type": "v. phr.",
+        "meaning": "挤出时间阅读",
+        "chunk_id": "c_004_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "But in my experience, using such methods to free up the odd 30 minutes doesn’t work.",
+    "difficulty": 4,
+    "translation_literal": "但是根据我的经验，使用这些方法腾出零散的 30 分钟并不起作用。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "状语",
+        "english": "in my experience",
+        "chinese": "根据我的经验",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "主语",
+        "english": "using such methods to free up the odd 30 minutes",
+        "chinese": "使用这些方法腾出零散的 30 分钟",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "定语",
+        "english": "to free up the odd 30 minutes",
+        "chinese": "腾出零散的 30 分钟",
+        "parent_id": "c_005_003",
+        "target_id": "c_005_003",
+        "relation": "说明 methods 的目的"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "谓语",
+        "english": "doesn’t work",
+        "chinese": "不起作用",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "methods",
+        "pos": "n.",
+        "meaning": "方法",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "odd",
+        "pos": "adj.",
+        "meaning": "零散的，偶尔的",
+        "chunk_id": "c_005_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "free up",
+        "phrase_type": "v. phr.",
+        "meaning": "腾出",
+        "chunk_id": "c_005_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "Sit down to read and the flywheel of work-related thoughts keeps spinning — or else you’re so exhausted that a challenging book’s the last thing you need.",
+    "difficulty": 5,
+    "translation_literal": "坐下来阅读时，与工作相关的思绪飞轮仍在旋转，或者你太疲惫，以至于一本有挑战性的书是你最不需要的东西。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "并列分句",
+        "english": "Sit down to read",
+        "chinese": "坐下来阅读",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "Sit down",
+        "chinese": "坐下来",
+        "parent_id": "c_006_001",
+        "target_id": null,
+        "relation": "第一并列分句的祈使谓语"
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "状语",
+        "english": "to read",
+        "chinese": "为了阅读",
+        "parent_id": "c_006_001",
+        "target_id": "c_006_002",
+        "relation": "说明 Sit down 的目的"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "并列分句",
+        "english": "the flywheel of work-related thoughts keeps spinning",
+        "chinese": "与工作相关的思绪飞轮仍在旋转",
+        "parent_id": null,
+        "target_id": "c_006_001",
+        "relation": "第二分句，说明坐下后仍然无法进入阅读"
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "主语",
+        "english": "the flywheel of work-related thoughts",
+        "chinese": "与工作相关的思绪飞轮",
+        "parent_id": "c_006_004",
+        "target_id": null,
+        "relation": "第二分句的主语"
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "谓语",
+        "english": "keeps spinning",
+        "chinese": "仍在旋转",
+        "parent_id": "c_006_004",
+        "target_id": null,
+        "relation": "第二分句的谓语"
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "并列分句",
+        "english": "or else you’re so exhausted that a challenging book’s the last thing you need",
+        "chinese": "或者你太疲惫，以至于一本有挑战性的书是你最不需要的东西",
+        "parent_id": null,
+        "target_id": "c_006_004",
+        "relation": "第三分句，说明另一种无法阅读的情况"
+      },
+      {
+        "chunk_id": "c_006_008",
+        "role": "从句主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_006_007",
+        "target_id": null,
+        "relation": "第三分句主语"
+      },
+      {
+        "chunk_id": "c_006_009",
+        "role": "从句谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_006_007",
+        "target_id": null,
+        "relation": "第三分句谓语"
+      },
+      {
+        "chunk_id": "c_006_010",
+        "role": "结果状语从句",
+        "english": "that a challenging book’s the last thing you need",
+        "chinese": "以至于一本有挑战性的书是你最不需要的东西",
+        "parent_id": "c_006_007",
+        "target_id": "c_006_009",
+        "relation": "说明 exhausted 的结果"
+      },
+      {
+        "chunk_id": "c_006_011",
+        "role": "从句主语",
+        "english": "a challenging book",
+        "chinese": "一本有挑战性的书",
+        "parent_id": "c_006_010",
+        "target_id": null,
+        "relation": "that 结果从句内部主语"
+      },
+      {
+        "chunk_id": "c_006_012",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_006_010",
+        "target_id": null,
+        "relation": "that 结果从句内部谓语"
+      },
+      {
+        "chunk_id": "c_006_013",
+        "role": "从句表语",
+        "english": "the last thing you need",
+        "chinese": "你最不需要的东西",
+        "parent_id": "c_006_010",
+        "target_id": "c_006_012",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "祈使句 + and + 分句 + or else + 分句",
+        "explanation": "句子用多个并列分句展示两种阅读失败的情形。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "flywheel",
+        "pos": "n.",
+        "meaning": "飞轮",
+        "chunk_id": "c_006_005"
+      },
+      {
+        "word": "spinning",
+        "pos": "v.",
+        "meaning": "旋转",
+        "chunk_id": "c_006_006"
+      },
+      {
+        "word": "exhausted",
+        "pos": "adj.",
+        "meaning": "疲惫的",
+        "chunk_id": "c_006_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "work-related thoughts",
+        "phrase_type": "n. phr.",
+        "meaning": "与工作相关的想法",
+        "chunk_id": "c_006_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "The modern mind, Tim Parks, a novelist and critic, writes, “is overwhelmingly inclined toward communication…It is not simply that one is interrupted; it is that one is actually inclined to interruption”.",
+    "difficulty": 5,
+    "translation_literal": "小说家兼评论家蒂姆·帕克斯写道，现代心智“压倒性地倾向于交流……并不只是一个人被打断；而是一个人实际上倾向于被打断”。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "The modern mind",
+        "chinese": "现代心智",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "插入语",
+        "english": "Tim Parks, a novelist and critic, writes",
+        "chinese": "小说家兼评论家蒂姆·帕克斯写道",
+        "parent_id": null,
+        "target_id": "c_007_001",
+        "relation": "说明引语来源"
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "同位语",
+        "english": "a novelist and critic",
+        "chinese": "一位小说家兼评论家",
+        "parent_id": "c_007_002",
+        "target_id": "c_007_002",
+        "relation": "解释 Tim Parks 的身份"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "谓语",
+        "english": "is inclined",
+        "chinese": "倾向于",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "状语",
+        "english": "overwhelmingly",
+        "chinese": "压倒性地",
+        "parent_id": null,
+        "target_id": "c_007_004",
+        "relation": "修饰 is inclined"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "宾语",
+        "english": "toward communication",
+        "chinese": "交流",
+        "parent_id": null,
+        "target_id": "c_007_004",
+        "relation": "作 inclined toward 的宾语"
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "并列分句",
+        "english": "It is not simply that one is interrupted",
+        "chinese": "并不只是一个人被打断",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": "引语中的第一解释分句"
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "形式主语",
+        "english": "It",
+        "chinese": "这",
+        "parent_id": "c_007_007",
+        "target_id": null,
+        "relation": "第一解释分句的形式主语"
+      },
+      {
+        "chunk_id": "c_007_009",
+        "role": "主语从句",
+        "english": "that one is interrupted",
+        "chinese": "一个人被打断",
+        "parent_id": "c_007_007",
+        "target_id": "c_007_008",
+        "relation": "真正主语"
+      },
+      {
+        "chunk_id": "c_007_010",
+        "role": "并列分句",
+        "english": "it is that one is actually inclined to interruption",
+        "chinese": "而是一个人实际上倾向于被打断",
+        "parent_id": "c_007_001",
+        "target_id": "c_007_007",
+        "relation": "引语中的第二解释分句"
+      },
+      {
+        "chunk_id": "c_007_011",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_007_007",
+        "target_id": null,
+        "relation": "It is not simply... 分句内部谓语"
+      },
+      {
+        "chunk_id": "c_007_012",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": "c_007_010",
+        "target_id": null,
+        "relation": "第二个 it is... 分句内部形式主语"
+      },
+      {
+        "chunk_id": "c_007_013",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_007_010",
+        "target_id": null,
+        "relation": "第二个 it is... 分句内部谓语"
+      },
+      {
+        "chunk_id": "c_007_014",
+        "role": "主语从句",
+        "english": "that one is actually inclined to interruption",
+        "chinese": "一个人实际上倾向于被打断",
+        "parent_id": "c_007_010",
+        "target_id": "c_007_012",
+        "relation": "真正主语，对应第二个 it"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语 + 发言人插入 + 谓语",
+        "explanation": "Tim Parks...writes 插入主语和谓语之间，主干是 The modern mind is inclined...。"
+      },
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is + that 从句",
+        "explanation": "引语中两个 it is 结构都需要把 that 从句还原为真正主语/说明内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "overwhelmingly",
+        "pos": "adv.",
+        "meaning": "压倒性地",
+        "chunk_id": "c_007_005"
+      },
+      {
+        "word": "inclined",
+        "pos": "adj.",
+        "meaning": "倾向于的",
+        "chunk_id": "c_007_004"
+      },
+      {
+        "word": "interruption",
+        "pos": "n.",
+        "meaning": "打断",
+        "chunk_id": "c_007_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "be inclined toward",
+        "phrase_type": "adj. phr.",
+        "meaning": "倾向于",
+        "chunk_id": "c_007_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "Deep reading requires not just time, but a special kind of time which can’t be obtained merely by becoming more efficient.",
+    "difficulty": 5,
+    "translation_literal": "深度阅读需要的不只是时间，而是一种特殊的时间，这种时间不能仅仅通过变得更高效来获得。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "Deep reading",
+        "chinese": "深度阅读",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "requires",
+        "chinese": "需要",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "宾语",
+        "english": "not just time, but a special kind of time",
+        "chinese": "不只是时间，而是一种特殊的时间",
+        "parent_id": null,
+        "target_id": "c_008_002",
+        "relation": "作 requires 的宾语"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "定语从句",
+        "english": "which can’t be obtained merely by becoming more efficient",
+        "chinese": "这种时间不能仅仅通过变得更高效来获得",
+        "parent_id": null,
+        "target_id": "c_008_003",
+        "relation": "修饰 a special kind of time"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "定语从句主语",
+        "english": "which",
+        "chinese": "这种时间",
+        "parent_id": "c_008_004",
+        "target_id": null,
+        "relation": "which 从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "定语从句谓语",
+        "english": "can’t be obtained",
+        "chinese": "不能被获得",
+        "parent_id": "c_008_004",
+        "target_id": null,
+        "relation": "which 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "状语",
+        "english": "merely by becoming more efficient",
+        "chinese": "仅仅通过变得更高效",
+        "parent_id": null,
+        "target_id": "c_008_006",
+        "relation": "说明获得的方式"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "not just A, but B",
+        "explanation": "宾语不是单纯的 time，而是 a special kind of time，后面 which 从句修饰它。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "requires",
+        "pos": "v.",
+        "meaning": "需要",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "word": "obtained",
+        "pos": "v.",
+        "meaning": "获得",
+        "chunk_id": "c_008_006"
+      },
+      {
+        "word": "merely",
+        "pos": "adv.",
+        "meaning": "仅仅",
+        "chunk_id": "c_008_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "deep reading",
+        "phrase_type": "n. phr.",
+        "meaning": "深度阅读",
+        "chunk_id": "c_008_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "In fact, “becoming more efficient” is part of the problem.",
+    "difficulty": 2,
+    "translation_literal": "事实上，“变得更高效”是问题的一部分。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "状语",
+        "english": "In fact",
+        "chinese": "事实上",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "主语",
+        "english": "“becoming more efficient”",
+        "chinese": "“变得更高效”",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "表语",
+        "english": "part of the problem",
+        "chinese": "问题的一部分",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "efficient",
+        "pos": "adj.",
+        "meaning": "高效的",
+        "chunk_id": "c_009_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "part of the problem",
+        "phrase_type": "n. phr.",
+        "meaning": "问题的一部分",
+        "chunk_id": "c_009_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "Thinking of time as a resource to be maximized means you approach it instrumentally, judging any given moment as well spent only in so far as it advances progress toward some goal.",
+    "difficulty": 5,
+    "translation_literal": "把时间看作一种要被最大化利用的资源意味着你会工具性地对待它，只有在某个时刻推动了朝向某个目标的进展时，才判断它被很好地花费了。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "Thinking of time as a resource to be maximized",
+        "chinese": "把时间看作一种要被最大化利用的资源",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "定语",
+        "english": "to be maximized",
+        "chinese": "要被最大化利用的",
+        "parent_id": "c_010_001",
+        "target_id": "c_010_001",
+        "relation": "修饰 resource"
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "谓语",
+        "english": "means",
+        "chinese": "意味着",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "宾语从句",
+        "english": "you approach it instrumentally, judging any given moment as well spent only in so far as it advances progress toward some goal",
+        "chinese": "你会工具性地对待它，只有在某个时刻推动了朝向某个目标的进展时，才判断它被很好地花费了",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "作 means 的宾语"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "从句主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_010_004",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "从句谓语",
+        "english": "approach",
+        "chinese": "对待",
+        "parent_id": "c_010_004",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "从句宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_010_004",
+        "target_id": "c_010_006",
+        "relation": "作 approach 的宾语，指 time"
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "非谓语结构",
+        "english": "judging any given moment as well spent",
+        "chinese": "判断任何给定时刻被很好地花费",
+        "parent_id": "c_010_004",
+        "target_id": "c_010_005",
+        "relation": "补充说明 approach 的具体方式"
+      },
+      {
+        "chunk_id": "c_010_009",
+        "role": "状语从句",
+        "english": "only in so far as it advances progress toward some goal",
+        "chinese": "只有在它推动朝某个目标的进展时",
+        "parent_id": "c_010_008",
+        "target_id": "c_010_008",
+        "relation": "说明 judging 的条件范围"
+      },
+      {
+        "chunk_id": "c_010_010",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_010_009",
+        "target_id": null,
+        "relation": "as 从句内部主语，指 any given moment"
+      },
+      {
+        "chunk_id": "c_010_011",
+        "role": "从句谓语",
+        "english": "advances",
+        "chinese": "推动",
+        "parent_id": "c_010_009",
+        "target_id": null,
+        "relation": "as 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_010_012",
+        "role": "从句宾语",
+        "english": "progress toward some goal",
+        "chinese": "朝某个目标的进展",
+        "parent_id": "c_010_009",
+        "target_id": "c_010_011",
+        "relation": "作 advances 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "动名词主语 + means + 宾语从句 + 非谓语",
+        "explanation": "主语很长，means 后宾语从句又带 judging 和 as 从句，需要分层读。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "maximized",
+        "pos": "v.",
+        "meaning": "最大化",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "instrumentally",
+        "pos": "adv.",
+        "meaning": "工具性地",
+        "chunk_id": "c_010_004"
+      },
+      {
+        "word": "advances",
+        "pos": "v.",
+        "meaning": "推动",
+        "chunk_id": "c_010_011"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "think of ... as ...",
+        "phrase_type": "v. phr.",
+        "meaning": "把……看作……",
+        "chunk_id": "c_010_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "Immersive reading, by contrast, depends on being willing to risk inefficiency, goallessness, even time-wasting.",
+    "difficulty": 4,
+    "translation_literal": "相比之下，沉浸式阅读取决于愿意冒低效、无目标、甚至浪费时间的风险。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "Immersive reading",
+        "chinese": "沉浸式阅读",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "插入语",
+        "english": "by contrast",
+        "chinese": "相比之下",
+        "parent_id": null,
+        "target_id": "c_011_001",
+        "relation": "提示与前一句形成对比"
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "谓语",
+        "english": "depends on",
+        "chinese": "取决于",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "宾语",
+        "english": "being willing to risk inefficiency, goallessness, even time-wasting",
+        "chinese": "愿意冒低效、无目标、甚至浪费时间的风险",
+        "parent_id": null,
+        "target_id": "c_011_003",
+        "relation": "作 depends on 的宾语"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "并列宾语",
+        "english": "inefficiency, goallessness, even time-wasting",
+        "chinese": "低效、无目标、甚至浪费时间",
+        "parent_id": "c_011_004",
+        "target_id": "c_011_004",
+        "relation": "risk 的三个并列宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语后插入 by contrast",
+        "explanation": "by contrast 插入主语和谓语之间，提示语义转折。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Immersive",
+        "pos": "adj.",
+        "meaning": "沉浸式的",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "inefficiency",
+        "pos": "n.",
+        "meaning": "低效",
+        "chunk_id": "c_011_005"
+      },
+      {
+        "word": "goallessness",
+        "pos": "n.",
+        "meaning": "无目标",
+        "chunk_id": "c_011_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "depends on",
+        "phrase_type": "v. phr.",
+        "meaning": "取决于",
+        "chunk_id": "c_011_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "Try to slot it as a to-do list item and you’ll manage only goal-focused reading — useful, sometimes, but not the most fulfilling kind.",
+    "difficulty": 5,
+    "translation_literal": "试图把它塞进待办事项清单，你就只能做到目标导向的阅读，有时有用，但不是最令人满足的那种阅读。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "并列分句",
+        "english": "Try to slot it as a to-do list item",
+        "chinese": "试图把它塞进待办事项清单",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "Try to slot",
+        "chinese": "试图塞入",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": "第一分句的祈使谓语"
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_012_001",
+        "target_id": "c_012_002",
+        "relation": "作 slot 的宾语，指阅读"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "状语",
+        "english": "as a to-do list item",
+        "chinese": "作为待办事项清单项目",
+        "parent_id": "c_012_001",
+        "target_id": "c_012_002",
+        "relation": "说明 slot 的方式"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "并列分句",
+        "english": "you’ll manage only goal-focused reading",
+        "chinese": "你就只能做到目标导向的阅读",
+        "parent_id": null,
+        "target_id": "c_012_001",
+        "relation": "and 后的结果分句"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_012_005",
+        "target_id": null,
+        "relation": "结果分句主语"
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "谓语",
+        "english": "will manage",
+        "chinese": "将能做到",
+        "parent_id": "c_012_005",
+        "target_id": null,
+        "relation": "结果分句谓语"
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "宾语",
+        "english": "only goal-focused reading",
+        "chinese": "只有目标导向的阅读",
+        "parent_id": "c_012_005",
+        "target_id": "c_012_007",
+        "relation": "作 manage 的宾语"
+      },
+      {
+        "chunk_id": "c_012_009",
+        "role": "插入语",
+        "english": "useful, sometimes, but not the most fulfilling kind",
+        "chinese": "有时有用，但不是最令人满足的那种",
+        "parent_id": "c_012_008",
+        "target_id": "c_012_008",
+        "relation": "补充评价 goal-focused reading"
+      },
+      {
+        "chunk_id": "c_012_010",
+        "role": "主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": "祈使分句省略的主语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "祈使句 + and + 结果分句",
+        "explanation": "Try... and you’ll... 表示如果这样做就会导致后面的结果。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号后评价说明",
+        "explanation": "破折号后的 useful... 评价 goal-focused reading。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "slot",
+        "pos": "v.",
+        "meaning": "塞入，安排进",
+        "chunk_id": "c_012_002"
+      },
+      {
+        "word": "fulfilling",
+        "pos": "adj.",
+        "meaning": "令人满足的",
+        "chunk_id": "c_012_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "to-do list item",
+        "phrase_type": "n. phr.",
+        "meaning": "待办事项清单项目",
+        "chunk_id": "c_012_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "“The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in his book Sacred Time, and “we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them”.",
+    "difficulty": 5,
+    "translation_literal": "加里·埃伯尔在他的《神圣时间》一书中写道：“未来像空瓶子一样沿着一条不可阻挡且近乎无限的传送带向我们而来”，并且“我们感到一种压力，要在这些不同大小的瓶子（日、小时、分钟）经过时填满它们，因为如果它们未经填充就过去了，我们就会浪费它们。”",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "并列分句",
+        "english": "The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt",
+        "chinese": "未来像空瓶子一样沿着不可阻挡且近乎无限的传送带向我们而来",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "主语",
+        "english": "The future",
+        "chinese": "未来",
+        "parent_id": "c_013_001",
+        "target_id": null,
+        "relation": "第一引语分句主语"
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "谓语",
+        "english": "comes at",
+        "chinese": "向……而来",
+        "parent_id": "c_013_001",
+        "target_id": null,
+        "relation": "第一引语分句谓语"
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "状语",
+        "english": "like empty bottles along an unstoppable and nearly infinite conveyor belt",
+        "chinese": "像空瓶子一样沿着不可阻挡且近乎无限的传送带",
+        "parent_id": "c_013_001",
+        "target_id": "c_013_003",
+        "relation": "说明 future comes 的方式"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "插入语",
+        "english": "writes Gary Eberle in his book Sacred Time",
+        "chinese": "加里·埃伯尔在《神圣时间》一书中写道",
+        "parent_id": null,
+        "target_id": "c_013_001",
+        "relation": "说明引语来源"
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "并列分句",
+        "english": "we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass",
+        "chinese": "我们感到一种压力，要在这些不同大小的瓶子经过时填满它们",
+        "parent_id": null,
+        "target_id": "c_013_001",
+        "relation": "第二引语分句"
+      },
+      {
+        "chunk_id": "c_013_007",
+        "role": "主语",
+        "english": "we",
+        "chinese": "我们",
+        "parent_id": "c_013_006",
+        "target_id": null,
+        "relation": "第二引语分句主语"
+      },
+      {
+        "chunk_id": "c_013_008",
+        "role": "谓语",
+        "english": "feel",
+        "chinese": "感到",
+        "parent_id": "c_013_006",
+        "target_id": null,
+        "relation": "第二引语分句谓语"
+      },
+      {
+        "chunk_id": "c_013_009",
+        "role": "宾语",
+        "english": "a pressure to fill these different-sized bottles",
+        "chinese": "一种填满这些不同大小瓶子的压力",
+        "parent_id": "c_013_006",
+        "target_id": "c_013_008",
+        "relation": "作 feel 的宾语"
+      },
+      {
+        "chunk_id": "c_013_010",
+        "role": "状语从句",
+        "english": "as they pass",
+        "chinese": "当它们经过时",
+        "parent_id": "c_013_006",
+        "target_id": "c_013_009",
+        "relation": "说明 fill 的时间"
+      },
+      {
+        "chunk_id": "c_013_011",
+        "role": "原因状语从句",
+        "english": "for if they get by without being filled, we will have wasted them",
+        "chinese": "因为如果它们未经填充就过去了，我们就会浪费它们",
+        "parent_id": "c_013_006",
+        "target_id": "c_013_008",
+        "relation": "解释压力产生的原因"
+      },
+      {
+        "chunk_id": "c_013_012",
+        "role": "条件状语从句",
+        "english": "if they get by without being filled",
+        "chinese": "如果它们未经填充就过去了",
+        "parent_id": "c_013_011",
+        "target_id": "c_013_013",
+        "relation": "说明 will have wasted 的条件"
+      },
+      {
+        "chunk_id": "c_013_013",
+        "role": "并列分句",
+        "english": "we will have wasted them",
+        "chinese": "我们就会浪费它们",
+        "parent_id": "c_013_011",
+        "target_id": null,
+        "relation": "原因从句中的结果主句"
+      },
+      {
+        "chunk_id": "c_013_014",
+        "role": "从句主语",
+        "english": "we",
+        "chinese": "我们",
+        "parent_id": "c_013_011",
+        "target_id": null,
+        "relation": "for 原因从句中结果分句的主语"
+      },
+      {
+        "chunk_id": "c_013_015",
+        "role": "从句谓语",
+        "english": "will have wasted",
+        "chinese": "将已经浪费",
+        "parent_id": "c_013_011",
+        "target_id": null,
+        "relation": "for 原因从句中结果分句的谓语"
+      },
+      {
+        "chunk_id": "c_013_016",
+        "role": "从句宾语",
+        "english": "them",
+        "chinese": "它们",
+        "parent_id": "c_013_011",
+        "target_id": "c_013_015",
+        "relation": "作 will have wasted 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "引语 A + writes... + and 引语 B",
+        "explanation": "两个引语分句并列，中间插入 writes...，第二分句里还有 as 和 if 从句。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "writes Gary Eberle in his book...",
+        "explanation": "writes... 插在两个引语之间，只说明出处。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "unstoppable",
+        "pos": "adj.",
+        "meaning": "不可阻挡的",
+        "chunk_id": "c_013_004"
+      },
+      {
+        "word": "infinite",
+        "pos": "adj.",
+        "meaning": "无限的",
+        "chunk_id": "c_013_004"
+      },
+      {
+        "word": "conveyor",
+        "pos": "n.",
+        "meaning": "传送装置",
+        "chunk_id": "c_013_004"
+      },
+      {
+        "word": "pressure",
+        "pos": "n.",
+        "meaning": "压力",
+        "chunk_id": "c_013_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "conveyor belt",
+        "phrase_type": "n. phr.",
+        "meaning": "传送带",
+        "chunk_id": "c_013_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "No mind-set could be worse for losing yourself in a book.",
+    "difficulty": 3,
+    "translation_literal": "没有哪种心态对沉浸于一本书更糟糕。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "No mind-set",
+        "chinese": "没有哪种心态",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "could be",
+        "chinese": "可能是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "表语",
+        "english": "worse",
+        "chinese": "更糟糕的",
+        "parent_id": null,
+        "target_id": "c_014_002",
+        "relation": "作 be 的表语"
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "状语",
+        "english": "for losing yourself in a book",
+        "chinese": "对于沉浸于一本书来说",
+        "parent_id": null,
+        "target_id": "c_014_003",
+        "relation": "说明 worse 的适用方面"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "mind-set",
+        "pos": "n.",
+        "meaning": "心态",
+        "chunk_id": "c_014_001"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "lose yourself in",
+        "phrase_type": "v. phr.",
+        "meaning": "沉浸于",
+        "chunk_id": "c_014_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "So what does work?",
+    "difficulty": 2,
+    "translation_literal": "那么，什么确实有效呢？",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "连接成分",
+        "english": "So",
+        "chinese": "那么",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "主语",
+        "english": "what",
+        "chinese": "什么",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "谓语",
+        "english": "does work",
+        "chinese": "确实有效",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "疑问词 + 助动词 + 主语 + 谓语",
+        "explanation": "疑问句中 does 提前，work 是实义动词。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "work",
+        "pos": "v.",
+        "meaning": "有效，起作用",
+        "chunk_id": "c_015_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "Perhaps surprisingly, scheduling regular times for reading.",
+    "difficulty": 2,
+    "translation_literal": "也许令人惊讶的是，安排固定的阅读时间。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "状语",
+        "english": "Perhaps surprisingly",
+        "chinese": "也许令人惊讶的是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "省略结构",
+        "english": "scheduling regular times for reading",
+        "chinese": "安排固定的阅读时间",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "省略谓语",
+        "english": "works",
+        "chinese": "有效",
+        "parent_id": "c_016_002",
+        "target_id": null,
+        "relation": "根据上一句 So what does work? 补出的谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "回答上一句疑问，省略谓语",
+        "explanation": "本句承接 So what does work?，完整理解为 scheduling regular times for reading works。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "scheduling",
+        "pos": "v.",
+        "meaning": "安排",
+        "chunk_id": "c_016_002"
+      },
+      {
+        "word": "regular",
+        "pos": "adj.",
+        "meaning": "固定的，定期的",
+        "chunk_id": "c_016_002"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "You’d think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behavior helps us “step outside time’s flow” into “soul time”.",
+    "difficulty": 5,
+    "translation_literal": "你可能会认为这会助长效率心态，但事实上，埃伯尔指出，这种仪式化行为帮助我们“走出时间之流”，进入“灵魂时间”。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "并列分句",
+        "english": "You’d think this might fuel the efficiency mind-set",
+        "chinese": "你可能会认为这会助长效率心态",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "主语",
+        "english": "You",
+        "chinese": "你",
+        "parent_id": "c_017_001",
+        "target_id": null,
+        "relation": "第一分句主语"
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "谓语",
+        "english": "would think",
+        "chinese": "可能会认为",
+        "parent_id": "c_017_001",
+        "target_id": null,
+        "relation": "第一分句谓语"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "宾语从句",
+        "english": "this might fuel the efficiency mind-set",
+        "chinese": "这会助长效率心态",
+        "parent_id": "c_017_001",
+        "target_id": "c_017_003",
+        "relation": "作 think 的宾语"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "连接成分",
+        "english": "but",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "插入语",
+        "english": "in fact, Eberle notes",
+        "chinese": "事实上，埃伯尔指出",
+        "parent_id": null,
+        "target_id": "c_017_007",
+        "relation": "说明后面观点来源"
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "并列分句",
+        "english": "such ritualistic behavior helps us “step outside time’s flow” into “soul time”",
+        "chinese": "这种仪式化行为帮助我们走出时间之流，进入灵魂时间",
+        "parent_id": null,
+        "target_id": "c_017_001",
+        "relation": "第二分句，与第一分句转折"
+      },
+      {
+        "chunk_id": "c_017_008",
+        "role": "主语",
+        "english": "such ritualistic behavior",
+        "chinese": "这种仪式化行为",
+        "parent_id": "c_017_007",
+        "target_id": null,
+        "relation": "第二分句主语"
+      },
+      {
+        "chunk_id": "c_017_009",
+        "role": "谓语",
+        "english": "helps",
+        "chinese": "帮助",
+        "parent_id": "c_017_007",
+        "target_id": null,
+        "relation": "第二分句谓语"
+      },
+      {
+        "chunk_id": "c_017_010",
+        "role": "宾语",
+        "english": "us",
+        "chinese": "我们",
+        "parent_id": "c_017_007",
+        "target_id": "c_017_009",
+        "relation": "作 helps 的宾语"
+      },
+      {
+        "chunk_id": "c_017_011",
+        "role": "宾语补足语",
+        "english": "step outside time’s flow into soul time",
+        "chinese": "走出时间之流，进入灵魂时间",
+        "parent_id": "c_017_007",
+        "target_id": "c_017_010",
+        "relation": "补充说明帮助我们做什么"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "You’d think..., but ... behavior helps...",
+        "explanation": "but 连接预期和实际结论，中间 Eberle notes 是插入语。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "fuel",
+        "pos": "v.",
+        "meaning": "助长",
+        "chunk_id": "c_017_004"
+      },
+      {
+        "word": "ritualistic",
+        "pos": "adj.",
+        "meaning": "仪式化的",
+        "chunk_id": "c_017_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "step outside",
+        "phrase_type": "v. phr.",
+        "meaning": "走出，跳出",
+        "chunk_id": "c_017_011"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "You could limit distractions by reading only physical books, or on single-purpose e-readers.",
+    "difficulty": 3,
+    "translation_literal": "你可以通过只阅读实体书，或者在单一用途的电子阅读器上阅读，来限制干扰。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "主语",
+        "english": "You",
+        "chinese": "你",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "谓语",
+        "english": "could limit",
+        "chinese": "可以限制",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "宾语",
+        "english": "distractions",
+        "chinese": "干扰",
+        "parent_id": null,
+        "target_id": "c_018_002",
+        "relation": "作 limit 的宾语"
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "状语",
+        "english": "by reading only physical books, or on single-purpose e-readers",
+        "chinese": "通过只阅读实体书，或者在单一用途的电子阅读器上阅读",
+        "parent_id": null,
+        "target_id": "c_018_002",
+        "relation": "说明 limit 的方式"
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "并列成分",
+        "english": "physical books / single-purpose e-readers",
+        "chinese": "实体书 / 单一用途电子阅读器",
+        "parent_id": "c_018_004",
+        "target_id": null,
+        "relation": "两个阅读媒介并列"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "limit",
+        "pos": "v.",
+        "meaning": "限制",
+        "chunk_id": "c_018_002"
+      },
+      {
+        "word": "distractions",
+        "pos": "n.",
+        "meaning": "干扰",
+        "chunk_id": "c_018_003"
+      },
+      {
+        "word": "physical",
+        "pos": "adj.",
+        "meaning": "实体的",
+        "chunk_id": "c_018_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "single-purpose e-readers",
+        "phrase_type": "n. phr.",
+        "meaning": "单一用途电子阅读器",
+        "chunk_id": "c_018_005"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "“Carry a book with you at all times” can actually work, too — providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.",
+    "difficulty": 5,
+    "translation_literal": "“随时带一本书”其实也能起作用，前提是你足够经常地翻读，这样阅读就会成为默认状态，你会从这种状态中暂时浮出来处理事务，然后再沉回去。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "主语",
+        "english": "“Carry a book with you at all times”",
+        "chinese": "“随时带一本书”",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "谓语",
+        "english": "can actually work",
+        "chinese": "其实能够起作用",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "状语从句",
+        "english": "providing you dip in often enough",
+        "chinese": "前提是你足够经常地翻读",
+        "parent_id": null,
+        "target_id": "c_019_002",
+        "relation": "说明 work 的条件"
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "从句主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_019_003",
+        "target_id": null,
+        "relation": "providing 从句内部主语"
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "从句谓语",
+        "english": "dip in",
+        "chinese": "翻读，浏览",
+        "parent_id": "c_019_003",
+        "target_id": null,
+        "relation": "providing 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_019_006",
+        "role": "结果状语从句",
+        "english": "so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down",
+        "chinese": "这样阅读就会成为默认状态，你会从这种状态中暂时浮出来处理事务，然后再沉回去",
+        "parent_id": null,
+        "target_id": "c_019_003",
+        "relation": "说明满足条件后的结果"
+      },
+      {
+        "chunk_id": "c_019_007",
+        "role": "从句主语",
+        "english": "reading",
+        "chinese": "阅读",
+        "parent_id": "c_019_006",
+        "target_id": null,
+        "relation": "so that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_019_008",
+        "role": "从句谓语",
+        "english": "becomes",
+        "chinese": "变成",
+        "parent_id": "c_019_006",
+        "target_id": null,
+        "relation": "so that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_019_009",
+        "role": "从句表语",
+        "english": "the default state",
+        "chinese": "默认状态",
+        "parent_id": "c_019_006",
+        "target_id": "c_019_008",
+        "relation": "作 becomes 的表语"
+      },
+      {
+        "chunk_id": "c_019_010",
+        "role": "定语从句",
+        "english": "from which you temporarily surface to take care of business",
+        "chinese": "你会从中暂时浮出来处理事务的",
+        "parent_id": "c_019_009",
+        "target_id": "c_019_009",
+        "relation": "修饰 state"
+      },
+      {
+        "chunk_id": "c_019_011",
+        "role": "定语从句主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_019_010",
+        "target_id": null,
+        "relation": "from which 从句内部主语"
+      },
+      {
+        "chunk_id": "c_019_012",
+        "role": "定语从句谓语",
+        "english": "temporarily surface",
+        "chinese": "暂时浮出来",
+        "parent_id": "c_019_010",
+        "target_id": null,
+        "relation": "from which 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_019_013",
+        "role": "状语",
+        "english": "before dropping back down",
+        "chinese": "在再次沉回去之前",
+        "parent_id": null,
+        "target_id": "c_019_012",
+        "relation": "说明 surface 后的时间顺序"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主句 + providing 从句 + so that 从句 + from which 从句",
+        "explanation": "多个从句连续出现，要先抓住主干 Carry a book... can work。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "actually",
+        "pos": "adv.",
+        "meaning": "实际上",
+        "chunk_id": "c_019_002"
+      },
+      {
+        "word": "temporarily",
+        "pos": "adv.",
+        "meaning": "暂时地",
+        "chunk_id": "c_019_012"
+      },
+      {
+        "word": "default",
+        "pos": "adj.",
+        "meaning": "默认的",
+        "chunk_id": "c_019_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "at all times",
+        "phrase_type": "adv. phr.",
+        "meaning": "随时，总是",
+        "chunk_id": "c_019_001"
+      },
+      {
+        "phrase": "take care of business",
+        "phrase_type": "v. phr.",
+        "meaning": "处理事务",
+        "chunk_id": "c_019_010"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2016,
+    "exam_type": "英语二",
+    "text_id": "Text 3",
+    "original": "On a really good day, it no longer feels as if you’re “making time to read,” but just reading, and making time for everything else.",
+    "difficulty": 5,
+    "translation_literal": "在真正好的日子里，感觉不再像是你在“挤时间阅读”，而只是阅读，并为其他所有事情挤时间。",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "状语",
+        "english": "On a really good day",
+        "chinese": "在真正好的日子里",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "主语",
+        "english": "it",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "状语",
+        "english": "no longer",
+        "chinese": "不再",
+        "parent_id": null,
+        "target_id": "c_020_004",
+        "relation": "修饰 feels"
+      },
+      {
+        "chunk_id": "c_020_004",
+        "role": "谓语",
+        "english": "feels",
+        "chinese": "感觉",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_005",
+        "role": "表语从句",
+        "english": "as if you’re “making time to read,” but just reading, and making time for everything else",
+        "chinese": "好像你不是在挤时间阅读，而只是在阅读，并为其他所有事情挤时间",
+        "parent_id": null,
+        "target_id": "c_020_004",
+        "relation": "作 feels 的表语内容"
+      },
+      {
+        "chunk_id": "c_020_006",
+        "role": "从句主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_020_005",
+        "target_id": null,
+        "relation": "as if 从句内部主语"
+      },
+      {
+        "chunk_id": "c_020_007",
+        "role": "从句谓语",
+        "english": "are making",
+        "chinese": "正在挤出",
+        "parent_id": "c_020_005",
+        "target_id": null,
+        "relation": "as if 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_020_008",
+        "role": "并列成分",
+        "english": "just reading",
+        "chinese": "只是在阅读",
+        "parent_id": "c_020_005",
+        "target_id": "c_020_007",
+        "relation": "与 making time to read 形成转折并列"
+      },
+      {
+        "chunk_id": "c_020_009",
+        "role": "并列成分",
+        "english": "making time for everything else",
+        "chinese": "为其他所有事情挤时间",
+        "parent_id": "c_020_005",
+        "target_id": "c_020_007",
+        "relation": "与 just reading 并列"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "not A, but B, and C",
+        "explanation": "not...but... 后还有 and making...，表示阅读成为默认状态，其他事才需要安排时间。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "feels",
+        "pos": "v.",
+        "meaning": "感觉",
+        "chunk_id": "c_020_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "make time for",
+        "phrase_type": "v. phr.",
+        "meaning": "为……挤出时间",
+        "chunk_id": "c_020_009"
+      }
+    ]
+  }
+]

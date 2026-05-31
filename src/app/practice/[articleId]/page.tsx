@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PracticeWorkspace } from "@/components/practice/PracticeWorkspace";
 import { getArticle, listArticles } from "@/features/article/jsonArticleRepository";
-import { generatePracticeItems } from "@/features/practice/practiceGenerator";
+import { getPrecisionPracticeItems } from "@/features/practice/precisionPracticeRepository";
 
 export const dynamicParams = false;
 
@@ -21,7 +21,7 @@ export default async function PracticePage({ params }: { params: Promise<{ artic
     notFound();
   }
 
-  const items = generatePracticeItems(article);
+  const items = await getPrecisionPracticeItems(article);
 
   return (
     <div className="page-stack">

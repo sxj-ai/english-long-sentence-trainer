@@ -1,0 +1,1917 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "States will be able to force more people to pay sales tax when they make online purchases under a Supreme Court decision Thursday that will leave shoppers with lighter wallets but is a big financial win for states.",
+    "difficulty": 4,
+    "translation_literal": "在周四最高法院的一项裁决下，各州将能够迫使更多人在网上购物时缴纳销售税；该裁决会让购物者钱包变轻，却是各州财政上的重大胜利。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "States will be able to",
+        "chinese": "在周四最高法院的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "谓语",
+        "english": "force more people to pay",
+        "chinese": "一项裁决下，各州",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "宾语",
+        "english": "sales tax when they make",
+        "chinese": "将能够迫使更多人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "状语",
+        "english": "online purchases under a Supreme",
+        "chinese": "在网上购物时缴纳",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "定语",
+        "english": "Court decision Thursday that will",
+        "chinese": "销售税；该裁决会",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "补语",
+        "english": "leave shoppers with lighter wallets",
+        "chinese": "让购物者钱包变轻",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "插入语",
+        "english": "but is a big financial",
+        "chinese": "，却是各州财政上",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_008",
+        "role": "主语",
+        "english": "win for states.",
+        "chinese": "的重大胜利。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主句 + that 从句",
+        "explanation": "主句后接较长的 that 从句，阅读时应先抓住 core clause 再处理修饰。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "States",
+        "pos": "n.",
+        "meaning": "各州",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "force",
+        "pos": "v.",
+        "meaning": "迫使",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "sales tax",
+        "pos": "n.",
+        "meaning": "销售税",
+        "chunk_id": "c_001_001"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "online purchases",
+        "phrase_type": "n. phr.",
+        "meaning": "网上购买",
+        "chunk_id": "c_001_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The Supreme Court’s opinion Thursday overruled a pair of decades-old decisions that states said cost them billions of dollars in lost revenue annually.",
+    "difficulty": 3,
+    "translation_literal": "最高法院周四的意见推翻了两项已有几十年历史的裁决，各州称这些裁决每年让它们损失数十亿美元收入。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "The Supreme Court’s opinion",
+        "chinese": "最高法院周四的意",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "Thursday overruled a pair",
+        "chinese": "见推翻了两项已有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "宾语",
+        "english": "of decades-old decisions that",
+        "chinese": "几十年历史的裁决",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "状语",
+        "english": "states said cost them",
+        "chinese": "，各州称这些裁决",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "定语",
+        "english": "billions of dollars in",
+        "chinese": "每年让它们损失数",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "补语",
+        "english": "lost revenue annually.",
+        "chinese": "十亿美元收入。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "opinion",
+        "pos": "n.",
+        "meaning": "意见；判决意见",
+        "chunk_id": "c_002_001"
+      },
+      {
+        "word": "overruled",
+        "pos": "v.",
+        "meaning": "推翻",
+        "chunk_id": "c_002_001"
+      },
+      {
+        "word": "decisions",
+        "pos": "n.",
+        "meaning": "裁决；判决",
+        "chunk_id": "c_002_001"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "lost revenue",
+        "phrase_type": "n. phr.",
+        "meaning": "流失的收入",
+        "chunk_id": "c_002_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The decisions made it more difficult for states to collect sales tax on certain online purchases.",
+    "difficulty": 3,
+    "translation_literal": "这些裁决使各州更难对某些网上购买征收销售税。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "The decisions made",
+        "chinese": "这些裁决",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "谓语",
+        "english": "it more difficult",
+        "chinese": "使各州更",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "宾语",
+        "english": "for states to",
+        "chinese": "难对某些",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "状语",
+        "english": "collect sales tax",
+        "chinese": "网上购买",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "定语",
+        "english": "on certain online",
+        "chinese": "征收销售",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "补语",
+        "english": "purchases.",
+        "chinese": "税。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "The decisions made it more difficult...",
+        "explanation": "made it + 形容词 + to do 是典型结构，中心意思是“使……更难”。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "decisions",
+        "pos": "n.",
+        "meaning": "裁决",
+        "chunk_id": "c_003_001"
+      },
+      {
+        "word": "collect",
+        "pos": "v.",
+        "meaning": "征收",
+        "chunk_id": "c_003_002"
+      },
+      {
+        "word": "purchases",
+        "pos": "n.",
+        "meaning": "购买",
+        "chunk_id": "c_003_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "sales tax",
+        "phrase_type": "n. phr.",
+        "meaning": "销售税",
+        "chunk_id": "c_003_003"
+      },
+      {
+        "phrase": "certain online purchases",
+        "phrase_type": "n. phr.",
+        "meaning": "某些网上购买",
+        "chunk_id": "c_003_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The cases the court overturned said that if a business was shipping a customer’s purchase to a state where the business didn’t have a physical presence such as a warehouse or office, the business didn’t have to collect sales tax for the state.",
+    "difficulty": 4,
+    "translation_literal": "法院推翻的那些案件曾规定，如果一家企业把顾客购买的商品运往一个该企业没有仓库或办公室等实体存在的州，那么该企业不必为该州征收销售税。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "The cases the court overturned said",
+        "chinese": "法院推翻的那些案",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "谓语",
+        "english": "that if a business was shipping",
+        "chinese": "件曾规定，如果一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "宾语",
+        "english": "a customer’s purchase to a state",
+        "chinese": "家企业把顾客购买",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "状语",
+        "english": "where the business didn’t have a",
+        "chinese": "的商品运往一个该",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "定语",
+        "english": "physical presence such as a warehouse",
+        "chinese": "企业没有仓库或办",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "补语",
+        "english": "or office, the business didn’t have",
+        "chinese": "公室等实体存在的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "插入语",
+        "english": "to collect sales tax for the",
+        "chinese": "州，那么该企业不",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_008",
+        "role": "主语",
+        "english": "state.",
+        "chinese": "必为该州征收销售税。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "cases",
+        "pos": "n.",
+        "meaning": "案件",
+        "chunk_id": "c_004_001"
+      },
+      {
+        "word": "shipping",
+        "pos": "v.",
+        "meaning": "运送",
+        "chunk_id": "c_004_002"
+      },
+      {
+        "word": "presence",
+        "pos": "n.",
+        "meaning": "存在；实体存在",
+        "chunk_id": "c_004_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "physical presence",
+        "phrase_type": "n. phr.",
+        "meaning": "实体存在",
+        "chunk_id": "c_004_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Customers were generally responsible for paying the sales tax to the state themselves if they weren’t charged it, but most didn’t realize they owed it and few paid.",
+    "difficulty": 4,
+    "translation_literal": "如果顾客没有被收取销售税，他们通常有责任自己向州政府缴纳销售税，但多数人没有意识到自己欠税，也很少有人缴纳。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "Customers were generally responsible",
+        "chinese": "如果顾客没有被收",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "for paying the sales",
+        "chinese": "取销售税，他们通",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "宾语",
+        "english": "tax to the state",
+        "chinese": "常有责任自己向州",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "状语",
+        "english": "themselves if they weren’t",
+        "chinese": "政府缴纳销售税，",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "定语",
+        "english": "charged it, but most",
+        "chinese": "但多数人没有意识",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "补语",
+        "english": "didn’t realize they owed",
+        "chinese": "到自己欠税，也很",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_007",
+        "role": "插入语",
+        "english": "it and few paid.",
+        "chinese": "少有人缴纳。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "but most didn’t realize... and few paid",
+        "explanation": "but 与 and 并列两个结果分句，后半句补足前句对顾客行为的说明。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Customers",
+        "pos": "n.",
+        "meaning": "顾客",
+        "chunk_id": "c_005_001"
+      },
+      {
+        "word": "charged",
+        "pos": "v.",
+        "meaning": "收费；征收",
+        "chunk_id": "c_005_004"
+      },
+      {
+        "word": "owed",
+        "pos": "v.",
+        "meaning": "欠；应缴",
+        "chunk_id": "c_005_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "paying the sales tax",
+        "phrase_type": "v. phr.",
+        "meaning": "缴纳销售税",
+        "chunk_id": "c_005_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Justice Anthony Kennedy wrote that the previous decisions were flawed.",
+    "difficulty": 3,
+    "translation_literal": "大法官安东尼·肯尼迪写道，此前的裁决是有缺陷的。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "Justice Anthony Kennedy",
+        "chinese": "大法官安东尼",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "谓语",
+        "english": "wrote that the",
+        "chinese": "·肯尼迪写道",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "宾语",
+        "english": "previous decisions were",
+        "chinese": "，此前的裁决",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "状语",
+        "english": "flawed.",
+        "chinese": "是有缺陷的。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句 + wrote that...",
+        "explanation": "wrote that 引出具体判断，口语/阅读时可先抓住主干“Kennedy wrote”。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Justice",
+        "pos": "n.",
+        "meaning": "大法官",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "Kennedy",
+        "pos": "n.",
+        "meaning": "肯尼迪",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "flawed",
+        "pos": "adj.",
+        "meaning": "有缺陷的",
+        "chunk_id": "c_006_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "previous decisions",
+        "phrase_type": "n. phr.",
+        "meaning": "先前裁决",
+        "chunk_id": "c_006_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "“Each year the physical presence rule becomes further removed from economic reality and results in significant revenue losses to the States,” he wrote in an opinion joined by four other justices.",
+    "difficulty": 4,
+    "translation_literal": "他在一份由另外四名大法官加入的意见中写道：“实体存在规则每年都进一步脱离经济现实，并导致各州重大收入损失。”",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "“Each year the physical",
+        "chinese": "他在一份由另外",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "presence rule becomes further",
+        "chinese": "四名大法官加入",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "宾语",
+        "english": "removed from economic reality",
+        "chinese": "的意见中写道：",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "状语",
+        "english": "and results in significant",
+        "chinese": "“实体存在规则",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "定语",
+        "english": "revenue losses to the",
+        "chinese": "每年都进一步脱",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "补语",
+        "english": "States,” he wrote in",
+        "chinese": "离经济现实，并",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "插入语",
+        "english": "an opinion joined by",
+        "chinese": "导致各州重大收",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "主语",
+        "english": "four other justices.",
+        "chinese": "入损失。”",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "引语 + he wrote in an opinion...",
+        "explanation": "引语后面的 he wrote... 说明引述来源，属于插入结构。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "presence",
+        "pos": "n.",
+        "meaning": "存在；实体存在",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "reality",
+        "pos": "n.",
+        "meaning": "现实",
+        "chunk_id": "c_007_001"
+      },
+      {
+        "word": "losses",
+        "pos": "n.",
+        "meaning": "损失",
+        "chunk_id": "c_007_001"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "economic reality",
+        "phrase_type": "n. phr.",
+        "meaning": "经济现实",
+        "chunk_id": "c_007_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Kennedy wrote that the rule “limited states’ ability to seek long-term prosperity and has prevented market participants from competing on an even playing field.”",
+    "difficulty": 3,
+    "translation_literal": "肯尼迪写道，该规则“限制了各州寻求长期繁荣的能力，并阻止市场参与者在公平环境中竞争。”",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "Kennedy wrote that the",
+        "chinese": "肯尼迪写道，该",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "rule “limited states’ ability",
+        "chinese": "规则“限制了各",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "宾语",
+        "english": "to seek long-term prosperity",
+        "chinese": "州寻求长期繁荣",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "状语",
+        "english": "and has prevented market",
+        "chinese": "的能力，并阻止",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "定语",
+        "english": "participants from competing on",
+        "chinese": "市场参与者在公",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "补语",
+        "english": "an even playing field.”",
+        "chinese": "平环境中竞争。”",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "limited... and has prevented...",
+        "explanation": "两个并列谓语共同说明 rule 的负面影响。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "limited",
+        "pos": "v.",
+        "meaning": "限制",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "word": "prosperity",
+        "pos": "n.",
+        "meaning": "繁荣",
+        "chunk_id": "c_008_001"
+      },
+      {
+        "word": "participants",
+        "pos": "n.",
+        "meaning": "参与者",
+        "chunk_id": "c_008_001"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "even playing field",
+        "phrase_type": "n. phr.",
+        "meaning": "公平竞争环境",
+        "chunk_id": "c_008_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The ruling is a victory for big chains with a presence in many states, since they usually collect sales tax on online purchases already.",
+    "difficulty": 3,
+    "translation_literal": "这一裁决是对在许多州有实体存在的大型连锁企业的胜利，因为它们通常已经对网上购买征收销售税。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "The ruling is a",
+        "chinese": "这一裁决是对在许",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "victory for big chains",
+        "chinese": "多州有实体存在的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "宾语",
+        "english": "with a presence in",
+        "chinese": "大型连锁企业的胜",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "状语",
+        "english": "many states, since they",
+        "chinese": "利，因为它们通常",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "定语",
+        "english": "usually collect sales tax",
+        "chinese": "已经对网上购买征",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "补语",
+        "english": "on online purchases already.",
+        "chinese": "收销售税。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "ruling",
+        "pos": "n.",
+        "meaning": "裁决",
+        "chunk_id": "c_009_001"
+      },
+      {
+        "word": "victory",
+        "pos": "n.",
+        "meaning": "胜利",
+        "chunk_id": "c_009_001"
+      },
+      {
+        "word": "collect",
+        "pos": "v.",
+        "meaning": "征收",
+        "chunk_id": "c_009_001"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "online purchases",
+        "phrase_type": "n. phr.",
+        "meaning": "网上购买",
+        "chunk_id": "c_009_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Now, rivals will be charging sales tax where they hadn’t before.",
+    "difficulty": 3,
+    "translation_literal": "现在，竞争对手将在以前没有征税的地方收取销售税。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "Now, rivals will",
+        "chinese": "现在，竞争对",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "be charging sales",
+        "chinese": "手将在以前没",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "宾语",
+        "english": "tax where they",
+        "chinese": "有征税的地方",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "状语",
+        "english": "hadn’t before.",
+        "chinese": "收取销售税。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "rivals",
+        "pos": "n.",
+        "meaning": "竞争对手",
+        "chunk_id": "c_010_001"
+      },
+      {
+        "word": "charging",
+        "pos": "v.",
+        "meaning": "征收",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "before",
+        "pos": "adv.",
+        "meaning": "以前",
+        "chunk_id": "c_010_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "where they hadn’t before",
+        "phrase_type": "adv. phr.",
+        "meaning": "以前没有征税的地方",
+        "chunk_id": "c_010_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Big chains have been collecting sales tax nationwide because they typically have physical stores in whatever state a purchase is being shipped to.",
+    "difficulty": 3,
+    "translation_literal": "大型连锁企业一直在全国范围内征收销售税，因为它们通常在购买商品运往的任何州都有实体店。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "Big chains have been",
+        "chinese": "大型连锁企业一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "collecting sales tax nationwide",
+        "chinese": "直在全国范围内",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "宾语",
+        "english": "because they typically have",
+        "chinese": "征收销售税，因",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "状语",
+        "english": "physical stores in whatever",
+        "chinese": "为它们通常在购",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "定语",
+        "english": "state a purchase is",
+        "chinese": "买商品运往的任",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "补语",
+        "english": "being shipped to.",
+        "chinese": "何州都有实体店。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "chains",
+        "pos": "n.",
+        "meaning": "连锁企业",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "collecting",
+        "pos": "v.",
+        "meaning": "征收",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "word": "shipped",
+        "pos": "v.",
+        "meaning": "运送",
+        "chunk_id": "c_011_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "whatever state",
+        "phrase_type": "n. phr.",
+        "meaning": "无论哪个州",
+        "chunk_id": "c_011_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Amazon.com, with its network of warehouses, also collects sales tax in every state that charges it, though third-party sellers who use the site don’t have to.",
+    "difficulty": 4,
+    "translation_literal": "亚马逊凭借其仓库网络，也在每个征税州征收销售税，不过使用该网站的第三方卖家并不必须这样做。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "Amazon.com, with its network",
+        "chinese": "亚马逊凭借其",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "of warehouses, also collects",
+        "chinese": "仓库网络，也",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "宾语",
+        "english": "sales tax in every",
+        "chinese": "在每个征税州",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "状语",
+        "english": "state that charges it,",
+        "chinese": "征收销售税，",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "定语",
+        "english": "though third-party sellers who",
+        "chinese": "不过使用该网",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "补语",
+        "english": "use the site don’t",
+        "chinese": "站的第三方卖",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "插入语",
+        "english": "have to.",
+        "chinese": "家并不必须这样做。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "让步倒装",
+        "pattern_form": "though third-party sellers...",
+        "explanation": "though 从句让步补充前半句，帮助理解例外情况。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Amazon.com",
+        "pos": "abbr.",
+        "meaning": "亚马逊",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "word": "warehouses",
+        "pos": "n.",
+        "meaning": "仓库",
+        "chunk_id": "c_012_001"
+      },
+      {
+        "word": "sellers",
+        "pos": "n.",
+        "meaning": "卖家",
+        "chunk_id": "c_012_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "third-party sellers",
+        "phrase_type": "n. phr.",
+        "meaning": "第三方卖家",
+        "chunk_id": "c_012_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Until now, many sellers that have a physical presence in only a single state or a few states have been able to avoid charging sales taxes when they ship to addresses outside those states.",
+    "difficulty": 4,
+    "translation_literal": "到目前为止，许多只在一个州或少数几个州有实体存在的卖家，在向这些州以外的地址发货时一直能够避免收取销售税。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "Until now, many sellers that",
+        "chinese": "到目前为止，许多",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "have a physical presence in",
+        "chinese": "只在一个州或少数",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "宾语",
+        "english": "only a single state or",
+        "chinese": "几个州有实体存在",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "状语",
+        "english": "a few states have been",
+        "chinese": "的卖家，在向这些",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "定语",
+        "english": "able to avoid charging sales",
+        "chinese": "州以外的地址发货",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "补语",
+        "english": "taxes when they ship to",
+        "chinese": "时一直能够避免收",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_007",
+        "role": "插入语",
+        "english": "addresses outside those states.",
+        "chinese": "取销售税。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "many sellers that have... have been able to...",
+        "explanation": "主语后插入定语从句，主干是 sellers have been able to avoid..."
+      }
+    ],
+    "key_words": [
+      {
+        "word": "sellers",
+        "pos": "n.",
+        "meaning": "卖家",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "avoid",
+        "pos": "v.",
+        "meaning": "避免",
+        "chunk_id": "c_013_004"
+      },
+      {
+        "word": "addresses",
+        "pos": "n.",
+        "meaning": "地址",
+        "chunk_id": "c_013_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "physical presence",
+        "phrase_type": "n. phr.",
+        "meaning": "实体存在",
+        "chunk_id": "c_013_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Sellers that use eBay and Etsy, which provide platforms for smaller sellers, also haven’t been collecting sales tax nationwide.",
+    "difficulty": 3,
+    "translation_literal": "使用 eBay 和 Etsy 的卖家也一直没有在全国范围内征收销售税，这两个平台为较小卖家提供平台。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "Sellers that use eBay",
+        "chinese": "使用 eBay 和",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "谓语",
+        "english": "and Etsy, which provide",
+        "chinese": "Etsy 的卖家也一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "宾语",
+        "english": "platforms for smaller sellers,",
+        "chinese": "直没有在全国范围内征",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "状语",
+        "english": "also haven’t been collecting",
+        "chinese": "收销售税，这两个平台",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "定语",
+        "english": "sales tax nationwide.",
+        "chinese": "为较小卖家提供平台。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Sellers",
+        "pos": "n.",
+        "meaning": "卖家",
+        "chunk_id": "c_014_001"
+      },
+      {
+        "word": "provide",
+        "pos": "v.",
+        "meaning": "提供",
+        "chunk_id": "c_014_002"
+      },
+      {
+        "word": "platforms",
+        "pos": "n.",
+        "meaning": "平台",
+        "chunk_id": "c_014_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "smaller sellers",
+        "phrase_type": "n. phr.",
+        "meaning": "较小卖家",
+        "chunk_id": "c_014_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Under the ruling Thursday, states can pass laws requiring out-of-state sellers to collect the state’s sales tax from customers and send it to the state.",
+    "difficulty": 4,
+    "translation_literal": "根据周四的裁决，各州可以通过法律，要求州外卖家向顾客征收该州销售税并上缴给州政府。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "Under the ruling Thursday,",
+        "chinese": "根据周四的裁",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "谓语",
+        "english": "states can pass laws",
+        "chinese": "决，各州可以",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "宾语",
+        "english": "requiring out-of-state sellers to",
+        "chinese": "通过法律，要",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "状语",
+        "english": "collect the state’s sales",
+        "chinese": "求州外卖家向",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "定语",
+        "english": "tax from customers and",
+        "chinese": "顾客征收该州",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_006",
+        "role": "补语",
+        "english": "send it to the",
+        "chinese": "销售税并上缴",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_007",
+        "role": "插入语",
+        "english": "state.",
+        "chinese": "给州政府。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "states can pass laws requiring...",
+        "explanation": "can pass laws 后接较长不定式，信息层级较多。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "states",
+        "pos": "n.",
+        "meaning": "各州",
+        "chunk_id": "c_015_001"
+      },
+      {
+        "word": "require",
+        "pos": "v.",
+        "meaning": "要求",
+        "chunk_id": "c_015_002"
+      },
+      {
+        "word": "sellers",
+        "pos": "n.",
+        "meaning": "卖家",
+        "chunk_id": "c_015_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "under the ruling",
+        "phrase_type": "prep. phr.",
+        "meaning": "根据该裁决",
+        "chunk_id": "c_015_001"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Retail trade groups praised the ruling, saying it levels the playing field for local and online businesses.",
+    "difficulty": 3,
+    "translation_literal": "零售贸易团体称赞这一裁决，说它为本地和线上企业拉平了竞争场地。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "主语",
+        "english": "Retail trade groups",
+        "chinese": "零售贸易团",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "谓语",
+        "english": "praised the ruling,",
+        "chinese": "体称赞这一",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "宾语",
+        "english": "saying it levels",
+        "chinese": "裁决，说它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "状语",
+        "english": "the playing field",
+        "chinese": "为本地和线",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "定语",
+        "english": "for local and",
+        "chinese": "上企业拉平",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_006",
+        "role": "补语",
+        "english": "online businesses.",
+        "chinese": "了竞争场地。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "saying it levels...",
+        "explanation": "saying 结构补充说明称赞的理由。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "trade",
+        "pos": "n.",
+        "meaning": "贸易",
+        "chunk_id": "c_016_001"
+      },
+      {
+        "word": "praised",
+        "pos": "v.",
+        "meaning": "称赞",
+        "chunk_id": "c_016_001"
+      },
+      {
+        "word": "ruling",
+        "pos": "n.",
+        "meaning": "裁决",
+        "chunk_id": "c_016_001"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "the playing field",
+        "phrase_type": "n. phr.",
+        "meaning": "竞争场地；公平赛场",
+        "chunk_id": "c_016_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The losers, said retail analyst Neil Saunders, are online-only retailers, especially smaller ones.",
+    "difficulty": 3,
+    "translation_literal": "零售分析师尼尔·桑德斯说，输家是只做线上的零售商，尤其是较小的零售商。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "The losers, said",
+        "chinese": "零售分析师尼尔",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "retail analyst Neil",
+        "chinese": "·桑德斯说，输",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "宾语",
+        "english": "Saunders, are online-only",
+        "chinese": "家是只做线上的",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "状语",
+        "english": "retailers, especially smaller",
+        "chinese": "零售商，尤其是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "定语",
+        "english": "ones.",
+        "chinese": "较小的零售商。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "The losers, said... , are...",
+        "explanation": "said retail analyst... 插入在主干中，说明观点来源。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "losers",
+        "pos": "n.",
+        "meaning": "输家",
+        "chunk_id": "c_017_001"
+      },
+      {
+        "word": "retailers",
+        "pos": "n.",
+        "meaning": "零售商",
+        "chunk_id": "c_017_003"
+      },
+      {
+        "word": "smaller",
+        "pos": "adj.",
+        "meaning": "更小的",
+        "chunk_id": "c_017_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "online-only retailers",
+        "phrase_type": "n. phr.",
+        "meaning": "只做线上的零售商",
+        "chunk_id": "c_017_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Those retailers may face headaches complying with various state sales tax laws.",
+    "difficulty": 3,
+    "translation_literal": "这些零售商在遵守各州不同销售税法律时可能会面临麻烦。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "主语",
+        "english": "Those retailers",
+        "chinese": "这些零售",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "谓语",
+        "english": "may face",
+        "chinese": "商在遵守",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "宾语",
+        "english": "headaches complying",
+        "chinese": "各州不同",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "状语",
+        "english": "with various",
+        "chinese": "销售税法",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "定语",
+        "english": "state sales",
+        "chinese": "律时可能",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_006",
+        "role": "补语",
+        "english": "tax laws.",
+        "chinese": "会面临麻烦。",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "may face headaches complying...",
+        "explanation": "may face 后接现在分词短语，说明潜在后果。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "retailers",
+        "pos": "n.",
+        "meaning": "零售商",
+        "chunk_id": "c_018_001"
+      },
+      {
+        "word": "face",
+        "pos": "v.",
+        "meaning": "面临",
+        "chunk_id": "c_018_002"
+      },
+      {
+        "word": "laws",
+        "pos": "n.",
+        "meaning": "法律",
+        "chunk_id": "c_018_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "complying with",
+        "phrase_type": "v. phr.",
+        "meaning": "遵守",
+        "chunk_id": "c_018_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2019,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The Small Business & Entrepreneurship Council advocacy group said in a statement, “Small businesses and internet entrepreneurs are not well served at all by this decision.”",
+    "difficulty": 4,
+    "translation_literal": "小企业与创业委员会倡议组织在一份声明中说：“小企业和互联网创业者根本没有从这一裁决中得到良好服务。”",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "主语",
+        "english": "The Small Business &",
+        "chinese": "小企业与创业委",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "谓语",
+        "english": "Entrepreneurship Council advocacy group",
+        "chinese": "员会倡议组织在",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "宾语",
+        "english": "said in a statement,",
+        "chinese": "一份声明中说：",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "状语",
+        "english": "“Small businesses and internet",
+        "chinese": "“小企业和互联",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "定语",
+        "english": "entrepreneurs are not well",
+        "chinese": "网创业者根本没",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_006",
+        "role": "补语",
+        "english": "served at all by",
+        "chinese": "有从这一裁决中",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_007",
+        "role": "插入语",
+        "english": "this decision.”",
+        "chinese": "得到良好服务。”",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "said in a statement",
+        "explanation": "said in a statement 说明引语来源。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Business",
+        "pos": "n.",
+        "meaning": "商业；企业",
+        "chunk_id": "c_019_001"
+      },
+      {
+        "word": "entrepreneurs",
+        "pos": "n.",
+        "meaning": "创业者",
+        "chunk_id": "c_019_003"
+      },
+      {
+        "word": "served",
+        "pos": "v.",
+        "meaning": "得到服务；受益",
+        "chunk_id": "c_019_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "not well served",
+        "phrase_type": "adj. phr.",
+        "meaning": "没有得到良好服务；未获益",
+        "chunk_id": "c_019_004"
+      }
+    ]
+  }
+]

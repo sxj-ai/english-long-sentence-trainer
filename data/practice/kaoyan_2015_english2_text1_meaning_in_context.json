@@ -1,0 +1,378 @@
+[
+  {
+    "check_id": "s_001_contrary_to_meaning_in_context",
+    "source_sentence_id": "s_001",
+    "target": "contrary to",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，contrary to 最合适的意思是：",
+    "correct_meaning": "与...相反",
+    "acceptable_meanings": [
+      "与...相反"
+    ],
+    "meaning_pool": [
+      "与...相反",
+      "由于",
+      "为了",
+      "接近"
+    ],
+    "explanation": "contrary to most surveys 明确表示“和大多数调查相反”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_002_stress_marker_meaning_in_context",
+    "source_sentence_id": "s_002",
+    "target": "stress marker",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，stress marker 最合适的意思是：",
+    "correct_meaning": "压力指标",
+    "acceptable_meanings": [
+      "压力指标",
+      "压力标记"
+    ],
+    "meaning_pool": [
+      "压力指标",
+      "安慰剂",
+      "营养成分",
+      "时间节点"
+    ],
+    "explanation": "cortisol 在这里被解释为压力指标。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_002_place_of_refuge_meaning_in_context",
+    "source_sentence_id": "s_002",
+    "target": "place of refuge",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，place of refuge 最合适的意思是：",
+    "correct_meaning": "避风港/休憩处",
+    "acceptable_meanings": [
+      "避风港",
+      "休憩处"
+    ],
+    "meaning_pool": [
+      "避风港/休憩处",
+      "工作地点",
+      "娱乐中心",
+      "危险区域"
+    ],
+    "explanation": "文中说它本应是一个可以休息躲避压力的地方。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_003_as_well_as_meaning_in_context",
+    "source_sentence_id": "s_003",
+    "target": "as well as",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，as well as 最合适的意思是：",
+    "correct_meaning": "以及/不但...而且",
+    "acceptable_meanings": [
+      "以及",
+      "不但...而且"
+    ],
+    "meaning_pool": [
+      "以及/不但...而且",
+      "除非",
+      "尽管",
+      "因此"
+    ],
+    "explanation": "women as well as men 表示女性和男性都包括在内。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_006_hold_true_meaning_in_context",
+    "source_sentence_id": "s_006",
+    "target": "hold true",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，hold true 最合适的意思是：",
+    "correct_meaning": "同样成立/依然适用",
+    "acceptable_meanings": [
+      "同样成立",
+      "依然适用"
+    ],
+    "meaning_pool": [
+      "同样成立/依然适用",
+      "已经失效",
+      "只在过去成立",
+      "完全无关"
+    ],
+    "explanation": "findings hold true for both... 说明这个发现对两类人都成立。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_007_work_outside_the_home_meaning_in_context",
+    "source_sentence_id": "s_007",
+    "target": "work outside the home",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，work outside the home 最合适的意思是：",
+    "correct_meaning": "在家外工作",
+    "acceptable_meanings": [
+      "在家外工作"
+    ],
+    "meaning_pool": [
+      "在家外工作",
+      "在家做饭",
+      "在外出差",
+      "不上班"
+    ],
+    "explanation": "这里是指不在家里而是到外面去工作。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_008_measure_meaning_in_context",
+    "source_sentence_id": "s_008",
+    "target": "measure",
+    "target_type": "word",
+    "prompt": "结合本句语境，measure 最合适的意思是：",
+    "correct_meaning": "测量/衡量",
+    "acceptable_meanings": [
+      "测量",
+      "衡量"
+    ],
+    "meaning_pool": [
+      "测量/衡量",
+      "忽视",
+      "解释",
+      "奖励"
+    ],
+    "explanation": "The study doesn't measure... 里的 measure 指“衡量/统计”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_008_household_work_meaning_in_context",
+    "source_sentence_id": "s_008",
+    "target": "household work",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，household work 最合适的意思是：",
+    "correct_meaning": "家务",
+    "acceptable_meanings": [
+      "家务"
+    ],
+    "meaning_pool": [
+      "家务",
+      "学业",
+      "外卖服务",
+      "体育锻炼"
+    ],
+    "explanation": "这里明确区分“工作”与“家务”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_009_kick_back_meaning_in_context",
+    "source_sentence_id": "s_009",
+    "target": "kick back",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，kick back 最合适的意思是：",
+    "correct_meaning": "放松下来",
+    "acceptable_meanings": [
+      "放松下来",
+      "歇一歇"
+    ],
+    "meaning_pool": [
+      "放松下来",
+      "赶紧出发",
+      "拼命工作",
+      "提出抗议"
+    ],
+    "explanation": "the end of the workday is a time to kick back 指下班后放松。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_011_play_catch_up_meaning_in_context",
+    "source_sentence_id": "s_011",
+    "target": "play catch-up",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，play catch-up 最合适的意思是：",
+    "correct_meaning": "赶追/补做",
+    "acceptable_meanings": [
+      "赶追",
+      "补做"
+    ],
+    "meaning_pool": [
+      "赶追/补做",
+      "停下来",
+      "彻底放弃",
+      "重新开始"
+    ],
+    "explanation": "women who work outside the home often are playing catch-up 指忙着补做家务。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_012_blurring_of_roles_meaning_in_context",
+    "source_sentence_id": "s_012",
+    "target": "blurring of roles",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，blurring of roles 最合适的意思是：",
+    "correct_meaning": "角色界限模糊",
+    "acceptable_meanings": [
+      "角色界限模糊",
+      "职责混淆"
+    ],
+    "meaning_pool": [
+      "角色界限模糊",
+      "角色分明",
+      "任务明确",
+      "身份固定"
+    ],
+    "explanation": "这里说工作和家庭角色的界限被模糊了。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_012_home_front_meaning_in_context",
+    "source_sentence_id": "s_012",
+    "target": "home front",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，home front 最合适的意思是：",
+    "correct_meaning": "家庭这一边/家庭领域",
+    "acceptable_meanings": [
+      "家庭这一边",
+      "家庭领域"
+    ],
+    "meaning_pool": [
+      "家庭这一边/家庭领域",
+      "前线战场",
+      "办公室前台",
+      "社会公众"
+    ],
+    "explanation": "home front 在这里指家庭生活这一侧。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_012_lags_meaning_in_context",
+    "source_sentence_id": "s_012",
+    "target": "lags",
+    "target_type": "word",
+    "prompt": "结合本句语境，lags 最合适的意思是：",
+    "correct_meaning": "落后",
+    "acceptable_meanings": [
+      "落后",
+      "滞后"
+    ],
+    "meaning_pool": [
+      "落后",
+      "滞后",
+      "领先",
+      "改善"
+    ],
+    "explanation": "the home front lags well behind the workplace 说明家庭方面明显落后。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_014_pretty_much_meaning_in_context",
+    "source_sentence_id": "s_014",
+    "target": "pretty much",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，pretty much 最合适的意思是：",
+    "correct_meaning": "几乎/大致",
+    "acceptable_meanings": [
+      "几乎",
+      "大致"
+    ],
+    "meaning_pool": [
+      "几乎/大致",
+      "完全不",
+      "突然",
+      "极其复杂地"
+    ],
+    "explanation": "pretty much know 这里不是强调漂亮，而是“差不多都知道”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_014_draw_an_income_meaning_in_context",
+    "source_sentence_id": "s_014",
+    "target": "draw an income",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，draw an income 最合适的意思是：",
+    "correct_meaning": "获得收入",
+    "acceptable_meanings": [
+      "获得收入",
+      "赚取收入"
+    ],
+    "meaning_pool": [
+      "获得收入",
+      "花掉收入",
+      "拒绝工作",
+      "借出资金"
+    ],
+    "explanation": "doing the tasks they have to do in order to draw an income 说的是为了挣钱。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_015_put_in_meaning_in_context",
+    "source_sentence_id": "s_015",
+    "target": "put in",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，put in 最合适的意思是：",
+    "correct_meaning": "投入/花费",
+    "acceptable_meanings": [
+      "投入",
+      "花费"
+    ],
+    "meaning_pool": [
+      "投入/花费",
+      "取出",
+      "取消",
+      "缩短"
+    ],
+    "explanation": "Employee puts in hours 指员工投入时间和劳动。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_017_laid_out_meaning_in_context",
+    "source_sentence_id": "s_017",
+    "target": "laid out",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，laid out 最合适的意思是：",
+    "correct_meaning": "安排好的/铺陈好的",
+    "acceptable_meanings": [
+      "安排好的",
+      "铺陈好的"
+    ],
+    "meaning_pool": [
+      "安排好的/铺陈好的",
+      "打乱的",
+      "隐藏的",
+      "临时想起的"
+    ],
+    "explanation": "the division of labor is so clinically and methodically laid out 表示安排得很清楚。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_019_talked_into_meaning_in_context",
+    "source_sentence_id": "s_019",
+    "target": "talked into",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，talked into 最合适的意思是：",
+    "correct_meaning": "劝说",
+    "acceptable_meanings": [
+      "劝说",
+      "说服"
+    ],
+    "meaning_pool": [
+      "劝说",
+      "责备",
+      "忽悠到完全不听",
+      "无视"
+    ],
+    "explanation": "family members need to be talked into it，说明得劝他们去做。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_021_cannot_fire_your_family_meaning_in_context",
+    "source_sentence_id": "s_021",
+    "target": "cannot fire your family",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，cannot fire your family 最合适的意思是：",
+    "correct_meaning": "不能解雇你的家人",
+    "acceptable_meanings": [
+      "不能解雇你的家人"
+    ],
+    "meaning_pool": [
+      "不能解雇你的家人",
+      "可以随意辞退家人",
+      "家人会辞职",
+      "家庭没有成员"
+    ],
+    "explanation": "这里用一句很口语的话强调家人不像员工，没法“炒掉”。",
+    "priority": 1
+  }
+]

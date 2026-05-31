@@ -1,0 +1,442 @@
+[
+  {
+    "check_id": "s_001_unsettling_dearth_meaning_in_context",
+    "source_sentence_id": "s_001",
+    "target": "unsettling dearth",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，unsettling dearth 最合适的意思是：",
+    "correct_meaning": "令人不安的缺乏",
+    "acceptable_meanings": [
+      "令人不安的缺乏",
+      "令人担忧的匮乏"
+    ],
+    "meaning_pool": [
+      "令人不安的缺乏",
+      "大量存在",
+      "普遍拥有",
+      "轻微变化"
+    ],
+    "explanation": "dearth of integrity 说的是诚信匮乏，而 unsettling 强调这种匮乏令人不安。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_001_integrity_meaning_in_context",
+    "source_sentence_id": "s_001",
+    "target": "integrity",
+    "target_type": "word",
+    "prompt": "结合本句语境，integrity 最合适的意思是：",
+    "correct_meaning": "诚信/正直",
+    "acceptable_meanings": [
+      "诚信",
+      "正直"
+    ],
+    "meaning_pool": [
+      "诚信/正直",
+      "利益",
+      "名声",
+      "财富"
+    ],
+    "explanation": "这里的 integrity 不是“完整性”，而是道德上的诚信。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_002_collective_acceptance_meaning_in_context",
+    "source_sentence_id": "s_002",
+    "target": "collective acceptance",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，collective acceptance 最合适的意思是：",
+    "correct_meaning": "集体接受/普遍认可",
+    "acceptable_meanings": [
+      "集体接受",
+      "普遍认可"
+    ],
+    "meaning_pool": [
+      "集体接受/普遍认可",
+      "个人怀疑",
+      "强烈反对",
+      "短暂回避"
+    ],
+    "explanation": "integrity had collapsed because of a collective acceptance 说明这种观念被普遍接受。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_002_sorting_mechanism_meaning_in_context",
+    "source_sentence_id": "s_002",
+    "target": "sorting mechanism",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，sorting mechanism 最合适的意思是：",
+    "correct_meaning": "筛选机制",
+    "acceptable_meanings": [
+      "筛选机制",
+      "选择机制"
+    ],
+    "meaning_pool": [
+      "筛选机制",
+      "修理工具",
+      "宣传口号",
+      "统计结果"
+    ],
+    "explanation": "这里把 profit and the market 当成社会的“筛选机制”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_004_driving_her_point_home_meaning_in_context",
+    "source_sentence_id": "s_004",
+    "target": "Driving her point home",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，Driving her point home 最合适的意思是：",
+    "correct_meaning": "强调她的观点",
+    "acceptable_meanings": [
+      "强调她的观点",
+      "把意思说透"
+    ],
+    "meaning_pool": [
+      "强调她的观点",
+      "改变话题",
+      "回避问题",
+      "开玩笑"
+    ],
+    "explanation": "她接着说的话是在进一步强调前面的判断。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_004_increasingly_apparent_meaning_in_context",
+    "source_sentence_id": "s_004",
+    "target": "increasingly apparent",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，increasingly apparent 最合适的意思是：",
+    "correct_meaning": "越来越明显",
+    "acceptable_meanings": [
+      "越来越明显",
+      "愈发清楚"
+    ],
+    "meaning_pool": [
+      "越来越明显",
+      "越来越模糊",
+      "完全不变",
+      "只是猜测"
+    ],
+    "explanation": "这句在说某种事实变得越来越清楚。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_004_absence_of_purpose_meaning_in_context",
+    "source_sentence_id": "s_004",
+    "target": "absence of purpose",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，absence of purpose 最合适的意思是：",
+    "correct_meaning": "缺乏目标/目的缺失",
+    "acceptable_meanings": [
+      "缺乏目标",
+      "没有方向"
+    ],
+    "meaning_pool": [
+      "缺乏目标/目的缺失",
+      "强烈愿望",
+      "明确计划",
+      "良好结果"
+    ],
+    "explanation": "这里说 government, media or business 中缺少 moral purpose。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_004_moral_language_meaning_in_context",
+    "source_sentence_id": "s_004",
+    "target": "moral language",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，moral language 最合适的意思是：",
+    "correct_meaning": "道德语言",
+    "acceptable_meanings": [
+      "道德语言",
+      "价值语言"
+    ],
+    "meaning_pool": [
+      "道德语言",
+      "技术术语",
+      "法律条文",
+      "商业口号"
+    ],
+    "explanation": "这里的 moral language 指能表达价值判断的语言。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_005_lose_its_way_meaning_in_context",
+    "source_sentence_id": "s_005",
+    "target": "lose its way",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，lose its way 最合适的意思是：",
+    "correct_meaning": "迷失方向",
+    "acceptable_meanings": [
+      "迷失方向",
+      "走偏"
+    ],
+    "meaning_pool": [
+      "迷失方向",
+      "越走越稳",
+      "保持原样",
+      "得到帮助"
+    ],
+    "explanation": "作者说公司会因为这种缺失而迷失方向。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_006_hacking_trial_meaning_in_context",
+    "source_sentence_id": "s_006",
+    "target": "hacking trial",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，hacking trial 最合适的意思是：",
+    "correct_meaning": "窃听案审判",
+    "acceptable_meanings": [
+      "窃听案审判",
+      "黑客审判"
+    ],
+    "meaning_pool": [
+      "窃听案审判",
+      "公开庆典",
+      "新闻发布会",
+      "商业谈判"
+    ],
+    "explanation": "这里的 hacking 指非法窃听电话，不是电脑黑客。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_006_still_stands_meaning_in_context",
+    "source_sentence_id": "s_006",
+    "target": "still stands",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，still stands 最合适的意思是：",
+    "correct_meaning": "仍然成立/依然存在",
+    "acceptable_meanings": [
+      "仍然成立",
+      "依然成立"
+    ],
+    "meaning_pool": [
+      "仍然成立/依然存在",
+      "已经结束",
+      "马上改变",
+      "无关紧要"
+    ],
+    "explanation": "the wider issue ... still stands 表示这一更大的问题仍然存在。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_008_on_an_industrial_scale_meaning_in_context",
+    "source_sentence_id": "s_008",
+    "target": "on an industrial scale",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，on an industrial scale 最合适的意思是：",
+    "correct_meaning": "大规模地",
+    "acceptable_meanings": [
+      "大规模地",
+      "工业化规模地"
+    ],
+    "meaning_pool": [
+      "大规模地",
+      "零星地",
+      "秘密地",
+      "偶尔地"
+    ],
+    "explanation": "这里说明电话窃听不是个案，而是大规模发生。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_008_point_person_meaning_in_context",
+    "source_sentence_id": "s_008",
+    "target": "point person",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，point person 最合适的意思是：",
+    "correct_meaning": "负责人/关键联系人",
+    "acceptable_meanings": [
+      "负责人",
+      "关键联系人"
+    ],
+    "meaning_pool": [
+      "负责人/关键联系人",
+      "旁观者",
+      "受害者",
+      "实习生"
+    ],
+    "explanation": "point person 指负责电话窃听事务的人。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_011_in_many_respects_meaning_in_context",
+    "source_sentence_id": "s_011",
+    "target": "in many respects",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，in many respects 最合适的意思是：",
+    "correct_meaning": "在许多方面",
+    "acceptable_meanings": [
+      "在许多方面",
+      "从很多角度看"
+    ],
+    "meaning_pool": [
+      "在许多方面",
+      "完全相反",
+      "毫无关系",
+      "只在一处"
+    ],
+    "explanation": "作者是在多个层面上讨论这场审判。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_013_core_meaning_in_context",
+    "source_sentence_id": "s_013",
+    "target": "core",
+    "target_type": "word",
+    "prompt": "结合本句语境，core 最合适的意思是：",
+    "correct_meaning": "核心",
+    "acceptable_meanings": [
+      "核心",
+      "要害"
+    ],
+    "meaning_pool": [
+      "核心",
+      "边缘",
+      "细节",
+      "装饰"
+    ],
+    "explanation": "the core of her successful defence 指她辩护的核心。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_014_accountable_meaning_in_context",
+    "source_sentence_id": "s_014",
+    "target": "accountable",
+    "target_type": "word",
+    "prompt": "结合本句语境，accountable 最合适的意思是：",
+    "correct_meaning": "负责的/承担责任的",
+    "acceptable_meanings": [
+      "负责的",
+      "承担责任的"
+    ],
+    "meaning_pool": [
+      "负责的/承担责任的",
+      "无辜的",
+      "自由的",
+      "匿名的"
+    ],
+    "explanation": "well-paid executives should not be accountable for... 说的是不该只拿钱却不负责。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_017_degraded_to_the_margin_meaning_in_context",
+    "source_sentence_id": "s_017",
+    "target": "degraded to the margin",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，degraded to the margin 最合适的意思是：",
+    "correct_meaning": "被贬到边缘",
+    "acceptable_meanings": [
+      "被贬到边缘",
+      "退居次要位置"
+    ],
+    "meaning_pool": [
+      "被贬到边缘",
+      "变得更重要",
+      "回到中心",
+      "完全消失"
+    ],
+    "explanation": "这里说 justice, fairness 等词被挤到边缘位置。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_019_reader_understanding_meaning_in_context",
+    "source_sentence_id": "s_019",
+    "target": "reader understanding",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，reader understanding 最合适的意思是：",
+    "correct_meaning": "读者理解",
+    "acceptable_meanings": [
+      "读者理解",
+      "让读者看懂"
+    ],
+    "meaning_pool": [
+      "读者理解",
+      "销售增长",
+      "广告曝光",
+      "编辑奖励"
+    ],
+    "explanation": "editing 的目的不是促进读者理解，而不是别的商业目标。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_019_common_humanity_meaning_in_context",
+    "source_sentence_id": "s_019",
+    "target": "common humanity",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，common humanity 最合适的意思是：",
+    "correct_meaning": "共同的人性",
+    "acceptable_meanings": [
+      "共同的人性",
+      "普遍的人道感"
+    ],
+    "meaning_pool": [
+      "共同的人性",
+      "个人隐私",
+      "商业利益",
+      "技术能力"
+    ],
+    "explanation": "这里强调写作不该背离普遍的人性。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_020_quest_for_meaning_in_context",
+    "source_sentence_id": "s_020",
+    "target": "quest for",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，quest for 最合适的意思是：",
+    "correct_meaning": "对...的追求",
+    "acceptable_meanings": [
+      "对...的追求",
+      "为了追求"
+    ],
+    "meaning_pool": [
+      "对...的追求",
+      "对...的放弃",
+      "完全无视",
+      "被动接受"
+    ],
+    "explanation": "in the quest for circulation and impact 说明为了追求发行量和影响力。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_021_may_or_may_not_meaning_in_context",
+    "source_sentence_id": "s_021",
+    "target": "may or may not",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，may or may not 最合适的意思是：",
+    "correct_meaning": "可能，也可能不",
+    "acceptable_meanings": [
+      "可能，也可能不",
+      "不一定"
+    ],
+    "meaning_pool": [
+      "可能，也可能不",
+      "一定会",
+      "绝不会",
+      "马上就会"
+    ],
+    "explanation": "作者在这里保留态度，说怀疑不一定有，也不一定没有。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_021_traceable_meaning_in_context",
+    "source_sentence_id": "s_021",
+    "target": "traceable",
+    "target_type": "word",
+    "prompt": "结合本句语境，traceable 最合适的意思是：",
+    "correct_meaning": "可追踪的",
+    "acceptable_meanings": [
+      "可追踪的",
+      "可查的"
+    ],
+    "meaning_pool": [
+      "可追踪的",
+      "看不见的",
+      "不可避免的",
+      "不重要的"
+    ],
+    "explanation": "recorded answers 说明这些回答都是可追踪的。",
+    "priority": 1
+  }
+]

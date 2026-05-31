@@ -9,6 +9,7 @@ export interface AiGradingInput {
   question: string;
   studentAnswer: string;
   gradingRubric: string;
+  maxScore?: number;
 }
 
 export interface AiGradingResult {

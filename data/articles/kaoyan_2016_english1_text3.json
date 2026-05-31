@@ -1,0 +1,2101 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "“There is one and only one social responsibility of business,” wrote Milton Friedman, a Nobel prize-winning economist, “That is, to use its resources and engage in activities designed to increase its profits.”",
+    "difficulty": 5,
+    "translation_literal": "诺贝尔奖经济学家米尔顿·弗里德曼写道：“企业有且只有一个社会责任。那就是使用其资源并从事旨在增加利润的活动。”",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "引语主语",
+        "english": "There",
+        "chinese": "存在",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "引语谓语",
+        "english": "is",
+        "chinese": "有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "引语主语",
+        "english": "one and only one social responsibility of business",
+        "chinese": "企业有且只有一个社会责任",
+        "parent_id": "c_001_001",
+        "target_id": "c_001_002",
+        "relation": "第一段引语的真实主语"
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "倒装结构",
+        "english": "wrote Milton Friedman, a Nobel prize-winning economist",
+        "chinese": "诺贝尔奖经济学家米尔顿·弗里德曼写道",
+        "parent_id": null,
+        "target_id": "c_001_001",
+        "relation": "引语后的倒装报道结构"
+      },
+      {
+        "chunk_id": "c_001_005",
+        "role": "同位语",
+        "english": "a Nobel prize-winning economist",
+        "chinese": "一位诺贝尔奖经济学家",
+        "parent_id": "c_001_004",
+        "target_id": "c_001_004",
+        "relation": "解释 Milton Friedman 的身份"
+      },
+      {
+        "chunk_id": "c_001_006",
+        "role": "同位语解释结构",
+        "english": "That is, to use its resources and engage in activities designed to increase its profits",
+        "chinese": "那就是使用其资源并从事旨在增加利润的活动",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "解释前面 one responsibility 的具体内容"
+      },
+      {
+        "chunk_id": "c_001_007",
+        "role": "并列成分",
+        "english": "to use its resources",
+        "chinese": "使用其资源",
+        "parent_id": "c_001_006",
+        "target_id": "c_001_006",
+        "relation": "责任内容的第一项"
+      },
+      {
+        "chunk_id": "c_001_008",
+        "role": "并列成分",
+        "english": "engage in activities designed to increase its profits",
+        "chinese": "从事旨在增加利润的活动",
+        "parent_id": "c_001_006",
+        "target_id": "c_001_006",
+        "relation": "责任内容的第二项"
+      },
+      {
+        "chunk_id": "c_001_009",
+        "role": "定语",
+        "english": "designed to increase its profits",
+        "chinese": "旨在增加其利润的",
+        "parent_id": "c_001_008",
+        "target_id": "c_001_008",
+        "relation": "修饰 activities"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "引语 + wrote + 主语",
+        "explanation": "wrote Milton Friedman 是引语后的倒装报道结构。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "That is, to do...",
+        "explanation": "That is 后面解释 business 的唯一社会责任是什么。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "responsibility",
+        "pos": "n.",
+        "meaning": "责任",
+        "chunk_id": "c_001_003"
+      },
+      {
+        "word": "engage",
+        "pos": "v.",
+        "meaning": "从事，参与",
+        "chunk_id": "c_001_008"
+      },
+      {
+        "word": "profits",
+        "pos": "n.",
+        "meaning": "利润",
+        "chunk_id": "c_001_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "one and only one",
+        "phrase_type": "collocation",
+        "meaning": "唯一的，仅有的",
+        "chunk_id": "c_001_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "But even if you accept Friedman’s premise and regard corporate social responsibility (CSR) policies as a waste of shareholders’ money, things may not be absolutely clear-cut.",
+    "difficulty": 5,
+    "translation_literal": "但是，即使你接受弗里德曼的前提，并把企业社会责任政策看作股东资金的浪费，事情也可能并非绝对清楚。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "让步状语从句",
+        "english": "even if you accept Friedman’s premise and regard corporate social responsibility policies as a waste of shareholders’ money",
+        "chinese": "即使你接受弗里德曼的前提并把企业社会责任政策看作股东资金的浪费",
+        "parent_id": null,
+        "target_id": "c_002_006",
+        "relation": "说明主句判断成立的让步条件"
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "从句主语",
+        "english": "you",
+        "chinese": "你",
+        "parent_id": "c_002_002",
+        "target_id": null,
+        "relation": "让步从句内部主语"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "并列谓语",
+        "english": "accept",
+        "chinese": "接受",
+        "parent_id": "c_002_002",
+        "target_id": "c_002_003",
+        "relation": "第一个并列谓语"
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "并列谓语",
+        "english": "regard",
+        "chinese": "把……看作",
+        "parent_id": "c_002_002",
+        "target_id": "c_002_003",
+        "relation": "第二个并列谓语"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "主语",
+        "english": "things",
+        "chinese": "事情",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "谓语",
+        "english": "may not be",
+        "chinese": "可能并不是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_008",
+        "role": "表语",
+        "english": "absolutely clear-cut",
+        "chinese": "绝对清楚的",
+        "parent_id": null,
+        "target_id": "c_002_007",
+        "relation": "作 may not be 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "even if + 主语 + accept... and regard...",
+        "explanation": "even if 从句中 accept 和 regard 是并列谓语，共同描述让步条件。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "premise",
+        "pos": "n.",
+        "meaning": "前提",
+        "chunk_id": "c_002_004"
+      },
+      {
+        "word": "shareholders",
+        "pos": "n.",
+        "meaning": "股东",
+        "chunk_id": "c_002_002"
+      },
+      {
+        "word": "clear-cut",
+        "pos": "adj.",
+        "meaning": "清楚明确的",
+        "chunk_id": "c_002_008"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "New research suggests that CSR may create monetary value for companies — at least when they are prosecuted for corruption.",
+    "difficulty": 4,
+    "translation_literal": "新研究表明，企业社会责任可能为公司创造货币价值，至少在它们因腐败被起诉时是这样。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "主语",
+        "english": "New research",
+        "chinese": "新研究",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "谓语",
+        "english": "suggests",
+        "chinese": "表明",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "宾语从句",
+        "english": "that CSR may create monetary value for companies",
+        "chinese": "企业社会责任可能为公司创造货币价值",
+        "parent_id": null,
+        "target_id": "c_003_002",
+        "relation": "作 suggests 的宾语"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "从句主语",
+        "english": "CSR",
+        "chinese": "企业社会责任",
+        "parent_id": "c_003_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "从句谓语",
+        "english": "may create",
+        "chinese": "可能创造",
+        "parent_id": "c_003_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "从句宾语",
+        "english": "monetary value for companies",
+        "chinese": "公司的货币价值",
+        "parent_id": "c_003_003",
+        "target_id": "c_003_005",
+        "relation": "作 create 的宾语"
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "状语从句",
+        "english": "when they are prosecuted for corruption",
+        "chinese": "当它们因腐败被起诉时",
+        "parent_id": null,
+        "target_id": "c_003_005",
+        "relation": "限定 CSR 创造价值的情形"
+      },
+      {
+        "chunk_id": "c_003_008",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "它们",
+        "parent_id": "c_003_007",
+        "target_id": null,
+        "relation": "when 从句内部主语，指 companies"
+      },
+      {
+        "chunk_id": "c_003_009",
+        "role": "从句谓语",
+        "english": "are prosecuted",
+        "chinese": "被起诉",
+        "parent_id": "c_003_007",
+        "target_id": null,
+        "relation": "when 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_003_010",
+        "role": "状语",
+        "english": "for corruption",
+        "chinese": "因腐败",
+        "parent_id": "c_003_007",
+        "target_id": "c_003_009",
+        "relation": "说明起诉原因"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "monetary",
+        "pos": "adj.",
+        "meaning": "货币的，金钱的",
+        "chunk_id": "c_003_006"
+      },
+      {
+        "word": "prosecuted",
+        "pos": "v.",
+        "meaning": "被起诉",
+        "chunk_id": "c_003_009"
+      },
+      {
+        "word": "corruption",
+        "pos": "n.",
+        "meaning": "腐败",
+        "chunk_id": "c_003_010"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The largest firms in America and Britain together spend more than $15 billion a year on CSR, according to an estimate by EPG, a consulting firm.",
+    "difficulty": 3,
+    "translation_literal": "根据咨询公司EPG的一项估计，美国和英国最大的公司合计每年在企业社会责任上花费超过150亿美元。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "主语",
+        "english": "The largest firms in America and Britain",
+        "chinese": "美国和英国最大的公司",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "状语",
+        "english": "together",
+        "chinese": "合计",
+        "parent_id": null,
+        "target_id": "c_004_003",
+        "relation": "修饰 spend"
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "谓语",
+        "english": "spend",
+        "chinese": "花费",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "宾语",
+        "english": "more than $15 billion a year",
+        "chinese": "每年超过150亿美元",
+        "parent_id": null,
+        "target_id": "c_004_003",
+        "relation": "作 spend 的宾语"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "状语",
+        "english": "on CSR",
+        "chinese": "在企业社会责任上",
+        "parent_id": null,
+        "target_id": "c_004_003",
+        "relation": "说明花费领域"
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "插入语",
+        "english": "according to an estimate by EPG, a consulting firm",
+        "chinese": "根据咨询公司EPG的一项估计",
+        "parent_id": null,
+        "target_id": "c_004_003",
+        "relation": "说明数据来源"
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "同位语",
+        "english": "a consulting firm",
+        "chinese": "一家咨询公司",
+        "parent_id": "c_004_006",
+        "target_id": "c_004_006",
+        "relation": "解释 EPG 的身份"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主句 + according to...",
+        "explanation": "according to... 是来源插入语，不影响主干 firms spend...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "estimate",
+        "pos": "n.",
+        "meaning": "估计",
+        "chunk_id": "c_004_006"
+      },
+      {
+        "word": "consulting",
+        "pos": "adj.",
+        "meaning": "咨询的",
+        "chunk_id": "c_004_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "This could add value to their businesses in three ways.",
+    "difficulty": 2,
+    "translation_literal": "这可以通过三种方式为它们的业务增加价值。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "This",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "could add",
+        "chinese": "可以增加",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "宾语",
+        "english": "value",
+        "chinese": "价值",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "作 add 的宾语"
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "状语",
+        "english": "to their businesses",
+        "chinese": "为它们的业务",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "说明价值增加的对象"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "状语",
+        "english": "in three ways",
+        "chinese": "通过三种方式",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "说明方式"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "value",
+        "pos": "n.",
+        "meaning": "价值",
+        "chunk_id": "c_005_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "First, consumers may take CSR spending as a “signal” that a company’s products are of high quality.",
+    "difficulty": 4,
+    "translation_literal": "首先，消费者可能把企业社会责任支出看作一个“信号”，即一家公司的产品质量很高。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "状语",
+        "english": "First",
+        "chinese": "首先",
+        "parent_id": null,
+        "target_id": "c_006_003",
+        "relation": "说明列举顺序"
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "主语",
+        "english": "consumers",
+        "chinese": "消费者",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "谓语",
+        "english": "may take",
+        "chinese": "可能把……看作",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "宾语",
+        "english": "CSR spending",
+        "chinese": "企业社会责任支出",
+        "parent_id": null,
+        "target_id": "c_006_003",
+        "relation": "作 take 的宾语"
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "宾语补足语",
+        "english": "as a signal",
+        "chinese": "作为一个信号",
+        "parent_id": null,
+        "target_id": "c_006_004",
+        "relation": "补充说明 CSR spending 被看作什么"
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "同位语从句",
+        "english": "that a company’s products are of high quality",
+        "chinese": "即一家公司的产品质量很高",
+        "parent_id": "c_006_005",
+        "target_id": "c_006_005",
+        "relation": "解释 signal 的具体内容"
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "从句主语",
+        "english": "a company’s products",
+        "chinese": "一家公司的产品",
+        "parent_id": "c_006_006",
+        "target_id": null,
+        "relation": "同位语从句内部主语"
+      },
+      {
+        "chunk_id": "c_006_008",
+        "role": "从句谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_006_006",
+        "target_id": null,
+        "relation": "同位语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_006_009",
+        "role": "从句表语",
+        "english": "of high quality",
+        "chinese": "高质量的",
+        "parent_id": "c_006_006",
+        "target_id": "c_006_008",
+        "relation": "同位语从句内部表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "signal + that 从句",
+        "explanation": "that 从句解释 signal 传递的具体信息。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "consumers",
+        "pos": "n.",
+        "meaning": "消费者",
+        "chunk_id": "c_006_002"
+      },
+      {
+        "word": "signal",
+        "pos": "n.",
+        "meaning": "信号",
+        "chunk_id": "c_006_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Second, customers may be willing to buy a company’s products as an indirect way to donate to the good causes it helps.",
+    "difficulty": 4,
+    "translation_literal": "第二，顾客可能愿意购买一家公司的产品，把这作为一种间接向它所帮助的公益事业捐赠的方式。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "状语",
+        "english": "Second",
+        "chinese": "第二",
+        "parent_id": null,
+        "target_id": "c_007_003",
+        "relation": "说明列举顺序"
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "主语",
+        "english": "customers",
+        "chinese": "顾客",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "谓语",
+        "english": "may be willing to buy",
+        "chinese": "可能愿意购买",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "宾语",
+        "english": "a company’s products",
+        "chinese": "一家公司的产品",
+        "parent_id": null,
+        "target_id": "c_007_003",
+        "relation": "作 buy 的宾语"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "状语",
+        "english": "as an indirect way to donate to the good causes it helps",
+        "chinese": "作为一种间接向它所帮助的公益事业捐赠的方式",
+        "parent_id": null,
+        "target_id": "c_007_003",
+        "relation": "说明购买行为的意义"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "定语",
+        "english": "to donate to the good causes it helps",
+        "chinese": "向它所帮助的公益事业捐赠的",
+        "parent_id": "c_007_005",
+        "target_id": "c_007_005",
+        "relation": "修饰 way"
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "定语从句",
+        "english": "it helps",
+        "chinese": "它所帮助的",
+        "parent_id": "c_007_006",
+        "target_id": "c_007_006",
+        "relation": "修饰 good causes"
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_007_007",
+        "target_id": null,
+        "relation": "定语从句内部主语，指 company"
+      },
+      {
+        "chunk_id": "c_007_009",
+        "role": "从句谓语",
+        "english": "helps",
+        "chinese": "帮助",
+        "parent_id": "c_007_007",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "indirect",
+        "pos": "adj.",
+        "meaning": "间接的",
+        "chunk_id": "c_007_005"
+      },
+      {
+        "word": "donate",
+        "pos": "v.",
+        "meaning": "捐赠",
+        "chunk_id": "c_007_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "And third, through a more diffuse “halo effect,” whereby its good deeds earn it greater consideration from consumers and others.",
+    "difficulty": 4,
+    "translation_literal": "第三，通过一种更分散的“光环效应”，即它的善行使它从消费者和其他人那里获得更多考虑。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "连接成分",
+        "english": "And third",
+        "chinese": "第三",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "状语",
+        "english": "through a more diffuse halo effect",
+        "chinese": "通过一种更分散的光环效应",
+        "parent_id": null,
+        "target_id": "c_008_004",
+        "relation": "说明第三种增值方式"
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "定语从句",
+        "english": "whereby its good deeds earn it greater consideration from consumers and others",
+        "chinese": "借此它的善行使它从消费者和其他人那里获得更多考虑",
+        "parent_id": "c_008_002",
+        "target_id": "c_008_002",
+        "relation": "解释 halo effect 的运作方式"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "从句主语",
+        "english": "its good deeds",
+        "chinese": "它的善行",
+        "parent_id": "c_008_003",
+        "target_id": null,
+        "relation": "whereby 从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "从句谓语",
+        "english": "earn",
+        "chinese": "赢得，使获得",
+        "parent_id": "c_008_003",
+        "target_id": null,
+        "relation": "whereby 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "从句宾语",
+        "english": "it greater consideration",
+        "chinese": "它更多考虑",
+        "parent_id": "c_008_003",
+        "target_id": "c_008_005",
+        "relation": "earn 的双宾语结构"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "状语",
+        "english": "from consumers and others",
+        "chinese": "来自消费者和其他人",
+        "parent_id": "c_008_003",
+        "target_id": "c_008_005",
+        "relation": "说明考虑来自哪里"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "halo effect, whereby...",
+        "explanation": "whereby 从句解释 halo effect 的具体机制。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "diffuse",
+        "pos": "adj.",
+        "meaning": "分散的，不集中的",
+        "chunk_id": "c_008_002"
+      },
+      {
+        "word": "whereby",
+        "pos": "adv.",
+        "meaning": "借此，由此",
+        "chunk_id": "c_008_003"
+      },
+      {
+        "word": "consideration",
+        "pos": "n.",
+        "meaning": "考虑，关照",
+        "chunk_id": "c_008_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "halo effect",
+        "phrase_type": "n. phr.",
+        "meaning": "光环效应",
+        "chunk_id": "c_008_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Previous studies on CSR have had trouble differentiating these effects because consumers can be affected by all three.",
+    "difficulty": 4,
+    "translation_literal": "以往关于企业社会责任的研究难以区分这些效果，因为消费者可能受到这三者共同影响。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "Previous studies on CSR",
+        "chinese": "以往关于企业社会责任的研究",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "have had trouble differentiating",
+        "chinese": "一直难以区分",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "宾语",
+        "english": "these effects",
+        "chinese": "这些效果",
+        "parent_id": null,
+        "target_id": "c_009_002",
+        "relation": "作 differentiating 的宾语"
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "原因状语从句",
+        "english": "because consumers can be affected by all three",
+        "chinese": "因为消费者可能受到这三者共同影响",
+        "parent_id": null,
+        "target_id": "c_009_002",
+        "relation": "说明难以区分的原因"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "从句主语",
+        "english": "consumers",
+        "chinese": "消费者",
+        "parent_id": "c_009_004",
+        "target_id": null,
+        "relation": "because 从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "从句谓语",
+        "english": "can be affected",
+        "chinese": "可能受到影响",
+        "parent_id": "c_009_004",
+        "target_id": null,
+        "relation": "because 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "状语",
+        "english": "by all three",
+        "chinese": "由这三者",
+        "parent_id": "c_009_004",
+        "target_id": "c_009_006",
+        "relation": "说明影响来源"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "previous",
+        "pos": "adj.",
+        "meaning": "以往的",
+        "chunk_id": "c_009_001"
+      },
+      {
+        "word": "differentiating",
+        "pos": "v.",
+        "meaning": "区分",
+        "chunk_id": "c_009_002"
+      },
+      {
+        "word": "affected",
+        "pos": "v.",
+        "meaning": "影响",
+        "chunk_id": "c_009_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "A recent study attempts to separate them by looking at bribery prosecutions under America’s Foreign Corrupt Practices Act (FCPA).",
+    "difficulty": 3,
+    "translation_literal": "一项近期研究试图通过考察美国《反海外腐败法》下的贿赂起诉来分离这些效果。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "A recent study",
+        "chinese": "一项近期研究",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "attempts to separate",
+        "chinese": "试图分离",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "宾语",
+        "english": "them",
+        "chinese": "它们",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "作 separate 的宾语，指前文三种效果"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "状语",
+        "english": "by looking at bribery prosecutions under America’s Foreign Corrupt Practices Act",
+        "chinese": "通过考察美国反海外腐败法下的贿赂起诉",
+        "parent_id": null,
+        "target_id": "c_010_002",
+        "relation": "说明研究方法"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "attempts",
+        "pos": "v.",
+        "meaning": "试图",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "bribery",
+        "pos": "n.",
+        "meaning": "贿赂",
+        "chunk_id": "c_010_004"
+      },
+      {
+        "word": "prosecutions",
+        "pos": "n.",
+        "meaning": "起诉",
+        "chunk_id": "c_010_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "It argues that since prosecutors do not consume a company’s products as part of their investigations, they could be influenced only by the halo effect.",
+    "difficulty": 5,
+    "translation_literal": "它认为，由于检察官在调查中并不消费公司的产品，他们可能只会受到光环效应的影响。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "It",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "argues",
+        "chinese": "认为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "宾语从句",
+        "english": "that since prosecutors do not consume a company’s products as part of their investigations, they could be influenced only by the halo effect",
+        "chinese": "由于检察官不消费公司产品，他们可能只受光环效应影响",
+        "parent_id": null,
+        "target_id": "c_011_002",
+        "relation": "作 argues 的宾语"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "原因状语从句",
+        "english": "since prosecutors do not consume a company’s products as part of their investigations",
+        "chinese": "由于检察官在调查中不消费公司产品",
+        "parent_id": "c_011_003",
+        "target_id": "c_011_006",
+        "relation": "说明他们只受光环效应影响的原因"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "从句主语",
+        "english": "prosecutors",
+        "chinese": "检察官",
+        "parent_id": "c_011_004",
+        "target_id": null,
+        "relation": "since 从句内部主语"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "从句谓语",
+        "english": "do not consume",
+        "chinese": "不消费",
+        "parent_id": "c_011_004",
+        "target_id": null,
+        "relation": "since 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_011_007",
+        "role": "从句宾语",
+        "english": "a company’s products",
+        "chinese": "公司的产品",
+        "parent_id": "c_011_004",
+        "target_id": "c_011_006",
+        "relation": "作 consume 的宾语"
+      },
+      {
+        "chunk_id": "c_011_008",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": "宾语从句主句内部主语，指 prosecutors"
+      },
+      {
+        "chunk_id": "c_011_009",
+        "role": "从句谓语",
+        "english": "could be influenced",
+        "chinese": "可能受到影响",
+        "parent_id": "c_011_003",
+        "target_id": null,
+        "relation": "宾语从句主句内部谓语"
+      },
+      {
+        "chunk_id": "c_011_010",
+        "role": "状语",
+        "english": "only by the halo effect",
+        "chinese": "只由光环效应",
+        "parent_id": "c_011_003",
+        "target_id": "c_011_009",
+        "relation": "说明影响来源"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "argues",
+        "pos": "v.",
+        "meaning": "认为，论证",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "word": "prosecutors",
+        "pos": "n.",
+        "meaning": "检察官",
+        "chunk_id": "c_011_005"
+      },
+      {
+        "word": "investigations",
+        "pos": "n.",
+        "meaning": "调查",
+        "chunk_id": "c_011_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "The study found that, among prosecuted firms, those with the most comprehensive CSR programmes tended to get more lenient penalties.",
+    "difficulty": 4,
+    "translation_literal": "该研究发现，在被起诉的公司中，那些拥有最全面企业社会责任项目的公司往往获得更宽大的处罚。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "The study",
+        "chinese": "该研究",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "谓语",
+        "english": "found",
+        "chinese": "发现",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "宾语从句",
+        "english": "that those with the most comprehensive CSR programmes tended to get more lenient penalties",
+        "chinese": "那些拥有最全面CSR项目的公司往往获得更宽大的处罚",
+        "parent_id": null,
+        "target_id": "c_012_002",
+        "relation": "作 found 的宾语"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "状语",
+        "english": "among prosecuted firms",
+        "chinese": "在被起诉的公司中",
+        "parent_id": "c_012_003",
+        "target_id": "c_012_003",
+        "relation": "限定 those 的范围"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "从句主语",
+        "english": "those with the most comprehensive CSR programmes",
+        "chinese": "那些拥有最全面CSR项目的公司",
+        "parent_id": "c_012_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "从句谓语",
+        "english": "tended to get",
+        "chinese": "往往获得",
+        "parent_id": "c_012_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "从句宾语",
+        "english": "more lenient penalties",
+        "chinese": "更宽大的处罚",
+        "parent_id": "c_012_003",
+        "target_id": "c_012_006",
+        "relation": "作 get 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "comprehensive",
+        "pos": "adj.",
+        "meaning": "全面的",
+        "chunk_id": "c_012_005"
+      },
+      {
+        "word": "lenient",
+        "pos": "adj.",
+        "meaning": "宽大的",
+        "chunk_id": "c_012_007"
+      },
+      {
+        "word": "penalties",
+        "pos": "n.",
+        "meaning": "处罚",
+        "chunk_id": "c_012_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Their analysis ruled out the possibility that it was firms’ political influence, rather than their CSR stand, that accounted for the leniency: Companies that contributed more to political campaigns did not receive lower fines.",
+    "difficulty": 5,
+    "translation_literal": "他们的分析排除了这样一种可能性：导致宽大处理的是公司的政治影响力而不是其CSR立场；向政治竞选捐款更多的公司并没有得到更低罚款。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "Their analysis",
+        "chinese": "他们的分析",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "ruled out",
+        "chinese": "排除",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "宾语",
+        "english": "the possibility",
+        "chinese": "这种可能性",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "作 ruled out 的宾语"
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "同位语从句",
+        "english": "that it was firms’ political influence, rather than their CSR stand, that accounted for the leniency",
+        "chinese": "即是公司的政治影响力而不是CSR立场解释了宽大处理",
+        "parent_id": "c_013_003",
+        "target_id": "c_013_003",
+        "relation": "解释 possibility 的具体内容"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "强调结构",
+        "english": "it was firms’ political influence, rather than their CSR stand, that",
+        "chinese": "正是公司的政治影响力而不是CSR立场",
+        "parent_id": "c_013_004",
+        "target_id": "c_013_007",
+        "relation": "强调 accounted for 的主语"
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "从句主语",
+        "english": "firms’ political influence, rather than their CSR stand",
+        "chinese": "公司的政治影响力而不是CSR立场",
+        "parent_id": "c_013_004",
+        "target_id": null,
+        "relation": "同位语从句内部被强调主语"
+      },
+      {
+        "chunk_id": "c_013_007",
+        "role": "从句谓语",
+        "english": "accounted for",
+        "chinese": "解释，导致",
+        "parent_id": "c_013_004",
+        "target_id": null,
+        "relation": "同位语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_013_008",
+        "role": "从句宾语",
+        "english": "the leniency",
+        "chinese": "宽大处理",
+        "parent_id": "c_013_004",
+        "target_id": "c_013_007",
+        "relation": "作 accounted for 的宾语"
+      },
+      {
+        "chunk_id": "c_013_009",
+        "role": "并列分句",
+        "english": "Companies that contributed more to political campaigns did not receive lower fines",
+        "chinese": "向政治竞选捐款更多的公司并没有得到更低罚款",
+        "parent_id": null,
+        "target_id": "c_013_001",
+        "relation": "冒号后补充说明分析依据"
+      },
+      {
+        "chunk_id": "c_013_010",
+        "role": "从句主语",
+        "english": "Companies that contributed more to political campaigns",
+        "chinese": "向政治竞选捐款更多的公司",
+        "parent_id": "c_013_009",
+        "target_id": null,
+        "relation": "并列分句内部主语"
+      },
+      {
+        "chunk_id": "c_013_011",
+        "role": "定语从句",
+        "english": "that contributed more to political campaigns",
+        "chinese": "向政治竞选捐款更多的",
+        "parent_id": "c_013_010",
+        "target_id": "c_013_010",
+        "relation": "修饰 Companies"
+      },
+      {
+        "chunk_id": "c_013_012",
+        "role": "从句谓语",
+        "english": "did not receive",
+        "chinese": "没有得到",
+        "parent_id": "c_013_009",
+        "target_id": null,
+        "relation": "并列分句内部谓语"
+      },
+      {
+        "chunk_id": "c_013_013",
+        "role": "从句宾语",
+        "english": "lower fines",
+        "chinese": "更低罚款",
+        "parent_id": "c_013_009",
+        "target_id": "c_013_012",
+        "relation": "作 receive 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "强调句",
+        "pattern_form": "it was A, rather than B, that...",
+        "explanation": "同位语从句中使用强调句，强调 accounted for leniency 的不是 CSR stand 而是 political influence。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "possibility + that 从句",
+        "explanation": "that 从句解释 possibility 的内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "analysis",
+        "pos": "n.",
+        "meaning": "分析",
+        "chunk_id": "c_013_001"
+      },
+      {
+        "word": "leniency",
+        "pos": "n.",
+        "meaning": "宽大处理",
+        "chunk_id": "c_013_008"
+      },
+      {
+        "word": "campaigns",
+        "pos": "n.",
+        "meaning": "竞选活动",
+        "chunk_id": "c_013_011"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "rule out",
+        "phrase_type": "v. phr.",
+        "meaning": "排除",
+        "chunk_id": "c_013_002"
+      },
+      {
+        "phrase": "account for",
+        "phrase_type": "v. phr.",
+        "meaning": "解释，导致",
+        "chunk_id": "c_013_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "In all, the study concludes that whereas prosecutors should only evaluate a case based on its merits, they do seem to be influenced by a company’s record in CSR.",
+    "difficulty": 5,
+    "translation_literal": "总之，该研究得出结论：尽管检察官只应根据案件本身的是非曲直来评估案件，但他们似乎确实受到公司CSR记录的影响。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "状语",
+        "english": "In all",
+        "chinese": "总之",
+        "parent_id": null,
+        "target_id": "c_014_003",
+        "relation": "总结性状语"
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "主语",
+        "english": "the study",
+        "chinese": "该研究",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "谓语",
+        "english": "concludes",
+        "chinese": "得出结论",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "宾语从句",
+        "english": "that whereas prosecutors should only evaluate a case based on its merits, they do seem to be influenced by a company’s record in CSR",
+        "chinese": "尽管检察官只应基于案件本身评估案件，但他们似乎确实受公司CSR记录影响",
+        "parent_id": null,
+        "target_id": "c_014_003",
+        "relation": "作 concludes 的宾语"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "让步状语从句",
+        "english": "whereas prosecutors should only evaluate a case based on its merits",
+        "chinese": "尽管检察官只应基于案件本身评估案件",
+        "parent_id": "c_014_004",
+        "target_id": "c_014_008",
+        "relation": "说明主句的让步背景"
+      },
+      {
+        "chunk_id": "c_014_006",
+        "role": "从句主语",
+        "english": "prosecutors",
+        "chinese": "检察官",
+        "parent_id": "c_014_005",
+        "target_id": null,
+        "relation": "whereas 从句内部主语"
+      },
+      {
+        "chunk_id": "c_014_007",
+        "role": "从句谓语",
+        "english": "should only evaluate",
+        "chinese": "只应评估",
+        "parent_id": "c_014_005",
+        "target_id": null,
+        "relation": "whereas 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_014_008",
+        "role": "从句宾语",
+        "english": "a case",
+        "chinese": "一个案件",
+        "parent_id": "c_014_005",
+        "target_id": "c_014_007",
+        "relation": "作 evaluate 的宾语"
+      },
+      {
+        "chunk_id": "c_014_009",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_014_004",
+        "target_id": null,
+        "relation": "宾语从句主句内部主语"
+      },
+      {
+        "chunk_id": "c_014_010",
+        "role": "从句谓语",
+        "english": "do seem to be influenced",
+        "chinese": "似乎确实受到影响",
+        "parent_id": "c_014_004",
+        "target_id": null,
+        "relation": "宾语从句主句内部谓语"
+      },
+      {
+        "chunk_id": "c_014_011",
+        "role": "状语",
+        "english": "by a company’s record in CSR",
+        "chinese": "由公司的CSR记录",
+        "parent_id": "c_014_004",
+        "target_id": "c_014_010",
+        "relation": "说明影响来源"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "concludes",
+        "pos": "v.",
+        "meaning": "得出结论",
+        "chunk_id": "c_014_003"
+      },
+      {
+        "word": "whereas",
+        "pos": "conj.",
+        "meaning": "尽管，然而",
+        "chunk_id": "c_014_005"
+      },
+      {
+        "word": "merits",
+        "pos": "n.",
+        "meaning": "是非曲直，实质",
+        "chunk_id": "c_014_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "“We estimate that either eliminating a substantial labour-rights concern, such as child labour, or increasing corporate giving by about 20% results in fines that generally are 40% lower than the typical punishment for bribing foreign officials,” says one researcher.",
+    "difficulty": 5,
+    "translation_literal": "一位研究者说：“我们估计，消除一项重大的劳工权利问题，例如童工，或者把企业捐赠增加约20%，会导致罚款通常比贿赂外国官员的典型处罚低40%。”",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "We",
+        "chinese": "我们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "谓语",
+        "english": "estimate",
+        "chinese": "估计",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "宾语从句",
+        "english": "that either eliminating a substantial labour-rights concern, such as child labour, or increasing corporate giving by about 20% results in fines that generally are 40% lower than the typical punishment for bribing foreign officials",
+        "chinese": "消除重大劳工权利问题或增加企业捐赠会导致罚款降低",
+        "parent_id": null,
+        "target_id": "c_015_002",
+        "relation": "作 estimate 的宾语"
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "并列成分",
+        "english": "either eliminating a substantial labour-rights concern, such as child labour",
+        "chinese": "消除一项重大劳工权利问题例如童工",
+        "parent_id": "c_015_003",
+        "target_id": null,
+        "relation": "宾语从句内部第一并列主语"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "并列成分",
+        "english": "or increasing corporate giving by about 20%",
+        "chinese": "或者把企业捐赠增加约20%",
+        "parent_id": "c_015_003",
+        "target_id": null,
+        "relation": "宾语从句内部第二并列主语"
+      },
+      {
+        "chunk_id": "c_015_006",
+        "role": "从句谓语",
+        "english": "results in",
+        "chinese": "导致",
+        "parent_id": "c_015_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_015_007",
+        "role": "从句宾语",
+        "english": "fines that generally are 40% lower than the typical punishment for bribing foreign officials",
+        "chinese": "通常比贿赂外国官员的典型处罚低40%的罚款",
+        "parent_id": "c_015_003",
+        "target_id": "c_015_006",
+        "relation": "作 results in 的宾语"
+      },
+      {
+        "chunk_id": "c_015_008",
+        "role": "定语从句",
+        "english": "that generally are 40% lower than the typical punishment for bribing foreign officials",
+        "chinese": "通常比贿赂外国官员的典型处罚低40%的",
+        "parent_id": "c_015_007",
+        "target_id": "c_015_007",
+        "relation": "修饰 fines"
+      },
+      {
+        "chunk_id": "c_015_009",
+        "role": "从句主语",
+        "english": "that",
+        "chinese": "这些罚款",
+        "parent_id": "c_015_008",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_015_010",
+        "role": "从句谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": "c_015_008",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_015_011",
+        "role": "从句表语",
+        "english": "40% lower than the typical punishment for bribing foreign officials",
+        "chinese": "比贿赂外国官员的典型处罚低40%",
+        "parent_id": "c_015_008",
+        "target_id": "c_015_010",
+        "relation": "定语从句内部表语"
+      },
+      {
+        "chunk_id": "c_015_012",
+        "role": "倒装结构",
+        "english": "says one researcher",
+        "chinese": "一位研究者说",
+        "parent_id": null,
+        "target_id": "c_015_001",
+        "relation": "引语后的倒装报道结构"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "either doing A or doing B + results in...",
+        "explanation": "两个动名词短语并列作宾语从句主语，共同对应谓语 results in。"
+      },
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "引语 + says + 主语",
+        "explanation": "says one researcher 是引语后的倒装报道结构。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "estimate",
+        "pos": "v.",
+        "meaning": "估计",
+        "chunk_id": "c_015_002"
+      },
+      {
+        "word": "substantial",
+        "pos": "adj.",
+        "meaning": "重大的",
+        "chunk_id": "c_015_004"
+      },
+      {
+        "word": "bribing",
+        "pos": "v.",
+        "meaning": "贿赂",
+        "chunk_id": "c_015_011"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Researchers admit that their study does not answer the question of how much businesses ought to spend on CSR.",
+    "difficulty": 4,
+    "translation_literal": "研究人员承认，他们的研究没有回答企业应该在CSR上花多少钱这个问题。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "主语",
+        "english": "Researchers",
+        "chinese": "研究人员",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "谓语",
+        "english": "admit",
+        "chinese": "承认",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "宾语从句",
+        "english": "that their study does not answer the question of how much businesses ought to spend on CSR",
+        "chinese": "他们的研究没有回答企业应该在CSR上花多少钱这个问题",
+        "parent_id": null,
+        "target_id": "c_016_002",
+        "relation": "作 admit 的宾语"
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "从句主语",
+        "english": "their study",
+        "chinese": "他们的研究",
+        "parent_id": "c_016_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "从句谓语",
+        "english": "does not answer",
+        "chinese": "没有回答",
+        "parent_id": "c_016_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_016_006",
+        "role": "从句宾语",
+        "english": "the question of how much businesses ought to spend on CSR",
+        "chinese": "企业应该在CSR上花多少钱这个问题",
+        "parent_id": "c_016_003",
+        "target_id": "c_016_005",
+        "relation": "作 answer 的宾语"
+      },
+      {
+        "chunk_id": "c_016_007",
+        "role": "同位语解释结构",
+        "english": "how much businesses ought to spend on CSR",
+        "chinese": "企业应该在CSR上花多少钱",
+        "parent_id": "c_016_006",
+        "target_id": "c_016_006",
+        "relation": "解释 question 的内容"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "admit",
+        "pos": "v.",
+        "meaning": "承认",
+        "chunk_id": "c_016_002"
+      },
+      {
+        "word": "ought",
+        "pos": "modal v.",
+        "meaning": "应该",
+        "chunk_id": "c_016_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "Nor does it reveal how much companies are banking on the halo effect, rather than the other possible benefits, when they decide their do-gooding policies.",
+    "difficulty": 5,
+    "translation_literal": "它也没有揭示，当公司决定其行善政策时，它们多大程度上依赖光环效应，而不是其他可能的好处。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "倒装结构",
+        "english": "Nor does it reveal",
+        "chinese": "它也没有揭示",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_017_001",
+        "target_id": null,
+        "relation": "否定倒装结构中的主语"
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "谓语",
+        "english": "does reveal",
+        "chinese": "揭示",
+        "parent_id": "c_017_001",
+        "target_id": null,
+        "relation": "否定倒装结构中的谓语，Nor 使助动词前置"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "宾语从句",
+        "english": "how much companies are banking on the halo effect, rather than the other possible benefits",
+        "chinese": "公司多大程度上依赖光环效应而不是其他可能好处",
+        "parent_id": null,
+        "target_id": "c_017_003",
+        "relation": "作 reveal 的宾语"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "从句主语",
+        "english": "companies",
+        "chinese": "公司",
+        "parent_id": "c_017_004",
+        "target_id": null,
+        "relation": "how much 宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "从句谓语",
+        "english": "are banking on",
+        "chinese": "依赖，指望",
+        "parent_id": "c_017_004",
+        "target_id": null,
+        "relation": "how much 宾语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "从句宾语",
+        "english": "the halo effect",
+        "chinese": "光环效应",
+        "parent_id": "c_017_004",
+        "target_id": "c_017_006",
+        "relation": "作 banking on 的宾语"
+      },
+      {
+        "chunk_id": "c_017_008",
+        "role": "并列成分",
+        "english": "rather than the other possible benefits",
+        "chinese": "而不是其他可能的好处",
+        "parent_id": "c_017_004",
+        "target_id": "c_017_007",
+        "relation": "与 halo effect 形成对比"
+      },
+      {
+        "chunk_id": "c_017_009",
+        "role": "状语从句",
+        "english": "when they decide their do-gooding policies",
+        "chinese": "当它们决定其行善政策时",
+        "parent_id": null,
+        "target_id": "c_017_006",
+        "relation": "说明依赖光环效应发生的时间"
+      },
+      {
+        "chunk_id": "c_017_010",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "它们",
+        "parent_id": "c_017_009",
+        "target_id": null,
+        "relation": "when 从句内部主语"
+      },
+      {
+        "chunk_id": "c_017_011",
+        "role": "从句谓语",
+        "english": "decide",
+        "chinese": "决定",
+        "parent_id": "c_017_009",
+        "target_id": null,
+        "relation": "when 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_017_012",
+        "role": "从句宾语",
+        "english": "their do-gooding policies",
+        "chinese": "它们的行善政策",
+        "parent_id": "c_017_009",
+        "target_id": "c_017_011",
+        "relation": "作 decide 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "Nor + 助动词 + 主语 + 谓语",
+        "explanation": "Nor 位于句首引起部分倒装，正常语序是 it does not reveal...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "reveal",
+        "pos": "v.",
+        "meaning": "揭示",
+        "chunk_id": "c_017_003"
+      },
+      {
+        "word": "banking",
+        "pos": "v.",
+        "meaning": "依赖，指望",
+        "chunk_id": "c_017_006"
+      },
+      {
+        "word": "policies",
+        "pos": "n.",
+        "meaning": "政策",
+        "chunk_id": "c_017_012"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "bank on",
+        "phrase_type": "v. phr.",
+        "meaning": "依赖，指望",
+        "chunk_id": "c_017_006"
+      },
+      {
+        "phrase": "rather than",
+        "phrase_type": "conj. phr.",
+        "meaning": "而不是",
+        "chunk_id": "c_017_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 3",
+    "original": "But at least they have demonstrated that when companies get into trouble with the law, evidence of good character can win them a less costly punishment.",
+    "difficulty": 5,
+    "translation_literal": "但至少他们已经证明，当公司陷入法律麻烦时，良好品格的证据能够为它们赢得成本较低的处罚。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "状语",
+        "english": "at least",
+        "chinese": "至少",
+        "parent_id": null,
+        "target_id": "c_018_004",
+        "relation": "修饰 have demonstrated"
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "谓语",
+        "english": "have demonstrated",
+        "chinese": "已经证明",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "宾语从句",
+        "english": "that when companies get into trouble with the law, evidence of good character can win them a less costly punishment",
+        "chinese": "当公司陷入法律麻烦时良好品格证据能赢得较低成本处罚",
+        "parent_id": null,
+        "target_id": "c_018_004",
+        "relation": "作 demonstrated 的宾语"
+      },
+      {
+        "chunk_id": "c_018_006",
+        "role": "状语从句",
+        "english": "when companies get into trouble with the law",
+        "chinese": "当公司陷入法律麻烦时",
+        "parent_id": "c_018_005",
+        "target_id": "c_018_009",
+        "relation": "说明证据发挥作用的时间"
+      },
+      {
+        "chunk_id": "c_018_007",
+        "role": "从句主语",
+        "english": "companies",
+        "chinese": "公司",
+        "parent_id": "c_018_006",
+        "target_id": null,
+        "relation": "when 从句内部主语"
+      },
+      {
+        "chunk_id": "c_018_008",
+        "role": "从句谓语",
+        "english": "get into",
+        "chinese": "陷入",
+        "parent_id": "c_018_006",
+        "target_id": null,
+        "relation": "when 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_018_009",
+        "role": "从句宾语",
+        "english": "trouble with the law",
+        "chinese": "法律麻烦",
+        "parent_id": "c_018_006",
+        "target_id": "c_018_008",
+        "relation": "作 get into 的宾语"
+      },
+      {
+        "chunk_id": "c_018_010",
+        "role": "从句主语",
+        "english": "evidence of good character",
+        "chinese": "良好品格的证据",
+        "parent_id": "c_018_005",
+        "target_id": null,
+        "relation": "宾语从句主句内部主语"
+      },
+      {
+        "chunk_id": "c_018_011",
+        "role": "从句谓语",
+        "english": "can win",
+        "chinese": "能够赢得",
+        "parent_id": "c_018_005",
+        "target_id": null,
+        "relation": "宾语从句主句内部谓语"
+      },
+      {
+        "chunk_id": "c_018_012",
+        "role": "从句宾语",
+        "english": "them a less costly punishment",
+        "chinese": "为它们赢得成本较低的处罚",
+        "parent_id": "c_018_005",
+        "target_id": "c_018_011",
+        "relation": "win 的双宾语结构"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "demonstrated",
+        "pos": "v.",
+        "meaning": "证明",
+        "chunk_id": "c_018_004"
+      },
+      {
+        "word": "evidence",
+        "pos": "n.",
+        "meaning": "证据",
+        "chunk_id": "c_018_010"
+      },
+      {
+        "word": "costly",
+        "pos": "adj.",
+        "meaning": "代价高的",
+        "chunk_id": "c_018_012"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "get into trouble with the law",
+        "phrase_type": "v. phr.",
+        "meaning": "陷入法律麻烦",
+        "chunk_id": "c_018_006"
+      }
+    ]
+  }
+]

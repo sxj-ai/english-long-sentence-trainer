@@ -1,0 +1,453 @@
+[
+  {
+    "check_id": "s_001_first_generation_meaning_in_context",
+    "source_sentence_id": "s_001",
+    "target": "first-generation",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，first-generation 最合适的意思是：",
+    "correct_meaning": "第一代上大学的",
+    "acceptable_meanings": [
+      "第一代上大学的",
+      "家里第一代读大学的"
+    ],
+    "meaning_pool": [
+      "第一代上大学的",
+      "老一代的",
+      "第一批招生的",
+      "海外来的"
+    ],
+    "explanation": "first-generation college students 指父母中没有人上过大学的学生。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_001_lag_meaning_in_context",
+    "source_sentence_id": "s_001",
+    "target": "lag",
+    "target_type": "word",
+    "prompt": "结合本句语境，lag 最合适的意思是：",
+    "correct_meaning": "落后",
+    "acceptable_meanings": [
+      "落后",
+      "滞后"
+    ],
+    "meaning_pool": [
+      "落后",
+      "滞后",
+      "领先",
+      "增长"
+    ],
+    "explanation": "这里说第一代大学生在多项教育指标上落后于其他学生。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_001_a_range_of_meaning_in_context",
+    "source_sentence_id": "s_001",
+    "target": "a range of",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，a range of 最合适的意思是：",
+    "correct_meaning": "一系列",
+    "acceptable_meanings": [
+      "一系列",
+      "多种"
+    ],
+    "meaning_pool": [
+      "一系列",
+      "多种",
+      "一个范围",
+      "少数几个"
+    ],
+    "explanation": "a range of education achievement factors 表示“一系列教育成绩因素”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_002_dropout_rates_meaning_in_context",
+    "source_sentence_id": "s_002",
+    "target": "dropout rates",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，dropout rates 最合适的意思是：",
+    "correct_meaning": "辍学率",
+    "acceptable_meanings": [
+      "辍学率"
+    ],
+    "meaning_pool": [
+      "辍学率",
+      "入学率",
+      "毕业率",
+      "及格率"
+    ],
+    "explanation": "Their grades are lower and their dropout rates are higher 这里很直接。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_003_advance_economically_meaning_in_context",
+    "source_sentence_id": "s_003",
+    "target": "advance economically",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，advance economically 最合适的意思是：",
+    "correct_meaning": "在经济上向上发展",
+    "acceptable_meanings": [
+      "在经济上向上发展",
+      "实现经济跃升"
+    ],
+    "meaning_pool": [
+      "在经济上向上发展",
+      "经济下滑",
+      "停止工作",
+      "缩减开支"
+    ],
+    "explanation": "succeed in higher education 会帮助他们在经济上更进一步。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_003_recruit_meaning_in_context",
+    "source_sentence_id": "s_003",
+    "target": "recruit",
+    "target_type": "word",
+    "prompt": "结合本句语境，recruit 最合适的意思是：",
+    "correct_meaning": "招收/招募",
+    "acceptable_meanings": [
+      "招收",
+      "招募"
+    ],
+    "meaning_pool": [
+      "招收/招募",
+      "淘汰",
+      "质疑",
+      "放弃"
+    ],
+    "explanation": "colleges and universities have pushed for decades to recruit more of them 说的是招收更多这类学生。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_004_paradox_meaning_in_context",
+    "source_sentence_id": "s_004",
+    "target": "paradox",
+    "target_type": "word",
+    "prompt": "结合本句语境，paradox 最合适的意思是：",
+    "correct_meaning": "悖论",
+    "acceptable_meanings": [
+      "悖论"
+    ],
+    "meaning_pool": [
+      "悖论",
+      "结论",
+      "建议",
+      "常识"
+    ],
+    "explanation": "这里直接说这形成了一个 paradox。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_004_continued_to_reproduce_and_widen_meaning_in_context",
+    "source_sentence_id": "s_004",
+    "target": "continued to reproduce and widen",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，continued to reproduce and widen 最合适的意思是：",
+    "correct_meaning": "继续复制并扩大",
+    "acceptable_meanings": [
+      "继续复制并扩大",
+      "持续加剧"
+    ],
+    "meaning_pool": [
+      "继续复制并扩大",
+      "逐渐消除",
+      "完全终止",
+      "随机缩小"
+    ],
+    "explanation": "higher education has continued to reproduce and widen... 指差距继续被复制并扩大。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_004_achievement_gap_meaning_in_context",
+    "source_sentence_id": "s_004",
+    "target": "achievement gap",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，achievement gap 最合适的意思是：",
+    "correct_meaning": "成绩差距",
+    "acceptable_meanings": [
+      "成绩差距"
+    ],
+    "meaning_pool": [
+      "成绩差距",
+      "情绪差距",
+      "年龄差距",
+      "地域差距"
+    ],
+    "explanation": "这里说的是学生之间的学业/成绩差距。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_004_based_on_social_class_meaning_in_context",
+    "source_sentence_id": "s_004",
+    "target": "based on social class",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，based on social class 最合适的意思是：",
+    "correct_meaning": "基于社会阶层",
+    "acceptable_meanings": [
+      "基于社会阶层",
+      "按社会阶层划分"
+    ],
+    "meaning_pool": [
+      "基于社会阶层",
+      "基于年龄",
+      "基于性别",
+      "基于专业"
+    ],
+    "explanation": "achievement gap based on social class 表示与社会阶层有关。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_005_close_63_percent_meaning_in_context",
+    "source_sentence_id": "s_005",
+    "target": "close 63 percent",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，close 63 percent 最合适的意思是：",
+    "correct_meaning": "缩小63%",
+    "acceptable_meanings": [
+      "缩小63%"
+    ],
+    "meaning_pool": [
+      "缩小63%",
+      "扩大63%",
+      "保持63%",
+      "超过63%"
+    ],
+    "explanation": "这里说某种方案可以缩小成绩差距的63%。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_006_findings_are_based_on_meaning_in_context",
+    "source_sentence_id": "s_006",
+    "target": "findings are based on",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，findings are based on 最合适的意思是：",
+    "correct_meaning": "研究结果基于",
+    "acceptable_meanings": [
+      "研究结果基于",
+      "发现建立在"
+    ],
+    "meaning_pool": [
+      "研究结果基于",
+      "研究结果反对",
+      "研究结果取代",
+      "研究结果隐藏"
+    ],
+    "explanation": "their findings are based on a study 说明结果是基于一项研究。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_007_defined_as_meaning_in_context",
+    "source_sentence_id": "s_007",
+    "target": "defined as",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，defined as 最合适的意思是：",
+    "correct_meaning": "被定义为",
+    "acceptable_meanings": [
+      "被定义为"
+    ],
+    "meaning_pool": [
+      "被定义为",
+      "被否定为",
+      "被扩大为",
+      "被忽略为"
+    ],
+    "explanation": "First generation was defined as... 这里是在下定义。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_008_pell_grants_meaning_in_context",
+    "source_sentence_id": "s_008",
+    "target": "Pell Grants",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，Pell Grants 最合适的意思是：",
+    "correct_meaning": "佩尔助学金",
+    "acceptable_meanings": [
+      "佩尔助学金"
+    ],
+    "meaning_pool": [
+      "佩尔助学金",
+      "奖学金",
+      "贷款",
+      "学费折扣"
+    ],
+    "explanation": "Pell Grants 是美国联邦助学金项目。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_008_financial_need_meaning_in_context",
+    "source_sentence_id": "s_008",
+    "target": "financial need",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，financial need 最合适的意思是：",
+    "correct_meaning": "经济需要",
+    "acceptable_meanings": [
+      "经济需要"
+    ],
+    "meaning_pool": [
+      "经济需要",
+      "学术能力",
+      "体育特长",
+      "志愿经历"
+    ],
+    "explanation": "这里指按经济困难程度发放的补助。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_009_thesis_meaning_in_context",
+    "source_sentence_id": "s_009",
+    "target": "thesis",
+    "target_type": "word",
+    "prompt": "结合本句语境，thesis 最合适的意思是：",
+    "correct_meaning": "论文主张",
+    "acceptable_meanings": [
+      "论文主张",
+      "论点"
+    ],
+    "meaning_pool": [
+      "论文主张",
+      "论点",
+      "标题",
+      "注释"
+    ],
+    "explanation": "Their thesis 指这篇论文的核心论点。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_009_big_impact_meaning_in_context",
+    "source_sentence_id": "s_009",
+    "target": "big impact",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，big impact 最合适的意思是：",
+    "correct_meaning": "很大影响",
+    "acceptable_meanings": [
+      "很大影响",
+      "重大作用"
+    ],
+    "meaning_pool": [
+      "很大影响",
+      "很小作用",
+      "完全无效",
+      "暂时帮助"
+    ],
+    "explanation": "这里强调这种干预可能产生很大影响。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_009_practical_knowledge_meaning_in_context",
+    "source_sentence_id": "s_009",
+    "target": "practical knowledge",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，practical knowledge 最合适的意思是：",
+    "correct_meaning": "实践性知识",
+    "acceptable_meanings": [
+      "实践性知识"
+    ],
+    "meaning_pool": [
+      "实践性知识",
+      "理论模型",
+      "考试成绩",
+      "阅读兴趣"
+    ],
+    "explanation": "not in potential but in practical knowledge 说明缺的不是潜力，而是实操知识。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_010_deal_with_meaning_in_context",
+    "source_sentence_id": "s_010",
+    "target": "deal with",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，deal with 最合适的意思是：",
+    "correct_meaning": "处理/应对",
+    "acceptable_meanings": [
+      "处理",
+      "应对"
+    ],
+    "meaning_pool": [
+      "处理/应对",
+      "制造",
+      "隐藏",
+      "忽视"
+    ],
+    "explanation": "这里说学生缺少处理大学问题的实操能力。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_011_middle_class_culture_meaning_in_context",
+    "source_sentence_id": "s_011",
+    "target": "middle-class culture",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，middle-class culture 最合适的意思是：",
+    "correct_meaning": "中产阶级文化",
+    "acceptable_meanings": [
+      "中产阶级文化"
+    ],
+    "meaning_pool": [
+      "中产阶级文化",
+      "乡村文化",
+      "校园文化",
+      "精英文化"
+    ],
+    "explanation": "learn the middle-class culture of higher education 不是字面“中间阶级”，而是社会阶层文化。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_011_rules_of_the_game_meaning_in_context",
+    "source_sentence_id": "s_011",
+    "target": "rules of the game",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，rules of the game 最合适的意思是：",
+    "correct_meaning": "游戏规则/行事规则",
+    "acceptable_meanings": [
+      "游戏规则",
+      "行事规则"
+    ],
+    "meaning_pool": [
+      "游戏规则/行事规则",
+      "课程表",
+      "考试答案",
+      "学校规章"
+    ],
+    "explanation": "这里是很常见的比喻，指“该怎么做”的规则。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_011_take_advantage_of_meaning_in_context",
+    "source_sentence_id": "s_011",
+    "target": "take advantage of",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，take advantage of 最合适的意思是：",
+    "correct_meaning": "利用",
+    "acceptable_meanings": [
+      "利用",
+      "善用"
+    ],
+    "meaning_pool": [
+      "利用",
+      "拒绝",
+      "赔偿",
+      "拖延"
+    ],
+    "explanation": "take advantage of college resources 指善于利用学校资源。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_013_lack_sight_about_meaning_in_context",
+    "source_sentence_id": "s_013",
+    "target": "lack sight about",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，lack sight about 最合适的意思是：",
+    "correct_meaning": "看不清/不了解",
+    "acceptable_meanings": [
+      "看不清",
+      "不了解"
+    ],
+    "meaning_pool": [
+      "看不清/不了解",
+      "完全明白",
+      "主动夸大",
+      "提前预知"
+    ],
+    "explanation": "这里说很多学生不了解自己为什么在挣扎。",
+    "priority": 1
+  }
+]

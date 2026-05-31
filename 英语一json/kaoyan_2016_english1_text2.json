@@ -1,0 +1,2497 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "For the first time in history more people live in towns than in the country.",
+    "difficulty": 2,
+    "translation_literal": "历史上第一次，住在城镇里的人比住在乡村里的人更多。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "状语",
+        "english": "For the first time in history",
+        "chinese": "历史上第一次",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "说明这一现象首次出现"
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "主语",
+        "english": "more people",
+        "chinese": "更多人",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "谓语",
+        "english": "live",
+        "chinese": "居住",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_004",
+        "role": "状语",
+        "english": "in towns than in the country",
+        "chinese": "在城镇里而不是在乡村里",
+        "parent_id": null,
+        "target_id": "c_001_003",
+        "relation": "说明居住地点并形成比较"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "history",
+        "pos": "n.",
+        "meaning": "历史",
+        "chunk_id": "c_001_001"
+      },
+      {
+        "word": "towns",
+        "pos": "n.",
+        "meaning": "城镇",
+        "chunk_id": "c_001_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "In Britain this has had a curious result.",
+    "difficulty": 2,
+    "translation_literal": "在英国，这产生了一个奇特的结果。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "状语",
+        "english": "In Britain",
+        "chinese": "在英国",
+        "parent_id": null,
+        "target_id": "c_002_003",
+        "relation": "说明地点范围"
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "主语",
+        "english": "this",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "谓语",
+        "english": "has had",
+        "chinese": "已经产生",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "宾语",
+        "english": "a curious result",
+        "chinese": "一个奇特的结果",
+        "parent_id": null,
+        "target_id": "c_002_003",
+        "relation": "作 has had 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "curious",
+        "pos": "adj.",
+        "meaning": "奇特的",
+        "chunk_id": "c_002_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "While polls show Britons rate “the countryside” alongside the royal family, Shakespeare and the National Health Service (NHS) as what makes them proudest of their country, this has limited political support.",
+    "difficulty": 5,
+    "translation_literal": "尽管民意调查显示，英国人把“乡村”和王室、莎士比亚以及国民医疗服务体系并列，视为最让他们为国家自豪的东西，但这在政治上得到的支持有限。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "让步状语从句",
+        "english": "While polls show Britons rate the countryside alongside the royal family, Shakespeare and the National Health Service as what makes them proudest of their country",
+        "chinese": "尽管民调显示英国人把乡村和王室、莎士比亚及NHS并列视为最让他们自豪的东西",
+        "parent_id": null,
+        "target_id": "c_003_006",
+        "relation": "说明主句让步背景"
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "从句主语",
+        "english": "polls",
+        "chinese": "民意调查",
+        "parent_id": "c_003_001",
+        "target_id": null,
+        "relation": "让步状语从句内部主语"
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "从句谓语",
+        "english": "show",
+        "chinese": "显示",
+        "parent_id": "c_003_001",
+        "target_id": null,
+        "relation": "让步状语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "从句宾语",
+        "english": "Britons rate the countryside alongside the royal family, Shakespeare and the National Health Service as what makes them proudest of their country",
+        "chinese": "英国人把乡村和王室、莎士比亚及NHS并列视为最让他们自豪的东西",
+        "parent_id": "c_003_001",
+        "target_id": "c_003_003",
+        "relation": "作 show 的宾语内容"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "宾语从句",
+        "english": "what makes them proudest of their country",
+        "chinese": "最让他们为国家自豪的东西",
+        "parent_id": "c_003_004",
+        "target_id": "c_003_004",
+        "relation": "作 rate...as 的宾语补足内容"
+      },
+      {
+        "chunk_id": "c_003_006",
+        "role": "主语",
+        "english": "this",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_007",
+        "role": "谓语",
+        "english": "has",
+        "chinese": "有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_008",
+        "role": "宾语",
+        "english": "limited political support",
+        "chinese": "有限的政治支持",
+        "parent_id": null,
+        "target_id": "c_003_007",
+        "relation": "作 has 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "A alongside B, C and D",
+        "explanation": "the countryside 与 royal family、Shakespeare、NHS 并列，构成英国人引以为傲的对象。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "polls",
+        "pos": "n.",
+        "meaning": "民意调查",
+        "chunk_id": "c_003_002"
+      },
+      {
+        "word": "countryside",
+        "pos": "n.",
+        "meaning": "乡村",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "limited",
+        "pos": "adj.",
+        "meaning": "有限的",
+        "chunk_id": "c_003_008"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "A century ago Octavia Hill launched the National Trust not to rescue stylish houses but to save “the beauty of natural places for everyone forever.”",
+    "difficulty": 4,
+    "translation_literal": "一个世纪前，奥克塔维娅·希尔创立国民信托，不是为了拯救时髦宅邸，而是为了永远为每个人保存自然之地的美。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "状语",
+        "english": "A century ago",
+        "chinese": "一个世纪前",
+        "parent_id": null,
+        "target_id": "c_004_003",
+        "relation": "说明时间"
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "主语",
+        "english": "Octavia Hill",
+        "chinese": "奥克塔维娅·希尔",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "谓语",
+        "english": "launched",
+        "chinese": "创立",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "宾语",
+        "english": "the National Trust",
+        "chinese": "国民信托",
+        "parent_id": null,
+        "target_id": "c_004_003",
+        "relation": "作 launched 的宾语"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "状语",
+        "english": "not to rescue stylish houses but to save the beauty of natural places for everyone forever",
+        "chinese": "不是为了拯救时髦宅邸而是为了保存自然之地的美",
+        "parent_id": null,
+        "target_id": "c_004_003",
+        "relation": "说明创立机构的目的"
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "并列成分",
+        "english": "not to rescue stylish houses",
+        "chinese": "不是为了拯救时髦宅邸",
+        "parent_id": "c_004_005",
+        "target_id": "c_004_003",
+        "relation": "目的结构中的否定项"
+      },
+      {
+        "chunk_id": "c_004_007",
+        "role": "并列成分",
+        "english": "but to save the beauty of natural places for everyone forever",
+        "chinese": "而是为了永远为每个人保存自然之地的美",
+        "parent_id": "c_004_005",
+        "target_id": "c_004_003",
+        "relation": "目的结构中的重点项"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "not to A but to B",
+        "explanation": "not to rescue... but to save... 形成目的上的否定与转折，重点在 but 后。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "launched",
+        "pos": "v.",
+        "meaning": "创立，发起",
+        "chunk_id": "c_004_003"
+      },
+      {
+        "word": "rescue",
+        "pos": "v.",
+        "meaning": "拯救",
+        "chunk_id": "c_004_005"
+      },
+      {
+        "word": "stylish",
+        "pos": "adj.",
+        "meaning": "时髦的",
+        "chunk_id": "c_004_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "It was specifically to provide city dwellers with spaces for leisure where they could experience “a refreshing air.”",
+    "difficulty": 4,
+    "translation_literal": "它专门是为了给城市居民提供休闲空间，在那里他们可以体验“清新的空气”。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "主语",
+        "english": "It",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "谓语",
+        "english": "was",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "表语",
+        "english": "specifically to provide city dwellers with spaces for leisure",
+        "chinese": "专门为了给城市居民提供休闲空间",
+        "parent_id": null,
+        "target_id": "c_005_002",
+        "relation": "作 was 的表语，说明目的"
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "定语从句",
+        "english": "where they could experience a refreshing air",
+        "chinese": "在那里他们可以体验清新的空气",
+        "parent_id": "c_005_003",
+        "target_id": "c_005_003",
+        "relation": "修饰 spaces for leisure"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_005_004",
+        "target_id": null,
+        "relation": "where 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "从句谓语",
+        "english": "could experience",
+        "chinese": "可以体验",
+        "parent_id": "c_005_004",
+        "target_id": null,
+        "relation": "where 定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_005_007",
+        "role": "从句宾语",
+        "english": "a refreshing air",
+        "chinese": "清新的空气",
+        "parent_id": "c_005_004",
+        "target_id": "c_005_006",
+        "relation": "作 experience 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "specifically",
+        "pos": "adv.",
+        "meaning": "专门地",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "dwellers",
+        "pos": "n.",
+        "meaning": "居民",
+        "chunk_id": "c_005_003"
+      },
+      {
+        "word": "refreshing",
+        "pos": "adj.",
+        "meaning": "清新的",
+        "chunk_id": "c_005_007"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "provide ... with",
+        "phrase_type": "v. phr.",
+        "meaning": "给……提供……",
+        "chunk_id": "c_005_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Hill’s pressure later led to the creation of national parks and green belts.",
+    "difficulty": 2,
+    "translation_literal": "希尔的推动后来促成了国家公园和绿化带的建立。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "主语",
+        "english": "Hill’s pressure",
+        "chinese": "希尔的推动",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "状语",
+        "english": "later",
+        "chinese": "后来",
+        "parent_id": null,
+        "target_id": "c_006_003",
+        "relation": "说明时间"
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "谓语",
+        "english": "led to",
+        "chinese": "导致，促成",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "宾语",
+        "english": "the creation of national parks and green belts",
+        "chinese": "国家公园和绿化带的建立",
+        "parent_id": null,
+        "target_id": "c_006_003",
+        "relation": "作 led to 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "pressure",
+        "pos": "n.",
+        "meaning": "推动，压力",
+        "chunk_id": "c_006_001"
+      },
+      {
+        "word": "creation",
+        "pos": "n.",
+        "meaning": "建立",
+        "chunk_id": "c_006_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "led to",
+        "phrase_type": "v. phr.",
+        "meaning": "导致，促成",
+        "chunk_id": "c_006_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "They don’t make countryside any more, and every year concrete consumes more of it.",
+    "difficulty": 3,
+    "translation_literal": "人们不再制造乡村，而每年混凝土都会吞噬更多乡村。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "并列分句",
+        "english": "They don’t make countryside any more",
+        "chinese": "人们不再制造乡村",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "从句主语",
+        "english": "They",
+        "chinese": "他们",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": "第一并列分句主语"
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "从句谓语",
+        "english": "don’t make",
+        "chinese": "不再制造",
+        "parent_id": "c_007_001",
+        "target_id": null,
+        "relation": "第一并列分句谓语"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "从句宾语",
+        "english": "countryside",
+        "chinese": "乡村",
+        "parent_id": "c_007_001",
+        "target_id": "c_007_003",
+        "relation": "作 make 的宾语"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "并列分句",
+        "english": "and every year concrete consumes more of it",
+        "chinese": "而每年混凝土都会吞噬更多乡村",
+        "parent_id": null,
+        "target_id": "c_007_001",
+        "relation": "与第一分句并列"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "从句主语",
+        "english": "concrete",
+        "chinese": "混凝土",
+        "parent_id": "c_007_005",
+        "target_id": null,
+        "relation": "第二并列分句主语"
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "从句谓语",
+        "english": "consumes",
+        "chinese": "吞噬，消耗",
+        "parent_id": "c_007_005",
+        "target_id": null,
+        "relation": "第二并列分句谓语"
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "从句宾语",
+        "english": "more of it",
+        "chinese": "更多乡村",
+        "parent_id": "c_007_005",
+        "target_id": "c_007_007",
+        "relation": "作 consumes 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "concrete",
+        "pos": "n.",
+        "meaning": "混凝土",
+        "chunk_id": "c_007_006"
+      },
+      {
+        "word": "consumes",
+        "pos": "v.",
+        "meaning": "消耗，吞噬",
+        "chunk_id": "c_007_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "It needs constant guardianship.",
+    "difficulty": 2,
+    "translation_literal": "它需要持续守护。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "主语",
+        "english": "It",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "谓语",
+        "english": "needs",
+        "chinese": "需要",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "宾语",
+        "english": "constant guardianship",
+        "chinese": "持续守护",
+        "parent_id": null,
+        "target_id": "c_008_002",
+        "relation": "作 needs 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "constant",
+        "pos": "adj.",
+        "meaning": "持续的",
+        "chunk_id": "c_008_003"
+      },
+      {
+        "word": "guardianship",
+        "pos": "n.",
+        "meaning": "守护，保护",
+        "chunk_id": "c_008_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "At the next election none of the big parties seem likely to endorse this sentiment.",
+    "difficulty": 3,
+    "translation_literal": "在下一次选举中，没有一个大党似乎可能支持这种情绪。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "状语",
+        "english": "At the next election",
+        "chinese": "在下一次选举中",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "说明时间背景"
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "主语",
+        "english": "none of the big parties",
+        "chinese": "没有一个大党",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "谓语",
+        "english": "seem likely to endorse",
+        "chinese": "似乎可能支持",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "宾语",
+        "english": "this sentiment",
+        "chinese": "这种情绪",
+        "parent_id": null,
+        "target_id": "c_009_003",
+        "relation": "作 endorse 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "endorse",
+        "pos": "v.",
+        "meaning": "支持，认可",
+        "chunk_id": "c_009_003"
+      },
+      {
+        "word": "sentiment",
+        "pos": "n.",
+        "meaning": "情绪，态度",
+        "chunk_id": "c_009_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The Conservatives’ planning reform explicitly gives rural development priority over conservation, even authorising “off-plan” building where local people might object.",
+    "difficulty": 4,
+    "translation_literal": "保守党的规划改革明确赋予农村开发高于保护的优先地位，甚至批准当地人可能反对的“计划外”建设。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "The Conservatives’ planning reform",
+        "chinese": "保守党的规划改革",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "状语",
+        "english": "explicitly",
+        "chinese": "明确地",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "修饰 gives"
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "谓语",
+        "english": "gives",
+        "chinese": "给予",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "宾语",
+        "english": "rural development priority over conservation",
+        "chinese": "农村开发高于保护的优先地位",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "作 gives 的宾语"
+      },
+      {
+        "chunk_id": "c_010_005",
+        "role": "状语",
+        "english": "even authorising off-plan building where local people might object",
+        "chinese": "甚至批准当地人可能反对的计划外建设",
+        "parent_id": null,
+        "target_id": "c_010_003",
+        "relation": "补充说明改革的进一步做法"
+      },
+      {
+        "chunk_id": "c_010_006",
+        "role": "定语从句",
+        "english": "where local people might object",
+        "chinese": "当地人可能反对的地方",
+        "parent_id": "c_010_005",
+        "target_id": "c_010_005",
+        "relation": "修饰 off-plan building"
+      },
+      {
+        "chunk_id": "c_010_007",
+        "role": "从句主语",
+        "english": "local people",
+        "chinese": "当地人",
+        "parent_id": "c_010_006",
+        "target_id": null,
+        "relation": "where 从句内部主语"
+      },
+      {
+        "chunk_id": "c_010_008",
+        "role": "从句谓语",
+        "english": "might object",
+        "chinese": "可能反对",
+        "parent_id": "c_010_006",
+        "target_id": null,
+        "relation": "where 从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "explicitly",
+        "pos": "adv.",
+        "meaning": "明确地",
+        "chunk_id": "c_010_002"
+      },
+      {
+        "word": "priority",
+        "pos": "n.",
+        "meaning": "优先地位",
+        "chunk_id": "c_010_004"
+      },
+      {
+        "word": "conservation",
+        "pos": "n.",
+        "meaning": "保护",
+        "chunk_id": "c_010_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "give priority over",
+        "phrase_type": "v. phr.",
+        "meaning": "给予高于……的优先地位",
+        "chunk_id": "c_010_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The concept of sustainable development has been defined as profitable.",
+    "difficulty": 2,
+    "translation_literal": "可持续发展的概念已经被定义为有利可图。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "The concept of sustainable development",
+        "chinese": "可持续发展的概念",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "has been defined as",
+        "chinese": "已经被定义为",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "宾语补足语",
+        "english": "profitable",
+        "chinese": "有利可图的",
+        "parent_id": null,
+        "target_id": "c_011_002",
+        "relation": "补充说明 concept 被定义成什么"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "sustainable",
+        "pos": "adj.",
+        "meaning": "可持续的",
+        "chunk_id": "c_011_001"
+      },
+      {
+        "word": "profitable",
+        "pos": "adj.",
+        "meaning": "有利可图的",
+        "chunk_id": "c_011_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Labour likewise wants to discontinue local planning where councils oppose development.",
+    "difficulty": 3,
+    "translation_literal": "工党同样想要停止地方规划，在那些地方议会反对开发的地方尤其如此。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "主语",
+        "english": "Labour",
+        "chinese": "工党",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "状语",
+        "english": "likewise",
+        "chinese": "同样",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "修饰 wants"
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "谓语",
+        "english": "wants",
+        "chinese": "想要",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "宾语",
+        "english": "to discontinue local planning",
+        "chinese": "停止地方规划",
+        "parent_id": null,
+        "target_id": "c_012_003",
+        "relation": "作 wants 的宾语内容"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "定语从句",
+        "english": "where councils oppose development",
+        "chinese": "地方议会反对开发的地方",
+        "parent_id": "c_012_004",
+        "target_id": "c_012_004",
+        "relation": "修饰 local planning 的适用场景"
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "从句主语",
+        "english": "councils",
+        "chinese": "地方议会",
+        "parent_id": "c_012_005",
+        "target_id": null,
+        "relation": "where 从句内部主语"
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "从句谓语",
+        "english": "oppose",
+        "chinese": "反对",
+        "parent_id": "c_012_005",
+        "target_id": null,
+        "relation": "where 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "从句宾语",
+        "english": "development",
+        "chinese": "开发",
+        "parent_id": "c_012_005",
+        "target_id": "c_012_007",
+        "relation": "作 oppose 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "discontinue",
+        "pos": "v.",
+        "meaning": "停止，中止",
+        "chunk_id": "c_012_004"
+      },
+      {
+        "word": "oppose",
+        "pos": "v.",
+        "meaning": "反对",
+        "chunk_id": "c_012_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The Liberal Democrats are silent.",
+    "difficulty": 1,
+    "translation_literal": "自由民主党保持沉默。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "主语",
+        "english": "The Liberal Democrats",
+        "chinese": "自由民主党",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "谓语",
+        "english": "are",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "表语",
+        "english": "silent",
+        "chinese": "沉默的",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "作 are 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "silent",
+        "pos": "adj.",
+        "meaning": "沉默的",
+        "chunk_id": "c_013_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Only Ukip, sensing its chance, has sided with those pleading for a more considered approach to using green land.",
+    "difficulty": 4,
+    "translation_literal": "只有英国独立党察觉到自己的机会，站到了那些呼吁以更审慎方式使用绿地的人一边。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "主语",
+        "english": "Only Ukip",
+        "chinese": "只有英国独立党",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "插入语",
+        "english": "sensing its chance",
+        "chinese": "察觉到自己的机会",
+        "parent_id": "c_014_001",
+        "target_id": "c_014_001",
+        "relation": "现在分词插入语，说明 Ukip 的动机"
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "谓语",
+        "english": "has sided with",
+        "chinese": "已经站在……一边",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "宾语",
+        "english": "those pleading for a more considered approach to using green land",
+        "chinese": "那些呼吁以更审慎方式使用绿地的人",
+        "parent_id": null,
+        "target_id": "c_014_003",
+        "relation": "作 sided with 的宾语"
+      },
+      {
+        "chunk_id": "c_014_005",
+        "role": "定语",
+        "english": "pleading for a more considered approach to using green land",
+        "chinese": "呼吁以更审慎方式使用绿地的",
+        "parent_id": "c_014_004",
+        "target_id": "c_014_004",
+        "relation": "修饰 those"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语 + 分词短语 + 谓语",
+        "explanation": "sensing its chance 插在主语和谓语之间，真正主干是 Only Ukip has sided with those...。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "sensing",
+        "pos": "v.",
+        "meaning": "察觉到",
+        "chunk_id": "c_014_002"
+      },
+      {
+        "word": "considered",
+        "pos": "adj.",
+        "meaning": "审慎的，经过考虑的",
+        "chunk_id": "c_014_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "side with",
+        "phrase_type": "v. phr.",
+        "meaning": "站在……一边，支持",
+        "chunk_id": "c_014_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Its Campaign to Protect Rural England struck terror into many local Conservative parties.",
+    "difficulty": 2,
+    "translation_literal": "其“保护英格兰乡村运动”让许多地方保守党组织感到恐惧。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "Its Campaign to Protect Rural England",
+        "chinese": "其保护英格兰乡村运动",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "谓语",
+        "english": "struck",
+        "chinese": "使产生",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "宾语",
+        "english": "terror",
+        "chinese": "恐惧",
+        "parent_id": null,
+        "target_id": "c_015_002",
+        "relation": "作 struck 的宾语"
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "状语",
+        "english": "into many local Conservative parties",
+        "chinese": "进入许多地方保守党组织心中",
+        "parent_id": null,
+        "target_id": "c_015_002",
+        "relation": "说明恐惧影响的对象"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "Campaign",
+        "pos": "n.",
+        "meaning": "运动，活动",
+        "chunk_id": "c_015_001"
+      },
+      {
+        "word": "terror",
+        "pos": "n.",
+        "meaning": "恐惧",
+        "chunk_id": "c_015_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "strike terror into",
+        "phrase_type": "v. phr.",
+        "meaning": "使……感到恐惧",
+        "chunk_id": "c_015_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The sensible place to build new houses, factories and offices is where people are, in cities and towns where infrastructure is in place.",
+    "difficulty": 4,
+    "translation_literal": "建造新房屋、工厂和办公室的合理地点，是人们所在的地方，即基础设施已经到位的城市和城镇。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "主语",
+        "english": "The sensible place to build new houses, factories and offices",
+        "chinese": "建造新房屋、工厂和办公室的合理地点",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "定语",
+        "english": "to build new houses, factories and offices",
+        "chinese": "建造新房屋、工厂和办公室的",
+        "parent_id": "c_016_001",
+        "target_id": "c_016_001",
+        "relation": "修饰 place"
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "表语从句",
+        "english": "where people are",
+        "chinese": "人们所在的地方",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "从句主语",
+        "english": "people",
+        "chinese": "人们",
+        "parent_id": "c_016_004",
+        "target_id": null,
+        "relation": "where 表语从句内部主语"
+      },
+      {
+        "chunk_id": "c_016_006",
+        "role": "从句谓语",
+        "english": "are",
+        "chinese": "在，存在",
+        "parent_id": "c_016_004",
+        "target_id": null,
+        "relation": "where 表语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_016_007",
+        "role": "同位语",
+        "english": "in cities and towns where infrastructure is in place",
+        "chinese": "即在基础设施到位的城市和城镇中",
+        "parent_id": "c_016_004",
+        "target_id": "c_016_004",
+        "relation": "解释 where people are 的具体地点"
+      },
+      {
+        "chunk_id": "c_016_008",
+        "role": "定语从句",
+        "english": "where infrastructure is in place",
+        "chinese": "基础设施已经到位的地方",
+        "parent_id": "c_016_007",
+        "target_id": "c_016_007",
+        "relation": "修饰 cities and towns"
+      },
+      {
+        "chunk_id": "c_016_009",
+        "role": "从句主语",
+        "english": "infrastructure",
+        "chinese": "基础设施",
+        "parent_id": "c_016_008",
+        "target_id": null,
+        "relation": "where 定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_016_010",
+        "role": "从句谓语",
+        "english": "is in place",
+        "chinese": "已经到位",
+        "parent_id": "c_016_008",
+        "target_id": null,
+        "relation": "where 定语从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "where 从句 + in cities and towns...",
+        "explanation": "in cities and towns... 是对 where people are 的具体解释。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "sensible",
+        "pos": "adj.",
+        "meaning": "合理的",
+        "chunk_id": "c_016_001"
+      },
+      {
+        "word": "infrastructure",
+        "pos": "n.",
+        "meaning": "基础设施",
+        "chunk_id": "c_016_009"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "in place",
+        "phrase_type": "adv. phr.",
+        "meaning": "到位，准备就绪",
+        "chunk_id": "c_016_010"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The London agents Stirling Ackroyd recently identified enough sites for half a million houses in the London area alone, with no intrusion on green belt.",
+    "difficulty": 3,
+    "translation_literal": "伦敦地产代理公司Stirling Ackroyd最近仅在伦敦地区就确定了足够建造五十万套住房的地点，而且不会侵入绿化带。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "The London agents Stirling Ackroyd",
+        "chinese": "伦敦地产代理公司Stirling Ackroyd",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "状语",
+        "english": "recently",
+        "chinese": "最近",
+        "parent_id": null,
+        "target_id": "c_017_003",
+        "relation": "说明时间"
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "谓语",
+        "english": "identified",
+        "chinese": "确定，发现",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "宾语",
+        "english": "enough sites for half a million houses in the London area alone",
+        "chinese": "仅在伦敦地区足够建造五十万套住房的地点",
+        "parent_id": null,
+        "target_id": "c_017_003",
+        "relation": "作 identified 的宾语"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "状语",
+        "english": "with no intrusion on green belt",
+        "chinese": "没有侵入绿化带",
+        "parent_id": null,
+        "target_id": "c_017_003",
+        "relation": "说明开发这些地点不会造成的影响"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "定语",
+        "english": "for half a million houses",
+        "chinese": "足够建造五十万套住房的",
+        "parent_id": "c_017_004",
+        "target_id": "c_017_004",
+        "relation": "修饰 enough sites，说明地点容量"
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "状语",
+        "english": "in the London area alone",
+        "chinese": "仅在伦敦地区",
+        "parent_id": "c_017_004",
+        "target_id": "c_017_003",
+        "relation": "说明 identified 的地点范围"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "identified",
+        "pos": "v.",
+        "meaning": "确定，识别",
+        "chunk_id": "c_017_003"
+      },
+      {
+        "word": "intrusion",
+        "pos": "n.",
+        "meaning": "侵入，侵犯",
+        "chunk_id": "c_017_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "What is true of London is even truer of the provinces.",
+    "difficulty": 3,
+    "translation_literal": "对伦敦真实的情况，对各省来说甚至更加真实。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "主语从句",
+        "english": "What is true of London",
+        "chinese": "对伦敦真实的情况",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "从句主语",
+        "english": "What",
+        "chinese": "所……的事",
+        "parent_id": "c_018_001",
+        "target_id": null,
+        "relation": "主语从句内部主语"
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_018_001",
+        "target_id": null,
+        "relation": "主语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "从句表语",
+        "english": "true of London",
+        "chinese": "对伦敦真实的",
+        "parent_id": "c_018_001",
+        "target_id": "c_018_003",
+        "relation": "主语从句内部表语"
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_006",
+        "role": "表语",
+        "english": "even truer of the provinces",
+        "chinese": "对各省甚至更加真实",
+        "parent_id": null,
+        "target_id": "c_018_005",
+        "relation": "作主句 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "provinces",
+        "pos": "n.",
+        "meaning": "地方省份，外省",
+        "chunk_id": "c_018_006"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_019",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The idea that “housing crisis” equals “concreted meadows” is pure lobby talk.",
+    "difficulty": 3,
+    "translation_literal": "“住房危机”等于“被混凝土覆盖的草地”这一想法纯粹是游说话术。",
+    "chunks": [
+      {
+        "chunk_id": "c_019_001",
+        "role": "主语",
+        "english": "The idea",
+        "chinese": "这一想法",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_002",
+        "role": "同位语从句",
+        "english": "that housing crisis equals concreted meadows",
+        "chinese": "即住房危机等于被混凝土覆盖的草地",
+        "parent_id": null,
+        "target_id": "c_019_001",
+        "relation": "解释 The idea 的具体内容"
+      },
+      {
+        "chunk_id": "c_019_003",
+        "role": "从句主语",
+        "english": "housing crisis",
+        "chinese": "住房危机",
+        "parent_id": "c_019_002",
+        "target_id": null,
+        "relation": "同位语从句内部主语"
+      },
+      {
+        "chunk_id": "c_019_004",
+        "role": "从句谓语",
+        "english": "equals",
+        "chinese": "等于",
+        "parent_id": "c_019_002",
+        "target_id": null,
+        "relation": "同位语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_019_005",
+        "role": "从句宾语",
+        "english": "concreted meadows",
+        "chinese": "被混凝土覆盖的草地",
+        "parent_id": "c_019_002",
+        "target_id": "c_019_004",
+        "relation": "作 equals 的宾语"
+      },
+      {
+        "chunk_id": "c_019_006",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_019_007",
+        "role": "表语",
+        "english": "pure lobby talk",
+        "chinese": "纯粹的游说话术",
+        "parent_id": null,
+        "target_id": "c_019_006",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "idea + that 从句",
+        "explanation": "that 从句解释 idea 的具体内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "equals",
+        "pos": "v.",
+        "meaning": "等于",
+        "chunk_id": "c_019_004"
+      },
+      {
+        "word": "concreted",
+        "pos": "adj.",
+        "meaning": "被混凝土覆盖的",
+        "chunk_id": "c_019_005"
+      },
+      {
+        "word": "lobby",
+        "pos": "n.",
+        "meaning": "游说团体，游说",
+        "chunk_id": "c_019_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_020",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "The issue is not the need for more houses but, as always, where to put them.",
+    "difficulty": 4,
+    "translation_literal": "问题不是需要更多房屋，而是一如既往，应该把它们建在哪里。",
+    "chunks": [
+      {
+        "chunk_id": "c_020_001",
+        "role": "主语",
+        "english": "The issue",
+        "chinese": "问题",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_020_003",
+        "role": "并列成分",
+        "english": "not the need for more houses",
+        "chinese": "不是需要更多房屋",
+        "parent_id": null,
+        "target_id": "c_020_002",
+        "relation": "not...but...中的否定项"
+      },
+      {
+        "chunk_id": "c_020_004",
+        "role": "插入语",
+        "english": "as always",
+        "chinese": "一如既往",
+        "parent_id": "c_020_004",
+        "target_id": "c_020_004",
+        "relation": "插入说明这一问题一直如此"
+      },
+      {
+        "chunk_id": "c_020_005",
+        "role": "并列成分",
+        "english": "where to put them",
+        "chinese": "把它们放在哪里",
+        "parent_id": null,
+        "target_id": "c_020_002",
+        "relation": "not...but...中的重点项"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "not A but, as always, B",
+        "explanation": "as always 插入在 but 后，真正对比是 not the need... but where to put them。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "issue",
+        "pos": "n.",
+        "meaning": "问题",
+        "chunk_id": "c_020_001"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_021",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Under lobby pressure, George Osborne favours rural new-build against urban renovation and renewal.",
+    "difficulty": 3,
+    "translation_literal": "在游说压力下，乔治·奥斯本偏爱乡村新建，而不是城市翻修和更新。",
+    "chunks": [
+      {
+        "chunk_id": "c_021_001",
+        "role": "状语",
+        "english": "Under lobby pressure",
+        "chinese": "在游说压力下",
+        "parent_id": null,
+        "target_id": "c_021_003",
+        "relation": "说明偏好的外部压力"
+      },
+      {
+        "chunk_id": "c_021_002",
+        "role": "主语",
+        "english": "George Osborne",
+        "chinese": "乔治·奥斯本",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_003",
+        "role": "谓语",
+        "english": "favours",
+        "chinese": "偏爱",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_021_004",
+        "role": "宾语",
+        "english": "rural new-build",
+        "chinese": "乡村新建",
+        "parent_id": null,
+        "target_id": "c_021_003",
+        "relation": "作 favours 的宾语"
+      },
+      {
+        "chunk_id": "c_021_005",
+        "role": "状语",
+        "english": "against urban renovation and renewal",
+        "chinese": "相对于城市翻修和更新",
+        "parent_id": null,
+        "target_id": "c_021_003",
+        "relation": "说明偏好的对立面"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "favours",
+        "pos": "v.",
+        "meaning": "偏爱，支持",
+        "chunk_id": "c_021_003"
+      },
+      {
+        "word": "renovation",
+        "pos": "n.",
+        "meaning": "翻修",
+        "chunk_id": "c_021_005"
+      },
+      {
+        "word": "renewal",
+        "pos": "n.",
+        "meaning": "更新",
+        "chunk_id": "c_021_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_022",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "He favours out-of-town shopping sites against high streets.",
+    "difficulty": 2,
+    "translation_literal": "他偏爱城外购物场所，而不是商业街。",
+    "chunks": [
+      {
+        "chunk_id": "c_022_001",
+        "role": "主语",
+        "english": "He",
+        "chinese": "他",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_002",
+        "role": "谓语",
+        "english": "favours",
+        "chinese": "偏爱",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_022_003",
+        "role": "宾语",
+        "english": "out-of-town shopping sites",
+        "chinese": "城外购物场所",
+        "parent_id": null,
+        "target_id": "c_022_002",
+        "relation": "作 favours 的宾语"
+      },
+      {
+        "chunk_id": "c_022_004",
+        "role": "状语",
+        "english": "against high streets",
+        "chinese": "相对于商业街",
+        "parent_id": null,
+        "target_id": "c_022_002",
+        "relation": "说明被排斥的对象"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "sites",
+        "pos": "n.",
+        "meaning": "场所，地点",
+        "chunk_id": "c_022_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_023",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "This is not a free market but a biased one.",
+    "difficulty": 2,
+    "translation_literal": "这不是一个自由市场，而是一个有偏向的市场。",
+    "chunks": [
+      {
+        "chunk_id": "c_023_001",
+        "role": "主语",
+        "english": "This",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_023_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_023_003",
+        "role": "并列成分",
+        "english": "not a free market",
+        "chinese": "不是一个自由市场",
+        "parent_id": null,
+        "target_id": "c_023_002",
+        "relation": "not...but...中的否定项"
+      },
+      {
+        "chunk_id": "c_023_004",
+        "role": "并列成分",
+        "english": "but a biased one",
+        "chinese": "而是一个有偏向的市场",
+        "parent_id": null,
+        "target_id": "c_023_002",
+        "relation": "not...but...中的重点项"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "biased",
+        "pos": "adj.",
+        "meaning": "有偏向的",
+        "chunk_id": "c_023_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_024",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Rural towns and villages have grown and will always grow.",
+    "difficulty": 2,
+    "translation_literal": "乡村城镇和村庄已经发展，并且将永远发展。",
+    "chunks": [
+      {
+        "chunk_id": "c_024_001",
+        "role": "主语",
+        "english": "Rural towns and villages",
+        "chinese": "乡村城镇和村庄",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_024_002",
+        "role": "并列谓语",
+        "english": "have grown",
+        "chinese": "已经发展",
+        "parent_id": null,
+        "target_id": "c_024_001",
+        "relation": "第一个并列谓语"
+      },
+      {
+        "chunk_id": "c_024_003",
+        "role": "并列谓语",
+        "english": "will always grow",
+        "chinese": "将永远发展",
+        "parent_id": null,
+        "target_id": "c_024_001",
+        "relation": "第二个并列谓语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "rural",
+        "pos": "adj.",
+        "meaning": "乡村的",
+        "chunk_id": "c_024_001"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_025",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "They do so best where building sticks to their edges and respects their character.",
+    "difficulty": 4,
+    "translation_literal": "在建设贴着它们的边缘并尊重其特色的地方，它们发展得最好。",
+    "chunks": [
+      {
+        "chunk_id": "c_025_001",
+        "role": "主语",
+        "english": "They",
+        "chinese": "它们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_025_002",
+        "role": "谓语",
+        "english": "do so",
+        "chinese": "这样发展",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_025_003",
+        "role": "状语",
+        "english": "best",
+        "chinese": "最好地",
+        "parent_id": null,
+        "target_id": "c_025_002",
+        "relation": "修饰 do so"
+      },
+      {
+        "chunk_id": "c_025_004",
+        "role": "状语从句",
+        "english": "where building sticks to their edges and respects their character",
+        "chinese": "在建设贴着其边缘并尊重其特色的地方",
+        "parent_id": null,
+        "target_id": "c_025_002",
+        "relation": "说明发展最佳的条件/地点"
+      },
+      {
+        "chunk_id": "c_025_005",
+        "role": "从句主语",
+        "english": "building",
+        "chinese": "建设",
+        "parent_id": "c_025_004",
+        "target_id": null,
+        "relation": "where 状语从句内部主语"
+      },
+      {
+        "chunk_id": "c_025_006",
+        "role": "并列谓语",
+        "english": "sticks to",
+        "chinese": "贴着",
+        "parent_id": "c_025_004",
+        "target_id": "c_025_005",
+        "relation": "第一个并列谓语"
+      },
+      {
+        "chunk_id": "c_025_007",
+        "role": "从句宾语",
+        "english": "their edges",
+        "chinese": "它们的边缘",
+        "parent_id": "c_025_004",
+        "target_id": "c_025_006",
+        "relation": "作 sticks to 的宾语"
+      },
+      {
+        "chunk_id": "c_025_008",
+        "role": "并列谓语",
+        "english": "respects",
+        "chinese": "尊重",
+        "parent_id": "c_025_004",
+        "target_id": "c_025_005",
+        "relation": "第二个并列谓语"
+      },
+      {
+        "chunk_id": "c_025_009",
+        "role": "从句宾语",
+        "english": "their character",
+        "chinese": "它们的特色",
+        "parent_id": "c_025_004",
+        "target_id": "c_025_008",
+        "relation": "作 respects 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "sticks",
+        "pos": "v.",
+        "meaning": "紧贴，坚持",
+        "chunk_id": "c_025_006"
+      },
+      {
+        "word": "respects",
+        "pos": "v.",
+        "meaning": "尊重",
+        "chunk_id": "c_025_008"
+      },
+      {
+        "word": "character",
+        "pos": "n.",
+        "meaning": "特色，特征",
+        "chunk_id": "c_025_009"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_026",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "We do not ruin urban conservation areas.",
+    "difficulty": 1,
+    "translation_literal": "我们不会毁掉城市保护区。",
+    "chunks": [
+      {
+        "chunk_id": "c_026_001",
+        "role": "主语",
+        "english": "We",
+        "chinese": "我们",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_026_002",
+        "role": "谓语",
+        "english": "do not ruin",
+        "chinese": "不会毁掉",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_026_003",
+        "role": "宾语",
+        "english": "urban conservation areas",
+        "chinese": "城市保护区",
+        "parent_id": null,
+        "target_id": "c_026_002",
+        "relation": "作 ruin 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "ruin",
+        "pos": "v.",
+        "meaning": "毁坏",
+        "chunk_id": "c_026_002"
+      },
+      {
+        "word": "urban",
+        "pos": "adj.",
+        "meaning": "城市的",
+        "chunk_id": "c_026_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_027",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Why ruin rural ones?",
+    "difficulty": 1,
+    "translation_literal": "为什么要毁掉乡村保护区呢？",
+    "chunks": [
+      {
+        "chunk_id": "c_027_001",
+        "role": "状语",
+        "english": "Why",
+        "chinese": "为什么",
+        "parent_id": null,
+        "target_id": "c_027_002",
+        "relation": "说明疑问原因"
+      },
+      {
+        "chunk_id": "c_027_002",
+        "role": "谓语",
+        "english": "ruin",
+        "chinese": "毁掉",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_027_003",
+        "role": "宾语",
+        "english": "rural ones",
+        "chinese": "乡村的那些保护区",
+        "parent_id": null,
+        "target_id": "c_027_002",
+        "relation": "作 ruin 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "rural",
+        "pos": "adj.",
+        "meaning": "乡村的",
+        "chunk_id": "c_027_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_028",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Development should be planned, not let rip.",
+    "difficulty": 2,
+    "translation_literal": "开发应该被规划，而不是任其失控。",
+    "chunks": [
+      {
+        "chunk_id": "c_028_001",
+        "role": "主语",
+        "english": "Development",
+        "chinese": "开发",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_028_002",
+        "role": "并列谓语",
+        "english": "should be planned",
+        "chinese": "应该被规划",
+        "parent_id": null,
+        "target_id": "c_028_001",
+        "relation": "第一个并列谓语"
+      },
+      {
+        "chunk_id": "c_028_003",
+        "role": "并列谓语",
+        "english": "not let rip",
+        "chinese": "而不是任其失控",
+        "parent_id": null,
+        "target_id": "c_028_001",
+        "relation": "省略 should be 的对照谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "should be planned, not let rip",
+        "explanation": "not let rip 前省略 should be，形成 planned 与 let rip 的对照。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "planned",
+        "pos": "v.",
+        "meaning": "规划",
+        "chunk_id": "c_028_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "let rip",
+        "phrase_type": "v. phr.",
+        "meaning": "任其失控，放任发展",
+        "chunk_id": "c_028_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_029",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "After the Netherlands, Britain is Europe’s most crowded country.",
+    "difficulty": 2,
+    "translation_literal": "仅次于荷兰，英国是欧洲最拥挤的国家。",
+    "chunks": [
+      {
+        "chunk_id": "c_029_001",
+        "role": "状语",
+        "english": "After the Netherlands",
+        "chinese": "仅次于荷兰",
+        "parent_id": null,
+        "target_id": "c_029_003",
+        "relation": "说明比较位置"
+      },
+      {
+        "chunk_id": "c_029_002",
+        "role": "主语",
+        "english": "Britain",
+        "chinese": "英国",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_029_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_029_004",
+        "role": "表语",
+        "english": "Europe’s most crowded country",
+        "chinese": "欧洲最拥挤的国家",
+        "parent_id": null,
+        "target_id": "c_029_003",
+        "relation": "作 is 的表语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "crowded",
+        "pos": "adj.",
+        "meaning": "拥挤的",
+        "chunk_id": "c_029_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_030",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Half a century of town and country planning has enabled it to retain an enviable rural coherence, while still permitting low-density urban living.",
+    "difficulty": 4,
+    "translation_literal": "半个世纪的城乡规划使它能够保持令人羡慕的乡村协调性，同时仍允许低密度的城市生活。",
+    "chunks": [
+      {
+        "chunk_id": "c_030_001",
+        "role": "主语",
+        "english": "Half a century of town and country planning",
+        "chinese": "半个世纪的城乡规划",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_030_002",
+        "role": "谓语",
+        "english": "has enabled",
+        "chinese": "已经使得",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_030_003",
+        "role": "宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": "c_030_002",
+        "relation": "作 enabled 的宾语，指 Britain"
+      },
+      {
+        "chunk_id": "c_030_004",
+        "role": "宾语补足语",
+        "english": "to retain an enviable rural coherence",
+        "chinese": "保持令人羡慕的乡村协调性",
+        "parent_id": null,
+        "target_id": "c_030_003",
+        "relation": "补充说明 it 能做的事"
+      },
+      {
+        "chunk_id": "c_030_005",
+        "role": "状语",
+        "english": "while still permitting low-density urban living",
+        "chinese": "同时仍允许低密度城市生活",
+        "parent_id": null,
+        "target_id": "c_030_002",
+        "relation": "说明并行结果"
+      },
+      {
+        "chunk_id": "c_030_006",
+        "role": "从句谓语",
+        "english": "permitting",
+        "chinese": "允许",
+        "parent_id": "c_030_005",
+        "target_id": null,
+        "relation": "while 省略结构中的动作"
+      },
+      {
+        "chunk_id": "c_030_007",
+        "role": "从句宾语",
+        "english": "low-density urban living",
+        "chinese": "低密度城市生活",
+        "parent_id": "c_030_005",
+        "target_id": "c_030_006",
+        "relation": "作 permitting 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "while still doing",
+        "explanation": "while still permitting 省略了主语和 be，可理解为 while it is still permitting。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "enabled",
+        "pos": "v.",
+        "meaning": "使能够",
+        "chunk_id": "c_030_002"
+      },
+      {
+        "word": "retain",
+        "pos": "v.",
+        "meaning": "保持",
+        "chunk_id": "c_030_004"
+      },
+      {
+        "word": "coherence",
+        "pos": "n.",
+        "meaning": "协调性，连贯性",
+        "chunk_id": "c_030_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_031",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "There is no doubt of the alternative — the corrupted landscapes of southern Portugal, Spain or Ireland.",
+    "difficulty": 3,
+    "translation_literal": "另一种选择毫无疑问就是葡萄牙南部、西班牙或爱尔兰被破坏的景观。",
+    "chunks": [
+      {
+        "chunk_id": "c_031_001",
+        "role": "存在句",
+        "english": "There is no doubt of the alternative",
+        "chinese": "另一种选择毫无疑问",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_031_002",
+        "role": "从句谓语",
+        "english": "is",
+        "chinese": "有，存在",
+        "parent_id": "c_031_001",
+        "target_id": null,
+        "relation": "存在句谓语"
+      },
+      {
+        "chunk_id": "c_031_003",
+        "role": "从句主语",
+        "english": "no doubt of the alternative",
+        "chinese": "对另一种选择没有疑问",
+        "parent_id": "c_031_001",
+        "target_id": null,
+        "relation": "存在句真实主语"
+      },
+      {
+        "chunk_id": "c_031_004",
+        "role": "同位语解释结构",
+        "english": "the corrupted landscapes of southern Portugal, Spain or Ireland",
+        "chinese": "葡萄牙南部、西班牙或爱尔兰被破坏的景观",
+        "parent_id": "c_031_001",
+        "target_id": "c_031_003",
+        "relation": "破折号后解释 alternative 的具体内容"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "抽象名词 + 破折号解释",
+        "explanation": "破折号后的 landscapes 解释 alternative 指的是什么。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "alternative",
+        "pos": "n.",
+        "meaning": "另一种选择",
+        "chunk_id": "c_031_003"
+      },
+      {
+        "word": "corrupted",
+        "pos": "adj.",
+        "meaning": "被破坏的，败坏的",
+        "chunk_id": "c_031_004"
+      },
+      {
+        "word": "landscapes",
+        "pos": "n.",
+        "meaning": "景观",
+        "chunk_id": "c_031_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_032",
+    "year": 2016,
+    "exam_type": "英语一",
+    "text_id": "Text 2",
+    "original": "Avoiding this rather than promoting it should unite the left and right of the political spectrum.",
+    "difficulty": 3,
+    "translation_literal": "避免这种情况而不是促进它，应该使政治光谱的左翼和右翼联合起来。",
+    "chunks": [
+      {
+        "chunk_id": "c_032_001",
+        "role": "主语",
+        "english": "Avoiding this rather than promoting it",
+        "chinese": "避免这种情况而不是促进它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_032_002",
+        "role": "并列成分",
+        "english": "Avoiding this",
+        "chinese": "避免这种情况",
+        "parent_id": "c_032_001",
+        "target_id": "c_032_001",
+        "relation": "主语中的核心动作"
+      },
+      {
+        "chunk_id": "c_032_003",
+        "role": "并列成分",
+        "english": "rather than promoting it",
+        "chinese": "而不是促进它",
+        "parent_id": "c_032_001",
+        "target_id": "c_032_001",
+        "relation": "与 Avoiding this 形成取舍对比"
+      },
+      {
+        "chunk_id": "c_032_004",
+        "role": "谓语",
+        "english": "should unite",
+        "chinese": "应该联合",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_032_005",
+        "role": "宾语",
+        "english": "the left and right of the political spectrum",
+        "chinese": "政治光谱的左翼和右翼",
+        "parent_id": null,
+        "target_id": "c_032_004",
+        "relation": "作 unite 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "avoiding",
+        "pos": "v.",
+        "meaning": "避免",
+        "chunk_id": "c_032_002"
+      },
+      {
+        "word": "promoting",
+        "pos": "v.",
+        "meaning": "促进",
+        "chunk_id": "c_032_003"
+      },
+      {
+        "word": "spectrum",
+        "pos": "n.",
+        "meaning": "光谱，范围",
+        "chunk_id": "c_032_005"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "rather than",
+        "phrase_type": "conj. phr.",
+        "meaning": "而不是",
+        "chunk_id": "c_032_003"
+      }
+    ]
+  }
+]

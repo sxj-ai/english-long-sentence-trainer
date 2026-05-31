@@ -1,0 +1,2002 @@
+[
+  {
+    "sentence_id": "s_001",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The U.S. Postal Service (USPS) continues to bleed red ink.",
+    "difficulty": 3,
+    "translation_literal": "美国邮政署继续出现赤字。",
+    "chunks": [
+      {
+        "chunk_id": "c_001_001",
+        "role": "主语",
+        "english": "The U.S. Postal Service (USPS)",
+        "chinese": "美国邮政署",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_002",
+        "role": "谓语",
+        "english": "continues to bleed",
+        "chinese": "继续流出",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_001_003",
+        "role": "宾语",
+        "english": "red ink",
+        "chinese": "红墨水/赤字",
+        "parent_id": null,
+        "target_id": "c_001_002",
+        "relation": "作 bleed 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "continues",
+        "pos": "v.",
+        "meaning": "继续",
+        "chunk_id": "c_001_002"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "bleed red ink",
+        "phrase_type": "idiom",
+        "meaning": "持续亏损，出现赤字",
+        "chunk_id": "c_001_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_002",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "It reported a net loss of $5.6 billion for fiscal 2016, the 10th straight year its expenses have exceeded revenue.",
+    "difficulty": 5,
+    "translation_literal": "它报告 2016 财年净亏损 56 亿美元，这是其支出超过收入的连续第十年。",
+    "chunks": [
+      {
+        "chunk_id": "c_002_001",
+        "role": "主语",
+        "english": "It",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_002",
+        "role": "谓语",
+        "english": "reported",
+        "chinese": "报告",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_002_003",
+        "role": "宾语",
+        "english": "a net loss of $5.6 billion for fiscal 2016",
+        "chinese": "2016 财年 56 亿美元净亏损",
+        "parent_id": null,
+        "target_id": "c_002_002",
+        "relation": "作 reported 的宾语"
+      },
+      {
+        "chunk_id": "c_002_004",
+        "role": "同位语",
+        "english": "the 10th straight year its expenses have exceeded revenue",
+        "chinese": "其支出超过收入的连续第十年",
+        "parent_id": null,
+        "target_id": "c_002_003",
+        "relation": "解释 fiscal 2016 的财务意义"
+      },
+      {
+        "chunk_id": "c_002_005",
+        "role": "定语从句",
+        "english": "its expenses have exceeded revenue",
+        "chinese": "其支出超过收入",
+        "parent_id": "c_002_004",
+        "target_id": "c_002_004",
+        "relation": "省略 when 的定语从句，修饰 year"
+      },
+      {
+        "chunk_id": "c_002_006",
+        "role": "从句主语",
+        "english": "its expenses",
+        "chinese": "其支出",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_002_007",
+        "role": "从句谓语",
+        "english": "have exceeded",
+        "chinese": "已经超过",
+        "parent_id": "c_002_005",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_002_008",
+        "role": "从句宾语",
+        "english": "revenue",
+        "chinese": "收入",
+        "parent_id": "c_002_005",
+        "target_id": "c_002_007",
+        "relation": "作 exceeded 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "金额亏损 + 同位语说明年份",
+        "explanation": "the 10th straight year... 补充说明亏损的连续性。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "fiscal",
+        "pos": "adj.",
+        "meaning": "财政的",
+        "chunk_id": "c_002_003"
+      },
+      {
+        "word": "expenses",
+        "pos": "n.",
+        "meaning": "支出",
+        "chunk_id": "c_002_006"
+      },
+      {
+        "word": "revenue",
+        "pos": "n.",
+        "meaning": "收入",
+        "chunk_id": "c_002_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "net loss",
+        "phrase_type": "n. phr.",
+        "meaning": "净亏损",
+        "chunk_id": "c_002_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_003",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Meanwhile, it has more than $120 billion in unfunded liabilities, mostly for employee health and retirement costs.",
+    "difficulty": 4,
+    "translation_literal": "与此同时，它有超过 1200 亿美元的无资金准备债务，主要是员工医疗和退休成本。",
+    "chunks": [
+      {
+        "chunk_id": "c_003_001",
+        "role": "连接成分",
+        "english": "Meanwhile",
+        "chinese": "与此同时",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_002",
+        "role": "主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_003",
+        "role": "谓语",
+        "english": "has",
+        "chinese": "有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_003_004",
+        "role": "宾语",
+        "english": "more than $120 billion in unfunded liabilities",
+        "chinese": "超过 1200 亿美元的无资金准备债务",
+        "parent_id": null,
+        "target_id": "c_003_003",
+        "relation": "作 has 的宾语"
+      },
+      {
+        "chunk_id": "c_003_005",
+        "role": "插入语",
+        "english": "mostly for employee health and retirement costs",
+        "chinese": "主要用于员工医疗和退休成本",
+        "parent_id": null,
+        "target_id": "c_003_004",
+        "relation": "补充说明 liabilities 的来源"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "unfunded",
+        "pos": "adj.",
+        "meaning": "无资金准备的",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "liabilities",
+        "pos": "n.",
+        "meaning": "债务，负债",
+        "chunk_id": "c_003_004"
+      },
+      {
+        "word": "retirement",
+        "pos": "n.",
+        "meaning": "退休",
+        "chunk_id": "c_003_005"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_004",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "There are many reasons this formerly stable federal institution finds itself on the verge of bankruptcy.",
+    "difficulty": 5,
+    "translation_literal": "这个曾经稳定的联邦机构发现自己处于破产边缘，有许多原因。",
+    "chunks": [
+      {
+        "chunk_id": "c_004_001",
+        "role": "存在句",
+        "english": "There are many reasons",
+        "chinese": "有许多原因",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_004_002",
+        "role": "定语从句",
+        "english": "this formerly stable federal institution finds itself on the verge of bankruptcy",
+        "chinese": "这个曾经稳定的联邦机构发现自己处于破产边缘",
+        "parent_id": "c_004_001",
+        "target_id": "c_004_001",
+        "relation": "省略 why 的定语从句，修饰 reasons"
+      },
+      {
+        "chunk_id": "c_004_003",
+        "role": "从句主语",
+        "english": "this formerly stable federal institution",
+        "chinese": "这个曾经稳定的联邦机构",
+        "parent_id": "c_004_002",
+        "target_id": null,
+        "relation": "定语从句内部主语"
+      },
+      {
+        "chunk_id": "c_004_004",
+        "role": "从句谓语",
+        "english": "finds",
+        "chinese": "发现",
+        "parent_id": "c_004_002",
+        "target_id": null,
+        "relation": "定语从句内部谓语"
+      },
+      {
+        "chunk_id": "c_004_005",
+        "role": "从句宾语",
+        "english": "itself",
+        "chinese": "自己",
+        "parent_id": "c_004_002",
+        "target_id": "c_004_004",
+        "relation": "作 finds 的宾语"
+      },
+      {
+        "chunk_id": "c_004_006",
+        "role": "宾语补足语",
+        "english": "on the verge of bankruptcy",
+        "chinese": "处于破产边缘",
+        "parent_id": "c_004_002",
+        "target_id": "c_004_005",
+        "relation": "补充说明 itself 的状态"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "reasons + 主语 + 谓语",
+        "explanation": "reasons 后省略 why，后面从句解释原因涉及的结果。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "formerly",
+        "pos": "adv.",
+        "meaning": "曾经",
+        "chunk_id": "c_004_003"
+      },
+      {
+        "word": "verge",
+        "pos": "n.",
+        "meaning": "边缘",
+        "chunk_id": "c_004_006"
+      },
+      {
+        "word": "bankruptcy",
+        "pos": "n.",
+        "meaning": "破产",
+        "chunk_id": "c_004_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "on the verge of",
+        "phrase_type": "prep. phr.",
+        "meaning": "处于……边缘",
+        "chunk_id": "c_004_006"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_005",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Fundamentally, the USPS is in a historic squeeze between technological change that has permanently decreased demand for its bread-and-butter product, first-class mail, and a regulatory structure that denies management the flexibility to adjust its operations to the new reality.",
+    "difficulty": 5,
+    "translation_literal": "根本上，美国邮政署处在一种历史性挤压之中，一边是技术变革永久性地降低了对其主要产品一等邮件的需求，另一边是监管结构拒绝给予管理层调整运营以适应新现实的灵活性。",
+    "chunks": [
+      {
+        "chunk_id": "c_005_001",
+        "role": "状语",
+        "english": "Fundamentally",
+        "chinese": "根本上",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_002",
+        "role": "主语",
+        "english": "the USPS",
+        "chinese": "美国邮政署",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "处于",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_005_004",
+        "role": "表语",
+        "english": "in a historic squeeze between technological change and a regulatory structure",
+        "chinese": "处在技术变革和监管结构之间的历史性挤压中",
+        "parent_id": null,
+        "target_id": "c_005_003",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_005_005",
+        "role": "定语从句",
+        "english": "that has permanently decreased demand for its bread-and-butter product, first-class mail",
+        "chinese": "永久性地降低了对其主要产品一等邮件的需求的",
+        "parent_id": "c_005_004",
+        "target_id": "c_005_004",
+        "relation": "修饰 technological change"
+      },
+      {
+        "chunk_id": "c_005_006",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "技术变革",
+        "parent_id": "c_005_005",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_005_007",
+        "role": "定语从句谓语",
+        "english": "has permanently decreased",
+        "chinese": "已经永久性地降低",
+        "parent_id": "c_005_005",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_005_008",
+        "role": "定语从句宾语",
+        "english": "demand for its bread-and-butter product, first-class mail",
+        "chinese": "对其主要产品一等邮件的需求",
+        "parent_id": "c_005_005",
+        "target_id": "c_005_007",
+        "relation": "作 decreased 的宾语"
+      },
+      {
+        "chunk_id": "c_005_009",
+        "role": "同位语",
+        "english": "first-class mail",
+        "chinese": "一等邮件",
+        "parent_id": "c_005_008",
+        "target_id": "c_005_008",
+        "relation": "解释 bread-and-butter product"
+      },
+      {
+        "chunk_id": "c_005_010",
+        "role": "定语从句",
+        "english": "that denies management the flexibility to adjust its operations to the new reality",
+        "chinese": "拒绝给予管理层调整运营以适应新现实的灵活性的",
+        "parent_id": "c_005_004",
+        "target_id": "c_005_004",
+        "relation": "修饰 regulatory structure"
+      },
+      {
+        "chunk_id": "c_005_011",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "监管结构",
+        "parent_id": "c_005_010",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_005_012",
+        "role": "定语从句谓语",
+        "english": "denies",
+        "chinese": "拒绝给予",
+        "parent_id": "c_005_010",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_005_013",
+        "role": "从句宾语",
+        "english": "management the flexibility to adjust its operations to the new reality",
+        "chinese": "管理层调整运营以适应新现实的灵活性",
+        "parent_id": "c_005_010",
+        "target_id": "c_005_012",
+        "relation": "作 denies 的双宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "between A that... and B that...",
+        "explanation": "between 后两个对象各带一个定语从句，是本句主干难点。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "product, first-class mail",
+        "explanation": "first-class mail 解释 bread-and-butter product。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "squeeze",
+        "pos": "n.",
+        "meaning": "挤压，困境",
+        "chunk_id": "c_005_004"
+      },
+      {
+        "word": "permanently",
+        "pos": "adv.",
+        "meaning": "永久地",
+        "chunk_id": "c_005_007"
+      },
+      {
+        "word": "regulatory",
+        "pos": "adj.",
+        "meaning": "监管的",
+        "chunk_id": "c_005_010"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "bread-and-butter product",
+        "phrase_type": "n. phr.",
+        "meaning": "主要收入产品",
+        "chunk_id": "c_005_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_006",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "And interest groups ranging from postal unions to greeting-card makers exert self-interested pressure on the USPS’s ultimate overseer — Congress — insisting that whatever else happens to the Postal Service, aspects of the status quo they depend on get protected.",
+    "difficulty": 5,
+    "translation_literal": "而从邮政工会到贺卡制造商的利益集团，对美国邮政署的最终监督者——国会——施加自利压力，坚持认为无论邮政服务发生什么，它们所依赖的现状方面都要得到保护。",
+    "chunks": [
+      {
+        "chunk_id": "c_006_001",
+        "role": "连接成分",
+        "english": "And",
+        "chinese": "而且",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_002",
+        "role": "主语",
+        "english": "interest groups ranging from postal unions to greeting-card makers",
+        "chinese": "从邮政工会到贺卡制造商的利益集团",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_003",
+        "role": "定语",
+        "english": "ranging from postal unions to greeting-card makers",
+        "chinese": "范围从邮政工会到贺卡制造商的",
+        "parent_id": "c_006_002",
+        "target_id": "c_006_002",
+        "relation": "修饰 interest groups"
+      },
+      {
+        "chunk_id": "c_006_004",
+        "role": "谓语",
+        "english": "exert",
+        "chinese": "施加",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_006_005",
+        "role": "宾语",
+        "english": "self-interested pressure",
+        "chinese": "自利压力",
+        "parent_id": null,
+        "target_id": "c_006_004",
+        "relation": "作 exert 的宾语"
+      },
+      {
+        "chunk_id": "c_006_006",
+        "role": "状语",
+        "english": "on the USPS’s ultimate overseer — Congress",
+        "chinese": "对美国邮政署的最终监督者——国会",
+        "parent_id": null,
+        "target_id": "c_006_004",
+        "relation": "说明 pressure 施加对象"
+      },
+      {
+        "chunk_id": "c_006_007",
+        "role": "同位语",
+        "english": "Congress",
+        "chinese": "国会",
+        "parent_id": "c_006_006",
+        "target_id": "c_006_006",
+        "relation": "解释 ultimate overseer"
+      },
+      {
+        "chunk_id": "c_006_008",
+        "role": "非谓语结构",
+        "english": "insisting that whatever else happens to the Postal Service, aspects of the status quo they depend on get protected",
+        "chinese": "坚持认为无论邮政服务发生什么，它们所依赖的现状方面都要得到保护",
+        "parent_id": null,
+        "target_id": "c_006_004",
+        "relation": "补充说明 exert pressure 的内容"
+      },
+      {
+        "chunk_id": "c_006_009",
+        "role": "宾语从句",
+        "english": "that whatever else happens to the Postal Service, aspects of the status quo they depend on get protected",
+        "chinese": "无论邮政服务发生什么，它们所依赖的现状方面都要得到保护",
+        "parent_id": "c_006_008",
+        "target_id": "c_006_008",
+        "relation": "作 insisting 的宾语"
+      },
+      {
+        "chunk_id": "c_006_010",
+        "role": "让步状语从句",
+        "english": "whatever else happens to the Postal Service",
+        "chinese": "无论邮政服务发生什么",
+        "parent_id": "c_006_009",
+        "target_id": "c_006_013",
+        "relation": "说明 get protected 的让步条件"
+      },
+      {
+        "chunk_id": "c_006_011",
+        "role": "从句主语",
+        "english": "whatever else",
+        "chinese": "其他任何事情",
+        "parent_id": "c_006_010",
+        "target_id": null,
+        "relation": "whatever 从句内部主语"
+      },
+      {
+        "chunk_id": "c_006_012",
+        "role": "从句谓语",
+        "english": "happens",
+        "chinese": "发生",
+        "parent_id": "c_006_010",
+        "target_id": null,
+        "relation": "whatever 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_006_013",
+        "role": "从句主语",
+        "english": "aspects of the status quo they depend on",
+        "chinese": "它们所依赖的现状方面",
+        "parent_id": "c_006_009",
+        "target_id": null,
+        "relation": "that 宾语从句主句的主语"
+      },
+      {
+        "chunk_id": "c_006_014",
+        "role": "定语从句",
+        "english": "they depend on",
+        "chinese": "它们所依赖的",
+        "parent_id": "c_006_013",
+        "target_id": "c_006_013",
+        "relation": "省略 that 的定语从句，修饰 status quo"
+      },
+      {
+        "chunk_id": "c_006_015",
+        "role": "从句谓语",
+        "english": "get protected",
+        "chinese": "得到保护",
+        "parent_id": "c_006_009",
+        "target_id": null,
+        "relation": "that 宾语从句主句的谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "overseer — Congress —",
+        "explanation": "破折号中的 Congress 解释 ultimate overseer。"
+      },
+      {
+        "pattern_name": "让步倒装",
+        "pattern_form": "whatever 引导让步从句",
+        "explanation": "whatever else happens 表示无论发生什么。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "exert",
+        "pos": "v.",
+        "meaning": "施加",
+        "chunk_id": "c_006_004"
+      },
+      {
+        "word": "overseer",
+        "pos": "n.",
+        "meaning": "监督者",
+        "chunk_id": "c_006_006"
+      },
+      {
+        "word": "protected",
+        "pos": "v.",
+        "meaning": "保护",
+        "chunk_id": "c_006_015"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "status quo",
+        "phrase_type": "n. phr.",
+        "meaning": "现状",
+        "chunk_id": "c_006_013"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_007",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "This is why repeated attempts at reform legislation have failed in recent years, leaving the Postal Service unable to pay its bills except by deferring vital modernization.",
+    "difficulty": 5,
+    "translation_literal": "这就是近年来多次改革立法尝试失败的原因，使邮政服务无法支付账单，只能通过推迟关键现代化来应付。",
+    "chunks": [
+      {
+        "chunk_id": "c_007_001",
+        "role": "主语",
+        "english": "This",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_007_003",
+        "role": "表语从句",
+        "english": "why repeated attempts at reform legislation have failed in recent years",
+        "chinese": "为什么近年来多次改革立法尝试已经失败",
+        "parent_id": null,
+        "target_id": "c_007_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_007_004",
+        "role": "从句主语",
+        "english": "repeated attempts at reform legislation",
+        "chinese": "多次改革立法尝试",
+        "parent_id": "c_007_003",
+        "target_id": null,
+        "relation": "why 从句内部主语"
+      },
+      {
+        "chunk_id": "c_007_005",
+        "role": "从句谓语",
+        "english": "have failed",
+        "chinese": "已经失败",
+        "parent_id": "c_007_003",
+        "target_id": null,
+        "relation": "why 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_007_006",
+        "role": "状语",
+        "english": "in recent years",
+        "chinese": "近年来",
+        "parent_id": "c_007_003",
+        "target_id": "c_007_005",
+        "relation": "说明 failed 的时间"
+      },
+      {
+        "chunk_id": "c_007_007",
+        "role": "非谓语结构",
+        "english": "leaving the Postal Service unable to pay its bills except by deferring vital modernization",
+        "chinese": "使邮政服务无法支付账单，只能通过推迟关键现代化来应付",
+        "parent_id": "c_007_003",
+        "target_id": "c_007_005",
+        "relation": "说明 failed 的结果"
+      },
+      {
+        "chunk_id": "c_007_008",
+        "role": "宾语",
+        "english": "the Postal Service",
+        "chinese": "邮政服务",
+        "parent_id": "c_007_007",
+        "target_id": null,
+        "relation": "leaving 的宾语"
+      },
+      {
+        "chunk_id": "c_007_009",
+        "role": "宾语补足语",
+        "english": "unable to pay its bills except by deferring vital modernization",
+        "chinese": "无法支付账单，只能通过推迟关键现代化",
+        "parent_id": "c_007_007",
+        "target_id": "c_007_008",
+        "relation": "补充说明 Postal Service 的状态"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "This is why... + leaving...",
+        "explanation": "why 从句解释原因，leaving 非谓语说明结果。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "legislation",
+        "pos": "n.",
+        "meaning": "立法",
+        "chunk_id": "c_007_004"
+      },
+      {
+        "word": "deferring",
+        "pos": "v.",
+        "meaning": "推迟",
+        "chunk_id": "c_007_009"
+      },
+      {
+        "word": "modernization",
+        "pos": "n.",
+        "meaning": "现代化",
+        "chunk_id": "c_007_009"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_008",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Now comes word that everyone involved — Democrats, Republicans, the Postal Service, the unions and the system’s heaviest users — has finally agreed on a plan to fix the system.",
+    "difficulty": 5,
+    "translation_literal": "现在传来消息：所有相关方——民主党人、共和党人、邮政服务、工会以及该系统最重度用户——终于就修复该系统的计划达成了一致。",
+    "chunks": [
+      {
+        "chunk_id": "c_008_001",
+        "role": "倒装结构",
+        "english": "Now comes word",
+        "chinese": "现在传来消息",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_008_002",
+        "role": "状语",
+        "english": "Now",
+        "chinese": "现在",
+        "parent_id": "c_008_001",
+        "target_id": null,
+        "relation": "倒装结构前置状语"
+      },
+      {
+        "chunk_id": "c_008_003",
+        "role": "谓语",
+        "english": "comes",
+        "chinese": "传来",
+        "parent_id": "c_008_001",
+        "target_id": null,
+        "relation": "倒装结构谓语"
+      },
+      {
+        "chunk_id": "c_008_004",
+        "role": "主语",
+        "english": "word",
+        "chinese": "消息",
+        "parent_id": "c_008_001",
+        "target_id": null,
+        "relation": "倒装结构主语"
+      },
+      {
+        "chunk_id": "c_008_005",
+        "role": "同位语从句",
+        "english": "that everyone involved — Democrats, Republicans, the Postal Service, the unions and the system’s heaviest users — has finally agreed on a plan to fix the system",
+        "chinese": "所有相关方终于就修复该系统的计划达成一致",
+        "parent_id": "c_008_004",
+        "target_id": "c_008_004",
+        "relation": "解释 word 的具体内容"
+      },
+      {
+        "chunk_id": "c_008_006",
+        "role": "同位语从句主语",
+        "english": "everyone involved",
+        "chinese": "所有相关方",
+        "parent_id": "c_008_005",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_008_007",
+        "role": "插入语",
+        "english": "Democrats, Republicans, the Postal Service, the unions and the system’s heaviest users",
+        "chinese": "民主党人、共和党人、邮政服务、工会以及该系统最重度用户",
+        "parent_id": "c_008_006",
+        "target_id": "c_008_006",
+        "relation": "列举 everyone involved 的范围"
+      },
+      {
+        "chunk_id": "c_008_008",
+        "role": "同位语从句谓语",
+        "english": "has finally agreed on",
+        "chinese": "终于就……达成一致",
+        "parent_id": "c_008_005",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_008_009",
+        "role": "同位语从句宾语",
+        "english": "a plan to fix the system",
+        "chinese": "修复该系统的计划",
+        "parent_id": "c_008_005",
+        "target_id": "c_008_008",
+        "relation": "作 agreed on 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "Now comes word",
+        "explanation": "状语 Now 置于句首引出倒装，主语是 word。"
+      },
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "word + that 从句",
+        "explanation": "that 从句解释传来的消息内容。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "involved",
+        "pos": "adj.",
+        "meaning": "相关的",
+        "chunk_id": "c_008_006"
+      },
+      {
+        "word": "agreed",
+        "pos": "v.",
+        "meaning": "同意，达成一致",
+        "chunk_id": "c_008_008"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "agree on",
+        "phrase_type": "v. phr.",
+        "meaning": "就……达成一致",
+        "chunk_id": "c_008_008"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_009",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Legislation is moving through the House that would save USPS an estimated $28.6 billion over five years, which could help pay for new vehicles, among other survival measures.",
+    "difficulty": 5,
+    "translation_literal": "一项立法正在众议院推进，它将在五年内为美国邮政署节省估计 286 亿美元，这可能有助于支付新车辆等生存措施。",
+    "chunks": [
+      {
+        "chunk_id": "c_009_001",
+        "role": "主语",
+        "english": "Legislation",
+        "chinese": "立法",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_002",
+        "role": "谓语",
+        "english": "is moving",
+        "chinese": "正在推进",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_009_003",
+        "role": "状语",
+        "english": "through the House",
+        "chinese": "通过众议院",
+        "parent_id": null,
+        "target_id": "c_009_002",
+        "relation": "说明 moving 的路径"
+      },
+      {
+        "chunk_id": "c_009_004",
+        "role": "定语从句",
+        "english": "that would save USPS an estimated $28.6 billion over five years",
+        "chinese": "将在五年内为 USPS 节省估计 286 亿美元的",
+        "parent_id": "c_009_001",
+        "target_id": "c_009_001",
+        "relation": "修饰 Legislation"
+      },
+      {
+        "chunk_id": "c_009_005",
+        "role": "定语从句主语",
+        "english": "that",
+        "chinese": "这项立法",
+        "parent_id": "c_009_004",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_006",
+        "role": "定语从句谓语",
+        "english": "would save",
+        "chinese": "将节省",
+        "parent_id": "c_009_004",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_007",
+        "role": "定语从句宾语",
+        "english": "USPS an estimated $28.6 billion",
+        "chinese": "为 USPS 估计 286 亿美元",
+        "parent_id": "c_009_004",
+        "target_id": "c_009_006",
+        "relation": "作 save 的双宾语"
+      },
+      {
+        "chunk_id": "c_009_008",
+        "role": "定语从句",
+        "english": "which could help pay for new vehicles, among other survival measures",
+        "chinese": "这可能有助于支付新车辆等生存措施",
+        "parent_id": "c_009_004",
+        "target_id": "c_009_004",
+        "relation": "指代前面节省资金这件事"
+      },
+      {
+        "chunk_id": "c_009_009",
+        "role": "定语从句主语",
+        "english": "which",
+        "chinese": "这",
+        "parent_id": "c_009_008",
+        "target_id": null,
+        "relation": "which 从句内部主语"
+      },
+      {
+        "chunk_id": "c_009_010",
+        "role": "定语从句谓语",
+        "english": "could help pay for",
+        "chinese": "可能有助于支付",
+        "parent_id": "c_009_008",
+        "target_id": null,
+        "relation": "which 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_009_011",
+        "role": "定语从句宾语",
+        "english": "new vehicles",
+        "chinese": "新车辆",
+        "parent_id": "c_009_008",
+        "target_id": "c_009_010",
+        "relation": "作 pay for 的宾语"
+      },
+      {
+        "chunk_id": "c_009_012",
+        "role": "插入语",
+        "english": "among other survival measures",
+        "chinese": "以及其他生存措施",
+        "parent_id": "c_009_011",
+        "target_id": "c_009_011",
+        "relation": "补充说明 new vehicles 属于 survival measures"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "主句 + that 从句 + which 从句",
+        "explanation": "that 从句修饰 Legislation，which 从句指代节省资金的作用。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "Legislation",
+        "pos": "n.",
+        "meaning": "立法",
+        "chunk_id": "c_009_001"
+      },
+      {
+        "word": "estimated",
+        "pos": "adj.",
+        "meaning": "估计的",
+        "chunk_id": "c_009_007"
+      },
+      {
+        "word": "vehicles",
+        "pos": "n.",
+        "meaning": "车辆",
+        "chunk_id": "c_009_011"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_010",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Most of the money would come from a penny-per-letter permanent rate increase and from shifting postal retirees into Medicare.",
+    "difficulty": 4,
+    "translation_literal": "大部分资金将来自每封信一美分的永久费率上涨，以及把邮政退休人员转入医保。",
+    "chunks": [
+      {
+        "chunk_id": "c_010_001",
+        "role": "主语",
+        "english": "Most of the money",
+        "chinese": "大部分资金",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_002",
+        "role": "谓语",
+        "english": "would come from",
+        "chinese": "将来自",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_010_003",
+        "role": "并列宾语",
+        "english": "a penny-per-letter permanent rate increase",
+        "chinese": "每封信一美分的永久费率上涨",
+        "parent_id": "c_010_002",
+        "target_id": null,
+        "relation": "come from 的第一来源"
+      },
+      {
+        "chunk_id": "c_010_004",
+        "role": "并列宾语",
+        "english": "shifting postal retirees into Medicare",
+        "chinese": "把邮政退休人员转入医保",
+        "parent_id": "c_010_002",
+        "target_id": null,
+        "relation": "come from 的第二来源"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "come from A and from B",
+        "explanation": "资金来源有两个并列部分。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "permanent",
+        "pos": "adj.",
+        "meaning": "永久的",
+        "chunk_id": "c_010_003"
+      },
+      {
+        "word": "retirees",
+        "pos": "n.",
+        "meaning": "退休人员",
+        "chunk_id": "c_010_004"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "rate increase",
+        "phrase_type": "n. phr.",
+        "meaning": "费率上涨",
+        "chunk_id": "c_010_003"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_011",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The latter step would largely offset the financial burden of annually pre-funding retiree health care, thus addressing a long-standing complaint by the USPS and its unions.",
+    "difficulty": 5,
+    "translation_literal": "后一步将在很大程度上抵消每年预先为退休人员医疗保健筹资的财务负担，从而回应美国邮政署及其工会长期以来的抱怨。",
+    "chunks": [
+      {
+        "chunk_id": "c_011_001",
+        "role": "主语",
+        "english": "The latter step",
+        "chinese": "后一步",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_002",
+        "role": "谓语",
+        "english": "would largely offset",
+        "chinese": "将在很大程度上抵消",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_011_003",
+        "role": "宾语",
+        "english": "the financial burden of annually pre-funding retiree health care",
+        "chinese": "每年预先为退休人员医疗保健筹资的财务负担",
+        "parent_id": null,
+        "target_id": "c_011_002",
+        "relation": "作 offset 的宾语"
+      },
+      {
+        "chunk_id": "c_011_004",
+        "role": "定语",
+        "english": "of annually pre-funding retiree health care",
+        "chinese": "每年预先为退休人员医疗保健筹资的",
+        "parent_id": "c_011_003",
+        "target_id": "c_011_003",
+        "relation": "修饰 burden"
+      },
+      {
+        "chunk_id": "c_011_005",
+        "role": "非谓语结构",
+        "english": "thus addressing a long-standing complaint by the USPS and its unions",
+        "chinese": "从而回应 USPS 及其工会长期以来的抱怨",
+        "parent_id": null,
+        "target_id": "c_011_002",
+        "relation": "说明 offset 的结果"
+      },
+      {
+        "chunk_id": "c_011_006",
+        "role": "宾语",
+        "english": "a long-standing complaint by the USPS and its unions",
+        "chinese": "USPS 及其工会长期以来的抱怨",
+        "parent_id": "c_011_005",
+        "target_id": "c_011_005",
+        "relation": "作 addressing 的宾语"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "offset",
+        "pos": "v.",
+        "meaning": "抵消",
+        "chunk_id": "c_011_002"
+      },
+      {
+        "word": "burden",
+        "pos": "n.",
+        "meaning": "负担",
+        "chunk_id": "c_011_003"
+      },
+      {
+        "word": "complaint",
+        "pos": "n.",
+        "meaning": "抱怨",
+        "chunk_id": "c_011_006"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "pre-funding retiree health care",
+        "phrase_type": "v. phr.",
+        "meaning": "预先为退休人员医疗保健筹资",
+        "chunk_id": "c_011_004"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_012",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "If it clears the House, this measure would still have to get through the Senate — where someone is bound to point out that it amounts to the bare, bare minimum necessary to keep the Postal Service afloat, not comprehensive reform.",
+    "difficulty": 5,
+    "translation_literal": "如果它通过众议院，这项措施仍然必须通过参议院——在那里必定有人指出，它只是维持邮政服务运转所必需的最低最低限度，而不是全面改革。",
+    "chunks": [
+      {
+        "chunk_id": "c_012_001",
+        "role": "条件状语从句",
+        "english": "If it clears the House",
+        "chinese": "如果它通过众议院",
+        "parent_id": null,
+        "target_id": "c_012_005",
+        "relation": "说明主句成立的条件"
+      },
+      {
+        "chunk_id": "c_012_002",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": "if 从句内部主语，指 measure"
+      },
+      {
+        "chunk_id": "c_012_003",
+        "role": "从句谓语",
+        "english": "clears",
+        "chinese": "通过",
+        "parent_id": "c_012_001",
+        "target_id": null,
+        "relation": "if 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_012_004",
+        "role": "从句宾语",
+        "english": "the House",
+        "chinese": "众议院",
+        "parent_id": "c_012_001",
+        "target_id": "c_012_003",
+        "relation": "作 clears 的宾语"
+      },
+      {
+        "chunk_id": "c_012_005",
+        "role": "主语",
+        "english": "this measure",
+        "chinese": "这项措施",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_006",
+        "role": "谓语",
+        "english": "would still have to get through",
+        "chinese": "仍然必须通过",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_012_007",
+        "role": "宾语",
+        "english": "the Senate",
+        "chinese": "参议院",
+        "parent_id": null,
+        "target_id": "c_012_006",
+        "relation": "作 get through 的宾语"
+      },
+      {
+        "chunk_id": "c_012_008",
+        "role": "定语从句",
+        "english": "where someone is bound to point out that it amounts to the bare, bare minimum necessary to keep the Postal Service afloat, not comprehensive reform",
+        "chinese": "在那里必定有人指出它只是维持邮政服务运转所必需的最低限度，而不是全面改革",
+        "parent_id": null,
+        "target_id": "c_012_007",
+        "relation": "修饰 the Senate"
+      },
+      {
+        "chunk_id": "c_012_009",
+        "role": "定语从句主语",
+        "english": "someone",
+        "chinese": "有人",
+        "parent_id": "c_012_008",
+        "target_id": null,
+        "relation": "where 从句内部主语"
+      },
+      {
+        "chunk_id": "c_012_010",
+        "role": "定语从句谓语",
+        "english": "is bound to point out",
+        "chinese": "必定会指出",
+        "parent_id": "c_012_008",
+        "target_id": null,
+        "relation": "where 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_012_011",
+        "role": "宾语从句",
+        "english": "that it amounts to the bare, bare minimum necessary to keep the Postal Service afloat, not comprehensive reform",
+        "chinese": "它只是维持邮政服务运转所必需的最低限度，而不是全面改革",
+        "parent_id": "c_012_008",
+        "target_id": "c_012_010",
+        "relation": "作 point out 的宾语"
+      },
+      {
+        "chunk_id": "c_012_012",
+        "role": "从句主语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": "c_012_011",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_012_013",
+        "role": "从句谓语",
+        "english": "amounts to",
+        "chinese": "等同于，只是",
+        "parent_id": "c_012_011",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_012_014",
+        "role": "从句宾语",
+        "english": "the bare, bare minimum necessary to keep the Postal Service afloat",
+        "chinese": "维持邮政服务运转所必需的最低限度",
+        "parent_id": "c_012_011",
+        "target_id": "c_012_013",
+        "relation": "作 amounts to 的宾语"
+      },
+      {
+        "chunk_id": "c_012_015",
+        "role": "插入语",
+        "english": "not comprehensive reform",
+        "chinese": "不是全面改革",
+        "parent_id": "c_012_014",
+        "target_id": "c_012_014",
+        "relation": "与 minimum 对比说明"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "分裂结构 / 间隔结构",
+        "pattern_form": "条件从句 + 主句 + where 从句 + that 从句",
+        "explanation": "破折号后的 where 从句中又嵌入 point out 的宾语从句。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "clears",
+        "pos": "v.",
+        "meaning": "通过",
+        "chunk_id": "c_012_003"
+      },
+      {
+        "word": "afloat",
+        "pos": "adj.",
+        "meaning": "维持运转的",
+        "chunk_id": "c_012_014"
+      },
+      {
+        "word": "comprehensive",
+        "pos": "adj.",
+        "meaning": "全面的",
+        "chunk_id": "c_012_015"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "amount to",
+        "phrase_type": "v. phr.",
+        "meaning": "等同于，意味着",
+        "chunk_id": "c_012_013"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_013",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "There’s no change to collective bargaining at the USPS, a major omission considering that personnel accounts for 80 percent of the agency’s costs.",
+    "difficulty": 5,
+    "translation_literal": "美国邮政署的集体谈判没有任何改变；考虑到人员占该机构成本的 80%，这是一个重大遗漏。",
+    "chunks": [
+      {
+        "chunk_id": "c_013_001",
+        "role": "存在句",
+        "english": "There’s no change to collective bargaining at the USPS",
+        "chinese": "USPS 的集体谈判没有任何改变",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_013_002",
+        "role": "主语",
+        "english": "no change to collective bargaining at the USPS",
+        "chinese": "USPS 的集体谈判没有改变",
+        "parent_id": "c_013_001",
+        "target_id": null,
+        "relation": "there be 结构真实主语"
+      },
+      {
+        "chunk_id": "c_013_003",
+        "role": "同位语",
+        "english": "a major omission considering that personnel accounts for 80 percent of the agency’s costs",
+        "chinese": "一个重大遗漏，考虑到人员占该机构成本的 80%",
+        "parent_id": null,
+        "target_id": "c_013_002",
+        "relation": "解释 no change 的性质"
+      },
+      {
+        "chunk_id": "c_013_004",
+        "role": "状语",
+        "english": "considering that personnel accounts for 80 percent of the agency’s costs",
+        "chinese": "考虑到人员占该机构成本的 80%",
+        "parent_id": "c_013_003",
+        "target_id": "c_013_003",
+        "relation": "说明为什么是 major omission"
+      },
+      {
+        "chunk_id": "c_013_005",
+        "role": "宾语从句",
+        "english": "that personnel accounts for 80 percent of the agency’s costs",
+        "chinese": "人员占该机构成本的 80%",
+        "parent_id": "c_013_004",
+        "target_id": "c_013_004",
+        "relation": "作 considering 的宾语"
+      },
+      {
+        "chunk_id": "c_013_006",
+        "role": "从句主语",
+        "english": "personnel",
+        "chinese": "人员",
+        "parent_id": "c_013_005",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_013_007",
+        "role": "从句谓语",
+        "english": "accounts for",
+        "chinese": "占",
+        "parent_id": "c_013_005",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_013_008",
+        "role": "从句宾语",
+        "english": "80 percent of the agency’s costs",
+        "chinese": "该机构成本的 80%",
+        "parent_id": "c_013_005",
+        "target_id": "c_013_007",
+        "relation": "作 accounts for 的宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "前句事实 + 同位语评价",
+        "explanation": "a major omission 对 no change 作评价说明。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "collective",
+        "pos": "adj.",
+        "meaning": "集体的",
+        "chunk_id": "c_013_002"
+      },
+      {
+        "word": "bargaining",
+        "pos": "n.",
+        "meaning": "谈判",
+        "chunk_id": "c_013_002"
+      },
+      {
+        "word": "omission",
+        "pos": "n.",
+        "meaning": "遗漏",
+        "chunk_id": "c_013_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "accounts for",
+        "phrase_type": "v. phr.",
+        "meaning": "占，占比",
+        "chunk_id": "c_013_007"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_014",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "Also missing is any discussion of eliminating Saturday letter delivery.",
+    "difficulty": 4,
+    "translation_literal": "同样缺失的是任何关于取消周六信件投递的讨论。",
+    "chunks": [
+      {
+        "chunk_id": "c_014_001",
+        "role": "倒装结构",
+        "english": "Also missing is any discussion of eliminating Saturday letter delivery",
+        "chinese": "同样缺失的是任何关于取消周六信件投递的讨论",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_014_002",
+        "role": "表语",
+        "english": "Also missing",
+        "chinese": "同样缺失的",
+        "parent_id": "c_014_001",
+        "target_id": null,
+        "relation": "倒装结构前置表语"
+      },
+      {
+        "chunk_id": "c_014_003",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": "c_014_001",
+        "target_id": null,
+        "relation": "倒装结构谓语"
+      },
+      {
+        "chunk_id": "c_014_004",
+        "role": "主语",
+        "english": "any discussion of eliminating Saturday letter delivery",
+        "chinese": "任何关于取消周六信件投递的讨论",
+        "parent_id": "c_014_001",
+        "target_id": null,
+        "relation": "倒装结构真正主语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "倒装句",
+        "pattern_form": "Also missing is + 主语",
+        "explanation": "表语 Also missing 置于句首，强调另一项缺失。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "eliminating",
+        "pos": "v.",
+        "meaning": "取消",
+        "chunk_id": "c_014_004"
+      },
+      {
+        "word": "delivery",
+        "pos": "n.",
+        "meaning": "投递",
+        "chunk_id": "c_014_004"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_015",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "That common-sense change enjoys wide public support and would save the USPS $2 billion per year.",
+    "difficulty": 4,
+    "translation_literal": "那项合乎常识的改变享有广泛公众支持，并且每年将为 USPS 节省 20 亿美元。",
+    "chunks": [
+      {
+        "chunk_id": "c_015_001",
+        "role": "主语",
+        "english": "That common-sense change",
+        "chinese": "那项合乎常识的改变",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_002",
+        "role": "谓语",
+        "english": "enjoys",
+        "chinese": "享有",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_015_003",
+        "role": "宾语",
+        "english": "wide public support",
+        "chinese": "广泛公众支持",
+        "parent_id": null,
+        "target_id": "c_015_002",
+        "relation": "作 enjoys 的宾语"
+      },
+      {
+        "chunk_id": "c_015_004",
+        "role": "并列谓语",
+        "english": "and would save",
+        "chinese": "并将节省",
+        "parent_id": null,
+        "target_id": "c_015_002",
+        "relation": "与 enjoys 并列"
+      },
+      {
+        "chunk_id": "c_015_005",
+        "role": "宾语",
+        "english": "the USPS $2 billion per year",
+        "chinese": "USPS 每年 20 亿美元",
+        "parent_id": "c_015_001",
+        "target_id": "c_015_004",
+        "relation": "作 save 的双宾语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "长并列结构",
+        "pattern_form": "enjoys... and would save...",
+        "explanation": "两个谓语并列说明取消周六投递的优势。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "common-sense",
+        "pos": "adj.",
+        "meaning": "合乎常识的",
+        "chunk_id": "c_015_001"
+      },
+      {
+        "word": "support",
+        "pos": "n.",
+        "meaning": "支持",
+        "chunk_id": "c_015_003"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_016",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "But postal special-interest groups seem to have killed it, at least in the House.",
+    "difficulty": 3,
+    "translation_literal": "但是邮政特殊利益集团似乎已经扼杀了它，至少在众议院是这样。",
+    "chunks": [
+      {
+        "chunk_id": "c_016_001",
+        "role": "连接成分",
+        "english": "But",
+        "chinese": "但是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_002",
+        "role": "主语",
+        "english": "postal special-interest groups",
+        "chinese": "邮政特殊利益集团",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_003",
+        "role": "谓语",
+        "english": "seem to have killed",
+        "chinese": "似乎已经扼杀",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_016_004",
+        "role": "宾语",
+        "english": "it",
+        "chinese": "它",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "作 killed 的宾语，指取消周六投递"
+      },
+      {
+        "chunk_id": "c_016_005",
+        "role": "状语",
+        "english": "at least in the House",
+        "chinese": "至少在众议院",
+        "parent_id": null,
+        "target_id": "c_016_003",
+        "relation": "限定 killed 的范围"
+      }
+    ],
+    "sentence_patterns": [],
+    "key_words": [
+      {
+        "word": "postal",
+        "pos": "adj.",
+        "meaning": "邮政的",
+        "chunk_id": "c_016_002"
+      },
+      {
+        "word": "killed",
+        "pos": "v.",
+        "meaning": "扼杀",
+        "chunk_id": "c_016_003"
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "special-interest groups",
+        "phrase_type": "n. phr.",
+        "meaning": "特殊利益集团",
+        "chunk_id": "c_016_002"
+      }
+    ]
+  },
+  {
+    "sentence_id": "s_017",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "The emerging consensus around the bill is a sign that legislators are getting frightened about a politically embarrassing short-term collapse at the USPS.",
+    "difficulty": 5,
+    "translation_literal": "围绕该法案正在形成的共识是一个迹象，表明立法者正对 USPS 发生政治上令人尴尬的短期崩溃感到害怕。",
+    "chunks": [
+      {
+        "chunk_id": "c_017_001",
+        "role": "主语",
+        "english": "The emerging consensus around the bill",
+        "chinese": "围绕该法案正在形成的共识",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_002",
+        "role": "谓语",
+        "english": "is",
+        "chinese": "是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_017_003",
+        "role": "表语",
+        "english": "a sign",
+        "chinese": "一个迹象",
+        "parent_id": null,
+        "target_id": "c_017_002",
+        "relation": "作 is 的表语"
+      },
+      {
+        "chunk_id": "c_017_004",
+        "role": "同位语从句",
+        "english": "that legislators are getting frightened about a politically embarrassing short-term collapse at the USPS",
+        "chinese": "立法者正对 USPS 发生政治上令人尴尬的短期崩溃感到害怕",
+        "parent_id": "c_017_003",
+        "target_id": "c_017_003",
+        "relation": "解释 sign 的内容"
+      },
+      {
+        "chunk_id": "c_017_005",
+        "role": "从句主语",
+        "english": "legislators",
+        "chinese": "立法者",
+        "parent_id": "c_017_004",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_017_006",
+        "role": "从句谓语",
+        "english": "are getting frightened",
+        "chinese": "正变得害怕",
+        "parent_id": "c_017_004",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_017_007",
+        "role": "状语",
+        "english": "about a politically embarrassing short-term collapse at the USPS",
+        "chinese": "对 USPS 发生政治上令人尴尬的短期崩溃",
+        "parent_id": "c_017_004",
+        "target_id": "c_017_006",
+        "relation": "说明 frightened 的对象"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "sign + that 从句",
+        "explanation": "that 从句解释 sign 表明了什么。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "emerging",
+        "pos": "adj.",
+        "meaning": "正在形成的",
+        "chunk_id": "c_017_001"
+      },
+      {
+        "word": "consensus",
+        "pos": "n.",
+        "meaning": "共识",
+        "chunk_id": "c_017_001"
+      },
+      {
+        "word": "collapse",
+        "pos": "n.",
+        "meaning": "崩溃",
+        "chunk_id": "c_017_007"
+      }
+    ],
+    "key_phrases": []
+  },
+  {
+    "sentence_id": "s_018",
+    "year": 2018,
+    "exam_type": "英语一",
+    "text_id": "Text 4",
+    "original": "It is not, however, a sign that they’re getting serious about transforming the postal system for the 21st century.",
+    "difficulty": 5,
+    "translation_literal": "然而，这并不是一个表明他们正在认真对待为 21 世纪改造邮政系统的迹象。",
+    "chunks": [
+      {
+        "chunk_id": "c_018_001",
+        "role": "主语",
+        "english": "It",
+        "chinese": "这",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_002",
+        "role": "谓语",
+        "english": "is not",
+        "chinese": "不是",
+        "parent_id": null,
+        "target_id": null,
+        "relation": null
+      },
+      {
+        "chunk_id": "c_018_003",
+        "role": "插入语",
+        "english": "however",
+        "chinese": "然而",
+        "parent_id": null,
+        "target_id": "c_018_002",
+        "relation": "表示转折"
+      },
+      {
+        "chunk_id": "c_018_004",
+        "role": "表语",
+        "english": "a sign that they’re getting serious about transforming the postal system for the 21st century",
+        "chinese": "一个表明他们正在认真对待为 21 世纪改造邮政系统的迹象",
+        "parent_id": null,
+        "target_id": "c_018_002",
+        "relation": "作 is not 的表语"
+      },
+      {
+        "chunk_id": "c_018_005",
+        "role": "同位语从句",
+        "english": "that they’re getting serious about transforming the postal system for the 21st century",
+        "chinese": "他们正在认真对待为 21 世纪改造邮政系统",
+        "parent_id": "c_018_004",
+        "target_id": "c_018_004",
+        "relation": "解释 sign 的内容"
+      },
+      {
+        "chunk_id": "c_018_006",
+        "role": "从句主语",
+        "english": "they",
+        "chinese": "他们",
+        "parent_id": "c_018_005",
+        "target_id": null,
+        "relation": "that 从句内部主语"
+      },
+      {
+        "chunk_id": "c_018_007",
+        "role": "从句谓语",
+        "english": "are getting",
+        "chinese": "正在变得",
+        "parent_id": "c_018_005",
+        "target_id": null,
+        "relation": "that 从句内部谓语"
+      },
+      {
+        "chunk_id": "c_018_008",
+        "role": "从句表语",
+        "english": "serious about transforming the postal system for the 21st century",
+        "chinese": "认真对待为 21 世纪改造邮政系统",
+        "parent_id": "c_018_005",
+        "target_id": "c_018_007",
+        "relation": "作 are getting 的表语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语 + 谓语 + however + 表语",
+        "explanation": "however 插在谓语和表语之间，提示与上一句形成转折。"
+      }
+    ],
+    "key_words": [
+      {
+        "word": "serious",
+        "pos": "adj.",
+        "meaning": "认真的",
+        "chunk_id": "c_018_008"
+      },
+      {
+        "word": "transforming",
+        "pos": "v.",
+        "meaning": "改造",
+        "chunk_id": "c_018_008"
+      }
+    ],
+    "key_phrases": []
+  }
+]

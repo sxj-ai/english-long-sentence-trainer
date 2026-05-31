@@ -5,10 +5,11 @@ import { formatDifficulty } from "@/lib/text";
 interface ArticleReaderProps {
   article: Article;
   selectedSentenceId?: string;
+  onAskAi: () => void;
   onSelectSentence: (sentenceId: string) => void;
 }
 
-export function ArticleReader({ article, selectedSentenceId, onSelectSentence }: ArticleReaderProps) {
+export function ArticleReader({ article, selectedSentenceId, onAskAi, onSelectSentence }: ArticleReaderProps) {
   return (
     <div className="reader-panel">
       <div className="panel-heading">
@@ -16,7 +17,12 @@ export function ArticleReader({ article, selectedSentenceId, onSelectSentence }:
           <p className="eyebrow">阅读训练</p>
           <h1>{article.title}</h1>
         </div>
-        <Badge tone="green">{article.sentenceCount} 句</Badge>
+        <div className="panel-actions">
+          <Badge tone="green">{article.sentenceCount} 句</Badge>
+          <button className="secondary-link button-like" onClick={onAskAi} type="button">
+            问 AI 老师
+          </button>
+        </div>
       </div>
 
       <div className="sentence-flow">

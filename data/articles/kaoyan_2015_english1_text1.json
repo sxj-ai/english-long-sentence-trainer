@@ -72,14 +72,17 @@
         "relation": "与前一分句并列"
       }
     ],
+    "sentence_patterns": [],
     "key_words": [
       {
         "word": "insisted",
+        "pos": "v.",
         "meaning": "坚称，坚持说",
         "chunk_id": "c_001_004"
       },
       {
         "word": "abdicate",
+        "pos": "v.",
         "meaning": "退位，逊位",
         "chunk_id": "c_001_006"
       }
@@ -87,6 +90,7 @@
     "key_phrases": [
       {
         "phrase": "die in their sleep",
+        "phrase_type": "v. phr.",
         "meaning": "在睡梦中死去",
         "chunk_id": "c_001_007"
       }
@@ -135,7 +139,7 @@
         "chinese": "丑闻",
         "parent_id": "c_002_002",
         "target_id": null,
-        "relation": null
+        "relation": "主语「embarrassing scandals and the popularity of the republican left in the recent Euro-elections」中的主语部分"
       },
       {
         "chunk_id": "c_002_005",
@@ -192,24 +196,29 @@
         "relation": "补充说明宾语 him 被迫做的动作"
       }
     ],
+    "sentence_patterns": [],
     "key_words": [
       {
         "word": "embarrassing",
+        "pos": "adj.",
         "meaning": "令人尴尬的",
         "chunk_id": "c_002_003"
       },
       {
         "word": "scandals",
+        "pos": "n.",
         "meaning": "丑闻",
         "chunk_id": "c_002_004"
       },
       {
         "word": "popularity",
+        "pos": "n.",
         "meaning": "受欢迎程度，人气",
         "chunk_id": "c_002_005"
       },
       {
         "word": "republican",
+        "pos": "adj.",
         "meaning": "共和派的，支持共和制的",
         "chunk_id": "c_002_006"
       }
@@ -217,11 +226,13 @@
     "key_phrases": [
       {
         "phrase": "eat his words",
+        "phrase_type": "idiom",
         "meaning": "收回前言，承认自己说错了",
         "chunk_id": "c_002_010"
       },
       {
         "phrase": "stand down",
+        "phrase_type": "v. phr.",
         "meaning": "退位，下台",
         "chunk_id": "c_002_010"
       }
@@ -279,7 +290,7 @@
         "chinese": "君主制",
         "parent_id": "c_003_004",
         "target_id": null,
-        "relation": null
+        "relation": "宾语从句「that monarchy is seeing its last days」内部主语"
       },
       {
         "chunk_id": "c_003_006",
@@ -288,7 +299,7 @@
         "chinese": "正在走向",
         "parent_id": "c_003_004",
         "target_id": null,
-        "relation": null
+        "relation": "宾语从句「that monarchy is seeing its last days」内部谓语"
       },
       {
         "chunk_id": "c_003_007",
@@ -300,19 +311,23 @@
         "relation": "作从句谓语 is seeing 的宾语"
       }
     ],
+    "sentence_patterns": [],
     "key_words": [
       {
         "word": "crisis",
+        "pos": "n.",
         "meaning": "危机",
         "chunk_id": "c_003_002"
       },
       {
         "word": "suggest",
+        "pos": "v.",
         "meaning": "表明，暗示",
         "chunk_id": "c_003_003"
       },
       {
         "word": "monarchy",
+        "pos": "n.",
         "meaning": "君主制",
         "chunk_id": "c_003_005"
       }
@@ -320,6 +335,7 @@
     "key_phrases": [
       {
         "phrase": "see its last days",
+        "phrase_type": "idiom",
         "meaning": "走向末日，行将终结",
         "chunk_id": "c_003_006"
       }
@@ -368,7 +384,7 @@
         "chinese": "预兆",
         "parent_id": "c_004_003",
         "target_id": null,
-        "relation": null
+        "relation": "宾语从句「the writing is on the wall for all European royals」内部主语"
       },
       {
         "chunk_id": "c_004_005",
@@ -377,7 +393,7 @@
         "chinese": "是，已经出现",
         "parent_id": "c_004_003",
         "target_id": null,
-        "relation": null
+        "relation": "宾语从句「the writing is on the wall for all European royals」内部谓语"
       },
       {
         "chunk_id": "c_004_006",
@@ -407,19 +423,23 @@
         "relation": "补充修饰 all European royals"
       }
     ],
+    "sentence_patterns": [],
     "key_words": [
       {
         "word": "royals",
+        "pos": "n.",
         "meaning": "王室成员",
         "chunk_id": "c_004_007"
       },
       {
         "word": "magnificent",
+        "pos": "adj.",
         "meaning": "华丽的，壮丽的",
         "chunk_id": "c_004_008"
       },
       {
         "word": "majestic",
+        "pos": "adj.",
         "meaning": "威严的，庄严的",
         "chunk_id": "c_004_008"
       }
@@ -427,6 +447,7 @@
     "key_phrases": [
       {
         "phrase": "the writing is on the wall",
+        "phrase_type": "idiom",
         "meaning": "大势已去，厄运将至的迹象已经很明显",
         "chunk_id": "c_004_003"
       }
@@ -478,24 +499,29 @@
         "relation": "修饰 arguments，说明论据的两种方向"
       }
     ],
+    "sentence_patterns": [],
     "key_words": [
       {
         "word": "case",
+        "pos": "n.",
         "meaning": "案例，情况",
         "chunk_id": "c_005_001"
       },
       {
         "word": "provides",
+        "pos": "v.",
         "meaning": "提供",
         "chunk_id": "c_005_002"
       },
       {
         "word": "arguments",
+        "pos": "n.",
         "meaning": "论据，理由",
         "chunk_id": "c_005_003"
       },
       {
         "word": "monarchy",
+        "pos": "n.",
         "meaning": "君主制",
         "chunk_id": "c_005_004"
       }
@@ -503,6 +529,7 @@
     "key_phrases": [
       {
         "phrase": "for and against",
+        "phrase_type": "collocation",
         "meaning": "支持和反对",
         "chunk_id": "c_005_004"
       }
@@ -599,29 +626,41 @@
         "relation": "修饰 spirit，说明精神的内容"
       }
     ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "as + 主语 + 谓语",
+        "explanation": "as it was following the end of the Franco regime 是插入式 as 结构，用来补充说明前面 public opinion is particularly polarised 的历史背景。"
+      }
+    ],
     "key_words": [
       {
         "word": "polarised",
+        "pos": "adj.",
         "meaning": "两极分化的",
         "chunk_id": "c_006_001"
       },
       {
         "word": "monarchs",
+        "pos": "n.",
         "meaning": "君主们",
         "chunk_id": "c_006_004"
       },
       {
         "word": "mere",
+        "pos": "adj.",
         "meaning": "纯粹的，仅仅的",
         "chunk_id": "c_006_006"
       },
       {
         "word": "embody",
+        "pos": "v.",
         "meaning": "体现，代表",
         "chunk_id": "c_006_007"
       },
       {
         "word": "regime",
+        "pos": "n.",
         "meaning": "政权，统治体制",
         "chunk_id": "c_006_003"
       }
@@ -629,16 +668,19 @@
     "key_phrases": [
       {
         "phrase": "public opinion",
+        "phrase_type": "n. phr.",
         "meaning": "公众舆论",
         "chunk_id": "c_006_001"
       },
       {
         "phrase": "rise above politics",
+        "phrase_type": "v. phr.",
         "meaning": "超越政治",
         "chunk_id": "c_006_005"
       },
       {
         "phrase": "a spirit of national unity",
+        "phrase_type": "n. phr.",
         "meaning": "一种民族团结的精神",
         "chunk_id": "c_006_008"
       }
@@ -708,24 +750,35 @@
         "relation": "说明君主受欢迎时的身份"
       }
     ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "强调句",
+        "pattern_form": "It is/was + 被强调部分 + that/who + 其他部分",
+        "explanation": "本句用 It is...that... 强调 this apparent transcendence of politics，真正主干是 this apparent transcendence of politics explains...。"
+      }
+    ],
     "key_words": [
       {
         "word": "apparent",
+        "pos": "adj.",
         "meaning": "表面上的，显然的",
         "chunk_id": "c_007_002"
       },
       {
         "word": "transcendence",
+        "pos": "n.",
         "meaning": "超越",
         "chunk_id": "c_007_002"
       },
       {
         "word": "continuing",
+        "pos": "adj.",
         "meaning": "持续的",
         "chunk_id": "c_007_005"
       },
       {
         "word": "popularity",
+        "pos": "n.",
         "meaning": "受欢迎，受欢迎程度",
         "chunk_id": "c_007_005"
       }
@@ -733,6 +786,7 @@
     "key_phrases": [
       {
         "phrase": "heads of state",
+        "phrase_type": "n. phr.",
         "meaning": "国家元首",
         "chunk_id": "c_007_006"
       }
@@ -820,19 +874,34 @@
         "relation": "补充说明计数范围"
       }
     ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "主语前后插入补充限定成分",
+        "explanation": "the Middle East excepted 和 not counting Vatican City and Andorra 都是补充限定信息，阅读时应先抓住 Europe is the most monarch-infested region 这个主干。"
+      },
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "名词 + excepted",
+        "explanation": "the Middle East excepted 相当于 with the Middle East excepted，表示“除中东外”。"
+      }
+    ],
     "key_words": [
       {
         "word": "excepted",
+        "pos": "v.",
         "meaning": "除外，不包括",
         "chunk_id": "c_008_002"
       },
       {
         "word": "monarch-infested",
+        "pos": "adj.",
         "meaning": "君主制密集的，充满君主制的",
         "chunk_id": "c_008_005"
       },
       {
         "word": "kingdoms",
+        "pos": "n.",
         "meaning": "王国",
         "chunk_id": "c_008_007"
       }
@@ -840,11 +909,13 @@
     "key_phrases": [
       {
         "phrase": "the Middle East excepted",
+        "phrase_type": "absolute construction",
         "meaning": "除中东外",
         "chunk_id": "c_008_002"
       },
       {
         "phrase": "not counting",
+        "phrase_type": "v. phr.",
         "meaning": "不包括，不算入",
         "chunk_id": "c_008_008"
       }
@@ -920,7 +991,7 @@
         "chinese": "他们",
         "parent_id": "c_009_006",
         "target_id": null,
-        "relation": null
+        "relation": "状语从句「because they allow voters to avoid the difficult search for a non-controversial but respected public figure」内部主语"
       },
       {
         "chunk_id": "c_009_008",
@@ -929,7 +1000,7 @@
         "chinese": "允许",
         "parent_id": "c_009_006",
         "target_id": null,
-        "relation": null
+        "relation": "状语从句「because they allow voters to avoid the difficult search for a non-controversial but respected public figure」内部谓语"
       },
       {
         "chunk_id": "c_009_009",
@@ -959,29 +1030,35 @@
         "relation": "修饰 search，说明寻找的对象"
       }
     ],
+    "sentence_patterns": [],
     "key_words": [
       {
         "word": "absolutist",
+        "pos": "adj.",
         "meaning": "专制主义的，绝对君主制的",
         "chunk_id": "c_009_002"
       },
       {
         "word": "counterparts",
+        "pos": "n.",
         "meaning": "对应的人或物，同行",
         "chunk_id": "c_009_002"
       },
       {
         "word": "survived",
+        "pos": "v.",
         "meaning": "存续下来，幸存",
         "chunk_id": "c_009_005"
       },
       {
         "word": "avoid",
+        "pos": "v.",
         "meaning": "避免",
         "chunk_id": "c_009_010"
       },
       {
         "word": "non-controversial",
+        "pos": "adj.",
         "meaning": "无争议的",
         "chunk_id": "c_009_011"
       }
@@ -989,11 +1066,13 @@
     "key_phrases": [
       {
         "phrase": "royal families",
+        "phrase_type": "n. phr.",
         "meaning": "王室家族",
         "chunk_id": "c_009_004"
       },
       {
         "phrase": "public figure",
+        "phrase_type": "n. phr.",
         "meaning": "公众人物",
         "chunk_id": "c_009_011"
       }
@@ -1054,14 +1133,17 @@
         "relation": "作谓语 have 的宾语"
       }
     ],
+    "sentence_patterns": [],
     "key_words": [
       {
         "word": "undoubtedly",
+        "pos": "adv.",
         "meaning": "无疑地",
         "chunk_id": "c_010_003"
       },
       {
         "word": "downside",
+        "pos": "n.",
         "meaning": "缺点，不利方面",
         "chunk_id": "c_010_005"
       }
@@ -1069,6 +1151,7 @@
     "key_phrases": [
       {
         "phrase": "Even so",
+        "phrase_type": "collocation",
         "meaning": "即便如此",
         "chunk_id": "c_010_001"
       }
@@ -1156,34 +1239,57 @@
         "relation": "修饰 privileges and inequalities"
       }
     ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "让步倒装",
+        "pattern_form": "adj./n./adv. + as + 主语 + 谓语",
+        "explanation": "Symbolic of national unity as they claim to be 是让步倒装，意思是“尽管他们声称自己象征民族团结”。"
+      },
+      {
+        "pattern_name": "插入语结构",
+        "pattern_form": "破折号插入补充成分",
+        "explanation": "and sometimes the way they behave today 被破折号隔开，补充增加主语内容，主干是 their very history embodies...。"
+      },
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "adj. + as + 主语 + 谓语",
+        "explanation": "as 在这里引导让步结构，不表示普通的“因为”或“当……时”。"
+      }
+    ],
     "key_words": [
       {
         "word": "symbolic",
+        "pos": "adj.",
         "meaning": "象征性的，象征着的",
         "chunk_id": "c_011_001"
       },
       {
         "word": "embodies",
+        "pos": "v.",
         "meaning": "体现，代表",
         "chunk_id": "c_011_006"
       },
       {
         "word": "outdated",
+        "pos": "adj.",
         "meaning": "过时的",
         "chunk_id": "c_011_008"
       },
       {
         "word": "indefensible",
+        "pos": "adj.",
         "meaning": "不可辩护的，站不住脚的",
         "chunk_id": "c_011_008"
       },
       {
         "word": "privileges",
+        "pos": "n.",
         "meaning": "特权",
         "chunk_id": "c_011_007"
       },
       {
         "word": "inequalities",
+        "pos": "n.",
         "meaning": "不平等",
         "chunk_id": "c_011_007"
       }
@@ -1191,11 +1297,13 @@
     "key_phrases": [
       {
         "phrase": "as they claim to be",
+        "phrase_type": "as-structure",
         "meaning": "如他们所声称的那样",
         "chunk_id": "c_011_001"
       },
       {
         "phrase": "the way they behave",
+        "phrase_type": "n. phr.",
         "meaning": "他们行为的方式",
         "chunk_id": "c_011_004"
       }
@@ -1235,7 +1343,7 @@
         "chinese": "托马斯·皮凯蒂和其他经济学家",
         "parent_id": "c_012_002",
         "target_id": null,
-        "relation": null
+        "relation": "定语从句「when Thomas Piketty and other economists are warning of rising inequality and the increasing power of inherited wealth」内部主语"
       },
       {
         "chunk_id": "c_012_004",
@@ -1244,7 +1352,7 @@
         "chinese": "正在警告",
         "parent_id": "c_012_002",
         "target_id": null,
-        "relation": null
+        "relation": "定语从句「when Thomas Piketty and other economists are warning of rising inequality and the increasing power of inherited wealth」内部谓语"
       },
       {
         "chunk_id": "c_012_005",
@@ -1298,7 +1406,7 @@
         "chinese": "富有的贵族家庭",
         "parent_id": "c_012_009",
         "target_id": null,
-        "relation": null
+        "relation": "主语从句「that wealthy aristocratic families should still be the symbolic heart of modern democratic states」内部主语"
       },
       {
         "chunk_id": "c_012_011",
@@ -1307,7 +1415,7 @@
         "chinese": "竟然仍然是",
         "parent_id": "c_012_009",
         "target_id": null,
-        "relation": null
+        "relation": "主语从句「that wealthy aristocratic families should still be the symbolic heart of modern democratic states」内部谓语"
       },
       {
         "chunk_id": "c_012_012",
@@ -1319,34 +1427,47 @@
         "relation": "作 should still be 后的表语"
       }
     ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式主语",
+        "pattern_form": "It is + adj. + that 从句",
+        "explanation": "it 是形式主语，真正主语是 that wealthy aristocratic families should still be...。"
+      }
+    ],
     "key_words": [
       {
         "word": "economists",
+        "pos": "n.",
         "meaning": "经济学家",
         "chunk_id": "c_012_003"
       },
       {
         "word": "inequality",
+        "pos": "n.",
         "meaning": "不平等",
         "chunk_id": "c_012_005"
       },
       {
         "word": "inherited",
+        "pos": "adj.",
         "meaning": "继承而来的",
         "chunk_id": "c_012_005"
       },
       {
         "word": "bizarre",
+        "pos": "adj.",
         "meaning": "奇怪的，怪异的",
         "chunk_id": "c_012_008"
       },
       {
         "word": "aristocratic",
+        "pos": "adj.",
         "meaning": "贵族的",
         "chunk_id": "c_012_010"
       },
       {
         "word": "symbolic",
+        "pos": "adj.",
         "meaning": "象征性的",
         "chunk_id": "c_012_012"
       }
@@ -1354,16 +1475,19 @@
     "key_phrases": [
       {
         "phrase": "warning of",
+        "phrase_type": "v. phr.",
         "meaning": "警告，提醒注意",
         "chunk_id": "c_012_004"
       },
       {
         "phrase": "inherited wealth",
+        "phrase_type": "n. phr.",
         "meaning": "继承财富",
         "chunk_id": "c_012_005"
       },
       {
         "phrase": "the symbolic heart",
+        "phrase_type": "n. phr.",
         "meaning": "象征核心",
         "chunk_id": "c_012_012"
       }
@@ -1424,24 +1548,29 @@
         "relation": "修饰 ways"
       }
     ],
+    "sentence_patterns": [],
     "key_words": [
       {
         "word": "monarchies",
+        "pos": "n.",
         "meaning": "君主制国家，君主制",
         "chunk_id": "c_013_001"
       },
       {
         "word": "strive",
+        "pos": "v.",
         "meaning": "努力，力求",
         "chunk_id": "c_013_003"
       },
       {
         "word": "abandon",
+        "pos": "v.",
         "meaning": "放弃",
         "chunk_id": "c_013_004"
       },
       {
         "word": "aristocratic",
+        "pos": "adj.",
         "meaning": "贵族的",
         "chunk_id": "c_013_005"
       }
@@ -1449,6 +1578,7 @@
     "key_phrases": [
       {
         "phrase": "aristocratic ways",
+        "phrase_type": "n. phr.",
         "meaning": "贵族做派，贵族习气",
         "chunk_id": "c_013_004"
       }
@@ -1518,19 +1648,29 @@
         "relation": "补充说明交通方式的对比"
       }
     ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "not + 名词短语",
+        "explanation": "not horses (or helicopters) 省略了 ride，完整理解为 not ride horses or helicopters。"
+      }
+    ],
     "key_words": [
       {
         "word": "princes",
+        "pos": "n.",
         "meaning": "王子们",
         "chunk_id": "c_014_001"
       },
       {
         "word": "princesses",
+        "pos": "n.",
         "meaning": "公主们",
         "chunk_id": "c_014_001"
       },
       {
         "word": "day-jobs",
+        "pos": "n.",
         "meaning": "日常工作，正式工作",
         "chunk_id": "c_014_003"
       }
@@ -1607,7 +1747,7 @@
         "chinese": "媒体的侵扰性",
         "parent_id": "c_015_006",
         "target_id": null,
-        "relation": null
+        "relation": "并列分句「and media intrusiveness makes it increasingly difficult to maintain the right image」中的主语部分"
       },
       {
         "chunk_id": "c_015_008",
@@ -1616,7 +1756,7 @@
         "chinese": "使",
         "parent_id": "c_015_006",
         "target_id": null,
-        "relation": null
+        "relation": "并列分句「and media intrusiveness makes it increasingly difficult to maintain the right image」中的谓语部分"
       },
       {
         "chunk_id": "c_015_009",
@@ -1646,29 +1786,41 @@
         "relation": "对应形式宾语 it"
       }
     ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "形式宾语",
+        "pattern_form": "make + it + adj. + to do sth.",
+        "explanation": "it 是形式宾语，真正宾语是 to maintain the right image，increasingly difficult 是宾语补足语。"
+      }
+    ],
     "key_words": [
       {
         "word": "wealthy",
+        "pos": "adj.",
         "meaning": "富有的",
         "chunk_id": "c_015_004"
       },
       {
         "word": "party",
+        "pos": "v.",
         "meaning": "参加聚会，社交",
         "chunk_id": "c_015_005"
       },
       {
         "word": "intrusiveness",
+        "pos": "n.",
         "meaning": "侵扰性，干扰性",
         "chunk_id": "c_015_007"
       },
       {
         "word": "increasingly",
+        "pos": "adv.",
         "meaning": "越来越",
         "chunk_id": "c_015_010"
       },
       {
         "word": "maintain",
+        "pos": "v.",
         "meaning": "保持，维持",
         "chunk_id": "c_015_011"
       }
@@ -1676,11 +1828,13 @@
     "key_phrases": [
       {
         "phrase": "the international 1%",
+        "phrase_type": "n. phr.",
         "meaning": "国际上最富有的1%人群",
         "chunk_id": "c_015_005"
       },
       {
         "phrase": "the right image",
+        "phrase_type": "n. phr.",
         "meaning": "合适的形象，正确的公众形象",
         "chunk_id": "c_015_011"
       }
@@ -1711,7 +1865,7 @@
         "chinese": "欧洲的君主制",
         "parent_id": "c_016_001",
         "target_id": null,
-        "relation": null
+        "relation": "状语从句「While Europe’s monarchies will no doubt be smart enough to survive for some time to come」内部主语"
       },
       {
         "chunk_id": "c_016_003",
@@ -1720,7 +1874,7 @@
         "chinese": "无疑会是",
         "parent_id": "c_016_001",
         "target_id": null,
-        "relation": null
+        "relation": "状语从句「While Europe’s monarchies will no doubt be smart enough to survive for some time to come」内部谓语"
       },
       {
         "chunk_id": "c_016_004",
@@ -1786,19 +1940,29 @@
         "relation": "说明担忧的来源"
       }
     ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "强调句",
+        "pattern_form": "It is/was + 被强调部分 + who + 其他部分",
+        "explanation": "it is the British royals who... 强调 the British royals，表示最需要担忧的是英国王室成员。"
+      }
+    ],
     "key_words": [
       {
         "word": "monarchies",
+        "pos": "n.",
         "meaning": "君主制国家，君主制",
         "chunk_id": "c_016_002"
       },
       {
         "word": "survive",
+        "pos": "v.",
         "meaning": "存续，幸存",
         "chunk_id": "c_016_005"
       },
       {
         "word": "royals",
+        "pos": "n.",
         "meaning": "王室成员",
         "chunk_id": "c_016_007"
       }
@@ -1806,16 +1970,19 @@
     "key_phrases": [
       {
         "phrase": "no doubt",
+        "phrase_type": "adv. phr.",
         "meaning": "无疑",
         "chunk_id": "c_016_003"
       },
       {
         "phrase": "for some time to come",
+        "phrase_type": "adv. phr.",
         "meaning": "在未来一段时间内",
         "chunk_id": "c_016_005"
       },
       {
         "phrase": "have most to fear",
+        "phrase_type": "v. phr.",
         "meaning": "最有理由担忧",
         "chunk_id": "c_016_009"
       }
@@ -1885,24 +2052,40 @@
         "relation": "补充修饰 granny style"
       }
     ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "强调句",
+        "pattern_form": "It is/was + 被强调部分 + who + 其他部分",
+        "explanation": "It is only the Queen who... 强调 only the Queen。"
+      },
+      {
+        "pattern_name": "省略结构",
+        "pattern_form": "if + adj.",
+        "explanation": "if well-heeled 省略了 she is，表示“虽然富裕”。"
+      }
+    ],
     "key_words": [
       {
         "word": "preserved",
+        "pos": "v.",
         "meaning": "维护，保持",
         "chunk_id": "c_017_003"
       },
       {
         "word": "reputation",
+        "pos": "n.",
         "meaning": "声誉",
         "chunk_id": "c_017_004"
       },
       {
         "word": "ordinary",
+        "pos": "adj.",
         "meaning": "普通的",
         "chunk_id": "c_017_005"
       },
       {
         "word": "well-heeled",
+        "pos": "adj.",
         "meaning": "富有的，有钱的",
         "chunk_id": "c_017_006"
       }
@@ -1910,6 +2093,7 @@
     "key_phrases": [
       {
         "phrase": "granny style",
+        "phrase_type": "n. phr.",
         "meaning": "祖母式风格，亲切朴素的老奶奶风格",
         "chunk_id": "c_017_005"
       }
@@ -1967,7 +2151,7 @@
         "chinese": "有",
         "parent_id": "c_018_004",
         "target_id": null,
-        "relation": null
+        "relation": "定语从句「who has both an expensive taste of lifestyle and a pretty hierarchical view of the world」内部谓语"
       },
       {
         "chunk_id": "c_018_006",
@@ -1995,21 +2179,34 @@
         "parent_id": "c_018_006",
         "target_id": "c_018_006",
         "relation": "修饰 view"
+      },
+      {
+        "chunk_id": "c_018_009",
+        "role": "从句主语",
+        "english": "who",
+        "chinese": "他",
+        "parent_id": "c_018_004",
+        "target_id": null,
+        "relation": "定语从句内部主语，指 Charles"
       }
     ],
+    "sentence_patterns": [],
     "key_words": [
       {
         "word": "danger",
+        "pos": "n.",
         "meaning": "危险",
         "chunk_id": "c_018_001"
       },
       {
         "word": "expensive",
+        "pos": "adj.",
         "meaning": "昂贵的",
         "chunk_id": "c_018_006"
       },
       {
         "word": "hierarchical",
+        "pos": "adj.",
         "meaning": "等级化的，等级森严的",
         "chunk_id": "c_018_006"
       }
@@ -2017,11 +2214,13 @@
     "key_phrases": [
       {
         "phrase": "taste of lifestyle",
+        "phrase_type": "n. phr.",
         "meaning": "生活品味",
         "chunk_id": "c_018_006"
       },
       {
         "phrase": "view of the world",
+        "phrase_type": "n. phr.",
         "meaning": "世界观，对世界的看法",
         "chunk_id": "c_018_006"
       }
@@ -2070,7 +2269,7 @@
         "chinese": "君主制",
         "parent_id": "c_019_003",
         "target_id": null,
-        "relation": null
+        "relation": "宾语从句「that monarchies have largely survived because they provide a service」内部主语"
       },
       {
         "chunk_id": "c_019_005",
@@ -2079,7 +2278,7 @@
         "chinese": "大体上存续下来",
         "parent_id": "c_019_003",
         "target_id": null,
-        "relation": null
+        "relation": "宾语从句「that monarchies have largely survived because they provide a service」内部谓语"
       },
       {
         "chunk_id": "c_019_006",
@@ -2109,29 +2308,41 @@
         "relation": "修饰 heads of state"
       }
     ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "同位语解释结构",
+        "pattern_form": "名词 + 破折号解释",
+        "explanation": "破折号后的 as non-controversial and non-political heads of state 解释 a service 的具体内容。"
+      }
+    ],
     "key_words": [
       {
         "word": "failed",
+        "pos": "v.",
         "meaning": "未能，失败",
         "chunk_id": "c_019_002"
       },
       {
         "word": "largely",
+        "pos": "adv.",
         "meaning": "大体上，很大程度上",
         "chunk_id": "c_019_005"
       },
       {
         "word": "survived",
+        "pos": "v.",
         "meaning": "存续下来，幸存",
         "chunk_id": "c_019_005"
       },
       {
         "word": "service",
+        "pos": "n.",
         "meaning": "服务，作用",
         "chunk_id": "c_019_006"
       },
       {
         "word": "non-political",
+        "pos": "adj.",
         "meaning": "非政治性的",
         "chunk_id": "c_019_008"
       }
@@ -2139,11 +2350,13 @@
     "key_phrases": [
       {
         "phrase": "fail to understand",
+        "phrase_type": "v. phr.",
         "meaning": "未能理解",
         "chunk_id": "c_019_002"
       },
       {
         "phrase": "heads of state",
+        "phrase_type": "n. phr.",
         "meaning": "国家元首",
         "chunk_id": "c_019_007"
       }
@@ -2219,7 +2432,7 @@
         "chinese": "是",
         "parent_id": "c_020_003",
         "target_id": null,
-        "relation": null
+        "relation": "宾语从句「that as English history shows, it is kings, not republicans, who are the monarchy’s worst enemies」中的谓语部分"
       },
       {
         "chunk_id": "c_020_008",
@@ -2229,21 +2442,54 @@
         "parent_id": "c_020_003",
         "target_id": "c_020_007",
         "relation": "作系动词 are 后的表语"
+      },
+      {
+        "chunk_id": "c_020_009",
+        "role": "从句主语",
+        "english": "Charles",
+        "chinese": "查尔斯",
+        "parent_id": "c_020_003",
+        "target_id": null,
+        "relation": "宾语从句内部主语"
+      },
+      {
+        "chunk_id": "c_020_010",
+        "role": "从句谓语",
+        "english": "ought to know",
+        "chinese": "应该知道",
+        "parent_id": "c_020_003",
+        "target_id": null,
+        "relation": "宾语从句内部谓语"
+      }
+    ],
+    "sentence_patterns": [
+      {
+        "pattern_name": "as 引导的特殊结构",
+        "pattern_form": "as + 主语 + 谓语",
+        "explanation": "as English history shows 是插入式 as 结构，表示“正如英国历史所表明的那样”。"
+      },
+      {
+        "pattern_name": "强调句",
+        "pattern_form": "It is/was + 被强调部分 + who + 其他部分",
+        "explanation": "it is kings, not republicans, who... 强调 kings, not republicans。"
       }
     ],
     "key_words": [
       {
         "word": "ought",
+        "pos": "modal v.",
         "meaning": "应该，应当",
         "chunk_id": "c_020_002"
       },
       {
         "word": "republicans",
+        "pos": "n.",
         "meaning": "共和主义者，共和派人士",
         "chunk_id": "c_020_006"
       },
       {
         "word": "enemies",
+        "pos": "n.",
         "meaning": "敌人",
         "chunk_id": "c_020_008"
       }
@@ -2251,11 +2497,13 @@
     "key_phrases": [
       {
         "phrase": "as English history shows",
+        "phrase_type": "as-structure",
         "meaning": "正如英国历史所表明的那样",
         "chunk_id": "c_020_004"
       },
       {
         "phrase": "worst enemies",
+        "phrase_type": "n. phr.",
         "meaning": "最坏的敌人，最大的敌人",
         "chunk_id": "c_020_008"
       }

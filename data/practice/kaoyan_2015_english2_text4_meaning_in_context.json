@@ -1,0 +1,462 @@
+[
+  {
+    "check_id": "s_001_for_now_meaning_in_context",
+    "source_sentence_id": "s_001",
+    "target": "for now",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，for now 最合适的意思是：",
+    "correct_meaning": "目前/暂时",
+    "acceptable_meanings": [
+      "目前",
+      "暂时"
+    ],
+    "meaning_pool": [
+      "目前/暂时",
+      "永远",
+      "很快",
+      "偶尔"
+    ],
+    "explanation": "For now it appears the economy... 表示“目前看来”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_003_decent_pace_meaning_in_context",
+    "source_sentence_id": "s_003",
+    "target": "decent pace",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，decent pace 最合适的意思是：",
+    "correct_meaning": "还算不错的速度",
+    "acceptable_meanings": [
+      "还算不错的速度",
+      "合理速度"
+    ],
+    "meaning_pool": [
+      "还算不错的速度",
+      "极慢速度",
+      "停滞不前",
+      "糟糕速度"
+    ],
+    "explanation": "decent pace 说明就业增长速度还可以。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_004_long_way_to_go_meaning_in_context",
+    "source_sentence_id": "s_004",
+    "target": "long way to go",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，long way to go 最合适的意思是：",
+    "correct_meaning": "还有很长的路要走",
+    "acceptable_meanings": [
+      "还有很长的路要走"
+    ],
+    "meaning_pool": [
+      "还有很长的路要走",
+      "已经到头",
+      "马上结束",
+      "完全无关"
+    ],
+    "explanation": "we still have a long way to go 说的是离完全恢复还有距离。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_004_moving_forward_meaning_in_context",
+    "source_sentence_id": "s_004",
+    "target": "moving forward",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，moving forward 最合适的意思是：",
+    "correct_meaning": "向前推进/继续进展",
+    "acceptable_meanings": [
+      "向前推进",
+      "继续进展"
+    ],
+    "meaning_pool": [
+      "向前推进/继续进展",
+      "倒退",
+      "停下",
+      "迷路"
+    ],
+    "explanation": "这里是经济在更快地向前推进。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_005_jobs_picture_meaning_in_context",
+    "source_sentence_id": "s_005",
+    "target": "jobs picture",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，jobs picture 最合适的意思是：",
+    "correct_meaning": "就业形势",
+    "acceptable_meanings": [
+      "就业形势"
+    ],
+    "meaning_pool": [
+      "就业形势",
+      "图像画面",
+      "职位照片",
+      "招聘海报"
+    ],
+    "explanation": "jobs picture 指就业这一整体局面。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_005_largely_overlooked_meaning_in_context",
+    "source_sentence_id": "s_005",
+    "target": "largely overlooked",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，largely overlooked 最合适的意思是：",
+    "correct_meaning": "在很大程度上被忽视",
+    "acceptable_meanings": [
+      "在很大程度上被忽视"
+    ],
+    "meaning_pool": [
+      "在很大程度上被忽视",
+      "被认真讨论",
+      "完全公开",
+      "广泛传播"
+    ],
+    "explanation": "作者说另一个重要部分被大体忽略了。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_006_report_voluntarily_meaning_in_context",
+    "source_sentence_id": "s_006",
+    "target": "report voluntarily",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，report voluntarily 最合适的意思是：",
+    "correct_meaning": "自愿报告/自愿申报",
+    "acceptable_meanings": [
+      "自愿报告"
+    ],
+    "meaning_pool": [
+      "自愿报告/自愿申报",
+      "被迫报告",
+      "隐瞒不报",
+      "取消登记"
+    ],
+    "explanation": "这里说人们报告自己是自愿兼职。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_007_year_ago_level_meaning_in_context",
+    "source_sentence_id": "s_007",
+    "target": "year ago level",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，year ago level 最合适的意思是：",
+    "correct_meaning": "去年同期水平",
+    "acceptable_meanings": [
+      "去年同期水平"
+    ],
+    "meaning_pool": [
+      "去年同期水平",
+      "上个月水平",
+      "未来水平",
+      "平均水平"
+    ],
+    "explanation": "above its year ago level 指高于一年前的水平。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_008_make_an_important_distinction_meaning_in_context",
+    "source_sentence_id": "s_008",
+    "target": "make an important distinction",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，make an important distinction 最合适的意思是：",
+    "correct_meaning": "做出一个重要区分",
+    "acceptable_meanings": [
+      "做出一个重要区分"
+    ],
+    "meaning_pool": [
+      "做出一个重要区分",
+      "取消分类",
+      "模糊界限",
+      "重复说明"
+    ],
+    "explanation": "Before explaining... it is worth making an important distinction 说明要先区分概念。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_009_full_time_jobs_meaning_in_context",
+    "source_sentence_id": "s_009",
+    "target": "full-time jobs",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，full-time jobs 最合适的意思是：",
+    "correct_meaning": "全职工作",
+    "acceptable_meanings": [
+      "全职工作"
+    ],
+    "meaning_pool": [
+      "全职工作",
+      "临时工作",
+      "兼职工作",
+      "无薪工作"
+    ],
+    "explanation": "Many people who work part-time jobs actually want full-time jobs 这里是全职工作。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_010_take_part_time_work_meaning_in_context",
+    "source_sentence_id": "s_010",
+    "target": "take part-time work",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，take part-time work 最合适的意思是：",
+    "correct_meaning": "做兼职工作",
+    "acceptable_meanings": [
+      "做兼职工作"
+    ],
+    "meaning_pool": [
+      "做兼职工作",
+      "拒绝工作",
+      "换工作",
+      "长期失业"
+    ],
+    "explanation": "They take part-time work because this is all they can get.",
+    "priority": 1
+  },
+  {
+    "check_id": "s_011_involuntary_part_time_meaning_in_context",
+    "source_sentence_id": "s_011",
+    "target": "involuntary part-time",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，involuntary part-time 最合适的意思是：",
+    "correct_meaning": "非自愿兼职",
+    "acceptable_meanings": [
+      "非自愿兼职"
+    ],
+    "meaning_pool": [
+      "非自愿兼职",
+      "自愿兼职",
+      "弹性工作",
+      "短期培训"
+    ],
+    "explanation": "这里专门区分 voluntary 和 involuntary part-time。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_011_making_ends_meet_meaning_in_context",
+    "source_sentence_id": "s_011",
+    "target": "making ends meet",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，making ends meet 最合适的意思是：",
+    "correct_meaning": "勉强维持生计",
+    "acceptable_meanings": [
+      "勉强维持生计"
+    ],
+    "meaning_pool": [
+      "勉强维持生计",
+      "改善生活",
+      "积累财富",
+      "减少开支"
+    ],
+    "explanation": "people will be having a very hard time making ends meet 指很难维持生活开销。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_013_far_higher_than_meaning_in_context",
+    "source_sentence_id": "s_013",
+    "target": "far higher than",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，far higher than 最合适的意思是：",
+    "correct_meaning": "远高于",
+    "acceptable_meanings": [
+      "远高于"
+    ],
+    "meaning_pool": [
+      "远高于",
+      "略低于",
+      "几乎相等",
+      "完全不变"
+    ],
+    "explanation": "Involuntary part-time employment is still far higher than before the recession.",
+    "priority": 1
+  },
+  {
+    "check_id": "s_014_reference_week_meaning_in_context",
+    "source_sentence_id": "s_014",
+    "target": "reference week",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，reference week 最合适的意思是：",
+    "correct_meaning": "调查周/参考周",
+    "acceptable_meanings": [
+      "调查周"
+    ],
+    "meaning_pool": [
+      "调查周",
+      "参考月份",
+      "工资周期",
+      "休假周"
+    ],
+    "explanation": "the reference week 是调查统计中用来参考的那一周。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_016_classified_as_meaning_in_context",
+    "source_sentence_id": "s_016",
+    "target": "classified as",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，classified as 最合适的意思是：",
+    "correct_meaning": "被归类为",
+    "acceptable_meanings": [
+      "被归类为"
+    ],
+    "meaning_pool": [
+      "被归类为",
+      "被排除为",
+      "被提升为",
+      "被转移为"
+    ],
+    "explanation": "If the answer is yes, they are classified as working part-time.",
+    "priority": 1
+  },
+  {
+    "check_id": "s_017_had_no_choice_meaning_in_context",
+    "source_sentence_id": "s_017",
+    "target": "had no choice",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，had no choice 最合适的意思是：",
+    "correct_meaning": "别无选择",
+    "acceptable_meanings": [
+      "别无选择"
+    ],
+    "meaning_pool": [
+      "别无选择",
+      "很有余地",
+      "主动挑选",
+      "完全拒绝"
+    ],
+    "explanation": "这里说他们少工作不是出于选择，而是别无选择。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_018_survey_taker_meaning_in_context",
+    "source_sentence_id": "s_018",
+    "target": "survey taker",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，survey taker 最合适的意思是：",
+    "correct_meaning": "调查员/调查人员",
+    "acceptable_meanings": [
+      "调查员",
+      "调查人员"
+    ],
+    "meaning_pool": [
+      "调查员/调查人员",
+      "护士",
+      "经理",
+      "求职者"
+    ],
+    "explanation": "tell the survey taker 指告诉调查员。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_019_relates_to_meaning_in_context",
+    "source_sentence_id": "s_019",
+    "target": "relates to",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，relates to 最合适的意思是：",
+    "correct_meaning": "与...有关",
+    "acceptable_meanings": [
+      "与...有关"
+    ],
+    "meaning_pool": [
+      "与...有关",
+      "取代",
+      "反对",
+      "脱离"
+    ],
+    "explanation": "The issue ... relates to Obamacare 直接说“与...有关”。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_019_one_of_the_main_purposes_meaning_in_context",
+    "source_sentence_id": "s_019",
+    "target": "one of the main purposes",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，one of the main purposes 最合适的意思是：",
+    "correct_meaning": "主要目的之一",
+    "acceptable_meanings": [
+      "主要目的之一"
+    ],
+    "meaning_pool": [
+      "主要目的之一",
+      "唯一目的",
+      "次要原因",
+      "最终结果"
+    ],
+    "explanation": "这里解释奥巴马医保为什么会影响兼职问题。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_019_outside_of_employment_meaning_in_context",
+    "source_sentence_id": "s_019",
+    "target": "outside of employment",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，outside of employment 最合适的意思是：",
+    "correct_meaning": "在就业之外",
+    "acceptable_meanings": [
+      "在就业之外"
+    ],
+    "meaning_pool": [
+      "在就业之外",
+      "在就业之内",
+      "只靠工作",
+      "离开岗位"
+    ],
+    "explanation": "这里说的是不必通过工作也能获得保险。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_021_either_meaning_in_context",
+    "source_sentence_id": "s_021",
+    "target": "either",
+    "target_type": "function_word",
+    "prompt": "结合本句语境，either 最合适的意思是：",
+    "correct_meaning": "要么/或者",
+    "acceptable_meanings": [
+      "要么/或者"
+    ],
+    "meaning_pool": [
+      "要么/或者",
+      "因为",
+      "虽然",
+      "因此"
+    ],
+    "explanation": "either ... or ... 是固定搭配，表示两种选择。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_022_felt_the_need_meaning_in_context",
+    "source_sentence_id": "s_022",
+    "target": "felt the need",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，felt the need 最合适的意思是：",
+    "correct_meaning": "感到有必要",
+    "acceptable_meanings": [
+      "感到有必要"
+    ],
+    "meaning_pool": [
+      "感到有必要",
+      "故意拒绝",
+      "已经完成",
+      "不再需要"
+    ],
+    "explanation": "these are people who may previously have felt the need to get a full-time job 说明他们曾觉得有必要。",
+    "priority": 1
+  },
+  {
+    "check_id": "s_023_no_longer_a_link_meaning_in_context",
+    "source_sentence_id": "s_023",
+    "target": "no longer a link",
+    "target_type": "phrase",
+    "prompt": "结合本句语境，no longer a link 最合适的意思是：",
+    "correct_meaning": "不再有联系",
+    "acceptable_meanings": [
+      "不再有联系"
+    ],
+    "meaning_pool": [
+      "不再有联系",
+      "关系更紧密",
+      "完全重合",
+      "毫无变化"
+    ],
+    "explanation": "With Obamacare there is no longer a link between employment and insurance.",
+    "priority": 1
+  }
+]
