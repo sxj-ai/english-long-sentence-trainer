@@ -1,0 +1,44 @@
+name: Deploy to CloudBase Run
+
+on:
+  workflow_dispatch:
+  # After GitHub secrets are configured and the first manual deploy succeeds,
+  # uncomment this block to deploy automatically on every main-branch push.
+  # push:
+  #   branches:
+  #     - main
+
+env:
+  TCB_REGION: ap-shanghai
+  TCB_SERVICE_NAME: ${{ vars.TCB_SERVICE_NAME || 'english-long-sentence-trainer' }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install CloudBase CLI
+        run: npm install -g @cloudbase/cli
+
+      - name: Login to CloudBase
+        run: |
+          tcb login \
+            --apiKeyId "${{ secrets.TENCENTCLOUD_SECRET_ID }}" \
+            --apiKey "${{ secrets.TENCENTCLOUD_SECRET_KEY }}"
+
+      - name: Deploy CloudBase Run service
+        run: |
+          tcb -e "${{ secrets.TCB_ENV_ID }}" -r "$TCB_REGION" cloudrun deploy \
+            --serviceName "$TCB_SERVICE_NAME" \
+            --port 3000 \
+            --source . \
+            --force

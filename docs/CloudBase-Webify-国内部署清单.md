@@ -17,6 +17,8 @@
 - `Dockerfile`：用于 CloudBase 容器应用或其他国内容器平台。
 - `.dockerignore`：避免把 `.env`、`node_modules`、`.next` 和本地聊天记录打进镜像。
 - `next.config.mjs`：默认仍按普通 Next.js 构建；设置 `NEXT_OUTPUT_MODE=standalone` 时输出容器可运行版本。
+- `.github/workflows/cloudbase-run-deploy.yml`：CloudBase Run 手动部署工作流。
+- `docs/CloudBase-CLI-DevOps-部署说明.md`：CLI 和 GitHub Actions 部署说明。
 
 ## 方案 A：CloudBase Webify 直接部署 Next.js
 
