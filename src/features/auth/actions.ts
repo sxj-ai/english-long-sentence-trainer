@@ -25,8 +25,15 @@ function getLoginErrorPath(error: string, redirectTo: string) {
   return `/login?${params.toString()}`;
 }
 
+function normalizeLoginId(value: FormDataEntryValue | null) {
+  return String(value ?? "")
+    .replace(/[\u200B-\u200D\uFEFF]/g, "")
+    .trim()
+    .toLowerCase();
+}
+
 export async function loginAction(formData: FormData) {
-  const loginId = String(formData.get("username") ?? "").trim();
+  const loginId = normalizeLoginId(formData.get("username"));
   const password = String(formData.get("password") ?? "").trim();
   const redirectTo = getSafeRedirectTo(formData.get("redirectTo"));
 
@@ -46,9 +53,28 @@ export async function loginAction(formData: FormData) {
   const user = userByUsername ?? studentByNo?.user;
 
   if (!user || user.status !== "ACTIVE") {
+    const visibleUsers = await prisma.user.findMany({
+      select: {
+        role: true,
+        status: true,
+        username: true,
+        studentProfile: {
+          select: {
+            studentNo: true
+          }
+        }
+      },
+      take: 10
+    });
+    const dbInfo = await prisma.$queryRaw<Array<{ current_database: string; current_schema: string; current_user: string }>>`
+      SELECT current_database(), current_schema(), current_user
+    `;
+
     console.warn("Login rejected", {
+      dbInfo: dbInfo[0],
       loginId,
-      reason: user ? "inactive-user" : "user-not-found"
+      reason: user ? "inactive-user" : "user-not-found",
+      visibleUsers
     });
     redirect(getLoginErrorPath("invalid", redirectTo));
   }

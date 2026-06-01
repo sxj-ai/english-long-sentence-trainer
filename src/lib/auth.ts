@@ -21,6 +21,40 @@ export interface AuthUser {
   displayName: string;
 }
 
+function isTransientDatabaseError(error: unknown) {
+  const candidate = error as {
+    code?: string;
+    message?: string;
+    meta?: {
+      driverAdapterError?: {
+        name?: string;
+      };
+    };
+  };
+
+  return (
+    candidate.code === "P1017" ||
+    candidate.code === "P1001" ||
+    candidate.meta?.driverAdapterError?.name === "DriverAdapterError" ||
+    candidate.message?.includes("ConnectionClosed") ||
+    candidate.message?.includes("Server has closed the connection")
+  );
+}
+
+async function withDatabaseRetry<T>(operation: () => Promise<T>) {
+  try {
+    return await operation();
+  } catch (error) {
+    if (!isTransientDatabaseError(error)) {
+      throw error;
+    }
+
+    console.warn("Transient database error; retrying once.");
+    await new Promise((resolve) => setTimeout(resolve, 300));
+    return operation();
+  }
+}
+
 function getAuthSecret() {
   return process.env.AUTH_SECRET ?? defaultAuthSecret;
 }
@@ -109,14 +143,16 @@ export async function getCurrentUser(): Promise<AuthUser | null> {
     return null;
   }
 
-  const user = await prisma.user.findUnique({
-    where: { id: payload.userId },
-    include: {
-      adminProfile: true,
-      teacherProfile: true,
-      studentProfile: true
-    }
-  });
+  const user = await withDatabaseRetry(() =>
+    prisma.user.findUnique({
+      where: { id: payload.userId },
+      include: {
+        adminProfile: true,
+        teacherProfile: true,
+        studentProfile: true
+      }
+    })
+  );
 
   if (!user || user.status !== "ACTIVE") {
     return null;
