@@ -27,7 +27,7 @@ function getLoginErrorPath(error: string, redirectTo: string) {
 
 export async function loginAction(formData: FormData) {
   const loginId = String(formData.get("username") ?? "").trim();
-  const password = String(formData.get("password") ?? "");
+  const password = String(formData.get("password") ?? "").trim();
   const redirectTo = getSafeRedirectTo(formData.get("redirectTo"));
 
   if (!loginId || !password) {
@@ -46,12 +46,21 @@ export async function loginAction(formData: FormData) {
   const user = userByUsername ?? studentByNo?.user;
 
   if (!user || user.status !== "ACTIVE") {
+    console.warn("Login rejected", {
+      loginId,
+      reason: user ? "inactive-user" : "user-not-found"
+    });
     redirect(getLoginErrorPath("invalid", redirectTo));
   }
 
   const isPasswordValid = await verifyPassword(password, user.passwordHash);
 
   if (!isPasswordValid) {
+    console.warn("Login rejected", {
+      loginId,
+      reason: "password-mismatch",
+      role: user.role
+    });
     redirect(getLoginErrorPath("invalid", redirectTo));
   }
 
