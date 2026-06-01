@@ -30,6 +30,14 @@ tcb --version
 
 这个工作流默认只支持手动触发，避免密钥没配好时每次 push 都失败。
 
+已新增本机安全录入脚本：
+
+```text
+scripts/set-github-cloudbase-secrets.ps1
+```
+
+它会在本机提示你输入腾讯云密钥，然后调用 GitHub CLI 写入 GitHub Secrets。密钥不会保存到仓库。
+
 ## GitHub Secrets 需要你手动添加
 
 进入 GitHub 仓库：
@@ -65,6 +73,21 @@ TCB_SERVICE_NAME=english-long-sentence-trainer
 ```
 
 不填也可以，工作流默认用 `english-long-sentence-trainer`。
+
+也可以直接运行本机脚本自动写入：
+
+```powershell
+cd "c:\Users\86134\Desktop\订阅反代api\英语长难句分析项目"
+powershell -ExecutionPolicy Bypass -File .\scripts\set-github-cloudbase-secrets.ps1
+```
+
+脚本会提示你输入：
+
+```text
+TCB_ENV_ID
+TENCENTCLOUD_SECRET_ID
+TENCENTCLOUD_SECRET_KEY
+```
 
 ## 腾讯云访问密钥在哪里创建
 
