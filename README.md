@@ -78,3 +78,11 @@ npm run db:generate && npm run build
 After changing Vercel environment variables, redeploy the project.
 
 If Sub2API is served through ngrok, the computer running Docker and ngrok must stay online.
+
+## CloudBase / Domestic Deployment
+
+For a domestic deployment path, see:
+
+- `docs/CloudBase-Webify-国内部署清单.md`
+
+The repository includes a `Dockerfile` for container-based deployment. Normal Vercel and local builds are unchanged; set `NEXT_OUTPUT_MODE=standalone` only when building a standalone container image.

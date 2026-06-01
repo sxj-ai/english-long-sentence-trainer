@@ -1,0 +1,14 @@
+.git
+.next
+node_modules
+dist
+out
+.env
+.env.*
+!.env.example
+*.log
+tsconfig.tsbuildinfo
+Dockerfile
+docker-compose*.yml
+构建长难句项目聊天记录.txt
+项目设想.txt
