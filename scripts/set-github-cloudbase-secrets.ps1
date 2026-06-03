@@ -48,8 +48,13 @@ $script:GhPath = Get-GitHubCliPath
 Write-Host "Using GitHub CLI: $script:GhPath"
 Write-Host "Target repository: $Repo"
 
-& $script:GhPath auth status --hostname github.com 2>$null
-if ($LASTEXITCODE -ne 0) {
+$previousErrorActionPreference = $ErrorActionPreference
+$ErrorActionPreference = "Continue"
+& $script:GhPath auth status --hostname github.com *> $null
+$authStatusCode = $LASTEXITCODE
+$ErrorActionPreference = $previousErrorActionPreference
+
+if ($authStatusCode -ne 0) {
   Write-Host "GitHub CLI is not logged in. Starting browser login..."
   & $script:GhPath auth login --hostname github.com --git-protocol https --web --scopes repo
   if ($LASTEXITCODE -ne 0) {
