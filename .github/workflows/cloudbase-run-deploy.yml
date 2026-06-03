@@ -29,6 +29,32 @@ jobs:
       - name: Install CloudBase CLI
         run: npm install -g @cloudbase/cli
 
+      - name: Check required secrets
+        env:
+          TENCENTCLOUD_SECRET_ID: ${{ secrets.TENCENTCLOUD_SECRET_ID }}
+          TENCENTCLOUD_SECRET_KEY: ${{ secrets.TENCENTCLOUD_SECRET_KEY }}
+          TCB_ENV_ID: ${{ secrets.TCB_ENV_ID }}
+        run: |
+          node - <<'NODE'
+          const required = [
+            "TENCENTCLOUD_SECRET_ID",
+            "TENCENTCLOUD_SECRET_KEY",
+            "TCB_ENV_ID"
+          ];
+
+          for (const name of required) {
+            const value = process.env[name] || "";
+            if (!value.trim()) {
+              throw new Error(`${name} is empty or missing in GitHub repository secrets.`);
+            }
+            console.log(`${name}: configured, length=${value.length}`);
+          }
+
+          if (!process.env.TENCENTCLOUD_SECRET_ID.startsWith("AKID")) {
+            throw new Error("TENCENTCLOUD_SECRET_ID should usually start with AKID. Check whether SecretId and SecretKey were swapped.");
+          }
+          NODE
+
       - name: Login to CloudBase
         run: |
           tcb login \
